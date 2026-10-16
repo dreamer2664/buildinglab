@@ -20,6 +20,16 @@
     "complete_interiors": "t-20261016-008a",
     "assembly_visual_review_release": "t-20261016-08c6"
   },
-  "verified_at": "2026-10-16T08:33:33Z",
-  "verified_status": "All nine cards read open and owner:null; the blender identity had no roster entry. No Blender model, render or Blender session was claimed."
+  "verified_at": "2026-10-16T08:37:27Z",
+  "verified_status": "Post-announcement live check: all nine cards remained open and unowned; the blender identity was not registered. No Blender work session, model or render was observed.",
+  "jobscode_announcement": {
+    "topic": "jobscode",
+    "message_id": "G3JfAhDcKUZa",
+    "readback_verified": true
+  },
+  "chatcode_health": {
+    "schema_errors": 0,
+    "warnings": 227,
+    "verified_at": "2026-10-16T08:37:27Z"
+  }
 }

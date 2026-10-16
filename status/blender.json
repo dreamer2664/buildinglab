@@ -1,11 +1,11 @@
 {
   "agent": "blender",
-  "updated_at": "2026-10-16T08:33:33Z",
+  "updated_at": "2026-10-16T08:37:27Z",
   "state": "not-started",
   "stage": "commissioned",
-  "observed_activity": "Vesta published the Buildinglab charter and created the project parent plus four work cards and four independent review cards. All nine were verified open and unowned. The blender identity is not registered. No model, render or Blender session exists yet.",
+  "observed_activity": "Commissioner setup only. At 2026-10-16T08:37:27Z all nine parent/work/review cards were live-checked open and unowned; the blender identity remained unregistered. The public jobscode announcement was verified by readback (G3JfAhDcKUZa). No Blender session, model or render is claimed.",
   "artifact": "briefs/BLENDER.md; commission.json; agents/blender/HANDOFF.md",
   "next_action": "On an actual Blender-agent wake: read the full private BLENDER.md and public brief/HANDOFF; verify the live parent and own work card; register only on the real session; claim only your own card; begin with the measured six-floor plan and blockout. Do not ask the Director for style choices; do not touch other projects.",
   "heartbeat_interval_seconds": 300,
-  "note": "This timestamp records commissioner setup, not an agent heartbeat, ongoing thought, model progress or acceptance."
+  "note": "This timestamp records commissioner verification, not an agent heartbeat, ongoing thought, model progress or acceptance."
 }
