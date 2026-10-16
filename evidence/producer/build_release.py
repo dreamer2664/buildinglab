@@ -32,7 +32,7 @@ for record in records:
  if available:
   assert sha(p)==record['sha256'];add(p)
  historical_availability.append({'image':record['image'],'recorded_original_sha256':record['sha256'],'original_file_available':available,'note':'Actual original included.' if available else 'Original diagnostic PNG not retained by runtime snapshot. Original observation/digest retained as history only; no regenerated substitute is relabelled as the original.'})
-hp=R/'evidence/producer/historical-availability.json';hp.write_text(json.dumps({'stage':'historical diagnostics, NOT the 29 required final images','records':historical_availability,'surviving_negative_cycles':'Original B3 and B4 PNGs, their metadata and actual negative geometry reports remain included.'},indent=2)+'\n');add(hp)
+hp=R/'evidence/producer/historical-availability.json';hp.write_text(json.dumps({'stage':'historical diagnostics, NOT the 29 required final images','records':historical_availability,'surviving_negative_cycles':'Surviving B3/B4 and C/E/F/G failed/draft PNGs, metadata/failed inspections and executed geometry negatives are included separately from final29.'},indent=2)+'\n');add(hp)
 # The charter-level log is a generated ZIP alias, not a write to coordinator-owned repo paths.
 alias=(R/'evidence/producer/visual-review.json').read_bytes()
 readable_alias=(R/'evidence/producer/VISUAL_REVIEW.md').read_bytes()
@@ -49,9 +49,13 @@ tag='buildinglab/blender/candidate-20261016-'+ns[:12];filename='Casa-dei-Colori-
 manifest={'format':1,'stage':'producer-checked candidate; independent acceptance pending','native_sha256':ns,'glb_sha256':gs,'source_commit_at_packaging':subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip(),'members':entries,'self_hash_note':'This manifest is not self-hashed. Archive SHA and publication/redownload/member verification are in a separate receipt.'}
 mp=R/'exports/release-members.json';mp.write_text(json.dumps(manifest,indent=2,sort_keys=True)+'\n')
 archive=R/'exports'/filename
-with zipfile.ZipFile(archive,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=6,allowZip64=True) as z:
+# Excluded raw cache avoids duplicating a large immutable ZIP in workspace snapshots.
+cache_archive=R/'.cache/release-archives'/filename;cache_archive.parent.mkdir(parents=True,exist_ok=True)
+assert not archive.exists() and not archive.is_symlink(),'Immutable local archive name already exists'
+with zipfile.ZipFile(cache_archive,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=6,allowZip64=True) as z:
  for p in sorted(files):z.write(p,str(p.relative_to(R)))
  z.writestr('evidence/visual-review.json',alias);z.writestr('evidence/VISUAL_REVIEW.md',readable_alias);z.write(mp,'exports/release-members.json')
+archive.symlink_to(Path('../.cache/release-archives')/filename)
 with zipfile.ZipFile(archive) as z:
  assert z.testzip() is None
  for name,r in entries.items():assert hashlib.sha256(z.read(name)).hexdigest()==r['sha256'],name

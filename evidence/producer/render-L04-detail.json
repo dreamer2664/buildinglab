@@ -1,0 +1,82 @@
+{
+  "id": "L04-detail",
+  "camera": "CAM_L04_DETAIL",
+  "level": "L04",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    21.506000518798828,
+    0.9176499843597412,
+    11.819999694824219
+  ],
+  "camera_lens_mm": 22.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.9273495078086853,
+      -0.07051987946033478,
+      0.36749133467674255,
+      21.506000518798828
+    ],
+    [
+      0.3741963803768158,
+      0.17476528882980347,
+      -0.9107327461242676,
+      0.9176499843597412
+    ],
+    [
+      3.791886626913765e-08,
+      0.9820814728736877,
+      0.18845677375793457,
+      11.819999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.9273495078086853,
+      -0.07051987946033478,
+      0.36749133467674255,
+      21.506000518798828
+    ],
+    [
+      0.3741963803768158,
+      0.17476528882980347,
+      -0.9107327461242676,
+      0.9176499843597412
+    ],
+    [
+      3.791886626913765e-08,
+      0.9820814728736877,
+      0.18845677375793457,
+      11.819999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "render_visibility_revision": null,
+  "caption": "L04 / HOME 4C \u2014 BEDROOM 2",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "8128759256d941a6c4b8791791b14010c1cdddf6e56704b5f02555b05c85aabf",
+  "render_completed_utc": "2026-10-16T18:25:31.691632+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

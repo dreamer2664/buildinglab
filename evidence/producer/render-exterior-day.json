@@ -1,0 +1,80 @@
+{
+  "id": "exterior-day",
+  "camera": "CAM_EXTERIOR_DAY",
+  "mode": "intact",
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    44.0,
+    -46.0,
+    29.0
+  ],
+  "camera_lens_mm": 38.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.8711521625518799,
+      -0.1428624540567398,
+      0.4697703421115875,
+      44.0
+    ],
+    [
+      0.4910131096839905,
+      0.2534657120704651,
+      -0.8334634304046631,
+      -46.0
+    ],
+    [
+      -4.610551229689008e-08,
+      0.9567368626594543,
+      0.2909545302391052,
+      29.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.8711521625518799,
+      -0.1428624540567398,
+      0.4697703421115875,
+      44.0
+    ],
+    [
+      0.4910131096839905,
+      0.2534657120704651,
+      -0.8334634304046631,
+      -46.0
+    ],
+    [
+      -4.610551229689008e-08,
+      0.9567368626594543,
+      0.2909545302391052,
+      29.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "caption": "CASA DEI COLORI / DAY",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "77971482639e2e9b7025f9b2da982231251ebe316acc9e06e2ef11ca8b4a91c5",
+  "render_completed_utc": "2026-10-16T16:05:20.973551+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

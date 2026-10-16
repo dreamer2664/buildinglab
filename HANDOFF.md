@@ -1,6 +1,6 @@
 # Casa dei Colori — detailed architecture / producer handoff
 
-**WORK IN PROGRESS — NOT independently accepted.** This is an original six-storey, Mediterranean-city mixed-use residence. The earlier schematic release/PR is not the detailed final deliverable. Native architecture and furnishing are built; exact-source final evidence, publication verification and non-owner acceptance are still being completed. Do not interpret `building-final.blend`, a renderer completing, or a mechanical `PASS` as independent approval.
+**PRODUCER-CHECKED CANDIDATE — NOT independently accepted.** Original six-storey Mediterranean-city mixed-use residence, 14 furnished homes. Native and clean GLB-reimport gates pass; all 29 exact-source final-resolution originals have actually been opened individually and SHA-bound observations recorded. This packet is frozen before archive upload/redownload verification: consult the separate public publication receipt for that later network result. Mechanical PASS and producer inspection are not independent approval.
 
 ## Commission and ownership
 
@@ -119,18 +119,26 @@ Source/render-count tests are not a substitute for visual reinspection or indepe
 
 Bulky binaries/images belong in **`dreamer2664/storagecode` Release assets**, not Git history. The source repository carries code, compact reports/manifests and handoff. Publication must use an immutable candidate tag, upload the native/GLB/all release images in an archive, re-download it, verify archive digest **and every member including `.blend`, `.glb` and all PNGs**, and append `storagecode/PUSHES.md` and `data/INDEX.md`. Release receipts are separate from the archive to avoid circular self-hashes.
 
-**Current status: corrected native/export mechanical gates pass; corrected-source final imagery, final archive/every-member verification and independent acceptance remain pending.**
+**At archive freeze: all 29 exact-source originals were regenerated, actually opened individually and SHA-bound; producer gates PASS.** Archive upload/public redownload/every-member verification happens after this immutable packet is built and is recorded in a separate publication receipt. Independent non-owner acceptance remains pending.
 
-Actual final-image inspection exposed weak L05 bedroom framing and backward-facing wardrobe fronts. Expanded actual geometry probes then failed nine wardrobe fronts, six lift-shaft ceiling caps and 101 ceiling finish overlap checks on the original `0f8497096094…` candidate. That public release is now explicitly **SUPERSEDED / NOT ACCEPTED**, not an accepted deliverable:
-https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094
+The original 0f model/checkpoint remains explicitly superseded/not accepted, with original failures and observations retained under revisions C/D. Current native is `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`, portable GLB is `06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6`. The corrected native/export/public-open tests pass. Original failed label/visibility/framing frames and actual reinspection are retained in E/F/G; immutable old recovery PNG assets are historical, not substitutes for corrected manifest originals.
 
-Source-card corrections rotate north-home wardrobes, split the common ceilings around the real shaft, close ceiling finish seams and save a better bedroom camera. The rebuilt native SHA is `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`; its GLB SHA is `06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6`. Strengthened final-native checks pass all nine actual material-face offsets (+0.292m inward), all six empty shaft-ceiling samples and all 101 finish-corner ray checks; the GLB was exported and clean-reimport tested. Integrated inventory: 1,343 objects / 1,146 mesh objects / 22 actually used palette materials. Mechanical checks remain bounded samples, not engineering certification or visual/independent approval.
+Current WIP/model recovery release, subsequently receiving the verified final archive: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45
 
-New immutable WIP checkpoint (individual unauthenticated re-download and hash receipts append as each asset finishes):
-https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45
-
-All original 0f image inspections are retained as **superseded history**, not current-source counts. The 20 original observations (19 satisfactory compositions and one explicitly failed L05 bedroom framing) and their native/digests survive in `evidence/producer/revision-D/`; original failed/draft bedroom PNGs are retained in `revision-C/`. The L06 winter-garden original was actually opened, but was not publicly uploaded before supersession. Only receipt-listed old assets have verified public raw-image recovery links; absent older diagnostics are not fabricated. The new campaign starts at zero and must inspect all 29 corrected-source originals.
 No final archive digest or reviewer vote is invented. The earlier verified schematic release remains historical, not acceptance of the detailed scene:
 https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/blockout-20261016-f0a5ba82e97a
 
 The independent reviewer must inspect the actual native/export and every final image against the live charter, verify hashes/gates and record acceptance or specific failures on their non-owner review card. The producer cannot approve their own work. No credentials, private packet, transport helper or private environment is part of the deliverable.
+
+
+## Frozen producer evidence summary
+
+- Native SHA-256: `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`.
+- GLB SHA-256: `06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6`.
+- Current original inspections: **29/29**, from one unchanged saved native. See `evidence/producer/VISUAL_REVIEW.md` and JSON; no renderer-success inference.
+- `renders/GALLERY.html` is an offline embedded preview of the actual PNGs, not evidence replacements.
+- Ceiling finish seams and shaft caps were physically corrected and re-tested rather than painted out or merely disclosed. Stylised vegetation, technical low-wall art/pendant convention and documented GLB procedural-to-constant PBR approximation are intentional limitations. No unresolved producer-recorded critical/major defect; independent review remains mandatory.
+- Dimensioning convention: labelled storey FFLs are nominal level datums; the modelled 40 mm finish lies above each datum. Landings, lift sill and grounded furnishing checks use the actual finish surface, not a claim of an as-built survey.
+- Earlier runtime original-image losses are explicitly retained in recovery/history records. Surviving B3/B4 negative PNGs and real failing geometry reports support the correction trail; no absent historical PNG is fabricated.
+- The packager creates an identical `evidence/visual-review.json` and `evidence/VISUAL_REVIEW.md` ZIP mirrors without writing coordinator-owned source paths.
+- Independent reviewer: open actual native/unbatched source and GLB, inspect every original, verify reports/hashes/release receipt against live charter, and record acceptance or failures on the non-owner review card. Producer has cast no vote.

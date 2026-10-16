@@ -145,5 +145,14 @@
       "known_critical_major": 0
     }
   ],
-  "policy": "Prior observations retained as history only. Regenerated final PNGs must be opened again; no current inspection inferred from old records or renderer completion. Missing historical PNGs are not recreated and relabelled as originals."
+  "policy": "Prior observations retained as history only. Regenerated final PNGs must be opened again; no current inspection inferred from old records or renderer completion. Missing historical PNGs are not recreated and relabelled as originals.",
+  "later_runtime_recovery_events": [
+    {
+      "detected_utc": "2026-10-16T17:13:31Z",
+      "native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "facts": "Render/uploader process IDs returned not_found; excluded official runtime/cache was absent. Three natives, compressed GLB,12 PNG files, manifests and actual observation/failure records persisted. No absent frame or renderer completion was counted as inspection.",
+      "recovery": "Official Blender4.3.2 re-downloaded, missing libxkbcommon restored; raw GLB restored from retained gzip and SHA verified against actual public checkpoint receipt. Renderer/uploader resumed on unchanged native1b. Restored askpass executable bit corrected after actual HTTPS push failure; successful retry and append-only ledger clarification recorded.",
+      "current_campaign_policy": "Resume verifies source/image SHA and dimensions; failed originals remain in revisions E/F/G, corrected images are individually reopened. No source model or camera transform edited."
+    }
+  ]
 }

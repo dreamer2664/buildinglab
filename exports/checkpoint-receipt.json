@@ -51,6 +51,188 @@
       "bytes": 2003969,
       "sha256": "9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4",
       "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:58:28.309364+00:00"
+    },
+    "renders/final/exterior-day.png": {
+      "asset_id": 647848562,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/exterior-day.png",
+      "bytes": 3575839,
+      "sha256": "cef96bd8e36173b95fc4e78121e4008e35470a1e7dc3d53361fcc27d5476abb9",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:05:30.434566+00:00"
+    },
+    "renders/final/exterior-dusk.png": {
+      "asset_id": 647864315,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/exterior-dusk.png",
+      "bytes": 3846152,
+      "sha256": "33ff7361423e7353958d7396e3c978671071de150cf06017836905129f2cc6bf",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:11:52.555823+00:00"
+    },
+    "renders/final/L03-plan.png": {
+      "asset_id": 647875850,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L03-plan-680283f5f235.png",
+      "bytes": 1363007,
+      "sha256": "680283f5f235894c561974ea4eaacb86dc396750a383d1bc49461cf74642e864",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:16:31.891921+00:00"
+    },
+    "renders/final/L01-plan.png": {
+      "asset_id": 647879371,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L01-plan-e282d0fb7dd5.png",
+      "bytes": 1181663,
+      "sha256": "e282d0fb7dd558f581cf970d51a4be84816c388fe79e85c24a6b478f287712dc",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:17:55.223706+00:00"
+    },
+    "renders/final/L04-plan.png": {
+      "asset_id": 647883898,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L04-plan-b0de2f023768.png",
+      "bytes": 1359087,
+      "sha256": "b0de2f0237686d259730a01b3bfe421c9cb88aa678510519a424e0715b85dcc2",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:19:36.833998+00:00"
+    },
+    "renders/final/L05-plan.png": {
+      "asset_id": 647887565,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L05-plan-021d72a17f7b.png",
+      "bytes": 1353387,
+      "sha256": "021d72a17f7bb547fd187c5966371e50fc2aa5e6d634e97f4fa242fc8b4b4248",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:20:58.341594+00:00"
+    },
+    "renders/final/L02-plan.png": {
+      "asset_id": 647895450,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L02-plan-a2f949ab63b2.png",
+      "bytes": 1368262,
+      "sha256": "a2f949ab63b2b0f241768391950646dfb91c7fc9fb48b10c60ead83fe3722d77",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T16:24:02.877339+00:00"
+    },
+    "renders/final/L06-plan.png": {
+      "asset_id": 648031834,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L06-plan-a1af5e3eb4e2.png",
+      "bytes": 1287318,
+      "sha256": "a1af5e3eb4e29c4a9f0afde0d5dbd4da604c12924cfe34d7f8688882da5c06d9",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:16:28.063323+00:00"
+    },
+    "renders/final/technical-structure-core.png": {
+      "asset_id": 648035737,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/technical-structure-core-c6cd4a95d45b.png",
+      "bytes": 1364211,
+      "sha256": "c6cd4a95d45b525815b28005e074dc4906cd0a9d968fe7651fc305009d9bf1e0",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:18:10.485251+00:00"
+    },
+    "renders/final/technical-facade-material.png": {
+      "asset_id": 648051479,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/technical-facade-material-5732d8c43322.png",
+      "bytes": 2162415,
+      "sha256": "5732d8c433226fb97e0e8f0f34f5588c4ba160245909b91c1001deaff743379d",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:24:14.192414+00:00"
+    },
+    "renders/final/all-levels-section.png": {
+      "asset_id": 648073438,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/all-levels-section-bef11c04663c.png",
+      "bytes": 4783938,
+      "sha256": "bef11c04663cf47df617ec2d8e203030b8674b662b746259e52cc9a3c55faa3e",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:32:39.095523+00:00"
+    },
+    "renders/final/L01-cutaway.png": {
+      "asset_id": 648080728,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L01-cutaway-d62f28fbc709.png",
+      "bytes": 2731838,
+      "sha256": "d62f28fbc709a2e46bd4842fe5ca1ca6765e7b1ff23b2f2ed5581609866fe967",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:35:41.621325+00:00"
+    },
+    "renders/final/L02-cutaway.png": {
+      "asset_id": 648087460,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L02-cutaway-193b2074d7a5.png",
+      "bytes": 3114197,
+      "sha256": "193b2074d7a5acc24a28314b3366347144afec4be0dd6e3ca89577969d2148f3",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:38:45.320419+00:00"
+    },
+    "renders/final/L03-cutaway.png": {
+      "asset_id": 648094485,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L03-cutaway-4e11ff9c9eaa.png",
+      "bytes": 3086513,
+      "sha256": "4e11ff9c9eaa97958ec920070a06bc442e8eac5bafcad35f15d273c3e82f81ee",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:41:48.558706+00:00"
+    },
+    "renders/final/L04-cutaway.png": {
+      "asset_id": 648102012,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L04-cutaway-311bde72ab4e.png",
+      "bytes": 3104614,
+      "sha256": "311bde72ab4e2df590d8cdad76d5ef3c04b6312e149ffe1a2a99ee93d4ef05c9",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:44:51.928023+00:00"
+    },
+    "renders/final/L05-cutaway.png": {
+      "asset_id": 648110387,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L05-cutaway-5b886505d853.png",
+      "bytes": 3073226,
+      "sha256": "5b886505d853dfde1f2af1fd86b79bb6e9543a81bac4da694867d972f9522954",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:47:55.529183+00:00"
+    },
+    "renders/final/L06-cutaway.png": {
+      "asset_id": 648118005,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L06-cutaway-6e403d69387d.png",
+      "bytes": 2761353,
+      "sha256": "6e403d69387d20f9456e26e444c9f203b5e5949981c78aab3d5779f046f5ea47",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:50:59.295450+00:00"
+    },
+    "renders/final/L01-interior.png": {
+      "asset_id": 648128868,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L01-interior-349ee51ca9ca.png",
+      "bytes": 1887837,
+      "sha256": "349ee51ca9ca031ecea99b457df5c7c6d15f8663b7c8e94c973655f90023f5f0",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T17:55:23.738982+00:00"
+    },
+    "renders/final/L01-detail.png": {
+      "asset_id": 648143457,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L01-detail-6edf560e298c.png",
+      "bytes": 1817580,
+      "sha256": "6edf560e298c919bfcab27e5ac6e3c52caca606e752997abd7ae61674f3bf018",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:00:29.843468+00:00"
+    },
+    "renders/final/L02-detail.png": {
+      "asset_id": 648155142,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L02-detail-adde0b9296a5.png",
+      "bytes": 1627394,
+      "sha256": "adde0b9296a5d7c0832e5addb42dcf2a6830e8ddae9abc9b2face54809eed952",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:05:15.163572+00:00"
+    },
+    "renders/final/L03-interior.png": {
+      "asset_id": 648168059,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L03-interior-8eed788cfc19.png",
+      "bytes": 2033423,
+      "sha256": "8eed788cfc195d3abefccee6a73e70f2f7064e3e7953501cfad1abd1f25e80ef",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:10:21.551028+00:00"
+    },
+    "renders/final/L03-detail.png": {
+      "asset_id": 648180012,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L03-detail-a3b3b571a4f6.png",
+      "bytes": 1502235,
+      "sha256": "a3b3b571a4f6a21bce31327bb7a04ae3ca12c1b7692a50927c896130266c1110",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:15:27.823878+00:00"
+    },
+    "renders/final/L04-interior.png": {
+      "asset_id": 648193979,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L04-interior-50e67cda9a35.png",
+      "bytes": 1950991,
+      "sha256": "50e67cda9a35c6b134b1f9fcaf3fc378471933f973e43d1952c942ceeb85abb6",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:20:35.457794+00:00"
+    },
+    "renders/final/L04-detail.png": {
+      "asset_id": 648206214,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L04-detail-3b4d9fd6ec44.png",
+      "bytes": 1637655,
+      "sha256": "3b4d9fd6ec44eb7e7f4c2a7526620525a1051feca005e4a632aa769395908f14",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:25:41.867981+00:00"
+    },
+    "renders/final/L05-interior.png": {
+      "asset_id": 648220466,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L05-interior-1f6ae972cf46.png",
+      "bytes": 2084748,
+      "sha256": "1f6ae972cf46aa1c473095cd4cf67378467b491f19aa4a35140bdff8071f7637",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:30:48.373129+00:00"
+    },
+    "renders/final/L06-interior.png": {
+      "asset_id": 648233476,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L06-interior-83a504b0a514.png",
+      "bytes": 1915860,
+      "sha256": "83a504b0a5144c949e542ab143f30016e043e28fe97413815ebe79c63c68c9d6",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T18:35:35.686250+00:00"
     }
   }
 }

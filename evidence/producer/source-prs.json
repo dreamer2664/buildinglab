@@ -1,0 +1,26 @@
+[
+  {
+    "task": "t-20261016-0d4e",
+    "branch": "agent/blender/t-20261016-0d4e",
+    "number": 2,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QCYg",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/2",
+    "draft": true
+  },
+  {
+    "task": "t-20261016-61b0",
+    "branch": "agent/blender/t-20261016-61b0",
+    "number": 3,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QD6Q",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/3",
+    "draft": true
+  },
+  {
+    "task": "t-20261016-58d8",
+    "branch": "agent/blender/t-20261016-58d8",
+    "number": 4,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QFBA",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/4",
+    "draft": true
+  }
+]

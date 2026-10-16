@@ -103,10 +103,10 @@
     {
       "id": "D-ceiling-finish-edges",
       "severity": "minor",
-      "status": "open",
+      "status": "closed",
       "issue": "Isolated-floor interior views expose small finish-to-wall seams.",
       "fix": "30mm ceiling finish overlap into enclosing wall faces; actual bounds/corner-ray guards.",
-      "reinspection": "Pending rebuilt source and actual interior originals."
+      "reinspection": "Actually opened corrected full-size L01-interior 349ee51ca9ca031ecea99b457df5c7c6d15f8663b7c8e94c973655f90023f5f0 and L02-interior 795f57bb8d24bc71a2c7674a3280f9da3fc42ef60e7f13d8c27764e99b874e51. Prior bright isolated ceiling-edge/corner slits no longer visible; continuous shaded joins read correctly. Real30mm finish overlap and all101 actual final-native room-corner coverage checks pass. This does not assert101 visually observed original leaks or mathematically perfect rendering."
     },
     {
       "id": "E-public-plan-names",
@@ -412,16 +412,254 @@
       "logged_at": "2026-10-16T17:18:45.603152+00:00",
       "observations": "Actually opened corrected 2560x1440 structure/core original using already saved full-cutaway camera at its unchanged native pose. All six plates, full column ends and ground edge now fit; both five-connection stair stacks show real treads/rails/landings, central lift portals/guides and open slab shafts are visible. Tight but complete framing replaces clipped steep view. Small exposed native overhead lighting/guide parts remain a schematic visibility convention, not missing architecture. Physical finish-ceiling shaft clearance is established by the six actual saved-native ray checks, not by this ceiling-hidden picture. No known major presentation issue; no structural/code approval.",
       "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/technical-facade-material.png",
+      "sha256": "5732d8c433226fb97e0e8f0f34f5588c4ba160245909b91c1001deaff743379d",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:24:34.530092+00:00",
+      "observations": "Opened actual 2560x1440 facade detail original: three projected balcony decks, teal posts/vertical guards/top rails, layered deck/soffit edges, terracotta jamb/head/sill pieces and dark mullion/handle/glazing depth are clearly resolved. Native beds/sofas are visible behind real glass; planters are actual stylised geometry. Close crop is deliberate material/joinery detail, unlike an overview clipping failure. Corner trim joints no longer show the earlier overlapping caps. No known major detail omission; structural/fall-protection engineering remains unverified.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/all-levels-section.png",
+      "sha256": "bef11c04663cf47df617ec2d8e203030b8674b662b746259e52cc9a3c55faa3e",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:33:00.540609+00:00",
+      "observations": "Opened actual 3840x2160 furnished full-building section: six stacked occupied levels L01-L06 are visible together, ground cafe/reception/mail/bicycles/waste and residential living/kitchens/beds/showers above, with distinct two-home/winter-garden top. Both stair stacks/landings/rails connect the plates; level plaques/signs distinguish rows. No empty slab or known major missing room/furnishing is visible. High walls/facade/ceilings are intentionally removed, so real upper cabinets, art and pendants remain exposed in this technical cutaway convention; not a claim that these float in the intact native. Context remains stylised.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L01-cutaway.png",
+      "sha256": "d62f28fbc709a2e46bd4842fe5ca1ca6765e7b1ff23b2f2ed5581609866fe967",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:36:00.142819+00:00",
+      "observations": "Opened actual 3840x2160 L01 furnished cutaway: cafe tables/chairs, separate serving passage/prep appliances, vestibule/reception desk/mail wall, four actual bicycles, waste bins, utility/cleaner shelving/basin, public WC/grab rails, parcel lockers/packages and plant tanks/headers/air-handlers are present. Both separated stair flights/rails/landings and ground lift cab/core benches connect the programme. L01 plaque/caption visible; reception desk/mail layout and cafe joinery read without the earlier strip/seam artefacts. Upper ducts, lights and tall cab parts are exposed by deliberate ceiling/high-wall removal. No known major missing programme or placeholder.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L02-cutaway.png",
+      "sha256": "193b2074d7a5acc24a28314b3366347144afec4be0dd6e3ca89577969d2148f3",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:38:53.267765+00:00",
+      "observations": "Opened actual 3840x2160 L02 cutaway: all three homes2A/2B/2C are furnished, with two mirrored north living/kitchen/bed/bath suites and south two-bedroom living/kitchen/bath/store suite, plus shared reading/dining room. Actual appliances, upholstered seating, beds/pillows, storage, showers/WCs/vanities and practical fixtures read at scale. Both stairs, lift/risers/core benches and unit entries are present; L02 caption/plaque legible. Exposed upper joinery/art/pendants and cabinet backs are intentional low-wall cutaway results, not absent intact walls or backward-room-door claims. No known major missing programme.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L03-cutaway.png",
+      "sha256": "4e11ff9c9eaa97958ec920070a06bc442e8eac5bafcad35f15d273c3e82f81ee",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:41:58.325345+00:00",
+      "observations": "Opened original 3840x2160 L03 cutaway: all3 homes plus shared reading room, both stair routes/core/lift/risers are present. North suites have differently handed living/bed arrangements and changed bedroom/bath widths; south3C bedrooms reverse bed/wardrobe directions from the preceding level, with visible inward-facing storage doors/handles. Complete kitchen appliances, seating/dining, beds/lamps and bath fixtures remain legible; L03 plaque/caption clear. No empty floor or known major collision visible; technical high-wall/ceiling removal conventions remain disclosed.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L04-cutaway.png",
+      "sha256": "311bde72ab4e2df590d8cdad76d5ef3c04b6312e149ffe1a2a99ee93d4ef05c9",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:45:22.782476+00:00",
+      "observations": "Opened actual 3840x2160 L04 cutaway: three furnished4A/4B/4C units and shared reading room are visible, with alternate south bed/storage handing, north bedroom/bath depth variation, kitchens/dining/media/sofas and real bathroom fixtures. Both separated stairs and lift/core/risers/benches remain legible; L04 caption/plaque visible. Furniture scales and intended entry aisles read without an obvious major clash in this view. Exposed tall fittings are the disclosed low-wall technical convention. No empty or hidden required home.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L05-cutaway.png",
+      "sha256": "5b886505d853dfde1f2af1fd86b79bb6e9543a81bac4da694867d972f9522954",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:48:12.026218+00:00",
+      "observations": "Opened actual 3840x2160 L05 furnished cutaway: three real homes5A/5B/5C with varied north widths, reversed south beds/storage, full kitchens, living/dining/media, showers/WCs/vanities and wardrobes; shared reading room remains furnished. Two stair routes, lift portal/risers and entry/core benches are visible; L05 caption and plaque identify this storey. No known major missing fixture or room-boundary problem visible. Cabinet backs and upper art/lights appear because of explicit low-wall dollhouse visibility, not substitution for intact-room geometry.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L06-cutaway.png",
+      "sha256": "6e403d69387d20f9456e26e444c9f203b5e5949981c78aab3d5779f046f5ea47",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:51:02.400492+00:00",
+      "observations": "Opened actual 3840x2160 L06 isolated-layer cutaway: larger6A two-bedroom penthouse with broad living/kitchen/bath/store,6B living/kitchen/bed/bath, and substantial shared winter garden with planting, two sofas, tables/chairs and books are clearly present. L06 plaque/caption and lift/core/risers are legible. This level-only dollhouse intentionally shows top stair landings/terminal guards and open wells, not lower-collection flights; the corrected L06 plan and full-building structure/section show the actual incoming connected stair geometry. No missing native stair is inferred from isolation. No known major missing room/furnishing.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L01-interior.png",
+      "sha256": "349ee51ca9ca031ecea99b457df5c7c6d15f8663b7c8e94c973655f90023f5f0",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T17:56:00.125505+00:00",
+      "observations": "Opened actual 2560x1440 cafe original: real upholstered timber chairs, round pedestal tables/cups, warm pendant, full-height framed glazing/handles and open service/prep door with counter glimpses give a human-height room view. Continuous shaded ceiling/wall corner has replaced the previous isolated finish slit; no bright open seam is visible here, consistent with actual overlap/corner guards. Foreground furniture/upper pendant cropping is deliberate photographic framing; low-sample soft shading remains disclosed. No known major defect or empty-space substitute.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L01-detail.png",
+      "sha256": "6edf560e298c919bfcab27e5ac6e3c52caca606e752997abd7ae61674f3bf018",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:00:52.976736+00:00",
+      "observations": "Opened actual 2560x1440 reception/mail original: articulated raised public ledge and lower staff desk, handled teal storage fronts, supported monitor/chair, all16 mail units with slots/locks and three foreground taped/labelled packages are readable. Open doors connect to cafe/core rather than a blank wall; near leaf stays at frame edge. The former black coplanar worktop-side slit is absent after the actual butt-join fix. Some package/counter foreground cropping is deliberate. Ceiling joins continuous; no known major missing fitting or framing failure.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L02-detail.png",
+      "sha256": "adde0b9296a5d7c0832e5addb42dcf2a6830e8ddae9abc9b2face54809eed952",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:06:09.223958+00:00",
+      "observations": "Opened actual 2560x1440 Home2C bathroom original: basin/faucet/handled vanity, framed mirror and partial overmirror light, hollow bowl/seat/cistern/flush button, towel rail/towel, mat, raised shower tray, glazed enclosure and supported shower head are visible. Opaque finished floor and ceiling/wall joins close the room; natural light comes through actual framed windows. Basin edge and lamp are deliberately foreground-cropped; shower glazing reads dark with the selected material/lighting, not an empty unmodelled bathroom. No known major fixture, intersection or framing defect in this original.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L03-interior.png",
+      "sha256": "8eed788cfc195d3abefccee6a73e70f2f7064e3e7953501cfad1abd1f25e80ef",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:10:11.066774+00:00",
+      "observations": "Opened actual 2560x1440 Home3B living/kitchen original: green two-cushion sofa/pillows, four-chair dining table with vessels/place settings and supported pendant, complete articulated kitchen with sink/tap, hob/pot, hood, oven, lower/upper cabinetry, fridge and backsplash are readable. Two actual framed glazed openings and continuous shaded ceiling/wall joins close the room. Sofas near edge partly foreground-cropped but no blank-wall/interior-object camera failure, major finish slit or missing primary kitchen fitting is visible.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L03-detail.png",
+      "sha256": "a3b3b571a4f6a21bce31327bb7a04ae3ca12c1b7692a50927c896130266c1110",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:16:14.837982+00:00",
+      "observations": "Opened actual 2560x1440 Home3C bedroom1 original: layered bed/mattress/duvet/runner/pillows and green headboard, bedside lamps, wall artwork, open framed door and double wardrobe are readable. Wardrobe cream front panels and twin bronze handles face the room, not the wall; clear visible strip remains between wardrobe and bed foot. Near lamp/base/bed edges are deliberately cropped, but camera is not inside the mattress/blank wall. Continuous wall/ceiling finishing and door opening show no known major defect.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L04-interior.png",
+      "sha256": "50e67cda9a35c6b134b1f9fcaf3fc378471933f973e43d1952c942ceeb85abb6",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:21:29.499162+00:00",
+      "observations": "Opened actual 2560x1440 Home4C family living original: three-part coral sofa/pillows, coffee table/rug, dining chairs/table/place settings/vase, complete rear kitchen upper/lower cabinets/sink/hob/hood/fridge, framed balcony glazing/guard and open interior door are readable. Wide foreground perspective crops dining edge, pendant top and near door intentionally, without placing camera inside furnishing or losing the room. Continuous shaded ceiling joins; no known major empty-room, fitting or framing defect.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L04-detail.png",
+      "sha256": "3b4d9fd6ec44eb7e7f4c2a7526620525a1051feca005e4a632aa769395908f14",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:25:46.901794+00:00",
+      "observations": "Opened actual 2560x1440 Home4C bedroom2 original: layered double bed/runner/pillows/headboard, both supported lamps, bedside drawer unit/handle, framed open doorway and full-height oak-sided wardrobe are readable. Cream door-front edge and bronze handle face inward toward bed-foot circulation; wardrobe is not an empty proxy or wall-facing panel. Clear floor strip visible around bed foot; nearest lamp partly cropped intentionally. Continuous finished wall/ceiling corner and no mattress-interior camera failure or other known major defect.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L05-interior.png",
+      "sha256": "1f6ae972cf46aa1c473095cd4cf67378467b491f19aa4a35140bdff8071f7637",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:30:38.313850+00:00",
+      "observations": "Opened actual 2560x1440 Home5A living/kitchen original: coral sofa/pillows, four-chair dining/place settings/vase and supported pendant, complete rear kitchen including handled upper/lower fronts, oven/appliance fronts, sink/tap/hob/pot/hood and fridge are readable. Actual framed glazing, continuous shaded ceiling joins and open door into furnished adjacent space provide room context. Foreground sofa and far-left dining edge partly cropped intentionally; no blank-wall/mattress camera error, major missing fixture or finish slit visible.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L06-interior.png",
+      "sha256": "83a504b0a5144c949e542ab143f30016e043e28fe97413815ebe79c63c68c9d6",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T18:35:39.976777+00:00",
+      "observations": "Opened actual 2560x1440 shared winter-garden original: two articulated sofas/pillows, planted pots/leaves/stems in front of two real framed glazed openings, dining/seating/place settings, supported pendant/ceiling fixture and stocked open bookcase are readable. Clear floor and open framed door connect the common room; stylised foliage is intentional, not a missing furnishing placeholder. Near sofa/table/pendant edges are cropped deliberately; continuous shaded ceiling/wall joins and no known major framing or missing-programme defect.",
+      "known_critical_major": 0
     }
   ],
   "frozen_final_native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
   "current_completion": {
-    "producer_stage": "work in progress",
+    "producer_stage": "inspection complete; candidate for independent review",
     "current_native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
-    "explicit_current_source_inspections": 12,
+    "explicit_current_source_inspections": 29,
     "required": 29,
     "unresolved_critical_major": [],
     "independent_acceptance": "pending",
-    "updated_utc": "2026-10-16T17:23:23.902188+00:00"
+    "updated_utc": "2026-10-16T18:35:46.945331+00:00"
   }
 }

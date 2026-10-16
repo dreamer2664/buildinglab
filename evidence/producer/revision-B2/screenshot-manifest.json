@@ -1,0 +1,91 @@
+{
+  "source": "scene/building-final.blend",
+  "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+  "images": [
+    {
+      "id": "L03-detail",
+      "path": "renders/final/L03-detail.png",
+      "camera": "CAM_L03_DETAIL",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "ca2e9020376874dc19e2206179b4d90bcf94116a2348a552832786f3cdc55710",
+      "bytes": 1484445,
+      "time": "2026-10-16T11:17:42.982379+00:00",
+      "source_sha256": "6045f36f56a3aa2b9cd152b4e18d1f42265584ecee559658a1df74c2ff7b4679",
+      "metadata": "evidence/producer/render-L03-detail.json",
+      "review_result": "not inspected",
+      "producer_opened_individually": false
+    },
+    {
+      "id": "L02-cutaway",
+      "path": "renders/final/L02-cutaway.png",
+      "camera": "CAM_L02_AXON",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "9b4637932683afe27f665e38120f5e494c42d6ef3629a3cbe264f9d52550a3ac",
+      "bytes": 3144871,
+      "time": "2026-10-16T11:25:30.438515+00:00",
+      "source_sha256": "6045f36f56a3aa2b9cd152b4e18d1f42265584ecee559658a1df74c2ff7b4679",
+      "metadata": "evidence/producer/render-L02-cutaway.json",
+      "review_result": "not inspected",
+      "producer_opened_individually": false
+    },
+    {
+      "id": "exterior-day",
+      "path": "renders/final/exterior-day.png",
+      "camera": "CAM_EXTERIOR_DAY",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "a8a3a8d19fbf32329858a7b5d9332360725e1403ab8bc21518045f7f45dbc0f1",
+      "bytes": 3576206,
+      "time": "2026-10-16T12:01:14.519122+00:00",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "metadata": "evidence/producer/render-exterior-day.json",
+      "review_result": "inspected: no known critical/major",
+      "producer_opened_individually": true
+    },
+    {
+      "id": "L02-detail",
+      "path": "renders/final/L02-detail.png",
+      "camera": "CAM_L02_DETAIL",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "1e979b1f1e2807c8d459fc638c9e1e7aafc12df26407e24b882614a5c0616689",
+      "bytes": 1630652,
+      "time": "2026-10-16T12:05:32.111260+00:00",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "metadata": "evidence/producer/render-L02-detail.json",
+      "review_result": "inspected: no known critical/major",
+      "producer_opened_individually": true
+    },
+    {
+      "id": "L01-detail",
+      "path": "renders/final/L01-detail.png",
+      "camera": "CAM_L01_DETAIL",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "2c03bb138d39f39c2d99dbb233950ebca08ceb1af52f4c5e2ae9bbc3e3189cc7",
+      "bytes": 1564009,
+      "time": "2026-10-16T12:09:58.092294+00:00",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "metadata": "evidence/producer/render-L01-detail.json",
+      "review_result": "inspected: fixes required",
+      "producer_opened_individually": true
+    },
+    {
+      "id": "L02-plan",
+      "path": "renders/final/L02-plan.png",
+      "camera": "CAM_L02_PLAN",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "4b0b00daff4a661881853027d662bdb8350a8626df61a8aeada990927bf03e05",
+      "bytes": 1349024,
+      "time": "2026-10-16T12:11:16.042989+00:00",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "metadata": "evidence/producer/render-L02-plan.json",
+      "review_result": "inspected: fixes required",
+      "producer_opened_individually": true
+    }
+  ],
+  "independent_acceptance": "pending"
+}
