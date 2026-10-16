@@ -1,0 +1,15 @@
+{
+  "events": [
+    {
+      "stage": "A0 initial builder",
+      "problem": "Operator-per-primitive implementation remained CPU-bound during scene construction after actual4m25s check; no native/render had been produced. Stopped deliberately, not a visual rejection.",
+      "old_builder_sha256": "df47cc6d268b6e1814a145f54e227479625046a34bd511659c044ff16e8a585c",
+      "correction": "Direct mesh datablock construction replaces bpy.ops primitive creation/transform apply for boxes, rods and balls. No existing rendered evidence overwritten."
+    },
+    {
+      "stage": "A1 integrated-denoising experiment",
+      "result": "Actual process exit137; native saved, render did NOT complete and no A1 original is claimed. Last sampled log17/32, so exact allocation responsible is not independently measured.",
+      "correction": "Return to denoising-disabled Cycles, followed by proven separate tiled colour-only OIDN. Final-quality guided/HDR denoising remains a later feasibility requirement."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "source": "Prior original buildinglab assets/exterior/denoise_png.py utility, reused without modification",
+  "sha256": "a11e5c885547e87d1afb1f7854a1da3ee87c95097155228a994b1868de38c77a",
+  "processing": "separate display-referred sRGB colour-only OIDN640tile48overlap; not normal/albedo-guided HDR"
+}

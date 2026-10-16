@@ -1,0 +1,53 @@
+{
+  "independent_acceptance": "not requested; production in progress",
+  "observations": [
+    {
+      "stage": "A0 first actual original inspection, not final",
+      "time_utc": "2026-10-16T21:32:56.203838+00:00",
+      "image": "renders/A0-overview.png",
+      "image_sha256": "1dbec20be1d57071e8a15ac7f818db7971e3467b9571a68135f5b74e66dd539a",
+      "source_native": "scene/square-A0.blend",
+      "native_sha256": "8998d6a28895c2e5c0d2cde60260c21707cf8aeb4e2b99ab248281a06b34dacc",
+      "opened_individually": true,
+      "observations": "Opened actual1600x1000 original. Twelve inward-facing shells enclose legible square; Christmas tree/stalls/seating/lighting/playground and roof snow are visible. Roofs and ground apron nearly fill frame;16sample undenoised render is very noisy. Central fir remains visibly stacked cones, facades repetitive and streets empty: not a realism pass. Actual leafless tree at(24,0) occupies playground/swing approach and must move. No people/furnished interiors present; no claim of completion.",
+      "defects": [
+        {
+          "id": "A0-P01",
+          "severity": "major",
+          "issue": "Tree trunk at(24,0) intrudes into playground/fall-zone area.",
+          "status": "closed with A2 actual reinspection and geometry regression",
+          "proposed_fix": "Move that actual tree to(-21,10), away from play equipment, bench positions and market stalls; inspect corrected image."
+        },
+        {
+          "id": "A0-R01",
+          "severity": "major-for-final",
+          "issue": "Uniform shell facades/conical fir/no crowd/no furnishing not realistic final.",
+          "status": "open",
+          "proposed_fix": "Complete distinct architecture/interiors; real vegetation/human realism slice before expansion."
+        },
+        {
+          "id": "A0-L01",
+          "severity": "study-quality",
+          "issue": "Noisy16sample image and tight apron framing.",
+          "status": "open",
+          "proposed_fix": "Widen lens44->42mm and use32samples with integrated OIDN for A1 study; not a final rendering prescription."
+        }
+      ]
+    },
+    {
+      "stage": "A2 corrected shell/public-realm study; NOT final",
+      "time_utc": "2026-10-16T21:37:35.718866+00:00",
+      "image": "renders/A2-overview.png",
+      "image_sha256": "48e5ec50ea4c02b3d362ea1b3c1a53a35e34f5dab4cc10c9a955b918a4874c09",
+      "source_native": "scene/square-A2.blend",
+      "native_sha256": "4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d",
+      "opened_individually": true,
+      "observations": "Opened actual1600x1000 corrected original. Actual playground tree is absent from swing/slide area; moved tree appears at west planting location. Twelve shells, stalls/tree/seating/lamps remain legible.42mm view provides more apron/context; separate OIDN reduces prior grain but softens detail. Repeated roofs/facades, tiered-cone fir, no people, empty interiors and sparse decoration remain visibly below requested realism. Only actual playground-tree placement and noisy-preview study issue close, not final architecture/people/lighting acceptance.",
+      "defect_results": {
+        "A0-P01": "closed after actual image reinspection and actual old-native FAIL/new-native PASS trunk-coordinate regression",
+        "A0-L01": "preview noise/framing improved for blockout only; final quality not passed",
+        "A0-R01": "OPEN \u2014 final realism, every-floor furnishing and people remain unbuilt"
+      }
+    }
+  ]
+}

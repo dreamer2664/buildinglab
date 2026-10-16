@@ -1,0 +1,102 @@
+{
+  "status": "FAIL",
+  "scope": "A-stage shell inventory and portable packed-file dependencies ONLY",
+  "native": "scene/square-A0.blend",
+  "native_sha256": "8998d6a28895c2e5c0d2cde60260c21707cf8aeb4e2b99ab248281a06b34dacc",
+  "actual_buildings": 12,
+  "actual_floor_collections": 26,
+  "per_floor_mesh_counts": {
+    "B03_L01": 53,
+    "B08_L01": 53,
+    "B05_L01": 53,
+    "B09_L01": 53,
+    "B11_L01": 53,
+    "B03_L02": 58,
+    "B07_L03": 58,
+    "B02_L02": 58,
+    "B06_L02": 58,
+    "B12_L01": 53,
+    "B11_L02": 58,
+    "B12_L02": 58,
+    "B04_L02": 58,
+    "B01_L03": 58,
+    "B07_L01": 53,
+    "B06_L01": 53,
+    "B01_L02": 58,
+    "B07_L02": 58,
+    "B04_L01": 53,
+    "B08_L02": 58,
+    "B10_L01": 53,
+    "B01_L01": 53,
+    "B10_L02": 58,
+    "B09_L02": 58,
+    "B05_L02": 58,
+    "B02_L01": 53
+  },
+  "packed_images": 3,
+  "actual_tree_trunk_centres_xy": [
+    [
+      -23.924999237060547,
+      -15.0
+    ],
+    [
+      -23.924999237060547,
+      0.0
+    ],
+    [
+      -23.924999237060547,
+      15.0
+    ],
+    [
+      24.075000762939453,
+      -15.0
+    ],
+    [
+      24.075000762939453,
+      0.0
+    ],
+    [
+      24.075000762939453,
+      15.0
+    ],
+    [
+      -15.925000667572021,
+      -23.0
+    ],
+    [
+      0.07500000298023224,
+      -23.0
+    ],
+    [
+      16.075000762939453,
+      -23.0
+    ],
+    [
+      -15.925000667572021,
+      23.0
+    ],
+    [
+      0.07500000298023224,
+      23.0
+    ],
+    [
+      16.075000762939453,
+      23.0
+    ]
+  ],
+  "trunks_inside_playground": [
+    [
+      24.075000762939453,
+      0.0
+    ]
+  ],
+  "missing_files": [],
+  "furnished_floor_count": 0,
+  "people_count": 0,
+  "final_realism": "NOT PASSED",
+  "independent_acceptance": "NOT ACCEPTED",
+  "errors": [
+    "Actual tree trunk intersects playground rectangle"
+  ],
+  "blender": "4.3.2"
+}
