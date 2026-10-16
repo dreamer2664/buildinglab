@@ -37,6 +37,20 @@
       "bytes": 1501142,
       "sha256": "28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d",
       "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:48:02.068797+00:00"
+    },
+    "renders/final/L02-interior.png": {
+      "asset_id": 647815784,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L02-interior.png",
+      "bytes": 2101508,
+      "sha256": "795f57bb8d24bc71a2c7674a3280f9da3fc42ef60e7f13d8c27764e99b874e51",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:53:24.747361+00:00"
+    },
+    "renders/final/L06-detail.png": {
+      "asset_id": 647829168,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L06-detail.png",
+      "bytes": 2003969,
+      "sha256": "9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:58:28.309364+00:00"
     }
   }
 }

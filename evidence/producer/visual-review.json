@@ -231,18 +231,46 @@
       "logged_at": "2026-10-16T15:48:21.986876+00:00",
       "observations": "Opened corrected 2560x1440 original: bed, green upholstered headboard, two pillows, terracotta runner, both bedside drawers/lamps and two actual inward-facing wardrobe doors with bronze handles are clearly visible. Saved northeast aisle composition replaces the failed wall/window/bedfoot view. Wardrobe door face visible rather than its former blank back; actual native regressions additionally confirm +0.292m inward panel/body offsets in all nine corrected wardrobes. No known major issue in this view; close, deliberately cropped photographic framing, not an entire-room plan.",
       "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L02-interior.png",
+      "sha256": "795f57bb8d24bc71a2c7674a3280f9da3fc42ef60e7f13d8c27764e99b874e51",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T15:53:52.250433+00:00",
+      "observations": "Opened corrected original at 2560x1440: Home2A living/kitchen shows upholstered sofa and two cushions, set four-chair dining table, two framed glazed openings, sink/tap, induction/oven/hood, dishwasher, handled cupboards and fridge, plus open circulation doorway. The previous bright isolated ceiling corner/edge slit is now closed by real finish overlap; continuous shaded wall/ceiling join is visible. Some low-sample softness and local fridge-wall shading remain a rendering limitation, not missing geometry. No known major issue in this composition.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L06-detail.png",
+      "sha256": "9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4",
+      "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T15:59:06.688420+00:00",
+      "observations": "Opened actual 2560x1440 Penthouse6A living original: large dining table/settings and upholstered chairs in foreground, sofa/two cushions and coffee table/rug, real framed balcony glazing/rails, complete kitchen/fridge at rear and an open entry leaf. Differently arranged long living room and usable centre aisle are legible, not an empty top floor. Continuous enclosed ceiling and two luminaires; mild low-sample softness and stylised planting are disclosed visual limitations. No known major issue in this view.",
+      "known_critical_major": 0
     }
   ],
-  "frozen_final_native_sha256": null,
+  "frozen_final_native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
   "current_completion": {
     "producer_stage": "work in progress",
     "current_native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
-    "explicit_current_source_inspections": 1,
+    "explicit_current_source_inspections": 3,
     "required": 29,
     "unresolved_critical_major": [
       "D-shaft-ceiling-caps"
     ],
     "independent_acceptance": "pending",
-    "updated_utc": "2026-10-16T15:48:22.292784+00:00"
+    "updated_utc": "2026-10-16T16:00:13.325188+00:00"
   }
 }

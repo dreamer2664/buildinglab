@@ -22,5 +22,8 @@ for name,row in r['assets'].items():
   assert row['url'].startswith('https://github.com/dreamer2664/storagecode/releases/download/')
   with urllib.request.urlopen(row['url'],timeout=180) as a,tmp.open('wb') as b:shutil.copyfileobj(a,b)
  assert tmp.stat().st_size==row['bytes'] and sha(tmp)==row['sha256'],'Public asset integrity failure'
- tmp.replace(p);print('RESTORED_VERIFIED',name)
+ if name=='exports/building-final.glb':
+  dest=R/'.cache/raw-export/building-final.glb';dest.parent.mkdir(parents=True,exist_ok=True);tmp.replace(dest);p.symlink_to(Path('../.cache/raw-export/building-final.glb'))
+ else:tmp.replace(p)
+ print('RESTORED_VERIFIED',name)
 print('Available checkpoint assets match recorded public SHA-256; no inspection inferred.')

@@ -3,7 +3,7 @@
 **work in progress. Independent acceptance: PENDING.**
 
 Current native SHA-256: `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`
-Explicit individually opened current-source originals: **1/29**. These are agent/producer observations, not an independent human-review certificate.
+Explicit individually opened current-source originals: **3/29**. These are agent/producer observations, not an independent human-review certificate.
 
 ## Real inspect → fix → inspect cycles
 
@@ -119,6 +119,18 @@ Earlier checkpoint narratives are retained as originally logged. Their pending w
 - PNG SHA-256: `28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d`
 - Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:48:21.986876+00:00.
 - Observation: Opened corrected 2560x1440 original: bed, green upholstered headboard, two pillows, terracotta runner, both bedside drawers/lamps and two actual inward-facing wardrobe doors with bronze handles are clearly visible. Saved northeast aisle composition replaces the failed wall/window/bedfoot view. Wardrobe door face visible rather than its former blank back; actual native regressions additionally confirm +0.292m inward panel/body offsets in all nine corrected wardrobes. No known major issue in this view; close, deliberately cropped photographic framing, not an entire-room plan.
+- Known critical/major in this view: 0.
+
+### renders/final/L02-interior.png
+- PNG SHA-256: `795f57bb8d24bc71a2c7674a3280f9da3fc42ef60e7f13d8c27764e99b874e51`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:53:52.250433+00:00.
+- Observation: Opened corrected original at 2560x1440: Home2A living/kitchen shows upholstered sofa and two cushions, set four-chair dining table, two framed glazed openings, sink/tap, induction/oven/hood, dishwasher, handled cupboards and fridge, plus open circulation doorway. The previous bright isolated ceiling corner/edge slit is now closed by real finish overlap; continuous shaded wall/ceiling join is visible. Some low-sample softness and local fridge-wall shading remain a rendering limitation, not missing geometry. No known major issue in this composition.
+- Known critical/major in this view: 0.
+
+### renders/final/L06-detail.png
+- PNG SHA-256: `9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:59:06.688420+00:00.
+- Observation: Opened actual 2560x1440 Penthouse6A living original: large dining table/settings and upholstered chairs in foreground, sofa/two cushions and coffee table/rug, real framed balcony glazing/rails, complete kitchen/fridge at rear and an open entry leaf. Differently arranged long living room and usable centre aisle are legible, not an empty top floor. Continuous enclosed ceiling and two luminaires; mild low-sample softness and stylised planting are disclosed visual limitations. No known major issue in this view.
 - Known critical/major in this view: 0.
 
 ## Boundaries
