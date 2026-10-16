@@ -243,6 +243,20 @@ with g.scope(context,origin=(0,0,0),role='context'):
  for x in [4,21]:
   for k in range(5):g.box('STREET_BENCH_SLAT',(x,-3.1+k*.10,.39),(2,.075,.06),'Oak',.015)
   for dx in [-.7,.7]:g.box('STREET_BENCH_LEG',(x+dx,-2.9,.11),(.07,.45,.55),'Teal',.02)
+ # Level pedestrian approach to the finished entrance, not an unbridged 150 mm plinth.
+ # 185 mm rise over 2.50 m plus 1.80 m level landing; visual accessible intent, not code approval.
+ x1,x2,ya,yb=11.8,14.2,-4.0,-1.5
+ v=[(x1,ya,-.17),(x2,ya,-.17),(x2,yb,-.17),(x1,yb,-.17),(x1,ya,-.15),(x2,ya,-.15),(x2,yb,.035),(x1,yb,.035)]
+ g.obj('ENTRANCE_APPROACH_RAMP',v,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],'Limestone')
+ g.box('ENTRANCE_LEVEL_LANDING',(13,-.6,-.0575),(2.4,1.8,.185),'Limestone')
+ g.box('ENTRANCE_THRESHOLD',(13,.255,.0175),(1.8,.25,.035),'Limestone',.003)
+ for x in [11.9,14.1]:
+  g.rod('ENTRANCE_APPROACH_HANDRAIL',(x,-4,.75),(x,-1.5,.935),.026,'Teal')
+  g.rod('ENTRANCE_LANDING_HANDRAIL',(x,-1.5,.935),(x,-.18,.935),.026,'Teal')
+  for y in [-3.8,-2.6,-1.5,-.3]:
+   zz=.035+min(0,y+1.5)*.185/2.5
+   g.box('ENTRANCE_RAIL_FOOT',(x,y,zz+.01),(.12,.12,.02),'Bronze',.006)
+   g.rod('ENTRANCE_RAIL_POST',(x,y,zz+.02),(x,y,zz+.9),.017,'Teal')
  # Front entrance canopy, luminaires and address.
  g.box('ENTRANCE_CANOPY',(13,-.75,3.2),(5,1.8,.18),'Terracotta',.04)
  for x in [11.1,14.9]:g.rod('CANOPY_TIE',(x,-1.4,3.2),(x,.05,3.65),.025,'Bronze')
