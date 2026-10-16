@@ -107,7 +107,7 @@ def public(r,l,clear):
   with g.scope(origin=(g.ORIGIN.x+.6,g.ORIGIN.y,g.ORIGIN.z),fixture='reception'):
    # Raised visitor ledge plus lower staff worktop/knee space; chair faces the worktop.
    g.box(n+'_DESK_FRONT',(1.65,1.7,.54),(2.05,.40,1.04),'Oak',.035);g.box(n+'_TRANSACTION_TOP',(1.65,1.7,1.10),(2.14,.48,.07),'Terrazzo',.025)
-   g.box(n+'_STAFF_WORKTOP',(1.65,2.0,.78),(2.05,.65,.065),'Oak',.02)
+   g.box(n+'_STAFF_WORKTOP',(1.65,2.1125,.78),(2.10,.425,.065),'Oak',.02)
    for px in [.85,2.45]:g.box(n+'_DESK_PEDESTAL',(px,2.0,.375),(.42,.64,.75),'Oak',.02)
    for px in [.99,1.65,2.31]:
     g.box(n+'_DESK_PANEL',(px,1.485,.56),(.61,.025,.89),'Teal',.015);g.rod(n+'_DESK_HANDLE',(px-.10,1.458,.73),(px+.10,1.458,.73),.009,'Bronze')
