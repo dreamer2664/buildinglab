@@ -21,7 +21,10 @@ for l in D['levels']:
  rows.append({'level':lid,'slab_objects':len(slabs),'glazing_meshes':len(windows),'objects':len(obs),'floor_m':l['elevation_m']})
 check(bpy.data.objects.get('ROOF_STRUCTURAL_SLAB') is not None,'roof slab');check(any(o.name.startswith('ROOF_PARAPET') for o in s.objects),'roof parapet');check(bpy.data.objects.get('L01_LIFT_CAB_FLOOR') is not None,'one actual elevator cab')
 missing=[im.name for im in bpy.data.images if im.source=='FILE' and not im.packed_file and not Path(bpy.path.abspath(im.filepath)).exists()];check(not missing and not bpy.data.libraries,'no missing external images or linked libraries')
-report={'stage':'mechanical shell only, not code/visual/independent acceptance','levels':rows,'missing_external':missing,'errors':errors,'blender':bpy.app.version_string}
+import sys
+sys.path.insert(0,str(R/'assets/exterior'));from circulation_checks import lift_checks
+bpy.context.view_layer.update();lift_report=lift_checks(s,D);errors.extend(lift_report['errors'])
+report={'actual_lift_geometry_checks':lift_report,'stage':'mechanical shell only, not code/visual/independent acceptance','levels':rows,'missing_external':missing,'errors':errors,'blender':bpy.app.version_string}
 (R/'assets/exterior/validation.json').write_text(json.dumps(report,indent=2)+'\n')
 for x in rows:print(x)
 if errors:raise RuntimeError('\n'.join(errors))
