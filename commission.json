@@ -1,0 +1,25 @@
+{
+  "project": "dreamer2664/buildinglab",
+  "commissioner": "vesta",
+  "created_at": "2026-10-16T08:20:00Z",
+  "scope": "One original realistic, richly coloured six-storey Blender building with full furnished interiors on all six above-ground levels; native scene, portable GLB, dimensioned plans, at least 29 inspected visualisations, two consequential visual revision cycles, and digest-verified storagecode release.",
+  "agent_identity": "blender",
+  "agent_registered": false,
+  "state": "not-started",
+  "public_brief": "briefs/BLENDER.md",
+  "parent_card": "t-20261016-3fe5",
+  "work_cards": {
+    "design_and_blockout": "t-20261016-c577",
+    "exterior_shell_and_structure": "t-20261016-0d4e",
+    "complete_interiors": "t-20261016-61b0",
+    "assembly_visual_review_release": "t-20261016-58d8"
+  },
+  "independent_review_cards": {
+    "design_and_blockout": "t-20261016-64ce",
+    "exterior_shell_and_structure": "t-20261016-2223",
+    "complete_interiors": "t-20261016-008a",
+    "assembly_visual_review_release": "t-20261016-08c6"
+  },
+  "verified_at": "2026-10-16T08:33:33Z",
+  "verified_status": "All nine cards read open and owner:null; the blender identity had no roster entry. No Blender model, render or Blender session was claimed."
+}
