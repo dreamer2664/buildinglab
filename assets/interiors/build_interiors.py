@@ -219,8 +219,8 @@ for l in D['levels']:
   elif suffix=='B':g.camera('CAM_'+lid+'_INTERIOR',(xx-.65,y+.65,z+1.62),(x+.8,yy-1,z+1.25),lens=25)
   else:g.camera('CAM_'+lid+'_INTERIOR',(x+.65,y+.60,z+1.62),(xx-.65,yy-1.1,z+1.25),lens=25)
   if lid=='L02':
-   rr=next(r for r in l['rooms'] if (r['home'] or '').endswith('A') and r['kind']=='bathroom');x,y,xx,yy=rr['rect']
-   g.camera('CAM_'+lid+'_DETAIL',((x+xx)/2,y+.60,z+1.62),((x+xx)/2,y+2.1,z+1.05),lens=18)
+   rr=next(r for r in l['rooms'] if (r['home'] or '').endswith('C') and r['kind']=='bathroom');x,y,xx,yy=rr['rect']
+   g.camera('CAM_'+lid+'_DETAIL',(x+1.1,yy-.40,z+1.62),(x+1.2,y+1.35,z+1.1),lens=18)
   elif lid=='L05':
    rr=next(r for r in l['rooms'] if (r['home'] or '').endswith('B') and r['kind']=='bedroom');x,y,xx,yy=rr['rect']
    g.camera('CAM_'+lid+'_DETAIL',(x+.65,y+.95,z+1.62),(xx-.75,yy-.9,z+1.15),lens=22)
