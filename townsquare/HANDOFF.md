@@ -35,3 +35,12 @@ blender --factory-startup -b scene/square-A2.blend --python-exit-code 1 --python
 ```
 
 Do not overwrite preserved historical originals or public immutable assets. Pick a new revision name for subsequent changes. Public study checkpoint/receipt, if present, is a STARTED/BLOCKOUT backup only, never a final package or approval. Final bulk storage uses separate `townsquare/blender/...` tags/ledgers. Text/code may be committed; native/renders/maps must not enter Git history.
+
+
+## Actual public started-blockout checkpoint
+
+- Source initial push `2e45a8b99efdf36e1a8742906affec22907990f2`, DRAFT [PR6](https://github.com/dreamer2664/buildinglab/pull/6). No final review requested.
+- [Study checkpoint](https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/blockout-20261016-4b09eedd70b3) / [ZIP](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/blockout-20261016-4b09eedd70b3/Winterlichtplatz-A2-blockout-4b09eedd70b3.zip). ZIP12322810bytes, SHA-256 `ab7cf7ba16a871c60e64309ec01f60c14020dfceeb9826966967f0e4067eed6f`; all48entries actually anonymously redownload/CRC/member-verified.
+- Current A2 native SHA-256 `4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d`. Exact public native reopened, actual shell/dependency gate PASS,640×400/4sample smoke rendered and actually opened. This is not final-realism acceptance.
+- Storage append `a3cf454ce33af625ee648bf992f07230ce87d5b2`; previous project unchanged.
+- Historical A0 native/image and failed-render A1 native may be locally relocated to excluded cache via same logical-path symlinks AFTER this verified public backup, to respect workspace snapshot cap. If absent after runtime restore, recover those exact members from the verified archive; do not fabricate replacements. Current A2 native and corrected original remain normal persistent files.

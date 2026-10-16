@@ -1,0 +1,22 @@
+{
+  "status": "public unauthenticated archive redownload/CRC/every-member PASS",
+  "stage": "STARTED / A2 BLOCKOUT ONLY; NOT final realism or acceptance",
+  "verified_utc": "2026-10-16T21:39:32.649008+00:00",
+  "task": "t-20261016-339c",
+  "source_commit": "2e45a8b99efdf36e1a8742906affec22907990f2",
+  "draft_pr": "https://github.com/dreamer2664/buildinglab/pull/6",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/blockout-20261016-4b09eedd70b3",
+  "archive_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/blockout-20261016-4b09eedd70b3/Winterlichtplatz-A2-blockout-4b09eedd70b3.zip",
+  "archive_sha256": "ab7cf7ba16a871c60e64309ec01f60c14020dfceeb9826966967f0e4067eed6f",
+  "archive_bytes": 12322810,
+  "archive_entries": 48,
+  "every_member_verified": true,
+  "current_native_sha256": "4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d",
+  "final_furnished_floors": 0,
+  "final_people": 0,
+  "independent_acceptance": "not granted; project in production",
+  "storage_ledger_commit": "a3cf454ce33af625ee648bf992f07230ce87d5b2",
+  "public_native_reopen_validation": "PASS",
+  "public_native_smoke_render": "rendered640x400/4samples and actually opened; not final evidence",
+  "public_native_reopen_report": "evidence/published-native-reopen.json"
+}

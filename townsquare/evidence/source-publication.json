@@ -1,0 +1,8 @@
+{
+  "source_commit": "2e45a8b99efdf36e1a8742906affec22907990f2",
+  "branch": "agent/blender/t-20261016-339c",
+  "pr": "https://github.com/dreamer2664/buildinglab/pull/6",
+  "draft": true,
+  "namespace": "townsquare/**",
+  "stage": "STARTED \u2014 shell blockout, NOT final realism"
+}
