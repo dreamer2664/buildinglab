@@ -140,6 +140,9 @@ for i,l in enumerate(D['levels']):
    d['swing_sign']=(1 if cy>d['y'] else -1) if d['orientation']=='H' else (-1 if cx>d['x'] else 1)
    # A door into a long, shallow private hall folds back, not across its walking path.
    if target['kind']=='corridor' and target.get('home') and (txx-tx)>3 and (tyy-ty)<2 and d['orientation']=='H':d['opening_degrees']=160;d['hinge_recess_m']=.13
+ # Keep the reception north crossover clear: this public door opens into the common core.
+ for d in l['doors']:
+  if lid=='L01' and d['id']=='L01_LOBBY_entry':d['swing_sign']=1
  lc=g.collection(lid,occupied_level=True,elevation_m=z)
  cs={k:g.collection(lid+'_'+k,lc) for k in ['SLAB','PARTITIONS_LOW','PARTITIONS_HIGH','FACADE','CEILING','STAIRS','LIFT','LIGHTING','SIGNS']}
  with g.scope(cs['SLAB'],origin=(0,0,0),level=lid,role='slab'):
