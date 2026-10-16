@@ -25,9 +25,14 @@ for row in m['images']:add(R/row['path'])
 for p in (R/'renders/revision-B').glob('*.png'):add(p)
 for folder in ['revision-B3','revision-B4']:
  for p in (R/'evidence/producer'/folder).glob('*.png'):add(p)
-for record in json.loads((R/'assets/interiors/visual-review.json').read_text())['observations']:
- p=R/record['image'];assert sha(p)==record['sha256'];add(p)
-for p in (R/'assets/exterior').glob('*-A.png'):add(p)
+historical_availability=[]
+records=json.loads((R/'assets/interiors/visual-review.json').read_text())['observations']+json.loads((R/'assets/exterior/visual-review.json').read_text())
+for record in records:
+ p=R/record['image'];available=p.is_file()
+ if available:
+  assert sha(p)==record['sha256'];add(p)
+ historical_availability.append({'image':record['image'],'recorded_original_sha256':record['sha256'],'original_file_available':available,'note':'Actual original included.' if available else 'Original diagnostic PNG not retained by runtime snapshot. Original observation/digest retained as history only; no regenerated substitute is relabelled as the original.'})
+hp=R/'evidence/producer/historical-availability.json';hp.write_text(json.dumps({'stage':'historical diagnostics, NOT the 29 required final images','records':historical_availability,'surviving_negative_cycles':'Original B3 and B4 PNGs, their metadata and actual negative geometry reports remain included.'},indent=2)+'\n');add(hp)
 # The charter-level log is a generated ZIP alias, not a write to coordinator-owned repo paths.
 alias=(R/'evidence/producer/visual-review.json').read_bytes()
 entries={str(p.relative_to(R)):{'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(files)}

@@ -1,0 +1,42 @@
+{
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094",
+  "release_id": 415027373,
+  "stage": "WIP checkpoints, not completed release or independent acceptance",
+  "assets": {
+    "scene/building-final.blend": {
+      "asset_id": 647512710,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/building-final.blend",
+      "bytes": 15246277,
+      "sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:34.588841+00:00"
+    },
+    "scene/shell.blend": {
+      "asset_id": 647512921,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/shell.blend",
+      "bytes": 2589450,
+      "sha256": "2d924dfe24e6cd1741a3d33718676820154a3c5511b14ef01eb3a19c7550a10b",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:36.316218+00:00"
+    },
+    "scene/interiors.blend": {
+      "asset_id": 647512979,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/interiors.blend",
+      "bytes": 4737698,
+      "sha256": "c3a004cdacdc417aed90a8a4495610bce2dab2330465da756ed39d91ab3e7b9e",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:37.788544+00:00"
+    },
+    "exports/building-final.glb": {
+      "asset_id": 647513046,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/building-final.glb",
+      "bytes": 56656680,
+      "sha256": "da7e163b59d042d6aa9ccea170251e9e99ff25fe4261b1d8fb50f4ae522287bb",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:43.957102+00:00"
+    },
+    "renders/final/exterior-day.png": {
+      "asset_id": 647524736,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/exterior-day.png",
+      "bytes": 3575967,
+      "sha256": "4cf634a599282cfb7216502952e6cd3e8f0cdcb94cc5038c310254c2d71b2499",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:06:06.095961+00:00"
+    }
+  }
+}

@@ -113,7 +113,12 @@ Source/render-count tests are not a substitute for visual reinspection or indepe
 
 Bulky binaries/images belong in **`dreamer2664/storagecode` Release assets**, not Git history. The source repository carries code, compact reports/manifests and handoff. Publication must use an immutable candidate tag, upload the native/GLB/all release images in an archive, re-download it, verify archive digest **and every member including `.blend`, `.glb` and all PNGs**, and append `storagecode/PUSHES.md` and `data/INDEX.md`. Release receipts are separate from the archive to avoid circular self-hashes.
 
-**Current status: upload/redownload/member verification and independent acceptance are pending.** No final release URL/digest or reviewer vote is invented. The earlier verified schematic release remains historical, not acceptance of the detailed scene:
+**Current status: final archive/every-member verification and independent acceptance are pending.** The three native files and GLB are now actual immutable public WIP checkpoint assets, individually re-downloaded without authentication and SHA/byte verified; see `exports/checkpoint-receipt.json` and `exports/checkpoint-ledger.json`. The exact-native 29-image campaign is regenerating after runtime restoration removed final PNGs; previous observations are retained as history in `evidence/producer/runtime-recovery.json`, not counted as current inspections. Some older diagnostic PNGs were not preserved; their hashes/observations remain, and the surviving B3/B4 negatives remain original files. No absent historical image is fabricated or relabelled.
+
+WIP checkpoint release (NOT a completed or accepted final package):
+https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094
+
+No final archive digest or reviewer vote is invented. The earlier verified schematic release remains historical, not acceptance of the detailed scene:
 https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/blockout-20261016-f0a5ba82e97a
 
 The independent reviewer must inspect the actual native/export and every final image against the live charter, verify hashes/gates and record acceptance or specific failures on their non-owner review card. The producer cannot approve their own work. No credentials, private packet, transport helper or private environment is part of the deliverable.
