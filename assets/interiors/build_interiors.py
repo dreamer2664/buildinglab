@@ -105,14 +105,24 @@ def public(r,l,clear):
    g.box(n+'_MENU',(w-.08,d/2,1.98),(.03,1.3,.63),'Teal',.03)
  elif id=='LOBBY':
   with g.scope(fixture='reception'):
-   g.box(n+'_DESK',(.75,2,.48),(1,2.05,.90),'Oak',.06);g.box(n+'_DESK_TOP',(.75,2,.96),(1.10,2.15,.06),'Terrazzo',.035)
-   g.box(n+'_MONITOR',(.72,2.2,1.24),(.04,.55,.36),'Black',.015)
-   f.chair(n+'_RECEPTION_CHAIR',1.7,2,math.pi/2)
+   # Raised visitor ledge plus lower staff worktop/knee space; chair faces the worktop.
+   g.box(n+'_DESK_FRONT',(1.65,1.7,.54),(2.05,.40,1.04),'Oak',.035);g.box(n+'_TRANSACTION_TOP',(1.65,1.7,1.10),(2.14,.48,.07),'Terrazzo',.025)
+   g.box(n+'_STAFF_WORKTOP',(1.65,2.2,.78),(2.05,.65,.065),'Oak',.02)
+   for px in [.85,2.45]:g.box(n+'_DESK_PEDESTAL',(px,2.2,.375),(.42,.64,.75),'Oak',.02)
+   for px in [.99,1.65,2.31]:
+    g.box(n+'_DESK_PANEL',(px,1.485,.56),(.61,.025,.89),'Teal',.015);g.rod(n+'_DESK_HANDLE',(px-.10,1.458,.73),(px+.10,1.458,.73),.009,'Bronze')
+   g.box(n+'_MONITOR_BASE',(1.65,2.25,.8275),(.30,.20,.03),'Black',.01);g.rod(n+'_MONITOR_STAND',(1.65,2.25,.84),(1.65,2.25,.99),.025,'Black')
+   g.box(n+'_MONITOR',(1.65,2.25,1.04),(.58,.05,.36),'Black',.015);g.box(n+'_MONITOR_SCREEN',(1.65,2.278,1.04),(.53,.008,.31),'Teal',.008)
+   f.chair(n+'_RECEPTION_CHAIR',1.65,3.1,0)
   with g.scope(fixture='mail_parcel'):
    for row in range(4):
     for col in range(4):
      px=3.35+col*.43;pz=.43+row*.37;g.box(n+'_MAILBOX',(px,d-.20,pz),(.40,.30,.33),'Teal',.015);g.box(n+'_MAIL_SLOT',(px,d-.365,pz+.08),(.26,.012,.018),'Black');g.sphere(n+'_MAIL_LOCK',(px+.12,d-.37,pz-.06),(.025,.012,.025),'Bronze',8,6)
-   for k in range(3):g.box(n+'_PARCEL',(3.4+k*.45,d-.66,.3),(.35,.35,.50),'Paper',.015)
+   for k in range(3):
+    px=3.4+k*.45;py=d-.66;g.box(n+'_PARCEL',(px,py,.3),(.35,.35,.50),'Paper',.015)
+    g.box(n+'_PARCEL_TAPE_TOP',(px,py,.552),(.045,.35,.004),'Oak');g.box(n+'_PARCEL_TAPE_FRONT',(px,py-.177,.3),(.045,.004,.48),'Oak')
+    g.box(n+'_PARCEL_LABEL',(px+.085,py-.180,.39),(.10,.004,.13),'Teal',.005)
+    for j in range(3):g.box(n+'_LABEL_LINE',(px+.085,py-.183,.36+j*.025),(.07,.002,.008),'Paper')
   art(n+'_WALL_ART',.08,.95,1.9,1,-math.pi/2);f.plant(n+'_PLANT',w-.45,.5,size=1.1)
  elif id=='VESTIBULE':
   rug(n+'_ENTRY_MAT',w/2,d/2,2.2,1.3,'Teal');g.sign(n+'_ENTRY','CASA',(1.7,1.1,.06),.35,'Limestone','XY')
