@@ -142,3 +142,14 @@ The independent reviewer must inspect the actual native/export and every final i
 - Earlier runtime original-image losses are explicitly retained in recovery/history records. Surviving B3/B4 negative PNGs and real failing geometry reports support the correction trail; no absent historical PNG is fabricated.
 - The packager creates an identical `evidence/visual-review.json` and `evidence/VISUAL_REVIEW.md` ZIP mirrors without writing coordinator-owned source paths.
 - Independent reviewer: open actual native/unbatched source and GLB, inspect every original, verify reports/hashes/release receipt against live charter, and record acceptance or failures on the non-owner review card. Producer has cast no vote.
+
+
+## Post-freeze public publication verification
+
+This addendum is later than the immutable ZIP handoff. The ZIP is not silently rebuilt.
+
+- Actual anonymous public ZIP download, CRC, archive SHA and all **219 archive entries / 218 payload members** verified at `2026-10-16T18:36:37.574686+00:00`; all 29 final original PNGs and all three native files plus GLB verified.
+- [Complete ZIP](https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-candidate-20261016-1b7150d6ce45.zip) · [Public verification receipt](https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-verification-1b7150d6ce45.json) · [Append-only storage ledger](https://github.com/dreamer2664/storagecode/commit/2f45bfea2efe5c6039a38a93d8dfb270942c7a9e).
+- Archive SHA-256: `70130eb4f823fc274e52191dadde47bf75de68b2414b260d7f74c11f22b3b118`.
+- Receipt SHA-256: `7d2c54646510e7a6328bb569f0d0fe757d16ff7d3bb830939e8fcec95962e2ef`.
+- Independent non-owner acceptance is still **pending**. This is publication/integrity verification, not self-review or a vote.
