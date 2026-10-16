@@ -8,6 +8,7 @@ import model_lib as g
 D=json.loads((ROOT/'design/programme.json').read_text());bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):bpy.data.collections.remove(c)
 g.materials();s=bpy.context.scene;s.unit_settings.system='METRIC';s.unit_settings.scale_length=1;s.render.engine='CYCLES';s.cycles.samples=24;s.cycles.use_denoising=False
+s.cycles.max_bounces=6;s.cycles.diffuse_bounces=2;s.cycles.glossy_bounces=2;s.cycles.transmission_bounces=4;s.cycles.transparent_max_bounces=4;s.cycles.volume_bounces=0;s.cycles.caustics_reflective=False;s.cycles.caustics_refractive=False;s.cycles.sample_clamp_indirect=3
 s.view_settings.view_transform='AgX';s.render.resolution_x=1920;s.render.resolution_y=1080;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG'
 s['project']='Casa dei Colori';s['stage']='Detailed architectural development; independent acceptance outstanding';s['floor_count']=6;s['code_approval']=False
 s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs['Color'].default_value=(.69,.79,1,1);s.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.35
@@ -83,7 +84,7 @@ def facade(l,z,clear,col):
     center=(q['a']+q['b'])/2;width=q['b']-q['a'];height=q['head']-q['sill'];rotation={'S':0,'N':math.pi,'W':-math.pi/2,'E':math.pi/2}[face]
     origin={'S':(center,.15,z+q['sill']),'N':(center,19.85,z+q['sill']),'W':(.15,center,z+q['sill']),'E':(25.85,center,z+q['sill'])}[face]
     with g.scope(col,origin=origin,angle=rotation,role='window',room_id=q['room']):
-     for x in [-width/2,width/2]:g.box(lid+'_WINDOW_REVEAL',(x,-.04,height/2),(.13,.48,height+.14),'Terracotta',.018)
+     for x in [-width/2,width/2]:g.box(lid+'_WINDOW_REVEAL',(x,-.04,height/2),(.13,.48,height-.12),'Terracotta',.018)
      for zz in [0,height]:g.box(lid+'_WINDOW_SILL',(0,-.04,zz),(width+.18,.48,.12),'Terracotta',.015)
      for x in [-width/2+.055,0,width/2-.055]:g.box(lid+'_WINDOW_MULLION',(x,.015,height/2),(.045,.09,height),'Teal',.005)
      for zz in [.045,height-.045]:g.box(lid+'_WINDOW_FRAME',(0,.015,zz),(width,.09,.045),'Teal',.005)
