@@ -194,7 +194,9 @@ for l in D['levels']:
     elif r['kind']=='bedroom':
      north=y>10;east_head=(not (r['home'] or '').endswith('B')) if north else int(lid[-1])%2==1
      f.bed(r['id'],w-1.25 if east_head else 1.25,d*(.585 if north else .57),angle=-math.pi/2 if east_head else math.pi/2,width=1.6 if w>3.2 else 1.4)
-     if north:f.wardrobe(r['id']+'_WARDROBE',1.2,.33,width=1.8)
+     # North-home wardrobe is on the bedroom's SOUTH wall. Its actual
+     # door panels/handles must face NORTH into the room, not into that wall.
+     if north:f.wardrobe(r['id']+'_WARDROBE',1.2,.33,width=1.8,angle=math.pi)
      else:f.wardrobe(r['id']+'_WARDROBE',.34 if east_head else w-.34,d-1.03,width=1.65,angle=math.pi/2 if east_head else -math.pi/2)
      art(r['id']+'_ART',.06 if east_head else w-.06,d*.75 if north else d*.43,1.7,.85,-math.pi/2 if east_head else math.pi/2)
     elif r['kind']=='bathroom':f.bathroom(r['id'],0,0,w,d)
@@ -235,7 +237,8 @@ for l in D['levels']:
    g.camera('CAM_'+lid+'_DETAIL',(x+1.1,yy-.40,z+1.62),(x+1.2,y+1.35,z+1.1),lens=18)
   elif lid=='L05':
    rr=next(r for r in l['rooms'] if (r['home'] or '').endswith('B') and r['kind']=='bedroom');x,y,xx,yy=rr['rect']
-   g.camera('CAM_'+lid+'_DETAIL',(x+.65,y+.95,z+1.62),(xx-.75,yy-.9,z+1.15),lens=22)
+   # NE aisle toward actual bed/headboard and now inward-facing storage.
+   g.camera('CAM_'+lid+'_DETAIL',(xx-.60,yy-.56,z+1.62),(x+1.25,y+1.92,z+1.0),lens=22)
   else:
    rooms=[r for r in l['rooms'] if (r['home'] or '').endswith('C') and r['kind']=='bedroom'];rr=rooms[-1] if lid=='L04' else rooms[0];x,y,xx,yy=rr['rect']
    # The previous north-east camera intersected a wardrobe: move to clear south-east aisle.
