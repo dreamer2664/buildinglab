@@ -1,7 +1,29 @@
-# python bytecode — never track
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
 
-# local scratch
+# Blender backup/scratch and generated scene binaries: archive release artifacts in storagecode
+*.blend
+*.blend1
+*.blend2
+*.blend3
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.mtl
+*.usd
+*.usdz
+
+# Render outputs and caches (only reviewed final evidence goes to storagecode)
+renders/working/
+renders/tmp/
+.cache/
+*.tmp
 *.log
-.tmp/
+*.bak
+*.blend1
+
+# local Blender/user state
+.blender/
+.blender*
