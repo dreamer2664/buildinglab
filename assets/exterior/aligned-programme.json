@@ -307,7 +307,7 @@
           "y": 7.2,
           "width": 1,
           "external": false,
-          "swing_sign": -1,
+          "swing_sign": 1,
           "hinge_side": -1,
           "opening_degrees": 90,
           "hinge_recess_m": 0

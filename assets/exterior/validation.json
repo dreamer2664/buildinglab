@@ -1,46 +1,116 @@
 {
+  "actual_lift_geometry_checks": {
+    "scope": "actual geometric samples; not an engineering/code certificate",
+    "upper_shaft_samples": [
+      {
+        "level": "L02",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L03",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L04",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L05",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L06",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      }
+    ],
+    "cab_floor_top_m": 0.03999999910593033,
+    "landing_top_m": 0.03999999538064003,
+    "ground_portal_samples": [
+      {
+        "x_m": 12.51,
+        "hits": []
+      },
+      {
+        "x_m": 12.76,
+        "hits": []
+      },
+      {
+        "x_m": 13,
+        "hits": []
+      },
+      {
+        "x_m": 13.24,
+        "hits": []
+      },
+      {
+        "x_m": 13.49,
+        "hits": []
+      }
+    ],
+    "errors": []
+  },
   "stage": "mechanical shell only, not code/visual/independent acceptance",
   "levels": [
     {
       "level": "L01",
       "slab_objects": 28,
       "glazing_meshes": 45,
-      "objects": 803,
+      "objects": 806,
       "floor_m": 0
     },
     {
       "level": "L02",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 850,
+      "objects": 853,
       "floor_m": 3.8
     },
     {
       "level": "L03",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 850,
+      "objects": 853,
       "floor_m": 7.0
     },
     {
       "level": "L04",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 848,
+      "objects": 851,
       "floor_m": 10.2
     },
     {
       "level": "L05",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 850,
+      "objects": 853,
       "floor_m": 13.400000000000002
     },
     {
       "level": "L06",
       "slab_objects": 23,
       "glazing_meshes": 63,
-      "objects": 760,
+      "objects": 763,
       "floor_m": 16.6
     }
   ],
