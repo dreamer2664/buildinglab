@@ -1,0 +1,50 @@
+{
+  "stage": "mechanical shell only, not code/visual/independent acceptance",
+  "levels": [
+    {
+      "level": "L01",
+      "slab_objects": 28,
+      "glazing_meshes": 45,
+      "objects": 790,
+      "floor_m": 0
+    },
+    {
+      "level": "L02",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 833,
+      "floor_m": 3.8
+    },
+    {
+      "level": "L03",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 833,
+      "floor_m": 7.0
+    },
+    {
+      "level": "L04",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 831,
+      "floor_m": 10.2
+    },
+    {
+      "level": "L05",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 833,
+      "floor_m": 13.400000000000002
+    },
+    {
+      "level": "L06",
+      "slab_objects": 23,
+      "glazing_meshes": 63,
+      "objects": 747,
+      "floor_m": 16.6
+    }
+  ],
+  "missing_external": [],
+  "errors": [],
+  "blender": "4.3.2"
+}
