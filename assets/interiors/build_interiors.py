@@ -104,16 +104,16 @@ def public(r,l,clear):
    for py in [d/2-.18,d/2+.18]:g.rod(n+'_BREW_GROUP',(w-.66,py,1.36),(w-.68,py,1.17),.05,'Steel');g.lathe(n+'_ESPRESSO_CUP',(w-.68,py,1.01),[(.04,0),(.05,.07),(.04,.071)],'Porcelain',16)
    g.box(n+'_MENU',(w-.08,d/2,1.98),(.03,1.3,.63),'Teal',.03)
  elif id=='LOBBY':
-  with g.scope(fixture='reception'):
+  with g.scope(origin=(g.ORIGIN.x+.6,g.ORIGIN.y,g.ORIGIN.z),fixture='reception'):
    # Raised visitor ledge plus lower staff worktop/knee space; chair faces the worktop.
    g.box(n+'_DESK_FRONT',(1.65,1.7,.54),(2.05,.40,1.04),'Oak',.035);g.box(n+'_TRANSACTION_TOP',(1.65,1.7,1.10),(2.14,.48,.07),'Terrazzo',.025)
-   g.box(n+'_STAFF_WORKTOP',(1.65,2.2,.78),(2.05,.65,.065),'Oak',.02)
-   for px in [.85,2.45]:g.box(n+'_DESK_PEDESTAL',(px,2.2,.375),(.42,.64,.75),'Oak',.02)
+   g.box(n+'_STAFF_WORKTOP',(1.65,2.0,.78),(2.05,.65,.065),'Oak',.02)
+   for px in [.85,2.45]:g.box(n+'_DESK_PEDESTAL',(px,2.0,.375),(.42,.64,.75),'Oak',.02)
    for px in [.99,1.65,2.31]:
     g.box(n+'_DESK_PANEL',(px,1.485,.56),(.61,.025,.89),'Teal',.015);g.rod(n+'_DESK_HANDLE',(px-.10,1.458,.73),(px+.10,1.458,.73),.009,'Bronze')
-   g.box(n+'_MONITOR_BASE',(1.65,2.25,.8275),(.30,.20,.03),'Black',.01);g.rod(n+'_MONITOR_STAND',(1.65,2.25,.84),(1.65,2.25,.99),.025,'Black')
-   g.box(n+'_MONITOR',(1.65,2.25,1.04),(.58,.05,.36),'Black',.015);g.box(n+'_MONITOR_SCREEN',(1.65,2.278,1.04),(.53,.008,.31),'Teal',.008)
-   f.chair(n+'_RECEPTION_CHAIR',1.65,3.1,0)
+   g.box(n+'_MONITOR_BASE',(1.65,2.05,.8275),(.30,.20,.03),'Black',.01);g.rod(n+'_MONITOR_STAND',(1.65,2.05,.84),(1.65,2.05,.99),.025,'Black')
+   g.box(n+'_MONITOR',(1.65,2.05,1.04),(.58,.05,.36),'Black',.015);g.box(n+'_MONITOR_SCREEN',(1.65,2.078,1.04),(.53,.008,.31),'Teal',.008)
+   f.chair(n+'_RECEPTION_CHAIR',1.65,2.6,0)
   with g.scope(fixture='mail_parcel'):
    for row in range(4):
     for col in range(4):
