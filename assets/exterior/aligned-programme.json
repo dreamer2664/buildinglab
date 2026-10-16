@@ -264,7 +264,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_stair_A",
@@ -274,7 +278,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_stair_B",
@@ -284,7 +292,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_LOBBY_entry",
@@ -294,7 +306,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_BIKES_entry",
@@ -304,7 +320,11 @@
           "x": 18,
           "y": 7.2,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_WASTE_external",
@@ -314,7 +334,11 @@
           "x": 25.7,
           "y": 3.70588,
           "width": 1.2,
-          "external": true
+          "external": true,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_NEIGHBOUR_entry",
@@ -324,7 +348,11 @@
           "x": 7.4,
           "y": 12.8,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_WC_entry",
@@ -334,7 +362,11 @@
           "x": 10,
           "y": 12.8,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_PLANT_entry",
@@ -344,7 +376,11 @@
           "x": 16.5,
           "y": 12.8,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_PARCEL_entry",
@@ -354,7 +390,11 @@
           "x": 20,
           "y": 12.8,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_cafe",
@@ -364,7 +404,11 @@
           "x": 10.4,
           "y": 5.08235,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_cafe_prep",
@@ -374,7 +418,11 @@
           "x": 7.6,
           "y": 5.08235,
           "width": 1.3,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_prep_service",
@@ -384,7 +432,11 @@
           "x": 9,
           "y": 4.02353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_vestibule",
@@ -394,7 +446,11 @@
           "x": 13,
           "y": 3.07059,
           "width": 1.5,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_entrance",
@@ -404,7 +460,11 @@
           "x": 13,
           "y": 0.31765,
           "width": 1.8,
-          "external": true
+          "external": true,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_cleaner",
@@ -414,7 +474,11 @@
           "x": 8.6,
           "y": 17.88235,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_exit_A",
@@ -424,7 +488,11 @@
           "x": 0.3,
           "y": 7.75,
           "width": 1.1,
-          "external": true
+          "external": true,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L01_exit_B",
@@ -434,7 +502,11 @@
           "x": 25.7,
           "y": 7.75,
           "width": 1.1,
-          "external": true
+          "external": true,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     },
@@ -776,7 +848,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_stair_A",
@@ -786,7 +862,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_stair_B",
@@ -796,7 +876,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2A_entry",
@@ -806,7 +890,11 @@
           "x": 8.000000000000002,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2A_living",
@@ -816,7 +904,11 @@
           "x": 7.2,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2A_bathdoor",
@@ -826,7 +918,11 @@
           "x": 8.800000000000002,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2A_beddoor",
@@ -836,7 +932,11 @@
           "x": 8.800000000000002,
           "y": 16.98235,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2B_entry",
@@ -846,7 +946,11 @@
           "x": 18.0,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2B_living",
@@ -856,7 +960,11 @@
           "x": 18.799999999999997,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2B_bathdoor",
@@ -866,7 +974,11 @@
           "x": 17.199999999999996,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2B_beddoor",
@@ -876,7 +988,11 @@
           "x": 17.199999999999996,
           "y": 16.98235,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2C_beddoor1",
@@ -886,7 +1002,11 @@
           "x": 16.964,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2C_beddoor2",
@@ -896,7 +1016,11 @@
           "x": 20.492,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2C_entry",
@@ -906,7 +1030,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 160,
+          "hinge_recess_m": 0.13
         },
         {
           "id": "L02_2C_living",
@@ -916,7 +1044,11 @@
           "x": 10.8,
           "y": 5.61176,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2C_storedoor",
@@ -926,7 +1058,11 @@
           "x": 22.856,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_2C_bathdoor",
@@ -936,7 +1072,11 @@
           "x": 24.628,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L02_reading",
@@ -946,7 +1086,11 @@
           "x": 5.5,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     },
@@ -1288,7 +1432,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_stair_A",
@@ -1298,7 +1446,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_stair_B",
@@ -1308,7 +1460,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3A_entry",
@@ -1318,7 +1474,11 @@
           "x": 7.6000000000000005,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3A_living",
@@ -1328,7 +1488,11 @@
           "x": 6.8,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3A_bathdoor",
@@ -1338,7 +1502,11 @@
           "x": 8.400000000000002,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3A_beddoor",
@@ -1348,7 +1516,11 @@
           "x": 8.400000000000002,
           "y": 17.24706,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3B_entry",
@@ -1358,7 +1530,11 @@
           "x": 18.4,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3B_living",
@@ -1368,7 +1544,11 @@
           "x": 19.2,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3B_bathdoor",
@@ -1378,7 +1558,11 @@
           "x": 17.599999999999998,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3B_beddoor",
@@ -1388,7 +1572,11 @@
           "x": 17.599999999999998,
           "y": 17.24706,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3C_beddoor1",
@@ -1398,7 +1586,11 @@
           "x": 16.964,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3C_beddoor2",
@@ -1408,7 +1600,11 @@
           "x": 20.492,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3C_entry",
@@ -1418,7 +1614,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 160,
+          "hinge_recess_m": 0.13
         },
         {
           "id": "L03_3C_living",
@@ -1428,7 +1628,11 @@
           "x": 10.8,
           "y": 5.61176,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3C_storedoor",
@@ -1438,7 +1642,11 @@
           "x": 22.856,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_3C_bathdoor",
@@ -1448,7 +1656,11 @@
           "x": 24.628,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L03_reading",
@@ -1458,7 +1670,11 @@
           "x": 5.5,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     },
@@ -1800,7 +2016,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_stair_A",
@@ -1810,7 +2030,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_stair_B",
@@ -1820,7 +2044,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4A_entry",
@@ -1830,7 +2058,11 @@
           "x": 7.800000000000001,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4A_living",
@@ -1840,7 +2072,11 @@
           "x": 7.0,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4A_bathdoor",
@@ -1850,7 +2086,11 @@
           "x": 8.600000000000001,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4A_beddoor",
@@ -1860,7 +2100,11 @@
           "x": 8.600000000000001,
           "y": 16.98235,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4B_entry",
@@ -1870,7 +2114,11 @@
           "x": 18.2,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4B_living",
@@ -1880,7 +2128,11 @@
           "x": 19.0,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4B_bathdoor",
@@ -1890,7 +2142,11 @@
           "x": 17.4,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4B_beddoor",
@@ -1900,7 +2156,11 @@
           "x": 17.4,
           "y": 16.98235,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4C_beddoor1",
@@ -1910,7 +2170,11 @@
           "x": 16.964,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4C_beddoor2",
@@ -1920,7 +2184,11 @@
           "x": 20.492,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4C_entry",
@@ -1930,7 +2198,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 160,
+          "hinge_recess_m": 0.13
         },
         {
           "id": "L04_4C_living",
@@ -1940,7 +2212,11 @@
           "x": 10.8,
           "y": 5.61176,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4C_storedoor",
@@ -1950,7 +2226,11 @@
           "x": 22.856,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_4C_bathdoor",
@@ -1960,7 +2240,11 @@
           "x": 24.628,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L04_reading",
@@ -1970,7 +2254,11 @@
           "x": 5.5,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     },
@@ -2312,7 +2600,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_stair_A",
@@ -2322,7 +2614,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_stair_B",
@@ -2332,7 +2628,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5A_entry",
@@ -2342,7 +2642,11 @@
           "x": 8.000000000000002,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5A_living",
@@ -2352,7 +2656,11 @@
           "x": 7.2,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5A_bathdoor",
@@ -2362,7 +2670,11 @@
           "x": 8.800000000000002,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5A_beddoor",
@@ -2372,7 +2684,11 @@
           "x": 8.800000000000002,
           "y": 17.24706,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5B_entry",
@@ -2382,7 +2698,11 @@
           "x": 18.0,
           "y": 12.8,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5B_living",
@@ -2392,7 +2712,11 @@
           "x": 18.799999999999997,
           "y": 14.12353,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5B_bathdoor",
@@ -2402,7 +2726,11 @@
           "x": 17.199999999999996,
           "y": 14.12353,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5B_beddoor",
@@ -2412,7 +2740,11 @@
           "x": 17.199999999999996,
           "y": 17.24706,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5C_beddoor1",
@@ -2422,7 +2754,11 @@
           "x": 16.964,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5C_beddoor2",
@@ -2432,7 +2768,11 @@
           "x": 20.492,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5C_entry",
@@ -2442,7 +2782,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 160,
+          "hinge_recess_m": 0.13
         },
         {
           "id": "L05_5C_living",
@@ -2452,7 +2796,11 @@
           "x": 10.8,
           "y": 5.61176,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5C_storedoor",
@@ -2462,7 +2810,11 @@
           "x": 22.856,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_5C_bathdoor",
@@ -2472,7 +2824,11 @@
           "x": 24.628,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L05_reading",
@@ -2482,7 +2838,11 @@
           "x": 5.5,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     },
@@ -2756,7 +3116,11 @@
           "x": 13,
           "y": 9.74545,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_stair_A",
@@ -2766,7 +3130,11 @@
           "x": 4.7,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_stair_B",
@@ -2776,7 +3144,11 @@
           "x": 21.3,
           "y": 7.75,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": 1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6A_beddoor1",
@@ -2786,7 +3158,11 @@
           "x": 13.604000000000001,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6A_beddoor2",
@@ -2796,7 +3172,11 @@
           "x": 18.412,
           "y": 5.61176,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6A_entry",
@@ -2806,7 +3186,11 @@
           "x": 13,
           "y": 7.2,
           "width": 1.0,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 160,
+          "hinge_recess_m": 0.13
         },
         {
           "id": "L06_6A_living",
@@ -2816,7 +3200,11 @@
           "x": 5.7,
           "y": 5.61176,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6A_storedoor",
@@ -2826,7 +3214,11 @@
           "x": 21.416,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6A_bathdoor",
@@ -2836,7 +3228,11 @@
           "x": 23.907999999999998,
           "y": 5.61176,
           "width": 0.8,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6B_entry",
@@ -2846,7 +3242,11 @@
           "x": 16.0,
           "y": 12.8,
           "width": 1,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6B_beddoor",
@@ -2856,7 +3256,11 @@
           "x": 15.1,
           "y": 17.45882,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6B_bathdoor",
@@ -2866,7 +3270,11 @@
           "x": 15.1,
           "y": 14.22941,
           "width": 0.9,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_6B_living",
@@ -2876,7 +3284,11 @@
           "x": 16.900000000000002,
           "y": 14.17647,
           "width": 1.1,
-          "external": false
+          "external": false,
+          "swing_sign": -1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         },
         {
           "id": "L06_garden",
@@ -2886,7 +3298,11 @@
           "x": 7.8,
           "y": 12.8,
           "width": 1.2,
-          "external": false
+          "external": false,
+          "swing_sign": 1,
+          "hinge_side": -1,
+          "opening_degrees": 90,
+          "hinge_recess_m": 0
         }
       ]
     }

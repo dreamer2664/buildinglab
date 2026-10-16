@@ -5,42 +5,42 @@
       "level": "L01",
       "slab_objects": 28,
       "glazing_meshes": 45,
-      "objects": 790,
+      "objects": 803,
       "floor_m": 0
     },
     {
       "level": "L02",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 833,
+      "objects": 850,
       "floor_m": 3.8
     },
     {
       "level": "L03",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 833,
+      "objects": 850,
       "floor_m": 7.0
     },
     {
       "level": "L04",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 831,
+      "objects": 848,
       "floor_m": 10.2
     },
     {
       "level": "L05",
       "slab_objects": 23,
       "glazing_meshes": 66,
-      "objects": 833,
+      "objects": 850,
       "floor_m": 13.400000000000002
     },
     {
       "level": "L06",
       "slab_objects": 23,
       "glazing_meshes": 63,
-      "objects": 747,
+      "objects": 760,
       "floor_m": 16.6
     }
   ],
