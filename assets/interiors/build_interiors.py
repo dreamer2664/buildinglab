@@ -133,11 +133,11 @@ def public(r,l,clear):
   with g.scope(fixture='plant_equipment'):
    for py in [2,4.5]:
     g.lathe(n+'_DHW_CYLINDER',(1.1,py,.08),[(.35,0),(.43,.1),(.43,1.62),(.33,1.75),(.10,1.78)],'Steel',32)
-    g.rod(n+'_HOT_PIPE',(1.1,py,1.85),(1.1,py,2.45),.04,'Bronze');g.rod(n+'_SUPPLY_PIPE',(1.1,py,2.45),(3.6,py,2.45),.04,'Bronze')
+    g.rod(n+'_HOT_PIPE',(1.1,py,1.85),(1.1,py,2.45),.04,'Bronze');g.rod(n+'_SUPPLY_PIPE',(1.1,py,2.45),(w-1,py,2.45),.04,'Bronze')
    for py in [2,4.5]:
     g.box(n+'_HEAT_EXCHANGER',(w-1,py,.75),(1.25,.75,1.3),'Steel',.06)
     for k in range(9):g.box(n+'_VENT',(w-1,py-.39,.35+k*.1),(1.0,.03,.025),'Teal')
-    g.rod(n+'_HEADER',(w-1,py,1.5),(w-1,py,2.45),.055,'Bronze');g.torus(n+'_VALVE',(w-1,py-.15,1.7),.12,.018,'Terracotta',axis='Y')
+    g.rod(n+'_HEADER',(w-1,py,1.4),(w-1,py,2.45),.055,'Bronze');g.torus(n+'_VALVE',(w-1,py-.15,1.7),.12,.018,'Terracotta',axis='Y')
    g.box(n+'_ELECTRICAL_PANEL',(w-.95,d-.2,1.35),(1.7,.30,1.5),'Teal',.025)
    for k in range(6):g.box(n+'_CIRCUIT_BREAKER',(w-1.60+k*.26,d-.365,1.35),(.10,.03,.25),'Black',.008)
    g.box(n+'_DUCT',(w/2,d/2,clear-.30),(.65,d-.3,.40),'Steel',.035)
