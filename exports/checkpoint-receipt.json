@@ -1,42 +1,42 @@
 {
-  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-0f8497096094",
-  "release_id": 415027373,
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+  "release_id": 415124389,
   "stage": "WIP checkpoints, not completed release or independent acceptance",
   "assets": {
     "scene/building-final.blend": {
-      "asset_id": 647512710,
-      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/building-final.blend",
-      "bytes": 15246277,
-      "sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
-      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:34.588841+00:00"
+      "asset_id": 647790619,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/building-final.blend",
+      "bytes": 15277236,
+      "sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:31.193703+00:00"
     },
     "scene/shell.blend": {
-      "asset_id": 647512921,
-      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/shell.blend",
-      "bytes": 2589450,
-      "sha256": "2d924dfe24e6cd1741a3d33718676820154a3c5511b14ef01eb3a19c7550a10b",
-      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:36.316218+00:00"
+      "asset_id": 647790760,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/shell.blend",
+      "bytes": 2604661,
+      "sha256": "e5257e87e7829e26af5f988b52a156c4d87fa706fb6604fae4c913331142a509",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:32.874044+00:00"
     },
     "scene/interiors.blend": {
-      "asset_id": 647512979,
-      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/interiors.blend",
-      "bytes": 4737698,
-      "sha256": "c3a004cdacdc417aed90a8a4495610bce2dab2330465da756ed39d91ab3e7b9e",
-      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:37.788544+00:00"
+      "asset_id": 647790842,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/interiors.blend",
+      "bytes": 4752881,
+      "sha256": "3b29abf5334e8db3e086106a93f2fc14ad7d357ff5a1e4fffe7c5584ee8abb85",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:34.590914+00:00"
     },
     "exports/building-final.glb": {
-      "asset_id": 647513046,
-      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/building-final.glb",
-      "bytes": 56656680,
-      "sha256": "da7e163b59d042d6aa9ccea170251e9e99ff25fe4261b1d8fb50f4ae522287bb",
-      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:01:43.957102+00:00"
+      "asset_id": 647790917,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/building-final.glb",
+      "bytes": 56743488,
+      "sha256": "06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:44:40.666196+00:00"
     },
-    "renders/final/exterior-day.png": {
-      "asset_id": 647524736,
-      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-0f8497096094/exterior-day.png",
-      "bytes": 3575967,
-      "sha256": "4cf634a599282cfb7216502952e6cd3e8f0cdcb94cc5038c310254c2d71b2499",
-      "public_unauthenticated_redownload_verified_utc": "2026-10-16T14:06:06.095961+00:00"
+    "renders/final/L05-detail.png": {
+      "asset_id": 647800307,
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/L05-detail.png",
+      "bytes": 1501142,
+      "sha256": "28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d",
+      "public_unauthenticated_redownload_verified_utc": "2026-10-16T15:48:02.068797+00:00"
     }
   }
 }

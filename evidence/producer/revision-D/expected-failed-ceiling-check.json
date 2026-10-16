@@ -1,0 +1,1840 @@
+{
+  "ceiling_edge_checks": [
+    {
+      "room": "L01_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_CAFE",
+      "actual_xy_bounds": [
+        0.3000001907348633,
+        0.31765007972717285,
+        7.5,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        7.5,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_PREP",
+      "actual_xy_bounds": [
+        7.699999809265137,
+        0.31765007972717285,
+        10.300000190734863,
+        3.917649984359741
+      ],
+      "room_bounds": [
+        7.7,
+        0.31765,
+        10.3,
+        3.91765
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_CAFE_PASS",
+      "actual_xy_bounds": [
+        7.699999809265137,
+        4.1294097900390625,
+        10.300000190734863,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        7.7,
+        4.12941,
+        10.3,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_VESTIBULE",
+      "actual_xy_bounds": [
+        10.5,
+        0.31765007972717285,
+        15.5,
+        2.964709997177124
+      ],
+      "room_bounds": [
+        10.5,
+        0.31765,
+        15.5,
+        2.96471
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_LOBBY",
+      "actual_xy_bounds": [
+        10.5,
+        3.1764698028564453,
+        15.5,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        10.5,
+        3.17647,
+        15.5,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_BIKES",
+      "actual_xy_bounds": [
+        15.700000762939453,
+        0.31765007972717285,
+        20.5,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        15.7,
+        0.31765,
+        20.5,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_WASTE",
+      "actual_xy_bounds": [
+        20.700000762939453,
+        0.31765007972717285,
+        25.700000762939453,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        20.7,
+        0.31765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_NEIGHBOUR",
+      "actual_xy_bounds": [
+        0.3000001907348633,
+        12.799999237060547,
+        8.5,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        8.5,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_WC",
+      "actual_xy_bounds": [
+        8.699999809265137,
+        12.800000190734863,
+        11.699999809265137,
+        15.976469993591309
+      ],
+      "room_bounds": [
+        8.7,
+        12.8,
+        11.7,
+        15.97647
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_CLEANER",
+      "actual_xy_bounds": [
+        8.699999809265137,
+        16.18824005126953,
+        11.699999809265137,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        8.7,
+        16.18824,
+        11.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_PLANT",
+      "actual_xy_bounds": [
+        11.899999618530273,
+        12.799999237060547,
+        18.0,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        11.9,
+        12.8,
+        18,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L01_PARCEL",
+      "actual_xy_bounds": [
+        18.200000762939453,
+        12.799999237060547,
+        25.700000762939453,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        18.2,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2A_live",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        12.799999237060547,
+        7.100000381469727,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        7.1000000000000005,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2A_hall",
+      "actual_xy_bounds": [
+        7.300000190734863,
+        12.799999237060547,
+        8.699999809265137,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        7.300000000000001,
+        12.8,
+        8.700000000000001,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2A_bath",
+      "actual_xy_bounds": [
+        8.899999618530273,
+        12.799999237060547,
+        12.899999618530273,
+        15.5
+      ],
+      "room_bounds": [
+        8.900000000000002,
+        12.8,
+        12.9,
+        15.5
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2A_bed",
+      "actual_xy_bounds": [
+        8.899999618530273,
+        15.711760520935059,
+        12.899999618530273,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        8.900000000000002,
+        15.71176,
+        12.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2B_live",
+      "actual_xy_bounds": [
+        18.899999618530273,
+        12.799999237060547,
+        25.69999885559082,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        18.9,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2B_hall",
+      "actual_xy_bounds": [
+        17.299999237060547,
+        12.799999237060547,
+        18.700000762939453,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        17.299999999999997,
+        12.8,
+        18.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2B_bath",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        12.799999237060547,
+        17.100000381469727,
+        15.5
+      ],
+      "room_bounds": [
+        13.1,
+        12.8,
+        17.099999999999998,
+        15.5
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2B_bed",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        15.711760520935059,
+        17.100000381469727,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        13.1,
+        15.71176,
+        17.099999999999998,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_live",
+      "actual_xy_bounds": [
+        6.5,
+        0.31765007972717285,
+        15.100000381469727,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        6.5,
+        0.31765,
+        15.1,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_hall",
+      "actual_xy_bounds": [
+        6.5,
+        5.717649936676025,
+        25.700000762939453,
+        7.200000286102295
+      ],
+      "room_bounds": [
+        6.5,
+        5.71765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_bed1",
+      "actual_xy_bounds": [
+        15.30000114440918,
+        0.31765007972717285,
+        18.628000259399414,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        15.299999999999999,
+        0.31765,
+        18.628,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_bed2",
+      "actual_xy_bounds": [
+        18.828001022338867,
+        0.31765007972717285,
+        22.1560001373291,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        18.828,
+        0.31765,
+        22.156,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_store",
+      "actual_xy_bounds": [
+        22.356000900268555,
+        0.31765007972717285,
+        23.356000900268555,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        22.356,
+        0.31765,
+        23.356,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_2C_bath",
+      "actual_xy_bounds": [
+        23.555999755859375,
+        0.31765007972717285,
+        25.700000762939453,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        23.556,
+        0.31765,
+        25.7,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L02_READING",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        0.31765007972717285,
+        6.300000190734863,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        6.3,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3A_live",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        12.799999237060547,
+        6.699999809265137,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        6.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3A_hall",
+      "actual_xy_bounds": [
+        6.900000095367432,
+        12.799999237060547,
+        8.300000190734863,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        6.9,
+        12.8,
+        8.3,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3A_bath",
+      "actual_xy_bounds": [
+        8.5,
+        12.800000190734863,
+        12.899999618530273,
+        15.764710426330566
+      ],
+      "room_bounds": [
+        8.500000000000002,
+        12.8,
+        12.9,
+        15.76471
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3A_bed",
+      "actual_xy_bounds": [
+        8.5,
+        15.976470947265625,
+        12.899999618530273,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        8.500000000000002,
+        15.97647,
+        12.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3B_live",
+      "actual_xy_bounds": [
+        19.299999237060547,
+        12.799999237060547,
+        25.700000762939453,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        19.299999999999997,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3B_hall",
+      "actual_xy_bounds": [
+        17.69999885559082,
+        12.799999237060547,
+        19.100000381469727,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        17.7,
+        12.8,
+        19.099999999999998,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3B_bath",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        12.800000190734863,
+        17.5,
+        15.764710426330566
+      ],
+      "room_bounds": [
+        13.1,
+        12.8,
+        17.5,
+        15.76471
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3B_bed",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        15.976470947265625,
+        17.5,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        13.1,
+        15.97647,
+        17.5,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_live",
+      "actual_xy_bounds": [
+        6.5,
+        0.31765007972717285,
+        15.100000381469727,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        6.5,
+        0.31765,
+        15.1,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_hall",
+      "actual_xy_bounds": [
+        6.5,
+        5.717649936676025,
+        25.700000762939453,
+        7.200000286102295
+      ],
+      "room_bounds": [
+        6.5,
+        5.71765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_bed1",
+      "actual_xy_bounds": [
+        15.30000114440918,
+        0.31765007972717285,
+        18.628000259399414,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        15.299999999999999,
+        0.31765,
+        18.628,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_bed2",
+      "actual_xy_bounds": [
+        18.828001022338867,
+        0.31765007972717285,
+        22.1560001373291,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        18.828,
+        0.31765,
+        22.156,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_store",
+      "actual_xy_bounds": [
+        22.356000900268555,
+        0.31765007972717285,
+        23.356000900268555,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        22.356,
+        0.31765,
+        23.356,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_3C_bath",
+      "actual_xy_bounds": [
+        23.555999755859375,
+        0.31765007972717285,
+        25.700000762939453,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        23.556,
+        0.31765,
+        25.7,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L03_READING",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        0.31765007972717285,
+        6.300000190734863,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        6.3,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4A_live",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        12.799999237060547,
+        6.899999618530273,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        6.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4A_hall",
+      "actual_xy_bounds": [
+        7.100000381469727,
+        12.799999237060547,
+        8.5,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        7.1000000000000005,
+        12.8,
+        8.500000000000002,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4A_bath",
+      "actual_xy_bounds": [
+        8.700000762939453,
+        12.799999237060547,
+        12.899999618530273,
+        15.5
+      ],
+      "room_bounds": [
+        8.700000000000001,
+        12.8,
+        12.9,
+        15.5
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4A_bed",
+      "actual_xy_bounds": [
+        8.700000762939453,
+        15.711760520935059,
+        12.899999618530273,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        8.700000000000001,
+        15.71176,
+        12.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4B_live",
+      "actual_xy_bounds": [
+        19.100000381469727,
+        12.799999237060547,
+        25.69999885559082,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        19.099999999999998,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4B_hall",
+      "actual_xy_bounds": [
+        17.5,
+        12.799999237060547,
+        18.900001525878906,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        17.5,
+        12.8,
+        18.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4B_bath",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        12.799999237060547,
+        17.299999237060547,
+        15.5
+      ],
+      "room_bounds": [
+        13.1,
+        12.8,
+        17.299999999999997,
+        15.5
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4B_bed",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        15.711760520935059,
+        17.299999237060547,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        13.1,
+        15.71176,
+        17.299999999999997,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_live",
+      "actual_xy_bounds": [
+        6.5,
+        0.31765007972717285,
+        15.100000381469727,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        6.5,
+        0.31765,
+        15.1,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_hall",
+      "actual_xy_bounds": [
+        6.5,
+        5.717649936676025,
+        25.700000762939453,
+        7.200000286102295
+      ],
+      "room_bounds": [
+        6.5,
+        5.71765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_bed1",
+      "actual_xy_bounds": [
+        15.30000114440918,
+        0.31765007972717285,
+        18.628000259399414,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        15.299999999999999,
+        0.31765,
+        18.628,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_bed2",
+      "actual_xy_bounds": [
+        18.828001022338867,
+        0.31765007972717285,
+        22.1560001373291,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        18.828,
+        0.31765,
+        22.156,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_store",
+      "actual_xy_bounds": [
+        22.356000900268555,
+        0.31765007972717285,
+        23.356000900268555,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        22.356,
+        0.31765,
+        23.356,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_4C_bath",
+      "actual_xy_bounds": [
+        23.555999755859375,
+        0.31765007972717285,
+        25.700000762939453,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        23.556,
+        0.31765,
+        25.7,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L04_READING",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        0.31765007972717285,
+        6.300000190734863,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        6.3,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5A_live",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        12.799999237060547,
+        7.100000381469727,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        7.1000000000000005,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5A_hall",
+      "actual_xy_bounds": [
+        7.300000190734863,
+        12.799999237060547,
+        8.699999809265137,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        7.300000000000001,
+        12.8,
+        8.700000000000001,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5A_bath",
+      "actual_xy_bounds": [
+        8.899999618530273,
+        12.800000190734863,
+        12.899999618530273,
+        15.764710426330566
+      ],
+      "room_bounds": [
+        8.900000000000002,
+        12.8,
+        12.9,
+        15.76471
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5A_bed",
+      "actual_xy_bounds": [
+        8.899999618530273,
+        15.976470947265625,
+        12.899999618530273,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        8.900000000000002,
+        15.97647,
+        12.9,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5B_live",
+      "actual_xy_bounds": [
+        18.899999618530273,
+        12.799999237060547,
+        25.69999885559082,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        18.9,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5B_hall",
+      "actual_xy_bounds": [
+        17.299999237060547,
+        12.799999237060547,
+        18.700000762939453,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        17.299999999999997,
+        12.8,
+        18.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5B_bath",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        12.800000190734863,
+        17.100000381469727,
+        15.764710426330566
+      ],
+      "room_bounds": [
+        13.1,
+        12.8,
+        17.099999999999998,
+        15.76471
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5B_bed",
+      "actual_xy_bounds": [
+        13.100000381469727,
+        15.976470947265625,
+        17.100000381469727,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        13.1,
+        15.97647,
+        17.099999999999998,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_live",
+      "actual_xy_bounds": [
+        6.5,
+        0.31765007972717285,
+        15.100000381469727,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        6.5,
+        0.31765,
+        15.1,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_hall",
+      "actual_xy_bounds": [
+        6.5,
+        5.717649936676025,
+        25.700000762939453,
+        7.200000286102295
+      ],
+      "room_bounds": [
+        6.5,
+        5.71765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_bed1",
+      "actual_xy_bounds": [
+        15.30000114440918,
+        0.31765007972717285,
+        18.628000259399414,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        15.299999999999999,
+        0.31765,
+        18.628,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_bed2",
+      "actual_xy_bounds": [
+        18.828001022338867,
+        0.31765007972717285,
+        22.1560001373291,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        18.828,
+        0.31765,
+        22.156,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_store",
+      "actual_xy_bounds": [
+        22.356000900268555,
+        0.31765007972717285,
+        23.356000900268555,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        22.356,
+        0.31765,
+        23.356,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_5C_bath",
+      "actual_xy_bounds": [
+        23.555999755859375,
+        0.31765007972717285,
+        25.700000762939453,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        23.556,
+        0.31765,
+        25.7,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L05_READING",
+      "actual_xy_bounds": [
+        0.2999999523162842,
+        0.31765007972717285,
+        6.300000190734863,
+        7.199999809265137
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        6.3,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_CORE",
+      "actual_xy_bounds": [
+        4.699999809265137,
+        7.199999809265137,
+        21.299999237060547,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        4.7,
+        7.2,
+        21.3,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_RISER_W",
+      "actual_xy_bounds": [
+        10.5,
+        10.763640403747559,
+        11.600000381469727,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        10.5,
+        10.76364,
+        11.6,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_RISER_E",
+      "actual_xy_bounds": [
+        14.399999618530273,
+        10.763640403747559,
+        15.5,
+        12.800000190734863
+      ],
+      "room_bounds": [
+        14.4,
+        10.76364,
+        15.5,
+        12.8
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_live",
+      "actual_xy_bounds": [
+        0.2999997138977051,
+        0.31765007972717285,
+        11.100000381469727,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        0.3,
+        0.31765,
+        11.100000000000001,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_hall",
+      "actual_xy_bounds": [
+        0.3000001907348633,
+        5.717649936676025,
+        25.700000762939453,
+        7.200000286102295
+      ],
+      "room_bounds": [
+        0.3,
+        5.71765,
+        25.7,
+        7.2
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_bed1",
+      "actual_xy_bounds": [
+        11.300000190734863,
+        0.31765007972717285,
+        15.907999992370605,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        11.3,
+        0.31765,
+        15.908000000000001,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_bed2",
+      "actual_xy_bounds": [
+        16.108001708984375,
+        0.31765007972717285,
+        20.715999603271484,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        16.108,
+        0.31765,
+        20.716,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_store",
+      "actual_xy_bounds": [
+        20.916000366210938,
+        0.31765007972717285,
+        21.916000366210938,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        20.916,
+        0.31765,
+        21.916,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6A_bath",
+      "actual_xy_bounds": [
+        22.11600112915039,
+        0.31765007972717285,
+        25.700000762939453,
+        5.505880355834961
+      ],
+      "room_bounds": [
+        22.116,
+        0.31765,
+        25.7,
+        5.50588
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6B_bed",
+      "actual_xy_bounds": [
+        10.5,
+        15.870590209960938,
+        15.0,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        10.5,
+        15.87059,
+        15.0,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6B_bath",
+      "actual_xy_bounds": [
+        10.5,
+        12.800000190734863,
+        15.0,
+        15.658820152282715
+      ],
+      "room_bounds": [
+        10.5,
+        12.8,
+        15.0,
+        15.65882
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6B_hall",
+      "actual_xy_bounds": [
+        15.199999809265137,
+        12.799999237060547,
+        16.799999237060547,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        15.2,
+        12.8,
+        16.8,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_6B_live",
+      "actual_xy_bounds": [
+        17.0,
+        12.799999237060547,
+        25.700000762939453,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        17.0,
+        12.8,
+        25.7,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    },
+    {
+      "room": "L06_WINTER_GARDEN",
+      "actual_xy_bounds": [
+        0.3000001907348633,
+        12.799999237060547,
+        10.300000190734863,
+        19.682350158691406
+      ],
+      "room_bounds": [
+        0.3,
+        12.8,
+        10.3,
+        19.68235
+      ],
+      "at_least_25mm_overlap": false
+    }
+  ],
+  "actual_lift_geometry_checks": {
+    "scope": "actual geometric samples; not an engineering/code certificate",
+    "upper_shaft_samples": [
+      {
+        "level": "L02",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L03",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L04",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L05",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L06",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      }
+    ],
+    "cab_floor_top_m": 0.03999999910593033,
+    "landing_top_m": 0.03999999538064003,
+    "ground_portal_samples": [
+      {
+        "x_m": 12.51,
+        "hits": []
+      },
+      {
+        "x_m": 12.76,
+        "hits": []
+      },
+      {
+        "x_m": 13,
+        "hits": []
+      },
+      {
+        "x_m": 13.24,
+        "hits": []
+      },
+      {
+        "x_m": 13.49,
+        "hits": []
+      }
+    ],
+    "errors": []
+  },
+  "stage": "mechanical shell only, not code/visual/independent acceptance",
+  "levels": [
+    {
+      "level": "L01",
+      "slab_objects": 28,
+      "glazing_meshes": 45,
+      "objects": 806,
+      "floor_m": 0
+    },
+    {
+      "level": "L02",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 853,
+      "floor_m": 3.8
+    },
+    {
+      "level": "L03",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 853,
+      "floor_m": 7.0
+    },
+    {
+      "level": "L04",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 851,
+      "floor_m": 10.2
+    },
+    {
+      "level": "L05",
+      "slab_objects": 23,
+      "glazing_meshes": 66,
+      "objects": 853,
+      "floor_m": 13.400000000000002
+    },
+    {
+      "level": "L06",
+      "slab_objects": 23,
+      "glazing_meshes": 63,
+      "objects": 763,
+      "floor_m": 16.6
+    }
+  ],
+  "missing_external": [],
+  "errors": [
+    "L01_CORE ceiling finish does not overlap enclosing wall edges",
+    "L01_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L01_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L01_CAFE ceiling finish does not overlap enclosing wall edges",
+    "L01_PREP ceiling finish does not overlap enclosing wall edges",
+    "L01_CAFE_PASS ceiling finish does not overlap enclosing wall edges",
+    "L01_VESTIBULE ceiling finish does not overlap enclosing wall edges",
+    "L01_LOBBY ceiling finish does not overlap enclosing wall edges",
+    "L01_BIKES ceiling finish does not overlap enclosing wall edges",
+    "L01_WASTE ceiling finish does not overlap enclosing wall edges",
+    "L01_NEIGHBOUR ceiling finish does not overlap enclosing wall edges",
+    "L01_WC ceiling finish does not overlap enclosing wall edges",
+    "L01_CLEANER ceiling finish does not overlap enclosing wall edges",
+    "L01_PLANT ceiling finish does not overlap enclosing wall edges",
+    "L01_PARCEL ceiling finish does not overlap enclosing wall edges",
+    "L02_CORE ceiling finish does not overlap enclosing wall edges",
+    "L02_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L02_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L02_2A_live ceiling finish does not overlap enclosing wall edges",
+    "L02_2A_hall ceiling finish does not overlap enclosing wall edges",
+    "L02_2A_bath ceiling finish does not overlap enclosing wall edges",
+    "L02_2A_bed ceiling finish does not overlap enclosing wall edges",
+    "L02_2B_live ceiling finish does not overlap enclosing wall edges",
+    "L02_2B_hall ceiling finish does not overlap enclosing wall edges",
+    "L02_2B_bath ceiling finish does not overlap enclosing wall edges",
+    "L02_2B_bed ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_live ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_hall ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_bed1 ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_bed2 ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_store ceiling finish does not overlap enclosing wall edges",
+    "L02_2C_bath ceiling finish does not overlap enclosing wall edges",
+    "L02_READING ceiling finish does not overlap enclosing wall edges",
+    "L03_CORE ceiling finish does not overlap enclosing wall edges",
+    "L03_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L03_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L03_3A_live ceiling finish does not overlap enclosing wall edges",
+    "L03_3A_hall ceiling finish does not overlap enclosing wall edges",
+    "L03_3A_bath ceiling finish does not overlap enclosing wall edges",
+    "L03_3A_bed ceiling finish does not overlap enclosing wall edges",
+    "L03_3B_live ceiling finish does not overlap enclosing wall edges",
+    "L03_3B_hall ceiling finish does not overlap enclosing wall edges",
+    "L03_3B_bath ceiling finish does not overlap enclosing wall edges",
+    "L03_3B_bed ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_live ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_hall ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_bed1 ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_bed2 ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_store ceiling finish does not overlap enclosing wall edges",
+    "L03_3C_bath ceiling finish does not overlap enclosing wall edges",
+    "L03_READING ceiling finish does not overlap enclosing wall edges",
+    "L04_CORE ceiling finish does not overlap enclosing wall edges",
+    "L04_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L04_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L04_4A_live ceiling finish does not overlap enclosing wall edges",
+    "L04_4A_hall ceiling finish does not overlap enclosing wall edges",
+    "L04_4A_bath ceiling finish does not overlap enclosing wall edges",
+    "L04_4A_bed ceiling finish does not overlap enclosing wall edges",
+    "L04_4B_live ceiling finish does not overlap enclosing wall edges",
+    "L04_4B_hall ceiling finish does not overlap enclosing wall edges",
+    "L04_4B_bath ceiling finish does not overlap enclosing wall edges",
+    "L04_4B_bed ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_live ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_hall ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_bed1 ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_bed2 ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_store ceiling finish does not overlap enclosing wall edges",
+    "L04_4C_bath ceiling finish does not overlap enclosing wall edges",
+    "L04_READING ceiling finish does not overlap enclosing wall edges",
+    "L05_CORE ceiling finish does not overlap enclosing wall edges",
+    "L05_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L05_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L05_5A_live ceiling finish does not overlap enclosing wall edges",
+    "L05_5A_hall ceiling finish does not overlap enclosing wall edges",
+    "L05_5A_bath ceiling finish does not overlap enclosing wall edges",
+    "L05_5A_bed ceiling finish does not overlap enclosing wall edges",
+    "L05_5B_live ceiling finish does not overlap enclosing wall edges",
+    "L05_5B_hall ceiling finish does not overlap enclosing wall edges",
+    "L05_5B_bath ceiling finish does not overlap enclosing wall edges",
+    "L05_5B_bed ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_live ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_hall ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_bed1 ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_bed2 ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_store ceiling finish does not overlap enclosing wall edges",
+    "L05_5C_bath ceiling finish does not overlap enclosing wall edges",
+    "L05_READING ceiling finish does not overlap enclosing wall edges",
+    "L06_CORE ceiling finish does not overlap enclosing wall edges",
+    "L06_RISER_W ceiling finish does not overlap enclosing wall edges",
+    "L06_RISER_E ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_live ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_hall ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_bed1 ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_bed2 ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_store ceiling finish does not overlap enclosing wall edges",
+    "L06_6A_bath ceiling finish does not overlap enclosing wall edges",
+    "L06_6B_bed ceiling finish does not overlap enclosing wall edges",
+    "L06_6B_bath ceiling finish does not overlap enclosing wall edges",
+    "L06_6B_hall ceiling finish does not overlap enclosing wall edges",
+    "L06_6B_live ceiling finish does not overlap enclosing wall edges",
+    "L06_WINTER_GARDEN ceiling finish does not overlap enclosing wall edges"
+  ],
+  "blender": "4.3.2"
+}

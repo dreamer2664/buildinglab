@@ -1,0 +1,28 @@
+{
+  "id": "L06-cutaway",
+  "camera": "CAM_L06_AXON",
+  "level": "L06",
+  "mode": "floor",
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    38.0,
+    -35.0,
+    72.5999984741211
+  ],
+  "camera_lens_mm": 30.0,
+  "camera_type": "ORTHO",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "L06 / FURNISHED FLOOR CUTAWAY",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+  "raw_sha256": "b2ba102a23196223f7e569c1134f679fd346fb85a78a853dfcb9d90ad2f3c11b",
+  "render_completed_utc": "2026-10-16T14:38:56.388244+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

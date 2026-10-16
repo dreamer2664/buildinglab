@@ -26,7 +26,7 @@ for p in (R/'renders/revision-B').glob('*.png'):add(p)
 for folder in ['revision-B3','revision-B4']:
  for p in (R/'evidence/producer'/folder).glob('*.png'):add(p)
 historical_availability=[]
-records=json.loads((R/'assets/interiors/visual-review.json').read_text())['observations']+json.loads((R/'assets/exterior/visual-review.json').read_text())
+records=json.loads((R/'assets/interiors/visual-review.json').read_text())['observations']+json.loads((R/'assets/exterior/visual-review.json').read_text())+json.loads((R/'evidence/producer/visual-review.json').read_text()).get('preflight_inspections',[])
 for record in records:
  p=R/record['image'];available=p.is_file()
  if available:

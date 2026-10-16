@@ -53,9 +53,35 @@ for route in ['A','B']:
    top=max((o.matrix_world@Vector(v)).z for o in parts for v in o.bound_box);target=D['levels'][i+1]['elevation_m']+.04;check(abs(top-target)<.003,lid+' route '+route+' meets next landing');connections.append({'from':lid,'to':D['levels'][i+1]['id'],'route':route,'actual_flight_top_m':top,'next_finish_m':target})
 check(sum('LIFT_PORTAL' in n for o in mesh for n in names_of(o))>=6,'six lift portals');check(any('LIFT_CAB' in n for o in mesh for n in names_of(o)),'physical lift cab')
 check(bpy.data.texts.get('VIEW_MODES.py') is not None,'embedded reversible view switcher');check(len([o for o in s.objects if o.type=='CAMERA'])>=29,'29 saved evidence cameras')
+wardrobe_faces=[]
+for l in D['levels']:
+ for r in l['rooms']:
+  if r['kind']!='bedroom' or r['rect'][1]<=10:continue
+  ys={'Oak':[],'Linen':[]}
+  for o in mesh:
+   if o.get('room_id')!=r['id'] or o.get('fixture')!='storage':continue
+   for poly in o.data.polygons:
+    mat=o.data.materials[poly.material_index].name
+    if mat in ys:ys[mat].append((o.matrix_world@poly.center).y)
+  check(bool(ys['Oak']) and bool(ys['Linen']),r['id']+' actual storage body/panel materials')
+  if all(ys.values()):
+   cy=sum(ys['Oak'])/len(ys['Oak']);py=sum(ys['Linen'])/len(ys['Linen']);delta=py-cy;wardrobe_faces.append({'room':r['id'],'actual_carcass_face_mean_y':cy,'actual_panel_face_mean_y':py,'inward_panel_offset_m':delta});check(delta>.27,r['id']+' storage panels face wall')
+ceiling_edges=[]
+for l in D['levels']:
+ for r in l['rooms']:
+  if r['kind'] in ['stair','elevator']:continue
+  obs=[o for o in mesh if o.get('role')=='ceiling' and o.get('room_id')==r['id']];check(bool(obs),r['id']+' actual room-tagged ceiling finish')
+  x,y,xx,yy=r['rect'];z=l['elevation_m']+l['storey_height_m']-.22;clear=[]
+  for px,py in [(x-.02,y-.02),(xx+.02,y-.02),(x-.02,yy+.02),(xx+.02,yy+.02)]:
+   found=False
+   for o in obs:
+    inv=o.matrix_world.inverted();a=inv@Vector((px,py,z-.10));b=inv@Vector((px,py,z+.10));v=b-a
+    if o.ray_cast(a,v.normalized(),distance=v.length)[0]:found=True;break
+   clear.append(found)
+  ceiling_edges.append({'room':r['id'],'actual_corner_rays_hit_ceiling_finish':clear});check(all(clear),r['id']+' ceiling edge/corner coverage')
 missing=[im.name for im in bpy.data.images if im.source=='FILE' and not im.packed_file and not Path(bpy.path.abspath(im.filepath)).exists()];check(not missing and not bpy.data.libraries,'zero missing external files/libraries');check(not [o for o in s.objects if o.type=='FONT'],'native original stroke geometry, no untracked font dependency')
 roof=bpy.data.collections.get('ROOF');height=max((o.matrix_world@Vector(v)).z for o in roof.objects if o.type=='MESH' for v in o.bound_box);check(abs(height-21.12)<.015,'actual roof/parapet overall height')
-report={'status':'PASS' if not errors else 'FAIL','scope':'mechanical native geometry/inventory only, not a visual or independent acceptance certificate','native_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'blender':bpy.app.version_string,'objects':len(s.objects),'mesh_objects':len(mesh),'actual_used_materials':sorted(palette),'occupied_levels':levels,'homes':homes,'required_L01_rooms':public,'empty_required_rooms':empty,'two_routes_connections':connections,'actual_lift_geometry_checks':lift_report,'reception_clearance':reception_clearance,'overall_height_m':height,'missing_external_files':missing,'errors':errors}
+report={'wardrobe_door_face_checks':wardrobe_faces,'ceiling_finish_edge_checks':ceiling_edges,'status':'PASS' if not errors else 'FAIL','scope':'mechanical native geometry/inventory only, not a visual or independent acceptance certificate','native_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'blender':bpy.app.version_string,'objects':len(s.objects),'mesh_objects':len(mesh),'actual_used_materials':sorted(palette),'occupied_levels':levels,'homes':homes,'required_L01_rooms':public,'empty_required_rooms':empty,'two_routes_connections':connections,'actual_lift_geometry_checks':lift_report,'reception_clearance':reception_clearance,'overall_height_m':height,'missing_external_files':missing,'errors':errors}
 (R/'evidence/producer/scene-validation.json').write_text(json.dumps(report,indent=2)+'\n');(R/'evidence/producer/room-schedule.json').write_text(json.dumps(room_rows,indent=2)+'\n')
 print(json.dumps({k:report[k] for k in ['status','objects','mesh_objects','overall_height_m','empty_required_rooms','missing_external_files','errors']},indent=2))
 if errors:raise RuntimeError('; '.join(errors))

@@ -2,7 +2,7 @@
 
 **work in progress. Independent acceptance: PENDING.**
 
-Current native SHA-256: `0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887`
+Current native SHA-256: `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`
 Explicit individually opened current-source originals: **1/29**. These are agent/producer observations, not an independent human-review certificate.
 
 ## Real inspect → fix → inspect cycles
@@ -36,6 +36,13 @@ Earlier checkpoint narratives are retained as originally logged. Their pending w
 - **issues:** Additional measured reception strips too narrow; black coplanar side slit on primary counter
 - **fix:** Metric west/north circulation guard, repositioned reception/staff side and core-door swing; butt-joined worktop
 - **reinspection:** Frozen C source 0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887; first L01-detail actually opened and clear of the prior slit/framing issue. Other 28 final inspections pending as rendering completes.
+
+### D / actual final-image inspection exposes further function and framing
+- **actually opened:** 20 original 0f campaign images plus explicit 1280x720 noisy bedroom reframing draft (not final). One original L05-detail failed framing.
+- **issues:** Draft revealed wardrobe backside; real component/material-face guards then failed nine north wardrobes; expanded shaft probes failed six ceiling caps; ceiling finishes lacked intended edge overlap. Old limited PASS invalidated.
+- **evidence:** evidence/producer/revision-C/ and revision-D/, original immutable superseded 0f public checkpoint
+- **fix:** Editable-source wardrobe orientation, saved L05 camera, ceiling edge closure and shaft opening; rebuild/export and wholly regenerate campaign.
+- **reinspection:** Pending; no 0f image is counted toward revised-source evidence.
 
 ## Defects and actual reinspection
 
@@ -83,12 +90,35 @@ Earlier checkpoint narratives are retained as originally logged. Their pending w
 - **fix:** Butt-join lower worktop at rear face of tall front and give a non-coplanar overhang.
 - **reinspection:** Actual final 0f849... L01-detail opened; black slit no longer visible.
 
+### C-L05-bedroom-framing — major / closed
+- **issue:** Actual final L05-detail opened: predominantly glazing/wall/door and only bed foot; does not adequately demonstrate bedroom furnishing.
+- **evidence:** evidence/producer/revision-C/inspection.json
+- **fix:** Render-only camera-pose revision from same unchanged saved native; original and revised matrices disclosed. No native/export geometry edit.
+- **reinspection:** Actually opened corrected full-resolution L05-detail original, SHA 28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d, from native 1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f. Clearly visible inward-facing white wardrobe panels/handles and bed/headboard/two pillows/two bedside lamps. All nine actual source component positions and final-batched material-face checks pass, with +0.292m inward panel offset; new saved camera pose recorded in final metadata. Does not grant independent acceptance.
+
+### D-wardrobe-fronts — major / closed
+- **issue:** Actual source and batched-native face-position checks fail for nine north-bedroom wardrobes: panels face the south wall rather than the room.
+- **evidence:** evidence/producer/revision-D/expected-failed-wardrobe-check.json
+- **fix:** Rotate south-wall north-home wardrobes by pi in editable source; strengthened unbatched and batched actual-geometry guards.
+- **reinspection:** Actually opened corrected full-resolution L05-detail original, SHA 28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d, from native 1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f. Clearly visible inward-facing white wardrobe panels/handles and bed/headboard/two pillows/two bedside lamps. All nine actual source component positions and final-batched material-face checks pass, with +0.292m inward panel offset; new saved camera pose recorded in final metadata. Does not grant independent acceptance.
+
+### D-shaft-ceiling-caps — major / open
+- **issue:** Stronger actual shaft ceiling rays hit common ceiling finishes on all six levels; earlier floor-only rays did not cover ceilings.
+- **evidence:** evidence/producer/revision-D/expected-failed-final-native-check.json
+- **fix:** Split common-core ceilings around actual lift shaft and retain explicit ceiling ray guard.
+- **reinspection:** Pending positive actual-source geometry and technical images.
+
+### D-ceiling-finish-edges — minor / open
+- **issue:** Isolated-floor interior views expose small finish-to-wall seams.
+- **fix:** 30mm ceiling finish overlap into enclosing wall faces; actual bounds/corner-ray guards.
+- **reinspection:** Pending rebuilt source and actual interior originals.
+
 ## Individually opened final images
 
-### renders/final/exterior-day.png
-- PNG SHA-256: `4cf634a599282cfb7216502952e6cd3e8f0cdcb94cc5038c310254c2d71b2499`
-- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:06:06.360254+00:00.
-- Observation: Opened regenerated original 3840x2160 after runtime recovery, not inferred from prior inspection. Six occupied facade rows, real framed glazing/reveals, projected balcony slabs/guards, coloured trim, roof parapet/plant/overrun and furnished rooms behind glazing are visible. Entrance canopy, steps/ramp rails, service grilles, paving/benches and secondary trees read correctly. Primary building and roof are not clipped; deliberate secondary site-edge cropping only. No large missing facade patch or empty upper floor is apparent.
+### renders/final/L05-detail.png
+- PNG SHA-256: `28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:48:21.986876+00:00.
+- Observation: Opened corrected 2560x1440 original: bed, green upholstered headboard, two pillows, terracotta runner, both bedside drawers/lamps and two actual inward-facing wardrobe doors with bronze handles are clearly visible. Saved northeast aisle composition replaces the failed wall/window/bedfoot view. Wardrobe door face visible rather than its former blank back; actual native regressions additionally confirm +0.292m inward panel/body offsets in all nine corrected wardrobes. No known major issue in this view; close, deliberately cropped photographic framing, not an entire-room plan.
 - Known critical/major in this view: 0.
 
 ## Boundaries

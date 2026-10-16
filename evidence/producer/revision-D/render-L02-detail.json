@@ -1,0 +1,28 @@
+{
+  "id": "L02-detail",
+  "camera": "CAM_L02_DETAIL",
+  "level": "L02",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    24.6560001373291,
+    5.105879783630371,
+    5.420000076293945
+  ],
+  "camera_lens_mm": 18.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "L02 / HOME 2C \u2014 BATHROOM",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+  "raw_sha256": "0992c9f55cf08c8bfbc65925c59819f2d7dff7063667e100628b43d65707018f",
+  "render_completed_utc": "2026-10-16T14:59:12.645489+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}
