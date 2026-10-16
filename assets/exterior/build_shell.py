@@ -164,7 +164,7 @@ for i,l in enumerate(D['levels']):
    with g.scope(origin=(x,y,z),angle=rz,door_id=d['id']):
     # Open leaves retain visible access. Leaf is perpendicular to closed plane, hinged at left jamb.
     g.box(d['id']+'_LEAF',(-w/2,.48*w,1.07),(.045,w*.95,2.06),'Oak',.012)
-    for q in [-w/2-.045,w/2+.045]:g.box(d['id']+'_JAMB',(q,0,1.12),(.075,.24,2.24),'Walnut',.008)
+    for q in [-w/2-.045,w/2+.045]:g.box(d['id']+'_JAMB',(q,0,1.09),(.075,.24,2.18),'Walnut',.008)
     g.box(d['id']+'_LINTEL',(0,0,2.22),(w+.16,.24,.08),'Walnut',.008)
     g.rod(d['id']+'_LEVER',(-w/2+.035,w*.83,1.03),(-w/2+.14,w*.83,1.03),.016,'Bronze')
  with g.scope(cs['STAIRS'],origin=(0,0,0),level=lid,role='stair'):
