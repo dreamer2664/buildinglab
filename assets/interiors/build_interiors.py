@@ -202,8 +202,10 @@ for l in D['levels']:
    elif 'RISER_' not in r['id']:public(r,l,clear-.04)
    # Every room has an actual fixture and practical light, not one global light.
    with g.scope(fixture='room_lighting'):
-    g.cylinder(r['id']+'_CEILING_DISC',(w/2,d/2,clear-.16),.24,.055,'Bronze',24);g.cylinder(r['id']+'_DIFFUSER',(w/2,d/2,clear-.20),.215,.015,'Glow',24)
-    g.light(r['id']+'_PRACTICAL',(w/2,d/2,clear-.24),180 if r['kind'] in ['living','public','garden'] else 65,size=min(2.5,w*.6,d*.6))
+    centres=[(3.5,1.35),(w-3.5,1.35)] if r['id'].endswith('_CORE') else [(w/2,d/2)]
+    for lx,ly in centres:
+     g.cylinder(r['id']+'_CEILING_DISC',(lx,ly,clear-.16),.24,.055,'Bronze',24);g.cylinder(r['id']+'_DIFFUSER',(lx,ly,clear-.20),.215,.015,'Glow',24)
+     g.light(r['id']+'_PRACTICAL',(lx,ly,clear-.24),180 if r['kind'] in ['living','public','garden'] or r['id'].endswith('_CORE') else 65,size=min(2.5,w*.6,d*.6))
  # Save genuine human-eye-level cameras. All room walls/envelope restored for interiors.
  if lid=='L01':
   g.camera('CAM_L01_INTERIOR',(1.2,6.1,1.62),(5.8,1.8,1.3),lens=24)
