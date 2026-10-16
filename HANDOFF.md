@@ -153,3 +153,8 @@ This addendum is later than the immutable ZIP handoff. The ZIP is not silently r
 - Archive SHA-256: `70130eb4f823fc274e52191dadde47bf75de68b2414b260d7f74c11f22b3b118`.
 - Receipt SHA-256: `7d2c54646510e7a6328bb569f0d0fe757d16ff7d3bb830939e8fcec95962e2ef`.
 - Independent non-owner acceptance is still **pending**. This is publication/integrity verification, not self-review or a vote.
+
+
+## Official independent-review submission
+
+On 2026-10-16 the official CLI moved owned cards `0d4e / 61b0 / 58d8` to **review**, attached ready PRs [2](https://github.com/dreamer2664/buildinglab/pull/2), [3](https://github.com/dreamer2664/buildinglab/pull/3), [4](https://github.com/dreamer2664/buildinglab/pull/4), and announced the public verification evidence. A fresh board read confirmed the three independent cards `2223 / 008a / 08c6` remain **open and unowned**, not accepted. Vesta was notified by actual bus message `#0059776b`. See `exports/review-submission.json`. No producer review/vote was cast; independent acceptance is outstanding.
