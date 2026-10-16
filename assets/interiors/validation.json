@@ -1,5 +1,71 @@
 {
-  "stage": "mechanical inventory/bounds checks, not visual acceptance",
+  "native_sha256": "3b29abf5334e8db3e086106a93f2fc14ad7d357ff5a1e4fffe7c5584ee8abb85",
+  "wardrobe_door_face_checks": [
+    {
+      "room": "L02_2A_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L02_2B_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L03_3A_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L03_3B_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L04_4A_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L04_4B_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L05_5A_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L05_5B_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L06_6B_bed",
+      "carcass_y_m": 16.200590133666992,
+      "panel_y_m": 16.492589950561523,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    }
+  ],
+  "stage": "mechanical inventory/bounds/orientation checks, not visual acceptance",
   "blender": "4.3.2",
   "homes": [
     {
