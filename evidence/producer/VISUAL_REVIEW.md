@@ -3,7 +3,7 @@
 **work in progress. Independent acceptance: PENDING.**
 
 Current native SHA-256: `1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f`
-Explicit individually opened current-source originals: **3/29**. These are agent/producer observations, not an independent human-review certificate.
+Explicit individually opened current-source originals: **12/29**. These are agent/producer observations, not an independent human-review certificate.
 
 ## Real inspect → fix → inspect cycles
 
@@ -102,16 +102,34 @@ Earlier checkpoint narratives are retained as originally logged. Their pending w
 - **fix:** Rotate south-wall north-home wardrobes by pi in editable source; strengthened unbatched and batched actual-geometry guards.
 - **reinspection:** Actually opened corrected full-resolution L05-detail original, SHA 28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d, from native 1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f. Clearly visible inward-facing white wardrobe panels/handles and bed/headboard/two pillows/two bedside lamps. All nine actual source component positions and final-batched material-face checks pass, with +0.292m inward panel offset; new saved camera pose recorded in final metadata. Does not grant independent acceptance.
 
-### D-shaft-ceiling-caps — major / open
+### D-shaft-ceiling-caps — major / closed
 - **issue:** Stronger actual shaft ceiling rays hit common ceiling finishes on all six levels; earlier floor-only rays did not cover ceilings.
 - **evidence:** evidence/producer/revision-D/expected-failed-final-native-check.json
 - **fix:** Split common-core ceilings around actual lift shaft and retain explicit ceiling ray guard.
-- **reinspection:** Pending positive actual-source geometry and technical images.
+- **reinspection:** Saved corrected native1b7150d6 actual shaft-ceiling rays return zero hits on all six levels; previous0f rays genuinely hit six caps. Split ceiling geometry and all101 finish corner probes pass. Opened structural/core original c6cd4a95d45b525815b28005e074dc4906cd0a9d968fe7651fc305009d9bf1e0 showing all6 slab openings/portals and both connected stair routes. This ceiling-hidden image is context, not the sole proof of finish-ceiling clearance. Native/GLB hashes unchanged and public downloaded native reopened/validated/test-rendered.
 
 ### D-ceiling-finish-edges — minor / open
 - **issue:** Isolated-floor interior views expose small finish-to-wall seams.
 - **fix:** 30mm ceiling finish overlap into enclosing wall faces; actual bounds/corner-ray guards.
 - **reinspection:** Pending rebuilt source and actual interior originals.
+
+### E-public-plan-names — major / closed
+- **issue:** Actually opened full-size L01 plan uses generic STORE/BATH rather than bicycle/parcel/cleaner/public-WC programme names.
+- **evidence:** evidence/producer/revision-E/L01-plan.png and SHA-bound inspection.json
+- **fix:** Use original programme room names for public storage/bathroom spaces in disclosed overlays; native geometry/camera unchanged. Public old PNG remains immutable; corrected PNG will have a digest-suffixed public asset name.
+- **reinspection:** Actually regenerated and individually reopened corrected 2560x1440 plan, SHA e282d0fb7dd558f581cf970d51a4be84816c388fe79e85c24a6b478f287712dc from unchanged native 1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f. All four explicit programme names read clearly; original failed plan/inspection/public asset remain in revision-E. No scene geometry, saved camera or room boundary was painted/changed.
+
+### F-top-plan-incoming-stairs — major / closed
+- **issue:** Actual L06 top-down plan hides saved incoming L05 stair meshes with the lower-level collection; top stair shafts misleadingly read as empty. Native continuity exists and guards pass.
+- **fix:** L06 plan-only visibility includes actual L05 stair/flight/rail/landing meshes from saved native, hiding all other lower-level objects. No geometry, saved camera, lens or native switch script is changed; this explicit render visibility convention is recorded in metadata/reproduction helper.
+- **reinspection:** Actual corrected original opened individually: a1af5e3eb4e29c4a9f0afde0d5dbd4da604c12924cfe34d7f8688882da5c06d9. Both descending flights now visible. Metadata records plan-only visibility of actual saved L05 stair meshes; native SHA and saved camera pose unchanged. Original failed plan retained in revision-F.
+- **evidence:** evidence/producer/revision-F/ actual original, metadata, failed inspection and immutable public asset URL
+
+### G-technical-overview-framing — major / closed
+- **issue:** Actually opened technical frame clips upper column ends/ground edge in steep technical camera.
+- **fix:** Choose already saved CAM_FULL_CUTAWAY for structural overview, keeping its exact saved pose and same native SHA. No runtime camera transform override or model change.
+- **reinspection:** Actually reopened corrected original c6cd4a95d45b525815b28005e074dc4906cd0a9d968fe7651fc305009d9bf1e0; full six plates, column ends/base and both stair stacks visible using exact already saved CAM_FULL_CUTAWAY pose; no native edit or runtime camera transform.
+- **evidence:** evidence/producer/revision-G/
 
 ## Individually opened final images
 
@@ -131,6 +149,60 @@ Earlier checkpoint narratives are retained as originally logged. Their pending w
 - PNG SHA-256: `9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4`
 - Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:59:06.688420+00:00.
 - Observation: Opened actual 2560x1440 Penthouse6A living original: large dining table/settings and upholstered chairs in foreground, sofa/two cushions and coffee table/rug, real framed balcony glazing/rails, complete kitchen/fridge at rear and an open entry leaf. Differently arranged long living room and usable centre aisle are legible, not an empty top floor. Continuous enclosed ceiling and two luminaires; mild low-sample softness and stylised planting are disclosed visual limitations. No known major issue in this view.
+- Known critical/major in this view: 0.
+
+### renders/final/exterior-day.png
+- PNG SHA-256: `cef96bd8e36173b95fc4e78121e4008e35470a1e7dc3d53361fcc27d5476abb9`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T16:06:01.919801+00:00.
+- Observation: Opened corrected-source 3840x2160 original: six occupied storeys read clearly above the entrance/plaza; cream masonry, terracotta sill/band/reveal depth, teal balcony guards, actual glazing with furnishings behind it, roof parapet/coping and plant are visible. Entrance canopy, ramp/handrails, benches and planted urban edge establish scale. No missing facade panel or known major intersection visible. Vegetation/context are deliberately stylised and secondary; this is conceptual architectural rendering, not a photorealism or code claim.
+- Known critical/major in this view: 0.
+
+### renders/final/exterior-dusk.png
+- PNG SHA-256: `33ff7361423e7353958d7396e3c978671071de150cf06017836905129f2cc6bf`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T16:12:12.991406+00:00.
+- Observation: Opened corrected-source 3840x2160 dusk original: all six occupied storeys and roof edge fit the frame; warm interior lighting reveals beds, seating, cabinetry and depth behind actual glazing, not facade-painted rooms. Different corner angle from the day hero makes balcony depth, teal rails, terracotta bands/reveals and entrance/ramp readable. Darker plaza/context remains secondary; no known major facade gap or camera clipping. Conceptual/stylised setting, not a night-lighting engineering certificate.
+- Known critical/major in this view: 0.
+
+### renders/final/L03-plan.png
+- PNG SHA-256: `680283f5f235894c561974ea4eaacb86dc396750a383d1bc49461cf74642e864`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T16:17:01.200732+00:00.
+- Observation: Opened actual 2560x1440 L03 plan: distinct north 3A/3B homes with opposing bed heads and living/kitchen/dining/bath/entry arrangements, south two-bedroom 3C with storage/long bath, and furnished shared reading room are legible. Both separated stairs, open lift-shaft plan, risers and common-core doors/benches connect to unit entries. Corrected north wardrobes are on south bedroom walls; actual orientation regression covers their fronts. Labels, room/footprint dimensions, FFL+7.00, door-swing arcs, light symbols, scale bar and north marker are readable; no known major presentation omission.
+- Known critical/major in this view: 0.
+
+### renders/final/L01-plan.png
+- PNG SHA-256: `e282d0fb7dd558f581cf970d51a4be84816c388fe79e85c24a6b478f287712dc`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T16:18:22.558549+00:00.
+- Observation: Actually reopened regenerated 2560x1440 L01 plan: public Bicycle / storage, Parcel / community store, Cleaner / supplies and Accessible public WC now have explicit programme names rather than generic STORE/BATH. Cafe/public passage/separate prep, reception/mail, vestibule, neighbourhood room, plant and waste/service are legible, with actual furniture/fixtures, core/lift/two exit stairs and door arcs. FFL0,26x20m footprint, room dimensions, metric scale, north and native light symbols remain readable. Accessibility wording is design intent, not certification; no known major presentation issue. Same saved native/camera, only disclosed overlay text corrected.
+- Known critical/major in this view: 0.
+
+### renders/final/L04-plan.png
+- PNG SHA-256: `b0de2f0237686d259730a01b3bfe421c9cb88aa678510519a424e0715b85dcc2`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T16:19:49.737371+00:00.
+- Observation: Opened actual 2560x1440 L04 plan: furnished 4A/4B single-bedroom homes use 6.60m-wide living rooms and deeper4.20x3.97m bedrooms/different bath depths; 4C has two opposite-handed bedrooms, complete kitchen/living, bath and storage. Shared reading/dining room, two stairs, lift/risers, core benches/doors and clear unit entries are visible. FFL+10.20, dimensions, native light symbols, door arcs, north and scale are readable. Technical low-wall/top-down convention is explicit; no known major missing function or label.
+- Known critical/major in this view: 0.
+
+### renders/final/L05-plan.png
+- PNG SHA-256: `021d72a17f7bb547fd187c5966371e50fc2aa5e6d634e97f4fa242fc8b4b4248`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T16:21:55.895347+00:00.
+- Observation: Opened original 2560x1440 L05 plan and a native-pixel crop of the south bedrooms/store/bath: 5A/5B one-bedroom layouts and 5C two-bedroom home, kitchen/dining/seating, wardrobes, bath fixtures, reading room and common circulation are present. Native-pixel crop confirms narrow store and bath labels/dimensions stay readable and bedroom door/bed/storage positions are legible. FFL+13.40,26x20m dimensions, light symbols, door arcs, north and scale appear correctly. No known major presentation defect; conservative geometry guards, not this plan alone, assess component/door clearances.
+- Known critical/major in this view: 0.
+
+### renders/final/L02-plan.png
+- PNG SHA-256: `a2f949ab63b2b0f241768391950646dfb91c7fc9fb48b10c60ead83fe3722d77`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T17:15:36.994521+00:00.
+- Observation: Opened corrected-source 2560x1440 L02 furnished plan: 2A/2B living/dining/kitchen, opposite-handed bedrooms, baths/entries, south two-bedroom2C with bath/store and shared reading room are clear. Two separated stairs, lift/risers, common core and actual light symbols/door arcs are present; FFL+3.80,26x20m extents, room dimensions, scale and north are legible. Wardrobe corrections are in the same saved native; no known major presentation omission.
+- Known critical/major in this view: 0.
+
+### renders/final/L06-plan.png
+- PNG SHA-256: `a1af5e3eb4e29c4a9f0afde0d5dbd4da604c12924cfe34d7f8688882da5c06d9`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T17:16:47.469693+00:00.
+- Observation: Actually reopened corrected 2560x1440 top-floor plan: both stair wells now show the real incoming L05 flights/rails beneath L06 landings, rather than empty grey voids. This is explicit plan-only visibility of existing saved native meshes; no model/camera transform or drawn substitute stairs. Penthouse6A two bedrooms/large living/bath/store,6B living/bed/bath, and planted shared winter garden with seating/dining/books are legible. FFL+16.60, dimensions, light symbols/door arcs/north/scale readable. No known major presentation issue.
+- Known critical/major in this view: 0.
+
+### renders/final/technical-structure-core.png
+- PNG SHA-256: `c6cd4a95d45b525815b28005e074dc4906cd0a9d968fe7651fc305009d9bf1e0`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T17:18:45.603152+00:00.
+- Observation: Actually opened corrected 2560x1440 structure/core original using already saved full-cutaway camera at its unchanged native pose. All six plates, full column ends and ground edge now fit; both five-connection stair stacks show real treads/rails/landings, central lift portals/guides and open slab shafts are visible. Tight but complete framing replaces clipped steep view. Small exposed native overhead lighting/guide parts remain a schematic visibility convention, not missing architecture. Physical finish-ceiling shaft clearance is established by the six actual saved-native ray checks, not by this ceiling-hidden picture. No known major presentation issue; no structural/code approval.
 - Known critical/major in this view: 0.
 
 ## Boundaries

@@ -10,6 +10,15 @@ ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(Path(__file__).pa
 from views import VIEWS
 v=next(v for v in VIEWS if v['id']==os.environ['RENDER_VIEW']);s=bpy.context.scene;set_view(v['mode'],v.get('level'));s.camera=bpy.data.objects[v['camera']]
 saved_camera_matrix=[list(row) for row in s.camera.matrix_world];pose_revision=None
+visibility_revision=None
+if v['id']=='L06-plan':
+ # The incoming flight belongs to the lower collection but is physically visible
+ # down the top landing's open stair well. Show actual saved geometry, not paint.
+ bpy.data.collections['L05'].hide_render=False
+ for o in s.objects:
+  if o.get('level')=='L05':
+   show=o.type=='MESH' and o.get('role') in ['stair','stair_flight'];o.hide_render=not show;o.hide_set(not show)
+ visibility_revision='L06 plan includes actual saved L05 stair/flight/rail/landing geometry through its open stair wells; all other lower-level objects stay hidden. No geometry or saved camera change.'
 bpy.context.view_layer.update()
 s.cycles.use_denoising=False;s.cycles.samples=int(os.environ.get('RENDER_SAMPLES','16'));s.render.resolution_x=v['width'];s.render.resolution_y=v['height'];s.render.resolution_percentage=100
 if os.environ.get('RENDER_DRAFT')=='1':s.render.resolution_percentage=50
@@ -18,13 +27,14 @@ if v.get('night'):
  bpy.data.lights['SUN'].energy=.04;s.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.09;s.view_settings.exposure=.9
 out=ROOT/'renders/final';out.mkdir(parents=True,exist_ok=True);s.render.filepath=str(out/(v['id']+'.png'))
 meta=dict(v);meta.update({'camera_location':list(s.camera.location),'camera_lens_mm':s.camera.data.lens,'camera_type':s.camera.data.type,'samples':s.cycles.samples,'blender':bpy.app.version_string,'integrated_denoising':False,'colour_management':s.view_settings.view_transform+' / '+s.view_settings.look,'exposure':s.view_settings.exposure,'source':'scene/building-final.blend','render_percentage':s.render.resolution_percentage})
-meta.update({'saved_camera_matrix_world':saved_camera_matrix,'render_camera_matrix_world':[list(row) for row in s.camera.matrix_world],'render_only_camera_revision':pose_revision})
+meta.update({'saved_camera_matrix_world':saved_camera_matrix,'render_camera_matrix_world':[list(row) for row in s.camera.matrix_world],'render_only_camera_revision':pose_revision,'render_visibility_revision':visibility_revision})
 def xy(x,y,z):
  p=world_to_camera_view(s,s.camera,Vector((x,y,z)));return [p.x*v['width'],(1-p.y)*v['height']]
 if v['mode']=='plan':
  data=json.loads((ROOT/'assets/exterior/aligned-programme.json').read_text());l=next(l for l in data['levels'] if l['id']==v['level']);z=l['elevation_m'];meta['elevation']=z;labels=[];doors=[]
  for r in l['rooms']:
   x,y,xx,yy=r['rect'];k=r['kind'];home=r.get('home') or '';label={'living':'LIVING / KITCHEN','bedroom':'BEDROOM','bathroom':'BATH','storage':'STORE','riser':'RISER','stair':'EXIT STAIR','elevator':'LIFT','gallery':'COMMON GALLERY','corridor':'ENTRY' if home else 'COMMON CORE'}.get(k,r['name'].upper())
+  if not home and k in ['storage','bathroom']:label=r['name'].upper()
   if 'RISER' in r['id']:label='RISER'
   if k=='stair':label='EXIT STAIR '+r['id'][-1]
   if k=='bedroom' and r['id'].endswith(('bed1','bed2')):label='BEDROOM '+r['id'][-1]

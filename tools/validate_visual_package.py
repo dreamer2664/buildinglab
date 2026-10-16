@@ -26,6 +26,9 @@ for r in images:
  meta=R/r['metadata'];check(meta.exists(),r['id']+' render metadata exists')
  if meta.exists():
   m=json.loads(meta.read_text());check(m.get('source_sha256')==source_sha and m['render_percentage']==100,r['id']+' true final-resolution saved-native metadata');check(m['camera']==v['camera'],r['id']+' render camera metadata');check(m.get('postprocess'),r['id']+' disclosed denoising/annotation');check(m.get('saved_camera_matrix_world') is not None and m.get('saved_camera_matrix_world')==m.get('render_camera_matrix_world') and m.get('render_only_camera_revision') is None,r['id']+' saved-native camera pose unchanged during render')
+ if r['id']=='L01-plan' and meta.exists():
+  programme=json.loads((R/'assets/exterior/aligned-programme.json').read_text());expected_public=[q['name'].upper() for q in programme['levels'][0]['rooms'] if not q.get('home') and q['kind'] in ['storage','bathroom']];labels=[q['text'].split('\n')[0] for q in m.get('labels',[])]
+  check(all(name in labels for name in expected_public),'L01-plan explicit public bicycle/parcel/cleaner/WC programme labels, not generic STORE/BATH')
  check(r.get('producer_opened_individually') is True and r.get('review_result','').startswith('inspected'),r['id']+' explicit producer inspection record, not a render log')
  matches=[x for x in inspections if x.get('image')==r['path'] and x.get('sha256')==digest and x.get('opened_individually') is True and x.get('source_sha256')==source_sha]
  check(len(matches)==1,r['id']+' exactly one current SHA-bound individual final inspection')

@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "required_images": 29,
+  "manifest_images": 4,
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "mechanical_only": true,
+  "not_proof_of_human_inspection": true,
+  "independent_acceptance": "pending",
+  "errors": [
+    "all 29 required unique view IDs",
+    "zero unresolved critical/major defects: D-shaft-ceiling-caps"
+  ]
+}

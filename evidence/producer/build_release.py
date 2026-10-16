@@ -23,7 +23,7 @@ m=json.loads((R/'evidence/producer/screenshot-manifest.json').read_text());asser
 for row in m['images']:add(R/row['path'])
 # Historical diagnostics remain explicitly separate from the 29 final PNGs.
 for p in (R/'renders/revision-B').glob('*.png'):add(p)
-for folder in ['revision-B3','revision-B4','revision-C']:
+for folder in ['revision-B3','revision-B4','revision-C','revision-E','revision-F','revision-G']:
  for p in (R/'evidence/producer'/folder).glob('*.png'):add(p)
 historical_availability=[]
 records=json.loads((R/'assets/interiors/visual-review.json').read_text())['observations']+json.loads((R/'assets/exterior/visual-review.json').read_text())+json.loads((R/'evidence/producer/visual-review.json').read_text()).get('preflight_inspections',[])
@@ -55,6 +55,6 @@ with zipfile.ZipFile(archive,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=
 with zipfile.ZipFile(archive) as z:
  assert z.testzip() is None
  for name,r in entries.items():assert hashlib.sha256(z.read(name)).hexdigest()==r['sha256'],name
- assert z.read('evidence/visual-review.json')==z.read('evidence/producer/visual-review.json')
+ assert z.read('evidence/visual-review.json')==z.read('evidence/producer/visual-review.json');assert z.read('evidence/VISUAL_REVIEW.md')==z.read('evidence/producer/VISUAL_REVIEW.md')
 result={'stage':'built locally; NOT yet uploaded/redownload verified','archive':str(archive.relative_to(R)),'bytes':archive.stat().st_size,'sha256':sha(archive),'release_tag':tag,'release_url':'https://github.com/dreamer2664/storagecode/releases/tag/'+tag,'member_manifest_sha256':sha(mp),'hashed_payload_members':len(entries),'archive_entries_including_manifest':len(entries)+1,'native_sha256':ns,'glb_sha256':gs,'final_pngs':29,'independent_acceptance':'pending'}
 (R/'exports/release-build.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

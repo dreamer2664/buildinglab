@@ -60,6 +60,12 @@ set_view('intact')
 
 Per-level collections separate slab, low/high partitions, façade, ceiling, stairs, lift, furnishings and lighting. Technical modes remove ceiling-light mesh caps when ceilings are removed; actual lighting remains. Interiors restore the real enclosing shell. Camera identifiers are in `evidence/producer/views.py` and the native report. Final reception composition is overridden in `assemble.py`; source-file preliminary cameras are not all the final campaign poses.
 
+## Disclosed final-image visibility and labels
+
+The saved native geometry and all render camera transforms remain unchanged at native `1b7150d6…`. The structural overview selects the already saved `CAM_FULL_CUTAWAY` at its exact pose rather than the steeper, clipped preliminary technical camera; the latter remains editable in the native but is not the final evidence camera. The L06 **plan only** additionally displays the actual incoming L05 stair meshes through its open wells, while hiding all other lower-level objects. This explicit selection is in `render_one.py` and per-view metadata; it is not painted stair geometry or a native edit. Embedded level-only isolation remains a simpler default; the supplied render helper reproduces the exact evidence selection. All render metadata records saved/render camera matrices, and the package gate requires equality/no render-only pose override.
+
+Ground-floor public storage/WC overlays now use actual programme names (bicycle, parcel, cleaner, public WC), not generic STORE/BATH. The first generic-label plan, first empty-looking L06 isolated plan and first clipped structural overview are retained with actual failed observations in revisions E/F/G. Any older public raw recovery PNGs remain immutable historical assets; authoritative corrected originals are identified by the current screenshot manifest, digest-bound checkpoint receipt and final ZIP/member manifest. Earlier bad asset names are not claims of final inspection or acceptance.
+
 ## Exact evidence bar
 
 Minimum **29 separate PNGs**, not a contact sheet:
