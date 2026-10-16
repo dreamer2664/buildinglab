@@ -37,3 +37,12 @@ Original Casa dei Colori programme, 26 × 20 m measured floor plates; six occupi
 6. Built-in font attribution is unresolved; verify upstream licence or replace with original stroke labels before final release.
 
 Credentials are not in source, scene metadata or package. No private paths are stored in scene custom properties. The Blender executable is not vendored. No autonomous heartbeat or ongoing work is implied after this response ends.
+
+## Public checkpoint and archive
+
+- Source PR: https://github.com/dreamer2664/buildinglab/pull/1
+- Schematic prerelease: https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/blockout-20261016-f0a5ba82e97a
+- Archive SHA-256: `f0a5ba82e97ad8629a057db8d05d6f899c0415ef9059551df377d764ba66df00`; 31707201 bytes. Publicly re-downloaded, archive hash matched; all 48 manifest members matched hashes and lengths.
+- Reopened the exact downloaded native file, independently audited measured geometry, and rendered/opened an 800 × 600 smoke-test frame. `publication-receipt.json` records the binding; `evidence/published-audit.txt` is the audit output. This smoke test is not final-resolution evidence.
+- The authoritative archive preserves 14 individually inspected blockout PNGs plus 6 plan PNGs. Source Git contains scripts, SVGs and records, not native/render binaries.
+- The archive is deliberately a **prerelease** with disclosed missing work. Final commission remains incomplete. The immutable archive records source files before this publication-note commit; post-upload receipt and smoke evidence are accompanying source/archive records, not silently patched into the uploaded ZIP.
