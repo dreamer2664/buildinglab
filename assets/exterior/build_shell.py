@@ -152,7 +152,13 @@ for i,l in enumerate(D['levels']):
   for r in l['rooms']:
    if r['kind'] in ['stair','elevator']:continue
    x,y,xx,yy=r['rect'];mat='Tile' if r['kind']=='bathroom' else 'Oak' if r['home'] else 'Terrazzo'
-   with g.scope(role='room_floor',room_id=r['id'],home=r['home'] or '',room_kind=r['kind']):g.box(r['id']+'_FINISH',((x+xx)/2,(y+yy)/2,z+.02),(xx-x,yy-y,.04),mat)
+   # A corridor finish must not re-seal the structural lift opening.
+   pieces=[(x,y,xx,yy)]
+   if r['id'].endswith('_CORE'):
+    hx,hy,hxx,hyy=next(q['rect'] for q in l['rooms'] if q['kind']=='elevator')
+    pieces=[q for q in [(x,y,xx,hy),(x,hyy,xx,yy),(x,hy,hx,hyy),(hxx,hy,xx,hyy)] if q[2]-q[0]>1e-6 and q[3]-q[1]>1e-6]
+   with g.scope(role='room_floor',room_id=r['id'],home=r['home'] or '',room_kind=r['kind']):
+    for a,b,c,d in pieces:g.box(r['id']+'_FINISH',((a+c)/2,(b+d)/2,z+.02),(c-a,d-b,.04),mat)
   # Perimeter columns; distinct structural geometry, not approval of engineered sizing.
   for x in [.15,6.5,13,19.5,25.85]:
    for y in [.15,19.85]:
@@ -201,13 +207,14 @@ for i,l in enumerate(D['levels']):
   for x in [12.0,14.0]:g.rod(lid+'_LIFT_GUIDE',(x,12.45,z),(x,12.45,z+height),.045,'Steel')
   for x in [12.40,13.60]:g.box(lid+'_LIFT_PORTAL',(x,9.72,z+1.18),(.12,.22,2.36),'Steel')
   g.box(lid+'_LIFT_HEADER',(13,9.72,z+2.4),(1.4,.24,.16),'Steel')
-  for side in [-1,1]:g.box(lid+'_LIFT_DOOR',(13+side*(.51 if i==0 else .26),9.76,z+1.15),(.5,.045,2.24),'Steel',.008)
+  for side in [-1,1]:g.box(lid+'_LIFT_DOOR',(13+side*(.81 if i==0 else .27),9.76,z+1.15),(.54,.045,2.24),'Steel',.008)
   g.box(lid+'_LIFT_CALL',(14,9.60,z+1.15),(.11,.035,.3),'Black',.015);g.cylinder(lid+'_LIFT_BUTTON',(14,9.56,z+1.15),.025,.015,'Glow')
+  g.box(lid+'_LIFT_SILL',(13,9.81,z+.02),(1.08,.20,.04),'Steel')
   if i==0:
-   g.box('L01_LIFT_CAB_FLOOR',(13,11.1,z+.09),(1.8,2.45,.1),'Terrazzo')
-   g.box('L01_LIFT_CAB_BACK',(13,12.3,z+1.3),(1.8,.06,2.4),'Steel')
-   for x in [12.10,13.90]:g.box('L01_LIFT_CAB_SIDE',(x,11.1,z+1.3),(.05,2.45,2.4),'Oak')
-   g.box('L01_LIFT_CAB_CEILING',(13,11.1,z+2.5),(1.8,2.45,.08),'Glow');g.rod('L01_LIFT_CAB_HANDRAIL',(12.25,12.22,z+.95),(13.75,12.22,z+.95),.03,'Steel')
+   g.box('L01_LIFT_CAB_FLOOR',(13,11.1,z-.01),(1.8,2.45,.1),'Terrazzo')
+   g.box('L01_LIFT_CAB_BACK',(13,12.3,z+1.24),(1.8,.06,2.4),'Steel')
+   for x in [12.10,13.90]:g.box('L01_LIFT_CAB_SIDE',(x,11.1,z+1.24),(.05,2.45,2.4),'Oak')
+   g.box('L01_LIFT_CAB_CEILING',(13,11.1,z+2.48),(1.8,2.45,.08),'Glow');g.rod('L01_LIFT_CAB_HANDRAIL',(12.25,12.22,z+.95),(13.75,12.22,z+.95),.03,'Steel')
  with g.scope(cs['SIGNS'],origin=(0,0,0),level=lid,role='wayfinding'):
   g.box(lid+'_FLOOR_PLAQUE',(20.0,7.18,z+1.6),(.9,.04,.4),'Teal',.02);g.sign(lid+'_FLOOR_ID',lid,(19.68,7.15,z+1.48),.21,'Porcelain')
   g.sign(lid+'_FRONT_CUTAWAY_ID',lid,(.7,-.15,z+.20),.28,'Porcelain')
