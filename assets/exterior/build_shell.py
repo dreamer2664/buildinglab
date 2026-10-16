@@ -170,7 +170,14 @@ for i,l in enumerate(D['levels']):
  with g.scope(cs['CEILING'],origin=(0,0,0),level=lid,role='ceiling'):
   for r in l['rooms']:
    if r['kind'] in ['stair','elevator']:continue
-   x,y,xx,yy=r['rect'];g.box(r['id']+'_CEILING',((x+xx)/2,(y+yy)/2,z+clear-.015),(xx-x,yy-y,.03),'Plaster')
+   # Finish overlaps wall inner faces by 30 mm, closing aligned-grid seams.
+   # The common-core envelope must NOT cap the actual lift shaft.
+   x,y,xx,yy=r['rect'];pieces=[(x,y,xx,yy)]
+   if r['id'].endswith('_CORE'):
+    hx,hy,hxx,hyy=next(q['rect'] for q in l['rooms'] if q['kind']=='elevator')
+    pieces=[q for q in [(x,y,xx,hy),(x,hyy,xx,yy),(x,hy,hx,hyy),(hxx,hy,xx,hyy)] if q[2]-q[0]>1e-6 and q[3]-q[1]>1e-6]
+   with g.scope(room_id=r['id']):
+    for a,b,c,d in pieces:g.box(r['id']+'_CEILING',((a+c)/2,(b+d)/2,z+clear-.015),(c-a+.06,d-b+.06,.03),'Plaster')
  with g.scope(origin=(0,0,0),level=lid):partitions(l,z,clear,cs['PARTITIONS_LOW'],cs['PARTITIONS_HIGH']);facade(l,z,clear,cs['FACADE'])
  # Solid timber internal doors, frames/handles and stepped skirting.
  with g.scope(cs['PARTITIONS_HIGH'],origin=(0,0,0),level=lid,role='door'):

@@ -1,5 +1,5 @@
 """Mechanical shell validator. Run Blender -b scene/shell.blend --python-exit-code 1 --python tools/validate_shell.py."""
-import bpy,json,math
+import bpy,json,math,hashlib
 from mathutils import Vector
 from pathlib import Path
 R=Path(__file__).resolve().parents[1];D=json.loads((R/'assets/exterior/aligned-programme.json').read_text());s=bpy.context.scene;errors=[];rows=[]
@@ -24,7 +24,16 @@ missing=[im.name for im in bpy.data.images if im.source=='FILE' and not im.packe
 import sys
 sys.path.insert(0,str(R/'assets/exterior'));from circulation_checks import lift_checks
 bpy.context.view_layer.update();lift_report=lift_checks(s,D);errors.extend(lift_report['errors'])
-report={'actual_lift_geometry_checks':lift_report,'stage':'mechanical shell only, not code/visual/independent acceptance','levels':rows,'missing_external':missing,'errors':errors,'blender':bpy.app.version_string}
+ceiling_checks=[]
+for l in D['levels']:
+ for r in l['rooms']:
+  if r['kind'] in ['stair','elevator']:continue
+  obs=[o for o in s.objects if o.type=='MESH' and o.name.startswith(r['id']+'_CEILING')];check(bool(obs),r['id']+' actual ceiling finish')
+  if not obs:continue
+  pts=[o.matrix_world@Vector(v) for o in obs for v in o.bound_box];x,y,xx,yy=r['rect'];bb=[min(p.x for p in pts),min(p.y for p in pts),max(p.x for p in pts),max(p.y for p in pts)]
+  ok=bb[0]<=x-.025 and bb[1]<=y-.025 and bb[2]>=xx+.025 and bb[3]>=yy+.025
+  check(ok,r['id']+' ceiling finish does not overlap enclosing wall edges');ceiling_checks.append({'room':r['id'],'actual_xy_bounds':bb,'room_bounds':r['rect'],'at_least_25mm_overlap':ok})
+report={'native_sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'ceiling_edge_checks':ceiling_checks,'actual_lift_geometry_checks':lift_report,'stage':'mechanical shell only, not code/visual/independent acceptance','levels':rows,'missing_external':missing,'errors':errors,'blender':bpy.app.version_string}
 (R/'assets/exterior/validation.json').write_text(json.dumps(report,indent=2)+'\n')
 for x in rows:print(x)
 if errors:raise RuntimeError('\n'.join(errors))
