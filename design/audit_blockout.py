@@ -27,6 +27,9 @@ for l in d['levels']:
  for side in ['A','B']:
   steps=[o for o in c.objects if o.name.startswith(lid+'_STAIR_'+side+'_F1_')]
   check(len(steps)==(0 if lid=='L06' else 11 if lid=='L01' else 10),lid+' stair '+side+' first-flight count')
+  second=[o for o in c.objects if o.name.startswith(lid+'_STAIR_'+side+'_F2_')]
+  check(len(second)==len(steps),lid+' stair '+side+' return flight count')
+  if second:check(abs(max(o.location.z+o.dimensions.z/2 for o in second)-(l['elevation_m']+l['storey_height_m']))<.0001,lid+' stair '+side+' connects next FFL')
  report['levels'].append({'id':lid,'slab_bounds_m':bounds,'proposed_home_mesh_groups':sorted(homes),'mesh_objects':sum(o.type=='MESH' for o in c.objects)})
 for im in bpy.data.images:
  if im.source=='FILE' and not im.packed_file:
@@ -34,7 +37,7 @@ for im in bpy.data.images:
   if not path.exists():report['missing_external_files'].append(im.name)
 check(not report['missing_external_files'],'missing external textures')
 check(not bpy.data.libraries,'linked external libraries')
-report['source_blend_sha256']=hashlib.sha256((R/'scene/blockout.blend').read_bytes()).hexdigest();report['errors']=errors
+report['source_blend_sha256']=hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest();report['errors']=errors
 (R/'design/geometry-audit.json').write_text(json.dumps(report,indent=2)+'\n')
 if errors:raise RuntimeError('\n'.join(errors))
 print('PASS — reopened measured schematic geometry: 6 levels, 14 proposed home mesh groups, 26 x 20 m slabs, dual stairs and per-floor cameras; no missing external assets. NOT final furnishings.')
