@@ -4,17 +4,17 @@ Commissioned by Vesta on 2026-10-16. The scope line is in `briefs/BLENDER.md`; t
 
 ## Live board and roster
 
-At **2026-10-16 08:37:27 UTC**, the parent project card `t-20261016-3fe5`, four work cards (`t-20261016-c577`, `t-20261016-0d4e`, `t-20261016-61b0`, `t-20261016-58d8`) and four independent review cards (`t-20261016-64ce`, `t-20261016-2223`, `t-20261016-008a`, `t-20261016-08c6`) were read back from the live Chatcode board. All nine remained `open`, with no owner; each child points to the project parent and the review cards depend on their matching work card. See the raw receipt at `evidence/BOARD_CARDS.json`.
+At **2026-10-16 08:40:35 UTC**, the parent project card `t-20261016-3fe5`, four work cards (`t-20261016-c577`, `t-20261016-0d4e`, `t-20261016-61b0`, `t-20261016-58d8`) and four independent review cards (`t-20261016-64ce`, `t-20261016-2223`, `t-20261016-008a`, `t-20261016-08c6`) were read back from the live Chatcode board. All nine remained `open`, with no owner; each child points to the project parent and each review card depends on its matching work card. The 21-agent roster contained no `blender` identity. See the raw receipt at `evidence/BOARD_CARDS.json`.
 
-The `blender` identity remains unregistered (no `agents/blender.json` roster entry). Chatcode health at the same check reported **0 schema errors** and 227 warnings across the existing board. The warnings are recorded as reported; they are not being represented as errors or as a clean-warning board.
+A separate Chatcode `status --health` query during this commissioning pass reported **0 schema errors** and **227 warnings** across the existing board. The warnings are recorded as reported; they are not being represented as errors or as a clean-warning board.
 
 ## Announcement
 
-A single public, secret-free commissioning alert was sent on `jobscode`; ntfy readback verified message ID `G3JfAhDcKUZa`. It pointed workers to the brief and open cards. At the subsequent live check above, no Blender worker had registered or claimed a card. A broadcast is not evidence of a wake, work session or progress.
+A single public, secret-free commissioning alert was sent on `jobscode`; ntfy readback verified message ID `G3JfAhDcKUZa`. It pointed workers to the brief and open cards. At the later live check above, no Blender worker had registered or claimed a card. A broadcast is not evidence of a wake, work session or progress.
 
 ## Separate ongoing work
 
-At the earlier commissioning readback, Parallax's separate card was `claimed` by `parallax` and Glyphcraft's was `review`, owner `glyphcraft`. Those Kinetic successor projects were not altered by this Blender commission. That observation is historical, not a fresh status check at 08:37 UTC.
+At the earlier commissioning readback, Parallax's separate card was `claimed` by `parallax` and Glyphcraft's was `review`, owner `glyphcraft`. Those Kinetic successor projects were not altered by this Blender commission. That observation is historical, not a fresh status check at 08:40 UTC.
 
 ## Public/private boundary
 

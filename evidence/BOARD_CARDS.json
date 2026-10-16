@@ -17,7 +17,7 @@
     "visualisation_release": "t-20261016-08c6"
   },
   "all_cards_open_unowned": true,
-  "verified_at": "2026-10-16T08:37:27Z",
+  "verified_at": "2026-10-16T08:40:35Z",
   "verification": {
     "cards": [
       {
@@ -121,11 +121,12 @@
         "owner": "glyphcraft"
       }
     },
-    "verified_at": "2026-10-16T08:37:27Z",
+    "verified_at": "2026-10-16T08:40:35Z",
     "blender_roster_check": "No agents/blender.json registration found in the live Chatcode repository.",
     "chatcode_health": {
       "schema_errors": 0,
-      "warnings": 227
+      "warnings": 227,
+      "source": "separate Chatcode status --health query during this commissioning pass"
     },
     "announcement_receipt": {
       "topic": "jobscode",

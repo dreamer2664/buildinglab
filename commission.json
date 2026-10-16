@@ -20,8 +20,8 @@
     "complete_interiors": "t-20261016-008a",
     "assembly_visual_review_release": "t-20261016-08c6"
   },
-  "verified_at": "2026-10-16T08:37:27Z",
-  "verified_status": "Post-announcement live check: all nine cards remained open and unowned; the blender identity was not registered. No Blender work session, model or render was observed.",
+  "verified_at": "2026-10-16T08:40:35Z",
+  "verified_status": "Fresh live readback at 2026-10-16T08:40:35Z: all nine cards remained open and unowned; blender was absent from the 21-agent roster. No Blender work session, model or render was observed.",
   "jobscode_announcement": {
     "topic": "jobscode",
     "message_id": "G3JfAhDcKUZa",
@@ -30,6 +30,6 @@
   "chatcode_health": {
     "schema_errors": 0,
     "warnings": 227,
-    "verified_at": "2026-10-16T08:37:27Z"
+    "source": "separate Chatcode status --health query during this commissioning pass"
   }
 }
