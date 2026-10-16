@@ -133,6 +133,13 @@ for i,l in enumerate(D['levels']):
  # Shell refinement: stair entrances moved fully onto 1.11 m bottom landings.
  for d in l['doors']:
   if 'stair_' in d['id'] or 'exit_' in d['id']:d['y']=7.75
+  target=next((r for r in l['rooms'] if r['id']==d['b']),None)
+  d['swing_sign']=1;d['hinge_side']=1 if 'stair_' in d['id'] else -1;d['opening_degrees']=90;d['hinge_recess_m']=0
+  if target:
+   tx,ty,txx,tyy=target['rect'];cx,cy=(tx+txx)/2,(ty+tyy)/2
+   d['swing_sign']=(1 if cy>d['y'] else -1) if d['orientation']=='H' else (-1 if cx>d['x'] else 1)
+   # A door into a long, shallow private hall folds back, not across its walking path.
+   if target['kind']=='corridor' and target.get('home') and (txx-tx)>3 and (tyy-ty)<2 and d['orientation']=='H':d['opening_degrees']=160;d['hinge_recess_m']=.13
  lc=g.collection(lid,occupied_level=True,elevation_m=z)
  cs={k:g.collection(lid+'_'+k,lc) for k in ['SLAB','PARTITIONS_LOW','PARTITIONS_HIGH','FACADE','CEILING','STAIRS','LIFT','LIGHTING','SIGNS']}
  with g.scope(cs['SLAB'],origin=(0,0,0),level=lid,role='slab'):
@@ -162,11 +169,14 @@ for i,l in enumerate(D['levels']):
    if d.get('external') or d['id'].endswith('lift_door'):continue
    x,y,w=d['x'],d['y'],d['width'];rz=0 if d['orientation']=='H' else math.pi/2
    with g.scope(origin=(x,y,z),angle=rz,door_id=d['id']):
-    # Open leaves retain visible access. Leaf is perpendicular to closed plane, hinged at left jamb.
-    g.box(d['id']+'_LEAF',(-w/2,.48*w,1.07),(.045,w*.95,2.06),'Oak',.012)
+    # Open into the destination room, not across the private/common hall.
+    hs=d['hinge_side'];sg=d['swing_sign'];aa=math.radians(d['opening_degrees']);hx=hs*(w/2-.03);hy=sg*d['hinge_recess_m'];dx=-hs*math.cos(aa);dy=sg*math.sin(aa)
+    g.box(d['id']+'_LEAF',(hx+dx*w*.475,hy+dy*w*.475,1.07),(w*.95,.045,2.06),'Oak',.012,rz=math.atan2(dy,dx))
     for q in [-w/2-.045,w/2+.045]:g.box(d['id']+'_JAMB',(q,0,1.09),(.075,.24,2.18),'Walnut',.008)
     g.box(d['id']+'_LINTEL',(0,0,2.22),(w+.16,.24,.08),'Walnut',.008)
-    g.rod(d['id']+'_LEVER',(-w/2+.035,w*.83,1.03),(-w/2+.14,w*.83,1.03),.016,'Bronze')
+    px,py=hx+dx*w*.82,hy+dy*w*.82;nx,ny=-dy,dx
+    g.rod(d['id']+'_HANDLE_PIN',(px,py,1.03),(px+nx*.05,py+ny*.05,1.03),.018,'Bronze')
+    g.rod(d['id']+'_LEVER',(px+nx*.05,py+ny*.05,1.03),(px+nx*.05-dx*.12,py+ny*.05-dy*.12,1.03),.016,'Bronze')
  with g.scope(cs['STAIRS'],origin=(0,0,0),level=lid,role='stair'):
   for side,x0 in [('A',.3),('B',21.3)]:
    with g.scope(route=side):
