@@ -523,5 +523,16 @@
     "Physically plausible practical light fixtures and exposure, no white emissive shop planes pretending to be interiors",
     "Every occupied floor furnished, accessible and independently inspectable",
     "Real inspect/fix/reinspect history, clean native reopen/GLB import and independent non-owner review"
-  ]
+  ],
+  "current_production": {
+    "native_revision": "R4",
+    "actual_full_resolution_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "actual_structural_clean_reopen": "PASS",
+    "actual_furnished_floors": 26,
+    "actual_furnished_rooms": 164,
+    "static_people": 36,
+    "anatomical_rig_variants": 12,
+    "final_visual_inspection": "PENDING",
+    "independent_acceptance": "NOT GRANTED"
+  }
 }

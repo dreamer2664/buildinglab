@@ -1,0 +1,419 @@
+{
+  "chunk": "B02",
+  "objects": 87,
+  "geometry_uv_pose_material_signature_before": "19fbcfb173109c591c158fb934c9205528f84fb4be7408735938b40626caf218",
+  "signature_after": "19fbcfb173109c591c158fb934c9205528f84fb4be7408735938b40626caf218",
+  "conserved": true,
+  "image_changes": [
+    {
+      "name": "B02.png",
+      "source_dimensions": [
+        2160,
+        600
+      ],
+      "derivative_dimensions": [
+        256,
+        71
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-00.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-01.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-02.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-03.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-04.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-05.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-06.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-07.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-08.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-09.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-10.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-11.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_legs_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_legs_metal.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_legs_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_legs_rough.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_pillow_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_pillow_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "modern_arm_chair_01_pillow_rough.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_metallic.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_roughness.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    }
+  ],
+  "file": ".cache/render-chunks/B02.blend",
+  "source_production_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776"
+}

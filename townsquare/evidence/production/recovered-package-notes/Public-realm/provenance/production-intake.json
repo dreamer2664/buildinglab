@@ -1,0 +1,955 @@
+[
+  {
+    "asset": "fabric_pattern_05",
+    "kind": "texture",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/fabric_pattern_05",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "info": {
+      "type": 1,
+      "date_published": 1590810670,
+      "name": "Fabric Pattern 05",
+      "old_id": 262,
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions": [
+        500,
+        499.9999403953552
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "categories": [
+        "fabric",
+        "cotton"
+      ],
+      "files_hash": "be7f619f251a6ba2f829e658c6a20948cdc18a4f",
+      "tags": [
+        "plain",
+        "cloth",
+        "towel",
+        "checker",
+        "checkered",
+        "plaid",
+        "grid pattern",
+        "windowpane plaid",
+        "upholstery",
+        "textile ",
+        "woven",
+        "drape"
+      ],
+      "description": "Free 8K cotton fabric texture with a soft, woven, slightly nubby surface and natural drape, olive\u2011khaki base with thin deep\u2011blue windowpane plaid grid.",
+      "category_id": "1df887de-c667-575d-9f55-cd044384317c",
+      "category": "Textiles & Leather/Woven/Plaid & Check",
+      "attributes": {
+        "surface_use": "object",
+        "origin": "man_made",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "48e926eb",
+      "download_count": 169337,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/fabric_pattern_05.png?width=256&height=256&format=webp&v=48e926eb"
+    },
+    "files": [
+      {
+        "slot": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fabric_pattern_05/fabric_pattern_05_nor_gl_2k.jpg",
+        "file": ".cache/production-assets/fabric_pattern_05/fabric_pattern_05_nor_gl_2k.jpg",
+        "bytes": 2908819,
+        "sha256": "3be0b006000145d8c879a381ac5937f6ab51bf7e4720f2ba7c11d3184aec7e15"
+      },
+      {
+        "slot": "Rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fabric_pattern_05/fabric_pattern_05_rough_2k.jpg",
+        "file": ".cache/production-assets/fabric_pattern_05/fabric_pattern_05_rough_2k.jpg",
+        "bytes": 1839962,
+        "sha256": "3b2838c46227bf11e1c0d8da21703659d70676f56b848abff39c39ceac56f5f8"
+      }
+    ]
+  },
+  {
+    "asset": "wood_floor",
+    "kind": "texture",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/wood_floor",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "info": {
+      "name": "Wood Floor",
+      "categories": [
+        "floor",
+        "wood",
+        "man made",
+        "clean"
+      ],
+      "type": 1,
+      "tags": [
+        "wood",
+        "floor",
+        "wooden",
+        "wooden flooring ",
+        "grain",
+        "wood grain",
+        "interior design",
+        "interior",
+        "flooring"
+      ],
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "info": null,
+      "dimensions": [
+        1699.9996900558472,
+        1699.9996900558472
+      ],
+      "date_published": 1698105600,
+      "staging": null,
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "description": "Free 8K material: warm medium-brown wood floor texture with narrow planks, visible oak grain, subtle seams and a smooth satin finish.",
+      "files_hash": "a44e6375a09ab98780b876e709f2629e7ed30409",
+      "category_id": "a7bb33c4-8575-586e-a502-7094517b10c5",
+      "category": "Wood/Boards & Planks/Finished & Varnished",
+      "attributes": {
+        "surface_use": "floor",
+        "origin": "man_made",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "4c14fcdb",
+      "download_count": 293932,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/wood_floor.png?width=256&height=256&format=webp&v=4c14fcdb"
+    },
+    "files": [
+      {
+        "slot": "Diffuse",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_diff_2k.jpg",
+        "file": ".cache/production-assets/wood_floor/wood_floor_diff_2k.jpg",
+        "bytes": 2983667,
+        "sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c"
+      },
+      {
+        "slot": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_nor_gl_2k.jpg",
+        "file": ".cache/production-assets/wood_floor/wood_floor_nor_gl_2k.jpg",
+        "bytes": 1863576,
+        "sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10"
+      },
+      {
+        "slot": "Rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_rough_2k.jpg",
+        "file": ".cache/production-assets/wood_floor/wood_floor_rough_2k.jpg",
+        "bytes": 2267559,
+        "sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b"
+      },
+      {
+        "slot": "Displacement",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_disp_2k.jpg",
+        "file": ".cache/production-assets/wood_floor/wood_floor_disp_2k.jpg",
+        "bytes": 2426717,
+        "sha256": "69ca2cc0a923fa6722a272b6939cc8455a0c2c5f10663e55284997b85a5cf878"
+      }
+    ]
+  },
+  {
+    "asset": "rough_plaster_brick",
+    "kind": "texture",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/rough_plaster_brick",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "info": {
+      "type": 1,
+      "tags": [
+        "rough",
+        "uneven",
+        "plaster",
+        "old",
+        "dirty",
+        "weathered",
+        "moss",
+        "sewer",
+        "tunnel"
+      ],
+      "date_published": 1529359200,
+      "name": "Rough Plaster Brick",
+      "old_id": 111,
+      "categories": [
+        "plaster-concrete",
+        "man made",
+        "outdoor",
+        "brick",
+        "wall"
+      ],
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "b662746b7203f324c6a6a581c31831c3d684ecd7",
+      "description": "Free 8K texture of rough, weathered plaster over exposed red brick - uneven chipped surface with dirt, moss stains, and aged grime.",
+      "category_id": "129d72a6-fe3d-5c05-9b24-cc75e89823bf",
+      "category": "Concrete/Plaster & Stucco/Plaster Over Brick & Stone",
+      "attributes": {
+        "surface_use": "wall",
+        "condition": [
+          "weathered",
+          "mossy",
+          "damaged"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "a41c4e30",
+      "download_count": 34676,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/rough_plaster_brick.png?width=256&height=256&format=webp&v=a41c4e30"
+    },
+    "files": [
+      {
+        "slot": "Diffuse",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_plaster_brick/rough_plaster_brick_diff_2k.jpg",
+        "file": ".cache/production-assets/rough_plaster_brick/rough_plaster_brick_diff_2k.jpg",
+        "bytes": 3456196,
+        "sha256": "b4a7f83bff72ea1e93836567d53ba86a1cc17f1836f9ff7dc81c6ac067d1a8e5"
+      },
+      {
+        "slot": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_plaster_brick/rough_plaster_brick_nor_gl_2k.jpg",
+        "file": ".cache/production-assets/rough_plaster_brick/rough_plaster_brick_nor_gl_2k.jpg",
+        "bytes": 1779171,
+        "sha256": "266526d00b68f4e136d422a0cf9d7c31a8c3e767b9f7a8fa364ef001e549e03a"
+      },
+      {
+        "slot": "Rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_plaster_brick/rough_plaster_brick_rough_2k.jpg",
+        "file": ".cache/production-assets/rough_plaster_brick/rough_plaster_brick_rough_2k.jpg",
+        "bytes": 2684909,
+        "sha256": "c6814610599db13b69d2f80cf27e7dda2fafe9249c3343362498d5a433fbfe7c"
+      },
+      {
+        "slot": "Displacement",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_plaster_brick/rough_plaster_brick_disp_2k.jpg",
+        "file": ".cache/production-assets/rough_plaster_brick/rough_plaster_brick_disp_2k.jpg",
+        "bytes": 441902,
+        "sha256": "58412b5a47892ff5662b856d1cc1a86326d6839fbf1a4d3ccaabf13be6cc7b79"
+      }
+    ]
+  },
+  {
+    "asset": "snow_02",
+    "kind": "texture",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/snow_02",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "info": {
+      "type": 1,
+      "date_published": 1548806533,
+      "name": "Snow 02",
+      "old_id": 188,
+      "categories": [
+        "terrain",
+        "natural",
+        "outdoor",
+        "snow"
+      ],
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions": [
+        2000,
+        2000
+      ],
+      "sponsors": [
+        "3237733"
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "a4bb49360f8e164e74ee396b76ac33c96d6282b7",
+      "tags": [
+        "snow",
+        "uneven",
+        "smooth",
+        "powdery",
+        "frosty",
+        "snowfield",
+        "soft",
+        "wintery"
+      ],
+      "description": "Free 8K texture of soft, powdery snow: smooth yet uneven drifts, frosty fine granularity, subtle ridges and sparse dark specks.",
+      "category_id": "b554e7e6-e9aa-5f27-a86a-a6af6942a6a8",
+      "category": "Ground & Terrain/Snow/Fresh Snow",
+      "attributes": {
+        "surface_use": "ground",
+        "origin": "natural",
+        "setting": "outdoor",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "0c06ec15",
+      "download_count": 232222,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/snow_02.png?width=256&height=256&format=webp&v=0c06ec15"
+    },
+    "files": [
+      {
+        "slot": "Diffuse",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_diff_2k.jpg",
+        "file": ".cache/production-assets/snow_02/snow_02_diff_2k.jpg",
+        "bytes": 1314409,
+        "sha256": "d185c2853c7e674161789db4eed1c5708d85e4f6e3dcb5698209568adf02aa98"
+      },
+      {
+        "slot": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_nor_gl_2k.jpg",
+        "file": ".cache/production-assets/snow_02/snow_02_nor_gl_2k.jpg",
+        "bytes": 4761595,
+        "sha256": "288539ee33387e91035be4dc8d10da574bf6a95c8374d33b6b1dc465c6949e8f"
+      },
+      {
+        "slot": "Rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_rough_2k.jpg",
+        "file": ".cache/production-assets/snow_02/snow_02_rough_2k.jpg",
+        "bytes": 628467,
+        "sha256": "9cfa994318ef190d4540875a166c7c745184c1a166e82271bca7c0a628f8820f"
+      },
+      {
+        "slot": "Displacement",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/snow_02/snow_02_disp_2k.jpg",
+        "file": ".cache/production-assets/snow_02/snow_02_disp_2k.jpg",
+        "bytes": 432399,
+        "sha256": "c3fe9fe26907138e23e685c53c43152858f27042b802931e0f71bc0c62286fdd"
+      }
+    ]
+  },
+  {
+    "asset": "cobblestone_01",
+    "kind": "texture",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/cobblestone_01",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "info": {
+      "scale": "1",
+      "type": 1,
+      "tags": [
+        "cobblestone",
+        "old",
+        "garden",
+        "moss"
+      ],
+      "date_published": 1529359200,
+      "name": "Cobblestone 01",
+      "old_id": 82,
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions": [
+        2400.0000953674316,
+        2400.0000953674316
+      ],
+      "categories": [
+        "floor",
+        "man made",
+        "outdoor",
+        "dirty",
+        "cobblestone"
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "b38b64aeccd1acb8b06d33f82b03e4f9862766fe",
+      "description": "Free 8K texture of aged cobblestone: worn, rounded stones with dirt-filled joints and moss in crevices; rough, weathered surfaces with subtle damp sheen.",
+      "attributes": {
+        "surface_use": "paving",
+        "condition": [
+          "weathered",
+          "worn",
+          "mossy"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+      "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+      "img_version": "f85419b3",
+      "download_count": 32723,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_01.png?width=256&height=256&format=webp&v=f85419b3"
+    },
+    "files": [
+      {
+        "slot": "Diffuse",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_01/cobblestone_01_diff_2k.jpg",
+        "file": ".cache/production-assets/cobblestone_01/cobblestone_01_diff_2k.jpg",
+        "bytes": 1922533,
+        "sha256": "c224786e89cae7e2835a8dfafa6473c47d4d6deac0cca1db358002b8b6c4877e"
+      },
+      {
+        "slot": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_01/cobblestone_01_nor_gl_2k.jpg",
+        "file": ".cache/production-assets/cobblestone_01/cobblestone_01_nor_gl_2k.jpg",
+        "bytes": 1807924,
+        "sha256": "665f11261d411359e05c5f6df5cf23a525215796d13a1bcda3ce8c97076ae76b"
+      },
+      {
+        "slot": "Rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_01/cobblestone_01_rough_2k.jpg",
+        "file": ".cache/production-assets/cobblestone_01/cobblestone_01_rough_2k.jpg",
+        "bytes": 1731519,
+        "sha256": "6c4617c644879d64b8d73921a384faf3bfcdbc11f1688bef0ac8ea6b3df62268"
+      },
+      {
+        "slot": "Displacement",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_01/cobblestone_01_disp_2k.jpg",
+        "file": ".cache/production-assets/cobblestone_01/cobblestone_01_disp_2k.jpg",
+        "bytes": 283452,
+        "sha256": "73be18ebcd708a503c9de65945964d48e53b19e237bba249796784c5c4111da7"
+      }
+    ]
+  },
+  {
+    "asset": "sofa_02",
+    "kind": "model",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/sofa_02",
+    "authors": {
+      "Kirill Sannikov": "All"
+    },
+    "info": {
+      "type": 2,
+      "tags": [
+        "wood",
+        "furniture",
+        "chair",
+        "prop",
+        "couch",
+        "leather",
+        "fabric"
+      ],
+      "date_published": 1593521418,
+      "name": "Sofa 02",
+      "old_id": 44,
+      "categories": [
+        "furniture",
+        "seating"
+      ],
+      "authors": {
+        "Kirill Sannikov": "All"
+      },
+      "sponsors": [
+        "9716107"
+      ],
+      "max_resolution": [
+        4096,
+        4096
+      ],
+      "polycount": 2728,
+      "texel_density": 1389.082945945206,
+      "dimensions": [
+        1807.1673512458801,
+        817.7513778209686,
+        709.4888985157013
+      ],
+      "files_hash": "d7e2bb41e7bca3c320b837961bd7f71a064b6fe9",
+      "description": "Free 4K model of a tufted leather sofa with carved wood frame - elegant vintage couch/prop with realistic leather and fabric cushions.",
+      "category_id": "a995f351-c031-54f6-b317-dc5928df17a3",
+      "category": "Furniture/Seating/Sofas & Couches",
+      "attributes": {
+        "condition": [
+          "worn"
+        ],
+        "material": [
+          "leather",
+          "wood",
+          "fabric"
+        ]
+      },
+      "img_version": "5c7e6c29",
+      "download_count": 85391,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/sofa_02.png?width=256&height=256&format=webp&v=5c7e6c29"
+    },
+    "files": [
+      {
+        "slot": "blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/sofa_02/sofa_02_1k.blend",
+        "file": ".cache/production-assets/sofa_02/sofa_02_1k.blend",
+        "bytes": 247617,
+        "sha256": "eb9d8e8b9471f1b3862c18599ea8f637f9f3c2939b5e24f94bd01479f4657d9d"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sofa_02/sofa_02_metallic_1k.exr",
+        "file": ".cache/production-assets/sofa_02/textures/sofa_02_metallic_1k.exr",
+        "bytes": 4784,
+        "sha256": "2e03a19191671bfa5e157574b4b361faedf74401d2b46f22f36927b5eed30b75"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sofa_02/sofa_02_diff_1k.jpg",
+        "file": ".cache/production-assets/sofa_02/textures/sofa_02_diff_1k.jpg",
+        "bytes": 86514,
+        "sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sofa_02/sofa_02_roughness_1k.jpg",
+        "file": ".cache/production-assets/sofa_02/textures/sofa_02_roughness_1k.jpg",
+        "bytes": 108106,
+        "sha256": "ce18bf8abd5d580a0757fd41fadff320d00e1fa224ab4bad6b96876580626e0b"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sofa_02/sofa_02_nor_gl_1k.exr",
+        "file": ".cache/production-assets/sofa_02/textures/sofa_02_nor_gl_1k.exr",
+        "bytes": 1198999,
+        "sha256": "28e89013856bf59eb0ed2bbe534e1d39904c2830b0eb6195f45add9ec4e8315f"
+      }
+    ]
+  },
+  {
+    "asset": "cobblestone_street_night",
+    "kind": "hdri",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/cobblestone_street_night",
+    "authors": {
+      "Greg Zaal": "All",
+      "Jenelle van Heerden": "Backplates"
+    },
+    "info": {
+      "evs_cap": 18,
+      "type": 0,
+      "whitebalance": 2200,
+      "tags": [
+        "city",
+        "street",
+        "cobblestone",
+        "dark",
+        "lamp",
+        "germany",
+        "europe",
+        "alley",
+        "narrow",
+        "road",
+        "car",
+        "pavement"
+      ],
+      "name": "Cobblestone Street Night",
+      "categories": [
+        "outdoor",
+        "night",
+        "urban",
+        "artificial light",
+        "high contrast",
+        "clear"
+      ],
+      "date_taken": 1697662320,
+      "coords": [
+        54.091090400656945,
+        12.144489510180811
+      ],
+      "info": null,
+      "date_published": 1707436800,
+      "staging": null,
+      "max_resolution": [
+        24576,
+        12288
+      ],
+      "files_hash": "022731d00fd7fd9c0a79e174eb0bfb4c61342889",
+      "authors": {
+        "Greg Zaal": "All",
+        "Jenelle van Heerden": "Backplates"
+      },
+      "description": "Free 24K unclipped HDRI of a narrow German cobblestone street at night - warm lamp-lit, high-contrast pools of light, deep shadows, clear sky and car reflections.",
+      "category_id": "d683e4db-110d-5c86-9e8d-68f7c19615a3",
+      "category": "Streets & Town/Streets & Alleys/Historic & Old-Town Streets",
+      "attributes": {
+        "time_of_day": "night",
+        "weather": "clear",
+        "light_type": "artificial",
+        "contrast": "high",
+        "environment": "outdoor",
+        "sky_view": "obstructed"
+      },
+      "img_version": "3a6fc7f6",
+      "download_count": 157820,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_street_night.png?width=256&height=256&format=webp&v=3a6fc7f6"
+    },
+    "files": [
+      {
+        "slot": "hdri",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/cobblestone_street_night_2k.hdr",
+        "file": ".cache/production-assets/cobblestone_street_night/cobblestone_street_night_2k.hdr",
+        "bytes": 7064424,
+        "sha256": "e3c95d049ea26dc5d54b24a2904bfdd1929fac65d655e83328dfb958715e779a"
+      }
+    ]
+  },
+  {
+    "asset": "modern_arm_chair_01",
+    "kind": "model",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/modern_arm_chair_01",
+    "authors": {
+      "Vibrant Nordic": "All"
+    },
+    "info": {
+      "donated": true,
+      "date_published": 1667174400,
+      "name": "Modern Arm Chair 01",
+      "categories": [
+        "furniture",
+        "seating",
+        "office"
+      ],
+      "type": 2,
+      "staging": null,
+      "tags": [
+        "wood",
+        "leather",
+        "fancy",
+        "modern",
+        "chair",
+        "contemporary",
+        "wooden",
+        "lounge"
+      ],
+      "info": null,
+      "authors": {
+        "Vibrant Nordic": "All"
+      },
+      "sponsors": [
+        "3267566"
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "polycount": 8916,
+      "texel_density": 2929.070490134976,
+      "dimensions": [
+        820.3444182872772,
+        986.5616858005524,
+        1022.8520567470696
+      ],
+      "files_hash": "6893f36e58dddba95bd0ae1f1ef38537c1852a0b",
+      "description": "Free 8K model, modern wooden armchair with warm oak frame and plush black leather cushions - contemporary lounge styling with clean lines and wear detailing.",
+      "category_id": "11261ec6-df2b-5150-9904-684d2558070d",
+      "category": "Furniture/Seating/Chairs",
+      "attributes": {
+        "condition": [
+          "worn"
+        ],
+        "material": [
+          "wood",
+          "leather"
+        ]
+      },
+      "img_version": "f0268ac6",
+      "download_count": 52468,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_arm_chair_01.png?width=256&height=256&format=webp&v=f0268ac6"
+    },
+    "files": [
+      {
+        "slot": "blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modern_arm_chair_01/modern_arm_chair_01_1k.blend",
+        "file": ".cache/production-assets/modern_arm_chair_01/modern_arm_chair_01_1k.blend",
+        "bytes": 355104,
+        "sha256": "40fcc04a9373ebf64880b459293d9a36285c55ee928ced79369cc9647e98ceac"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_rough_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_rough_1k.png",
+        "bytes": 776559,
+        "sha256": "6d7b264e6bfc668ccda39780974abdb43a9e939e1d739e845cb2bce5367ebf34"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_diff_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_1k.png",
+        "bytes": 2077828,
+        "sha256": "37dfdb66f60ebd36434048e0080236b8bdf2b80256ac3ed8b2804a15d5c3d949"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_nor_gl_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_1k.png",
+        "bytes": 2211406,
+        "sha256": "7375a10115ddc824f249f0bd4e067a9cdb765346befc6ed3aacb03e4fa1acfa6"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_legs_nor_gl_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_1k.png",
+        "bytes": 2968569,
+        "sha256": "b337cd7c6929c22a8c4034123dd772d0c06a1d46e944e408164c2ec2bc0a1ee7"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_legs_rough_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_legs_rough_1k.png",
+        "bytes": 1009274,
+        "sha256": "29cf8fe198b0a531a4ebff085f3571d3757b9817bad7548b8b44bbabf6076f55"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_metal_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_metal_1k.png",
+        "bytes": 2155,
+        "sha256": "fb96b44c55677e850c09ed442e2aeb07c21bf013a3912b477b4baae21d1ffeb8"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_legs_diff_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_1k.png",
+        "bytes": 2832680,
+        "sha256": "b11d85b689bc9e16f5aebcb0c94cb0783e7c76ef5c0b93ec576836750adc23c1"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modern_arm_chair_01/modern_arm_chair_01_legs_metal_1k.png",
+        "file": ".cache/production-assets/modern_arm_chair_01/textures/modern_arm_chair_01_legs_metal_1k.png",
+        "bytes": 2155,
+        "sha256": "fb96b44c55677e850c09ed442e2aeb07c21bf013a3912b477b4baae21d1ffeb8"
+      }
+    ]
+  },
+  {
+    "asset": "fir_tree_01",
+    "kind": "model",
+    "license": "CC0-1.0",
+    "source_page": "https://polyhaven.com/a/fir_tree_01",
+    "authors": {
+      "Rob Tuytel": "photography",
+      "Rico Cilliers": "modeling"
+    },
+    "info": {
+      "date_published": 1686873600,
+      "name": "Fir Tree 01",
+      "type": 2,
+      "staging": null,
+      "authors": {
+        "Rob Tuytel": "photography",
+        "Rico Cilliers": "modeling"
+      },
+      "info": null,
+      "geonodes": true,
+      "categories": [
+        "nature",
+        "plants",
+        "trees",
+        "collection: pine_forest"
+      ],
+      "tags": [
+        "fir",
+        "tree",
+        "geometry nodes",
+        "woodland",
+        "needles",
+        "branches",
+        "environment",
+        "coniferous",
+        "plants",
+        "forest",
+        "tall",
+        "trunk",
+        "bark",
+        "foliage",
+        "twig"
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "sponsors": [
+        "11109006",
+        "4714267"
+      ],
+      "polycount": 7853731,
+      "files_hash": "6b79f3da0de1d192fc78ab54efa5e8956af97749",
+      "texel_density": 595.7552160626647,
+      "dimensions": [
+        26732.96093940735,
+        6541.954040527344,
+        19267.957717180252
+      ],
+      "lods": true,
+      "description": "Free 8K model of three tall fir trees with slender trunks, detailed bark, layered needle foliage and natural twiggy branch structure.",
+      "category_id": "889de586-d203-511a-b417-fac77b27a029",
+      "category": "Nature/Trees/Coniferous Trees",
+      "collections": [
+        "pine_forest"
+      ],
+      "attributes": {
+        "lods": true,
+        "geonodes": true,
+        "condition": [
+          "clean"
+        ],
+        "material": [
+          "wood"
+        ]
+      },
+      "img_version": "55f25e61",
+      "download_count": 73199,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/fir_tree_01.png?width=256&height=256&format=webp&v=55f25e61"
+    },
+    "files": [
+      {
+        "slot": "blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/fir_tree_01/fir_tree_01_1k.blend",
+        "file": ".cache/production-assets/fir_tree_01/fir_tree_01_1k.blend",
+        "bytes": 218986261,
+        "sha256": "153d20aae6d7c63a4c52689d91e8bead78f6d17a70e11ef4d03d19953383de00"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_diff_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_bark_diff_1k.png",
+        "bytes": 5652976,
+        "sha256": "508ca0a40d118beec98e8375b4611e8a16123eec94b5d2b4870617cf4d24e6fa"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_disp_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_bark_disp_1k.png",
+        "bytes": 1561378,
+        "sha256": "ab08f400d208487b7bfd5d9cd4386456ed8e5fbcfdd045eca1705e3ed4b3dab8"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_nor_gl_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_bark_nor_gl_1k.png",
+        "bytes": 5778805,
+        "sha256": "b889e7080d6efb0592f83e64cc5a5afa5fb7787b4b7d1ae13a65602689e793e8"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_rough_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_bark_rough_1k.png",
+        "bytes": 1778413,
+        "sha256": "b198105d3022db6c459ae9c307ecdb7b644832ee20bcbfd89c3741cecc77881f"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_diff_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_a_diff_1k.png",
+        "bytes": 5013819,
+        "sha256": "50e8911ac39d8eeb720d7412495d00f8639f2a0ad01dec1c22aa79efc16e9f08"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_nor_gl_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_a_nor_gl_1k.png",
+        "bytes": 4338077,
+        "sha256": "e1dfe1dcfd4d92eb7dd732cff98ac32c8a3aa5a36b9eea220e22030ea604ec09"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_rough_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_a_rough_1k.png",
+        "bytes": 1656557,
+        "sha256": "ebda61e833608c3df8d65018330c9e0bb80ec39b30d9416de0cc088c520ca8b6"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_diff_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_b_diff_1k.png",
+        "bytes": 4847111,
+        "sha256": "41bd8a65e0a827646b3a33dc1607eba2082ddc25fe714752259447c49d0600cc"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_nor_gl_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_b_nor_gl_1k.png",
+        "bytes": 4129931,
+        "sha256": "fe5f1dafe611a7f04142abf7878622a6212ed7c1737711d548ec3301b3210cf7"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_rough_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_b_rough_1k.png",
+        "bytes": 1626272,
+        "sha256": "ff399f6d054f903deee0e4d455c09f12ac3441f5c9547a0e9d06c163e6958dee"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_diff_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_c_diff_1k.png",
+        "bytes": 5140137,
+        "sha256": "edbceb8657a036e98831a3550433ab2d78928fcf9060e400ca84748cedcaf962"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_nor_gl_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_c_nor_gl_1k.png",
+        "bytes": 4450875,
+        "sha256": "08a40a7486ad3a8d97cf3da0afe5951f1a038cb51395020e2c4a2113f46d1610"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_rough_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_trunk_c_rough_1k.png",
+        "bytes": 1722380,
+        "sha256": "48fcced840b4beed4e03e09a352a67dd36185c9cd4247090069391bfb9746de9"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_alpha_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_twig_alpha_1k.png",
+        "bytes": 371026,
+        "sha256": "3f399629337e7ac3af27a01b08ffb9c0d60224a9dd374a1427761a5c2eea9d6e"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_diff_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_twig_diff_1k.png",
+        "bytes": 3411459,
+        "sha256": "76f6d0c0044d76bac08fbbd3d2ac1c9b66bb046de7d0b1a22aa9b319308f3833"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_mask_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_twig_mask_1k.png",
+        "bytes": 1388205,
+        "sha256": "67ac3d141278c0e21dbca3e821683fc618240c51ace7cf34d37aeb42a5aeba52"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_nor_gl_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_twig_nor_gl_1k.png",
+        "bytes": 1825146,
+        "sha256": "cbb6b8179a9f7f6e84fd15d1f422bc342841d20845b2bad437612f03fb0067de"
+      },
+      {
+        "slot": "include",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_rough_1k.png",
+        "file": ".cache/production-assets/fir_tree_01/textures/fir_tree_01_twig_rough_1k.png",
+        "bytes": 1155354,
+        "sha256": "a4f0a4c8bc93946dea229def779ffe5d32c555c717e4bf7b0e4b4d86bc21987a"
+      }
+    ]
+  }
+]

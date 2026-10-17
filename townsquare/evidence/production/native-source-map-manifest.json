@@ -1,0 +1,716 @@
+[
+  {
+    "name": "young_lightskinned_male_diffuse3.png",
+    "file": ".cache/source-maps/000.png",
+    "bytes": 3593099,
+    "sha256": "f50016a5507fc687dc8df06599c8ea48de950cd185de33a71cafc1319ddab4d5",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "young_lightskinned_male_diffuse.png",
+    "file": ".cache/source-maps/001.png",
+    "bytes": 3693828,
+    "sha256": "862a26e335e958b70534cb5f0d7c47ef30ab148a56c42b3e9da969cf76f12963",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "young_lightskinned_female_diffuse3.png",
+    "file": ".cache/source-maps/002.png",
+    "bytes": 3884420,
+    "sha256": "1d82f782b7d2da732229633bd2d14754d873fff53cdb1d088977bcf67ae19dde",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "young_lightskinned_female_diffuse.png",
+    "file": ".cache/source-maps/003.png",
+    "bytes": 4391156,
+    "sha256": "b2a6ac8cd4f9febdb447368e29c76cd68410bb66e46d9dcfa2d5f75126eea8fc",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "young_darkskinned_female_diffuse.png",
+    "file": ".cache/source-maps/004.png",
+    "bytes": 4427634,
+    "sha256": "96aa4a96b247fc90d371587bb88e6ae3bfc77e83f5126f17e6bbb713aa200470",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "wood_floor_rough_2k.jpg",
+    "file": ".cache/source-maps/005.jpg",
+    "bytes": 2267559,
+    "sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "wood_floor_nor_gl_2k.jpg",
+    "file": ".cache/source-maps/006.jpg",
+    "bytes": 1863576,
+    "sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "wood_floor_diff_2k.jpg",
+    "file": ".cache/source-maps/007.jpg",
+    "bytes": 2983667,
+    "sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "tongue01_diffuse.png",
+    "file": ".cache/source-maps/008.png",
+    "bytes": 625419,
+    "sha256": "3150be398e48e8ba1feac164c3143c16c0b2e959d9ffb6155f0171f59cfb4ea9",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "teeth.png",
+    "file": ".cache/source-maps/009.png",
+    "bytes": 1799930,
+    "sha256": "d0afb57869c6fbb56b98f5efc4aec629ee7593e70d8dd2bfb9de923acfb65f43",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "sofa_02_roughness.png",
+    "file": ".cache/source-maps/010.jpg",
+    "bytes": 108106,
+    "sha256": "ce18bf8abd5d580a0757fd41fadff320d00e1fa224ab4bad6b96876580626e0b",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "sofa_02_nor_gl.png",
+    "file": ".cache/source-maps/011.exr",
+    "bytes": 1198999,
+    "sha256": "28e89013856bf59eb0ed2bbe534e1d39904c2830b0eb6195f45add9ec4e8315f",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "sofa_02_metallic.png",
+    "file": ".cache/source-maps/012.exr",
+    "bytes": 4784,
+    "sha256": "2e03a19191671bfa5e157574b4b361faedf74401d2b46f22f36927b5eed30b75",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "sofa_02_diff.png",
+    "file": ".cache/source-maps/013.jpg",
+    "bytes": 86514,
+    "sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "snow_02_rough_2k.jpg",
+    "file": ".cache/source-maps/014.jpg",
+    "bytes": 628467,
+    "sha256": "9cfa994318ef190d4540875a166c7c745184c1a166e82271bca7c0a628f8820f",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "snow_02_nor_gl_2k.jpg",
+    "file": ".cache/source-maps/015.jpg",
+    "bytes": 4761595,
+    "sha256": "288539ee33387e91035be4dc8d10da574bf6a95c8374d33b6b1dc465c6949e8f",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "snow_02_diff_2k.jpg",
+    "file": ".cache/source-maps/016.jpg",
+    "bytes": 1314409,
+    "sha256": "d185c2853c7e674161789db4eed1c5708d85e4f6e3dcb5698209568adf02aa98",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "short02_diffuse.png",
+    "file": ".cache/source-maps/017.png",
+    "bytes": 3553543,
+    "sha256": "47fe33831a3929567c733356dd66243116e05df2ace1f884ddca0080b728229f",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "short01_diffuse.png",
+    "file": ".cache/source-maps/018.png",
+    "bytes": 2354146,
+    "sha256": "f34a0957184e3d1e911ed59245f874f8d4843f61ee44ff49f43edb4be0196949",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "shoes03_diffuse.png",
+    "file": ".cache/source-maps/019.png",
+    "bytes": 309009,
+    "sha256": "fe8216fbd0c34ecd3ac0e1a01970a4ccf844417be5fd1d72c527c9209256db93",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "shoes02_diffuse.png",
+    "file": ".cache/source-maps/020.png",
+    "bytes": 1282057,
+    "sha256": "efef94ea34b0e0c2283095cb47a9e0389b55449c61a4f4972d0ad4d2bf06b4f0",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "shoes01_normal.png",
+    "file": ".cache/source-maps/021.png",
+    "bytes": 875473,
+    "sha256": "a9bfd7223e98b8f93100e89596135e3a94e6044f9db11b4d23cec625c37a4599",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "shoes01_diffuse.png",
+    "file": ".cache/source-maps/022.png",
+    "bytes": 1335772,
+    "sha256": "50c9a406a7f1cb6aa7b42912348e78f09d0252aa3963c8229cf18dfe8353cdbf",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "rough_plaster_brick_rough_2k.jpg",
+    "file": ".cache/source-maps/023.jpg",
+    "bytes": 2684909,
+    "sha256": "c6814610599db13b69d2f80cf27e7dda2fafe9249c3343362498d5a433fbfe7c",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "rough_plaster_brick_nor_gl_2k.jpg",
+    "file": ".cache/source-maps/024.jpg",
+    "bytes": 1779171,
+    "sha256": "266526d00b68f4e136d422a0cf9d7c31a8c3e767b9f7a8fa364ef001e549e03a",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "ponytail01_diffuse.png",
+    "file": ".cache/source-maps/025.png",
+    "bytes": 3910782,
+    "sha256": "dcb364300cac06ce8bef91b2f7c0970baf310898bbdd06b0c6b884ee9306eb97",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-11.png",
+    "file": ".cache/source-maps/026.png",
+    "bytes": 7775,
+    "sha256": "441bea3de20de2091170b329448125a1cb373fc2e2ed07b3f113378204e51a6c",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-10.png",
+    "file": ".cache/source-maps/027.png",
+    "bytes": 9053,
+    "sha256": "936a2322a54df235305167c5b00e62f30011d57338370631ff68bf00fed8651f",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-09.png",
+    "file": ".cache/source-maps/028.png",
+    "bytes": 9086,
+    "sha256": "0dc4569cf4835ba33ce7b108e9043df936d17c217a14410aeb0a1124c0e03a2b",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-08.png",
+    "file": ".cache/source-maps/029.png",
+    "bytes": 8512,
+    "sha256": "711e98903fa5aca5d4cd2d0269ac8bee0256ce4bb1c501366ba50bd802bac4a7",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-07.png",
+    "file": ".cache/source-maps/030.png",
+    "bytes": 9284,
+    "sha256": "3c1ef760608125d687c88b2929c5d0a0a0f98028be5f9a9a63025aad5c344480",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-06.png",
+    "file": ".cache/source-maps/031.png",
+    "bytes": 9415,
+    "sha256": "c850cedde825774a94848cba974d9d0508f031efa2b4110dbe0b0d11ab019c67",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-05.png",
+    "file": ".cache/source-maps/032.png",
+    "bytes": 8997,
+    "sha256": "c63e08ebd77d63e5d2b398df1956e63000690bb7a2be4cf3dcc6dd3fe2c588f1",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-04.png",
+    "file": ".cache/source-maps/033.png",
+    "bytes": 8495,
+    "sha256": "65a75d777be37dc5c4d57b3954cc2da369521bf8a0fb7b90b7db24f3e303d385",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-03.png",
+    "file": ".cache/source-maps/034.png",
+    "bytes": 7943,
+    "sha256": "bf8ed74b0c768c61c1e5cf7083c20340c3ff754687b87034db454924317e57d3",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-02.png",
+    "file": ".cache/source-maps/035.png",
+    "bytes": 9226,
+    "sha256": "75b9f8e140d6ec9b6aeaed2c0141ab95c151013226c064d107787bd86617539c",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-01.png",
+    "file": ".cache/source-maps/036.png",
+    "bytes": 9112,
+    "sha256": "0d95608602bbf795d3c8a8817086c5dadf18293cec877832c6a45c6bf14ccb13",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "pharmacy-00.png",
+    "file": ".cache/source-maps/037.png",
+    "bytes": 8967,
+    "sha256": "c11a9a8e3c4e11ccbd96e008de712feb7773ba34b6d75c3daed509d86dbb46df",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P12_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/038.png",
+    "bytes": 3544897,
+    "sha256": "71348d509662ffb7caf985f578dd491dbf828c320d54ce1b1d58353dbdec8e5f",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P11_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/039.png",
+    "bytes": 3486819,
+    "sha256": "9ae039f42d53302cc495b33828b03442356f79e284a14c2a9833db49ae46bf79",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P10_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/040.png",
+    "bytes": 3214527,
+    "sha256": "d2fe75574dab2561515b8b4fd9e0ad23b5eb22d91ac7f14ff601e96a28f0663f",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P09_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/041.png",
+    "bytes": 3465936,
+    "sha256": "edc92f0d1b7a3c59ae12768768ce01d93b33d006372d059bb142ad0a453f9ee4",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P08_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/042.png",
+    "bytes": 3428274,
+    "sha256": "92ff604e595b426d86e3b1fa7dc0f58ef7468ba37b110a6f35d4f37f547993d5",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P07_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/043.png",
+    "bytes": 3531585,
+    "sha256": "3ab8c149f5e31dbbb85ba702d2de0676f98b4f2072fa87da414bc145f00ce4ea",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P06_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/044.png",
+    "bytes": 3527401,
+    "sha256": "f9b876d6e4aae2d218754727178a9c489059dca82b2f00001c3f49e7013e9214",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P05_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/045.png",
+    "bytes": 3486056,
+    "sha256": "7a70809f03eeac3ab4e2c07d1e98d4885585cdf3653e1bab06abaf6e5e7393ba",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P04_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/046.png",
+    "bytes": 3465146,
+    "sha256": "c0af297d03a3d8c765c5d6ae119018337d999aa011c80c5fd14e59ba83be24d6",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P03_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/047.png",
+    "bytes": 3454508,
+    "sha256": "c7311e6b7cad329d103c3b7122fc20bacb2170a2368c9e0519ed79899f2cd235",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P02_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/048.png",
+    "bytes": 3394776,
+    "sha256": "35de702456e2f1b5bf102659234854100a9625012b0bf044bdad4f82ce2e02b4",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "P01_PARKA_COLOURWAY",
+    "file": ".cache/source-maps/049.png",
+    "bytes": 3360711,
+    "sha256": "7c5e514035d350d05a119336ac358ed89a3dd72986391f4af9a2c181d40271f6",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "old_darkskinned_male_diffuse.png",
+    "file": ".cache/source-maps/050.png",
+    "bytes": 3336963,
+    "sha256": "4bcc74baf88f28a0ac4887f22d3cf395bbcb60810121697dafbf0bf3293d0e72",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "modern_arm_chair_01_pillow_rough.png",
+    "file": ".cache/source-maps/051.png",
+    "bytes": 776559,
+    "sha256": "6d7b264e6bfc668ccda39780974abdb43a9e939e1d739e845cb2bce5367ebf34",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "modern_arm_chair_01_pillow_nor_gl.png",
+    "file": ".cache/source-maps/052.png",
+    "bytes": 2211406,
+    "sha256": "7375a10115ddc824f249f0bd4e067a9cdb765346befc6ed3aacb03e4fa1acfa6",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "modern_arm_chair_01_pillow_diff.png",
+    "file": ".cache/source-maps/053.png",
+    "bytes": 2077828,
+    "sha256": "37dfdb66f60ebd36434048e0080236b8bdf2b80256ac3ed8b2804a15d5c3d949",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "modern_arm_chair_01_legs_rough.png",
+    "file": ".cache/source-maps/054.png",
+    "bytes": 1009274,
+    "sha256": "29cf8fe198b0a531a4ebff085f3571d3757b9817bad7548b8b44bbabf6076f55",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "modern_arm_chair_01_legs_nor_gl.png",
+    "file": ".cache/source-maps/055.png",
+    "bytes": 2968569,
+    "sha256": "b337cd7c6929c22a8c4034123dd772d0c06a1d46e944e408164c2ec2bc0a1ee7",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "modern_arm_chair_01_legs_metal.png",
+    "file": ".cache/source-maps/056.png",
+    "bytes": 2155,
+    "sha256": "fb96b44c55677e850c09ed442e2aeb07c21bf013a3912b477b4baae21d1ffeb8",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "modern_arm_chair_01_legs_diff.png",
+    "file": ".cache/source-maps/057.png",
+    "bytes": 2832680,
+    "sha256": "b11d85b689bc9e16f5aebcb0c94cb0783e7c76ef5c0b93ec576836750adc23c1",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "male_casualsuit05_normal.png",
+    "file": ".cache/source-maps/058.png",
+    "bytes": 3058153,
+    "sha256": "3b8edfafc3df7392e009660d879fae2769af27e97b64fd1fd4702f8184555d43",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "food-11.png",
+    "file": ".cache/source-maps/059.png",
+    "bytes": 8963,
+    "sha256": "3bedd91525e9873636bf0dd73f01838fb690d17ba744b166c43603c9abf2b3bd",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-10.png",
+    "file": ".cache/source-maps/060.png",
+    "bytes": 8944,
+    "sha256": "2493554e98c4224a2e8492e519851e0d6e9fa4449842ab4ea465456813b82ea8",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-09.png",
+    "file": ".cache/source-maps/061.png",
+    "bytes": 10212,
+    "sha256": "05a250635a0ac68e7bcb174fe1f7b0e88a0f740e9f124339100f28a7d0561097",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-08.png",
+    "file": ".cache/source-maps/062.png",
+    "bytes": 9559,
+    "sha256": "0608c1d0bfb7d8e027b029af5bebb7a15eda03c9518067ed22f3afb95a711362",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-07.png",
+    "file": ".cache/source-maps/063.png",
+    "bytes": 9272,
+    "sha256": "26c487c7cd10163c350ee903dd2251e59bf2fb38ccc91bff6b504fa978d9136e",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-06.png",
+    "file": ".cache/source-maps/064.png",
+    "bytes": 9661,
+    "sha256": "0723004ff70e23b95b49c3accdb166496a246edce423c21732aedd45395cc46f",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-05.png",
+    "file": ".cache/source-maps/065.png",
+    "bytes": 9710,
+    "sha256": "5851c14b76030652c1d92dc1d7bb61f685219b41c48dbf43b9c5e514a53a8424",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-04.png",
+    "file": ".cache/source-maps/066.png",
+    "bytes": 9642,
+    "sha256": "5ec2189804a4b61c4bc8a42b19471564eb20e0bfb4c06439d1ec6c80578abfeb",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-03.png",
+    "file": ".cache/source-maps/067.png",
+    "bytes": 9142,
+    "sha256": "eae6ae20b331f5c3d5747a64f242068717775dccd532b04196e3b2a7829194d5",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-02.png",
+    "file": ".cache/source-maps/068.png",
+    "bytes": 10435,
+    "sha256": "4c92c565f684087e0ed02a90a6e31e37f39ceaa8f1922b9308d4d5a2faf7ffe9",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-01.png",
+    "file": ".cache/source-maps/069.png",
+    "bytes": 10361,
+    "sha256": "cffb49b6517d963b297e60ba18889e6d2a7855a3dffd2b141b220522aba571b5",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "food-00.png",
+    "file": ".cache/source-maps/070.png",
+    "bytes": 10057,
+    "sha256": "65c6ff452951dfc8bf92f21a32c23c5c5420a865abed64407bc3a2c3bf11e052",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "fir_tree_01_twig_nor_gl.png",
+    "file": ".cache/source-maps/071.png",
+    "bytes": 1825146,
+    "sha256": "cbb6b8179a9f7f6e84fd15d1f422bc342841d20845b2bad437612f03fb0067de",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "fir_tree_01_twig_diff.png",
+    "file": ".cache/source-maps/072.png",
+    "bytes": 3411459,
+    "sha256": "76f6d0c0044d76bac08fbbd3d2ac1c9b66bb046de7d0b1a22aa9b319308f3833",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "fir_tree_01_bark_nor_gl.png",
+    "file": ".cache/source-maps/073.png",
+    "bytes": 5778805,
+    "sha256": "b889e7080d6efb0592f83e64cc5a5afa5fb7787b4b7d1ae13a65602689e793e8",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "fir_tree_01_bark_diff.png",
+    "file": ".cache/source-maps/074.png",
+    "bytes": 5652976,
+    "sha256": "508ca0a40d118beec98e8375b4611e8a16123eec94b5d2b4870617cf4d24e6fa",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "fabric_pattern_05_rough_2k.jpg",
+    "file": ".cache/source-maps/075.jpg",
+    "bytes": 1839962,
+    "sha256": "3b2838c46227bf11e1c0d8da21703659d70676f56b848abff39c39ceac56f5f8",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "fabric_pattern_05_nor_gl_2k.jpg",
+    "file": ".cache/source-maps/076.jpg",
+    "bytes": 2908819,
+    "sha256": "3be0b006000145d8c879a381ac5937f6ab51bf7e4720f2ba7c11d3184aec7e15",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "eyelashes01.png",
+    "file": ".cache/source-maps/077.png",
+    "bytes": 91600,
+    "sha256": "4b69c0fff2648874460e9caf80c31413c444218a5c50afebc425aeaa65484a35",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "eyebrow001.png",
+    "file": ".cache/source-maps/078.png",
+    "bytes": 89619,
+    "sha256": "9940f7d0b1b223709a19b05156ba6f6e9e4dbdbced02d7574f4d51d72c58967b",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "cobblestone_street_night_2k.hdr",
+    "file": ".cache/source-maps/079.hdr",
+    "bytes": 7064424,
+    "sha256": "e3c95d049ea26dc5d54b24a2904bfdd1929fac65d655e83328dfb958715e779a",
+    "colorspace": "Linear Rec.709"
+  },
+  {
+    "name": "cobblestone_01_rough_2k.jpg",
+    "file": ".cache/source-maps/080.jpg",
+    "bytes": 1731519,
+    "sha256": "6c4617c644879d64b8d73921a384faf3bfcdbc11f1688bef0ac8ea6b3df62268",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "cobblestone_01_rough_1k.jpg",
+    "file": ".cache/source-maps/081.jpg",
+    "bytes": 429061,
+    "sha256": "5c35086e7c8e4ea746967f20bedb67e730ac5332b3370d49befbdd3295354b80",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "cobblestone_01_nor_gl_2k.jpg",
+    "file": ".cache/source-maps/082.jpg",
+    "bytes": 1807924,
+    "sha256": "665f11261d411359e05c5f6df5cf23a525215796d13a1bcda3ce8c97076ae76b",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "cobblestone_01_nor_gl_1k.jpg",
+    "file": ".cache/source-maps/083.jpg",
+    "bytes": 543090,
+    "sha256": "4b88ed092d4391506b4760f454996f633c171332b8a68557593d6e80627fc8c0",
+    "colorspace": "Non-Color"
+  },
+  {
+    "name": "cobblestone_01_diff_2k.jpg",
+    "file": ".cache/source-maps/084.jpg",
+    "bytes": 1922533,
+    "sha256": "c224786e89cae7e2835a8dfafa6473c47d4d6deac0cca1db358002b8b6c4877e",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "cobblestone_01_diff_1k.jpg",
+    "file": ".cache/source-maps/085.jpg",
+    "bytes": 487258,
+    "sha256": "aab330227974aadbc477b2022351112f5696fa7048d99dc776c2e6f23f4e0d2a",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "brown_eye.png",
+    "file": ".cache/source-maps/086.png",
+    "bytes": 610817,
+    "sha256": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "braid01_diffuse.png",
+    "file": ".cache/source-maps/087.png",
+    "bytes": 2615248,
+    "sha256": "24c0d2a639f04704734c3e38af97d110777c1b203e5a10c66a5c89563643a018",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "bob02_diffuse.png",
+    "file": ".cache/source-maps/088.png",
+    "bytes": 3373723,
+    "sha256": "38c88e6f71631356591f09b1f17a1bb5a99c3bb095b1a29003f1dc3d3e839b0d",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B12.png",
+    "file": ".cache/source-maps/089.png",
+    "bytes": 35141,
+    "sha256": "e09150e5bac56822840d8ec0127fa5b22f6740ed266d5e6597b456d65b163ee0",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B11.png",
+    "file": ".cache/source-maps/090.png",
+    "bytes": 39489,
+    "sha256": "136b75355ee824ff3cfa8c33c078fa3f462054af8467ed28bf685bd4999a8680",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B10.png",
+    "file": ".cache/source-maps/091.png",
+    "bytes": 37706,
+    "sha256": "490d1e2116ff52bdd05fdff702d4cb8f4d1c2e964fa5dd1e9a049ebddf4f01fb",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B09.png",
+    "file": ".cache/source-maps/092.png",
+    "bytes": 40431,
+    "sha256": "d24e2f2fcff793c77f88f70f4bfc89d0e24edcca92474350d9dda55b2809f909",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B08.png",
+    "file": ".cache/source-maps/093.png",
+    "bytes": 31918,
+    "sha256": "853519bb5202ae7d25dbc0500f346351c7a51b998cef3b1c8841a67de18a6e97",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B07.png",
+    "file": ".cache/source-maps/094.png",
+    "bytes": 38834,
+    "sha256": "4a867a47d2c42466fd21c1cd2b56165700838844d6a414a69036e377d8d4bae6",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B06.png",
+    "file": ".cache/source-maps/095.png",
+    "bytes": 43616,
+    "sha256": "1d61f68f30371880287768233e4dcf970a9b6af1fd5322fe7d4d9a1c5aac44c0",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B05.png",
+    "file": ".cache/source-maps/096.png",
+    "bytes": 42926,
+    "sha256": "835bce407a7e304ab388b0218df99466af5e4a576e01f03ca4b003d1e827bb99",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B04.png",
+    "file": ".cache/source-maps/097.png",
+    "bytes": 31948,
+    "sha256": "946d28ccd16a5a2a2bb560f74eee80066b3b392e6b0569e7dca7db9dcb08421c",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B03.png",
+    "file": ".cache/source-maps/098.png",
+    "bytes": 34782,
+    "sha256": "c84056e321c5a1c8fb02b685033182036d162133983baf1b1d341b4b5ce7d998",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B02.png",
+    "file": ".cache/source-maps/099.png",
+    "bytes": 37352,
+    "sha256": "f48b25c556128737acdb7c2cb53feabe8b26b1a25f92d96a44ab1dc961fbca2c",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "B01.png",
+    "file": ".cache/source-maps/100.png",
+    "bytes": 35163,
+    "sha256": "486bac465e0fb81a37ed563c6cf68d0dc56b65540e04354ead175cc175e1094e",
+    "colorspace": "sRGB"
+  },
+  {
+    "name": "afro_diffuse.png",
+    "file": ".cache/source-maps/101.png",
+    "bytes": 4817185,
+    "sha256": "dc0db7dd8a13802f02303ca7e49844b219e09db134471b7061538a8af8f7c7fb",
+    "colorspace": "sRGB"
+  }
+]

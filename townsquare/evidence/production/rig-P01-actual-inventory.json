@@ -1,0 +1,1438 @@
+[
+  {
+    "name": "P01_ANATOMICAL_BASE",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_object_type": "Basemesh",
+      "MhObjectType": "Basemesh",
+      "MPFB_GEN_scale_factor": 0.10000000149011612,
+      "MhScaleFactor": 0.10000000149011612,
+      "MPFB_HUM_gender": 1.0,
+      "MPFB_HUM_age": 0.3499999940395355,
+      "MPFB_HUM_muscle": 0.4000000059604645,
+      "MPFB_HUM_weight": 0.47999998927116394,
+      "MPFB_HUM_proportions": 0.5,
+      "MPFB_HUM_height": 0.44999998807907104,
+      "MPFB_HUM_cupsize": 0.5,
+      "MPFB_HUM_firmness": 0.5,
+      "MPFB_HUM_asian": 0.0,
+      "MPFB_HUM_caucasian": 1.0,
+      "MPFB_HUM_african": 0.0,
+      "MPFB_HUM_is_human_project": 1,
+      "MPFB_HUM_material_source": "young_caucasian_male/young_caucasian_male.mhmat",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.35224732756614685,
+        -0.1805168092250824,
+        0.1584562063217163
+      ],
+      [
+        0.37074753642082214,
+        0.06341765075922012,
+        1.6846578121185303
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.body"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.rig",
+    "type": "ARMATURE",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_scale_factor": 0.10000000149011612,
+      "MhScaleFactor": 0.10000000149011612,
+      "MPFB_GEN_object_type": "Skeleton",
+      "MhObjectType": "Skeleton",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    }
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.high-poly",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "high-poly/high-poly.mhclo",
+      "MPFB_GEN_object_type": "Eyes",
+      "MhObjectType": "Eyes",
+      "MPFB_GEN_uuid": "2c12f43b-1303-432c-b7ce-d78346baf2e6",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.high-poly",
+      "MhDeleteGroup": "Delete.high-poly",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "HighPolyEyes",
+      "MhClothesName": "HighPolyEyes",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.05559889227151871,
+        -0.15714925527572632,
+        1.5517417192459106
+      ],
+      [
+        0.0389518104493618,
+        -0.1197625994682312,
+        1.5887343883514404
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.high-poly"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.eyebrow001",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "eyebrow001/eyebrow001.mhclo",
+      "MPFB_GEN_object_type": "Eyebrows",
+      "MhObjectType": "Eyebrows",
+      "MPFB_GEN_uuid": "9c81ec3a-faa5-4c94-9cdb-992300ba3084",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.eyebrow001",
+      "MhDeleteGroup": "Delete.eyebrow001",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "eyebrow001",
+      "MhClothesName": "eyebrow001",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.0699802115559578,
+        -0.1649840772151947,
+        1.5689115524291992
+      ],
+      [
+        0.05567033961415291,
+        -0.11825795471668243,
+        1.5867531299591064
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.eyebrow001"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.eyelashes01",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "eyelashes01/eyelashes01.mhclo",
+      "MPFB_GEN_object_type": "Eyelashes",
+      "MhObjectType": "Eyelashes",
+      "MPFB_GEN_uuid": "d533836f-13ad-4836-8b65-051108253cd2",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.eyelashes01",
+      "MhDeleteGroup": "Delete.eyelashes01",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "Eyelashes01",
+      "MhClothesName": "Eyelashes01",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.06210585683584213,
+        -0.1610894501209259,
+        1.5566434860229492
+      ],
+      [
+        0.0411604568362236,
+        -0.13543644547462463,
+        1.5780742168426514
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.eyelashes01"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.teeth_base",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "teeth_base/teeth_base.mhclo",
+      "MPFB_GEN_object_type": "Teeth",
+      "MhObjectType": "Teeth",
+      "MPFB_GEN_uuid": "0a5ec82a-0d5f-43ce-a765-8f076f95692d",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.teeth_base",
+      "MhDeleteGroup": "Delete.teeth_base",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "Teeth_Base",
+      "MhClothesName": "Teeth_Base",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.03889835998415947,
+        -0.1559228152036667,
+        1.4689143896102905
+      ],
+      [
+        0.020512469112873077,
+        -0.08438638597726822,
+        1.5185905694961548
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.teeth_base"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.tongue01",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "tongue01/tongue01.mhclo",
+      "MPFB_GEN_object_type": "Tongue",
+      "MhObjectType": "Tongue",
+      "MPFB_GEN_uuid": "52ad91a3-caad-4e50-8c38-67634e5e789c",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.tongue01",
+      "MhDeleteGroup": "Delete.tongue01",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "tongue01",
+      "MhClothesName": "tongue01",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.030912211164832115,
+        -0.14706334471702576,
+        1.4817386865615845
+      ],
+      [
+        0.016035543754696846,
+        -0.07560566067695618,
+        1.5086822509765625
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.tongue01"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.short01",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "short01/short01.mhclo",
+      "MPFB_GEN_object_type": "Hair",
+      "MhObjectType": "Hair",
+      "MPFB_GEN_uuid": "766436e9-63ed-4f6a-afa9-99f3acff70a8",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.short01",
+      "MhDeleteGroup": "Delete.short01",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "short01",
+      "MhClothesName": "short01",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.07775555551052094,
+        -0.15933921933174133,
+        1.4879987239837646
+      ],
+      [
+        0.09439952671527863,
+        0.056060925126075745,
+        1.7019668817520142
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.short01"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.male_casualsuit05",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "male_casualsuit05/male_casualsuit05.mhclo",
+      "MPFB_GEN_object_type": "Clothes",
+      "MhObjectType": "Clothes",
+      "MPFB_GEN_uuid": "02e8aa01-466f-4eb4-a375-e209cb4a77d8",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.male_casualsuit05",
+      "MhDeleteGroup": "Delete.male_casualsuit05",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "male_casualsuit05",
+      "MhClothesName": "male_casualsuit05",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.35431721806526184,
+        -0.1985265612602234,
+        0.06387321650981903
+      ],
+      [
+        0.37112629413604736,
+        0.13704465329647064,
+        1.4719759225845337
+      ]
+    ],
+    "materials": [
+      "P01_QUILTED_PARKA_AND_JEANS"
+    ]
+  },
+  {
+    "name": "P01_ANATOMICAL_BASE.shoes01",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": "P01_ANATOMICAL_BASE.rig",
+    "parent_bone": "",
+    "properties": {
+      "MPFB_GEN_asset_source": "shoes01/shoes01.mhclo",
+      "MPFB_GEN_object_type": "Clothes",
+      "MhObjectType": "Clothes",
+      "MPFB_GEN_uuid": "6e0c552e-e207-44df-8f70-c9bfdeddd8c6",
+      "MPFB_MC_author": "unknown",
+      "MhClothesAuthor": "unknown",
+      "MPFB_MC_delete_group": "Delete.shoes01",
+      "MhDeleteGroup": "Delete.shoes01",
+      "MPFB_MC_description": "no description",
+      "MhClothesDesc": "no description",
+      "MPFB_MC_license": 1,
+      "MhClothesLicense": 1,
+      "MPFB_MC_name": "shoes01",
+      "MhClothesName": "shoes01",
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.250729501247406,
+        -0.20924784243106842,
+        -0.0018917303532361984
+      ],
+      [
+        0.250729501247406,
+        0.05374898388981819,
+        0.21027041971683502
+      ]
+    ],
+    "materials": [
+      "P01_ANATOMICAL_BASE.shoes01"
+    ]
+  },
+  {
+    "name": "P01_PLACEMENT_ROOT",
+    "type": "EMPTY",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parent": null,
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    }
+  },
+  {
+    "name": "P01_SCARF_WRAP",
+    "type": "MESH",
+    "location": [
+      -3.4924596548080444e-10,
+      -0.04703591763973236,
+      1.2886090278625488
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.12045668065547943,
+        -0.1719638705253601,
+        1.3859187364578247
+      ],
+      [
+        0.12045668065547943,
+        0.06894949078559875,
+        1.4362915754318237
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_TAIL",
+    "type": "MESH",
+    "location": [
+      -0.054999999701976776,
+      -0.1520359218120575,
+      1.1086090803146362
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.11771902441978455,
+        -0.18127188086509705,
+        1.016883373260498
+      ],
+      [
+        -0.0027376562356948853,
+        -0.15170523524284363,
+        1.4111051559448242
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE",
+    "type": "MESH",
+    "location": [
+      -0.10000000149011612,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.11279125511646271,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.10622088611125946,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.001",
+    "type": "MESH",
+    "location": [
+      -0.08699999749660492,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.09855546057224274,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.09198509156703949,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.002",
+    "type": "MESH",
+    "location": [
+      -0.07400000095367432,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.08431968092918396,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.07774931192398071,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.003",
+    "type": "MESH",
+    "location": [
+      -0.061000000685453415,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.07008388638496399,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.06351351737976074,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.004",
+    "type": "MESH",
+    "location": [
+      -0.04800000041723251,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.05584809556603432,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.04927773401141167,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.005",
+    "type": "MESH",
+    "location": [
+      -0.03500000014901161,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.041612304747104645,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.035041943192481995,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.006",
+    "type": "MESH",
+    "location": [
+      -0.02199999988079071,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.02737651765346527,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.020806152373552322,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SCARF_FRINGE.007",
+    "type": "MESH",
+    "location": [
+      -0.009000000543892384,
+      -0.15253591537475586,
+      0.9086090326309204
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.013140728697180748,
+        -0.17070706188678741,
+        0.9730027914047241
+      ],
+      [
+        -0.006570364814251661,
+        -0.16336511075496674,
+        1.0169613361358643
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_KNITTED_BEANIE",
+    "type": "MESH",
+    "location": [
+      0.009922647848725319,
+      -0.039791129529476166,
+      1.4654805660247803
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.08878462016582489,
+        -0.15518228709697723,
+        1.604790210723877
+      ],
+      [
+        0.11051642894744873,
+        0.06803487241268158,
+        1.7635740041732788
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_BEANIE_RIB",
+    "type": "MESH",
+    "location": [
+      0.009922647848725319,
+      -0.039791129529476166,
+      1.4774806499481201
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.09754510223865509,
+        -0.15198470652103424,
+        1.6069804430007935
+      ],
+      [
+        0.11927691102027893,
+        0.06483730673789978,
+        1.628881573677063
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB",
+    "type": "MESH",
+    "location": [
+      0.09392264485359192,
+      -0.039791129529476166,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.09505514055490494,
+        -0.044887784868478775,
+        1.6264463663101196
+      ],
+      [
+        0.11064685136079788,
+        -0.04225962236523628,
+        1.6926401853561401
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.001",
+    "type": "MESH",
+    "location": [
+      0.08885683119297028,
+      -0.007983257994055748,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.08948879688978195,
+        -0.013052019290626049,
+        1.626441478729248
+      ],
+      [
+        0.10511844605207443,
+        -0.004432284273207188,
+        1.6926450729370117
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.002",
+    "type": "MESH",
+    "location": [
+      0.07427038252353668,
+      0.01998811587691307,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.07450491935014725,
+        0.015167102217674255,
+        1.6264294385910034
+      ],
+      [
+        0.08815623074769974,
+        0.028609298169612885,
+        1.6926571130752563
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.003",
+    "type": "MESH",
+    "location": [
+      0.05192264914512634,
+      0.04074922949075699,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.05185479298233986,
+        0.03630891814827919,
+        1.626416563987732
+      ],
+      [
+        0.06186211481690407,
+        0.05293684080243111,
+        1.6926699876785278
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.004",
+    "type": "MESH",
+    "location": [
+      0.024509094655513763,
+      0.05179598927497864,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.024216782301664352,
+        0.04777076095342636,
+        1.626408576965332
+      ],
+      [
+        0.02946111187338829,
+        0.0656687468290329,
+        1.6926779747009277
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.005",
+    "type": "MESH",
+    "location": [
+      -0.004663798958063126,
+      0.05179598927497864,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.0077293082140386105,
+        0.04777076095342636,
+        1.626408576965332
+      ],
+      [
+        -0.0024849779438227415,
+        0.0656687468290329,
+        1.6926779747009277
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.006",
+    "type": "MESH",
+    "location": [
+      -0.032077353447675705,
+      0.04074922949075699,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.040130309760570526,
+        0.03630891814827919,
+        1.626416563987732
+      ],
+      [
+        -0.030122987926006317,
+        0.05293684080243111,
+        1.6926699876785278
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.007",
+    "type": "MESH",
+    "location": [
+      -0.054425086826086044,
+      0.01998811587691307,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.0664244294166565,
+        0.015167102217674255,
+        1.6264294385910034
+      ],
+      [
+        -0.052773114293813705,
+        0.028609298169612885,
+        1.6926571130752563
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.008",
+    "type": "MESH",
+    "location": [
+      -0.06901153922080994,
+      -0.007983257994055748,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.08338665217161179,
+        -0.013052019290626049,
+        1.626441478729248
+      ],
+      [
+        -0.0677570030093193,
+        -0.004432284273207188,
+        1.6926450729370117
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.009",
+    "type": "MESH",
+    "location": [
+      -0.07407735288143158,
+      -0.039791129529476166,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.08891505002975464,
+        -0.04488778114318848,
+        1.6264463663101196
+      ],
+      [
+        -0.07332335412502289,
+        -0.04225962609052658,
+        1.6926401853561401
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.010",
+    "type": "MESH",
+    "location": [
+      -0.06901153922080994,
+      -0.07159900665283203,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.08338664472103119,
+        -0.08271513134241104,
+        1.626441478729248
+      ],
+      [
+        -0.0677570104598999,
+        -0.07409539073705673,
+        1.6926450729370117
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.011",
+    "type": "MESH",
+    "location": [
+      -0.054425086826086044,
+      -0.0995703786611557,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.06642443686723709,
+        -0.11575670540332794,
+        1.6264294385910034
+      ],
+      [
+        -0.05277311056852341,
+        -0.10231451690196991,
+        1.6926571130752563
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.012",
+    "type": "MESH",
+    "location": [
+      -0.032077353447675705,
+      -0.12033149600028992,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.04013032093644142,
+        -0.14008426666259766,
+        1.626416563987732
+      ],
+      [
+        -0.030122976750135422,
+        -0.12345632165670395,
+        1.6926699876785278
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.013",
+    "type": "MESH",
+    "location": [
+      -0.004663798958063126,
+      -0.13137826323509216,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        -0.007729305885732174,
+        -0.15281617641448975,
+        1.626408576965332
+      ],
+      [
+        -0.0024849798064678907,
+        -0.1349181830883026,
+        1.6926779747009277
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.014",
+    "type": "MESH",
+    "location": [
+      0.024509094655513763,
+      -0.13137826323509216,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.0242167841643095,
+        -0.15281617641448975,
+        1.626408576965332
+      ],
+      [
+        0.02946111001074314,
+        -0.1349181830883026,
+        1.6926779747009277
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.015",
+    "type": "MESH",
+    "location": [
+      0.05192264914512634,
+      -0.12033149600028992,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.051854781806468964,
+        -0.14008426666259766,
+        1.626416563987732
+      ],
+      [
+        0.06186212599277496,
+        -0.12345632910728455,
+        1.6926699876785278
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.016",
+    "type": "MESH",
+    "location": [
+      0.07427038252353668,
+      -0.0995703786611557,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.07450491189956665,
+        -0.11575670540332794,
+        1.6264294385910034
+      ],
+      [
+        0.08815623819828033,
+        -0.10231451690196991,
+        1.6926571130752563
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_RIB.017",
+    "type": "MESH",
+    "location": [
+      0.08885683119297028,
+      -0.07159900665283203,
+      1.515480637550354
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.08948880434036255,
+        -0.08271513134241104,
+        1.626441478729248
+      ],
+      [
+        0.10511843860149384,
+        -0.07409539073705673,
+        1.6926450729370117
+      ]
+    ],
+    "materials": [
+      "WinterKnit"
+    ]
+  },
+  {
+    "name": "P01_SHOPPING_BAG",
+    "type": "MESH",
+    "location": [
+      0.31250303983688354,
+      -0.040436290204524994,
+      0.44625842571258545
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.21080251038074493,
+        -0.1154591366648674,
+        0.3298962712287903
+      ],
+      [
+        0.4736170768737793,
+        0.02689874917268753,
+        0.647463858127594
+      ]
+    ],
+    "materials": [
+      "BagPaper"
+    ]
+  },
+  {
+    "name": "P01_BAG_HANDLE",
+    "type": "MESH",
+    "location": [
+      0.31250303983688354,
+      -0.040436290204524994,
+      0.6512584090232849
+    ],
+    "parent": "P01_PLACEMENT_ROOT",
+    "parent_bone": "",
+    "properties": {
+      "person_variant": "P01",
+      "license": "CC0-1.0 original derivatives",
+      "stage": "PRODUCTION_UNINSPECTED"
+    },
+    "bounds": [
+      [
+        0.2699357867240906,
+        -0.050850559026002884,
+        0.6408934593200684
+      ],
+      [
+        0.41448378562927246,
+        -0.03770982846617699,
+        0.785441517829895
+      ]
+    ],
+    "materials": [
+      "HandleLeather"
+    ]
+  }
+]

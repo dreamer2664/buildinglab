@@ -1,0 +1,23 @@
+{
+  "image": ".cache/town-study-R1.png",
+  "sha256": "93e9382842ba7b47899eb06ddaf599154bc1b86bda83191b399908dc8782b988",
+  "source_native_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776",
+  "render_derivative": "/home/user/townsquare/.cache/master/Winterlichtplatz-render-R1.blend",
+  "samples": 16,
+  "size": [
+    1200,
+    750
+  ],
+  "camera": [
+    23.0,
+    -26.0,
+    2.200000047683716
+  ],
+  "target": [
+    -7,
+    21,
+    5.0
+  ],
+  "lens_mm": 30.0,
+  "visual_review": "PENDING"
+}

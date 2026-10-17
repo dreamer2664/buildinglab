@@ -1,0 +1,60 @@
+{
+  "inspections": [
+    {
+      "image": ".cache/pilot-R3-prefreeze/B01_L01_interior.png",
+      "sha256": "a63509f55a876cf5e29bb9ead85a69e88d8bbbaeebb1db42cf1f537eed5a8fb8",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "IMPROVED_STUDY_ONLY",
+      "notes": "Actually opened original. Interior supermarket mark now readable above real stocked shelves; counter foreground, light/floor detail present. Pre-freeze source binding not authoritative; not final resolution.",
+      "final_visual_acceptance": false
+    },
+    {
+      "image": ".cache/pilot-R3-prefreeze/B03_L01_interior.png",
+      "sha256": "04b97b159459f115e885cd46cba752bfba8abad331ad5e04a8e946ac4f034642",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "REJECT_CAMERA",
+      "notes": "Actually opened original. Additional cafe seating and ceramics visible, physical brand readable; new espresso bar off-camera. Moved inspection camera to opposite corner.",
+      "final_visual_acceptance": false
+    },
+    {
+      "image": ".cache/pilot-R3-prefreeze/D01.png",
+      "sha256": "6d38fd660f0fb1cacf351c0ba31b61daf43a29f656c9d439d1f4c021f492512a",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "DEFECT_CORRECTION_OBSERVED",
+      "notes": "Actually opened original. Cap crown no longer penetrated by hair; scarf stands outside parka. Generic CG people, not photo/scanned-human acceptance. Prefreeze source binding not authoritative.",
+      "final_visual_acceptance": false
+    },
+    {
+      "image": ".cache/pilot-R3-prefreeze/H02.png",
+      "sha256": "bf188a185cce0a1d2a72c0c8258c5d94e3f89c604305273622a1b9041df0a89f",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "DEFECT_CORRECTION_OBSERVED",
+      "notes": "Actually opened original. Whole fir and star now in frame, real tree/market/plaza crowd visible; preview scale/low samples not final realism acceptance.",
+      "final_visual_acceptance": false
+    },
+    {
+      "image": ".cache/pilot-R3/B03_L01_interior.png",
+      "sha256": "00eb23e50e92bb7e026c818cb69e932b9860251493c58f5cb6dfda65590614e2",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "REJECT_VISIBILITY",
+      "notes": "Actually opened exact frozen-source original. Opposite corner reveals espresso/grinder workstation and logo. Blue sky at stair corner/ceiling-edge makes interior appear unenclosed. Actual connected-component audit found all intended interior door lintels and walls present. Caused by hiding upper-storey architectural envelope in floor-isolated interior preset, not missing native door lintels; R4 helper retains other-floor architecture of this building while isolating occupied-floor furnishings.",
+      "final_visual_acceptance": false
+    },
+    {
+      "image": ".cache/pilot-R3/D01.png",
+      "sha256": "6d38fd660f0fb1cacf351c0ba31b61daf43a29f656c9d439d1f4c021f492512a",
+      "actual_original_opened": true,
+      "method": "functions.read_file separately opened each actual image; not a contact sheet",
+      "finding": "DEFECT_CORRECTION_OBSERVED",
+      "notes": "Actually opened frozen-source original. Cap/hair and scarf fit corrected. Naturalistic licensed textured anatomical CG, not photorealistic acceptance.",
+      "final_visual_acceptance": false
+    }
+  ],
+  "R4_revision_scope": "Visibility/helper text only; geometry/UV/material-index/pose signature remains58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb. Final input native SHA 1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+  "memory_failure": "First H02 with in-process complete signature touch was SIGKILL at sample0/peak~1153MB. Exact allocation cause unproven. A separate actual derivative reopen/signature validation plus cheap per-frame exact-file-SHA binding succeeded in H02 rerun; do not claim quality from success."
+}

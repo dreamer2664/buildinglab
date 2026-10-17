@@ -1,0 +1,263 @@
+{
+  "chunk": "PUBLIC",
+  "objects": 58,
+  "geometry_uv_pose_material_signature_before": "b69b8c649270ecdd18bf9adcf03aa19546f023a73588ecdfba5b9f1eb0b9f9c9",
+  "signature_after": "b69b8c649270ecdd18bf9adcf03aa19546f023a73588ecdfba5b9f1eb0b9f9c9",
+  "conserved": true,
+  "image_changes": [
+    {
+      "name": "cobblestone_01_diff_1k.jpg",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_01_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_01_nor_gl_1k.jpg",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_01_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_01_rough_1k.jpg",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_01_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_street_night_2k.hdr",
+      "source_dimensions": [
+        2048,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fir_tree_01_bark_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fir_tree_01_bark_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fir_tree_01_twig_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fir_tree_01_twig_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "file": ".cache/render-chunks/PUBLIC.blend",
+  "source_production_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776"
+}

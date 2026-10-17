@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "actual_clean_derivative_reopen": true,
+  "path": "/home/user/townsquare/.cache/master/Winterlichtplatz-render-R4.blend",
+  "sha256": "a53f6733e0cfddd3a7ac880c5121e92f7774ae85e3cf0f52879f5c8d0234b971",
+  "verified_geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+  "full_resolution_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+  "oversize_background_candidates": [
+    {
+      "name": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__ground",
+      "bounds_min": [
+        -500.0,
+        -500.0,
+        -0.7000000476837158
+      ],
+      "bounds_max": [
+        500.0,
+        500.0,
+        0.07000000029802322
+      ],
+      "properties": {
+        "building_id": "PUBLIC",
+        "floor_id": "PUBLIC",
+        "room_id": "EXISTING_BENCHES_LAMPS",
+        "layer": "ground",
+        "stage": "PRODUCTION_B1_BATCH",
+        "component_count": 3
+      },
+      "collections": [
+        "PUBLIC_REALM"
+      ]
+    },
+    {
+      "name": "AUXILIARY / extended snow, not portable model bounds",
+      "bounds_min": [
+        -250.0,
+        -250.0,
+        -0.10499999672174454
+      ],
+      "bounds_max": [
+        250.0,
+        250.0,
+        -0.10499999672174454
+      ],
+      "properties": {
+        "building_id": "AUXILIARY",
+        "floor_id": "PUBLIC",
+        "room_id": "BACKGROUND",
+        "layer": "auxiliary_background",
+        "auxiliary_background": true,
+        "stage": "R3_BACKGROUND"
+      },
+      "collections": [
+        "AUXILIARY / snow terrain backdrop"
+      ]
+    }
+  ],
+  "scope": "Actual reopened derivative matches full-resolution geometry/UV/material-index/world-pose signature. Frames verify exact input file SHA before render without forcing all out-of-view UV layers into memory."
+}

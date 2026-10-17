@@ -1,0 +1,647 @@
+[
+  {
+    "name": "B03__ROOF__COMMON__roof",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "ROOF",
+      "room_id": "COMMON",
+      "layer": "roof",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 12
+    },
+    "min": [
+      10.55,
+      26.55,
+      7.0
+    ],
+    "max": [
+      29.45,
+      41.45,
+      11.79
+    ],
+    "v": 1182,
+    "faces": 1010
+  },
+  {
+    "name": "B03__EXTERIOR__COMMON__exterior",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "EXTERIOR",
+      "room_id": "COMMON",
+      "layer": "exterior",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 121
+    },
+    "min": [
+      10.6,
+      26.41,
+      0.15
+    ],
+    "max": [
+      29.4,
+      28.6,
+      9.97
+    ],
+    "v": 8385,
+    "faces": 8327
+  },
+  {
+    "name": "B03__B03_L01__COMMON__wall_low",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "wall_low",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 13
+    },
+    "min": [
+      11.35,
+      27.35,
+      0.01
+    ],
+    "max": [
+      26.64,
+      40.65,
+      0.99
+    ],
+    "v": 104,
+    "faces": 78
+  },
+  {
+    "name": "B03__B03_L01__COMMON__wall_high",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "wall_high",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 18
+    },
+    "min": [
+      11.35,
+      27.35,
+      0.98
+    ],
+    "max": [
+      26.64,
+      40.65,
+      3.8
+    ],
+    "v": 144,
+    "faces": 108
+  },
+  {
+    "name": "B03__B03_L01__COMMON__stairs",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "stairs",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 59
+    },
+    "min": [
+      25.2225,
+      35.6,
+      0.0
+    ],
+    "max": [
+      28.6,
+      40.65,
+      4.7392
+    ],
+    "v": 847,
+    "faces": 581
+  },
+  {
+    "name": "B03__B03_L01__COMMON__slab",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "slab",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.0,
+      27.0,
+      -0.24
+    ],
+    "max": [
+      29.0,
+      41.0,
+      0.0
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__COMMON__signage",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "signage",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 9
+    },
+    "min": [
+      11.35,
+      26.265,
+      1.65
+    ],
+    "max": [
+      28.65,
+      35.6954,
+      3.72
+    ],
+    "v": 514,
+    "faces": 442
+  },
+  {
+    "name": "B03__B03_L01__COMMON__exterior",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "exterior",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 81
+    },
+    "min": [
+      10.825,
+      25.6075,
+      -0.015
+    ],
+    "max": [
+      29.175,
+      41.15,
+      3.8
+    ],
+    "v": 4901,
+    "faces": 4846
+  },
+  {
+    "name": "B03__B03_L01__COMMON__door",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "COMMON",
+      "layer": "door",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 20
+    },
+    "min": [
+      13.8518,
+      35.515,
+      0.0
+    ],
+    "max": [
+      25.385,
+      38.7885,
+      2.2
+    ],
+    "v": 160,
+    "faces": 120
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_WC__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_WC",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 2
+    },
+    "min": [
+      23.9275,
+      39.14,
+      3.505
+    ],
+    "max": [
+      24.2475,
+      39.46,
+      3.71
+    ],
+    "v": 80,
+    "faces": 44
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_WC__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_WC",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      22.875,
+      37.95,
+      0.0
+    ],
+    "max": [
+      25.3,
+      40.65,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_WC__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_WC",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      22.875,
+      37.95,
+      3.7
+    ],
+    "max": [
+      25.3,
+      40.65,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_UPPER_ENTRY__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_UPPER_ENTRY",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 2
+    },
+    "min": [
+      27.49,
+      31.265,
+      3.505
+    ],
+    "max": [
+      27.81,
+      31.585,
+      3.71
+    ],
+    "v": 80,
+    "faces": 44
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_UPPER_ENTRY__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_UPPER_ENTRY",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      26.65,
+      27.35,
+      0.0
+    ],
+    "max": [
+      28.65,
+      35.5,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_UPPER_ENTRY__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_UPPER_ENTRY",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      26.65,
+      27.35,
+      3.7
+    ],
+    "max": [
+      28.65,
+      35.5,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_HALL__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_HALL",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 4
+    },
+    "min": [
+      14.817,
+      36.59,
+      3.505
+    ],
+    "max": [
+      21.833,
+      36.91,
+      3.71
+    ],
+    "v": 160,
+    "faces": 88
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_HALL__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_HALL",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      35.7,
+      0.0
+    ],
+    "max": [
+      25.3,
+      37.8,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_HALL__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_HALL",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      35.7,
+      3.7
+    ],
+    "max": [
+      25.3,
+      37.8,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_B__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_B",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 2
+    },
+    "min": [
+      19.9492,
+      39.14,
+      3.505
+    ],
+    "max": [
+      20.2692,
+      39.46,
+      3.71
+    ],
+    "v": 80,
+    "faces": 44
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_B__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_B",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      17.4935,
+      37.95,
+      0.0
+    ],
+    "max": [
+      22.725,
+      40.65,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_B__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_B",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      17.4935,
+      37.95,
+      3.7
+    ],
+    "max": [
+      22.725,
+      40.65,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_A__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_A",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 2
+    },
+    "min": [
+      14.2243,
+      39.14,
+      3.505
+    ],
+    "max": [
+      14.5443,
+      39.46,
+      3.71
+    ],
+    "v": 80,
+    "faces": 44
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_A__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_A",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      37.95,
+      0.0
+    ],
+    "max": [
+      17.4185,
+      40.65,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SERVICE_A__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SERVICE_A",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      37.95,
+      3.7
+    ],
+    "max": [
+      17.4185,
+      40.65,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SALES__lighting",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SALES",
+      "layer": "lighting",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 4
+    },
+    "min": [
+      15.129,
+      31.265,
+      3.505
+    ],
+    "max": [
+      22.721,
+      31.585,
+      3.71
+    ],
+    "v": 160,
+    "faces": 88
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SALES__finish",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SALES",
+      "layer": "finish",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      27.35,
+      0.0
+    ],
+    "max": [
+      26.5,
+      35.5,
+      0.024
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03__B03_L01__B03_L01_SALES__ceiling",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SALES",
+      "layer": "ceiling",
+      "stage": "PRODUCTION_B1_BATCH",
+      "component_count": 1
+    },
+    "min": [
+      11.35,
+      27.35,
+      3.7
+    ],
+    "max": [
+      26.5,
+      35.5,
+      3.75
+    ],
+    "v": 8,
+    "faces": 6
+  },
+  {
+    "name": "B03_L01__R3_ORIGINAL_SIGNAGE",
+    "props": {
+      "building_id": "B03",
+      "floor_id": "B03_L01",
+      "room_id": "B03_L01_SALES",
+      "stage": "R3_INSPECT_DRIVEN_DETAIL",
+      "layer": "signage",
+      "cutaway_hide": true,
+      "component_count": 2
+    },
+    "min": [
+      16.6105,
+      35.391,
+      2.54
+    ],
+    "max": [
+      20.3305,
+      35.445,
+      3.6
+    ],
+    "v": 100,
+    "faces": 99
+  }
+]

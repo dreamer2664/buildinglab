@@ -1,0 +1,85 @@
+{
+  "component": "B06",
+  "glb": ".cache/final-components/GLB/B06.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 65,
+    "vertices_instance_sum": 45595,
+    "polygons_instance_sum": 37283,
+    "triangles_instance_sum": 78925,
+    "bounds_min": [
+      32.2650032043457,
+      -26.450000762939453,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      47.45000076293945,
+      -9.550000190734863,
+      11.789999961853027
+    ],
+    "floor_ids": [
+      "B06_L01",
+      "B06_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B06_L01_SALES",
+      "B06_L01_SERVICE_A",
+      "B06_L01_SERVICE_B",
+      "B06_L01_SERVICE_HALL",
+      "B06_L01_UPPER_ENTRY",
+      "B06_L01_WC",
+      "B06_L02_FRONT_A",
+      "B06_L02_FRONT_B",
+      "B06_L02_HALL",
+      "B06_L02_SERVICE_A",
+      "B06_L02_SERVICE_B",
+      "B06_L02_WC",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 65,
+    "triangles_instance_sum": 78925,
+    "bounds_min": [
+      32.2650032043457,
+      -26.450000762939453,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      47.45000076293945,
+      -9.550000190734863,
+      11.789999961853027
+    ],
+    "floor_ids": [
+      "B06_L01",
+      "B06_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B06_L01_SALES",
+      "B06_L01_SERVICE_A",
+      "B06_L01_SERVICE_B",
+      "B06_L01_SERVICE_HALL",
+      "B06_L01_UPPER_ENTRY",
+      "B06_L01_WC",
+      "B06_L02_FRONT_A",
+      "B06_L02_FRONT_B",
+      "B06_L02_HALL",
+      "B06_L02_SERVICE_A",
+      "B06_L02_SERVICE_B",
+      "B06_L02_WC",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 11,
+  "packed_images": 11,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

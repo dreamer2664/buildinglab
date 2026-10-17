@@ -1,0 +1,69 @@
+{
+  "component": "B07",
+  "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+  "glb": ".cache/final-components/GLB/B07.glb",
+  "glb_sha256": "f019cedeb5c808e2383f80dd9071a14df33dc5fa443c4e56c756eb9b77e2e774",
+  "glb_bytes": 16634280,
+  "expected_geometry": {
+    "mesh_objects": 128,
+    "vertices_instance_sum": 109015,
+    "polygons_instance_sum": 97993,
+    "triangles_instance_sum": 189870,
+    "bounds_min": [
+      10.549999237060547,
+      -41.45000076293945,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      29.450000762939453,
+      -26.264999389648438,
+      16.950000762939453
+    ],
+    "floor_ids": [
+      "B07_L01",
+      "B07_L02",
+      "B07_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B07_L01_SALES",
+      "B07_L01_SERVICE_A",
+      "B07_L01_SERVICE_B",
+      "B07_L01_SERVICE_HALL",
+      "B07_L01_UPPER_ENTRY",
+      "B07_L01_WC",
+      "B07_L02_GUEST_HALL",
+      "B07_L02_SERVICE_A",
+      "B07_L02_SERVICE_B",
+      "B07_L02_SUITE_-1_ENSUITE",
+      "B07_L02_SUITE_-1_LOUNGE",
+      "B07_L02_SUITE_-1_SLEEP",
+      "B07_L02_SUITE_1_ENSUITE",
+      "B07_L02_SUITE_1_LOUNGE",
+      "B07_L02_SUITE_1_SLEEP",
+      "B07_L02_WC",
+      "B07_L03_GUEST_HALL",
+      "B07_L03_SERVICE_A",
+      "B07_L03_SERVICE_B",
+      "B07_L03_SUITE_-1_ENSUITE",
+      "B07_L03_SUITE_-1_LOUNGE",
+      "B07_L03_SUITE_-1_SLEEP",
+      "B07_L03_SUITE_1_ENSUITE",
+      "B07_L03_SUITE_1_LOUNGE",
+      "B07_L03_SUITE_1_SLEEP",
+      "B07_L03_WC",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

@@ -1,0 +1,63 @@
+{
+  "component": "P05",
+  "glb": ".cache/final-components/GLB/P05.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 68700,
+    "polygons_instance_sum": 66060,
+    "triangles_instance_sum": 132048,
+    "bounds_min": [
+      -17.263877868652344,
+      -8.349091529846191,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      14.28032398223877,
+      20.1971435546875,
+      1.6814731359481812
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      5,
+      17,
+      29
+    ]
+  },
+  "actual": {
+    "mesh_objects": 3,
+    "triangles_instance_sum": 132048,
+    "bounds_min": [
+      -17.263877868652344,
+      -8.349091529846191,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      14.28032398223877,
+      20.1971435546875,
+      1.6814731359481812
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      5,
+      17,
+      29
+    ]
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 11,
+  "packed_images": 11,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

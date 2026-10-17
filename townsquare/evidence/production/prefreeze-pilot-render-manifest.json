@@ -1,0 +1,122 @@
+{
+  "B01_L01_interior": {
+    "view_id": "B01_L01_interior",
+    "title": "MARKTGRUEN / B01_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7bba46a99497b676cc374d7a8bbf0591c36b3f3b577d763323ae5e186c361f7b",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3-prefreeze/B01_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "a63509f55a876cf5e29bb9ead85a69e88d8bbbaeebb1db42cf1f537eed5a8fb8",
+    "noisy_original_sha256": "aec935714303fc05b55c18c187f94d01016cd3da409663fdcd94fdb0ef17f251",
+    "noisy_original": ".cache/pilot-R3-prefreeze/B01_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "aec935714303fc05b55c18c187f94d01016cd3da409663fdcd94fdb0ef17f251",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/B01_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 47.26,
+    "visual_inspection": "PENDING",
+    "provenance_note": "PRE-FREEZE study only. Source generation and pilot execution overlapped; the source hash was read after rendering in this earlier script. Do not use as exact frozen-source binding or final evidence. Actual images were individually opened."
+  },
+  "B01_L03_cutaway": {
+    "view_id": "B01_L03_cutaway",
+    "title": "MARKTGRUEN / B01_L03 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "d351e16359d4c95fe25871feb43acb999d9ce501b67505151ada034fb68724fb",
+    "geometry_uv_pose_material_signature": "133624f2906ebfa86000cba9e95d06508724d8915c046d0b490b2695bf14dbc7",
+    "image": ".cache/pilot-R2/B01_L03_cutaway.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "15679330f1cc912c5a0006a050eca6932d33e660531a1bdd48cb95b0cb61e844",
+    "noisy_original_sha256": "2066eb7df391f443aed03f21d99a78165833419961f9e876ae3ba81c5b6189b1",
+    "noisy_original": ".cache/pilot-R2/B01_L03_cutaway.noisy.png",
+    "original_before_denoise_sha256": "2066eb7df391f443aed03f21d99a78165833419961f9e876ae3ba81c5b6189b1",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R2/B01_L03_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 12.71,
+    "visual_inspection": "PENDING",
+    "provenance_note": "PRE-FREEZE study only. Source generation and pilot execution overlapped; the source hash was read after rendering in this earlier script. Do not use as exact frozen-source binding or final evidence. Actual images were individually opened."
+  },
+  "B03_L01_interior": {
+    "view_id": "B03_L01_interior",
+    "title": "KESSEL & KAKAO / B03_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7bba46a99497b676cc374d7a8bbf0591c36b3f3b577d763323ae5e186c361f7b",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3-prefreeze/B03_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "04b97b159459f115e885cd46cba752bfba8abad331ad5e04a8e946ac4f034642",
+    "noisy_original_sha256": "4441af0627e19783c962a6ac9f3672a8efe3a0d60a240b97ff72e079f78ee5b4",
+    "noisy_original": ".cache/pilot-R3-prefreeze/B03_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "4441af0627e19783c962a6ac9f3672a8efe3a0d60a240b97ff72e079f78ee5b4",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/B03_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 43.99,
+    "visual_inspection": "PENDING",
+    "provenance_note": "PRE-FREEZE study only. Source generation and pilot execution overlapped; the source hash was read after rendering in this earlier script. Do not use as exact frozen-source binding or final evidence. Actual images were individually opened."
+  },
+  "D01": {
+    "view_id": "D01",
+    "title": "Studio asset inspection / P01 and P02",
+    "kind": "people",
+    "source_native_sha256": "7bba46a99497b676cc374d7a8bbf0591c36b3f3b577d763323ae5e186c361f7b",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3-prefreeze/D01.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "6d38fd660f0fb1cacf351c0ba31b61daf43a29f656c9d439d1f4c021f492512a",
+    "noisy_original_sha256": "750bc4f0ad90d357693d5c5afc7d4807cbc9057f645f0c01748d23c9d0ec62ce",
+    "noisy_original": ".cache/pilot-R3-prefreeze/D01.noisy.png",
+    "original_before_denoise_sha256": "750bc4f0ad90d357693d5c5afc7d4807cbc9057f645f0c01748d23c9d0ec62ce",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/D01.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 19.16,
+    "visual_inspection": "PENDING",
+    "provenance_note": "PRE-FREEZE study only. Source generation and pilot execution overlapped; the source hash was read after rendering in this earlier script. Do not use as exact frozen-source binding or final evidence. Actual images were individually opened."
+  },
+  "H02": {
+    "view_id": "H02",
+    "title": "Christmas tree and winter market",
+    "kind": "town",
+    "source_native_sha256": "7bba46a99497b676cc374d7a8bbf0591c36b3f3b577d763323ae5e186c361f7b",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3-prefreeze/H02.png",
+    "dimensions": [
+      1152,
+      648
+    ],
+    "final_sha256": "bf188a185cce0a1d2a72c0c8258c5d94e3f89c604305273622a1b9041df0a89f",
+    "noisy_original_sha256": "d156463e3bac76b95e7c233947dbc22dfe084a45ae1984d0a18a046418d20c61",
+    "noisy_original": ".cache/pilot-R3-prefreeze/H02.noisy.png",
+    "original_before_denoise_sha256": "d156463e3bac76b95e7c233947dbc22dfe084a45ae1984d0a18a046418d20c61",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/H02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 76.47,
+    "visual_inspection": "PENDING",
+    "provenance_note": "PRE-FREEZE study only. Source generation and pilot execution overlapped; the source hash was read after rendering in this earlier script. Do not use as exact frozen-source binding or final evidence. Actual images were individually opened."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "revision": "R3",
+  "reasons": "Actual pilot found sparse cafe fit-out and inadequate interior identity legibility; original authored additions, no picture substitutes",
+  "additions": [
+    {
+      "building": "B01",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B02",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B03",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B04",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B05",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B06",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B07",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B08",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B09",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B10",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B11",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B12",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "addition": "Physical printed original interior identity panel on real back wall, separately hidden in technical cutaways"
+    },
+    {
+      "building": "B03",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "addition": "Four additional two-seat tables with real ceramic settings; fitted coffee bar with cabinet pulls, three-group espresso machine, tray grille, portafilters, steam wand, transparent bean hopper, beans and stacked cups"
+    },
+    {
+      "addition": "Separate500m snow terrain backdrop prevents visible scene-platform edges in aerial photography; explicitly excluded from GLB bounds"
+    }
+  ],
+  "batches": [
+    {
+      "floor_id": "B01_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B02_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B03_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B03_L01",
+      "layer": "furniture",
+      "component_count": 217,
+      "vertices": 12092,
+      "faces": 10466
+    },
+    {
+      "floor_id": "B04_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B05_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B06_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B07_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B08_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B09_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B10_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B11_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    },
+    {
+      "floor_id": "B12_L01",
+      "layer": "signage",
+      "component_count": 2,
+      "vertices": 100,
+      "faces": 99
+    }
+  ],
+  "reuse": "Original same-author MIT furniture/model_lib components; earlier project files not modified",
+  "visual_reinspection": "PENDING"
+}

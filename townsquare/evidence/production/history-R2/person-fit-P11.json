@@ -1,0 +1,63 @@
+{
+  "person": "P11",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P11.blend",
+  "corrected_rig_sha256": "a2dbdf8ccb98da66d3ac1ee2f5a41a1e1e0812ca3be173e1d742f6360e1148a2",
+  "anatomy_and_pose_signature_before": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
+  "anatomy_and_pose_signature_after": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "P11_SCARF_TAIL",
+      "fix": "Replaced intersecting flat box tail with double-sided, gently folded textile surface, fitted13mm outside evaluated coat front per height row.",
+      "rows": 30,
+      "columns": 8,
+      "source_world_z_interval": [
+        1.1229382753372192,
+        1.4649401903152466
+      ]
+    },
+    {
+      "part": "P11_SCARF_FRINGE",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.001",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.002",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.003",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.004",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.005",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.006",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.007",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    }
+  ],
+  "static_vertices": 22650,
+  "static_faces": 21758,
+  "static_instances": [
+    "CROWD_11_P11",
+    "CROWD_23_P11",
+    "CROWD_35_P11"
+  ],
+  "sole_before_placement_m": -0.019688792526721954,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

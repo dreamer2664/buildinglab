@@ -1,0 +1,101 @@
+{
+  "component": "PUBLIC",
+  "glb": ".cache/final-components/GLB/PUBLIC.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 25,
+    "vertices_instance_sum": 194694,
+    "polygons_instance_sum": 149543,
+    "triangles_instance_sum": 290356,
+    "bounds_min": [
+      -56.0,
+      -50.0,
+      -0.7000000476837158
+    ],
+    "bounds_max": [
+      56.0,
+      50.0,
+      13.069999694824219
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "CHRISTMAS_FIR",
+      "EXISTING_BENCHES_LAMPS",
+      "FESTOONS",
+      "LINDEN_01",
+      "LINDEN_02",
+      "LINDEN_03",
+      "LINDEN_04",
+      "LINDEN_05",
+      "LINDEN_06",
+      "LINDEN_07",
+      "LINDEN_08",
+      "LINDEN_09",
+      "LINDEN_10",
+      "LINDEN_11",
+      "LINDEN_12",
+      "MARKET_01",
+      "MARKET_02",
+      "MARKET_03",
+      "MARKET_04",
+      "MARKET_05",
+      "MARKET_06",
+      "MARKET_07",
+      "MARKET_08",
+      "PLAYGROUND"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 25,
+    "triangles_instance_sum": 290356,
+    "bounds_min": [
+      -56.0,
+      -50.0,
+      -0.7000000476837158
+    ],
+    "bounds_max": [
+      56.0,
+      50.0,
+      13.069999694824219
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "CHRISTMAS_FIR",
+      "EXISTING_BENCHES_LAMPS",
+      "FESTOONS",
+      "LINDEN_01",
+      "LINDEN_02",
+      "LINDEN_03",
+      "LINDEN_04",
+      "LINDEN_05",
+      "LINDEN_06",
+      "LINDEN_07",
+      "LINDEN_08",
+      "LINDEN_09",
+      "LINDEN_10",
+      "LINDEN_11",
+      "LINDEN_12",
+      "MARKET_01",
+      "MARKET_02",
+      "MARKET_03",
+      "MARKET_04",
+      "MARKET_05",
+      "MARKET_06",
+      "MARKET_07",
+      "MARKET_08",
+      "PLAYGROUND"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 17,
+  "packed_images": 17,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

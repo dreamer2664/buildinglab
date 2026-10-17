@@ -1,0 +1,22 @@
+{
+  "archives": [
+    {
+      "url": "https://codeload.github.com/makehumancommunity/mpfb2/zip/refs/tags/v2.0.18",
+      "file": ".cache/vendor/mpfb2-v2.0.18.zip",
+      "bytes": 45601989,
+      "sha256": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
+      "license": "GPL build code; CC0 core graphics separately"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "file": ".cache/vendor/system-cc0.zip",
+      "bytes": 280737770,
+      "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+      "license": "CC0-1.0 graphical assets; per-item 2020 notices retained"
+    }
+  ],
+  "archive_crc": "system pack testzip returned None; all517 members extracted",
+  "recovered_after_download_process_exit": true,
+  "realism_review": "PENDING",
+  "rights_evidence": "2020 CC0 release notice appears in each used .mhclo/.mhmat and original license webpage"
+}

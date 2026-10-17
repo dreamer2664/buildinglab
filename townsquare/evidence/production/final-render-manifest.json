@@ -1,0 +1,94 @@
+{
+  "D01": {
+    "view_id": "D01",
+    "title": "Studio asset inspection / P01 and P02",
+    "kind": "people",
+    "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/final-renders/D01.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "1d7cb4107c8388a547adb63b261320d695e705cc3de58da69bbd0432a995ff85",
+    "noisy_original_sha256": "47b55e075b24b58c300e7597a515e8230d4fd00007ab1fdda7514f29d405fdff",
+    "noisy_original": ".cache/final-renders/D01.noisy.png",
+    "original_before_denoise_sha256": "47b55e075b24b58c300e7597a515e8230d4fd00007ab1fdda7514f29d405fdff",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D01.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 89.73,
+    "visual_inspection": "PENDING"
+  },
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/final-renders/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "da6c376781acbff81e07419c02553dc088454d5f51aca2220bea6c4ad0412216",
+    "noisy_original_sha256": "d6d396e9edd6736f6c48d662cf7700145a46450182c34a92fefc6c890e3753e5",
+    "noisy_original": ".cache/final-renders/D02.noisy.png",
+    "original_before_denoise_sha256": "d6d396e9edd6736f6c48d662cf7700145a46450182c34a92fefc6c890e3753e5",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 95.38,
+    "visual_inspection": "PENDING"
+  },
+  "D03": {
+    "view_id": "D03",
+    "title": "Studio asset inspection / P05 and P06",
+    "kind": "people",
+    "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/final-renders/D03.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "b9e446f558ab167e1b058d10e4b59afe5af5ff9cb07aefff8cfb5472cb35fa70",
+    "noisy_original_sha256": "1a4efa62d8310924c4004740eff0e6369e78456bd8dc816ea74f883a78a3ec57",
+    "noisy_original": ".cache/final-renders/D03.noisy.png",
+    "original_before_denoise_sha256": "1a4efa62d8310924c4004740eff0e6369e78456bd8dc816ea74f883a78a3ec57",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D03.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 95.52,
+    "visual_inspection": "PENDING"
+  },
+  "D04": {
+    "view_id": "D04",
+    "title": "Studio asset inspection / P07 and P08",
+    "kind": "people",
+    "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/final-renders/D04.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "43942042d7cbaa78f2cf7e00cdca5e68678a1e24a8f5f62f86b3dc88c0e57fdd",
+    "noisy_original_sha256": "68572083984c3511271949552ded835842fce39e835ddb18bb760dcda8bfb1c7",
+    "noisy_original": ".cache/final-renders/D04.noisy.png",
+    "original_before_denoise_sha256": "68572083984c3511271949552ded835842fce39e835ddb18bb760dcda8bfb1c7",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D04.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 99.95,
+    "visual_inspection": "PENDING"
+  }
+}

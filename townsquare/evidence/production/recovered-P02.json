@@ -1,0 +1,143 @@
+{
+  "chunk": "P02",
+  "objects": 3,
+  "geometry_uv_pose_material_signature_before": "395844a15aca607aca18753fffdd8529c2dd7786f69a0a4fe26acbfb81ba0e04",
+  "signature_after": "395844a15aca607aca18753fffdd8529c2dd7786f69a0a4fe26acbfb81ba0e04",
+  "conserved": true,
+  "image_changes": [
+    {
+      "name": "bob02_diffuse.png",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "brown_eye.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "eyebrow001.png",
+      "source_dimensions": [
+        512,
+        512
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "eyelashes01.png",
+      "source_dimensions": [
+        512,
+        512
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "male_casualsuit05_normal.png",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "P02_PARKA_COLOURWAY",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "shoes02_diffuse.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "teeth.png",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "tongue01_diffuse.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "young_darkskinned_female_diffuse.png",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "file": ".cache/render-chunks/P02.blend",
+  "source_production_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776"
+}

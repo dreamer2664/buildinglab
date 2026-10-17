@@ -1,0 +1,42 @@
+{
+  "component": "P10",
+  "source_native_sha256": "8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb",
+  "glb": ".cache/final-components/GLB/P10.glb",
+  "glb_sha256": "cf330553abab5d9502dabea89e38eb4de2dcabb0ccdae5c22c653d933fbf9be8",
+  "glb_bytes": 3967040,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 69516,
+    "polygons_instance_sum": 64530,
+    "triangles_instance_sum": 130044,
+    "bounds_min": [
+      -12.221768379211426,
+      -19.491558074951172,
+      0.006000000052154064
+    ],
+    "bounds_max": [
+      26.45212745666504,
+      10.745595932006836,
+      1.6793299913406372
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      10,
+      22,
+      34
+    ]
+  },
+  "texture_cap_px": 512,
+  "scope": "All final component geometry except explicitly labelled auxiliary500m snow backdrop; static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}
