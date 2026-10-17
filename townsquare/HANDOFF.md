@@ -1,3 +1,35 @@
+# Latest: actual wall seam fix inspected and saved as NEW8cf939dc study
+
+Native .cache/wall-corrected-interiors/Winterlichtplatz-inspected-interiors-UNPROMOTED.blend,229381657B, SHA8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d. Actual26floor high-wall bottom vertices raised10mm to meet low-wall top, removing measured coplanar vertical-face overlap while preserving cutaway split, lintels and room footprint. Same-camera unsaved768x576cycle-room original actually rendered/opened: previous sharp black streaks gone. Saved new native after that test; exact new saved-source image regression and portable roundtrip remain pending. New actual geometry/UV/pose/material-index signature in native/report, not stale R11signature.
+
+Previous47native publicly preserved249020119B/SHA9909d59a8486454e8c19f04f7731ae49372b4d1a99d172e4f070da76e0d30c9a/ledger969c18fa10e0ca24ebce01a59388218ae2f9c264. Its1382new-prop world-bound checks passed,7targeted originals opened; bicycle/toy chest/bookcases/side bench now actually inside rooms. Two1280x960eye originals opened (cycle/art); third writer render EXIT137, not inspected. Wall streaks discovered there; prior47not silently accepted.
+
+Portable B01 first actual import failed249343raw expected vs270287actual evaluated triangles because new bevel modifiers were not included in raw expected count. Failure retained; export code now measures evaluated depsgraph triangles matching export_apply, NOT weakened validation. Whole25component/clean import pipeline must run against new8csource before claiming gates. No new hair/rig adoption; sparse fibres-only test explicitly rejected. Own actual heartbeat lease renewed2026-10-18T01:36:32Z. Frozen/public R11 final production still stopped16/twoFIX_REQUIRED; no R12 promotion/final92/highrealism/independent acceptance.
+
+---
+
+# Latest actual saved placement-corrected native47beeab4 / seven targeted plans opened / immediate public backup next
+
+Current saved full editable study .cache/placement-corrected-interiors/Winterlichtplatz-rebuilt-interiors-UNPROMOTED.blend,229422176B, SHA47beeab4432b5be50585b4a502044d2c7033d47358bbc22b91e5e9ac6083fd97. Rebuilt from immutable R11 with all prior guarded fixes plus a PROVED lazy-matrix correction: update dependency graph before transforming newly created props.1382generated actual object world-bound checks now pass floor/room extents; this is not pairwise collision/accessibility certification.7targeted original plans all actually opened; bicycle/service bench, toy chest, reference/parts/library bookcases and side pot bench now visible where previously absent. R12-placement-corrected-interiors.json and R12-corrected-generated-prop-placement-audit.json. Actual eye-level cycle/writer/art studies and clean portable export still required before promotion.
+
+Previous rebuiltc29eceffeb2371bf6cbb47e0046a9a4dcbda995cd5665ed048f6dc499ad9c6d8 actually saved/rendered26/all26opened and publicly preserved242583901B/SHA4f6a4469754c63b88b946a10bf012b5fdc77b62638f7f245c3419d9b5d98fa0a/storagec6d3283914c98ec847fbfe1d054c0acba70814e2. BUT REJECTED: actual native coordinate diagnostic proves rotated bicycle/service bench/toy chest etc at Z0/distantXY despite correct floor labels. Public availability/file integrity was not quality acceptance. Source report/26genuine observations preserved separately, not overwritten.
+
+Actual fibres-only640x800control completed/opened:32kcurves alone are too transparent/sparse, visible scalp; REJECTED/unadopted. Cap-only earlier showed underlying mesh contributes rear comb contour. One actual1280x960baker guest eye-level original opened: desk/shelves present but sharp black diagonal on right wall unresolved. Stopped remaining old-c29eye job after first render rather than spend more frames on proved missing-prop geometry. No new hair/native rig/glTF adoption.
+
+Frozen/public R11 remains unchanged, final production stopped at16 incl2FIX_REQUIRED; no promoted R12, full92, highrealism or independent acceptance. Latest source remote3dacde... is stale; update source/status only with actual current results. User says keep going without milestone questions.
+
+---
+
+# Active recovery after another temporary-workspace reset
+
+The immutable public R11 master was actually redownloaded and verified again; Blender4.3.2 restored with exact archive SHA, missing libxkbcommon runtime dependency restored. Live own339c card actually read: claimed, ownerblender. Source remote3dacde92068edbc22d78c4d5ce82401f26be470e/570files/PR6 is last actual source checkpoint.
+
+Second05d study completed and all26originals were actually opened;26exact PNGs and specific observations survive in evidence/quality-studies/second-clearance-plans and R12-all-interiors-clearance-study.json. It still had florist plant/chair/doorway and hotel-salon sofa conflicts. Thirdce92ce8f8d91cff46a3bd1847dd4df49c61925146aae89f224074f17e4fdba06 actually saved/rendered26plans; B05L02 and B07L02 actually opened and known conflicts observed corrected. B07L03/current new other24image inspections NOT completed before reset. All three local study native binaries/remaining cache PNGs were lost; no archive publication was run. Do NOT claim those original binary hashes are still locally available. Cap-only640x800diagnostic was actually opened and preserved: rear comb contour remains without generated fibres; actual original alpha shader uses TEX_IMAGE Alpha, not RGB Color. Fibres-only job was queued but its outcome/image was not inspected or preserved; unknown.
+
+New reusable followup_fitouts.py and rebuild_inspected_interiors.py reconstruct all actual home/commercial/followup edits from exact immutable R11. Current real rebuild job3b374441; source-map restoration then full editable save,164room furniture coverage assertion,26new separate study plans into durable evidence folder. A fresh save will have NEW binary SHA. Public preservation must happen immediately after save, before more experimental rendering. Frozen/public R11 unchanged; final16 remains stopped, no R12 promotion, final92 or realism/independent acceptance. Continue user scope without approval pauses.
+
+---
+
 # Latest actual work: all26first-draft plans individually opened; critical regressions caught and corrected-study job executing
 
 R11 frozen/public master7fb9ce64d020 remains unchanged. Production c8da2d50 deliberately STOPPED at16source-bound individual originals, two duplicate-home FIX_REQUIRED; no final92/photographic/independent acceptance. Backup016 actually EXIT0/anonymousCRC/everymemberPASS:110365917B, SHAeac71b055f0b16d67ef6f0697035223af356abbd87f6d64412bd5c8e2685c860, ledger26a26f378aa97b9d194f4d2313c42588b4e348cd.

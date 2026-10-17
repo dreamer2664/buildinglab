@@ -3,7 +3,7 @@ Run tools/bootstrap_runtime.py first for Blender. Public HTTPS only; no credenti
 This is recovery, not evidence that images were inspected.
 """
 from pathlib import Path
-import urllib.request,zipfile,json,hashlib,shutil
+import urllib.request,zipfile,json,hashlib,shutil,sys
 R=Path(__file__).resolve().parents[1];E=R/'evidence/production';p=json.loads((E/'R11-public-checkpoint.json').read_text());C=R/'.cache/restored-current';C.mkdir(parents=True,exist_ok=True)
 def restore_archive(row):
  dest=C/row['asset']
@@ -15,7 +15,8 @@ def restore_archive(row):
   with z.open(n) as f:assert hashlib.file_digest(f,'sha256').hexdigest()==r['sha256'],n
   assert z.getinfo(n).file_size==r['bytes']
  return z
-for row in p['archives']+([p['unchanged_editable_people_archive']] if p.get('unchanged_editable_people_archive') else []):
+base_only='--base-only'in sys.argv
+for row in p['archives']+([p['unchanged_editable_people_archive']] if p.get('unchanged_editable_people_archive') and not base_only else []):
  with restore_archive(row) as z:
   for name in z.namelist():
    if name=='Master/Winterlichtplatz.blend':dest=R/'.cache/master/Winterlichtplatz-R11.blend'
@@ -27,7 +28,7 @@ for row in p['archives']+([p['unchanged_editable_people_archive']] if p.get('unc
    with z.open(name) as src,dest.open('wb') as dst:shutil.copyfileobj(src,dst)
  print('CURRENT_PUBLIC_NATIVE_OR_RIGS_RESTORED',row['asset'],flush=True)
 additional=E/'R11-additional-public-packages.json'
-if additional.exists():
+if additional.exists() and not base_only:
  for row in json.loads(additional.read_text())['archives']:
   if not any(t in row['asset'] for t in ['Buildings-','Public-realm','Portable-town']):continue
   with restore_archive(row) as z:
@@ -44,7 +45,7 @@ if additional.exists():
     with z.open(name) as src,dest.open('wb') as dst:shutil.copyfileobj(src,dst)
   print('CURRENT_PUBLIC_COMPONENT_OR_PORTABLE_ARCHIVE_RESTORED',row['asset'],flush=True)
 cp=E/'R11-render-checkpoints.json'
-if cp.exists():
+if cp.exists() and not base_only:
  row=next((r for r in reversed(json.loads(cp.read_text())) if r['native_sha256']==p['full_resolution_native_sha256']),None)
  if row:
   with restore_archive(row) as z:

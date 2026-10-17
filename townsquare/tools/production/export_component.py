@@ -2,7 +2,7 @@
 import bpy,os,json,hashlib,sys,math
 from pathlib import Path
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];sys.path.insert(0,str(R/'tools/production'));key=os.environ['SQUARE_COMPONENT'];source=R/'.cache/master/Winterlichtplatz-R11.blend';bpy.ops.wm.read_factory_settings(use_empty=True)
+R=Path(__file__).resolve().parents[2];sys.path.insert(0,str(R/'tools/production'));key=os.environ['SQUARE_COMPONENT'];source=R/os.environ.get('SQUARE_SOURCE_NATIVE','.cache/master/Winterlichtplatz-R11.blend');assert source.resolve().is_relative_to(R);source_sha256=hashlib.file_digest(source.open('rb'),'sha256').hexdigest();assert not os.environ.get('SQUARE_SOURCE_SHA256')or source_sha256==os.environ['SQUARE_SOURCE_SHA256'];bpy.ops.wm.read_factory_settings(use_empty=True)
 with bpy.data.libraries.load(str(source),link=False) as (a,b):
  if key.startswith('B'):b.collections=[n for n in a.collections if n.startswith(key+' ')]
  elif key=='PUBLIC':b.collections=[n for n in a.collections if n=='PUBLIC_REALM' or 'FILL' in n or n.startswith('AUXILIARY /')]
@@ -14,7 +14,7 @@ if key.startswith('B') or key=='PUBLIC':
  if b.worlds:s.world=b.worlds[0]
 else:
  for o in b.objects:s.collection.objects.link(o)
-bpy.context.view_layer.update();out=R/'.cache/final-components';(out/'Native').mkdir(parents=True,exist_ok=True);(out/'GLB').mkdir(exist_ok=True)
+bpy.context.view_layer.update();out=R/os.environ.get('SQUARE_COMPONENT_OUT','.cache/final-components');(out/'Native').mkdir(parents=True,exist_ok=True);(out/'GLB').mkdir(exist_ok=True)
 views=json.loads((R/'design/production-views.json').read_text());subset=[f for f in views['frames'] if f.get('building_id')==key] if key.startswith('B') else []
 if subset:
  for name,text in [('VIEW_PRESETS.json',json.dumps({'frames':subset})),('VIEW_TOOLS.py',(R/'tools/production/view_tools.py').read_text()),('READ_ME.txt','Full-map editable building component. Coordinates are the actual town position. Embedded view tools select the prepared floor cameras. This component is not a replacement for the complete master. See master/rights/portability notes.')]:
@@ -60,11 +60,15 @@ for im in bpy.data.images:
  if new!=old:im.scale(*new);im.pack()
  im.buffers_free()
 bpy.context.view_layer.update();meshes=[o for o in s.objects if o.type=='MESH'];pts=[o.matrix_world@Vector(p) for o in meshes for p in o.bound_box]
-expected={'mesh_objects':len(meshes),'vertices_instance_sum':sum(len(o.data.vertices) for o in meshes),'polygons_instance_sum':sum(len(o.data.polygons) for o in meshes),'triangles_instance_sum':sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in meshes),'bounds_min':[min(p[i] for p in pts) for i in range(3)],'bounds_max':[max(p[i] for p in pts) for i in range(3)],'floor_ids':sorted({str(o.get('floor_id')) for o in meshes}),'room_ids':sorted({str(o.get('room_id')) for o in meshes}),'person_ids':sorted([int(o['person_id']) for o in meshes if o.get('person_id')])}
+# export_apply=True uses evaluated modifiers. Raw source polygon counts undercount new rounded joinery.
+deps=bpy.context.evaluated_depsgraph_get();evaluated_vertices=evaluated_polygons=evaluated_triangles=0
+for ob in meshes:
+ ev=ob.evaluated_get(deps);me=ev.to_mesh();me.calc_loop_triangles();evaluated_vertices+=len(me.vertices);evaluated_polygons+=len(me.polygons);evaluated_triangles+=len(me.loop_triangles);ev.to_mesh_clear()
+expected={'mesh_objects':len(meshes),'vertices_instance_sum':evaluated_vertices,'polygons_instance_sum':evaluated_polygons,'triangles_instance_sum':evaluated_triangles,'geometry_measurement':'Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.','bounds_min':[min(p[i]for p in pts)for i in range(3)],'bounds_max':[max(p[i]for p in pts)for i in range(3)],'floor_ids':sorted({str(o.get('floor_id'))for o in meshes}),'room_ids':sorted({str(o.get('room_id'))for o in meshes}),'person_ids':sorted([int(o['person_id'])for o in meshes if o.get('person_id')])}
 kw={'filepath':str(out/'GLB'/(key+'.glb')),'export_format':'GLB','export_yup':True,'export_apply':True,'export_animations':False,'export_extras':True,'export_lights':True,'export_cameras':False,'export_texcoords':True,'export_normals':True,'export_tangents':True,'export_materials':'EXPORT','export_image_format':'AUTO','export_skins':False,'export_morph':False,'export_draco_mesh_compression_enable':False}
 allowed=set(bpy.ops.export_scene.gltf.get_rna_type().properties.keys());kw={k:v for k,v in kw.items() if k in allowed};bpy.ops.export_scene.gltf(**kw)
 p=out/'GLB'/(key+'.glb');h=hashlib.sha256()
 with p.open('rb') as f:
  while b:=f.read(1024*1024):h.update(b)
-report={'component':key,'source_native_sha256':json.loads((R/'evidence/production/R11-native-build.json').read_text())['full_resolution_native_sha256'],'glb':str(p.relative_to(R)),'glb_sha256':h.hexdigest(),'glb_bytes':p.stat().st_size,'expected_geometry':expected,'texture_cap_px':512,'background_omissions':background_omissions,'scope':'All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs','portability_limitations':['Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.','Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.','Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives.'],'reimport':'PENDING'}
-(R/'evidence/production'/('export-'+key+'.json')).write_text(json.dumps(report,indent=2)+'\n');print('FINAL_COMPONENT_EXPORTED',key,p.stat().st_size,flush=True)
+report={'component':key,'source_native_sha256':source_sha256,'glb':str(p.relative_to(R)),'glb_sha256':h.hexdigest(),'glb_bytes':p.stat().st_size,'expected_geometry':expected,'texture_cap_px':512,'background_omissions':background_omissions,'scope':'All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs','portability_limitations':['Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.','Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.','Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives.'],'reimport':'PENDING'}
+(R/os.environ.get('SQUARE_COMPONENT_REPORTS','evidence/production')/('export-'+key+'.json')).write_text(json.dumps(report,indent=2)+'\n');print('FINAL_COMPONENT_EXPORTED',key,p.stat().st_size,flush=True)

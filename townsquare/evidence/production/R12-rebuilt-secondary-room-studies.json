@@ -1,0 +1,31 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_bakery_guest",
+      "floor": "B02_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/rebuilt-secondary-eye-level/bakery_guest.png",
+      "native_sha256": "c29eceffeb2371bf6cbb47e0046a9a4dcbda995cd5665ed048f6dc499ad9c6d8",
+      "image_sha256": "930bfee819f16873451a004695f04efebe558ee579ae8c9699b185f7901f33cf",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "samples": 16,
+      "camera_position_world": [
+        -0.4500000476837158,
+        36.4,
+        5.35
+      ],
+      "camera_target_world": [
+        0.9999999284744263,
+        40.00000152587891,
+        4.85
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "NOT YET OPENED"
+    }
+  ]
+}

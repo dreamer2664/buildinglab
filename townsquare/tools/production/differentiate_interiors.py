@@ -37,6 +37,7 @@ def apply(root,only=None):
    o=next(o for o in bpy.context.scene.objects if o.type=='MESH'and o.get('room_id')==fid+'_LIVING'and o.get('layer')=='furniture');lo,hi=material_bounds(o,b,floor['datum_m'],'sofa_02');sx,sy=(lo[0]+hi[0])/2,(lo[1]+hi[1])/2
    transformed.append(edit_region(o,b,floor['datum_m'],(lo[0]-.03,sy-2.15,-.1),(hi[0]+.03,hi[1]+.05,2.4),angle=-math.pi/2,pivot=(sx,sy),tag='Sofa_and_low_table_only_clear_central_quarter_turn'))
   def turn_new(before,x,y,turn=math.pi/2):
+   bpy.context.view_layer.update() # Newly placed objects otherwise still expose stale identity matrix_world.
    centre=Vector((cx+co*x-si*y,cy+si*x+co*y,0));matrix=Matrix.Translation(centre)@Matrix.Rotation(turn,4,'Z')@Matrix.Translation(-centre)
    for ob in set(bpy.context.scene.objects)-before:ob.matrix_world=matrix@ob.matrix_world
   def side_case(name,x,y,width=1.45,turn=math.pi/2):

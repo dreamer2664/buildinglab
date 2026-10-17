@@ -6,6 +6,7 @@ Render-only pruning is separate and NEVER modifies the saved source file.
 import bpy,json,math
 from mathutils import Vector
 from bpy_extras.object_utils import world_to_camera_view
+RENDERABLE_TYPES={'MESH','CURVE','CURVES','SURFACE','META','FONT','VOLUME','LIGHT'}
 ARCHITECTURAL_LAYERS={'wall_low','wall_high','ceiling','slab','exterior','roof','door','stairs'}
 def _presets():return json.loads(bpy.data.texts['VIEW_PRESETS.json'].as_string())['frames']
 def add_cameras(frames):
@@ -34,10 +35,10 @@ def apply_view(view_id):
  if f['kind'] in ['plan','cutaway','interior']:
   fid=f['floor_id']
   for o in s.objects:
-   if o.type not in ['MESH','LIGHT']:continue
+   if o.type not in RENDERABLE_TYPES:continue
    belongs=o.get('floor_id')==fid or any(c.get('floor_id')==fid for c in o.users_collection) or (f['kind']=='interior' and o.get('building_id')==f['building_id'] and (o.get('layer') in ARCHITECTURAL_LAYERS or o.get('floor_id') in ['EXTERIOR','ROOF']))
    o.hide_render=not belongs
-   if f['kind'] in ['plan','cutaway'] and o.type=='MESH' and (o.get('layer') in ['ceiling','wall_high','exterior','lighting'] or o.get('cutaway_hide')):o.hide_render=True
+   if f['kind'] in ['plan','cutaway'] and o.type!='LIGHT' and (o.get('layer') in ['ceiling','wall_high','exterior','lighting'] or o.get('cutaway_hide')):o.hide_render=True
    o.hide_set(o.hide_render)
   if f['kind'] in ['plan','cutaway']:
    w=bpy.data.worlds.get('VIEWLIGHT/Technical world') or bpy.data.worlds.new('VIEWLIGHT/Technical world');w.use_nodes=True;bg=w.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.72,.79,.92,1);bg.inputs['Strength'].default_value=.55;s.world=w
@@ -45,8 +46,8 @@ def apply_view(view_id):
  if f['kind']=='people':
   # Isolated, honestly labelled asset-inspection studio. Town integration is shown in H01-H06.
   for o in s.objects:
-   if o.type in ['MESH','LIGHT']:
-    o.hide_render=not(o.type=='MESH' and o.get('person_id') in f['person_ids']);o.hide_set(o.hide_render)
+   if o.type in RENDERABLE_TYPES:
+    o.hide_render=not(o.type!='LIGHT' and o.get('person_id') in f['person_ids']);o.hide_set(o.hide_render)
   w=bpy.data.worlds.get('VIEWLIGHT/People studio world') or bpy.data.worlds.new('VIEWLIGHT/People studio world');w.use_nodes=True;w.node_tree.nodes.get('Background').inputs['Color'].default_value=(.42,.46,.52,1);w.node_tree.nodes.get('Background').inputs['Strength'].default_value=.45;s.world=w
   forward=Vector((f['target'][0]-f['position'][0],f['target'][1]-f['position'][1],0)).normalized();right=Vector((forward.y,-forward.x,0));origin=Vector((f['target'][0],f['target'][1],0));profile=[(-50,0),(5,0)]+[(5+4*math.sin(i*math.pi/40),4*(1-math.cos(i*math.pi/40))) for i in range(1,21)]+[(9,20)];verts=[tuple(origin+forward*t+right*x+Vector((0,0,z))) for t,z in profile for x in [-50,50]];faces=[(2*i,2*i+1,2*i+3,2*i+2) for i in range(len(profile)-1)];mesh=bpy.data.meshes.new('Seamless physical studio cyclorama');mesh.from_pydata(verts,[],faces);mesh.update();ground=bpy.data.objects.new('VIEWLIGHT/Studio inspection cyclorama',mesh);s.collection.objects.link(ground)
   for poly in mesh.polygons:poly.use_smooth=True
@@ -63,7 +64,7 @@ def prune_for_render(frame,border=None):
  s=bpy.context.scene;c=s.camera;bpy.context.view_layer.update();removed=[];reasons={}
  lo_x,hi_x,lo_y,hi_y=border if border else (0,1,0,1);margin=.10
  for o in list(s.objects):
-  if o.type not in ['MESH','LIGHT']:continue
+  if o.type not in RENDERABLE_TYPES:continue
   reason=None
   if o.hide_render:reason='selected floor / intentional cutaway visibility'
   elif o.type=='MESH' and frame['kind']=='aerial' and o.get('layer')=='furniture':reason='aerial roof-occluded interior furniture LOD; full interior source supplied and separately rendered'

@@ -915,5 +915,215 @@
       "raw_sha256": "9a508eda4dcb129a1a1055b6b2183120a04c3e957a8c1c827a2444f3f09d25b3"
     }
   ],
-  "inspection": "PENDING, all26originals must individually open; no count/hash-based distinctness/realism acceptance"
+  "inspection": "ALL26 ORIGINALS ACTUALLY OPENED. Further clearance conflicts found: B05 living plant/chair and doorway, both hotel floors salon sofa approaches. Not promoted, not final realism acceptance.",
+  "individual_visual_inspections": [
+    {
+      "id": "B01_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B01_L01_plan.png",
+      "image_sha256": "32e49beec2b619de8d24918d846c574c6452eb8b7d045869e74160fc906cd2c9",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Supermarket shelving, refrigerated perimeter and checkout are visible; broad aisles. Product/display density still looks sparse at this scale; not realism acceptance.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B01_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B01_L02_plan.png",
+      "image_sha256": "c9883a293ecebb4f46e35995e2ae048162f36aa2c1d09000f38d15150017a512",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Actual two carton-rack islands and team table visibly added; stock and purchasing are distinct. Main approaches appear open in this plan only.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B01_L03_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B01_L03_plan.png",
+      "image_sha256": "9665e0f9bb0e9324811d69bdb643f2881f17358e8444fe5b30049deed71c00ce",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Baseline two-bedroom loft retained, with two beds and original living/kitchen. No new whole-room turn introduced.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B02_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B02_L01_plan.png",
+      "image_sha256": "ae26038f48aead2a6b1055dd189636a3fb8bea4c511958418654713a0f60a3c4",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Bread/pastry displays, prep equipment and customer seating visible. Retail floor remains sparse; eye-level material review required.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B02_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B02_L02_plan.png",
+      "image_sha256": "2a67141dfb6e8b8cd3d9859bef78fbe9c42a8b1305e3a2ed1372a637e6ea00c3",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Quarter-turned sofa/table, single guest bed/work desk and kitchen island visibly differ from baseline home. Bedroom approaches no longer blocked by the first-draft chest.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B03_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B03_L01_plan.png",
+      "image_sha256": "26d43c870d77720c563ae3dafc4cd227e7baaacd3794ae1e36e28b3c9598c273",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Ten cafe tables now distributed across five alternating columns/two rows, visibly clear of right service counter; no table/chair embedded in that counter in this image.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B03_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B03_L02_plan.png",
+      "image_sha256": "10f916873d39ba6f5ea2d8545d13e1946d517deaaf6808549df82ca7a6c34a51",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Reading sofa is now separated from hall doorway. Shelves and games tables retained. Reading lounge remains sparsely populated.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B04_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B04_L01_plan.png",
+      "image_sha256": "1cbe2eb33c4d0ecc0e79e8694c5703db67750c319339772168e711266aa5ff3e",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Bookshop perimeter/interior shelving and central displays visible. Broad circulation; sparse merchandising needs eye-level realism review.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B04_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B04_L02_plan.png",
+      "image_sha256": "c3c1f00cc9bcdf174645e6a5c8ea2a77bd29b7789373cf0bc5f0283eef2dede2",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Drawing desk and easel occupy secondary room; door approach appears freed compared with rejected first draft. Overhead view cannot establish shelf-facing quality.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B05_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B05_L01_plan.png",
+      "image_sha256": "269100ecc9f699cc94e74356117ca8f1987276302b6f640901b0d3aa3ba4787a",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Six bouquet displays, workbench and checkout visible. Sales floor sparse; not a final material/realism judgment.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B05_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B05_L02_plan.png",
+      "image_sha256": "c75c527764589291fac2edb6f57e3e653c5de8e6423fc0d91b45525def4f981f",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "FIX_REQUIRED: living armchair and large plant visibly overlap at upper centre. Another plant is directly before living/kitchen doorway. Conservatory room itself is recognizably planted and its entry is no longer blocked by potting bench.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B06_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B06_L01_plan.png",
+      "image_sha256": "a6da3d8dbb2f89a5c487dc3471973826cc2d9ec726e7fe0b4601091e60e672a3",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Garment rails, central folded display and checkout visible. Wide empty floor areas remain; not highly realistic merchandising yet.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B06_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B06_L02_plan.png",
+      "image_sha256": "c363e7bbac0bf7610227e22a3bb3e74d89689f390049caa6595f64f9007fae50",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Actual sewing station at upper-left and cutting mat station at lower-left are visible alongside existing worktables/rails. Separate functional workstations now exist rather than name-only atelier.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B07_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B07_L01_plan.png",
+      "image_sha256": "64f4eadaac6e88cf9d09409f80fa38ddee12a3918c902fb9a5b7e1cbf9edbd2e",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Reception counter, sofa and two angled chairs visible, with breakfast/service rooms behind. Large empty lobby portions remain.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B07_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B07_L02_plan.png",
+      "image_sha256": "5bedbd11fbafb76fbf3fcff17986589bd4cdad408b560248eb0adb965681971a",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Left bed moved away from north entry; both original double bedrooms still recognizable. FIX_REQUIRED: both salon sofas sit too near bedroom-to-salon approaches. Right north-side bed approach also to be widened.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B07_L03_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B07_L03_plan.png",
+      "image_sha256": "bf8721879453160ac214ea35542d0983a99b59afb309f648f435b692d0875496",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Actual two side-wall twins and south-headboard queen, desks and luggage furniture clearly differentiate this floor from L02. FIX_REQUIRED: both inherited salon sofa door approaches remain tight.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B08_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B08_L01_plan.png",
+      "image_sha256": "4204cacccd5f3424c22c0a83899d820ba883bc6b77eea0229dc2ceceb40ca63b",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Toy display island, perimeter storage and checkout visible; considerable empty merchandising floor remains.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B08_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B08_L02_plan.png",
+      "image_sha256": "9517c4c4d924ff17797b3432ee870669b27d5bb4b812c0541ccf30209cd5726f",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Child single-bed/desk room retained with different fit-out; quarter-turned sofa differs from baseline but resembles B02 living. Kitchen has no B02 island. Toy detail needs eye-level proof.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B09_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B09_L01_plan.png",
+      "image_sha256": "854b2a45af65ecccd5a79bba099f4aa32613b933cf3486d9b5d6287d1ba1001b",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Three glazed display islands and consultation/service desk visible, no obvious plan obstruction; jewellery detail not legible at this resolution.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B09_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B09_L02_plan.png",
+      "image_sha256": "19d580639d50975c8d2a3c4e38b47585522d8b61dcbf118027c6724a297dc3f4",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Secondary room now has workbench instead of guest bed. Maker-tool detail not legible from this overhead original; follow-up close view required.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B10_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B10_L01_plan.png",
+      "image_sha256": "5d9419eea8f3f2b201d75aac895d81bbae24d49a003e6ee05a87cb55f5f464b0",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Pharmacy display bays, dispensary and consultation/service space visible. Consultation space is compact and needs close-view clearance verification.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B10_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B10_L02_plan.png",
+      "image_sha256": "c657b1b50aa7a15f0e75a09630042067ff8b0bd3fcd2a2973a3608460b4ea5d3",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Two distinct consultation spaces and staff pantry visible; door-side approaches appear open at this scale. Not clinical or accessibility certification.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B11_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B11_L01_plan.png",
+      "image_sha256": "bbf19387276d4976ba233a335422c91f7e47dbe2045417e850f1a98c23bcff3e",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Six cycle silhouettes, service desk and checkout visible. Product equipment remains sparse at this resolution.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B11_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B11_L02_plan.png",
+      "image_sha256": "e1eb7f6e75ff670d5dd00cd757cbf8d600efb5af1b00ad05b45a767846ea7dad",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Secondary gear room cleared of bedroom furniture; storage visible, but bicycle/mudroom equipment not legible overhead. Must inspect eye-level/cutaway rather than infer full furnishing from counts.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B12_L01_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B12_L01_plan.png",
+      "image_sha256": "900633e6c01d428a9b35b7ac454f44c71a35b3e0952f9187f1005e68d8d6fc9c",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Stationery display islands, parcel lockers, shelving and service counter visible; materially sparse in plan.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B12_L02_plan",
+      "path": "evidence/quality-studies/second-clearance-plans/B12_L02_plan.png",
+      "image_sha256": "daa0c66e65e6f89e703dbf1d90fcef3debb00a18b97c93d5950ceacf64350baa",
+      "actual_open_method": "functions.read_file original individually; some calls dispatched in parallel, not a contact sheet",
+      "observations": "Separate writer desk/study and retained primary bedroom visible. Added bookcases not legible overhead; shelf-facing must be checked in cutaway/interior.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    }
+  ]
 }

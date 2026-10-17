@@ -10,9 +10,15 @@ def local_vertices(o,b,datum):
 def material_bounds(o,b,datum,prefix):
  raw,a,m,rot,origin=local_vertices(o,b,datum);slots={i for i,x in enumerate(o.data.materials)if x and x.name.startswith(prefix)};ids=sorted({v for p in o.data.polygons if p.material_index in slots for v in p.vertices});assert ids,(o.name,prefix);v=a[ids];return v.min(axis=0),v.max(axis=0)
 
-def edit_region(o,b,datum,minimum,maximum,angle=0,pivot=(0,0),delta=(0,0,0),tag=''):
+def edit_region(o,b,datum,minimum,maximum,angle=0,pivot=(0,0),delta=(0,0,0),tag='',material_prefixes=None):
  if o.data.users>1:o.data=o.data.copy()
- raw,a,m,rot,origin=local_vertices(o,b,datum);lo=np.asarray(minimum);hi=np.asarray(maximum);selected=np.all((a>=lo-1e-5)&(a<=hi+1e-5),axis=1);assert selected.any(),('No actual furniture selected',o.name,tag)
+ raw,a,m,rot,origin=local_vertices(o,b,datum);lo=np.asarray(minimum);hi=np.asarray(maximum);selected=np.all((a>=lo-1e-5)&(a<=hi+1e-5),axis=1);
+ if material_prefixes:
+  slots={i for i,mat in enumerate(o.data.materials) if mat and any(mat.name.startswith(prefix) for prefix in material_prefixes)};allowed=np.zeros(len(a),dtype=bool)
+  for face in o.data.polygons:
+   if face.material_index in slots:allowed[list(face.vertices)]=True
+  selected &= allowed
+ assert selected.any(),('No actual furniture selected',o.name,tag)
  partial=0
  for p in o.data.polygons:
   count=sum(bool(selected[v])for v in p.vertices)

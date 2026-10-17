@@ -1,0 +1,251 @@
+{
+  "actual_original_braid_alpha_links": [
+    {
+      "node": "TEX_IMAGE",
+      "socket": "Alpha",
+      "image": "braid01_diffuse.png"
+    }
+  ],
+  "plaster": [
+    {
+      "material": "Mineral plaster 0",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 0.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 1",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 1.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 2",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 2.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 3",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 3.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 4",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 4.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 5",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Mineral plaster 5.001",
+      "roughness": [
+        [
+          0.8299999833106995,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.001",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.002",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.003",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.004",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.005",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.006",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.007",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.008",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.009",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.010",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    },
+    {
+      "material": "Plaster.011",
+      "roughness": [
+        [
+          0.7799999713897705,
+          1
+        ]
+      ],
+      "bumps": []
+    }
+  ]
+}

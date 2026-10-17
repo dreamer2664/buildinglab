@@ -39,3 +39,8 @@ The individually opened B02_L02 plan/cutaway visibly duplicate B01_L03 domestic 
 
 ## Further actual floor-by-floor corrective study (not a promoted release)
 All26separate first-draft plan originals were individually opened. This caught doorway obstructions introduced by whole-room furniture rotation/new entry-wall cases and a visually duplicated hotel upper floor, despite distinct numeric hashes. That draft is rejected. A second actual editable geometry study now restores safe bed/armchair relationships, scopes sofa/table edits, refits the hotel and enriches staff/atelier functions. New render/reinspection is in progress; public R11 remains unchanged and is not final/high-realism accepted. See current HANDOFF and R12-all-interiors-first-study.json.
+
+
+## Latest actual unpromoted editable interior study
+
+Packed native SHA `8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d` is preserved in [this immutable study archive](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-8cf939dc13f9-80be1837147b.zip). Archive 252046841bytes, SHA `89ebf727e565f444dbe741d6c2d595a8275c230bfd95eb070a07fdb23bbf8d50`; anonymous CRC/every-member SHA/size verification actually passed. New home/business fit-outs, real generated-prop placement correction, and measured wall-overlap repair are included. This is **not final delivery or high-realism/independent acceptance**: exact new saved-source regression views and new portable roundtrip are still being executed; experimental hair remains unadopted. Older R11 production stopped after16historical/public originals; missing local final originals after cache reset do not count as newly inspected files.

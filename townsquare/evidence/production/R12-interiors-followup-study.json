@@ -1,0 +1,530 @@
+{
+  "stage": "SAVED_FOLLOWUP_STUDY_NOT_PROMOTED",
+  "source_study_sha256": "05d17ebaaf0b11aa9c8b5fe4acc9e785abcf0ca4965316719fd8011165118705",
+  "study_native": ".cache/distinct-interiors-followup-study/Winterlichtplatz-interior-followup-STUDY-NOT-PROMOTED.blend",
+  "study_native_sha256": "ce92ce8f8d91cff46a3bd1847dd4df49c61925146aae89f224074f17e4fdba06",
+  "actual_changes": [
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_armchair_separated_from_existing_plant",
+      "actual_vertices_rigidly_moved": 4486,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -7.351309299468994,
+          -3.0999984741210933,
+          -4.7683715642676816e-08
+        ],
+        [
+          -6.148690700531006,
+          -2.0999984741210933,
+          1.2468568801879885
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -6.551309299468994,
+          -4.799998474121093,
+          -4.7683715642676816e-08
+        ],
+        [
+          -5.348690700531006,
+          -3.799998474121093,
+          1.2468568801879885
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0.8,
+        -1.7,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_plant_moved_sideways_off_kitchen_door_approach",
+      "actual_vertices_rigidly_moved": 438,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          0.38946476578712447,
+          -3.2171554565429688,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -1.9831809997558594,
+          1.4673997879028322
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          0.38946476578712447,
+          -4.667155456542969,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -3.4331809997558596,
+          1.4673997879028322
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.45,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_SLEEP__furniture",
+      "tag": "Hotel_right_bed_rug_nightstands_north_approach",
+      "actual_vertices_rigidly_moved": 440,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          2.905000686645508,
+          -2.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          1.255001068115235,
+          1.2349998474121096
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          2.905000686645508,
+          -3.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          0.25500106811523504,
+          1.2349998474121096
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    }
+  ],
+  "images": [
+    {
+      "id": "B01_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B01_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "19d6bd5678e66d38dfe71161b2b67b4c6101498eda1b943ebe15a016f1bcbe74"
+    },
+    {
+      "id": "B01_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B01_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "03faa09f529772e3f8b78abde6b24411c7df7f30ba6a757b0ea6af7d09cbc7d5"
+    },
+    {
+      "id": "B01_L03_plan",
+      "path": ".cache/distinct-interiors-followup-study/B01_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "805513b585949f3781239f112182b65142d5a3b8b8d13e0ff8f0588b6e1b91a9"
+    },
+    {
+      "id": "B02_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B02_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "95d90e404880cc6fd8b39b2561e6ab977ebf094bc702d75d09b1e1246703bdce"
+    },
+    {
+      "id": "B02_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B02_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "d91c85b4546abe1ac39968b9d162864d44283b62ec07286f325743caf3f3dd6c"
+    },
+    {
+      "id": "B03_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B03_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "0c49304ed260f2d4b5704c9787b27026fbf5e3c16636d7442e254255de340248"
+    },
+    {
+      "id": "B03_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B03_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "c2a053a3a2ed232ff57306d06f0396912a3819ca53a626f807b1f4ff8e728e7c"
+    },
+    {
+      "id": "B04_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B04_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "7bcf420b9259d64ac8946f4e2f2cc5adad2a40f7ba9a9816b99d57f99aaa8aa2"
+    },
+    {
+      "id": "B04_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B04_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "4e7d64c6d6ccaa5d6aa6af6cc2e23da5b7832141f0804c6f06d499f7f342fa4f"
+    },
+    {
+      "id": "B05_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B05_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "35df0ab2985c2a01ec7f6028ae581695a4f1b7c8e7d74121f96019de631808f4"
+    },
+    {
+      "id": "B05_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B05_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "3b5e91c4d225b539d0e4a1e73174d387509ac74ee26c96f20b1ff38275e6b914"
+    },
+    {
+      "id": "B06_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B06_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "0a06180a0913507e70f733c8118b505b31a307235381edb1fe6a0604d9c2e4cd"
+    },
+    {
+      "id": "B06_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B06_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "43d17e67034d5ab3f00753d5b303100660c0228d1dc26f716544120c43fb67ae"
+    },
+    {
+      "id": "B07_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B07_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "bb4f5a0d9752d28cb12874cafd2280448669b5c0dc6d708b642e81837a460f49"
+    },
+    {
+      "id": "B07_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B07_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "c3a33abc9829b38c747a4b8ca6bf667f069a56521e94db843c825bcb437d6496"
+    },
+    {
+      "id": "B07_L03_plan",
+      "path": ".cache/distinct-interiors-followup-study/B07_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "d2d5e84817c094cb2917a1fe655e19b29dc08f36db07af9b6db807920af2ce40"
+    },
+    {
+      "id": "B08_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B08_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "130b3bfceb2946e5a184b75733cc6450eebb64438e0ab22ee9dae4f2f549d35e"
+    },
+    {
+      "id": "B08_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B08_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "dcd6bc81775532470a382b30c7f997d3504ddb9390887d7cca8eb35397fdaf66"
+    },
+    {
+      "id": "B09_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B09_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8c1db5c4c944abbae7b83010e4669df74416074c22a3009755151b646507470e"
+    },
+    {
+      "id": "B09_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B09_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8451adfacd2c694b8d88df57656720635934b3b72b4f7e081a9c3fdf27039a5d"
+    },
+    {
+      "id": "B10_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B10_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "4baeb09a73397bbd7152245403088e14c81904f0ed56cee109107b9056bbaac4"
+    },
+    {
+      "id": "B10_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B10_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "cafc026bd23517d1f5e1dfa7f33712a46897d106c041b9045ad3c922a932dd79"
+    },
+    {
+      "id": "B11_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B11_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "9f415791c9de80e8c1bf234ba1cc3f151944c4d1eadb1ad982ef0b9c05fa0c20"
+    },
+    {
+      "id": "B11_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B11_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "4bd19a262e85774b1c08979977a31bbe0fbeff6859710e7bb69bbf4d0025aaaf"
+    },
+    {
+      "id": "B12_L01_plan",
+      "path": ".cache/distinct-interiors-followup-study/B12_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "629c458f36acfeeafd8ec440b8e8f0ec31041c82f6f77ba0b84ddfb3ef26a1d8"
+    },
+    {
+      "id": "B12_L02_plan",
+      "path": ".cache/distinct-interiors-followup-study/B12_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "102beb3adfeeba41a48003933c52052b04e1e59484af54b294f85a71620ffb40"
+    }
+  ],
+  "inspection": "PENDING individual image opens; render success does not establish clearances."
+}
