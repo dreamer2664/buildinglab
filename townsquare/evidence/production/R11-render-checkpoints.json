@@ -1,0 +1,30 @@
+[
+  {
+    "asset": "Winterlichtplatz-R11-evidence-checkpoint-008-9ff7717705.zip",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-evidence-checkpoint-008-9ff7717705.zip",
+    "bytes": 76098221,
+    "sha256": "9c107b9e4e537121ff7c0a10313a17c17f79b25a7e5340d00ae48b6d4bfd5b0e",
+    "native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "views": [
+      "B01_L01_cutaway",
+      "B01_L01_interior",
+      "B01_L01_plan",
+      "B01_L02_cutaway",
+      "B01_L02_interior",
+      "B01_L02_plan",
+      "D02",
+      "D08"
+    ],
+    "actual_manual_review_ids_at_backup": [
+      "B01_L01_cutaway",
+      "B01_L01_interior",
+      "B01_L01_plan",
+      "B01_L02_plan",
+      "D02",
+      "D08"
+    ],
+    "anonymous_CRC_every_member_sha_and_bytes": "PASS",
+    "stage": "PARTIAL producer evidence backup; not final acceptance",
+    "verified_utc": "2026-10-17T16:51:18.872638+00:00"
+  }
+]

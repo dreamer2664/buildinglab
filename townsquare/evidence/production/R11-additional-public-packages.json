@@ -1,0 +1,41 @@
+{
+  "full_resolution_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020",
+  "archives": [
+    {
+      "asset": "Winterlichtplatz-R11-Buildings-01-06-7fb9ce64d020.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Buildings-01-06-7fb9ce64d020.zip",
+      "bytes": 322685828,
+      "sha256": "19e68ade8288ba670b6347eb6d959312df8ae8125b29a3ffc3c671ff3ff568ef",
+      "archive_entries": 150,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-R11-Buildings-07-12-7fb9ce64d020.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Buildings-07-12-7fb9ce64d020.zip",
+      "bytes": 337030943,
+      "sha256": "71933ad5b04c6e4e1f5e86e1497f5623178ce7ae4040c69c99929bf5cb867a6f",
+      "archive_entries": 150,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-R11-Public-realm-7fb9ce64d020.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Public-realm-7fb9ce64d020.zip",
+      "bytes": 78167385,
+      "sha256": "377feb114a3f041d037cf461f6720d1488e7999c6ab4f56c1e992c001fb87346",
+      "archive_entries": 134,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    },
+    {
+      "asset": "Winterlichtplatz-R11-Portable-town-7fb9ce64d020.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Portable-town-7fb9ce64d020.zip",
+      "bytes": 284962380,
+      "sha256": "b36215f129c1a413aa078e775a18d24d4f4056e8cbb591107a845e3f54b29940",
+      "archive_entries": 146,
+      "anonymous_full_bytes_CRC_and_every_member_SHA_and_bytes": "PASS"
+    }
+  ],
+  "independent_acceptance": "NOT GRANTED",
+  "verified_utc": "2026-10-17T17:03:18.391732+00:00",
+  "storage_ledger_commit_models": "6a0bffd47afe70be3ee3336e9cc2b7929324bdb5"
+}

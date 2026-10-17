@@ -1,0 +1,10 @@
+"""Rehash actual saved current assets and bind actual native/GLB reopen reports; no visual acceptance."""
+from pathlib import Path
+import hashlib,json
+R=Path(__file__).resolve().parents[2];E=R/'evidence/production';b=json.loads((E/'R11-native-build.json').read_text());ns=b['full_resolution_native_sha256']
+def sha(p):
+ with p.open('rb')as f:return hashlib.file_digest(f,'sha256').hexdigest()
+assets=[]
+for key in [f'B{i:02}'for i in range(1,13)]+['PUBLIC']+[f'P{i:02}'for i in range(1,13)]:
+ x=json.loads((E/('export-'+key+'.json')).read_text());q=json.loads((E/('reimport-'+key+'.json')).read_text());n=json.loads((E/('native-subasset-'+key+'.json')).read_text());assert x['source_native_sha256']==q['source_full_native_sha256']==ns;assert q['status']==n['status']=='PASS';assert sha(R/x['glb'])==x['glb_sha256']==q['glb_sha256'];assert sha(R/n['path'])==n['sha256'];assets.append({'component':key,'current_native_source_sha256':ns,'portable_file':x['glb'],'portable_sha256':x['glb_sha256'],'actual_clean_reimport':'PASS','editable_file':n['path'],'editable_sha256':n['sha256'],'actual_editable_saved_native_reopen':'PASS'})
+whole=R/'.cache/final-components/Winterlichtplatz-R11.glb';q=json.loads((E/'reimport-ALL.json').read_text());assert q['status']=='PASS'and sha(whole)==q['glb_sha256'];r={'status':'PASS','source_full_native_sha256':ns,'asset_count':len(assets),'assets':assets,'whole_glb':str(whole.relative_to(R)),'whole_glb_bytes':whole.stat().st_size,'whole_glb_sha256':sha(whole),'actual_whole_clean_import':'PASS','scope':'Actual25saved native reopens and25+whole cleanGLBimports, current source binding and actual file rehash. Existing12editable human rigs byte-identical to verified R10public source, separately documented. Geometry/material portability is not authored native-lighting parity, photographic quality or independent approval.'};(E/'R11-25-component-gates-summary.json').write_text(json.dumps(r,indent=2)+'\n');print('ALL25_CURRENT_EDITABLE_AND_PORTABLE_GATES_REHASHED_PASS',r['whole_glb_sha256'])

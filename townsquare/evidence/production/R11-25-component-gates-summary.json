@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "source_full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "asset_count": 25,
+  "assets": [
+    {
+      "component": "B01",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B01.glb",
+      "portable_sha256": "ff474e474e06cc9617c68fc31067069cfffbfc213fcf137b607653d6bb2ff7f3",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B01.blend",
+      "editable_sha256": "f7abd016cfbbf0204381bd3ea33b85cc60bf48b4375b62944ddd95eb83a89420",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B02",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B02.glb",
+      "portable_sha256": "7df9709158b013029214d99a1507a2e4616f16fc8a8ec95d5e331058c2b9ffec",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B02.blend",
+      "editable_sha256": "81035398f40499594bd75fab54da2280956e0d99094e3edcf4fdf88b6fd8f806",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B03",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B03.glb",
+      "portable_sha256": "f69e155e89caaee94b4767fd5e56de7472648789f8f414a46e690f3305b412f4",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B03.blend",
+      "editable_sha256": "1ff5e104aa608d8039583a1fe16e4ab6b4003bc33dfbef38a5205f38f871155a",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B04",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B04.glb",
+      "portable_sha256": "dee99640718ea6c641f937e5ab01a8b7a9d342c90e7f082ea9821f3ece0c01ce",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B04.blend",
+      "editable_sha256": "da774024e17c80c255c417cd6b234f0e64e41dd0ab37a53ce23915bea26b8a6a",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B05",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B05.glb",
+      "portable_sha256": "e23c4468c70ec07bb12b7d69a8cd4a3eebbf397e650f403600e56362750c13a9",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B05.blend",
+      "editable_sha256": "b47ba01e6cc747aedb1f7b456fe1669f6a8bfaaa1c4208c61e7a978666995015",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B06",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B06.glb",
+      "portable_sha256": "8657e94e374046afc3a9235e0140cd3cf5eb4e4b472c0ceb9abdbe906cab4d23",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B06.blend",
+      "editable_sha256": "0b86785b39f800ec1c1252cd717ece26ad8a23c2209be70de21123c01a622bfc",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B07",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B07.glb",
+      "portable_sha256": "ea76939cca6be2b1353eee11f4301a2943c7bc7bdf9af7305b496a292afe8f08",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B07.blend",
+      "editable_sha256": "c9b5606f016d35b636723e1ad0a99bac2d76f0dcbfc54eb0e710d1b9b29c1589",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B08",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B08.glb",
+      "portable_sha256": "fbb23653ca051fa3b367f0b5c389d51b39c03447a76d8fbb0bfd1a2df99c3c5b",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B08.blend",
+      "editable_sha256": "bb00650dcdcd5fc5cae9e682535808a4b3dde76822410c3cca31153c4b4c33bd",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B09",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B09.glb",
+      "portable_sha256": "a6a06b5e1a0d1bca92dc18641243bd8560688c4181e6b15d4ceaffb9010f61df",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B09.blend",
+      "editable_sha256": "f50dbf69b85b4269aa226d1171b14e145ca3ac8774d73d1c7dff5191e460d1b8",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B10",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B10.glb",
+      "portable_sha256": "02bc0237e5621a1f38c0a6191cf43b7fc0ff2110a1a2fee781d58abc2be446ce",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B10.blend",
+      "editable_sha256": "d6401ad6821dbae49b3ac8ae0567e246dbbcb97f6d57d13a45663b99888797cc",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B11",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B11.glb",
+      "portable_sha256": "37cbaed513307be039ba3a33adcd8f81e5d9458d8877650c7dfee2661375a227",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B11.blend",
+      "editable_sha256": "1fab90c00f87af1eb4153961de9d910ab29e002b34aa250a7c555bde5f948f98",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "B12",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/B12.glb",
+      "portable_sha256": "b32c83f2fcb72d7428e28e0f4a0d2935bc0c373174efa5b68ee0c881a85d219b",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/B12.blend",
+      "editable_sha256": "f7ede73667d285e6e579ac51d9e46bf39e8736697db5fedf50251ed769250740",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "PUBLIC",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/PUBLIC.glb",
+      "portable_sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/final-components/Native/PUBLIC.blend",
+      "editable_sha256": "476e913b9c84a7b93b0d47b5fe4eb0f299dba87ff6631e9910edf9ace32fa5c7",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P01",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P01.glb",
+      "portable_sha256": "c2603c4f2a9a449994f46491199d1c3ab00996c3b58a817f4f9045db5112185d",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P01.blend",
+      "editable_sha256": "cff063c0a21176fa77d387061cab387ce425fc706026f631402e60748a816cf2",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P02",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P02.glb",
+      "portable_sha256": "9caf76c586ed757e8c010f81b188a612504a7b0244e79e96e7b9bb463b60b4e0",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P02.blend",
+      "editable_sha256": "b63d8427d834d47ae26e4454d6edf0dcc7f2ffaeb555fb3dbe76084aa4516c23",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P03",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P03.glb",
+      "portable_sha256": "258f68c9041c4ab2a23516b56cdfdf6d86641b9269dd6d27f68361a920a73cce",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P03.blend",
+      "editable_sha256": "197e273ec00d210d11c837fcd8230d36f0e5d0db78203ff30c32ed237f0a9f08",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P04",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P04.glb",
+      "portable_sha256": "ae9e892db0eff00f5bb39c2d86a3c8304cb4c34667ce7b8308362edcd72fff31",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P04.blend",
+      "editable_sha256": "b586ceb46e6874bf236220b0af3aaa16785946a40d481e73a22ae59d421b8c20",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P05",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P05.glb",
+      "portable_sha256": "6665f88190cefef3e7930117b8be472d2f95b8f97de036efdb319994194ba378",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P05.blend",
+      "editable_sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P06",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P06.glb",
+      "portable_sha256": "6abce25d1f0fc2fdc713c81021495f77ac5f05d48961ed03bf646c50242530a1",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P06.blend",
+      "editable_sha256": "7a17514fda5ddf4b9ec3dd2b9f05e8fd7750b83502860f850c6e4625365ad988",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P07",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P07.glb",
+      "portable_sha256": "e01ec89a5f5c30cde04feddfe9bf39625dfc483eb382acdaf9f02fbc5221d4ea",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P07.blend",
+      "editable_sha256": "eb34546fe58dc2bc84cd0be96dac50b13edec73d4207126501d37a58851a1a24",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P08",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P08.glb",
+      "portable_sha256": "a4657ebe5eb37ad3342f6460a91ceede6a88a1a3e9db5e2300579c6d20cbe204",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P08.blend",
+      "editable_sha256": "bf4ad4062fa16369ee4eab22ef1e61d290809c22a0a1147827bcefa86246592d",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P09",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P09.glb",
+      "portable_sha256": "603eee33707b5294f01d0e238b470aae935d6402108c62a363cf9ad7122351c1",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P09.blend",
+      "editable_sha256": "4fac441e2dc7f8d6cdc03886aa961dc8c83b30cd3ba4ff3d5a9a971eccd3afb5",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P10",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P10.glb",
+      "portable_sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P10.blend",
+      "editable_sha256": "fd12efc1a3c47838f4c2beb236c1c93700f0710c82e1606d34791ddbbf6c230b",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P11",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P11.glb",
+      "portable_sha256": "892016996baac2f10d0d226723c13ab40e1c0695798e344131052294453e3a50",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P11.blend",
+      "editable_sha256": "f65580a59f529e24e8ee7d76fbdf2b7496b6ae3707ae382e233fea4047913768",
+      "actual_editable_saved_native_reopen": "PASS"
+    },
+    {
+      "component": "P12",
+      "current_native_source_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "portable_file": ".cache/final-components/GLB/P12.glb",
+      "portable_sha256": "e1e5a5955406db4639043633be7d7a0bf4d643350ae1ab13d246d9cf300a3f8a",
+      "actual_clean_reimport": "PASS",
+      "editable_file": ".cache/fixed-people/rigs/P12.blend",
+      "editable_sha256": "cca56695bd7315b5b50af97d67e287685adc81da190b14860c36f73adcffc9ef",
+      "actual_editable_saved_native_reopen": "PASS"
+    }
+  ],
+  "whole_glb": ".cache/final-components/Winterlichtplatz-R11.glb",
+  "whole_glb_bytes": 145248716,
+  "whole_glb_sha256": "e6a43659e2e1911ca5f6fad5b9741e0bfaa1de0c40cd2f36e1596e716ce8a6c6",
+  "actual_whole_clean_import": "PASS",
+  "scope": "Actual25saved native reopens and25+whole cleanGLBimports, current source binding and actual file rehash. Existing12editable human rigs byte-identical to verified R10public source, separately documented. Geometry/material portability is not authored native-lighting parity, photographic quality or independent approval."
+}

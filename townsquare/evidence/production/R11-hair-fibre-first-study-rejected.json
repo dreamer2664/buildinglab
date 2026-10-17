@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED_NOT_ADOPTED",
+  "actual_original_opened_individually": true,
+  "image_sha256": "51c4d6211fe8121a7182a7ac816b5c3003709c5d0eb6053aca16ad4389636875",
+  "findings": "Actual832x552first corrected geometric-tube12000fibre prototype opened. Transverse thin dark grooves/woodgrain-like structure over still-faceted cap, not a convincing realistic hairstyle. Face remains smoothCG; no general realism gain accepted. Frozen source/production untouched. First attempt failed missing guessed socket; actual Blender inputs inspected and Anisotropic corrected, then EXIT0render.",
+  "next": "Test native physical hair curves/BSDF and smoothed hair mass, not claim success from thin tubes."
+}

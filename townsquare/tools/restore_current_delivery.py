@@ -57,4 +57,4 @@ if cp.exists():
 model=R/'.cache/final-components/Winterlichtplatz-R11.glb'
 if model.exists():
  link=R/'viewer/model.glb';link.unlink(missing_ok=True);link.symlink_to('../.cache/final-components/Winterlichtplatz-R11.glb')
-print('CURRENT_DELIVERY_CACHE_RECOVERY_DONE. For rendering run Blender factory/background with tools/production/restore_packed_source_maps.py to recover exact source-map bytes from the restored full packed native. This helper was authored, not claimed end-to-end recovery-tested.',flush=True)
+print('CURRENT_DELIVERY_CACHE_RECOVERY_DONE. For rendering run Blender factory/background with tools/production/restore_packed_source_maps.py to recover exact source-map bytes from the restored full packed native. Archive/member checks and file restore finished; separately execute native/map/smoke/browser checks and actually open their originals. See recovery receipts for what was really tested.',flush=True)

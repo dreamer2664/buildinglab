@@ -24,6 +24,7 @@
     "CRC": "PASS",
     "entries_including_manifest": 51
   },
-  "exact_public_native_reopen": "PENDING",
-  "storage_ledger_commit": "cea0153a6fcbe997f70c8afc5dff32291052e1e6"
+  "exact_public_native_reopen": "ACTUAL_FRESH_REOPEN_PASS / R11-public-exact-native-reopen.json",
+  "storage_ledger_commit": "cea0153a6fcbe997f70c8afc5dff32291052e1e6",
+  "exact_public_native_smoke": "Actual1152x648after clean-cache recovery, ordinary OIDN, original separately opened; actual stocked/branded interior visible. Recovery/integrity test, no final photographic acceptance."
 }

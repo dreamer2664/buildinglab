@@ -96,6 +96,118 @@
       "observed_findings": "Actual2560x1440 original singly opened: complete L02 footprint and labelled six room areas, stockroom wall shelving/cartons, purchasing desk/chair/books/plant, staff kitchenette/table, lockers/bench, WC fixtures, corridor and U-stair opening visible. Technical header, north,5m scale,18x14m footprint/datum3.8m/storey3.2m readable. Office/stockroom furnishing is functional but sparse relative to generous room area, not a claim of lavish fully dressed photographic interiors. No physical clearance/code/independent approval inferred.",
       "checked_utc": "2026-10-17T16:49:36.002545+00:00",
       "independent_acceptance": false
+    },
+    "B01_L02_cutaway": {
+      "view_id": "B01_L02_cutaway",
+      "image": ".cache/final-renders/B01_L02_cutaway.png",
+      "image_sha256": "1c5340b7d696ce1bf8d6a165faae3726e1afc25f485f097a2b6f98da1d68ddfe",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: storage shelf assemblies, actual purchasing desk monitor/keyboard/papers/cup/chair and bookcase, fitted staff kitchen with appliances/table, row of lockers/bench, WC fixtures, corridor/doors and U-stair/handrails readable. Shelf backs face this cutaway; paired interior verifies actual inventory. Large office/stockroom floor areas remain sparsely dressed; functional presence is not photographic craft acceptance. Technical high-wall/ceiling removal, not absent architecture; no code/independent approval.",
+      "checked_utc": "2026-10-17T16:56:01.814096+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L02_interior": {
+      "view_id": "B01_L02_interior",
+      "image": ".cache/final-renders/B01_L02_interior.png",
+      "image_sha256": "86e776ca460d27b75d3d341c343798e8886fec281ac2ebb430df052044cbc6ec",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: stockroom stocked bottles/jars/cartons/price strips, packing boxes, wood floor, practical ceiling lights and wall sign visible; room lit/readable with baked native exposure0.816 and no added bias. Large clear floor/sparse dressing, warm CG finish and shiny/bumpy plaster response remain; not high-end photographic realism or whole-floor/independent acceptance. Other rooms covered by paired actual plan/cutaway.",
+      "checked_utc": "2026-10-17T16:56:01.945552+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L03_plan": {
+      "view_id": "B01_L03_plan",
+      "image": ".cache/final-renders/B01_L03_plan.png",
+      "image_sha256": "515ee333ebe92fb8fe49e14fa059e8906f797b2b0e31650c4e9bfcbc877c798a",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original separately opened again. Readable source-derived floor title, north/5mscale and6room labels; two beds/wardrobes, bath fixtures, kitchen/dining and leather-seated living are actual visible geometry. Generous sparsely dressed kitchen/living floor areas and duplicate simple bedroom furniture remain CG; isolated upper stair void alone is not a whole-native connectivity test. Conceptual, not certified.",
+      "checked_utc": "2026-10-17T17:54:53.769190+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L03_cutaway": {
+      "view_id": "B01_L03_cutaway",
+      "image": ".cache/final-renders/B01_L03_cutaway.png",
+      "image_sha256": "2b406683c1f8a7db83a2cde5addb58469bcadfc3cda2e308979700dbc95b8779",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original separately opened again. Full floor shell/low partitions/doorframes,2furnished bedrooms, glass shower/sanitary fixtures, kitchen appliances,2dining sets, tufted sofa/chair, books/plants/rugs are visible. Doorframes/upper stair railing intentionally float where walls/lower storey hidden. Sparse expansive kitchen and simplified bedding/plants remain CG; no photographic/code/independent acceptance.",
+      "checked_utc": "2026-10-17T17:54:53.916671+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L03_interior": {
+      "view_id": "B01_L03_interior",
+      "image": ".cache/final-renders/B01_L03_interior.png",
+      "image_sha256": "1082b896f7e7c1bd95d115a6abd796071bdd2020643f6107faf61b9e629bf2ee",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original separately reopened after649srender. Detailed tufted leather sofa/wood armchair grain, diningcups/plates, floorboard reflections and contact shadows present. Ceiling lights are visible below ceiling and room readable. Shiny rippled plaster hotspots, block-like green chair upholstery and sparse table/wall dressing remain CG; no photographic/highrealism or independent acceptance.",
+      "checked_utc": "2026-10-17T18:08:58.591983+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L01_plan": {
+      "view_id": "B02_L01_plan",
+      "image": ".cache/final-renders/B02_L01_plan.png",
+      "image_sha256": "82c0ddc38f371d7d22868d4f9594dd39ee495e805e3c958b19989499ddd0d3a4",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: six room areas labelled; bakery sales with bread racks/two glass displays/till/seating, prep kitchenette with two large baking ovens, storage/wash support racks/boxes, WC, service corridor, separate upper entry and U-stair opening visible. Source-derived north/5m scale/18x14m footprint and programme/datum/storey notes readable outside geometry. Generous sparse sales circulation remains; no food-safety/code/photographic/independent approval.",
+      "checked_utc": "2026-10-17T17:15:19.890442+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L01_cutaway": {
+      "view_id": "B02_L01_cutaway",
+      "image": ".cache/final-renders/B02_L01_cutaway.png",
+      "image_sha256": "dcfa3e124638dcb17689ddabe8c75381b900572a8d27b55d2796ef4409b45903",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: bread loaves on timber racks, pastries/bread trays under glass displays, checkout/seating, two modeled stacked-door commercial ovens, fitted sink/hob/cabinets, storage racks, WC and U-stair/railings visible. Original KRUME & KORN fascia mark legible. Floating fascia/door frames are declared removal of exterior/high walls/ceiling for technical viewing, not missing intact-source supports. Functional but sparsely dressed large sales room, moderate CG finish; not photographic/code/independent acceptance.",
+      "checked_utc": "2026-10-17T17:15:19.997719+00:00",
+      "independent_acceptance": false
     }
   }
 }

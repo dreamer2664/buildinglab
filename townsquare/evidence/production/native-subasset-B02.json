@@ -3,7 +3,7 @@
   "status": "PASS",
   "actual_factory_reopen": true,
   "path": ".cache/final-components/Native/B02.blend",
-  "sha256": "0eee42959fdf940513f668274f274f22515da933a1812371cc7247db085e971f",
+  "sha256": "81035398f40499594bd75fab54da2280956e0d99094e3edcf4fdf88b6fd8f806",
   "blender_version": "4.3.2",
   "mesh_objects": 65,
   "armatures": 0,

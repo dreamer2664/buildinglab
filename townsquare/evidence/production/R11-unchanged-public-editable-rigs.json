@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "R11_full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "unchanged_editable_rig_archive": {
+    "asset": "Winterlichtplatz-R10-Editable-people-b6230a3e5d35.zip",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Editable-people-b6230a3e5d35.zip",
+    "bytes": 500453565,
+    "sha256": "db6b3c9c577cadc7635bb56d547963541e9ad5b8a8a061cff1b83632b21cf609",
+    "all_manifest_members_sha256_and_bytes_verified": true,
+    "CRC": "PASS",
+    "entries_including_manifest": 51
+  },
+  "actual_original_anonymous_download_archive_rehashed_and_CRC_checked": true,
+  "all12_actual_current_rigs_exact_public_member_equal": [
+    {
+      "rig": "P01",
+      "actual_saved_rig_sha256": "cff063c0a21176fa77d387061cab387ce425fc706026f631402e60748a816cf2",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P02",
+      "actual_saved_rig_sha256": "b63d8427d834d47ae26e4454d6edf0dcc7f2ffaeb555fb3dbe76084aa4516c23",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P03",
+      "actual_saved_rig_sha256": "197e273ec00d210d11c837fcd8230d36f0e5d0db78203ff30c32ed237f0a9f08",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P04",
+      "actual_saved_rig_sha256": "b586ceb46e6874bf236220b0af3aaa16785946a40d481e73a22ae59d421b8c20",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P05",
+      "actual_saved_rig_sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P06",
+      "actual_saved_rig_sha256": "7a17514fda5ddf4b9ec3dd2b9f05e8fd7750b83502860f850c6e4625365ad988",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P07",
+      "actual_saved_rig_sha256": "eb34546fe58dc2bc84cd0be96dac50b13edec73d4207126501d37a58851a1a24",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P08",
+      "actual_saved_rig_sha256": "bf4ad4062fa16369ee4eab22ef1e61d290809c22a0a1147827bcefa86246592d",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P09",
+      "actual_saved_rig_sha256": "4fac441e2dc7f8d6cdc03886aa961dc8c83b30cd3ba4ff3d5a9a971eccd3afb5",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P10",
+      "actual_saved_rig_sha256": "fd12efc1a3c47838f4c2beb236c1c93700f0710c82e1606d34791ddbbf6c230b",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P11",
+      "actual_saved_rig_sha256": "f65580a59f529e24e8ee7d76fbdf2b7496b6ae3707ae382e233fea4047913768",
+      "same_as_anonymous_R10_public_member": true
+    },
+    {
+      "rig": "P12",
+      "actual_saved_rig_sha256": "cca56695bd7315b5b50af97d67e287685adc81da190b14860c36f73adcffc9ef",
+      "same_as_anonymous_R10_public_member": true
+    }
+  ],
+  "scope": "Reused editable rig bytes are unchanged and public-digest bound, not new visual or independent acceptance."
+}

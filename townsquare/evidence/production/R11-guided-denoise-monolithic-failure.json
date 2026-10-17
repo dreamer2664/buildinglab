@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_SIGKILL_EXIT137",
+  "view": "D08",
+  "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_result": "Cycles24samples completed but full2560compositor normal/albedo-guided OIDN was killed during compositing under2GB runtime. No completed guided original and no inspection/quality improvement claimed. Existing finalD08/native unchanged.",
+  "next_method": "Only try bounded native-pixel camera crops with overlap; never rerun unchanged monolithic configuration."
+}
