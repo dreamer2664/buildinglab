@@ -1,13 +1,13 @@
 {
   "component": "ALL",
-  "glb_sha256": "f7fcd87834ec55039db4a05229eafc72c8f001ab5d48369a2a2c449ac5df5b51",
-  "source_full_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
-  "glb": ".cache/final-components/Winterlichtplatz-R7.glb",
+  "glb_sha256": "561e2ad02ecf106edf15ba63e268fadf8ad0832584550951b0a9c9c20ce8053b",
+  "source_full_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "glb": ".cache/final-components/Winterlichtplatz-R10.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 936,
-    "triangles_instance_sum": 3551771,
+    "triangles_instance_sum": 3394472,
     "bounds_min": [
       -56.0,
       -50.0,
@@ -282,7 +282,7 @@
   },
   "actual": {
     "mesh_objects": 936,
-    "triangles_instance_sum": 3551771,
+    "triangles_instance_sum": 3394472,
     "bounds_min": [
       -56.0,
       -50.0,
@@ -557,7 +557,7 @@
   },
   "issues": [],
   "mesh_objects_without_uv_plain_colour_allowed": [],
-  "image_count": 96,
-  "packed_images": 96,
+  "image_count": 102,
+  "packed_images": 102,
   "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
 }

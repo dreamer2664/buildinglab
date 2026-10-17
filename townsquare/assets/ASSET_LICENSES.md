@@ -59,3 +59,7 @@ R5 previews exposed lateral protrusions at P03/P09 despite smoother edges. R6 ke
 ## R7 complete cap assembly
 
 Full-resolution D02 exposed that18 original vertical knit ribs were omitted from the R5/R6 fitting selector. R7 moves exact PID_RIB/PID_RIB.* parts with cap shell/cuff, verifying original cap-relative matrices remain unchanged for all20 cap pieces. R6 exact hair-hem clearance, R5 posed-eyebrow fit and all12 anatomical/rig-pose conservation retained. Prior candidates stay historical, not final accepted work.
+
+
+## Interactive preview library
+Three.js0.180.0 from the npm registry `three@0.180.0`, MIT. Unmodified vendor modules and exact upstream LICENSE are supplied in `viewer/vendor/`. Viewer is a WebGL convenience approximation of the actual static GLB, not a claim of native-lighting parity or final realism acceptance. Original project-authored viewer code follows the project code licence.

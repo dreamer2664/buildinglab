@@ -33,8 +33,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Produce, dry goods, chilled cabinets, bakery island, checkouts, accessible WC, receiving",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B01_L02",
@@ -42,8 +43,9 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Stockroom, purchasing office, staff kitchen, lockers, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B01_L03",
@@ -51,12 +53,13 @@
           "datum_m": 7.0,
           "height_m": 3.2,
           "programme": "Separate-entry two-bedroom loft home",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -79,8 +82,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Bread counter, pastry displays, baking/prep kitchen, wash-up, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B02_L02",
@@ -88,12 +92,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Bakers maisonette: living/kitchen, two bedrooms, bathroom, storage",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -116,8 +121,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Coffee bar, pastry display, varied seating, prep kitchen, customer WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B03_L02",
@@ -125,12 +131,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Quiet reading cafe: lounge, tea pantry, games room, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -153,8 +160,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Bookshelves, accessible browse aisles, central display tables, till, stock, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B04_L02",
@@ -162,12 +170,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Illustrator home/studio: bedroom, drawing studio, kitchen/living, bathroom",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -190,8 +199,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Bouquet workbench, pot/display shelves, cold store, till, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B05_L02",
@@ -199,12 +209,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Conservatory home: planted dining room, bedroom, kitchen, bathroom",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -227,8 +238,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Garment rails, knit displays, fitting rooms, till, stock, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B06_L02",
@@ -236,12 +248,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Tailoring atelier: sewing, cutting, fabric store, office, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -264,8 +277,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Reception, luggage store, breakfast lounge, kitchen, public WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B07_L02",
@@ -273,8 +287,9 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Two separately furnished guest suites with ensuite bathrooms and linen cupboard",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 10
         },
         {
           "id": "B07_L03",
@@ -282,12 +297,13 @@
           "datum_m": 7.0,
           "height_m": 3.2,
           "programme": "Two different attic suites with ensuite bathrooms, reading alcoves",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 10
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -310,8 +326,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Toy shelving, play-test table, display train, checkout, stock, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B08_L02",
@@ -319,12 +336,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Family home: living/kitchen, parents room, child room, bathroom",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -347,8 +365,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Glazed displays, consultation counter, jeweller bench, secure stock, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B09_L02",
@@ -356,12 +375,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Maker loft: workshop, living/kitchen, bedroom, bathroom",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -384,8 +404,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Customer display shelving, dispensary counter, consultation room, stock, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B10_L02",
@@ -393,12 +414,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Practice rooms: reception, two distinct consultation rooms, staff pantry, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -421,8 +443,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Cycle display, service workstands, tools, parts, till, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B11_L02",
@@ -430,12 +453,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Cyclist home: mudroom, living/kitchen, bedroom, bathroom, gear store",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     },
     {
@@ -458,8 +482,9 @@
           "datum_m": 0,
           "height_m": 3.8,
           "programme": "Stationery shelving, cards/gifts, parcel lockers, service counter, sorting, WC",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         },
         {
           "id": "B12_L02",
@@ -467,12 +492,13 @@
           "datum_m": 3.8,
           "height_m": 3.2,
           "programme": "Writers home: library/living, separate kitchen, study, bedroom, bathroom",
-          "furnishing_status": "NOT BUILT",
-          "layout_status": "programme established; detailed partitions/clearances pending"
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
         }
       ],
       "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
-      "brand_status": "original name assigned; original vector mark/sign system pending",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
       "unique_interior_required": true
     }
   ],

@@ -16,6 +16,22 @@
       "observed_findings": "Actual R10 2560x1440 original singly opened. P03 and P04 show full original hair/foreheads and unobstructed eyes/mouth; rejected hats and scarves absent, so earlier scalp intersection and collar/wrap defects removed from final outfits. Anatomically modelled faces, separated fingers, fitted jacket/shirt/trousers visible. Licensed textured hair remains visibly generic CG (especially shiny short-hair shell); not photographic scan quality or a photorealism certification. Scoped outfit/geometry producer check, not independent acceptance.",
       "checked_utc": "2026-10-17T15:21:53.305884+00:00",
       "independent_acceptance": false
+    },
+    "D08": {
+      "view_id": "D08",
+      "image": ".cache/final-renders/D08.png",
+      "image_sha256": "e1a5d194ef0744a2b1e28642cc265ee09f60bcadfd1cd829f1491c6dc86ab7a1",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual R10 original 2560x1440 singly opened at same macro camera as rejected R7/R8/R9 studies. Full face, mouth and collar visible. Rejected procedural hat/wrap/tail absent from final outfit; original full hair crown preserved, no clipped-under-cap mask. Hair crown is visibly polygonal and hair/coat remain generic textured CG rather than photographic/scanned strand detail. Scoped geometry/outfit regression checked; do not claim photographic-realism acceptance. Source anatomy/pose unchanged.",
+      "checked_utc": "2026-10-17T15:24:45.455991+00:00",
+      "independent_acceptance": false
     }
   }
 }

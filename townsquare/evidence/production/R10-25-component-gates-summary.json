@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "full_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "actual_count": 25,
+  "components": [
+    {
+      "key": "B01",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "eb4c920accfc71c8c38d8c1c91b9de1eb0ad22bb03b7883547364e2230c648cf",
+      "glb_sha256": "63ccaefa38b1ca0cf86358adab9411f13ea1eba4ace290ce4d5d5c4d8e94d04c"
+    },
+    {
+      "key": "B02",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "0eee42959fdf940513f668274f274f22515da933a1812371cc7247db085e971f",
+      "glb_sha256": "2b1f9f72448b7bf6b2ba6a89915278a35d3310870ddf4e38144ae8c7d816ad3a"
+    },
+    {
+      "key": "B03",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "5e7374a9ebe5212ddb25b1d8ef8c78a230723828e14971300bb27f5147c3e2ce",
+      "glb_sha256": "23dcbced4070a1d79cdcc35d4bcd25c226770a84829a904dba17603b6273055c"
+    },
+    {
+      "key": "B04",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "0721a6193fb434576d988efde427d5b261eb110637e4efbd42d56a6a2ccedcfb",
+      "glb_sha256": "552854f3817135e4a3cc7706155c2ef77d128defe7b2ec63338906f9950765f8"
+    },
+    {
+      "key": "B05",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "fc696956a43327cce51089ac4c81e54aa4d87c1c1a351538eafbe33ed9674169",
+      "glb_sha256": "eef4679333776b56af115ed3ae23272cb34561cb0072c712ea95a4c7ac96c755"
+    },
+    {
+      "key": "B06",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "fe300f8a53c401fa001a1033c5a22f7ff224100de03ac105be7cd9799b47f5c5",
+      "glb_sha256": "7c2c06fa9911f8f8c8f5cce1f161fcb54542452bc4012131ec82b99a7ca58475"
+    },
+    {
+      "key": "B07",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "f76cbb6b6db5f2304fb44aef33fb6f1a34e04a7e316562c9e3034fe16b7c5391",
+      "glb_sha256": "b62bf58353bd255dc045a3e85ac3d0a5e571b02a7cbd6da7f18babe50cc74dab"
+    },
+    {
+      "key": "B08",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "60729cb5206aa9a054a61b6ae82339997a24d761284d7e4d7cd1c806fbfe0e45",
+      "glb_sha256": "7187035f36cd141b75ffcde0f66444e83431b2912d62c23b3266d4775502fa36"
+    },
+    {
+      "key": "B09",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "ed021866ed32d142dc297c229aa9da05dfbd49220a594f52c5af0eb43453c237",
+      "glb_sha256": "d68e8b8e06441c1dc655fe6a2cd1da50ccd609aa3dee9e8043f4a2e8c36f2525"
+    },
+    {
+      "key": "B10",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "eacba191e69d3d3b569e1122db060f2a90c03947512a5cb5f109daa335af25c5",
+      "glb_sha256": "634b8318812a43665144ec3c9f1aa5287605a23af6c8e2c6220f9890ccf0e0e0"
+    },
+    {
+      "key": "B11",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "9286a332314f520c2b25bdd291613a6de1a12e9d42b41a6aebccf285111230e6",
+      "glb_sha256": "06e1e1a688c838f1520cb7ae54d1408b8ddc88f3ce28c30003e6b0c2a277f76b"
+    },
+    {
+      "key": "B12",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "92578217d027b1a547df40bb1016225af2dd8ab802c729b473d35667607ae13d",
+      "glb_sha256": "a74e37c91d992666962048648e95d94d153645f77e15aa709c050b3cda3c5a84"
+    },
+    {
+      "key": "PUBLIC",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "b98511fd601688c472b49a90f37cb5cd947052df840046061c80648cc863a343",
+      "glb_sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8"
+    },
+    {
+      "key": "P01",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "cff063c0a21176fa77d387061cab387ce425fc706026f631402e60748a816cf2",
+      "glb_sha256": "c2603c4f2a9a449994f46491199d1c3ab00996c3b58a817f4f9045db5112185d"
+    },
+    {
+      "key": "P02",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "b63d8427d834d47ae26e4454d6edf0dcc7f2ffaeb555fb3dbe76084aa4516c23",
+      "glb_sha256": "9caf76c586ed757e8c010f81b188a612504a7b0244e79e96e7b9bb463b60b4e0"
+    },
+    {
+      "key": "P03",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "197e273ec00d210d11c837fcd8230d36f0e5d0db78203ff30c32ed237f0a9f08",
+      "glb_sha256": "258f68c9041c4ab2a23516b56cdfdf6d86641b9269dd6d27f68361a920a73cce"
+    },
+    {
+      "key": "P04",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "b586ceb46e6874bf236220b0af3aaa16785946a40d481e73a22ae59d421b8c20",
+      "glb_sha256": "ae9e892db0eff00f5bb39c2d86a3c8304cb4c34667ce7b8308362edcd72fff31"
+    },
+    {
+      "key": "P05",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
+      "glb_sha256": "6665f88190cefef3e7930117b8be472d2f95b8f97de036efdb319994194ba378"
+    },
+    {
+      "key": "P06",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "7a17514fda5ddf4b9ec3dd2b9f05e8fd7750b83502860f850c6e4625365ad988",
+      "glb_sha256": "6abce25d1f0fc2fdc713c81021495f77ac5f05d48961ed03bf646c50242530a1"
+    },
+    {
+      "key": "P07",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "eb34546fe58dc2bc84cd0be96dac50b13edec73d4207126501d37a58851a1a24",
+      "glb_sha256": "e01ec89a5f5c30cde04feddfe9bf39625dfc483eb382acdaf9f02fbc5221d4ea"
+    },
+    {
+      "key": "P08",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "bf4ad4062fa16369ee4eab22ef1e61d290809c22a0a1147827bcefa86246592d",
+      "glb_sha256": "a4657ebe5eb37ad3342f6460a91ceede6a88a1a3e9db5e2300579c6d20cbe204"
+    },
+    {
+      "key": "P09",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "4fac441e2dc7f8d6cdc03886aa961dc8c83b30cd3ba4ff3d5a9a971eccd3afb5",
+      "glb_sha256": "603eee33707b5294f01d0e238b470aae935d6402108c62a363cf9ad7122351c1"
+    },
+    {
+      "key": "P10",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "fd12efc1a3c47838f4c2beb236c1c93700f0710c82e1606d34791ddbbf6c230b",
+      "glb_sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46"
+    },
+    {
+      "key": "P11",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "f65580a59f529e24e8ee7d76fbdf2b7496b6ae3707ae382e233fea4047913768",
+      "glb_sha256": "892016996baac2f10d0d226723c13ab40e1c0695798e344131052294453e3a50"
+    },
+    {
+      "key": "P12",
+      "exported_current_source": true,
+      "exact_glb_actual_clean_import": "PASS",
+      "actual_editable_native_reopen": "PASS",
+      "native_sha256": "cca56695bd7315b5b50af97d67e287685adc81da190b14860c36f73adcffc9ef",
+      "glb_sha256": "e1e5a5955406db4639043633be7d7a0bf4d643350ae1ab13d246d9cf300a3f8a"
+    }
+  ],
+  "scope": "Actual file-digest-bound machine/native/portable checks only; no final visual or independent acceptance inferred."
+}

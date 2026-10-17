@@ -1,14 +1,14 @@
 {
   "component": "P10",
-  "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
   "glb": ".cache/final-components/GLB/P10.glb",
-  "glb_sha256": "856f843b9eca40b1ca6bdbcc0b6f91866ca63da5db0e3a7cbc59aafe7ef0c6a7",
-  "glb_bytes": 3950064,
+  "glb_sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46",
+  "glb_bytes": 4234880,
   "expected_geometry": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 71463,
-    "polygons_instance_sum": 65991,
-    "triangles_instance_sum": 132957,
+    "vertices_instance_sum": 67341,
+    "polygons_instance_sum": 61848,
+    "triangles_instance_sum": 123672,
     "bounds_min": [
       -12.221768379211426,
       -19.491558074951172,
@@ -17,7 +17,7 @@
     "bounds_max": [
       26.45212745666504,
       10.745595932006836,
-      1.710879921913147
+      1.6299623250961304
     ],
     "floor_ids": [
       "PUBLIC"

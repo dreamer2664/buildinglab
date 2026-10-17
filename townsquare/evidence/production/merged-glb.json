@@ -1,166 +1,165 @@
 {
-  "glb": ".cache/final-components/Winterlichtplatz-R7.glb",
-  "bytes": 139638156,
-  "sha256": "f7fcd87834ec55039db4a05229eafc72c8f001ab5d48369a2a2c449ac5df5b51",
+  "glb": ".cache/final-components/Winterlichtplatz-R10.glb",
+  "bytes": 145239940,
+  "sha256": "561e2ad02ecf106edf15ba63e268fadf8ad0832584550951b0a9c9c20ce8053b",
   "components": [
     {
       "file": "B01.glb",
-      "bytes": 19337396,
-      "sha256": "fce72a5920cf4166f8a812ca3ff8db97eb953fc91fd082b2eb4e2444bb54d0f8",
+      "bytes": 19546140,
+      "sha256": "63ccaefa38b1ca0cf86358adab9411f13ea1eba4ace290ce4d5d5c4d8e94d04c",
       "binary_offset": 0
     },
     {
       "file": "B02.glb",
-      "bytes": 11971932,
-      "sha256": "4b41ac33e58d5229b58ad67381574a6d0780355f103adbe314998add46f33955",
-      "binary_offset": 19027484
+      "bytes": 12180676,
+      "sha256": "2b1f9f72448b7bf6b2ba6a89915278a35d3310870ddf4e38144ae8c7d816ad3a",
+      "binary_offset": 19235872
     },
     {
       "file": "B03.glb",
-      "bytes": 10134292,
-      "sha256": "97c809684b81caee24fe3b008d47fa0e76856596f8d3478462f152814f642840",
-      "binary_offset": 30787920
+      "bytes": 10342940,
+      "sha256": "23dcbced4070a1d79cdcc35d4bcd25c226770a84829a904dba17603b6273055c",
+      "binary_offset": 31204696
     },
     {
       "file": "B04.glb",
-      "bytes": 16041196,
-      "sha256": "e2c06c125a4cb55e86c2c9ed51852b78be293a461095cb274f9836cb74fe9c2d",
-      "binary_offset": 40702448
+      "bytes": 16249888,
+      "sha256": "552854f3817135e4a3cc7706155c2ef77d128defe7b2ec63338906f9950765f8",
+      "binary_offset": 41327612
     },
     {
       "file": "B05.glb",
-      "bytes": 12037800,
-      "sha256": "02eb39ad746ac0819d911a47dff399f4ea9be923d41b6f170f4f155974b7b620",
-      "binary_offset": 56545884
+      "bytes": 12246496,
+      "sha256": "eef4679333776b56af115ed3ae23272cb34561cb0072c712ea95a4c7ac96c755",
+      "binary_offset": 57379436
     },
     {
       "file": "B06.glb",
-      "bytes": 6349012,
-      "sha256": "2eb4268674c4f78ad7ba021b0f37fe5e05ffc0e0ea13e94fe46328b21d1b7eec",
-      "binary_offset": 68392832
+      "bytes": 6349196,
+      "sha256": "7c2c06fa9911f8f8c8f5cce1f161fcb54542452bc4012131ec82b99a7ca58475",
+      "binary_offset": 69434772
     },
     {
       "file": "B07.glb",
-      "bytes": 16634280,
-      "sha256": "f019cedeb5c808e2383f80dd9071a14df33dc5fa443c4e56c756eb9b77e2e774",
-      "binary_offset": 74556856
+      "bytes": 16842976,
+      "sha256": "b62bf58353bd255dc045a3e85ac3d0a5e571b02a7cbd6da7f18babe50cc74dab",
+      "binary_offset": 75598796
     },
     {
       "file": "B08.glb",
-      "bytes": 13942300,
-      "sha256": "e8293ab841721cbb0a0a011aff0c0552e8f5f9ced9528d308ed773af5322861d",
-      "binary_offset": 90853000
+      "bytes": 14150996,
+      "sha256": "7187035f36cd141b75ffcde0f66444e83431b2912d62c23b3266d4775502fa36",
+      "binary_offset": 92103328
     },
     {
       "file": "B09.glb",
-      "bytes": 11684968,
-      "sha256": "6522936d3f248baf9adec05ee769e7f6583e7caad774abd68e6f309d2f369ebe",
-      "binary_offset": 104593032
+      "bytes": 11893664,
+      "sha256": "d68e8b8e06441c1dc655fe6a2cd1da50ccd609aa3dee9e8043f4a2e8c36f2525",
+      "binary_offset": 106051748
     },
     {
       "file": "B10.glb",
-      "bytes": 8745700,
-      "sha256": "3ea0f49c372c8f2260c7b04ef65f913c32ca1ebddf98ff3364a6b440f9e5d96d",
-      "binary_offset": 116085124
+      "bytes": 8745984,
+      "sha256": "634b8318812a43665144ec3c9f1aa5287605a23af6c8e2c6220f9890ccf0e0e0",
+      "binary_offset": 117752228
     },
     {
       "file": "B11.glb",
-      "bytes": 11987264,
-      "sha256": "fd0a87cae5b4f33d8b2ee0128ab31f94ba03bc77541452c9c5b9b892f87fdde1",
-      "binary_offset": 124610624
+      "bytes": 12195960,
+      "sha256": "06e1e1a688c838f1520cb7ae54d1408b8ddc88f3ce28c30003e6b0c2a277f76b",
+      "binary_offset": 126277728
     },
     {
       "file": "B12.glb",
-      "bytes": 14906472,
-      "sha256": "9df46463e3ffe287e46e7b888078e827ded4ab31e32e99a268de7a0b9bc49a75",
-      "binary_offset": 136412644
+      "bytes": 15115212,
+      "sha256": "a74e37c91d992666962048648e95d94d153645f77e15aa709c050b3cda3c5a84",
+      "binary_offset": 138288136
     },
     {
       "file": "PUBLIC.glb",
-      "bytes": 17035172,
-      "sha256": "9e3ae8a1cbe9aa1262a4d63d71483d2d3c1457ebeea085165cf4b6d4503c9cd0",
-      "binary_offset": 151106000
+      "bytes": 19348668,
+      "sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8",
+      "binary_offset": 153189880
     },
     {
       "file": "P01.glb",
-      "bytes": 3721188,
-      "sha256": "ce5fda4d19e810ede87db847773287da6f7105ace18986fad47d2d65d744b630",
-      "binary_offset": 168025896
+      "bytes": 4035180,
+      "sha256": "c2603c4f2a9a449994f46491199d1c3ab00996c3b58a817f4f9045db5112185d",
+      "binary_offset": 172422880
     },
     {
       "file": "P02.glb",
-      "bytes": 3460580,
-      "sha256": "e22bb5e866214816e3dde4301ab927e757ad0602e53b52acf0e28b1007ced077",
-      "binary_offset": 171732596
+      "bytes": 3620024,
+      "sha256": "9caf76c586ed757e8c010f81b188a612504a7b0244e79e96e7b9bb463b60b4e0",
+      "binary_offset": 176442920
     },
     {
       "file": "P03.glb",
-      "bytes": 3322452,
-      "sha256": "2d63607717142bac92c66d379bbb6e550326d322af6ed313bd8baac456efa0df",
-      "binary_offset": 175180540
+      "bytes": 3553888,
+      "sha256": "258f68c9041c4ab2a23516b56cdfdf6d86641b9269dd6d27f68361a920a73cce",
+      "binary_offset": 180050160
     },
     {
       "file": "P04.glb",
-      "bytes": 3958540,
-      "sha256": "a9423d4a35ed1f84fa71767471bad75bd7b172d2feefa7f5add534cd81276e3b",
-      "binary_offset": 178490628
+      "bytes": 4249168,
+      "sha256": "ae9e892db0eff00f5bb39c2d86a3c8304cb4c34667ce7b8308362edcd72fff31",
+      "binary_offset": 183591340
     },
     {
       "file": "P05.glb",
-      "bytes": 3467596,
-      "sha256": "42fbd05e96e21f614e24080ab56410c133166197ba6d421e6ebbe0e00e52979b",
-      "binary_offset": 182434620
+      "bytes": 3607420,
+      "sha256": "6665f88190cefef3e7930117b8be472d2f95b8f97de036efdb319994194ba378",
+      "binary_offset": 187825320
     },
     {
       "file": "P06.glb",
-      "bytes": 3378952,
-      "sha256": "f875fe5bd38e5fdeb24517c06981c81df41b31bd4a5fe8089bf49d5aec2eefcd",
-      "binary_offset": 185889620
+      "bytes": 3595768,
+      "sha256": "6abce25d1f0fc2fdc713c81021495f77ac5f05d48961ed03bf646c50242530a1",
+      "binary_offset": 191420000
     },
     {
       "file": "P07.glb",
-      "bytes": 3726396,
-      "sha256": "fcbdb82cf10aaf48ed8481e530c174a0b8c2ca242475734e3f60970f0dec2f21",
-      "binary_offset": 189256172
+      "bytes": 4047324,
+      "sha256": "e01ec89a5f5c30cde04feddfe9bf39625dfc483eb382acdaf9f02fbc5221d4ea",
+      "binary_offset": 195003024
     },
     {
       "file": "P08.glb",
-      "bytes": 3456312,
-      "sha256": "d480e1166926113f3d4ec6e04ecd43c67bb5dcfcf210c6de0f6d188d258da76a",
-      "binary_offset": 192968112
+      "bytes": 3621244,
+      "sha256": "a4657ebe5eb37ad3342f6460a91ceede6a88a1a3e9db5e2300579c6d20cbe204",
+      "binary_offset": 199035244
     },
     {
       "file": "P09.glb",
-      "bytes": 3338740,
-      "sha256": "d28695d43a673e175f6d069fe168a062659fec996d5263b9293de9e098435da0",
-      "binary_offset": 196411816
+      "bytes": 3557564,
+      "sha256": "603eee33707b5294f01d0e238b470aae935d6402108c62a363cf9ad7122351c1",
+      "binary_offset": 202643732
     },
     {
       "file": "P10.glb",
-      "bytes": 3950064,
-      "sha256": "856f843b9eca40b1ca6bdbcc0b6f91866ca63da5db0e3a7cbc59aafe7ef0c6a7",
-      "binary_offset": 199738148
+      "bytes": 4234880,
+      "sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46",
+      "binary_offset": 206188548
     },
     {
       "file": "P11.glb",
-      "bytes": 3456784,
-      "sha256": "ed537920f23319190a6e78d2ca256ba78f019e17e2be038f670443a6b334b05f",
-      "binary_offset": 203673676
+      "bytes": 3610652,
+      "sha256": "892016996baac2f10d0d226723c13ab40e1c0695798e344131052294453e3a50",
+      "binary_offset": 210408256
     },
     {
       "file": "P12.glb",
-      "bytes": 3380540,
-      "sha256": "f6654f2f323380a2e57e9798f20bfced1f40119f4eabcdeef6249549b8f2c3d3",
-      "binary_offset": 207117852
+      "bytes": 3593716,
+      "sha256": "e1e5a5955406db4639043633be7d7a0bf4d643350ae1ab13d246d9cf300a3f8a",
+      "binary_offset": 214006152
     }
   ],
   "nodes": 1263,
   "meshes": 912,
-  "images": 96,
+  "images": 102,
   "extensions_used": [
     "KHR_materials_emissive_strength",
     "KHR_materials_ior",
-    "KHR_materials_sheen",
     "KHR_materials_transmission"
   ],
   "merger": "Index/buffer remapping only; no geometry resampling/decimation/axis change",

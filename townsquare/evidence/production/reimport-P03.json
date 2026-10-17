@@ -1,15 +1,15 @@
 {
   "component": "P03",
-  "glb_sha256": "627d482a4c71e9786216322d18aca935e83e4ac92b4a0c88ca6e8f78f75b1f19",
-  "source_full_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
+  "glb_sha256": "258f68c9041c4ab2a23516b56cdfdf6d86641b9269dd6d27f68361a920a73cce",
+  "source_full_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
   "glb": ".cache/final-components/GLB/P03.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 75570,
-    "polygons_instance_sum": 71541,
-    "triangles_instance_sum": 143082,
+    "vertices_instance_sum": 63411,
+    "polygons_instance_sum": 57450,
+    "triangles_instance_sum": 114900,
     "bounds_min": [
       -6.2981414794921875,
       -16.284982681274414,
@@ -18,7 +18,7 @@
     "bounds_max": [
       8.275882720947266,
       18.340696334838867,
-      1.8513416051864624
+      1.824565052986145
     ],
     "floor_ids": [
       "PUBLIC"
@@ -34,7 +34,7 @@
   },
   "actual": {
     "mesh_objects": 3,
-    "triangles_instance_sum": 143082,
+    "triangles_instance_sum": 114900,
     "bounds_min": [
       -6.2981414794921875,
       -16.284982681274414,
@@ -43,7 +43,7 @@
     "bounds_max": [
       8.275882720947266,
       18.340696334838867,
-      1.8513416051864624
+      1.824565052986145
     ],
     "floor_ids": [
       "PUBLIC"

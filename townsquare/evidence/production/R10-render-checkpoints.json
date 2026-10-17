@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "Winterlichtplatz-R10-evidence-checkpoint-002-33003e1ca8.zip",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-evidence-checkpoint-002-33003e1ca8.zip",
+    "bytes": 12214907,
+    "sha256": "0fb84020d0ce4cb07c76d6d1ac9220acebfe3498b86ac986c5a84703a5631479",
+    "native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "views": [
+      "D02",
+      "D08"
+    ],
+    "actual_manual_review_ids_at_backup": [
+      "D02",
+      "D08"
+    ],
+    "anonymous_CRC_every_member_sha_and_bytes": "PASS",
+    "stage": "PARTIAL producer evidence backup; not final acceptance",
+    "verified_utc": "2026-10-17T15:24:48.911936+00:00"
+  }
+]

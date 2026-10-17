@@ -21,5 +21,28 @@
     "tile_assembly": null,
     "elapsed_seconds": 112.52,
     "visual_inspection": "PENDING"
+  },
+  "D08": {
+    "view_id": "D08",
+    "title": "P06 / face and fabric detail",
+    "kind": "people",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/final-renders/D08.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "e1a5d194ef0744a2b1e28642cc265ee09f60bcadfd1cd829f1491c6dc86ab7a1",
+    "noisy_original_sha256": "b1427fef44ebb55adb47d362c12ec28ad6c9a35b46fd38df22c1c16c2cff09c2",
+    "noisy_original": ".cache/final-renders/D08.noisy.png",
+    "original_before_denoise_sha256": "b1427fef44ebb55adb47d362c12ec28ad6c9a35b46fd38df22c1c16c2cff09c2",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D08.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 109.53,
+    "visual_inspection": "PENDING"
   }
 }

@@ -24,6 +24,7 @@
       "entries_including_manifest": 51
     }
   ],
-  "exact_public_native_reopen": "PENDING",
-  "storage_ledger_commit": "93a1cb85365fc8954826e0e4004a159e333b6735"
+  "exact_public_native_reopen": "ACTUAL_FACTORY_REOPEN_PASS",
+  "storage_ledger_commit": "93a1cb85365fc8954826e0e4004a159e333b6735",
+  "exact_public_native_render_smoke": "ACTUAL_RENDER_AND_SEPARATE_IMAGE_OPEN_PASS / low-resolution integrity only"
 }

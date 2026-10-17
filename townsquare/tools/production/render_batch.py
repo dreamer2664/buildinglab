@@ -35,12 +35,12 @@ for f in frames:
   print('SKIP_ALREADY_RENDERED_AND_HASH_VERIFIED',id,flush=True);continue
  print('RENDER_VIEW',id,f['title'],flush=True);start=time.monotonic();reports=[]
  if not args.pilot and f['resolution'][0]>=3840:
-  borders=[(0,.5,0,.5),(.5,1,0,.5),(0,.5,.5,1),(.5,1,.5,1)]
+  grid=4;borders=[(x/grid,(x+1)/grid,y/grid,(y+1)/grid) for y in range(grid) for x in range(grid)]
   for i,border in enumerate(borders):reports.append(run_frame(f,id+f'-tile{i}.png',border));print('TILE_COMPLETE',id,i,flush=True)
   canvas=Image.new('RGB',tuple(f['resolution']));w,h=f['resolution']
   for i,border in enumerate(borders):
    with Image.open(out/(id+f'-tile{i}.png')) as tile:
-    assert tile.size==(w//2,h//2),tile.size;canvas.paste(tile,(round(border[0]*w),round((1-border[3])*h)))
+    assert tile.size==(w//grid,h//grid),tile.size;canvas.paste(tile,(round(border[0]*w),round((1-border[3])*h)))
   canvas.save(final);canvas.close()
  else:reports=[run_frame(f,id+'.png')]
  before=digest(final)
@@ -51,6 +51,6 @@ for f in frames:
   with denoise_log.open('w') as logf:subprocess.run([sys.executable,str(R/'tools/denoise_png.py'),str(final),LIB],env=env,stdout=logf,stderr=subprocess.STDOUT,check=True)
  with Image.open(final) as im:dimensions=im.size
  if not args.pilot:assert list(dimensions)==f['resolution']
- record={'view_id':id,'title':f['title'],'kind':f['kind'],'source_native_sha256':reports[0]['original_source_native_sha256'],'geometry_uv_pose_material_signature':reports[0]['geometry_uv_pose_material_signature'],'image':str(final.relative_to(R)),'dimensions':dimensions,'final_sha256':digest(final),'noisy_original_sha256':digest(noisy),'noisy_original':str(noisy.relative_to(R)),'original_before_denoise_sha256':before,'postprocess':'Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery','render_reports':[str((out/(id+f'-tile{i}.render.json')).relative_to(R)) for i in range(4)] if len(reports)==4 else [str((out/(id+'.render.json')).relative_to(R))],'tile_assembly':'Exact native-pixel camera-border2x2, no scaling' if len(reports)==4 else None,'elapsed_seconds':round(time.monotonic()-start,2),'visual_inspection':'PENDING'}
+ record={'view_id':id,'title':f['title'],'kind':f['kind'],'source_native_sha256':reports[0]['original_source_native_sha256'],'geometry_uv_pose_material_signature':reports[0]['geometry_uv_pose_material_signature'],'image':str(final.relative_to(R)),'dimensions':dimensions,'final_sha256':digest(final),'noisy_original_sha256':digest(noisy),'noisy_original':str(noisy.relative_to(R)),'original_before_denoise_sha256':before,'postprocess':'Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery','render_reports':[str((out/(id+f'-tile{i}.render.json')).relative_to(R)) for i in range(len(reports))] if len(reports)>1 else [str((out/(id+'.render.json')).relative_to(R))],'tile_assembly':'Exact native-pixel camera-border4x4, no scaling; common whole-frame frustum for every tile' if len(reports)>1 else None,'elapsed_seconds':round(time.monotonic()-start,2),'visual_inspection':'PENDING'}
  records[id]=record;meta_path.write_text(json.dumps(records,indent=2)+'\n');print('VIEW_RENDER_COMPLETE',id,sum(x['id'] in records for x in frames),'of',len(frames),'seconds',record['elapsed_seconds'],flush=True)
 print('BATCH_RENDER_COMPLETE',len(frames),'visual inspection remains a separate gate',flush=True)

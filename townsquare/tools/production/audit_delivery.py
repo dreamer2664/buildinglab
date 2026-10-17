@@ -22,11 +22,19 @@ for f in plan:
  if r['source_native_sha256']!=build['full_resolution_native_sha256']:errors.append('Full-source SHA differs')
  if r['geometry_uv_pose_material_signature']!=build['geometry_uv_pose_material_signature_full_resolution']:errors.append('Geometry signature differs')
  reports=[json.loads((R/n).read_text()) for n in r['render_reports']]
- if len(reports)!=(4 if f['resolution'][0]>=3840 else 1):errors.append('Camera-border tile report count mismatch')
+ if len(reports)!=(16 if f['resolution'][0]>=3840 else 1):errors.append('Camera-border tile report count mismatch')
  for t in reports:
   if t['opened_derivative_sha256']!=derivative['sha256']:errors.append('Actual frame working-input bytes differ from actual validated derivative')
   if t['original_source_native_sha256']!=build['full_resolution_native_sha256']:errors.append('Tile full native source SHA differs')
- if len(reports)==4:
+ if len(reports)>1:
+  expected_borders={(x/4,(x+1)/4,y/4,(y+1)/4) for y in range(4) for x in range(4)}
+  if {tuple(t['crop_border']) for t in reports}!=expected_borders:errors.append('Camera-border grid not exact4x4 cover')
+  for t in reports:
+   tile=R/t['original_noisy_image']
+   if not tile.exists() or sha(tile)!=t['image_sha256_before_postprocess']:errors.append('Raw native tile bytes mismatch')
+   else:
+    with Image.open(tile) as tim:
+     if list(tim.size)!=[f['resolution'][0]//4,f['resolution'][1]//4]:errors.append('Raw tile dimensions mismatch')
   if any(t['render_only_visibility']!=reports[0]['render_only_visibility'] for t in reports):errors.append('Tile-specific visibility differs')
  if not q or not q.get('actual_original_opened') or q.get('image_sha256')!=r['final_sha256'] or q.get('decision')!='PRODUCER_CHECKED':errors.append('Separate actual original-image inspection missing or not tied to current bytes')
  if errors:issues.append({'view':id,'issues':errors})

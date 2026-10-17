@@ -3,7 +3,7 @@
   "status": "PASS",
   "actual_factory_reopen": true,
   "path": ".cache/fixed-people/rigs/P05.blend",
-  "sha256": "0e24955d624b767f7753c505e773adc9f5d47b01d55ed0a18a603991e9419ab0",
+  "sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
   "blender_version": "4.3.2",
   "mesh_objects": 19,
   "armatures": 1,
