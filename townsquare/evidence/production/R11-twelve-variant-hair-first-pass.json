@@ -1,0 +1,78 @@
+{
+  "stage": "SIX_ACTUAL_PAIR_IMAGES_INDIVIDUALLY_OPENED_BUT_ONLY10OF12HAIR_STYLED_FIX_REQUIRED",
+  "inspection_utc": "2026-10-17T18:52:42.773012+00:00",
+  "images": [
+    {
+      "view": "D01",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D01-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "ec1b62b16228cc422fcba74b3cf9830d12c0ebb6295d8219357615f0a977a0cd",
+      "actual_styled_actors": [
+        "CROWD_01_P01",
+        "CROWD_02_P02"
+      ],
+      "observation": "P01/P02 shown. Short and bob hair read rounded/fine at this scale; figures remain CG/generic, not scans."
+    },
+    {
+      "view": "D02",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D02-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "ddc345fa43d926193cc977addcd80a8eed58f5d9edda5448dee70cff602ff6e7",
+      "actual_styled_actors": [
+        "CROWD_04_P04"
+      ],
+      "observation": "P03 Afro remains coarse/blocky and unchanged; P04 ponytail glossy. Coverage report actually omitted P03. FIX_REQUIRED."
+    },
+    {
+      "view": "D03",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D03-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "82743d32a76c76cbeb6437009483cac213345a42a17f72165b30e40ae0503ee4",
+      "actual_styled_actors": [
+        "CROWD_05_P05",
+        "CROWD_06_P06"
+      ],
+      "observation": "P05/P06 shown; rounded crown/braid mass, P06 earlier1280 rear-nape comb contour still unresolved."
+    },
+    {
+      "view": "D04",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D04-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "ee2bc087798665cb623a64f8c8306016e012b071132624d79bc1015455c286b0",
+      "actual_styled_actors": [
+        "CROWD_07_P07",
+        "CROWD_08_P08"
+      ],
+      "observation": "P07/P08 shown; bob obscures one eye intentionally, no visible hand/limb detachment in view; CG surface limits remain."
+    },
+    {
+      "view": "D05",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D05-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "d8926ef3a06f1093132b32428363469a367bc3c4c2a56ae5ffa574d7e07fc1f5",
+      "actual_styled_actors": [
+        "CROWD_10_P10"
+      ],
+      "observation": "P09 Afro remains coarse/blocky and unchanged; P10 ponytail smooth/glossy. Coverage report omitted P09. FIX_REQUIRED."
+    },
+    {
+      "view": "D06",
+      "path": "evidence/quality-studies/twelve-variant-hair-first-pass/D06-physical-hair-prototype-study1024.png",
+      "actual_opened_individually": true,
+      "sha256": "05d783ea928ce5ecea4a9f60ea9052073ba605835dbfd681c39a17d284aebb9a",
+      "actual_styled_actors": [
+        "CROWD_11_P11",
+        "CROWD_12_P12"
+      ],
+      "observation": "P11/P12 shown; short/braid fine at this framing, same generic underlying face families recur. No claim of12unique scan identities."
+    }
+  ],
+  "actual_missed_variants": [
+    3,
+    9
+  ],
+  "cause": "Real afro01 asset not included in hair material matcher. Actual metadata confirms missed actors, not inferred success from12visible figures.",
+  "correction": "Afro matcher and real coiled-fibre geometry authored/compiled; new actual close/pair test running, outcome not yet known.",
+  "native_adoption": false,
+  "independent_acceptance": false
+}

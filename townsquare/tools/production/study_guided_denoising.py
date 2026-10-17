@@ -13,9 +13,22 @@ if os.environ.get('SQUARE_HAIR_PROTOTYPE')=='1':
 elif os.environ.get('SQUARE_HAIR_PROTOTYPE')=='2':
  from prototype_hair_curves import apply
  prototype=apply();prototype_impl='prototype_hair_curves.py';name+='-physical-hair-prototype'
+hidden_fibres=0
+if prototype is not None and os.environ.get('SQUARE_HAIR_HIDE_FIBRES')=='1':
+ name+='-cap-only'
+ for ob in bpy.context.scene.objects:
+  if ob.type=='CURVES'and ob.get('layer')=='people_hair':ob.hide_render=True;hidden_fibres+=1
+prototype_snapshot=None
+if prototype is not None:
+ source=R/'tools/production'/prototype_impl;digest=file_sha256(source);snap=R/'evidence/quality-studies/implementations'/('hair-'+digest+'.py');snap.parent.mkdir(exist_ok=True);snap.write_bytes(source.read_bytes());prototype_snapshot=str(snap.relative_to(R))
+scale=float(os.environ.get('SQUARE_STUDY_SCALE','1'))
+if not tile and scale!=1:
+ s.render.resolution_x=round(f['resolution'][0]*scale);s.render.resolution_y=round(f['resolution'][1]*scale);name+='-study'+str(s.render.resolution_x)
 if tile:
  w,h=f['resolution'];x0,x1,y0,y1=tile['pixels'];s.render.use_border=True;s.render.use_crop_to_border=True;s.render.border_min_x=(x0+.25)/w if x0 else 0;s.render.border_max_x=(x1+.25)/w if x1<w else 1;s.render.border_min_y=(y0+.25)/h if y0 else 0;s.render.border_max_y=(y1+.25)/h if y1<h else 1
 s.cycles.samples=24;s.cycles.use_denoising=False;s.render.threads_mode='FIXED';s.render.threads=2;bpy.context.view_layer.cycles.denoising_store_passes=True;s.use_nodes=True;tree=s.node_tree;tree.nodes.clear();rl=tree.nodes.new('CompositorNodeRLayers');dn=tree.nodes.new('CompositorNodeDenoise');dn.prefilter='ACCURATE';tree.links.new(rl.outputs['Image'],dn.inputs['Image']);tree.links.new(rl.outputs['Denoising Normal'],dn.inputs['Normal']);tree.links.new(rl.outputs['Denoising Albedo'],dn.inputs['Albedo']);comp=tree.nodes.new('CompositorNodeComposite');tree.links.new(dn.outputs['Image'],comp.inputs['Image']);out=R/('.cache/guided-denoise-tiles-R11' if tile else '.cache/guided-denoise-study-R11');out.mkdir(exist_ok=True);raw=tree.nodes.new('CompositorNodeOutputFile');raw.base_path=str(out);raw.format.file_format='PNG';raw.format.color_mode='RGB';raw.format.color_depth='8';raw.format.compression=45;raw.file_slots[0].path=name+'-noisy-';tree.links.new(rl.outputs['Image'],raw.inputs[0]);s.render.image_settings.compression=45;s.render.filepath=str(out/(name+'.png'));start=time.monotonic();bpy.ops.render.render(write_still=True);r={'view':id,'native_pixel_crop':tile,'full_native_sha256':b['full_resolution_native_sha256'],'actual_opened_derivative_sha256':file_sha256(bpy.data.filepath),'dimensions':[s.render.resolution_x,s.render.resolution_y],'samples':24,'method':'Actual Cycles render of frozenR11 with recorded camera/lighting; standard non-generative compositor OIDN with actual source-linear colour, denoising normal and albedo passes; accurate auxiliary prefilter. Geometry/materials/lights/exposure untouched; no native resave.','camera_exposure_EV':s.view_settings.exposure,'seconds':time.monotonic()-start,'image_sha256':file_sha256(s.render.filepath),'raw_paths':[p.name for p in out.glob(name+'-noisy-*.png')],'inspection':'PENDING / do not infer improved realism from renderer success'}
 if prototype is not None:
- r['method']='UNSAVED actual3Dhair-fibre/cap-surface/skin-microbump study applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.';r['unsaved_hair_skin_prototype']=prototype;r['prototype_implementation_sha256']=file_sha256(R/'tools/production'/prototype_impl)
+ r['method']='UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.';r['unsaved_hair_skin_prototype']=prototype;r['prototype_implementation_sha256']=file_sha256(R/'tools/production'/prototype_impl);r['prototype_implementation_snapshot']=prototype_snapshot;r['prototype_controls']={'nape_smooth':os.environ.get('SQUARE_HAIR_NAPE_SMOOTH','0'),'boundary_guard':os.environ.get('SQUARE_HAIR_BOUNDARY_GUARD','0'),'hide_fibres':os.environ.get('SQUARE_HAIR_HIDE_FIBRES','0')};r['actual_hidden_fibre_objects']=hidden_fibres
+with open(s.render.filepath,'rb')as source_png:header=source_png.read(24)
+r['nominal_whole_frame_render_dimensions']=r['dimensions'];r['dimensions']=[int.from_bytes(header[16:20],'big'),int.from_bytes(header[20:24],'big')]
 (out/(name+'.json')).write_text(json.dumps(r,indent=2)+'\n');print('ACTUAL_GUIDED_DENOISE_STUDY_RENDER_COMPLETE',id,flush=True)

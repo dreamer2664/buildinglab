@@ -30,3 +30,11 @@ The portable archive includes whole-town GLB; building archives provide separate
 ## Evidence and rights
 
 Original SVG logos: `assets/branding/`. Source/license digest ledger: `assets/ASSET_LICENSES.md`. Inspection findings/limits: `evidence/REALISM_LIMITATIONS.md` and source-bound production JSON. [Source draft PR6](https://github.com/dreamer2664/buildinglab/pull/6). Previous Casa dei Colori project remains separate. Producer inspection is not independent acceptance.
+
+## Additional required correction found in actual inspection
+
+The individually opened B02_L02 plan/cutaway visibly duplicate B01_L03 domestic furniture/partition arrangements despite different programme titles. **The requested distinct-interiors criterion is therefore NOT accepted.** Further R11 final rendering was stopped at16completed/individually inspected originals (two marked FIX_REQUIRED), preserving the public14-view checkpoint and all model backups. Actual editable furnishing differentiation and physical-hair studies are underway in separate unpromoted files; the frozen R11 download has NOT silently changed. Final92/high-realism/independent acceptance remain incomplete.
+
+
+## Further actual floor-by-floor corrective study (not a promoted release)
+All26separate first-draft plan originals were individually opened. This caught doorway obstructions introduced by whole-room furniture rotation/new entry-wall cases and a visually duplicated hotel upper floor, despite distinct numeric hashes. That draft is rejected. A second actual editable geometry study now restores safe bed/armchair relationships, scopes sofa/table edits, refits the hotel and enriches staff/atelier functions. New render/reinspection is in progress; public R11 remains unchanged and is not final/high-realism accepted. See current HANDOFF and R12-all-interiors-first-study.json.

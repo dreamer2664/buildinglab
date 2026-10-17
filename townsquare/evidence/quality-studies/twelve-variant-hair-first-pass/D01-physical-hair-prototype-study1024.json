@@ -1,0 +1,40 @@
+{
+  "view": "D01",
+  "native_pixel_crop": null,
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    1024,
+    576
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.699999988079071,
+  "seconds": 21.60409059199992,
+  "image_sha256": "ec1b62b16228cc422fcba74b3cf9830d12c0ebb6295d8219357615f0a977a0cd",
+  "raw_paths": [
+    "D01-physical-hair-prototype-study1024-noisy-0001.png"
+  ],
+  "inspection": "PENDING / do not infer improved realism from renderer success",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_01_P01",
+      "actual_native_hair_curves": 25316,
+      "actual_curve_points": 236084,
+      "root_radius_metres": 4.5e-05,
+      "hair_mass_subdivision": 2,
+      "original_alpha_masks_respected": 1,
+      "method": "Actual hair curves with tapered radius and physical melanin absorption fibre BSDF over smoothed licensed hair mass, not geometric-tube/groove or new texture/image. UNSAVED study only; no native/model/archive mutation."
+    },
+    {
+      "object": "CROWD_02_P02",
+      "actual_native_hair_curves": 25744,
+      "actual_curve_points": 206753,
+      "root_radius_metres": 4.5e-05,
+      "hair_mass_subdivision": 2,
+      "original_alpha_masks_respected": 1,
+      "method": "Actual hair curves with tapered radius and physical melanin absorption fibre BSDF over smoothed licensed hair mass, not geometric-tube/groove or new texture/image. UNSAVED study only; no native/model/archive mutation."
+    }
+  ],
+  "prototype_implementation_sha256": "c299526f15f9e034bc405a1faecfcbcc1743ad6f70b90a95105e00d25644917a"
+}

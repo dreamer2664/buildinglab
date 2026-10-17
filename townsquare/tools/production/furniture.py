@@ -15,7 +15,7 @@ def chair(name,x=0,y=0,angle=0,mat='OliveFabric'):
  # arm-free upholstered chair, four taper-looking legs, curved back with side stiles
  with g.scope(origin=g.ORIGIN+__import__('mathutils').Vector((math.cos(g.ANGLE)*x-math.sin(g.ANGLE)*y,math.sin(g.ANGLE)*x+math.cos(g.ANGLE)*y,0)),angle=g.ANGLE+angle):
   for xx in [-.19,.19]:
-   for yy in [-.19,.19]:g.rod(name+'_LEG',(xx*1.12,yy*1.1,.04),(xx,yy,.43),.024,'Oak',10)
+   for yy in [-.19,.19]:g.rod(name+'_LEG',(xx*1.12,yy*1.1,.02),(xx,yy,.43),.024,'Oak',10)
   g.box(name+'_SEAT_FRAME',(0,0,.43),(.48,.48,.065),'Oak',.025);g.box(name+'_SEAT_CUSHION',(0,-.01,.49),(.46,.46,.11),mat,.055)
   for xx in [-.205,.205]:g.rod(name+'_BACK_STILE',(xx,.19,.43),(xx,.19,.92),.023,'Oak')
   g.box(name+'_BACK',(0,.19,.79),(.46,.08,.30),mat,.045)
@@ -38,7 +38,7 @@ def table(name,x,y,width=1.6,depth=.85,height=.76,mat='Oak'):
  with g.scope(fixture='dining_table'):
   g.box(name+'_TOP',(x,y,height),(width,depth,.07),mat,.045)
   for dx in [-width/2+.12,width/2-.12]:
-   for dy in [-depth/2+.12,depth/2-.12]:g.rod(name+'_LEG',(x+dx,y+dy,.05),(x+dx*.95,y+dy*.95,height-.04),.035,'Oak')
+   for dy in [-depth/2+.12,depth/2-.12]:g.rod(name+'_LEG',(x+dx,y+dy,.02),(x+dx*.95,y+dy*.95,height-.04),.035,'Oak')
 
 def dining(name,x,y):
  table(name,x,y)
@@ -69,7 +69,7 @@ def bed(name,x,y,angle=0,width=1.6):
  o=g.ORIGIN.copy();a=g.ANGLE
  with g.scope(origin=(o.x+math.cos(a)*x-math.sin(a)*y,o.y+math.sin(a)*x+math.cos(a)*y,o.z),angle=a+angle,fixture='bed'):
   for xx in [-width/2+.12,width/2-.12]:
-   for yy in [-.85,.85]:g.box(name+'_FOOT',(xx,yy,.14),(.08,.08,.2),'Walnut',.02)
+   for yy in [-.85,.85]:g.box(name+'_FOOT',(xx,yy,.126),(.08,.08,.22),'Walnut',.02)
   g.box(name+'_FRAME',(0,0,.29),(width+.12,2.12,.27),'Oak',.065);g.box(name+'_MATTRESS',(0,0,.49),(width,2,.24),'Linen',.11)
   g.box(name+'_HEADBOARD',(0,1.055,.66),(width+.25,.10,1.15),'OliveFabric',.06)
   g.box(name+'_DUVET',(0,-.24,.64),(width+.03,1.51,.16),'Linen',.09)

@@ -1,6 +1,6 @@
 {
   "project": "Winterlichtplatz",
-  "stage": "R10 furnished production candidate; actual native reopen PASS; final visual and independent acceptance pending",
+  "stage": "R11 verified editable/public candidate; actual16original checks exposed duplicate domestic interiors: FIX_REQUIRED; new editable differentiation/hair studies unpromoted",
   "units": "metres",
   "square_dimensions_m": [
     64,
@@ -560,5 +560,10 @@
     "anatomical_rig_variants": 12,
     "final_visual_inspection": "PENDING",
     "independent_acceptance": "NOT GRANTED"
+  },
+  "interior_uniqueness_actual_gate": {
+    "status": "FIX_REQUIRED",
+    "actual_evidence": "R11-duplicate-domestic-interior-finding.json",
+    "scope": "Mixed commercial programmes and furniture counts are real, but at least B01_L03/B02_L02 domestic arrangements duplicate; titles alone do not establish distinct interiors."
   }
 }

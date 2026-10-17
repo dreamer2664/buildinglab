@@ -1,0 +1,687 @@
+{
+  "stage": "ACTUAL_SAVED_SEVEN_HOME_DRAFT_NOT_PROMOTED",
+  "source_frozen_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "study_native": ".cache/distinct-interiors-all-study/Winterlichtplatz-interior-draft-NOT-PROMOTED.blend",
+  "study_native_sha256": "032fffdd4659e2d1b75da3c8e28630451d66607ed42805376a537681dcbfa70a",
+  "actual_changes": [
+    {
+      "floor": "B02_L02",
+      "actual_theme": "Baker guest bedroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B02__B02_L02__B02_L02_LIVING__furniture",
+        "B02__B02_L02__B02_L02_PRIMARY_BED__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B04_L02",
+      "actual_theme": "Illustrator drawing studio",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B04__B04_L02__B04_L02_LIVING__furniture",
+        "B04__B04_L02__B04_L02_PRIMARY_BED__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B05_L02",
+      "actual_theme": "Planted conservatory",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B05__B05_L02__B05_L02_LIVING__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B08_L02",
+      "actual_theme": "Child bedroom and play",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B08__B08_L02__B08_L02_LIVING__furniture",
+        "B08__B08_L02__B08_L02_PRIMARY_BED__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B09_L02",
+      "actual_theme": "Maker workroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B09__B09_L02__B09_L02_LIVING__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B11_L02",
+      "actual_theme": "Cycle and outdoor gear room",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B11__B11_L02__B11_L02_LIVING__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B12_L02",
+      "actual_theme": "Writer library and study",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B12__B12_L02__B12_L02_LIVING__furniture",
+        "B12__B12_L02__B12_L02_PRIMARY_BED__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    }
+  ],
+  "floor_geometry_audit": [
+    {
+      "floor": "B01_L01",
+      "evaluated_furniture_vertices": 62843,
+      "normalised_1mm_geometry_positions_sha256": "e3c2ee13be13dabc518c0a6c93b84c400bdb50ba4a6c20d79625690322f68401",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B01_L02",
+      "evaluated_furniture_vertices": 28060,
+      "normalised_1mm_geometry_positions_sha256": "51e1ee720e9b2b04df76adbe172383674c2a3a5124b0122b560a92660274ba16",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B01_L03",
+      "evaluated_furniture_vertices": 19109,
+      "normalised_1mm_geometry_positions_sha256": "1e2d1bd0ccf4ab242bbe3a123f5971ad6fcc3479e0f1c86817c6954c3ad2d41a",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B02_L01",
+      "evaluated_furniture_vertices": 20500,
+      "normalised_1mm_geometry_positions_sha256": "032abaabd01af1ad6d4c698fe767569c498bc31d4e27cdb692a74a8a7245f48f",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B02_L02",
+      "evaluated_furniture_vertices": 29233,
+      "normalised_1mm_geometry_positions_sha256": "caa602ddaa406c9a89756675786db9b2f2a6df47fe2d618f128505f9fb0258c3",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B03_L01",
+      "evaluated_furniture_vertices": 28870,
+      "normalised_1mm_geometry_positions_sha256": "8dcb1ea453d6ed8a72b48a45055e0d28d3e75580c9de3b507e3abab4bfb63223",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B03_L02",
+      "evaluated_furniture_vertices": 23951,
+      "normalised_1mm_geometry_positions_sha256": "c3a8cad0741e72e166fba8b7c7fc974ce0d97d0ccbe15ec69983d2ece46f645b",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B04_L01",
+      "evaluated_furniture_vertices": 48476,
+      "normalised_1mm_geometry_positions_sha256": "0a0b06d901af3e2264afea82be4777a12ca004c7361a600f73a5e3d4ff8ec30b",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B04_L02",
+      "evaluated_furniture_vertices": 22747,
+      "normalised_1mm_geometry_positions_sha256": "daa24bad6abedf8a1984e4b4912f15e1efaaea0cc7dfe3a26f9cd637d47edf22",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B05_L01",
+      "evaluated_furniture_vertices": 22980,
+      "normalised_1mm_geometry_positions_sha256": "75c125fbd3350a539ec490847f8e6aba8b6e4daa9c478a390333d15f8d2cc5e2",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B05_L02",
+      "evaluated_furniture_vertices": 27739,
+      "normalised_1mm_geometry_positions_sha256": "f68c625a4bb356c185281414ece05a08778bffffaddd59aebf3d9119f051b3aa",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B06_L01",
+      "evaluated_furniture_vertices": 9072,
+      "normalised_1mm_geometry_positions_sha256": "0eae9216108a39259dae2c5355ba11de1e4235dfb8b88ef3a4e5aafb2b0dd65d",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B06_L02",
+      "evaluated_furniture_vertices": 15096,
+      "normalised_1mm_geometry_positions_sha256": "90610cd7104d4fb1444e39cef5fe45f53fba19a1dce790385a9a22dbb063324b",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B07_L01",
+      "evaluated_furniture_vertices": 17057,
+      "normalised_1mm_geometry_positions_sha256": "96dd2313f8bba80167fba74a58c795301aba1a394f3d9375ca73e0d0ec44a75b",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B07_L02",
+      "evaluated_furniture_vertices": 27672,
+      "normalised_1mm_geometry_positions_sha256": "7e3bc186ee64e91bf59536771cebad4b2c11f540cef950900c1b804bcd965365",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B07_L03",
+      "evaluated_furniture_vertices": 27672,
+      "normalised_1mm_geometry_positions_sha256": "234548203bb431f6764859f6a0a2a71651aaba158ec828f6cbe83d9e30f011ec",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B08_L01",
+      "evaluated_furniture_vertices": 53796,
+      "normalised_1mm_geometry_positions_sha256": "2ff6803e25d9da6880cae5aa98519ae27dbd3ad75639b4ea3605f9fd7054b3c8",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B08_L02",
+      "evaluated_furniture_vertices": 21271,
+      "normalised_1mm_geometry_positions_sha256": "f133785048842f2671acfe1b02aeaa2731c813db1cc5c8b887b6d3233083fd32",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B09_L01",
+      "evaluated_furniture_vertices": 15100,
+      "normalised_1mm_geometry_positions_sha256": "3872f3b113addf756838cfad316bcbde392ccf86070d5078ccbb4e7aa157b7fc",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B09_L02",
+      "evaluated_furniture_vertices": 23039,
+      "normalised_1mm_geometry_positions_sha256": "baf59c4b880bf5bb6229a7a6c8031336c2b46cdd1173bacd5454ee98a348a975",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B10_L01",
+      "evaluated_furniture_vertices": 41972,
+      "normalised_1mm_geometry_positions_sha256": "1dea4d856cfc67ab83404e26aae324e6618af7b9aea234f98932ebc62127f194",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B10_L02",
+      "evaluated_furniture_vertices": 12436,
+      "normalised_1mm_geometry_positions_sha256": "9972412e0d194896ed965428b483e1ac945eefdd56df81b7f832d1396f4dc0ef",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B11_L01",
+      "evaluated_furniture_vertices": 17998,
+      "normalised_1mm_geometry_positions_sha256": "608c885c5d057654384770c5cf2aded06e117e544c85f8cbf0457d19d29abb97",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B11_L02",
+      "evaluated_furniture_vertices": 20035,
+      "normalised_1mm_geometry_positions_sha256": "445a52324098545093051dd8bac96683251dc00fb7f75957112fbdd2d172ec2a",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B12_L01",
+      "evaluated_furniture_vertices": 44258,
+      "normalised_1mm_geometry_positions_sha256": "dbe2ded711bb12258f74375d7edbe1a74bf64382911fbb3751069743c25b1eba",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    },
+    {
+      "floor": "B12_L02",
+      "evaluated_furniture_vertices": 26047,
+      "normalised_1mm_geometry_positions_sha256": "a4bffbee03abf10bc45397883156291c0aa4742b1df78ab30adcb05cac1e6994",
+      "scope": "Actual evaluated furnishing vertex positions normalized to building local XY/floor Z, sorted at1mm. No labels,brand names,material names,colours in hash. Not full topology/functional/aesthetic/realism acceptance."
+    }
+  ],
+  "exact_geometry_duplicate_floor_groups": [],
+  "actual_finished_room_ids": 164,
+  "finished_rooms_without_furniture": [],
+  "images": [
+    {
+      "id": "B01_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B01_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "ac981c54aacab92007314b24b9f91143071f38aa5aeac84b3bda2e9ddff4af48",
+      "post_external_OIDN_sha256": "32e49beec2b619de8d24918d846c574c6452eb8b7d045869e74160fc906cd2c9"
+    },
+    {
+      "id": "B01_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B01_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "dcb84f7d3b3aa6c6e8d28e921f7c8b93da58645bb6ae987614c7af5899465f18",
+      "post_external_OIDN_sha256": "8c01bf98afe37b9c782684f26816d685331327cc4b8f0c7ef9341c4a67b63447"
+    },
+    {
+      "id": "B01_L03_plan",
+      "path": ".cache/distinct-interiors-all-study/B01_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "c7c71e5ae631e23a7170c021ba8127673b219af24c546be01815e05606cf83dd",
+      "post_external_OIDN_sha256": "9665e0f9bb0e9324811d69bdb643f2881f17358e8444fe5b30049deed71c00ce"
+    },
+    {
+      "id": "B02_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B02_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "9c67b474533ae8a24ecab00b177bb00affecf6ece5c38002382d5914f574f1c3",
+      "post_external_OIDN_sha256": "ae26038f48aead2a6b1055dd189636a3fb8bea4c511958418654713a0f60a3c4"
+    },
+    {
+      "id": "B02_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B02_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "202e3914bd80b86af853c31c07f034f2e98625e5b147922715f8f6c5ce4c1239",
+      "post_external_OIDN_sha256": "78ae7412ce50562d19542c5046212794b8a6cf15e7e43b21a32da87a1db1056a"
+    },
+    {
+      "id": "B03_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B03_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "4e9d9172900b2b48cf09d2320a86692f032b75465368e2c4eb4a1e685a3d2a9e",
+      "post_external_OIDN_sha256": "580fe8a94e642d68f6a66900e45b8b201b4b9c29b1f9a02702f27ff3f9cee318"
+    },
+    {
+      "id": "B03_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B03_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "02ed84c460fe2fd94106079ee22ce65fa0feaac382536429b56dac8c4470332f",
+      "post_external_OIDN_sha256": "47cb928e53062e3cb3ccac6485acaa3c6054fad2a42f99321dc80ccfba220023"
+    },
+    {
+      "id": "B04_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B04_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "0418d8213ec3097e51255861c7070bb8493b32be3aac40ac636d3699a8addafc",
+      "post_external_OIDN_sha256": "1cbe2eb33c4d0ecc0e79e8694c5703db67750c319339772168e711266aa5ff3e"
+    },
+    {
+      "id": "B04_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B04_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "816c2b8363e64c442288405b12ed206361d0218ffa32d3c69658687484b7086d",
+      "post_external_OIDN_sha256": "3fa59c8e9dd0cebda97c08fb0969c9a5f5101d8e8d25f185d0a8ac7192ca0189"
+    },
+    {
+      "id": "B05_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B05_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "edbfb03791129dd51a5657f730c3c582fbb114df9bc4d460e35d1d0773a82f07",
+      "post_external_OIDN_sha256": "269100ecc9f699cc94e74356117ca8f1987276302b6f640901b0d3aa3ba4787a"
+    },
+    {
+      "id": "B05_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B05_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "c7d3ca50f35622f481e1f8cfaf5a204ce79082f36e8f153224e4fd5a481bc5ab",
+      "post_external_OIDN_sha256": "426c1a6b7860dc474867530781c29e5e1deda513e9a5fd460036825d226140d5"
+    },
+    {
+      "id": "B06_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B06_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "9a2ac5cea39d4af4a0920558bde740c8e306fd7f580a2c18aaf4d85fc6685725",
+      "post_external_OIDN_sha256": "a6da3d8dbb2f89a5c487dc3471973826cc2d9ec726e7fe0b4601091e60e672a3"
+    },
+    {
+      "id": "B06_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B06_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "6e59f5bbb2c88f678e77da780d0dbcb81d45c7744f6b8c672f691ead83b9e87c",
+      "post_external_OIDN_sha256": "add9d9944b5be6bb1fe51a286352fff0a0ef51d320ee185253f1efb1ccd083e0"
+    },
+    {
+      "id": "B07_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B07_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "c5d49b3b869b84c360a9feafe1a2080c3dafa83a87351d1ecbf5cabc6927d737",
+      "post_external_OIDN_sha256": "64f4eadaac6e88cf9d09409f80fa38ddee12a3918c902fb9a5b7e1cbf9edbd2e"
+    },
+    {
+      "id": "B07_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B07_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "861a9979d4b6dea9d72bfc4b4110694225c3f9a4e2662813cbee212a778d9c88",
+      "post_external_OIDN_sha256": "6ef3bbac2c3a6423182491657c64cf6edf8dc139cbab6624c1c181c54d065bec"
+    },
+    {
+      "id": "B07_L03_plan",
+      "path": ".cache/distinct-interiors-all-study/B07_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "e68f18686c59104f04cf5431249b0b6d8386c592446de49ad42aefe8663971c3",
+      "post_external_OIDN_sha256": "b77dd64c1782c95079b2cc0d12a9cfda3e8f648d2fdb2a5c36241d8e90cf7a3f"
+    },
+    {
+      "id": "B08_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B08_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "09ad8eac26d3332e84c54042dfbfa8ee9210889e18b6d2ceeb645effcd5cdd70",
+      "post_external_OIDN_sha256": "4204cacccd5f3424c22c0a83899d820ba883bc6b77eea0229dc2ceceb40ca63b"
+    },
+    {
+      "id": "B08_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B08_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "f5c91bba1f1e5ff03eec1b6955bef578827808b5a2cd7eb5ad76ea407b6691a0",
+      "post_external_OIDN_sha256": "bf6a3dbee848322a84391e3484d1e4f69ada3d8755f4ec0ddc0c4c9ea0cb8d43"
+    },
+    {
+      "id": "B09_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B09_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "b5230a3b59824cc6be9fa55645a2d57b3ab82ca700646362cb3a1eb911b06275",
+      "post_external_OIDN_sha256": "854b2a45af65ecccd5a79bba099f4aa32613b933cf3486d9b5d6287d1ba1001b"
+    },
+    {
+      "id": "B09_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B09_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "5ff65cbae089b04262ae5324a8aa12b5975a48fb08a53a8cd64eaea1e2e4d3ed",
+      "post_external_OIDN_sha256": "67421a13802952bd5b6a18a65e5d153a695dff4a822d6dff20fc77644dcb72de"
+    },
+    {
+      "id": "B10_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B10_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "6ea8dd0ef89df11c6fda56161c84ee22b13e7dceb100d539962663068920770f",
+      "post_external_OIDN_sha256": "5d9419eea8f3f2b201d75aac895d81bbae24d49a003e6ee05a87cb55f5f464b0"
+    },
+    {
+      "id": "B10_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B10_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "da958c83ccb401fba530e4c493c9c60bbe6df576b31b7a3479dc22eab2a6abc5",
+      "post_external_OIDN_sha256": "c657b1b50aa7a15f0e75a09630042067ff8b0bd3fcd2a2973a3608460b4ea5d3"
+    },
+    {
+      "id": "B11_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B11_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "b7bd5f9dea3d19bda70a401b310310be3cb93e012d1b54d871093818bd140c98",
+      "post_external_OIDN_sha256": "bbf19387276d4976ba233a335422c91f7e47dbe2045417e850f1a98c23bcff3e"
+    },
+    {
+      "id": "B11_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B11_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "8969e02fe4d54fb934e20be3a3b259cd8de1ca922718af12e27a7283d8337ccc",
+      "post_external_OIDN_sha256": "190118c65fb0821954663c05b5a8beaba73a056af302076231614dffd955a460"
+    },
+    {
+      "id": "B12_L01_plan",
+      "path": ".cache/distinct-interiors-all-study/B12_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "046253d040d44f8fd3769ca943292e9e6469fd584ca7d3f38a33c054535cdcf5",
+      "post_external_OIDN_sha256": "900633e6c01d428a9b35b7ac454f44c71a35b3e0952f9187f1005e68d8d6fc9c"
+    },
+    {
+      "id": "B12_L02_plan",
+      "path": ".cache/distinct-interiors-all-study/B12_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "cd1b9ea9342e31c3ed6853799792dcfcfab8aad1ed715cd55cf62302901258ad",
+      "post_external_OIDN_sha256": "305da8cd1aae512d75654c8af94355552c9cbcdade2d80fa3a649e9b7cfc6475"
+    }
+  ],
+  "inspection": "ALL26ORIGINAL_PLANS_ACTUALLY_INDIVIDUALLY_OPENED_MULTIPLE_CRITICAL_DOOR_REGRESSIONS_AND_HOTEL_DUPLICATE_FOUND_DRAFT_REJECTED_NOT_PROMOTED",
+  "actual_individual_plan_inspections": [
+    {
+      "id": "B01_L01_plan",
+      "sha256": "32e49beec2b619de8d24918d846c574c6452eb8b7d045869e74160fc906cd2c9",
+      "actual_open": true,
+      "observation": "Supermarket shelving/POS/produce/back support rooms and stair visible. No obvious plan collision; image too small for branding/material acceptance."
+    },
+    {
+      "id": "B01_L02_plan",
+      "sha256": "8c01bf98afe37b9c782684f26816d685331327cc4b8f0c7ef9341c4a67b63447",
+      "actual_open": true,
+      "observation": "Sparse stock/admin floor: one main office desk and minimal long storage racks. Furnished numerically, but needs use-specific furnishing/enrichment, not realism acceptance."
+    },
+    {
+      "id": "B01_L03_plan",
+      "sha256": "9665e0f9bb0e9324811d69bdb643f2881f17358e8444fe5b30049deed71c00ce",
+      "actual_open": true,
+      "observation": "Original two-bed home visible, separate living/kitchen dining. Spacious/sparse; no new exact duplication after seven-home changes."
+    },
+    {
+      "id": "B02_L01_plan",
+      "sha256": "ae26038f48aead2a6b1055dd189636a3fb8bea4c511958418654713a0f60a3c4",
+      "actual_open": true,
+      "observation": "Bakery display/POS/seating and back prep/storage visible. Large free sales area; no new fit-out in this study."
+    },
+    {
+      "id": "B02_L02_plan",
+      "sha256": "78ae7412ce50562d19542c5046212794b8a6cf15e7e43b21a32da87a1db1056a",
+      "actual_open": true,
+      "observation": "Further all-floor reinspection catches new PRIMARY_BED180degree rotation placing headboard in front of actual bedroom entry. Guest bookcase on entry wall also overlaps door approach. FIX_REQUIRED; supersedes earlier no-obvious-collision pilot observation."
+    },
+    {
+      "id": "B03_L01_plan",
+      "sha256": "580fe8a94e642d68f6a66900e45b8b201b4b9c29b1f9a02702f27ff3f9cee318",
+      "actual_open": true,
+      "observation": "Added cafe right-hand upper seating close to espresso-bar left edge: chair pull-out appears severely restricted. Measure actual geometry and relocate whole table/chair set, not hide/crop it."
+    },
+    {
+      "id": "B03_L02_plan",
+      "sha256": "47cb928e53062e3cb3ccac6485acaa3c6054fad2a42f99321dc80ccfba220023",
+      "actual_open": true,
+      "observation": "Reading lounge sofa directly below entry door, restricting entry approach. Shift sofa away from door; service/table rooms otherwise distinct."
+    },
+    {
+      "id": "B04_L01_plan",
+      "sha256": "1cbe2eb33c4d0ecc0e79e8694c5703db67750c319339772168e711266aa5ff3e",
+      "actual_open": true,
+      "observation": "Bookshop shelves/display/POS/back office/storage visible. Office desk chair near door merits clearance audit; no collision certified."
+    },
+    {
+      "id": "B04_L02_plan",
+      "sha256": "3fa59c8e9dd0cebda97c08fb0969c9a5f5101d8e8d25f185d0a8ac7192ca0189",
+      "actual_open": true,
+      "observation": "New180degree primary-bed rotation puts headboard by doorway; new art-reference case against entry-wall also intrudes entry approach. FIX_REQUIRED; desk/easel are real distinct functions."
+    },
+    {
+      "id": "B05_L01_plan",
+      "sha256": "269100ecc9f699cc94e74356117ca8f1987276302b6f640901b0d3aa3ba4787a",
+      "actual_open": true,
+      "observation": "Flower shop six planted displays, work counter/POS/back support rooms visible. Not empty; office-chair/door approach needs measurement as elsewhere."
+    },
+    {
+      "id": "B05_L02_plan",
+      "sha256": "426c1a6b7860dc474867530781c29e5e1deda513e9a5fd460036825d226140d5",
+      "actual_open": true,
+      "observation": "New conservatory entry blocked by entry-wall potting bench. Whole living half-turn also places armchair/plant at kitchen approach. Keep safe original primary/living furniture positions except carefully isolated sofa/table variation. FIX_REQUIRED."
+    },
+    {
+      "id": "B06_L01_plan",
+      "sha256": "a6da3d8dbb2f89a5c487dc3471973826cc2d9ec726e7fe0b4601091e60e672a3",
+      "actual_open": true,
+      "observation": "Clothing racks, folded display, sales/POS/back stock/office visible; different shop function. Near-final material/cutaway/interior inspection still needed."
+    },
+    {
+      "id": "B06_L02_plan",
+      "sha256": "add9d9944b5be6bb1fe51a286352fff0a0ef51d320ee185253f1efb1ccd083e0",
+      "actual_open": true,
+      "observation": "Atelier/pattern offices furnished but very sparse: desks, one cutting table/rack/shelves. Enrich with actual use-specific sewing/cutting equipment, not relabel."
+    },
+    {
+      "id": "B07_L01_plan",
+      "sha256": "64f4eadaac6e88cf9d09409f80fa38ddee12a3918c902fb9a5b7e1cbf9edbd2e",
+      "actual_open": true,
+      "observation": "Hotel reception counter/storage, sofa/two angled armchairs, table and service rooms distinct. No obvious plan collision; not certified."
+    },
+    {
+      "id": "B07_L02_plan",
+      "sha256": "6ef3bbac2c3a6423182491657c64cf6edf8dc139cbab6624c1c181c54d065bec",
+      "actual_open": true,
+      "observation": "Existing LEFT guest-bedroom headboard blocks hall-door approach. Separate bedroom/salon/WC suites visible. Must move actual bed group away from entry."
+    },
+    {
+      "id": "B07_L03_plan",
+      "sha256": "b77dd64c1782c95079b2cc0d12a9cfda3e8f648d2fdb2a5c36241d8e90cf7a3f",
+      "actual_open": true,
+      "observation": "VISUAL DUPLICATE of L02 hotel fit-out despite different numeric geometry hashes. Hash uniqueness is NOT usable aesthetic distinctness acceptance. Same left-bed entry obstruction. Refit this upper floor with genuinely different twin/family suites. FIX_REQUIRED."
+    },
+    {
+      "id": "B08_L01_plan",
+      "sha256": "4204cacccd5f3424c22c0a83899d820ba883bc6b77eea0229dc2ceceb40ca63b",
+      "actual_open": true,
+      "observation": "Toy-shop perimeter displays/main toy island/POS/back workshop/stock visible. Distinct from other shops; low resolution insufficient product-quality inspection."
+    },
+    {
+      "id": "B08_L02_plan",
+      "sha256": "bf6a3dbee848322a84391e3484d1e4f69ada3d8755f4ec0ddc0c4c9ea0cb8d43",
+      "actual_open": true,
+      "observation": "New child toy chest crosses room entry; primary-bed half-turn and living armchair/kitchen door also obstruct approaches. FIX_REQUIRED."
+    },
+    {
+      "id": "B09_L01_plan",
+      "sha256": "854b2a45af65ecccd5a79bba099f4aa32613b933cf3486d9b5d6287d1ba1001b",
+      "actual_open": true,
+      "observation": "Three display vitrines and sales desk/back stock/office visible. Actual products/brand need eye-level check, not accepted from overhead."
+    },
+    {
+      "id": "B09_L02_plan",
+      "sha256": "67421a13802952bd5b6a18a65e5d153a695dff4a822d6dff20fc77644dcb72de",
+      "actual_open": true,
+      "observation": "Maker tools/bench distinct but parts-case intrudes room entry edge; living whole-turn armchair/kitchen obstruction. Primary-bed original orientation remains safer. FIX_REQUIRED."
+    },
+    {
+      "id": "B10_L01_plan",
+      "sha256": "5d9419eea8f3f2b201d75aac895d81bbae24d49a003e6ee05a87cb55f5f464b0",
+      "actual_open": true,
+      "observation": "Pharmacy/dispensing shelves and back consultation/stock visible; small consultation desk/chair crowded by entry and exam bed, clearance audit required."
+    },
+    {
+      "id": "B10_L02_plan",
+      "sha256": "c657b1b50aa7a15f0e75a09630042067ff8b0bd3fcd2a2973a3608460b4ea5d3",
+      "actual_open": true,
+      "observation": "Two real consulting/exam rooms with sinks/beds/desks/stools plus support/WC. Use-specific fit-out differs from atelier/reading floor, though sparse."
+    },
+    {
+      "id": "B11_L01_plan",
+      "sha256": "bbf19387276d4976ba233a335422c91f7e47dbe2045417e850f1a98c23bcff3e",
+      "actual_open": true,
+      "observation": "Six actual bike display arrangements plus sales/repair/stock visible; from overhead bikes are thin, need actual side/interior proof."
+    },
+    {
+      "id": "B11_L02_plan",
+      "sha256": "190118c65fb0821954663c05b5a8beaba73a056af302076231614dffd955a460",
+      "actual_open": true,
+      "observation": "Cycle/gear room real bike/locker/service bench differs functionally; bench near entry and cross-room bicycle need safer orientation. Living whole-turn puts armchair near kitchen door. FIX_REQUIRED."
+    },
+    {
+      "id": "B12_L01_plan",
+      "sha256": "900633e6c01d428a9b35b7ac454f44c71a35b3e0952f9187f1005e68d8d6fc9c",
+      "actual_open": true,
+      "observation": "Stationery/book perimeter displays, three product islands, lockers/POS/back stock/office visible; actual products need interior inspection."
+    },
+    {
+      "id": "B12_L02_plan",
+      "sha256": "305da8cd1aae512d75654c8af94355552c9cbcdade2d80fa3a649e9b7cfc6475",
+      "actual_open": true,
+      "observation": "New entry-wall bookcases restrict study door; primary headboard at doorway due half-turn; living armchair kitchen approach also poor. FIX_REQUIRED."
+    }
+  ],
+  "new_correction_plan": "Keep original safe primary-bedroom arrangement instead of180degree turn; relocate new secondary-room case/chest/bench from actual entry wall to side walls/over-desk storage; actual rerender/reinspect required. Existing cafe/bar and reading-sofa clearance findings also need real geometric correction.",
+  "geometry_hash_limitation": "No exact hash duplicates was reported, but actual individual opens prove hotelL02/L03 visually duplicate. Numeric uniqueness cannot pass interior distinctness.",
+  "actual_implementation_snapshot": "evidence/quality-studies/implementations/interiors-e8ed3d0bec53d3a00b1e82563025963447af1ecc41db47835e407ef176dfe29b.py",
+  "actual_implementation_sha256": "e8ed3d0bec53d3a00b1e82563025963447af1ecc41db47835e407ef176dfe29b"
+}

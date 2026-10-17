@@ -371,5 +371,92 @@
     "tile_assembly": null,
     "elapsed_seconds": 180.05,
     "visual_inspection": "PENDING"
+  },
+  "B02_L01_interior": {
+    "view_id": "B02_L01_interior",
+    "title": "KRUME & KORN / B02_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L01_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "b0bd225a5512def682225ef6ce334b7b461b2dbdc7b29a0b974588b121503e8b",
+    "noisy_original_sha256": "75b4640502e9e751e8002ba0f23c179753fb80bf981454f098ee069ece3c7f5a",
+    "noisy_original": ".cache/final-renders/B02_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "75b4640502e9e751e8002ba0f23c179753fb80bf981454f098ee069ece3c7f5a",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 603.08,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L02_plan": {
+    "view_id": "B02_L02_plan",
+    "title": "KRUME & KORN / B02_L02 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L02_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "7913b0c10c49eac4569896040e7b8169078089cbc96340ee84920a465efdba9d",
+    "noisy_original_sha256": "e2933afe45c47c777d4c8edb1623c48dd768204c190f1cccb023adcfa20b012b",
+    "noisy_original": ".cache/final-renders/B02_L02_plan.noisy.png",
+    "original_before_denoise_sha256": "e2933afe45c47c777d4c8edb1623c48dd768204c190f1cccb023adcfa20b012b",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "13fdcd38df6e90cb67d763a63706c8835ce708ec78a0d1c51c6e6613b486b49f",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L02_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 71.69,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L02_cutaway": {
+    "view_id": "B02_L02_cutaway",
+    "title": "KRUME & KORN / B02_L02 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L02_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "6e53c338c07140efa94271791f56237532ac44fd19567d3195054f9cdcabd2e0",
+    "noisy_original_sha256": "fd415ef0c8a8acb442e526cdfd810e72bc05f3f3a08d09ac79a8b4b8cb7207db",
+    "noisy_original": ".cache/final-renders/B02_L02_cutaway.noisy.png",
+    "original_before_denoise_sha256": "fd415ef0c8a8acb442e526cdfd810e72bc05f3f3a08d09ac79a8b4b8cb7207db",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L02_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 59.9,
+    "visual_inspection": "PENDING"
   }
 }

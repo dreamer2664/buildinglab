@@ -31,3 +31,11 @@ Bulky natives/GLBs/renders belong in immutable public `dreamer2664/storagecode` 
 ## Actual recovery after disposable cache loss
 
 Run `python3 tools/bootstrap_runtime.py --runtime-only`, install any reported OS shared-library dependencies, then `python3 tools/restore_current_delivery.py`. These commands were actually executed after this worker cache was cleared: current native/derivative,12editable rigs,all4model archives and8final images restored with archive/member digests verified;25components rehashed PASS. Remaining historical22render records included14not-yet-backed-up images; these were separated into history and queued for actual rerender, never counted as currently available. From a blank factory Blender scene run `tools/production/restore_packed_source_maps.py` to recover112exact original photographic map byte streams. See `evidence/production/R11-runtime-cache-loss-recovery.json` for current scope/smoke status. Do not assume temporary `.cache` files survive a new session.
+
+## Additional required correction found in actual inspection
+
+The individually opened B02_L02 plan/cutaway visibly duplicate B01_L03 domestic furniture/partition arrangements despite different programme titles. **The requested distinct-interiors criterion is therefore NOT accepted.** Further R11 final rendering was stopped at16completed/individually inspected originals (two marked FIX_REQUIRED), preserving the public14-view checkpoint and all model backups. Actual editable furnishing differentiation and physical-hair studies are underway in separate unpromoted files; the frozen R11 download has NOT silently changed. Final92/high-realism/independent acceptance remain incomplete.
+
+
+## Further actual floor-by-floor corrective study (not a promoted release)
+All26separate first-draft plan originals were individually opened. This caught doorway obstructions introduced by whole-room furniture rotation/new entry-wall cases and a visually duplicated hotel upper floor, despite distinct numeric hashes. That draft is rejected. A second actual editable geometry study now restores safe bed/armchair relationships, scopes sofa/table edits, refits the hotel and enriches staff/atelier functions. New render/reinspection is in progress; public R11 remains unchanged and is not final/high-realism accepted. See current HANDOFF and R12-all-interiors-first-study.json.

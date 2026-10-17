@@ -189,11 +189,93 @@
       "actual_original_opened": true,
       "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
       "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original singly opened: readable title/north5mscale and sales/serviceA/serviceB/WC/servicehall/upperentry labels; actual2oven/prep kitchen, washup fixtures, stair treads/railing and counter/display/shelf footprints. Source-derived scale/frame consistent. Very generous largely empty sales centre and generic furnishings remain a realism/scene-dressing limitation, not code approval.",
+      "checked_utc": "2026-10-17T18:27:03.608158+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L01_cutaway": {
+      "view_id": "B02_L01_cutaway",
+      "image": ".cache/final-renders/B02_L01_cutaway.png",
+      "image_sha256": "dcfa3e124638dcb17689ddabe8c75381b900572a8d27b55d2796ef4409b45903",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original singly opened: stocked bread racks/loaves,2glass pastry cases,2commercial ovens/prep cabinetry, checkout, seating, support/WC/stairs and original KRUME & KORN fascia visible. Large sparse sales floor and simple fittings remain CG. Floating fascia/doorframes reflect intentionally hidden supporting exterior/highwalls, not evidence full native lacks them; no photographic/regulatory/independent acceptance.",
+      "checked_utc": "2026-10-17T18:27:03.752289+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L01_interior": {
+      "view_id": "B02_L01_interior",
+      "image": ".cache/final-renders/B02_L01_interior.png",
+      "image_sha256": "b0bd225a5512def682225ef6ce334b7b461b2dbdc7b29a0b974588b121503e8b",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual current recovered-runtime2560original singly opened: clearly readable original KRUME & KORN mark, populated bread rack, transparent pastry case, wood-grain counters and cafe table/cups/green chairs visible under below-ceiling working fixtures. Brightness/readability repaired relative to rejected dark history. Sales floor remains sparse; plaster/ripple hotspots and block-like chairs/simple loaves remain CG, no highrealism/photo/independent approval.",
+      "checked_utc": "2026-10-17T18:27:03.826877+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L02_plan": {
+      "view_id": "B02_L02_plan",
+      "image": ".cache/final-renders/B02_L02_plan.png",
+      "image_sha256": "7913b0c10c49eac4569896040e7b8169078089cbc96340ee84920a465efdba9d",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "FIX_REQUIRED_DUPLICATED_HOME_INTERIOR",
+      "observed_findings": "Actual2560original singly opened. Readable title/room labels/datum3.8m/5mscale and furnished2bed/bath/entry/kitchen/living geometry. IMPORTANT FIX REQUIRED: visible partition/furniture arrangement matches B01_L03 home despite different bakers-maisonette programme title. Programme labels alone do not meet requested distinct interiors. Sparse kitchen/living and reused simple furnishings remain; not accepted as distinct/high-realism interior.",
+      "checked_utc": "2026-10-17T18:31:22.379510+00:00",
+      "independent_acceptance": false
+    },
+    "B02_L02_cutaway": {
+      "view_id": "B02_L02_cutaway",
+      "image": ".cache/final-renders/B02_L02_cutaway.png",
+      "image_sha256": "6e53c338c07140efa94271791f56237532ac44fd19567d3195054f9cdcabd2e0",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "FIX_REQUIRED_DUPLICATED_HOME_INTERIOR",
+      "observed_findings": "Actual2560original singly opened. Actual bedrooms/wardrobes/shower/sanitary fixtures/appliance kitchen/leather seating and dining geometry present, but furniture placement/partitions match B01_L03 cutaway. FIX REQUIRED for distinct interiors: real rearrangement/theming/detail differentiation, not just different title. Isolated upper landing void declared, not whole-native stairs diagnosis. No photo/code/independent acceptance.",
+      "checked_utc": "2026-10-17T18:31:22.534611+00:00",
+      "independent_acceptance": false
+    }
+  },
+  "history": [
+    {
+      "view_id": "B02_L01_plan",
+      "image": ".cache/final-renders/B02_L01_plan.png",
+      "image_sha256": "82c0ddc38f371d7d22868d4f9594dd39ee495e805e3c958b19989499ddd0d3a4",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
       "observed_findings": "Actual2560x1440 original singly opened: six room areas labelled; bakery sales with bread racks/two glass displays/till/seating, prep kitchenette with two large baking ovens, storage/wash support racks/boxes, WC, service corridor, separate upper entry and U-stair opening visible. Source-derived north/5m scale/18x14m footprint and programme/datum/storey notes readable outside geometry. Generous sparse sales circulation remains; no food-safety/code/photographic/independent approval.",
       "checked_utc": "2026-10-17T17:15:19.890442+00:00",
       "independent_acceptance": false
     },
-    "B02_L01_cutaway": {
+    {
       "view_id": "B02_L01_cutaway",
       "image": ".cache/final-renders/B02_L01_cutaway.png",
       "image_sha256": "dcfa3e124638dcb17689ddabe8c75381b900572a8d27b55d2796ef4409b45903",
@@ -209,5 +291,5 @@
       "checked_utc": "2026-10-17T17:15:19.997719+00:00",
       "independent_acceptance": false
     }
-  }
+  ]
 }
