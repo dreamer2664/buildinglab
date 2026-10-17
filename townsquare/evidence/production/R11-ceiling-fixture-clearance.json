@@ -1,0 +1,5176 @@
+{
+  "fix": "Room ceilings and their existing physical fixture/emitter assemblies lowered below actual next-floor slab underside with15mm top clearance. R10 actual rays proved B01 emitters embedded60mm into upper slab. Fixture powers/colours and source materials/body poses untouched. High interior brand headers followed corrected ceilings; exterior signs unchanged.",
+  "floor_cases": [
+    {
+      "floor": "B01_L01",
+      "upper_floor": "B01_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B01__B01_L01__B01_L01_WC__ceiling",
+        "B01__B01_L01__B01_L01_UPPER_ENTRY__ceiling",
+        "B01__B01_L01__B01_L01_SERVICE_HALL__ceiling",
+        "B01__B01_L01__B01_L01_SERVICE_B__ceiling",
+        "B01__B01_L01__B01_L01_SERVICE_A__ceiling",
+        "B01__B01_L01__B01_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B01_L02",
+      "upper_floor": "B01_L03",
+      "actual_upper_slab_underside_z_m": 6.760000228881836,
+      "ceiling_meshes_corrected": [
+        "B01__B01_L02__B01_L02_WC__ceiling",
+        "B01__B01_L02__B01_L02_WAREHOUSE__ceiling",
+        "B01__B01_L02__B01_L02_SERVICE_B__ceiling",
+        "B01__B01_L02__B01_L02_SERVICE_A__ceiling",
+        "B01__B01_L02__B01_L02_PURCHASING__ceiling",
+        "B01__B01_L02__B01_L02_HALL__ceiling"
+      ]
+    },
+    {
+      "floor": "B02_L01",
+      "upper_floor": "B02_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B02__B02_L01__B02_L01_WC__ceiling",
+        "B02__B02_L01__B02_L01_UPPER_ENTRY__ceiling",
+        "B02__B02_L01__B02_L01_SERVICE_HALL__ceiling",
+        "B02__B02_L01__B02_L01_SERVICE_B__ceiling",
+        "B02__B02_L01__B02_L01_SERVICE_A__ceiling",
+        "B02__B02_L01__B02_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B03_L01",
+      "upper_floor": "B03_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B03__B03_L01__B03_L01_WC__ceiling",
+        "B03__B03_L01__B03_L01_UPPER_ENTRY__ceiling",
+        "B03__B03_L01__B03_L01_SERVICE_HALL__ceiling",
+        "B03__B03_L01__B03_L01_SERVICE_B__ceiling",
+        "B03__B03_L01__B03_L01_SERVICE_A__ceiling",
+        "B03__B03_L01__B03_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B04_L01",
+      "upper_floor": "B04_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B04__B04_L01__B04_L01_WC__ceiling",
+        "B04__B04_L01__B04_L01_UPPER_ENTRY__ceiling",
+        "B04__B04_L01__B04_L01_SERVICE_HALL__ceiling",
+        "B04__B04_L01__B04_L01_SERVICE_B__ceiling",
+        "B04__B04_L01__B04_L01_SERVICE_A__ceiling",
+        "B04__B04_L01__B04_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B05_L01",
+      "upper_floor": "B05_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B05__B05_L01__B05_L01_WC__ceiling",
+        "B05__B05_L01__B05_L01_UPPER_ENTRY__ceiling",
+        "B05__B05_L01__B05_L01_SERVICE_HALL__ceiling",
+        "B05__B05_L01__B05_L01_SERVICE_B__ceiling",
+        "B05__B05_L01__B05_L01_SERVICE_A__ceiling",
+        "B05__B05_L01__B05_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B06_L01",
+      "upper_floor": "B06_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B06__B06_L01__B06_L01_WC__ceiling",
+        "B06__B06_L01__B06_L01_UPPER_ENTRY__ceiling",
+        "B06__B06_L01__B06_L01_SERVICE_HALL__ceiling",
+        "B06__B06_L01__B06_L01_SERVICE_B__ceiling",
+        "B06__B06_L01__B06_L01_SERVICE_A__ceiling",
+        "B06__B06_L01__B06_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B07_L01",
+      "upper_floor": "B07_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B07__B07_L01__B07_L01_WC__ceiling",
+        "B07__B07_L01__B07_L01_UPPER_ENTRY__ceiling",
+        "B07__B07_L01__B07_L01_SERVICE_HALL__ceiling",
+        "B07__B07_L01__B07_L01_SERVICE_B__ceiling",
+        "B07__B07_L01__B07_L01_SERVICE_A__ceiling",
+        "B07__B07_L01__B07_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B07_L02",
+      "upper_floor": "B07_L03",
+      "actual_upper_slab_underside_z_m": 6.760000228881836,
+      "ceiling_meshes_corrected": [
+        "B07__B07_L02__B07_L02_WC__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_1_SLEEP__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_1_ENSUITE__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_-1_SLEEP__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__ceiling",
+        "B07__B07_L02__B07_L02_SUITE_-1_ENSUITE__ceiling",
+        "B07__B07_L02__B07_L02_SERVICE_B__ceiling",
+        "B07__B07_L02__B07_L02_SERVICE_A__ceiling",
+        "B07__B07_L02__B07_L02_GUEST_HALL__ceiling"
+      ]
+    },
+    {
+      "floor": "B08_L01",
+      "upper_floor": "B08_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B08__B08_L01__B08_L01_WC__ceiling",
+        "B08__B08_L01__B08_L01_UPPER_ENTRY__ceiling",
+        "B08__B08_L01__B08_L01_SERVICE_HALL__ceiling",
+        "B08__B08_L01__B08_L01_SERVICE_B__ceiling",
+        "B08__B08_L01__B08_L01_SERVICE_A__ceiling",
+        "B08__B08_L01__B08_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B09_L01",
+      "upper_floor": "B09_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B09__B09_L01__B09_L01_WC__ceiling",
+        "B09__B09_L01__B09_L01_UPPER_ENTRY__ceiling",
+        "B09__B09_L01__B09_L01_SERVICE_HALL__ceiling",
+        "B09__B09_L01__B09_L01_SERVICE_B__ceiling",
+        "B09__B09_L01__B09_L01_SERVICE_A__ceiling",
+        "B09__B09_L01__B09_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B10_L01",
+      "upper_floor": "B10_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B10__B10_L01__B10_L01_WC__ceiling",
+        "B10__B10_L01__B10_L01_UPPER_ENTRY__ceiling",
+        "B10__B10_L01__B10_L01_SERVICE_HALL__ceiling",
+        "B10__B10_L01__B10_L01_SERVICE_B__ceiling",
+        "B10__B10_L01__B10_L01_SERVICE_A__ceiling",
+        "B10__B10_L01__B10_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B11_L01",
+      "upper_floor": "B11_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B11__B11_L01__B11_L01_WC__ceiling",
+        "B11__B11_L01__B11_L01_UPPER_ENTRY__ceiling",
+        "B11__B11_L01__B11_L01_SERVICE_HALL__ceiling",
+        "B11__B11_L01__B11_L01_SERVICE_B__ceiling",
+        "B11__B11_L01__B11_L01_SERVICE_A__ceiling",
+        "B11__B11_L01__B11_L01_SALES__ceiling"
+      ]
+    },
+    {
+      "floor": "B12_L01",
+      "upper_floor": "B12_L02",
+      "actual_upper_slab_underside_z_m": 3.56000018119812,
+      "ceiling_meshes_corrected": [
+        "B12__B12_L01__B12_L01_WC__ceiling",
+        "B12__B12_L01__B12_L01_UPPER_ENTRY__ceiling",
+        "B12__B12_L01__B12_L01_SERVICE_HALL__ceiling",
+        "B12__B12_L01__B12_L01_SERVICE_B__ceiling",
+        "B12__B12_L01__B12_L01_SERVICE_A__ceiling",
+        "B12__B12_L01__B12_L01_SALES__ceiling"
+      ]
+    }
+  ],
+  "corrected_room_groups": 88,
+  "changes": [
+    {
+      "object": "B01__B01_L01__B01_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_WC",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_WAREHOUSE__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_WAREHOUSE",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_B",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_A",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_PURCHASING__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_PURCHASING",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B01_L02",
+      "room": "B01_L02_HALL",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_WC",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_SLEEP__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_SLEEP",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_LOUNGE",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_ENSUITE__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_ENSUITE",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_SLEEP__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_SLEEP",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_LOUNGE",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_ENSUITE__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_ENSUITE",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_B",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_A",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_GUEST_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B07_L02",
+      "room": "B07_L02_GUEST_HALL",
+      "old_bounds_z": [
+        6.900000095367432,
+        6.950000286102295
+      ],
+      "upper_slab_underside_z_m": 6.760000228881836,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_bounds_z": [
+        6.695000038146973,
+        6.745000228881836
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_WC__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_WC",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_UPPER_ENTRY__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_UPPER_ENTRY",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_HALL__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_HALL",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_B__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_B",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_A__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_A",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SALES__ceiling",
+      "layer": "ceiling",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_bounds_z": [
+        3.6999998092651367,
+        3.75
+      ],
+      "upper_slab_underside_z_m": 3.56000018119812,
+      "world_z_shift_m": -0.20499981880188,
+      "new_bounds_z": [
+        3.4949999904632567,
+        3.54500018119812
+      ]
+    },
+    {
+      "object": "B01_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01__B01_L01__B01_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B01_L01",
+      "room": "B01_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B01_L02_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_WC",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_WAREHOUSE_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_WAREHOUSE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_WAREHOUSE_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_WAREHOUSE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_B",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_A",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_PURCHASING_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_PURCHASING",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_PURCHASING_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_PURCHASING",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_HALL",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01_L02_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B01_L02",
+      "room": "B01_L02_HALL",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_WAREHOUSE__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_WAREHOUSE",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_PURCHASING__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_PURCHASING",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B01__B01_L02__B01_L02_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B01_L02",
+      "room": "B01_L02_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B02_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02__B02_L01__B02_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B02_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B02_L01",
+      "room": "B02_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SALES_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03_L01_SALES_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B03_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B03_L01",
+      "room": "B03_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04__B04_L01__B04_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B04_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B04_L01",
+      "room": "B04_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SALES_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05_L01_SALES_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05__B05_L01__B05_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B05_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B05_L01",
+      "room": "B05_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06__B06_L01__B06_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B06_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B06_L01",
+      "room": "B06_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SALES_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07_L01_SALES_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07__B07_L01__B07_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B07_L01",
+      "room": "B07_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B07_L02_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_WC",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_1_SLEEP_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_SLEEP",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_1_SLEEP_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_SLEEP",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_1_LOUNGE_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_LOUNGE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_1_ENSUITE_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_ENSUITE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_-1_SLEEP_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_SLEEP",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_-1_SLEEP_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_SLEEP",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_-1_LOUNGE_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_LOUNGE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SUITE_-1_ENSUITE_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_ENSUITE",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_B",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_A",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_GUEST_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_GUEST_HALL",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07_L02_GUEST_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B07_L02",
+      "room": "B07_L02_GUEST_HALL",
+      "old_world_z_m": 6.680000305175781,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": 6.475000247955323
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_SLEEP__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_SLEEP",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_LOUNGE",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_ENSUITE__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_1_ENSUITE",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_SLEEP__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_SLEEP",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_LOUNGE",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_ENSUITE__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SUITE_-1_ENSUITE",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_GUEST_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B07_L02",
+      "room": "B07_L02_GUEST_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20500005722045866,
+      "new_world_z_m": -0.20500005722045866
+    },
+    {
+      "object": "B08_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08__B08_L01__B08_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B08_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B08_L01",
+      "room": "B08_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SALES_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09_L01_SALES_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09__B09_L01__B09_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B09_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B09_L01",
+      "room": "B09_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10__B10_L01__B10_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B10_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B10_L01",
+      "room": "B10_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11__B11_L01__B11_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B11_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B11_L01",
+      "room": "B11_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12_L01_WC_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_WC",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_UPPER_ENTRY_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_UPPER_ENTRY",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_SERVICE_HALL_PRACTICAL.003",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_SERVICE_HALL_PRACTICAL.002",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_HALL",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_SERVICE_B_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_B",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_SERVICE_A_PRACTICAL.001",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_A",
+      "old_world_z_m": 3.4800000190734863,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.2750002002716063
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.011",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.010",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.009",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.008",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.007",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12_L01_SALES_RETAIL_PRACTICAL.006",
+      "layer": "lighting",
+      "type": "LIGHT",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 3.619999885559082,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": 3.415000066757202
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_WC__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_WC",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_UPPER_ENTRY__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_UPPER_ENTRY",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_HALL__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_HALL",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_B__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_B",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SERVICE_A__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_SERVICE_A",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12__B12_L01__B12_L01_SALES__lighting",
+      "layer": "lighting",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    },
+    {
+      "object": "B12_L01__R3_ORIGINAL_SIGNAGE",
+      "layer": "signage",
+      "type": "MESH",
+      "floor": "B12_L01",
+      "room": "B12_L01_SALES",
+      "old_world_z_m": 0.0,
+      "world_z_shift_m": -0.20499981880188,
+      "new_world_z_m": -0.20499981880188
+    }
+  ],
+  "actual_corrected_emitter_downward_ray_checks": [
+    {
+      "light": "B01_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_WC_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_WAREHOUSE_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_WAREHOUSE_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_PURCHASING_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_PURCHASING_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_HALL_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B01_L02_HALL_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B02_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SALES_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B03_L01_SALES_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B04_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SALES_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B05_L01_SALES_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B06_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SALES_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L01_SALES_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_WC_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_1_SLEEP_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_1_SLEEP_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_1_LOUNGE_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_1_ENSUITE_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_-1_SLEEP_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_-1_SLEEP_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_-1_LOUNGE_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SUITE_-1_ENSUITE_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_GUEST_HALL_PRACTICAL.003",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B07_L02_GUEST_HALL_PRACTICAL.002",
+      "world_z_m": 6.475000381469727,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B08_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SALES_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B09_L01_SALES_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B10_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B11_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_WC_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_UPPER_ENTRY_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SERVICE_HALL_PRACTICAL.003",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SERVICE_HALL_PRACTICAL.002",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SERVICE_B_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SERVICE_A_PRACTICAL.001",
+      "world_z_m": 3.2750000953674316,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.011",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.010",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.009",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.008",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.007",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    },
+    {
+      "light": "B12_L01_SALES_RETAIL_PRACTICAL.006",
+      "world_z_m": 3.4149999618530273,
+      "immediate_downward_hit": null,
+      "hit_z_m": null,
+      "blocked_by_slab_ceiling_or_fixture": false
+    }
+  ],
+  "unresolved_immediate_ceiling_slab_fixture_occluders": 0,
+  "visual_acceptance": "Three actual1024 prototype originals individually opened with scoped lighting/fixture improvements observed. Final native2560/3840 evidence and other rooms pending; no overall realism/independent approval.",
+  "actual_prototype_image_reinspections": [
+    {
+      "view": "B01_L01_interior",
+      "actual_original_opened_individually": true,
+      "sha256": "c1d0b12df2e79120e738f51a6b8e8e0157e6dc582681158bbe21b297a66224ba",
+      "observed": "Actual1024 original singly opened: stocked shelves/produce/POS/original green business mark visible at base exposure0.35 without+5EV. Six physical strip fixtures now visible and direct lighting coherent; no severe dark-field speckling. Preview softness/CG simplifications remain; not final photographic acceptance."
+    },
+    {
+      "view": "B02_L01_interior",
+      "actual_original_opened_individually": true,
+      "sha256": "680bb15547e2892697c5cf859460e460ce717bcf8f4d86d74a55b3332618ee7c",
+      "observed": "Actual1024 original singly opened: bread loaves, timber rack/glazed counter, seating/cups and original bakery brand legible; ceiling fixtures visible, room lit at native base exposure. Large clear circulation and simplified furnishing remain; not final high-res/realism acceptance."
+    },
+    {
+      "view": "B01_L03_interior",
+      "actual_original_opened_individually": true,
+      "sha256": "3e0714df955e6bf55ab725ae9be9d14d18acb08a251c86e56295f92700f91d9f",
+      "observed": "Actual1024 original singly opened: black tufted sofa/armchair, dining/cups, floor lamp, ceiling fittings/door/rug read without blown+5EV whites. Top-floor lighting remains readable. Low-resolution/CG limitations; not final acceptance."
+    }
+  ]
+}

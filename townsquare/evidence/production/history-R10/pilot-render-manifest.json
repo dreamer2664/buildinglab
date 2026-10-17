@@ -1,0 +1,98 @@
+{
+  "B01_L01_interior": {
+    "view_id": "B01_L01_interior",
+    "title": "MARKTGRUEN / B01_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/pilot-R10/B01_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "bce2c2e36a3b6fa23bb5d0ee79cb4fe047c1dd12eae7eeac5d8ae61cbbe8d86a",
+    "noisy_original_sha256": "720bdfa7732a31b4287ebe80c0932116ac76086b58be7e22f4416f89f7a86843",
+    "noisy_original": ".cache/pilot-R10/B01_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "720bdfa7732a31b4287ebe80c0932116ac76086b58be7e22f4416f89f7a86843",
+    "camera_exposure_bias_EV": 5.0,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R10/B01_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 38.65,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L01_interior": {
+    "view_id": "B02_L01_interior",
+    "title": "KRUME & KORN / B02_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/pilot-R10/B02_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "23b60cfed006198a02bac4c46ff8e007fcab6268f9263382e1ef6612c87aee0f",
+    "noisy_original_sha256": "a7af48c1759bb695ceb6b64b3cf5fee00d07b32109dbcb84f3abbc42807a862e",
+    "noisy_original": ".cache/pilot-R10/B02_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "a7af48c1759bb695ceb6b64b3cf5fee00d07b32109dbcb84f3abbc42807a862e",
+    "camera_exposure_bias_EV": 5.0,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R10/B02_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 374.68,
+    "visual_inspection": "PENDING"
+  },
+  "B03_L01_interior": {
+    "view_id": "B03_L01_interior",
+    "title": "KESSEL & KAKAO / B03_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/pilot-R10/B03_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "aa1e1a145cce7d7c9cc99422848a6314c038f385e7413a2db95ce475911a36cd",
+    "noisy_original_sha256": "1b62e0eb6c2e0276b8bd11c14764c8e9c995eb5f9d808eff444feda306c6d577",
+    "noisy_original": ".cache/pilot-R10/B03_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "1b62e0eb6c2e0276b8bd11c14764c8e9c995eb5f9d808eff444feda306c6d577",
+    "camera_exposure_bias_EV": 5.0,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R10/B03_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 35.34,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L03_interior": {
+    "view_id": "B01_L03_interior",
+    "title": "MARKTGRUEN / B01_L03 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/pilot-R10/B01_L03_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "2014c88b84d2a3affa6650344a60706141e50fcc997cf01598d44eb582e13745",
+    "noisy_original_sha256": "6e52855671a8848e027a984eebb98fe03c1a3300c9a685e547e547d794f3039c",
+    "noisy_original": ".cache/pilot-R10/B01_L03_interior.noisy.png",
+    "original_before_denoise_sha256": "6e52855671a8848e027a984eebb98fe03c1a3300c9a685e547e547d794f3039c",
+    "camera_exposure_bias_EV": 5.0,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R10/B01_L03_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 40.59,
+    "visual_inspection": "PENDING"
+  }
+}

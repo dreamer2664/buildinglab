@@ -224,7 +224,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": -0.049
     },
     {
       "id": "B01_L02_plan",
@@ -316,7 +316,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.816
     },
     {
       "id": "B01_L03_plan",
@@ -408,7 +408,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.362
     },
     {
       "id": "B02_L01_plan",
@@ -500,7 +500,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": -0.678
     },
     {
       "id": "B02_L02_plan",
@@ -592,7 +592,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.215
     },
     {
       "id": "B03_L01_plan",
@@ -684,7 +684,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.651
     },
     {
       "id": "B03_L02_plan",
@@ -776,7 +776,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.486
     },
     {
       "id": "B04_L01_plan",
@@ -868,7 +868,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.94
     },
     {
       "id": "B04_L02_plan",
@@ -960,7 +960,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.486
     },
     {
       "id": "B05_L01_plan",
@@ -1052,7 +1052,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.325
     },
     {
       "id": "B05_L02_plan",
@@ -1144,7 +1144,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.193
     },
     {
       "id": "B06_L01_plan",
@@ -1236,7 +1236,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.479
     },
     {
       "id": "B06_L02_plan",
@@ -1328,7 +1328,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.812
     },
     {
       "id": "B07_L01_plan",
@@ -1420,7 +1420,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.958
     },
     {
       "id": "B07_L02_plan",
@@ -1512,7 +1512,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.244
     },
     {
       "id": "B07_L03_plan",
@@ -1604,7 +1604,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.215
     },
     {
       "id": "B08_L01_plan",
@@ -1696,7 +1696,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": -0.949
     },
     {
       "id": "B08_L02_plan",
@@ -1788,7 +1788,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.178
     },
     {
       "id": "B09_L01_plan",
@@ -1880,7 +1880,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.826
     },
     {
       "id": "B09_L02_plan",
@@ -1972,7 +1972,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.398
     },
     {
       "id": "B10_L01_plan",
@@ -2064,7 +2064,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.017
     },
     {
       "id": "B10_L02_plan",
@@ -2156,7 +2156,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.365
     },
     {
       "id": "B11_L01_plan",
@@ -2248,7 +2248,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": -1.228
     },
     {
       "id": "B11_L02_plan",
@@ -2340,7 +2340,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.208
     },
     {
       "id": "B12_L01_plan",
@@ -2432,7 +2432,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 1.057
     },
     {
       "id": "B12_L02_plan",
@@ -2524,7 +2524,7 @@
         1440
       ],
       "samples": 32,
-      "exposure": 0.35
+      "exposure": 0.34
     },
     {
       "id": "D01",

@@ -1,7 +1,7 @@
 {
   "component": "B06",
-  "glb_sha256": "7c2c06fa9911f8f8c8f5cce1f161fcb54542452bc4012131ec82b99a7ca58475",
-  "source_full_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "glb_sha256": "8657e94e374046afc3a9235e0140cd3cf5eb4e4b472c0ceb9abdbe906cab4d23",
+  "source_full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
   "glb": ".cache/final-components/GLB/B06.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",

@@ -1,36 +1,29 @@
-# Winterlichtplatz
+# Winterlichtplatz — editable Christmas town square / R11 producer candidate
 
-Editable original Central European Christmas-square scene:12 surrounding buildings,26 occupied furnished floors/164 rooms,8 market stalls,24 benches,24 lamps,12 bare deciduous trees, a real licensed fir mesh, playground,36 winter-clothed CG people from12 variants and12 original fictional business identities.
+**12 buildings · 26 furnished occupied floors · 164 modeled rooms · 36 anatomical CG people / 12 licensed variants.** Central European historic Christmas-market concept with supermarket, bakery, café and other distinct businesses/homes, original fictional business marks, eight market stalls, benches, lamps, trees and playground. Metric conceptual architecture, not code-certified.
 
-**Current status: R10 producer candidate, not final visual or independent acceptance.** The actual full-map native has reopened and passed structural/packing/room-furnishing/ground-contact tests. Final-resolution rendering, individual image checks, portable-export roundtrip and final public delivery checks are still in progress. The earlier A2 study in `PREVIEW.html` is historical, not the current model.
+## Current source / honest status
 
-## Native versions
-- Full-map `Winterlichtplatz-R10.blend`: packed photographic source maps and all actual geometry, with original licensed hair/clothing; optional procedural hat/scarf studies were rejected and excluded from final outfits and original cafe/branding additions.
-- Separately labelled lighter render derivative: identical geometry, UVs, material assignment indices and poses, with resampled photographic maps. Per-frame close-detail map upgrades and memory-only culling/LOD are explicitly recorded; no generated picture replaces architecture, furniture or people.
--12 separate full-map building components and a public-realm component are being exported from the final candidate, not the early blockout.12 separate person natives preserve the anatomical armatures, clothing and authored poses; the assembled town/GLB crowd is static.
+R11 packed full-map native `.cache/master/Winterlichtplatz-R11.blend`, SHA256 `7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1`. Geometry-identical image-budget derivative SHA256 `3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf`; shared geometry/UV/material-index/world-pose signature `484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b`. Both ACTUALLY fresh-reopened:164furnished rooms/36people/92cameras/packed maps PASS. These numeric tests do not grant visual acceptance.
 
-The master contains92 camera presets and embedded `VIEW_TOOLS.py`, `VIEW_PRESETS.json`, `READ_ME.txt`. In Blender's Text Editor, run:
+Actual R10 interior inspection led to ray-tested discovery of ceiling emitters buried60mm inside upper slabs. R11 corrects actual ceilings, existing physical fixtures/emitters and high interior brand headers together:338 object translations,150 corrected emitter centre rays checked clear. Existing light power/colour/materials and anatomical body/poses preserved. Three actual1024prototype originals separately opened show readable stocked supermarket, bakery and home at native0.35EV without high-exposure compensation.26standard photographic camera exposures measured from actual low-resolution HDR renders and baked into offline presets. Final92source-bound originals/individual image checks/export/public proof are still being produced; no photographic-quality, perfection or independent acceptance claim.
 
-```python
-exec(bpy.data.texts['VIEW_TOOLS.py'].as_string())
-apply_view('B01_L01_cutaway')
-# 'B01_L01_plan', 'B01_L01_interior', etc.
-# 'H02' restores complete town visibility.
-```
+## Open and edit
 
-Technical plans/cutaways intentionally hide ceilings/high walls; this is reversible visibility, not missing source geometry. People-detail presets use an honestly labelled physical inspection studio; town integration is shown in the exterior views. The native retains its original1000m legacy horizon plus a redundant auxiliary500m plane. Portable GLB omits the auxiliary plane and crops only the legacy horizon solid to a112x100m snow context, preserving UV metre density; the actual64x52m plaza and all architecture/furnishings remain unchanged.
+Blender4.3.2 / metric metres. Full native has original packed photographic maps, named building/floor/room collections, editable architectural/furnishing geometry and92cameras. Twelve full editable human rigs are separate from36static posed town instances. The people are licensed generic anatomical CG with photographic skins, not unique person scans or animation-certified costumes.
 
-## Reproduction and evidence
-`tools/production/` contains anonymous source recovery and digest verification, original inspect-driven modelling corrections/details, native assembly, self-contained view control, bounded rendering, standard OIDN postprocessing, static GLB export/clean reimport and a geometry-preserving glTF component merger. `evidence/production/` records actual results. `design/production-views.json` schedules6 four-K exteriors,26 plans,26 cutaways,26 interiors and8 people details; a schedule is not proof of rendered or inspected images.
+In Blender's Text Editor run embedded `VIEW_TOOLS.py`, then `apply_view('B01_L01_interior')`, `apply_view('B01_L01_plan')`, `apply_view('B01_L01_cutaway')` or `apply_view('H02')` to restore the whole town. This applies saved camera, floor visibility, original scene lighting and per-view standard AgX exposure. No addon, network or private download needed. Full native is intended for a normal desktop with adequate RAM; bounded derivative/scripts are provided for this2GB worker.
 
-Blender4.3.2 is used. Rendering in this2GB runtime requires memory-bounded working copies; additional RAM is recommended for uncullled full-resolution rendering (no minimum-RAM benchmark is claimed). Renderer environments are credential-free. Bulky source/model/render artifacts use verified public storage releases, not Git history.
+Final camera output targets:6heroes at3840×2160;26plans+26cutaways+26interiors+8human/detail views at2560×1440. Cycles with recorded sample counts, AgX, ordinary non-generative OIDN; four-by-four exact camera-border native-pixel hero assembly for memory budget, no image upscaling. Plans add explicitly declared technical labels/scale/orientation from actual saved native camera/room geometry. A render log/hash is not an image inspection; only individually opened originals enter the producer ledger.
 
-## Rights and honest limitations
-See `assets/ASSET_LICENSES.md` and recovered per-asset URL/hash/author metadata. Project-authored geometry, layout, branding and derivatives are CC0; project code MIT. Poly Haven and used MakeHuman graphical assets are CC0. MPFB build-time code is separately GPL; it is not required to open the packed natives. These are generic CG people, **not twelve commissioned scans of unique real people**. Fictional marks are original, not trademark-clearance promises.
+## Portable model / limitations
 
-GLB is an engine-neutral static PBR derivative with a512px portable photographic texture budget; Blender area lights, photographic world, procedural detail, glass and colour management do not all translate identically. The full-map native is authoritative for the authored lighting/material appearance. Read the actual export/reimport results before asserting portability gates passed.
+Fresh-import-tested portable GLB, per-building native/GLB, public-realm model and12human variants are separate deliverables. Area lights, HDR world, procedural shader details, glass and colour management are NOT fully portable through coreglTF. Neutral portable proof lights are explicitly reconstructed; no authored native-light parity claim. Portable photographic maps capped512px; originals remain in packed full native. The optional WebGL viewer has local MIT Three.js, but actual headless screenshot/control test timed out: browser visual functionality remains unverified, not a substitute for native/GLB file tests.
 
-Conceptual visual architecture and playground design only: no structural, fire, accessibility, medical-facility, photometric or playground certification, perfection claim, or self-awarded independent acceptance.
+## Storage, sources, rights and evidence
 
-## Interactive static-model preview
-`viewer/` provides a local Three.js0.180.0 (MIT) orbit/cutaway browser preview of the actual clean-import-tested GLB. Serve it with `python3 -m http.server 3000 --bind 0.0.0.0 --directory viewer`. Put the delivered whole-town GLB at `viewer/model.glb` (the working copy uses a disposable-cache symlink). All modules are local; no external CDN/API is required. The building/floor selectors use actual exported metadata. Preview glass/lighting are explicitly approximate and not authoritative native rendering. JavaScript syntax and local HTTP/module/model responses were checked; no browser-render screenshot verification is claimed. Full packed native/public package and individual final image records remain authoritative.
+Bulky natives/GLBs/renders belong in immutable public `dreamer2664/storagecode` Release assets, NOT Git history. Current verified archive URLs/digests are in `evidence/production/R11-public-checkpoint.json` once it exists; R10 history remains in its own receipts/releases. Every promoted public archive must be anonymously downloaded, CRC checked and EVERY manifest payload digest verified. Public exact-native reopen and exact-GLB clean import/proof are separate gates. Source draftPR6: https://github.com/dreamer2664/buildinglab/pull/6 .
+
+`assets/ASSET_LICENSES.md`, original vector logos under `assets/branding/`, frozen build reports, explicit inspection/failure history and `HANDOFF.md` are authoritative. Native authoring is original, with recorded CC0 MakeHuman/MPFB-derived assets and Poly Haven photographic assets; Three.js MIT separated from model rights. No generated-image replacement for modeled people or rooms.
+
+**Producer checks are not independent approval.** Final quality/package audit and non-owner acceptance remain open until explicitly evidenced. Previous Casa dei Colori residence project is preserved separately and not overwritten.

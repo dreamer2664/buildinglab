@@ -1,0 +1,29 @@
+{
+  "status": "Anonymous public archive byte/CRC/every-manifest-member verification PASS",
+  "stage": "R11 producer checkpoint only; final92 visual evidence and independent acceptance not granted",
+  "verified_utc": "2026-10-17T16:34:00.819741+00:00",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020",
+  "full_resolution_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "archives": [
+    {
+      "asset": "Winterlichtplatz-R11-Master-7fb9ce64d020.zip",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-R11-Master-7fb9ce64d020.zip",
+      "bytes": 306899622,
+      "sha256": "ffd01e9da5a8eeb76b12d823c7e0053f5340b6d29d22bf0cb7272257bd0630ef",
+      "all_manifest_members_sha256_and_bytes_verified": true,
+      "CRC": "PASS",
+      "entries_including_manifest": 75
+    }
+  ],
+  "unchanged_editable_people_archive": {
+    "asset": "Winterlichtplatz-R10-Editable-people-b6230a3e5d35.zip",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-b6230a3e5d35/Winterlichtplatz-R10-Editable-people-b6230a3e5d35.zip",
+    "bytes": 500453565,
+    "sha256": "db6b3c9c577cadc7635bb56d547963541e9ad5b8a8a061cff1b83632b21cf609",
+    "all_manifest_members_sha256_and_bytes_verified": true,
+    "CRC": "PASS",
+    "entries_including_manifest": 51
+  },
+  "exact_public_native_reopen": "PENDING",
+  "storage_ledger_commit": "cea0153a6fcbe997f70c8afc5dff32291052e1e6"
+}

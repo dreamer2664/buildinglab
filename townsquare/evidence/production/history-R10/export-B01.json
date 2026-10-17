@@ -1,0 +1,61 @@
+{
+  "component": "B01",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "glb": ".cache/final-components/GLB/B01.glb",
+  "glb_sha256": "63ccaefa38b1ca0cf86358adab9411f13ea1eba4ace290ce4d5d5c4d8e94d04c",
+  "glb_bytes": 19546140,
+  "expected_geometry": {
+    "mesh_objects": 96,
+    "vertices_instance_sum": 143076,
+    "polygons_instance_sum": 111596,
+    "triangles_instance_sum": 242659,
+    "bounds_min": [
+      -29.450000762939453,
+      26.264999389648438,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -10.550000190734863,
+      41.45000076293945,
+      14.289999961853027
+    ],
+    "floor_ids": [
+      "B01_L01",
+      "B01_L02",
+      "B01_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B01_L01_SALES",
+      "B01_L01_SERVICE_A",
+      "B01_L01_SERVICE_B",
+      "B01_L01_SERVICE_HALL",
+      "B01_L01_UPPER_ENTRY",
+      "B01_L01_WC",
+      "B01_L02_HALL",
+      "B01_L02_PURCHASING",
+      "B01_L02_SERVICE_A",
+      "B01_L02_SERVICE_B",
+      "B01_L02_WAREHOUSE",
+      "B01_L02_WC",
+      "B01_L03_BATH",
+      "B01_L03_ENTRY_HALL",
+      "B01_L03_KITCHEN",
+      "B01_L03_LIVING",
+      "B01_L03_PRIMARY_BED",
+      "B01_L03_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

@@ -1,9 +1,9 @@
 {
   "component": "B05",
-  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
   "glb": ".cache/final-components/GLB/B05.glb",
-  "glb_sha256": "eef4679333776b56af115ed3ae23272cb34561cb0072c712ea95a4c7ac96c755",
-  "glb_bytes": 12246496,
+  "glb_sha256": "e23c4468c70ec07bb12b7d69a8cd4a3eebbf397e650f403600e56362750c13a9",
+  "glb_bytes": 12247148,
   "expected_geometry": {
     "mesh_objects": 65,
     "vertices_instance_sum": 64569,

@@ -1,0 +1,2 @@
+# Superseded R10 history
+Original paths in contemporaneous inspection/render/export records are retained as history. Actual final PNG/noisy/tile originals moved from `.cache/final-renders/` to `.cache/final-R10-superseded/`; original digests unchanged. R10 native/full model/component packages are immutable public history. Physical ceiling/emitter occlusion found after those scoped reviews required R11 source correction, so NONE of these images count as R11 final evidence.

@@ -1,14 +1,14 @@
 from pathlib import Path
 import json,base64,io,html
 from PIL import Image
-R=Path(__file__).resolve().parents[2];E=R/'evidence/production';audit=json.loads((E/'R10-final-evidence-integrity.json').read_text());assert audit['status']=='PASS'
-records=json.loads((E/'final-render-manifest.json').read_text());frames=json.loads((R/'design/production-views.json').read_text())['frames'];build=json.loads((E/'R10-native-build.json').read_text())
+R=Path(__file__).resolve().parents[2];E=R/'evidence/production';audit=json.loads((E/'R11-final-evidence-integrity.json').read_text());assert audit['status']=='PASS'
+records=json.loads((E/'final-render-manifest.json').read_text());frames=json.loads((R/'design/production-views.json').read_text())['frames'];build=json.loads((E/'R11-native-build.json').read_text())
 def image_uri(path,width=1200):
  with Image.open(path) as im:
   im=im.convert('RGB');im.thumbnail((width,10000));b=io.BytesIO();im.save(b,'JPEG',quality=82,optimize=True);return 'data:image/jpeg;base64,'+base64.b64encode(b.getvalue()).decode()
 def esc(x):return html.escape(str(x),quote=True)
 archives=[]
-for name in ['R10-public-checkpoint.json','R10-additional-public-packages.json']:
+for name in ['R11-public-checkpoint.json','R11-additional-public-packages.json']:
  p=E/name
  if p.exists():archives+=json.loads(p.read_text()).get('archives',[])
 links=''.join('<a class="download" target="_blank" rel="noopener" href="'+esc(a['url'])+'"><strong>'+esc(a['asset'])+'</strong><span>'+f"{a['bytes']/1048576:.1f} MB"+' · verified public ZIP</span></a>' for a in archives)

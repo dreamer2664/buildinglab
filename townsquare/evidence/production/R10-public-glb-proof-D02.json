@@ -954,6 +954,10 @@
     "architectural_occluders": "retained outside frustum except intentionally hidden floors in technical views",
     "limitation": "Offscreen clutter/reflected detail may differ from uncullled source; all geometry remains in editable native. No painted/image-only interior or people substitute."
   },
-  "inspection": "PENDING / must separately open actual original",
-  "denoised_png_sha256": "642d4079522ac32e812f949eb3d9f8ebc6ef9d4b3d0538e9853abad88d8ecd1f"
+  "inspection": "ACTUAL_SEPARATE_ORIGINAL_OPEN / PRODUCER_PORTABLE_VISUAL_CHECKED",
+  "denoised_png_sha256": "642d4079522ac32e812f949eb3d9f8ebc6ef9d4b3d0538e9853abad88d8ecd1f",
+  "actual_original_opened": true,
+  "observed_findings": "Actual1280x720 PNG singly opened: both original-haired P03/P04 present with textured skin/jacket/shirt/trousers, separate fingers and no rejected procedural accessories. Generic CG quality;512px portable textures, no unique scan or photographic parity claim.",
+  "checked_utc": "2026-10-17T15:59:30.360274+00:00",
+  "independent_acceptance": false
 }

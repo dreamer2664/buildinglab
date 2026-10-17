@@ -1,6 +1,54 @@
 {
   "scope": "Manual producer original-image inspections after actual separate file opens; not independent acceptance or photographic-realism certification",
   "inspections": {
+    "B01_L01_interior": {
+      "view_id": "B01_L01_interior",
+      "image": ".cache/final-renders/B01_L01_interior.png",
+      "image_sha256": "80e6c3aea78877951e02b88c414edf466f74b6b92dbace73ca0b22c9acc901dc",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 R11 original opened singly: physical ceiling strips visible, stocked bottles/jars/cartons and shelf price tags, produce display, checkout counter and original MARKTGRUEN sign readable. Severe R10 slab-occlusion dark field is resolved by actual ceiling/fixture relocation at baked camera EV-0.049 with no added exposure bias. Coherent contact/aisle shadows and no obvious shelf clipping in this view. Warm CG architectural rendering, simplified packaging/POS geometry and slight colour-only-denoising softness remain; not photographic-quality or independent acceptance. This is one occupied sales-room sightline, not a substitute for whole-floor cutaway/other-room inspection.",
+      "checked_utc": "2026-10-17T16:39:47.794368+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L01_plan": {
+      "view_id": "B01_L01_plan",
+      "image": ".cache/final-renders/B01_L01_plan.png",
+      "image_sha256": "7705752a43aa1fb2cdb3366e3ff16743f7aff37b16b7f89b160b20a571f01f40",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 final original opened singly: whole L01 footprint fits, six actual room areas labelled from native finished-floor bounds; stocked sales aisles/produce/chilled cabinets/checkout, receiving storage racks/boxes, staff kitchenette/table, WC fixtures, service corridor, separate upper-entry corridor and stair treads visible. Header/floor programme, actual-camera north arrow,5m scale and18x14m footprint/storey/datum notes readable and outside building geometry. Technical top-down visibility intentionally removes ceilings/high walls; door/clearance/code certification not inferred. Modest furniture/CG simplification remains; not independent or photographic approval.",
+      "checked_utc": "2026-10-17T16:42:05.911435+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L01_cutaway": {
+      "view_id": "B01_L01_cutaway",
+      "image": ".cache/final-renders/B01_L01_cutaway.png",
+      "image_sha256": "5ed1bb6a3b3198d1c4bf49082dda9400325081a74cbbb923c5b4bcdb1e8f1796",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: sales floor has three tall stocked aisle assemblies (backs face this camera, stocks corroborated by paired interior/plan), refrigerated glass-door cabinets, produce display and checkout; receiving/storage, fitted staff kitchen with oven/hob/cabinets/fridge/table, WC fixtures, corridor/doors and timber U-stair/railings visible. Low-wall/ceiling removal and floating facade fascia are declared technical cutaway visibility, not absent supports in intact native. Six-room layout readable with paired labelled plan. Sparse/simplified dressing remains, no photographic/code/independent approval.",
+      "checked_utc": "2026-10-17T16:49:35.819815+00:00",
+      "independent_acceptance": false
+    },
     "D02": {
       "view_id": "D02",
       "image": ".cache/final-renders/D02.png",
@@ -9,12 +57,12 @@
         2560,
         1440
       ],
-      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
       "actual_original_opened": true,
       "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
       "decision": "PRODUCER_CHECKED",
-      "observed_findings": "Actual R10 2560x1440 original singly opened. P03 and P04 show full original hair/foreheads and unobstructed eyes/mouth; rejected hats and scarves absent, so earlier scalp intersection and collar/wrap defects removed from final outfits. Anatomically modelled faces, separated fingers, fitted jacket/shirt/trousers visible. Licensed textured hair remains visibly generic CG (especially shiny short-hair shell); not photographic scan quality or a photorealism certification. Scoped outfit/geometry producer check, not independent acceptance.",
-      "checked_utc": "2026-10-17T15:21:53.305884+00:00",
+      "observed_findings": "Actual2560x1440 R11 original singly opened: two licensed anatomical winter-clothed characters P03/P04, facial features/eyes, separate fingers, coat pockets/lapels/shirts and original hair visible; no optional hat/scarf or previously rejected accessory penetration. Explicit studio isolation, not a town-integration frame. Generic CG skin/hair/cloth remain: coarse shiny hair and smooth face surfaces fall short of photographic human realism. This is scoped geometry/outfit readability, NOT completion of the user high-realism acceptance target or independent approval.",
+      "checked_utc": "2026-10-17T16:49:35.902985+00:00",
       "independent_acceptance": false
     },
     "D08": {
@@ -25,12 +73,28 @@
         2560,
         1440
       ],
-      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
       "actual_original_opened": true,
       "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
       "decision": "PRODUCER_CHECKED",
-      "observed_findings": "Actual R10 original 2560x1440 singly opened at same macro camera as rejected R7/R8/R9 studies. Full face, mouth and collar visible. Rejected procedural hat/wrap/tail absent from final outfit; original full hair crown preserved, no clipped-under-cap mask. Hair crown is visibly polygonal and hair/coat remain generic textured CG rather than photographic/scanned strand detail. Scoped geometry/outfit regression checked; do not claim photographic-realism acceptance. Source anatomy/pose unchanged.",
-      "checked_utc": "2026-10-17T15:24:45.455991+00:00",
+      "observed_findings": "Actual2560x1440 R11 original singly opened: P06 profile, unobstructed mouth/nose/eye, coat lapel and shirt visible with no rejected scarf/collar intersection; original licensed long hair retained, no optional hat. Hair is visibly coarse/helmet-like and shiny at this macro scale, face/cloth still smooth CG. High-end human photographic-realism target remains OPEN; source/outfit integrity check only, not overall quality or independent acceptance.",
+      "checked_utc": "2026-10-17T16:49:35.952371+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L02_plan": {
+      "view_id": "B01_L02_plan",
+      "image": ".cache/final-renders/B01_L02_plan.png",
+      "image_sha256": "5317ea268cfaba721b6a08047c9ce83a2a36500317a06222fb095540dfab0db6",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original singly opened: complete L02 footprint and labelled six room areas, stockroom wall shelving/cartons, purchasing desk/chair/books/plant, staff kitchenette/table, lockers/bench, WC fixtures, corridor and U-stair opening visible. Technical header, north,5m scale,18x14m footprint/datum3.8m/storey3.2m readable. Office/stockroom furnishing is functional but sparse relative to generous room area, not a claim of lavish fully dressed photographic interiors. No physical clearance/code/independent approval inferred.",
+      "checked_utc": "2026-10-17T16:49:36.002545+00:00",
       "independent_acceptance": false
     }
   }

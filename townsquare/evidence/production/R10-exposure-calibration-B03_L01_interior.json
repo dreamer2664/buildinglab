@@ -1,0 +1,17 @@
+{
+  "view": "B03_L01_interior",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "opened_derivative_sha256": "5ef464ad1f61c2139e4203206170c7ba9756a4577c8470ffd87ec0e019660965",
+  "calibration_dimensions": [
+    384,
+    216
+  ],
+  "samples": 8,
+  "base_preset_exposure_EV": 0.35,
+  "calibrated_absolute_exposure_EV": 1.797,
+  "camera_exposure_bias_EV": 1.447,
+  "measured_display_encoded_median": 0.5302463003575801,
+  "measured_p95": 0.7861137935400009,
+  "method": "Low-resolution actual source render saved as linear32bitEXR. Standard AgX camera exposure binary search targets display-encoded median .53, verified against a128/255 byte-PNG pixel test; geometry/materials/lights/source untouched. Preview/measurement is NOT final quality acceptance. Actual native-resolution final must be separately opened.",
+  "inspection": "NOT INFERRED FROM MEASUREMENT"
+}
