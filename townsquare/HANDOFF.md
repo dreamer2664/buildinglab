@@ -1,3 +1,53 @@
+# R10 actual current execution / frozen
+
+Full nativeSHA `b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9`; geometry signature `6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8`; actual native+derivative fresh reopen PASS164rooms36people. All12 source rigs actually rebuilt with body/pose conservation; final outfits use original licensed hair, clothing, bags; optional procedural hats/scarves explicitly disabled in rigs and excluded from final town meshes. Original R7 architecture/interiors exact before/after conservation PASS. Full92 final native-pixel render process `full-resolution-town-and-interio-c7e188f5` RUNNING, order D02,D08,H02,B01_L01_interior then rest; explicit Cycles sample cap24 with unchanged dimensions, standard OIDN and full noisy/source records. Zero R10 images manually accepted yet. No source mutation while renders run. Actual own card lease renewed until19:20:04Z. R10 exports25+whole, editable25checks, public exactnative and portable visual proofs,92individual inspections, final packages/gallery/audit/source push and independent acceptance pending. Continue without approvals.
+
+---
+
+# R10 current — final outfit uses original licensed hair/clothing
+
+R9 D02 actually opened singly: P04 fit coherent but P03 subdivided cap intersects forehead, so R9 rejected (D08 had been producer checked). No false D02 acceptance recorded. R10 removes all optional experimental procedural hats as well as scarves from delivered static outfits; labelled disabled editable studies retained separately in person rigs. Full original licensed hair/scalp restored (no mask). User did not require hats/scarves. This is actual removal of defective optional geometry, not camera cropping or hidden body modification. Jackets/shirts/trousers/shoes, bags, anatomical meshes and poses remain original licensed assets. R10 all12 rebuild, native/reopens/finals/export/public checks not yet executed. R7 architecture/interiors still exact base. R9 public backup anonymously byte/CRC/every-member verified at candidate-20261017-0d0aeaf84ed8; not final acceptance. R9 exporter stopped at P09 after13 architecture/public and P01..P08 exported/reimported; no25whole claim.
+
+---
+
+# R9 actual current execution
+
+All12 full original rigs rebuilt, raw anatomical/pose signatures conserved. Rejected OPTIONAL scarf geometry retained explicitly disabled only in editable rigs; excluded from final static instances. Actual full native and geometry-identical derivative fresh reopens PASS164rooms36people. Full nativeSHA `0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd`; signature `5a278ffc969f0a88bb1d2e7686b51c43cc489ed96d6d0f2aee69eeba5c45e0a9`. R7 architecture/interiors exact before/after signature conservation PASS. Actual R9 D08 final2560x1440 singly opened and manually recorded: mouth/face visible, no scarf collision, rounded cap/no detached seam strokes; generic licensed CG quality, no photorealism claim. Only1 R9 original review so far. Process corrected-character-originals-962e76c6 renders remaining7 originals; portable-models-and-editable-com-c7a3e1d4 exports25+whole then actual25editable reopens. Verified-editable-scene-backup-3e030cf5 builds/uploads/anonymously verifies R9 master+12rig public backup; not final acceptance. Remaining84 finals, full individual manual inspections, portable visual/public proof, final packages/gallery/audit/source push and independent non-owner acceptance pending. No approval pauses.
+
+---
+
+# R9 current — optional scarf removed, not a framing workaround
+
+Actual R8 full2560x1440 D08 reopened singly. Shell/seam correction works and tail stepping reduced, but raised wrap covers mouth: REJECTED. Exact geometry intersection regression was insufficient for visual acceptance. R8 render preserved `.cache/final-R8-rejected-studies`; R8 fit reports/history preserved. R8 export stopped at P02 after buildings/public/P01 had exported/reimported. R9 removes the OPTIONAL scarf accessory from final outfits entirely (not required by user), preserving explicitly disabled editable original study parts in rigs; final town static meshes exclude them. Actual licensed clothing, anatomical body/pose, hair and rounded caps retained. No hiding of a known intersection by camera framing. R9 all12 rebuild/native/reopen/macro/render/export remain to execute. R7 architecture/interiors remain exact base. Runtime restored anonymously from public R7 master and original rigs; every manifest-member digest and CRC checked. Cache was not persisted across user turn, so earlier R7 render PNGs are no longer local, only their honest five manual records remain.
+
+---
+
+# R8 in progress — R7 macro rejected
+
+R7 D08 actual full-resolution original reopened singly: parka collar visibly penetrates wrap; tail has stepped profile and shell has polygonal silhouette/source seam strokes. R7 is NOT final accepted. All8 R7 character images preserved `.cache/final-R7-rejected-studies`; five recorded inspections preserved `evidence/production/history-R7`. D06/D07 were actually opened but not written; no invented review records. R7 exporter exited0 all25+merged f7fcd87834ec55039db4a05229eafc72c8f001ab5d48369a2a2c449ac5df5b51; import digest refresh not yet done. Source switched to R8 separate native outputs. P06 prototype bounded affine wrap fit actual narrow-phase triangle-edge intersections509→0, original anatomy/pose untouched, wrap +75mmZ/-15mmY. Failed nearest-projection/broad-phase-only prototypes were not saved as delivered rigs. R8 full12 rebuild/current native/render/reopens NOT yet run. Live own339c verified claimed by blender, actual lease renewed until11:57:14Z. Continue without approval pauses.
+
+---
+
+# R7 current progress
+
+Actual final2560x1440 D02,D01,D03 individually opened and manually SHA/source-bound producer checked. Detached cap stitches corrected in actual D02; P04 eyes clear; P06 smooth hair/cap hem. `final-individual-image-inspections.json` has exactly3 actual records, not8/92. R7 character8-frame process e7e3a228 continues. R7 all25portable export/reimport process `christmas-square-final-portable--4ceb8cff` RUNNING. All12 current R7 editable rigs ACTUALLY fresh-reopenedPASS with saved anatomy/pose signature and evaluated hem-clearance regressions; native-subasset-P01..P12.json. The old driver printed ALL25 even with12 selected: output count was incorrect; code corrected to selected-count, do NOT infer13building/public reopens from that line. R7 native building/public reopens still pending after export.
+
+---
+
+# Latest R7 — current, supersedes R6 execution update
+
+R6 full-resolution D01 and D02 ACTUALLY opened separately. D02 revealed two protruding vertical knit strokes at P03 cap edge. Actual history reports prove R5/R6 narrower selector omitted18 `PID_RIB`/`PID_RIB.*` components, leaving them detached when shell/cuff fitted. R7 includes these exact cap-rib names and actually asserts original cap-relative matrix conservation for EVERY piece (20parts on8 capped variants), in addition to R6 exact hair-below-hem and all12 raw-anatomy/pose conservation. All12 R7 rigs ACTUALLY rebuilt, all assertions PASS. R6 final/export workers STOPPED:7 original images generated, only D01/D02 opened, D03..D07 uninspected/D08 interrupted. Histories `.cache/final-R6-rejected-studies`, `R6-individual-original-inspections.json`, `R6-rejected-final-render-manifest.json`. R6 export incomplete (stopped nearB10). No accepted final frames yet.
+
+Current R7 full native `.cache/master/Winterlichtplatz-R7.blend` SHA `d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b`; derivative SHA `7e122f0a0e755c04565087ff80352839144d7bc9c7ce68d9abd03b8906da131b`. ACTUAL full native+derivative reopen PASS,1356objects/112packedimages/92presets; signature `98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba`. All26floors164rooms36people. Current rigs `.cache/fixed-people/rigs`; R6 old rigs/reports preserved `rigs-R6`/`history-R6`. Native inputs FROZEN.
+
+RUNNING R7 full2560x1440 character originals process `christmas-square-complete-high-r-e7e3a228`, order D02,D01,D03,D04,D05,D06,D07,D08. Inspect actual D02 FIRST for detached-rib correction, then all8 actual originals before broader final pass. It is not the full92 batch. After8checked, `render_batch.py` resumes these exactSHA-verified frames and renders remaining84. R7 export NOT YET STARTED. All scripts have been switched toR7, including audit/gallery/public proof scripts.
+
+R6 DURABLE public backup successfully anonymous byte/CRC/every-member verified: `townsquare/blender/candidate-20261017-43692020a8b1`; master304378962bytes/SHA053a71125a430e9bc62014638cbcfae05fe34a95aa0d32da85cf13a9d33a473b;12rigs500770696bytes/SHAa5c0447b1e998a4a85c2486a71e213b720df31e234e6274256b7fe9b154493c1; ledger761dbaefa139dff19ed43d6bbd2b2c1aedda6752. Producer checkpoint, NOT final acceptance; superseded by R7 cap-rib correction. R7 not publicly backed yet. Do not present earlierR3/R5/R6 candidates as final.
+
+Latest actual verified source head `25f0e58fe84709422dc48635b0945baea33be6e3`/DRAFTPR6 (predatesR7); latest truthful own lease11:28:18Z2026-10-17. Need nextactual source push afterR7checks. `validate_subasset.py`/`validate_all_subassets.py`, portable render proofs, public-native direct smoke, final evidence audit and gallery builder are WRITTEN but UNEXECUTED. Final92/native component/public/GLB proof/independent acceptance all still required. No self-review. Continue without approvals.
+
+---
+
 # R6 execution update
 
 All6 R6 paired studio originals D01..D06 ACTUALLY opened with separate single-file calls, all12 variants covered. P03/P09 crown protrusions absent, P04 eyes clear, P06 sawtooth absent; fitted scarf outside coat. `R6-all12-individual-pilot-inspections.json`. Proceeded to final resolution; no photorealism/independent acceptance claim.

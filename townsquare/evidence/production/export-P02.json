@@ -1,14 +1,14 @@
 {
   "component": "P02",
-  "source_native_sha256": "71d0b9bc620f93982d6ff41bc41c59e16f7a3c0c4d457943cc2f908b73c713d0",
+  "source_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
   "glb": ".cache/final-components/GLB/P02.glb",
-  "glb_sha256": "1b59b6bc1e2af80d1a1ca17cef93b1aa6ec3703fe7a73b256e4b4b48111ce814",
-  "glb_bytes": 3460580,
+  "glb_sha256": "50e4ab58044668e23d6520399dce1bfd317e6df9ce2e5dd531363490f6d05039",
+  "glb_bytes": 3620020,
   "expected_geometry": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 67218,
-    "polygons_instance_sum": 63210,
-    "triangles_instance_sum": 126408,
+    "vertices_instance_sum": 59898,
+    "polygons_instance_sum": 55938,
+    "triangles_instance_sum": 111876,
     "bounds_min": [
       -16.382495880126953,
       -16.22759437561035,

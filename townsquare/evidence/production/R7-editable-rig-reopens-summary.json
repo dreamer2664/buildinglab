@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "actual_selected_rig_count": 12,
+  "rigs": [
+    {
+      "asset": "P01",
+      "sha256": "7cab48f56f8e918028b07834eb37ba4665baa0e23391c2aac5bc7069e2bb0bed"
+    },
+    {
+      "asset": "P02",
+      "sha256": "1cde3da3872597db065e3f9ca75ea989ef8df2680b86cb3faaaec8741c2f91ba"
+    },
+    {
+      "asset": "P03",
+      "sha256": "e53e2858e3d9be26353fe5c6f23b473dd753aa20d7464817f2026ed8ac0ff66f"
+    },
+    {
+      "asset": "P04",
+      "sha256": "647b5feee2a9b9d5e53b3804edb43845cf272fd53776796b092f2e27c93ab358"
+    },
+    {
+      "asset": "P05",
+      "sha256": "0e24955d624b767f7753c505e773adc9f5d47b01d55ed0a18a603991e9419ab0"
+    },
+    {
+      "asset": "P06",
+      "sha256": "dbcee6343635f9a8caa65dfe020fe0c739ff7c09c9c885fbfb91d9c03ebe5bb2"
+    },
+    {
+      "asset": "P07",
+      "sha256": "5fafb1828308bbc339c8dc76e4607ed5f01c3d217fd77bb0fa194bb7d7cf732a"
+    },
+    {
+      "asset": "P08",
+      "sha256": "0db4a74c28ea8ee502cf6a0b545d0f013f8fbb0b13515f3ed0c1e2560371995b"
+    },
+    {
+      "asset": "P09",
+      "sha256": "ec0164d342d4a4b7790b12e1b9e90940bce2b4ff01b40ef198a2b7b19c8eca24"
+    },
+    {
+      "asset": "P10",
+      "sha256": "43b3a045da8312f65b7cdff48e792e799b4d28760b7a602b11f41b1175d6b265"
+    },
+    {
+      "asset": "P11",
+      "sha256": "078aa4a2eb539212ccdc61030fb5dca924880cd39cf56234993aeb1d08213c23"
+    },
+    {
+      "asset": "P12",
+      "sha256": "258b64e665f13bf9f8cb281ed7114877004dc9e042a5d6ff24287802e490d835"
+    }
+  ],
+  "not_claimed": "No13building/public native reopens are inferred; earlier selected-count console textALL25 was corrected. This summary covers12rigs only."
+}

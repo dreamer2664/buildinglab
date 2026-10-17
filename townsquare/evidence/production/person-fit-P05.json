@@ -2,56 +2,22 @@
   "person": "P05",
   "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
   "corrected_rig": ".cache/fixed-people/rigs/P05.blend",
-  "corrected_rig_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7",
+  "corrected_rig_sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
   "anatomy_and_pose_signature_before": "ec957acaa779aad6178a1f424160522fa6f9515d7cdca3fa4daa5ed190e978cd",
   "anatomy_and_pose_signature_after": "ec957acaa779aad6178a1f424160522fa6f9515d7cdca3fa4daa5ed190e978cd",
   "anatomy_and_pose_conserved": true,
   "fixes": [
     {
-      "part": "P05_SCARF_TAIL",
-      "fix": "Replaced intersecting flat box tail with double-sided, gently folded textile surface, fitted13mm outside evaluated coat front per height row.",
-      "rows": 30,
-      "columns": 8,
-      "source_world_z_interval": [
-        1.079432725906372,
-        1.40818452835083
-      ]
+      "part": "optional scarf and fringe studies",
+      "fix": "Removed all optional scarf components from final outfit after actual close-ups rejected collar intersection and raised-wrap mouth occlusion. Original editable study meshes retained explicitly labelled, disabled for rendering; final town static meshes contain none of this rejected geometry. People keep actual licensed jacket, shirt, trousers, shoes, hair."
     },
     {
-      "part": "P05_SCARF_FRINGE",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.001",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.002",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.003",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.004",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.005",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.006",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
-    },
-    {
-      "part": "P05_SCARF_FRINGE.007",
-      "fix": "Aligned existing yarn fringe with corrected textile hem"
+      "part": "optional procedural hat studies",
+      "fix": "Actual R9 D02 P03 forehead protrudes through subdivided hat: rejected. All optional procedural hat parts disabled in editable rigs and omitted from final static outfits. Full original licensed hair remains unmasked. Original skin, clothing, armature and authored pose conserved; no camera framing workaround."
     }
   ],
-  "static_vertices": 22900,
-  "static_faces": 22020,
+  "static_vertices": 20068,
+  "static_faces": 19194,
   "static_instances": [
     "CROWD_05_P05",
     "CROWD_17_P05",

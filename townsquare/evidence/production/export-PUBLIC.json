@@ -1,9 +1,9 @@
 {
   "component": "PUBLIC",
-  "source_native_sha256": "71d0b9bc620f93982d6ff41bc41c59e16f7a3c0c4d457943cc2f908b73c713d0",
+  "source_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
   "glb": ".cache/final-components/GLB/PUBLIC.glb",
-  "glb_sha256": "9e3ae8a1cbe9aa1262a4d63d71483d2d3c1457ebeea085165cf4b6d4503c9cd0",
-  "glb_bytes": 17035172,
+  "glb_sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8",
+  "glb_bytes": 19348668,
   "expected_geometry": {
     "mesh_objects": 25,
     "vertices_instance_sum": 194694,

@@ -1,13 +1,15 @@
 {
   "component": "P12",
+  "glb_sha256": "f6654f2f323380a2e57e9798f20bfced1f40119f4eabcdeef6249549b8f2c3d3",
+  "source_full_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
   "glb": ".cache/final-components/GLB/P12.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 79992,
-    "polygons_instance_sum": 71538,
-    "triangles_instance_sum": 143856,
+    "vertices_instance_sum": 79731,
+    "polygons_instance_sum": 71352,
+    "triangles_instance_sum": 143478,
     "bounds_min": [
       4.883578300476074,
       -23.31833839416504,
@@ -32,7 +34,7 @@
   },
   "actual": {
     "mesh_objects": 3,
-    "triangles_instance_sum": 143856,
+    "triangles_instance_sum": 143478,
     "bounds_min": [
       4.883578300476074,
       -23.31833839416504,

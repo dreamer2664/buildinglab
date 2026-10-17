@@ -1,14 +1,14 @@
 {
   "component": "P08",
-  "source_native_sha256": "71d0b9bc620f93982d6ff41bc41c59e16f7a3c0c4d457943cc2f908b73c713d0",
+  "source_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
   "glb": ".cache/final-components/GLB/P08.glb",
-  "glb_sha256": "849c737249f5d502a36c2cbf744612c68d72122d1b35d1fb9ee6087585eabe76",
-  "glb_bytes": 3456312,
+  "glb_sha256": "b0fbf017ea47013649d636c93f4e090c1f36efbf18aba28979654d83ab34fae7",
+  "glb_bytes": 3621240,
   "expected_geometry": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 66870,
-    "polygons_instance_sum": 62856,
-    "triangles_instance_sum": 125712,
+    "vertices_instance_sum": 59898,
+    "polygons_instance_sum": 55938,
+    "triangles_instance_sum": 111876,
     "bounds_min": [
       -16.302169799804688,
       -19.199512481689453,

@@ -1,0 +1,186 @@
+{
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "8b15d66290574f6847f66b9b4ada188870ae5c08a521d3f5be6f963fac17aae3",
+    "noisy_original_sha256": "aca33a2521370c968d8d2dfd108692701a3a814ae9de1d0804d569a731677a1f",
+    "noisy_original": ".cache/final-renders/D02.noisy.png",
+    "original_before_denoise_sha256": "aca33a2521370c968d8d2dfd108692701a3a814ae9de1d0804d569a731677a1f",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 96.42,
+    "visual_inspection": "PENDING"
+  },
+  "D01": {
+    "view_id": "D01",
+    "title": "Studio asset inspection / P01 and P02",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D01.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "cf87500f2038b3536c4a76a687294a88b5adb64bfdee790f0b0d7606ecf25277",
+    "noisy_original_sha256": "7c8e4eae2f7ca6b36525e1b6bda7f042949df59d6d8baa9adf985ed1a2b628b3",
+    "noisy_original": ".cache/final-renders/D01.noisy.png",
+    "original_before_denoise_sha256": "7c8e4eae2f7ca6b36525e1b6bda7f042949df59d6d8baa9adf985ed1a2b628b3",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D01.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 101.76,
+    "visual_inspection": "PENDING"
+  },
+  "D03": {
+    "view_id": "D03",
+    "title": "Studio asset inspection / P05 and P06",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D03.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "2f4365c3d773129187f652aa453717a6f76b0a676f0949287432a0dcb349588a",
+    "noisy_original_sha256": "834795b59324ed2471465cb772bfd9e516a4c9d41033cb327100894be09018fc",
+    "noisy_original": ".cache/final-renders/D03.noisy.png",
+    "original_before_denoise_sha256": "834795b59324ed2471465cb772bfd9e516a4c9d41033cb327100894be09018fc",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D03.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 95.79,
+    "visual_inspection": "PENDING"
+  },
+  "D04": {
+    "view_id": "D04",
+    "title": "Studio asset inspection / P07 and P08",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D04.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "fe836628d3e2552598f5605debe657a2725e9dc0dac9a998c59a2bbc68a95024",
+    "noisy_original_sha256": "55bdd84d56b38a2c8bb75276524cc28c2e7f064ae9d12ff5cf267c205bf53b3b",
+    "noisy_original": ".cache/final-renders/D04.noisy.png",
+    "original_before_denoise_sha256": "55bdd84d56b38a2c8bb75276524cc28c2e7f064ae9d12ff5cf267c205bf53b3b",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D04.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 111.91,
+    "visual_inspection": "PENDING"
+  },
+  "D05": {
+    "view_id": "D05",
+    "title": "Studio asset inspection / P09 and P10",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D05.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "8acb43317b09113b9a143262104334abf7d582790193687873e95f510e11d11e",
+    "noisy_original_sha256": "de0ad0e2b1b742a39c41ee003dbb9c847a21bdfae62e29268730dde41142466e",
+    "noisy_original": ".cache/final-renders/D05.noisy.png",
+    "original_before_denoise_sha256": "de0ad0e2b1b742a39c41ee003dbb9c847a21bdfae62e29268730dde41142466e",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D05.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 104.56,
+    "visual_inspection": "PENDING"
+  },
+  "D06": {
+    "view_id": "D06",
+    "title": "Studio asset inspection / P11 and P12",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D06.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "094b2be11d68b9116fbfe78f8305c46461fb0c74773630e71c40dbcd67d272cf",
+    "noisy_original_sha256": "6505deab4128cf555eca544b6cb947ddf7ef2d688b6cd32273439b3899042e88",
+    "noisy_original": ".cache/final-renders/D06.noisy.png",
+    "original_before_denoise_sha256": "6505deab4128cf555eca544b6cb947ddf7ef2d688b6cd32273439b3899042e88",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D06.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 198.9,
+    "visual_inspection": "PENDING"
+  },
+  "D07": {
+    "view_id": "D07",
+    "title": "P01 / full-body fit and ground contact",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D07.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "0460fc7796e597accac06bedacc08885475caa5267cdfeed40cd60e68ad53016",
+    "noisy_original_sha256": "9c7230609b6d2318b50cc2e58acdcd00db5fdd8e1e315a5ef99ca50fffa6eac0",
+    "noisy_original": ".cache/final-renders/D07.noisy.png",
+    "original_before_denoise_sha256": "9c7230609b6d2318b50cc2e58acdcd00db5fdd8e1e315a5ef99ca50fffa6eac0",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D07.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 86.94,
+    "visual_inspection": "PENDING"
+  },
+  "D08": {
+    "view_id": "D08",
+    "title": "P06 / face and fabric detail",
+    "kind": "people",
+    "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+    "geometry_uv_pose_material_signature": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+    "image": ".cache/final-renders/D08.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "83f74e1f4100b44b48ec4fab7ec6689e3587b2b2ce1b14f3abd1649b1dfa4bd5",
+    "noisy_original_sha256": "8c05d3a08a9ed94728bcd152e96a7064ac37c3c916da2b1d0c227b062029968e",
+    "noisy_original": ".cache/final-renders/D08.noisy.png",
+    "original_before_denoise_sha256": "8c05d3a08a9ed94728bcd152e96a7064ac37c3c916da2b1d0c227b062029968e",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D08.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 98.89,
+    "visual_inspection": "PENDING"
+  }
+}

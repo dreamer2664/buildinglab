@@ -5,10 +5,10 @@ import os,sys,subprocess,json,hashlib,time,argparse,fcntl
 from pathlib import Path
 from PIL import Image
 R=Path(__file__).resolve().parents[2];B='/home/user/.cache/blender-4.3.2-linux-x64/blender';LIB='/home/user/.cache/blender-4.3.2-linux-x64/lib'
-p=argparse.ArgumentParser();p.add_argument('--pilot',action='store_true');p.add_argument('--views',default='');args=p.parse_args();all_frames=json.loads((R/'design/production-views.json').read_text())['frames']
+p=argparse.ArgumentParser();p.add_argument('--pilot',action='store_true');p.add_argument('--views',default='');p.add_argument('--sample-limit',type=int,default=0);args=p.parse_args();all_frames=json.loads((R/'design/production-views.json').read_text())['frames']
 ids=args.views.split(',') if args.views else (['B01_L01_interior','B01_L03_cutaway','B03_L01_interior','D01','H02'] if args.pilot else [f['id'] for f in all_frames if f['id'].startswith('D')]+[f['id'] for f in all_frames if f['kind'] in ['plan','cutaway','interior']]+[f['id'] for f in all_frames if f['id'].startswith('H')])
-frames=[next(f for f in all_frames if f['id']==id) for id in ids];outrel='.cache/pilot-R6' if args.pilot else '.cache/final-renders';out=R/outrel;out.mkdir(parents=True,exist_ok=True);logs=R/'.cache/render-logs';logs.mkdir(parents=True,exist_ok=True)
-meta_path=R/'evidence/production'/('pilot-render-manifest.json' if args.pilot else 'final-render-manifest.json');records=json.loads(meta_path.read_text()) if meta_path.exists() else {};current_source_sha256=json.loads((R/'evidence/production/R6-native-build.json').read_text())['full_resolution_native_sha256'];records={k:v for k,v in records.items() if v.get('source_native_sha256')==current_source_sha256}
+frames=[next(f for f in all_frames if f['id']==id) for id in ids];outrel='.cache/pilot-R10' if args.pilot else '.cache/final-renders';out=R/outrel;out.mkdir(parents=True,exist_ok=True);logs=R/'.cache/render-logs';logs.mkdir(parents=True,exist_ok=True)
+meta_path=R/'evidence/production'/('pilot-render-manifest.json' if args.pilot else 'final-render-manifest.json');records=json.loads(meta_path.read_text()) if meta_path.exists() else {};current_source_sha256=json.loads((R/'evidence/production/R10-native-build.json').read_text())['full_resolution_native_sha256'];records={k:v for k,v in records.items() if v.get('source_native_sha256')==current_source_sha256}
 env={k:os.environ[k] for k in ['PATH','HOME','LANG','LD_LIBRARY_PATH'] if k in os.environ};env.update(OMP_NUM_THREADS='2',OPENBLAS_NUM_THREADS='1')
 def digest(p):
  h=hashlib.sha256()
@@ -22,11 +22,12 @@ def run_frame(f,name,border=None):
   if digest(image)==old['image_sha256_before_postprocess']:return old
  E=env.copy();E.update(SQUARE_VIEW=f['id'],SQUARE_OUT=outrel,SQUARE_IMAGE_NAME=name)
  if args.pilot:E.update(SQUARE_SCALE='.4' if f['resolution'][0]==2560 else '.3',SQUARE_SAMPLES='24' if f['kind']=='people' else '16')
+ if args.sample_limit:E['SQUARE_SAMPLES']=str(min(f['samples'],args.sample_limit))
  if border:E['SQUARE_BORDER']=json.dumps(border)
  log=logs/(name+'.log')
  with (R/'.cache/blender-job.lock').open('w') as lock:
   fcntl.flock(lock,fcntl.LOCK_EX)
-  with log.open('w') as logf:subprocess.run([B,'--factory-startup','-b',str(R/'.cache/master/Winterlichtplatz-render-R6.blend'),'-t','2','--python-exit-code','1','--python',str(R/'tools/production/render_frame.py')],env=E,cwd=R,stdout=logf,stderr=subprocess.STDOUT,check=True)
+  with log.open('w') as logf:subprocess.run([B,'--factory-startup','-b',str(R/'.cache/master/Winterlichtplatz-render-R10.blend'),'-t','2','--python-exit-code','1','--python',str(R/'tools/production/render_frame.py')],env=E,cwd=R,stdout=logf,stderr=subprocess.STDOUT,check=True)
  return json.loads(meta.read_text())
 for f in frames:
  id=f['id'];final=out/(id+'.png');noisy=final.with_suffix('.noisy.png')

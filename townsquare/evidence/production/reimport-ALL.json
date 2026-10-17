@@ -1,11 +1,13 @@
 {
   "component": "ALL",
-  "glb": ".cache/final-components/Winterlichtplatz-R5.glb",
+  "glb_sha256": "f7fcd87834ec55039db4a05229eafc72c8f001ab5d48369a2a2c449ac5df5b51",
+  "source_full_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+  "glb": ".cache/final-components/Winterlichtplatz-R7.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 936,
-    "triangles_instance_sum": 3565202,
+    "triangles_instance_sum": 3551771,
     "bounds_min": [
       -56.0,
       -50.0,
@@ -280,7 +282,7 @@
   },
   "actual": {
     "mesh_objects": 936,
-    "triangles_instance_sum": 3565202,
+    "triangles_instance_sum": 3551771,
     "bounds_min": [
       -56.0,
       -50.0,

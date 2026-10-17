@@ -10,8 +10,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7cab48f56f8e918028b07834eb37ba4665baa0e23391c2aac5bc7069e2bb0bed"
       },
       "matrix_world": [
         [
@@ -76,8 +76,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7cab48f56f8e918028b07834eb37ba4665baa0e23391c2aac5bc7069e2bb0bed"
       },
       "matrix_world": [
         [
@@ -142,8 +142,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7cab48f56f8e918028b07834eb37ba4665baa0e23391c2aac5bc7069e2bb0bed"
       },
       "matrix_world": [
         [
@@ -208,8 +208,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1cde3da3872597db065e3f9ca75ea989ef8df2680b86cb3faaaec8741c2f91ba"
       },
       "matrix_world": [
         [
@@ -272,8 +272,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1cde3da3872597db065e3f9ca75ea989ef8df2680b86cb3faaaec8741c2f91ba"
       },
       "matrix_world": [
         [
@@ -336,8 +336,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1cde3da3872597db065e3f9ca75ea989ef8df2680b86cb3faaaec8741c2f91ba"
       },
       "matrix_world": [
         [
@@ -400,8 +400,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "e53e2858e3d9be26353fe5c6f23b473dd753aa20d7464817f2026ed8ac0ff66f"
       },
       "matrix_world": [
         [
@@ -464,8 +464,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "e53e2858e3d9be26353fe5c6f23b473dd753aa20d7464817f2026ed8ac0ff66f"
       },
       "matrix_world": [
         [
@@ -528,8 +528,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "e53e2858e3d9be26353fe5c6f23b473dd753aa20d7464817f2026ed8ac0ff66f"
       },
       "matrix_world": [
         [
@@ -592,8 +592,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "647b5feee2a9b9d5e53b3804edb43845cf272fd53776796b092f2e27c93ab358"
       },
       "matrix_world": [
         [
@@ -658,8 +658,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "647b5feee2a9b9d5e53b3804edb43845cf272fd53776796b092f2e27c93ab358"
       },
       "matrix_world": [
         [
@@ -724,8 +724,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "647b5feee2a9b9d5e53b3804edb43845cf272fd53776796b092f2e27c93ab358"
       },
       "matrix_world": [
         [
@@ -790,8 +790,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0e24955d624b767f7753c505e773adc9f5d47b01d55ed0a18a603991e9419ab0"
       },
       "matrix_world": [
         [
@@ -854,8 +854,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0e24955d624b767f7753c505e773adc9f5d47b01d55ed0a18a603991e9419ab0"
       },
       "matrix_world": [
         [
@@ -918,8 +918,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0e24955d624b767f7753c505e773adc9f5d47b01d55ed0a18a603991e9419ab0"
       },
       "matrix_world": [
         [
@@ -982,8 +982,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "dbcee6343635f9a8caa65dfe020fe0c739ff7c09c9c885fbfb91d9c03ebe5bb2"
       },
       "matrix_world": [
         [
@@ -1046,8 +1046,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "dbcee6343635f9a8caa65dfe020fe0c739ff7c09c9c885fbfb91d9c03ebe5bb2"
       },
       "matrix_world": [
         [
@@ -1110,8 +1110,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "dbcee6343635f9a8caa65dfe020fe0c739ff7c09c9c885fbfb91d9c03ebe5bb2"
       },
       "matrix_world": [
         [
@@ -1174,8 +1174,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "5fafb1828308bbc339c8dc76e4607ed5f01c3d217fd77bb0fa194bb7d7cf732a"
       },
       "matrix_world": [
         [
@@ -1240,8 +1240,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "5fafb1828308bbc339c8dc76e4607ed5f01c3d217fd77bb0fa194bb7d7cf732a"
       },
       "matrix_world": [
         [
@@ -1306,8 +1306,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "5fafb1828308bbc339c8dc76e4607ed5f01c3d217fd77bb0fa194bb7d7cf732a"
       },
       "matrix_world": [
         [
@@ -1372,8 +1372,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0db4a74c28ea8ee502cf6a0b545d0f013f8fbb0b13515f3ed0c1e2560371995b"
       },
       "matrix_world": [
         [
@@ -1436,8 +1436,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0db4a74c28ea8ee502cf6a0b545d0f013f8fbb0b13515f3ed0c1e2560371995b"
       },
       "matrix_world": [
         [
@@ -1500,8 +1500,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0db4a74c28ea8ee502cf6a0b545d0f013f8fbb0b13515f3ed0c1e2560371995b"
       },
       "matrix_world": [
         [
@@ -1564,8 +1564,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "ec0164d342d4a4b7790b12e1b9e90940bce2b4ff01b40ef198a2b7b19c8eca24"
       },
       "matrix_world": [
         [
@@ -1628,8 +1628,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "ec0164d342d4a4b7790b12e1b9e90940bce2b4ff01b40ef198a2b7b19c8eca24"
       },
       "matrix_world": [
         [
@@ -1692,8 +1692,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "ec0164d342d4a4b7790b12e1b9e90940bce2b4ff01b40ef198a2b7b19c8eca24"
       },
       "matrix_world": [
         [
@@ -1756,8 +1756,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "43b3a045da8312f65b7cdff48e792e799b4d28760b7a602b11f41b1175d6b265"
       },
       "matrix_world": [
         [
@@ -1822,8 +1822,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "43b3a045da8312f65b7cdff48e792e799b4d28760b7a602b11f41b1175d6b265"
       },
       "matrix_world": [
         [
@@ -1888,8 +1888,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "43b3a045da8312f65b7cdff48e792e799b4d28760b7a602b11f41b1175d6b265"
       },
       "matrix_world": [
         [
@@ -1954,8 +1954,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "078aa4a2eb539212ccdc61030fb5dca924880cd39cf56234993aeb1d08213c23"
       },
       "matrix_world": [
         [
@@ -2018,8 +2018,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "078aa4a2eb539212ccdc61030fb5dca924880cd39cf56234993aeb1d08213c23"
       },
       "matrix_world": [
         [
@@ -2082,8 +2082,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "078aa4a2eb539212ccdc61030fb5dca924880cd39cf56234993aeb1d08213c23"
       },
       "matrix_world": [
         [
@@ -2146,8 +2146,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "258b64e665f13bf9f8cb281ed7114877004dc9e042a5d6ff24287802e490d835"
       },
       "matrix_world": [
         [
@@ -2210,8 +2210,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "258b64e665f13bf9f8cb281ed7114877004dc9e042a5d6ff24287802e490d835"
       },
       "matrix_world": [
         [
@@ -2274,8 +2274,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
+        "stage": "R7_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "258b64e665f13bf9f8cb281ed7114877004dc9e042a5d6ff24287802e490d835"
       },
       "matrix_world": [
         [

@@ -55,3 +55,7 @@ Actual original2560x1440 D02/D04 exposed residual sawtooth mask edges and too-lo
 ## R6 cap-hem regression
 
 R5 previews exposed lateral protrusions at P03/P09 despite smoother edges. R6 keeps the posed-eyebrow fit but clips hair exactly0.5mm below lowest cap-part edge using full-range world-z-linear weights, not a clamped narrow band. Actual evaluated hair max-z constraints pass on every capped mesh; raw anatomical mesh and rig pose conserved. This is geometry/clothing-fit evidence, not photo-realism or independent acceptance.
+
+## R7 complete cap assembly
+
+Full-resolution D02 exposed that18 original vertical knit ribs were omitted from the R5/R6 fitting selector. R7 moves exact PID_RIB/PID_RIB.* parts with cap shell/cuff, verifying original cap-relative matrices remain unchanged for all20 cap pieces. R6 exact hair-hem clearance, R5 posed-eyebrow fit and all12 anatomical/rig-pose conservation retained. Prior candidates stay historical, not final accepted work.

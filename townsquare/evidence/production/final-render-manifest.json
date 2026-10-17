@@ -1,94 +1,25 @@
 {
-  "D01": {
-    "view_id": "D01",
-    "title": "Studio asset inspection / P01 and P02",
-    "kind": "people",
-    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
-    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
-    "image": ".cache/final-renders/D01.png",
-    "dimensions": [
-      2560,
-      1440
-    ],
-    "final_sha256": "b45bd80a18998495758206fff4175498c6e79026528ee8962d3ce53a83ed66fe",
-    "noisy_original_sha256": "541b80d566121b97e4bed541ca21a61d430c099aae95093b180c28a9a9bb3ab5",
-    "noisy_original": ".cache/final-renders/D01.noisy.png",
-    "original_before_denoise_sha256": "541b80d566121b97e4bed541ca21a61d430c099aae95093b180c28a9a9bb3ab5",
-    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
-    "render_reports": [
-      ".cache/final-renders/D01.render.json"
-    ],
-    "tile_assembly": null,
-    "elapsed_seconds": 91.43,
-    "visual_inspection": "PENDING"
-  },
   "D02": {
     "view_id": "D02",
     "title": "Studio asset inspection / P03 and P04",
     "kind": "people",
-    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
-    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
     "image": ".cache/final-renders/D02.png",
     "dimensions": [
       2560,
       1440
     ],
-    "final_sha256": "4b285bcdbefa3f6bd6c93f247b78bd920f1879f360d553a235d8b7c603552409",
-    "noisy_original_sha256": "d8fe57dca61e836ccb619b56cbbba8fc3595cdf14a5e7a8145001f6c28b725c6",
+    "final_sha256": "5c01c8e0f688eaa14cae066dd7e51cca8e6e37c05eeddfa780e3e2d022de44d0",
+    "noisy_original_sha256": "1519d3370db0de7c5de5ace528ba4e97632302385e8321dc7ad945968d4cafb1",
     "noisy_original": ".cache/final-renders/D02.noisy.png",
-    "original_before_denoise_sha256": "d8fe57dca61e836ccb619b56cbbba8fc3595cdf14a5e7a8145001f6c28b725c6",
+    "original_before_denoise_sha256": "1519d3370db0de7c5de5ace528ba4e97632302385e8321dc7ad945968d4cafb1",
     "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
     "render_reports": [
       ".cache/final-renders/D02.render.json"
     ],
     "tile_assembly": null,
-    "elapsed_seconds": 116.32,
-    "visual_inspection": "PENDING"
-  },
-  "D03": {
-    "view_id": "D03",
-    "title": "Studio asset inspection / P05 and P06",
-    "kind": "people",
-    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
-    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
-    "image": ".cache/final-renders/D03.png",
-    "dimensions": [
-      2560,
-      1440
-    ],
-    "final_sha256": "84110f7edd75cad59722bc81f70363217a0748a8349f1dd40db726c4b2210dd1",
-    "noisy_original_sha256": "7a9be60c48c90a66562e93ce069f460a6fb8fdf62159690484c873343b1ee304",
-    "noisy_original": ".cache/final-renders/D03.noisy.png",
-    "original_before_denoise_sha256": "7a9be60c48c90a66562e93ce069f460a6fb8fdf62159690484c873343b1ee304",
-    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
-    "render_reports": [
-      ".cache/final-renders/D03.render.json"
-    ],
-    "tile_assembly": null,
-    "elapsed_seconds": 92.81,
-    "visual_inspection": "PENDING"
-  },
-  "D04": {
-    "view_id": "D04",
-    "title": "Studio asset inspection / P07 and P08",
-    "kind": "people",
-    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
-    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
-    "image": ".cache/final-renders/D04.png",
-    "dimensions": [
-      2560,
-      1440
-    ],
-    "final_sha256": "86e4d2d14156be12c92aa87e1336761d370e56777437b8c4aca609291092db4e",
-    "noisy_original_sha256": "022d95109c4746a1fe46c4b785d8f2ec141d8496de2d1c6453ff071a55058168",
-    "noisy_original": ".cache/final-renders/D04.noisy.png",
-    "original_before_denoise_sha256": "022d95109c4746a1fe46c4b785d8f2ec141d8496de2d1c6453ff071a55058168",
-    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
-    "render_reports": [
-      ".cache/final-renders/D04.render.json"
-    ],
-    "tile_assembly": null,
-    "elapsed_seconds": 94.22,
+    "elapsed_seconds": 112.52,
     "visual_inspection": "PENDING"
   }
 }

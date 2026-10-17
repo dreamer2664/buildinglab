@@ -1,13 +1,15 @@
 {
   "component": "P08",
+  "glb_sha256": "b0fbf017ea47013649d636c93f4e090c1f36efbf18aba28979654d83ab34fae7",
+  "source_full_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
   "glb": ".cache/final-components/GLB/P08.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 66870,
-    "polygons_instance_sum": 62856,
-    "triangles_instance_sum": 125712,
+    "vertices_instance_sum": 59898,
+    "polygons_instance_sum": 55938,
+    "triangles_instance_sum": 111876,
     "bounds_min": [
       -16.302169799804688,
       -19.199512481689453,
@@ -32,7 +34,7 @@
   },
   "actual": {
     "mesh_objects": 3,
-    "triangles_instance_sum": 125712,
+    "triangles_instance_sum": 111876,
     "bounds_min": [
       -16.302169799804688,
       -19.199512481689453,
@@ -57,7 +59,7 @@
   },
   "issues": [],
   "mesh_objects_without_uv_plain_colour_allowed": [],
-  "image_count": 11,
-  "packed_images": 11,
+  "image_count": 10,
+  "packed_images": 10,
   "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
 }

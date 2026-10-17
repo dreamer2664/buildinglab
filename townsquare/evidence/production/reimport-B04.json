@@ -1,5 +1,7 @@
 {
   "component": "B04",
+  "glb_sha256": "552854f3817135e4a3cc7706155c2ef77d128defe7b2ec63338906f9950765f8",
+  "source_full_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
   "glb": ".cache/final-components/GLB/B04.glb",
   "status": "PASS",
   "fresh_factory_scene_imported_with_blender": "4.3.2",

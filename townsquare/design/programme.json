@@ -1,6 +1,6 @@
 {
   "project": "Winterlichtplatz",
-  "stage": "A0 programme and shell blockout; NOT final realism",
+  "stage": "R10 furnished production candidate; actual native reopen PASS; final visual and independent acceptance pending",
   "units": "metres",
   "square_dimensions_m": [
     64,
@@ -525,8 +525,8 @@
     "Real inspect/fix/reinspect history, clean native reopen/GLB import and independent non-owner review"
   ],
   "current_production": {
-    "native_revision": "R6",
-    "actual_full_resolution_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "native_revision": "R10",
+    "actual_full_resolution_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
     "actual_structural_clean_reopen": "PASS",
     "actual_furnished_floors": 26,
     "actual_furnished_rooms": 164,

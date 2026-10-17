@@ -1,0 +1,21 @@
+{
+  "scope": "Manual producer original-image inspections after actual separate file opens; not independent acceptance or photographic-realism certification",
+  "inspections": {
+    "D02": {
+      "view_id": "D02",
+      "image": ".cache/final-renders/D02.png",
+      "image_sha256": "5c01c8e0f688eaa14cae066dd7e51cca8e6e37c05eeddfa780e3e2d022de44d0",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual R10 2560x1440 original singly opened. P03 and P04 show full original hair/foreheads and unobstructed eyes/mouth; rejected hats and scarves absent, so earlier scalp intersection and collar/wrap defects removed from final outfits. Anatomically modelled faces, separated fingers, fitted jacket/shirt/trousers visible. Licensed textured hair remains visibly generic CG (especially shiny short-hair shell); not photographic scan quality or a photorealism certification. Scoped outfit/geometry producer check, not independent acceptance.",
+      "checked_utc": "2026-10-17T15:21:53.305884+00:00",
+      "independent_acceptance": false
+    }
+  }
+}

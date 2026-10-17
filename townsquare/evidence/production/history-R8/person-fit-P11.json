@@ -1,0 +1,75 @@
+{
+  "person": "P11",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P11.blend",
+  "corrected_rig_sha256": "62b77efe1dc2e1b9f37af75f17939d2deb1f95aeb071e89a9ae639193e2e2d2b",
+  "anatomy_and_pose_signature_before": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
+  "anatomy_and_pose_signature_after": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "P11_SCARF_WRAP",
+      "fix": "Actual side macro exposed collar penetration. Original editable textile shape fitted by minimum-cost bounded affine search against evaluated parka; narrow-phase triangle-edge intersection regression0 (BVH broad-phase3mm margin). Original pre-fit mesh retained.",
+      "original_triangle_overlap_pairs": 395,
+      "corrected_triangle_overlap_pairs": 0,
+      "world_y_shift_m": -0.02,
+      "world_z_shift_m": 0.06,
+      "horizontal_scale": 1,
+      "max_vertex_displacement_m": 0.06324550040505504,
+      "bvh_margin_m": 0.003,
+      "anatomy_or_pose_changes": false
+    },
+    {
+      "part": "P11_SCARF_TAIL",
+      "fix": "Replaced intersecting flat box tail with double-sided, gently folded textile surface, fitted13mm outside evaluated coat front per height row.",
+      "rows": 30,
+      "columns": 8,
+      "source_world_z_interval": [
+        1.1229382753372192,
+        1.5249401903152466
+      ]
+    },
+    {
+      "part": "P11_SCARF_FRINGE",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.001",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.002",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.003",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.004",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.005",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.006",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P11_SCARF_FRINGE.007",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    }
+  ],
+  "static_vertices": 21906,
+  "static_faces": 20986,
+  "static_instances": [
+    "CROWD_11_P11",
+    "CROWD_23_P11",
+    "CROWD_35_P11"
+  ],
+  "sole_before_placement_m": -0.019688792526721954,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

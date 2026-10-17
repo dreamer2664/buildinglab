@@ -1,0 +1,577 @@
+{
+  "revision": "R7",
+  "geometry_uv_pose_material_signature_render_derivative": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+  "geometry_uv_pose_material_signature_full_resolution": "98f63bb71eec228be001a02557784c1e6f7515ad624839366336dcb68f0631ba",
+  "geometry_uv_pose_material_conserved_between_versions": true,
+  "full_resolution_native": ".cache/master/Winterlichtplatz-R7.blend",
+  "full_resolution_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+  "render_derivative": ".cache/master/Winterlichtplatz-render-R7.blend",
+  "photo_restoration": [
+    {
+      "image": "afro_diffuse.png",
+      "source_packed_sha256": "dc0db7dd8a13802f02303ca7e49844b219e09db134471b7061538a8af8f7c7fb",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B01.png",
+      "source_packed_sha256": "486bac465e0fb81a37ed563c6cf68d0dc56b65540e04354ead175cc175e1094e",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B02.png",
+      "source_packed_sha256": "f48b25c556128737acdb7c2cb53feabe8b26b1a25f92d96a44ab1dc961fbca2c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B03.png",
+      "source_packed_sha256": "c84056e321c5a1c8fb02b685033182036d162133983baf1b1d341b4b5ce7d998",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B04.png",
+      "source_packed_sha256": "946d28ccd16a5a2a2bb560f74eee80066b3b392e6b0569e7dca7db9dcb08421c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B05.png",
+      "source_packed_sha256": "835bce407a7e304ab388b0218df99466af5e4a576e01f03ca4b003d1e827bb99",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B06.png",
+      "source_packed_sha256": "1d61f68f30371880287768233e4dcf970a9b6af1fd5322fe7d4d9a1c5aac44c0",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B07.png",
+      "source_packed_sha256": "4a867a47d2c42466fd21c1cd2b56165700838844d6a414a69036e377d8d4bae6",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B08.png",
+      "source_packed_sha256": "853519bb5202ae7d25dbc0500f346351c7a51b998cef3b1c8841a67de18a6e97",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B09.png",
+      "source_packed_sha256": "d24e2f2fcff793c77f88f70f4bfc89d0e24edcca92474350d9dda55b2809f909",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B10.png",
+      "source_packed_sha256": "490d1e2116ff52bdd05fdff702d4cb8f4d1c2e964fa5dd1e9a049ebddf4f01fb",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B11.png",
+      "source_packed_sha256": "136b75355ee824ff3cfa8c33c078fa3f462054af8467ed28bf685bd4999a8680",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "B12.png",
+      "source_packed_sha256": "e09150e5bac56822840d8ec0127fa5b22f6740ed266d5e6597b456d65b163ee0",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "bob02_diffuse.png",
+      "source_packed_sha256": "38c88e6f71631356591f09b1f17a1bb5a99c3bb095b1a29003f1dc3d3e839b0d",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "braid01_diffuse.png",
+      "source_packed_sha256": "24c0d2a639f04704734c3e38af97d110777c1b203e5a10c66a5c89563643a018",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "brown_eye.png",
+      "source_packed_sha256": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_diff_1k.jpg",
+      "source_packed_sha256": "aab330227974aadbc477b2022351112f5696fa7048d99dc776c2e6f23f4e0d2a",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_diff_2k.jpg",
+      "source_packed_sha256": "c224786e89cae7e2835a8dfafa6473c47d4d6deac0cca1db358002b8b6c4877e",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_nor_gl_1k.jpg",
+      "source_packed_sha256": "4b88ed092d4391506b4760f454996f633c171332b8a68557593d6e80627fc8c0",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_nor_gl_2k.jpg",
+      "source_packed_sha256": "665f11261d411359e05c5f6df5cf23a525215796d13a1bcda3ce8c97076ae76b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_rough_1k.jpg",
+      "source_packed_sha256": "5c35086e7c8e4ea746967f20bedb67e730ac5332b3370d49befbdd3295354b80",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_01_rough_2k.jpg",
+      "source_packed_sha256": "6c4617c644879d64b8d73921a384faf3bfcdbc11f1688bef0ac8ea6b3df62268",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "cobblestone_street_night_2k.hdr",
+      "source_packed_sha256": "e3c95d049ea26dc5d54b24a2904bfdd1929fac65d655e83328dfb958715e779a",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "eyebrow001.png",
+      "source_packed_sha256": "9940f7d0b1b223709a19b05156ba6f6e9e4dbdbced02d7574f4d51d72c58967b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "eyelashes01.png",
+      "source_packed_sha256": "4b69c0fff2648874460e9caf80c31413c444218a5c50afebc425aeaa65484a35",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_packed_sha256": "3be0b006000145d8c879a381ac5937f6ab51bf7e4720f2ba7c11d3184aec7e15",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fabric_pattern_05_nor_gl_2k.jpg.001",
+      "source_packed_sha256": "3be0b006000145d8c879a381ac5937f6ab51bf7e4720f2ba7c11d3184aec7e15",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fabric_pattern_05_rough_2k.jpg",
+      "source_packed_sha256": "3b2838c46227bf11e1c0d8da21703659d70676f56b848abff39c39ceac56f5f8",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fabric_pattern_05_rough_2k.jpg.001",
+      "source_packed_sha256": "3b2838c46227bf11e1c0d8da21703659d70676f56b848abff39c39ceac56f5f8",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fir_tree_01_bark_diff.png",
+      "source_packed_sha256": "508ca0a40d118beec98e8375b4611e8a16123eec94b5d2b4870617cf4d24e6fa",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fir_tree_01_bark_nor_gl.png",
+      "source_packed_sha256": "b889e7080d6efb0592f83e64cc5a5afa5fb7787b4b7d1ae13a65602689e793e8",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fir_tree_01_twig_diff.png",
+      "source_packed_sha256": "76f6d0c0044d76bac08fbbd3d2ac1c9b66bb046de7d0b1a22aa9b319308f3833",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "fir_tree_01_twig_nor_gl.png",
+      "source_packed_sha256": "cbb6b8179a9f7f6e84fd15d1f422bc342841d20845b2bad437612f03fb0067de",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-00.png",
+      "source_packed_sha256": "65c6ff452951dfc8bf92f21a32c23c5c5420a865abed64407bc3a2c3bf11e052",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-01.png",
+      "source_packed_sha256": "cffb49b6517d963b297e60ba18889e6d2a7855a3dffd2b141b220522aba571b5",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-02.png",
+      "source_packed_sha256": "4c92c565f684087e0ed02a90a6e31e37f39ceaa8f1922b9308d4d5a2faf7ffe9",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-03.png",
+      "source_packed_sha256": "eae6ae20b331f5c3d5747a64f242068717775dccd532b04196e3b2a7829194d5",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-04.png",
+      "source_packed_sha256": "5ec2189804a4b61c4bc8a42b19471564eb20e0bfb4c06439d1ec6c80578abfeb",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-05.png",
+      "source_packed_sha256": "5851c14b76030652c1d92dc1d7bb61f685219b41c48dbf43b9c5e514a53a8424",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-06.png",
+      "source_packed_sha256": "0723004ff70e23b95b49c3accdb166496a246edce423c21732aedd45395cc46f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-07.png",
+      "source_packed_sha256": "26c487c7cd10163c350ee903dd2251e59bf2fb38ccc91bff6b504fa978d9136e",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-08.png",
+      "source_packed_sha256": "0608c1d0bfb7d8e027b029af5bebb7a15eda03c9518067ed22f3afb95a711362",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-09.png",
+      "source_packed_sha256": "05a250635a0ac68e7bcb174fe1f7b0e88a0f740e9f124339100f28a7d0561097",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-10.png",
+      "source_packed_sha256": "2493554e98c4224a2e8492e519851e0d6e9fa4449842ab4ea465456813b82ea8",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "food-11.png",
+      "source_packed_sha256": "3bedd91525e9873636bf0dd73f01838fb690d17ba744b166c43603c9abf2b3bd",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "male_casualsuit05_normal.png",
+      "source_packed_sha256": "3b8edfafc3df7392e009660d879fae2769af27e97b64fd1fd4702f8184555d43",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_legs_diff.png",
+      "source_packed_sha256": "b11d85b689bc9e16f5aebcb0c94cb0783e7c76ef5c0b93ec576836750adc23c1",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_legs_metal.png",
+      "source_packed_sha256": "fb96b44c55677e850c09ed442e2aeb07c21bf013a3912b477b4baae21d1ffeb8",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_legs_nor_gl.png",
+      "source_packed_sha256": "b337cd7c6929c22a8c4034123dd772d0c06a1d46e944e408164c2ec2bc0a1ee7",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_legs_rough.png",
+      "source_packed_sha256": "29cf8fe198b0a531a4ebff085f3571d3757b9817bad7548b8b44bbabf6076f55",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_diff.png",
+      "source_packed_sha256": "37dfdb66f60ebd36434048e0080236b8bdf2b80256ac3ed8b2804a15d5c3d949",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_nor_gl.png",
+      "source_packed_sha256": "7375a10115ddc824f249f0bd4e067a9cdb765346befc6ed3aacb03e4fa1acfa6",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_rough.png",
+      "source_packed_sha256": "6d7b264e6bfc668ccda39780974abdb43a9e939e1d739e845cb2bce5367ebf34",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "old_darkskinned_male_diffuse.png",
+      "source_packed_sha256": "4bcc74baf88f28a0ac4887f22d3cf395bbcb60810121697dafbf0bf3293d0e72",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P01_PARKA_COLOURWAY",
+      "source_packed_sha256": "7c5e514035d350d05a119336ac358ed89a3dd72986391f4af9a2c181d40271f6",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P02_PARKA_COLOURWAY",
+      "source_packed_sha256": "35de702456e2f1b5bf102659234854100a9625012b0bf044bdad4f82ce2e02b4",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P03_PARKA_COLOURWAY",
+      "source_packed_sha256": "c7311e6b7cad329d103c3b7122fc20bacb2170a2368c9e0519ed79899f2cd235",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P04_PARKA_COLOURWAY",
+      "source_packed_sha256": "c0af297d03a3d8c765c5d6ae119018337d999aa011c80c5fd14e59ba83be24d6",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P05_PARKA_COLOURWAY",
+      "source_packed_sha256": "7a70809f03eeac3ab4e2c07d1e98d4885585cdf3653e1bab06abaf6e5e7393ba",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P06_PARKA_COLOURWAY",
+      "source_packed_sha256": "f9b876d6e4aae2d218754727178a9c489059dca82b2f00001c3f49e7013e9214",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P07_PARKA_COLOURWAY",
+      "source_packed_sha256": "3ab8c149f5e31dbbb85ba702d2de0676f98b4f2072fa87da414bc145f00ce4ea",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P08_PARKA_COLOURWAY",
+      "source_packed_sha256": "92ff604e595b426d86e3b1fa7dc0f58ef7468ba37b110a6f35d4f37f547993d5",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P09_PARKA_COLOURWAY",
+      "source_packed_sha256": "edc92f0d1b7a3c59ae12768768ce01d93b33d006372d059bb142ad0a453f9ee4",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P10_PARKA_COLOURWAY",
+      "source_packed_sha256": "d2fe75574dab2561515b8b4fd9e0ad23b5eb22d91ac7f14ff601e96a28f0663f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P11_PARKA_COLOURWAY",
+      "source_packed_sha256": "9ae039f42d53302cc495b33828b03442356f79e284a14c2a9833db49ae46bf79",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "P12_PARKA_COLOURWAY",
+      "source_packed_sha256": "71348d509662ffb7caf985f578dd491dbf828c320d54ce1b1d58353dbdec8e5f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-00.png",
+      "source_packed_sha256": "c11a9a8e3c4e11ccbd96e008de712feb7773ba34b6d75c3daed509d86dbb46df",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-01.png",
+      "source_packed_sha256": "0d95608602bbf795d3c8a8817086c5dadf18293cec877832c6a45c6bf14ccb13",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-02.png",
+      "source_packed_sha256": "75b9f8e140d6ec9b6aeaed2c0141ab95c151013226c064d107787bd86617539c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-03.png",
+      "source_packed_sha256": "bf8ed74b0c768c61c1e5cf7083c20340c3ff754687b87034db454924317e57d3",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-04.png",
+      "source_packed_sha256": "65a75d777be37dc5c4d57b3954cc2da369521bf8a0fb7b90b7db24f3e303d385",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-05.png",
+      "source_packed_sha256": "c63e08ebd77d63e5d2b398df1956e63000690bb7a2be4cf3dcc6dd3fe2c588f1",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-06.png",
+      "source_packed_sha256": "c850cedde825774a94848cba974d9d0508f031efa2b4110dbe0b0d11ab019c67",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-07.png",
+      "source_packed_sha256": "3c1ef760608125d687c88b2929c5d0a0a0f98028be5f9a9a63025aad5c344480",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-08.png",
+      "source_packed_sha256": "711e98903fa5aca5d4cd2d0269ac8bee0256ce4bb1c501366ba50bd802bac4a7",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-09.png",
+      "source_packed_sha256": "0dc4569cf4835ba33ce7b108e9043df936d17c217a14410aeb0a1124c0e03a2b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-10.png",
+      "source_packed_sha256": "936a2322a54df235305167c5b00e62f30011d57338370631ff68bf00fed8651f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "pharmacy-11.png",
+      "source_packed_sha256": "441bea3de20de2091170b329448125a1cb373fc2e2ed07b3f113378204e51a6c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "ponytail01_diffuse.png",
+      "source_packed_sha256": "dcb364300cac06ce8bef91b2f7c0970baf310898bbdd06b0c6b884ee9306eb97",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_packed_sha256": "266526d00b68f4e136d422a0cf9d7c31a8c3e767b9f7a8fa364ef001e549e03a",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "rough_plaster_brick_nor_gl_2k.jpg.001",
+      "source_packed_sha256": "266526d00b68f4e136d422a0cf9d7c31a8c3e767b9f7a8fa364ef001e549e03a",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "rough_plaster_brick_rough_2k.jpg",
+      "source_packed_sha256": "c6814610599db13b69d2f80cf27e7dda2fafe9249c3343362498d5a433fbfe7c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "rough_plaster_brick_rough_2k.jpg.001",
+      "source_packed_sha256": "c6814610599db13b69d2f80cf27e7dda2fafe9249c3343362498d5a433fbfe7c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "shoes01_diffuse.png",
+      "source_packed_sha256": "50c9a406a7f1cb6aa7b42912348e78f09d0252aa3963c8229cf18dfe8353cdbf",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "shoes01_normal.png",
+      "source_packed_sha256": "a9bfd7223e98b8f93100e89596135e3a94e6044f9db11b4d23cec625c37a4599",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "shoes02_diffuse.png",
+      "source_packed_sha256": "efef94ea34b0e0c2283095cb47a9e0389b55449c61a4f4972d0ad4d2bf06b4f0",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "shoes03_diffuse.png",
+      "source_packed_sha256": "fe8216fbd0c34ecd3ac0e1a01970a4ccf844417be5fd1d72c527c9209256db93",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "short01_diffuse.png",
+      "source_packed_sha256": "f34a0957184e3d1e911ed59245f874f8d4843f61ee44ff49f43edb4be0196949",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "short02_diffuse.png",
+      "source_packed_sha256": "47fe33831a3929567c733356dd66243116e05df2ace1f884ddca0080b728229f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_diff_2k.jpg",
+      "source_packed_sha256": "d185c2853c7e674161789db4eed1c5708d85e4f6e3dcb5698209568adf02aa98",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_diff_2k.jpg.001",
+      "source_packed_sha256": "d185c2853c7e674161789db4eed1c5708d85e4f6e3dcb5698209568adf02aa98",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_nor_gl_2k.jpg",
+      "source_packed_sha256": "288539ee33387e91035be4dc8d10da574bf6a95c8374d33b6b1dc465c6949e8f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_nor_gl_2k.jpg.001",
+      "source_packed_sha256": "288539ee33387e91035be4dc8d10da574bf6a95c8374d33b6b1dc465c6949e8f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_rough_2k.jpg",
+      "source_packed_sha256": "9cfa994318ef190d4540875a166c7c745184c1a166e82271bca7c0a628f8820f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "snow_02_rough_2k.jpg.001",
+      "source_packed_sha256": "9cfa994318ef190d4540875a166c7c745184c1a166e82271bca7c0a628f8820f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "sofa_02_diff.png",
+      "source_packed_sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "sofa_02_metallic.png",
+      "source_packed_sha256": "2e03a19191671bfa5e157574b4b361faedf74401d2b46f22f36927b5eed30b75",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "sofa_02_nor_gl.png",
+      "source_packed_sha256": "28e89013856bf59eb0ed2bbe534e1d39904c2830b0eb6195f45add9ec4e8315f",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "sofa_02_roughness.png",
+      "source_packed_sha256": "ce18bf8abd5d580a0757fd41fadff320d00e1fa224ab4bad6b96876580626e0b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "teeth.png",
+      "source_packed_sha256": "d0afb57869c6fbb56b98f5efc4aec629ee7593e70d8dd2bfb9de923acfb65f43",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "tongue01_diffuse.png",
+      "source_packed_sha256": "3150be398e48e8ba1feac164c3143c16c0b2e959d9ffb6155f0171f59cfb4ea9",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_diff_2k.jpg",
+      "source_packed_sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_diff_2k.jpg.001",
+      "source_packed_sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_nor_gl_2k.jpg",
+      "source_packed_sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_nor_gl_2k.jpg.001",
+      "source_packed_sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_rough_2k.jpg",
+      "source_packed_sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "wood_floor_rough_2k.jpg.001",
+      "source_packed_sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "young_darkskinned_female_diffuse.png",
+      "source_packed_sha256": "96aa4a96b247fc90d371587bb88e6ae3bfc77e83f5126f17e6bbb713aa200470",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "young_lightskinned_female_diffuse.png",
+      "source_packed_sha256": "b2a6ac8cd4f9febdb447368e29c76cd68410bb66e46d9dcfa2d5f75126eea8fc",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "young_lightskinned_female_diffuse3.png",
+      "source_packed_sha256": "1d82f782b7d2da732229633bd2d14754d873fff53cdb1d088977bcf67ae19dde",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "young_lightskinned_male_diffuse.png",
+      "source_packed_sha256": "862a26e335e958b70534cb5f0d7c47ef30ab148a56c42b3e9da969cf76f12963",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    },
+    {
+      "image": "young_lightskinned_male_diffuse3.png",
+      "source_packed_sha256": "f50016a5507fc687dc8df06599c8ea48de950cd185de33a71cafc1319ddab4d5",
+      "mode": "original verified full-resolution packed bytes, no pixel resampling"
+    }
+  ],
+  "camera_presets": 92,
+  "occupied_floors": 26,
+  "people_instances": 36,
+  "human_variants": 12,
+  "visual_acceptance": "PENDING",
+  "independent_acceptance": "NOT GRANTED"
+}

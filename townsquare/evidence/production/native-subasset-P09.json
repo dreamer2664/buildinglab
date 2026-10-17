@@ -1,0 +1,25 @@
+{
+  "asset": "P09",
+  "status": "PASS",
+  "actual_factory_reopen": true,
+  "path": ".cache/fixed-people/rigs/P09.blend",
+  "sha256": "ec0164d342d4a4b7790b12e1b9e90940bce2b4ff01b40ef198a2b7b19c8eca24",
+  "blender_version": "4.3.2",
+  "mesh_objects": 39,
+  "armatures": 1,
+  "packed_images": 17,
+  "unpacked_file_images": [],
+  "metadata": {
+    "anatomical_and_pose_signature_actual": "6465d41a0e8a21512c51ed07d4c268e17005e7717e66ef1f490736164b9319cc",
+    "hair_max_z_checks": [
+      {
+        "hair": "P09_ANATOMICAL_BASE.afro01",
+        "actual_max_z": 1.5806362628936768,
+        "limit": 1.5806361074447632,
+        "pass": true
+      }
+    ]
+  },
+  "issues": [],
+  "scope": "Actual saved subasset reopen/packed-image/geometry/editability/content consistency. No render-quality, animation-readiness or independent acceptance claim."
+}

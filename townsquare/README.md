@@ -2,10 +2,10 @@
 
 Editable original Central European Christmas-square scene:12 surrounding buildings,26 occupied furnished floors/164 rooms,8 market stalls,24 benches,24 lamps,12 bare deciduous trees, a real licensed fir mesh, playground,36 winter-clothed CG people from12 variants and12 original fictional business identities.
 
-**Current status: R6 producer candidate, not final visual or independent acceptance.** The actual full-map native has reopened and passed structural/packing/room-furnishing/ground-contact tests. Final-resolution rendering, individual image checks, portable-export roundtrip and final public delivery checks are still in progress. The earlier A2 study in `PREVIEW.html` is historical, not the current model.
+**Current status: R10 producer candidate, not final visual or independent acceptance.** The actual full-map native has reopened and passed structural/packing/room-furnishing/ground-contact tests. Final-resolution rendering, individual image checks, portable-export roundtrip and final public delivery checks are still in progress. The earlier A2 study in `PREVIEW.html` is historical, not the current model.
 
 ## Native versions
-- Full-map `Winterlichtplatz-R6.blend`: packed photographic source maps and all actual geometry, including documented scarf/cap fitting corrections and original cafe/branding additions.
+- Full-map `Winterlichtplatz-R10.blend`: packed photographic source maps and all actual geometry, with original licensed hair/clothing; optional procedural hat/scarf studies were rejected and excluded from final outfits and original cafe/branding additions.
 - Separately labelled lighter render derivative: identical geometry, UVs, material assignment indices and poses, with resampled photographic maps. Per-frame close-detail map upgrades and memory-only culling/LOD are explicitly recorded; no generated picture replaces architecture, furniture or people.
 -12 separate full-map building components and a public-realm component are being exported from the final candidate, not the early blockout.12 separate person natives preserve the anatomical armatures, clothing and authored poses; the assembled town/GLB crowd is static.
 

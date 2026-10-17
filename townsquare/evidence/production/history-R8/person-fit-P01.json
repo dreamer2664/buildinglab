@@ -1,0 +1,218 @@
+{
+  "person": "P01",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P01.blend",
+  "corrected_rig_sha256": "a90135dd6f4909a92a5a1ddc0c6379980283ff5b65f2500edbccebcf791bb434",
+  "anatomy_and_pose_signature_before": "f5dfe13629e81a0fabc5104fd9c8179171665054d2918afe89fb5f437e6f673a",
+  "anatomy_and_pose_signature_after": "f5dfe13629e81a0fabc5104fd9c8179171665054d2918afe89fb5f437e6f673a",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "P01_SCARF_WRAP",
+      "fix": "Actual side macro exposed collar penetration. Original editable textile shape fitted by minimum-cost bounded affine search against evaluated parka; narrow-phase triangle-edge intersection regression0 (BVH broad-phase3mm margin). Original pre-fit mesh retained.",
+      "original_triangle_overlap_pairs": 418,
+      "corrected_triangle_overlap_pairs": 0,
+      "world_y_shift_m": -0.03,
+      "world_z_shift_m": 0.075,
+      "horizontal_scale": 1,
+      "max_vertex_displacement_m": 0.08077751699070994,
+      "bvh_margin_m": 0.003,
+      "anatomy_or_pose_changes": false
+    },
+    {
+      "part": "P01_SCARF_TAIL",
+      "fix": "Replaced intersecting flat box tail with double-sided, gently folded textile surface, fitted13mm outside evaluated coat front per height row.",
+      "rows": 30,
+      "columns": 8,
+      "source_world_z_interval": [
+        1.016883373260498,
+        1.4861051559448242
+      ]
+    },
+    {
+      "part": "P01_SCARF_FRINGE",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.001",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.002",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.003",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.004",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.005",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.006",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_SCARF_FRINGE.007",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P01_KNITTED_BEANIE",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_BEANIE_RIB",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.001",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.002",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.003",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.004",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.005",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.006",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.007",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.008",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.009",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.010",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.011",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.012",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.013",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.014",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.015",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.016",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "P01_RIB.017",
+      "fix": "Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.",
+      "world_z_shift_m": -0.008227313041687001,
+      "desired_low_rim_z_m": 1.5987531299591065
+    },
+    {
+      "part": "entire cap assembly",
+      "fix": "Exact PID_RIB/PID_RIB.* inclusion: all18 vertical knit ribs move with shell/cuff. Actual original cap-relative matrix conservation assertion PASS on every cap component.",
+      "components": 20,
+      "relative_transform_conservation": "PASS"
+    },
+    {
+      "part": "P01_ANATOMICAL_BASE.short01",
+      "fix": "Exact world-z-linear smooth crown clipping0.5mm below lowest cap edge; verified evaluated hair cannot protrude above hem. Corrects R3 sawtooth and R5 high-plane temple protrusions. Anatomical raw mesh/pose unchanged.",
+      "cut_plane_world_z_m": 1.5960628623962403,
+      "smooth_interpolation": true,
+      "threshold": 0.49495224177458824,
+      "actual_evaluated_hair_max_world_z_m": 1.5960630178451538,
+      "hair_below_cap_hem_regression": "PASS"
+    },
+    {
+      "part": "cap silhouette and source seam strokes",
+      "fix": "Source seam-stroke objects retained editable but disabled for rendering after macro inspection; shell/cuff smooth-shaded with editable level2 subdivision to eliminate polygonal silhouette."
+    },
+    {
+      "part": "cap wool materials",
+      "fix": "Original native fine fleece microrelief/roughness/sheens; procedural normal is a documented portable fallback limitation."
+    }
+  ],
+  "static_vertices": 26073,
+  "static_faces": 25148,
+  "static_instances": [
+    "CROWD_01_P01",
+    "CROWD_13_P01",
+    "CROWD_25_P01"
+  ],
+  "sole_before_placement_m": -0.0018917303532361984,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

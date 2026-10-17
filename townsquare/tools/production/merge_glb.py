@@ -65,7 +65,7 @@ def merge(paths,out):
  if lights:dst['extensions']={'KHR_lights_punctual':{'lights':lights}}
  if used:dst['extensionsUsed']=sorted(used)
  if required:dst['extensionsRequired']=sorted(required)
- dst={k:v for k,v in dst.items() if k not in names or v};dst['buffers']=[{'byteLength':len(binary)}];dst['extras']={'project':'Winterlichtplatz','revision':'R6','units':'metres','people':'36 static instances /12 separately supplied editable human rigs','auxiliary_background':'500m source snow backdrop intentionally excluded; original112x100m main ground retained','texture_budget':'512px portable photographic map caps; full-resolution packed sources separately supplied','lighting_limitations':'Read portability report; photographic world/Blender area lights/procedural nodes/colour management are not universally portable.'}
+ dst={k:v for k,v in dst.items() if k not in names or v};dst['buffers']=[{'byteLength':len(binary)}];dst['extras']={'project':'Winterlichtplatz','revision':'R10','units':'metres','people':'36 static instances /12 separately supplied editable human rigs','auxiliary_background':'500m source snow backdrop intentionally excluded; original112x100m main ground retained','texture_budget':'512px portable photographic map caps; full-resolution packed sources separately supplied','lighting_limitations':'Read portability report; photographic world/Blender area lights/procedural nodes/colour management are not universally portable.'}
  # Canonicalize identical embedded image/sampler/texture/material payloads across components.
  # This avoids decoding repeated copies of the same photographic map during clean import.
  def dedup(space,keyfunc):
@@ -117,7 +117,7 @@ def merge(paths,out):
  with Path(out).open('wb') as f:f.write(struct.pack('<4sII',b'glTF',2,total));f.write(struct.pack('<II',len(js),0x4E4F534A));f.write(js);f.write(struct.pack('<II',len(binary),0x004E4942));f.write(binary)
  return dst,parts
 if __name__=='__main__':
- keys=[f'B{i:02}' for i in range(1,13)]+['PUBLIC']+[f'P{i:02}' for i in range(1,13)];out=R/'.cache/final-components/Winterlichtplatz-R6.glb';d,parts=merge([R/'.cache/final-components/GLB'/(key+'.glb') for key in keys],out)
+ keys=[f'B{i:02}' for i in range(1,13)]+['PUBLIC']+[f'P{i:02}' for i in range(1,13)];out=R/'.cache/final-components/Winterlichtplatz-R10.glb';d,parts=merge([R/'.cache/final-components/GLB'/(key+'.glb') for key in keys],out)
  h=hashlib.sha256()
  with out.open('rb') as f:
   while b:=f.read(1024*1024):h.update(b)
