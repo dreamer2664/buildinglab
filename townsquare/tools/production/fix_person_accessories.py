@@ -51,23 +51,38 @@ for o in list(s.objects):
  if '_SCARF_FRINGE' not in o.name:continue
  ps0=[o.matrix_world@Vector(p) for p in o.bound_box];center=sum(ps0,Vector())/8;idx=min(cols,max(0,round((center.x-xmin)/width*cols)));edge=Vector(surface[-1][idx]);o.location.y+=(edge.y-center.y)/o.parent.scale.y if o.parent else edge.y-center.y
  changes.append({'part':o.name,'fix':'Aligned existing yarn fringe with corrected textile hem'})
-for o in s.objects:
- if any(k in o.name for k in ['_KNITTED_BEANIE','_BEANIE_RIB','_RIB']):
-  # Small fitting correction only: keep anatomical hair/forehead intact.
-  parent_scale=o.parent.scale if o.parent else Vector((1,1,1));o.location.y-=.012/parent_scale.y;o.location.z-=.018/parent_scale.z
-  changes.append({'part':o.name,'fix':'Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette'})
-# R2 studio inspection exposed a hair tuft penetrating the lowered cap.
-# Preserve the editable hair; mask only the crown covered by the fitted beanie.
-bpy.context.view_layer.update()
-cap=next((o for o in s.objects if o.name==pid+'_BEANIE_RIB'),None)
+# Fit cap against actual posed eyebrows, rather than blind lowering all variants.
+cap_parts=[o for o in s.objects if any(k in o.name for k in ['_KNITTED_BEANIE','_BEANIE_RIB'])]
+cap=next((o for o in cap_parts if o.name==pid+'_BEANIE_RIB'),None)
 if cap:
- rim=min((cap.matrix_world@Vector(p)).z for p in cap.bound_box)+.003
+ brow_points=[]
+ for brow in [o for o in s.objects if o.type=='MESH' and o.get('MPFB_GEN_object_type')=='Eyebrows']:
+  ev=brow.evaluated_get(bpy.context.evaluated_depsgraph_get());em=ev.to_mesh();brow_points.extend([brow.matrix_world@v.co for v in em.vertices]);ev.to_mesh_clear()
+ old_rim=min((cap.matrix_world@Vector(p)).z for p in cap.bound_box)
+ desired_rim=max(p.z for p in brow_points)+.012 if brow_points else old_rim-.008
+ dz=desired_rim-old_rim
+ for o in cap_parts:
+  parent_scale=o.parent.scale if o.parent else Vector((1,1,1));o.location.y-=.012/parent_scale.y;o.location.z+=dz/parent_scale.z
+  changes.append({'part':o.name,'fix':'Cap/rib fitted12mm above actual posed eyebrow maximum,12mm forward; avoids blind18mm lowering that covered eyes on P04.','world_z_shift_m':dz,'desired_low_rim_z_m':desired_rim})
+ bpy.context.view_layer.update();rim=min((part.matrix_world@Vector(p)).z for part in cap_parts for p in part.bound_box)-.0005
  for hair in [o for o in s.objects if o.type=='MESH' and o.get('MPFB_GEN_object_type')=='Hair']:
-  ev=hair.evaluated_get(bpy.context.evaluated_depsgraph_get());hm=ev.to_mesh();allowed=[v.index for v in hm.vertices if (hair.matrix_world@v.co).z<rim];ev.to_mesh_clear()
-  vg=hair.vertex_groups.new(name='R3_CROWN_UNDER_CAP');vg.add(allowed,1.0,'REPLACE');mask=hair.modifiers.new('R3 / cap-covered crown, editable mask','MASK');mask.vertex_group=vg.name
-  changes.append({'part':hair.name,'fix':'Non-destructive crown mask closes actual R2 hair-through-cap defect; anatomical mesh and pose unchanged.','rim_world_z_m':rim,'retained_hair_vertices':len(allowed)})
+  ev=hair.evaluated_get(bpy.context.evaluated_depsgraph_get());hm=ev.to_mesh();zs=[(v.index,(hair.matrix_world@v.co).z) for v in hm.vertices];zlo=min(z for _,z in zs);zhi=max(z for _,z in zs);span=max(.00001,zhi-zlo);weights=[(index,(zhi-z)/span) for index,z in zs];threshold=max(0,min(1,(zhi-rim)/span));ev.to_mesh_clear()
+  vg=hair.vertex_groups.new(name='R6_SMOOTH_CROWN_UNDER_CAP')
+  for index,weight in weights:vg.add([index],weight,'REPLACE')
+  mask=hair.modifiers.new('R6 / smoothly clipped covered crown, editable','MASK');mask.vertex_group=vg.name;mask.threshold=threshold;mask.use_smooth=True
+  bpy.context.view_layer.update();checked=hair.evaluated_get(bpy.context.evaluated_depsgraph_get());cm=checked.to_mesh();actual_max=max(((hair.matrix_world@v.co).z for v in cm.vertices),default=-999);checked.to_mesh_clear();assert actual_max<=rim+.00002,(pid,hair.name,actual_max,rim)
+  changes.append({'part':hair.name,'fix':'Exact world-z-linear smooth crown clipping0.5mm below lowest cap edge; verified evaluated hair cannot protrude above hem. Corrects R3 sawtooth and R5 high-plane temple protrusions. Anatomical raw mesh/pose unchanged.','cut_plane_world_z_m':rim,'smooth_interpolation':True,'threshold':threshold,'actual_evaluated_hair_max_world_z_m':actual_max,'hair_below_cap_hem_regression':'PASS'})
+ # Original subtle fleece/knit microrelief; no external generated texture or fake portrait.
+ for mat in {slot.material for o in cap_parts for slot in o.material_slots if slot.material}:
+  mat.use_nodes=True;nodes=mat.node_tree.nodes;links=mat.node_tree.links;bsdf=next((n for n in nodes if n.type=='BSDF_PRINCIPLED'),None)
+  if not bsdf:continue
+  bsdf.inputs['Roughness'].default_value=.86
+  if 'Sheen Weight' in bsdf.inputs:bsdf.inputs['Sheen Weight'].default_value=.18
+  noise=nodes.new('ShaderNodeTexNoise');noise.name='Original fine wool microrelief';noise.inputs['Scale'].default_value=240;noise.inputs['Detail'].default_value=2;noise.inputs['Roughness'].default_value=.65
+  bump=nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.22;bump.inputs['Distance'].default_value=.00045;links.new(noise.outputs['Fac'],bump.inputs['Height']);links.new(bump.outputs['Normal'],bsdf.inputs['Normal'])
+ changes.append({'part':'cap wool materials','fix':'Original native fine fleece microrelief/roughness/sheens; procedural normal is a documented portable fallback limitation.'})
 bpy.context.view_layer.update();after=body_pose_signature();assert before==after,'Anatomical mesh or rig pose unexpectedly changed'
-for o in s.objects:o['stage']='R3_ACCESSORY_FIT / anatomy and pose conserved'
+for o in s.objects:o['stage']='R6_ACCESSORY_FIT / anatomy and pose conserved'
 rigdir=R/'.cache/fixed-people/rigs';rigdir.mkdir(parents=True,exist_ok=True);rigfile=rigdir/(pid+'.blend');bpy.ops.wm.save_as_mainfile(filepath=str(rigfile),compress=True)
 h=hashlib.sha256()
 with rigfile.open('rb') as f:
@@ -88,7 +103,7 @@ for n,item in enumerate(x for x in crowd if x['variant']==pid):
  ob=static if n==0 else bpy.data.objects.new('instance',mesh)
  if n:s.collection.objects.link(ob)
  ob.name=f"CROWD_{item['person_id']:02}_{pid}";ob.location=(*item['xy_m'],.006-sole);ob.rotation_euler=(0,0,item['rotation_rad'])
- for k,v in {'variant_id':pid,'person_id':item['person_id'],'role':item['role'],'building_id':'CROWD','layer':'people','floor_id':'PUBLIC','stage':'R3_ACCESSORY_FITTING_CORRECTED','rig_source_sha256':rigsha}.items():ob[k]=v
+ for k,v in {'variant_id':pid,'person_id':item['person_id'],'role':item['role'],'building_id':'CROWD','layer':'people','floor_id':'PUBLIC','stage':'R6_ACCESSORY_FITTING_CORRECTED','rig_source_sha256':rigsha}.items():ob[k]=v
  instances.append(ob.name)
 bpy.data.orphans_purge(do_recursive=True)
 for im in bpy.data.images:

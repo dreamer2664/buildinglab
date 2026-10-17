@@ -23,7 +23,7 @@ for key in [f'B{i:02}' for i in range(1,13)]+['PUBLIC']+[f'P{i:02}' for i in ran
   else:image_registry[h]=im
  print('ASSEMBLED',key,'objects',len(s.objects),'images',len(bpy.data.images),flush=True)
 s.name='Winterlichtplatz / memory-bounded render derivative'
-s['source_checkpoint_sha256']='4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776';s['candidate_revision']='R4 / scarf drape and cap fitting corrections';s['derivative_notice']='Original building/public geometry plus documented R4 accessory-fitting corrections on12 anatomically conserved human rigs; photographic maps resampled for rendering. Full-resolution native separately supplied.'
+s['source_checkpoint_sha256']='4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776';s['candidate_revision']='R6 / scarf drape and cap fitting corrections';s['derivative_notice']='Original building/public geometry plus documented R6 accessory-fitting corrections on12 anatomically conserved human rigs; photographic maps resampled for rendering. Full-resolution native separately supplied.'
 s.render.engine='CYCLES';s.cycles.samples=32;s.cycles.use_denoising=False;s.cycles.use_adaptive_sampling=True;s.cycles.adaptive_threshold=.04
 s.cycles.max_bounces=8;s.cycles.diffuse_bounces=3;s.cycles.glossy_bounces=4;s.cycles.transparent_max_bounces=8
 s.render.resolution_x=1024;s.render.resolution_y=640;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGB'
@@ -33,7 +33,7 @@ cam.location=(30,-25,8);target=Vector((-12,21,5));cam.rotation_euler=(target-cam
 sys.path.insert(0,str(R/'tools/production'))
 import view_tools
 views=json.loads((R/'design/production-views.json').read_text())
-for name,content in [('VIEW_PRESETS.json',json.dumps(views,indent=2)),('VIEW_TOOLS.py',(R/'tools/production/view_tools.py').read_text()),('READ_ME.txt','Winterlichtplatz R4.12 buildings,26 occupied floors,36 static people /12 separate editable rigs. Select a prepared view using: exec(bpy.data.texts[\'VIEW_TOOLS.py\'].as_string()); apply_view(\'B01_L01_cutaway\'). H02 restores whole-town visibility. Technical views hide ceilings/high walls intentionally. Native has all geometry; render-only culling never changes this saved source. Full-resolution source and lighter render derivative are separately labelled. Source maps are packed. Read external licence/portability and inspection records; no certification or independent acceptance is implied.')]:
+for name,content in [('VIEW_PRESETS.json',json.dumps(views,indent=2)),('VIEW_TOOLS.py',(R/'tools/production/view_tools.py').read_text()),('READ_ME.txt','Winterlichtplatz R6.12 buildings,26 occupied floors,36 static people /12 separate editable rigs. Select a prepared view using: exec(bpy.data.texts[\'VIEW_TOOLS.py\'].as_string()); apply_view(\'B01_L01_cutaway\'). H02 restores whole-town visibility. Technical views hide ceilings/high walls intentionally. Native has all geometry; render-only culling never changes this saved source. Full-resolution source and lighter render derivative are separately labelled. Source maps are packed. Read external licence/portability and inspection records; no certification or independent acceptance is implied.')]:
  t=bpy.data.texts.new(name);t.write(content);t.use_fake_user=True
 view_tools.add_cameras(views['frames']);bpy.data.objects.remove(cam,do_unlink=True);view_tools.apply_view('H02');bpy.context.view_layer.update()
 from enrich_interiors import enrich
@@ -48,7 +48,7 @@ for o in s.objects:
  objects.append(d)
 (R/'evidence/production/render-master-inventory.json').write_text(json.dumps({'objects':objects,'collections':[{'name':c.name,'props':dict(c.items())} for c in bpy.data.collections],'images':[{'name':im.name,'size':list(im.size),'packed':bool(im.packed_file)} for im in bpy.data.images]},indent=2,default=str)+'\n')
 (R/'.cache/master').mkdir(parents=True,exist_ok=True)
-bpy.ops.wm.save_as_mainfile(filepath=str(R/'.cache/master/Winterlichtplatz-render-R4.blend'),compress=True)
+bpy.ops.wm.save_as_mainfile(filepath=str(R/'.cache/master/Winterlichtplatz-render-R6.blend'),compress=True)
 print('RENDER_MASTER_SAVED',len(s.objects),'images',len(bpy.data.images),flush=True)
 
 def geom_signature():
@@ -65,11 +65,11 @@ g0=geom_signature()
 from image_tools import upgrade_images
 photo_restoration=upgrade_images(R,full_resolution=True)
 g1=geom_signature();assert g0==g1
-s['derivative_notice']='Full-resolution packed photographic source; actual R4 scarf drape/cap-fit corrections. Separate lighter render derivative has identical geometry, UVs, material assignments and poses.'
+s['derivative_notice']='Full-resolution packed photographic source; actual R6 scarf drape/cap-fit corrections. Separate lighter render derivative has identical geometry, UVs, material assignments and poses.'
 s['geometry_uv_pose_material_sha256']=g1
-full=R/'.cache/master/Winterlichtplatz-R4.blend';bpy.ops.wm.save_as_mainfile(filepath=str(full),compress=True)
+full=R/'.cache/master/Winterlichtplatz-R6.blend';bpy.ops.wm.save_as_mainfile(filepath=str(full),compress=True)
 h=hashlib.sha256()
 with full.open('rb') as f:
  while b:=f.read(1024*1024):h.update(b)
-report={'revision':'R4','geometry_uv_pose_material_signature_render_derivative':g0,'geometry_uv_pose_material_signature_full_resolution':g1,'geometry_uv_pose_material_conserved_between_versions':g0==g1,'full_resolution_native':str(full.relative_to(R)),'full_resolution_native_sha256':h.hexdigest(),'render_derivative':'.cache/master/Winterlichtplatz-render-R4.blend','photo_restoration':photo_restoration,'camera_presets':len(views['frames']),'occupied_floors':26,'people_instances':36,'human_variants':12,'visual_acceptance':'PENDING','independent_acceptance':'NOT GRANTED'}
-(R/'evidence/production/R4-native-build.json').write_text(json.dumps(report,indent=2)+'\n');print('FULL_RESOLUTION_R4_NATIVE_SAVED_GEOMETRY_MATCH',g1,flush=True)
+report={'revision':'R6','geometry_uv_pose_material_signature_render_derivative':g0,'geometry_uv_pose_material_signature_full_resolution':g1,'geometry_uv_pose_material_conserved_between_versions':g0==g1,'full_resolution_native':str(full.relative_to(R)),'full_resolution_native_sha256':h.hexdigest(),'render_derivative':'.cache/master/Winterlichtplatz-render-R6.blend','photo_restoration':photo_restoration,'camera_presets':len(views['frames']),'occupied_floors':26,'people_instances':36,'human_variants':12,'visual_acceptance':'PENDING','independent_acceptance':'NOT GRANTED'}
+(R/'evidence/production/R6-native-build.json').write_text(json.dumps(report,indent=2)+'\n');print('FULL_RESOLUTION_R6_NATIVE_SAVED_GEOMETRY_MATCH',g1,flush=True)

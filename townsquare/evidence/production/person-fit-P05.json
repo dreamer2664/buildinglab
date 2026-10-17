@@ -2,7 +2,7 @@
   "person": "P05",
   "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
   "corrected_rig": ".cache/fixed-people/rigs/P05.blend",
-  "corrected_rig_sha256": "4f79ce5481d5dd8765f54af96e61ebf87410255f93777dc9d3c5f6c8d7c2a420",
+  "corrected_rig_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7",
   "anatomy_and_pose_signature_before": "ec957acaa779aad6178a1f424160522fa6f9515d7cdca3fa4daa5ed190e978cd",
   "anatomy_and_pose_signature_after": "ec957acaa779aad6178a1f424160522fa6f9515d7cdca3fa4daa5ed190e978cd",
   "anatomy_and_pose_conserved": true,

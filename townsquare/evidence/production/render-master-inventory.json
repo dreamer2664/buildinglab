@@ -10,8 +10,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "b728c4908cb992795f1798915d158e7b587e4eff06239dde12da2045491709ee"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
       },
       "matrix_world": [
         [
@@ -47,10 +47,10 @@
       "bounds_max": [
         -16.64568328857422,
         -15.87709903717041,
-        1.7534657716751099
+        1.7632383108139038
       ],
-      "vertices": 21725,
-      "faces": 20667,
+      "vertices": 21825,
+      "faces": 20752,
       "materials": [
         "P01_ANATOMICAL_BASE.body",
         "P01_ANATOMICAL_BASE.high-poly",
@@ -76,8 +76,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "b728c4908cb992795f1798915d158e7b587e4eff06239dde12da2045491709ee"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
       },
       "matrix_world": [
         [
@@ -113,10 +113,10 @@
       "bounds_max": [
         -19.48482894897461,
         19.254955291748047,
-        1.7534657716751099
+        1.7632383108139038
       ],
-      "vertices": 21725,
-      "faces": 20667,
+      "vertices": 21825,
+      "faces": 20752,
       "materials": [
         "P01_ANATOMICAL_BASE.body",
         "P01_ANATOMICAL_BASE.high-poly",
@@ -142,8 +142,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "b728c4908cb992795f1798915d158e7b587e4eff06239dde12da2045491709ee"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "9fc380d1b83584f030021ffb52b1e5e0129d9ad2a489c91e022642b3d4457bfd"
       },
       "matrix_world": [
         [
@@ -179,10 +179,10 @@
       "bounds_max": [
         -2.484829902648926,
         -8.745043754577637,
-        1.7534657716751099
+        1.7632383108139038
       ],
-      "vertices": 21725,
-      "faces": 20667,
+      "vertices": 21825,
+      "faces": 20752,
       "materials": [
         "P01_ANATOMICAL_BASE.body",
         "P01_ANATOMICAL_BASE.high-poly",
@@ -208,8 +208,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "47ad734f0f9669a03b7f8bcabbb7c21ba4d89d68df6398ef5ec4dfe0ee276cbe"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
       },
       "matrix_world": [
         [
@@ -272,8 +272,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "47ad734f0f9669a03b7f8bcabbb7c21ba4d89d68df6398ef5ec4dfe0ee276cbe"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
       },
       "matrix_world": [
         [
@@ -336,8 +336,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "47ad734f0f9669a03b7f8bcabbb7c21ba4d89d68df6398ef5ec4dfe0ee276cbe"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0a6acea1eabd8949cd20500880c4ecc3800333f22b38626e5a1b246e0872fb03"
       },
       "matrix_world": [
         [
@@ -400,8 +400,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "dfdbd2793bef36fc08be441c54223ad72f54e75921da90c9053d18b13bb2179a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
       },
       "matrix_world": [
         [
@@ -437,10 +437,10 @@
       "bounds_max": [
         8.275882720947266,
         -15.699012756347656,
-        1.859457015991211
+        1.851645588874817
       ],
-      "vertices": 22775,
-      "faces": 21216,
+      "vertices": 22812,
+      "faces": 21277,
       "materials": [
         "P03_ANATOMICAL_BASE.body",
         "P03_ANATOMICAL_BASE.high-poly",
@@ -464,8 +464,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "dfdbd2793bef36fc08be441c54223ad72f54e75921da90c9053d18b13bb2179a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
       },
       "matrix_world": [
         [
@@ -501,10 +501,10 @@
       "bounds_max": [
         -5.509432792663574,
         18.340696334838867,
-        1.859457015991211
+        1.851645588874817
       ],
-      "vertices": 22775,
-      "faces": 21216,
+      "vertices": 22812,
+      "faces": 21277,
       "materials": [
         "P03_ANATOMICAL_BASE.body",
         "P03_ANATOMICAL_BASE.high-poly",
@@ -528,8 +528,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "dfdbd2793bef36fc08be441c54223ad72f54e75921da90c9053d18b13bb2179a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "0006aae164fe7164a1706578bbc6f3fce6019b2d41ed14d4b8cb4362013b28f8"
       },
       "matrix_world": [
         [
@@ -565,10 +565,10 @@
       "bounds_max": [
         7.490567207336426,
         -7.659303188323975,
-        1.859457015991211
+        1.851645588874817
       ],
-      "vertices": 22775,
-      "faces": 21216,
+      "vertices": 22812,
+      "faces": 21277,
       "materials": [
         "P03_ANATOMICAL_BASE.body",
         "P03_ANATOMICAL_BASE.high-poly",
@@ -592,8 +592,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "52f3b5bf77117c7f28c2f365b9b519863c041cd21fef76ed7afe13f0d246532a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
       },
       "matrix_world": [
         [
@@ -629,10 +629,10 @@
       "bounds_max": [
         17.313106536865234,
         -15.859068870544434,
-        1.6665124893188477
+        1.6938265562057495
       ],
-      "vertices": 23170,
-      "faces": 21506,
+      "vertices": 23706,
+      "faces": 21916,
       "materials": [
         "P04_ANATOMICAL_BASE.body",
         "P04_ANATOMICAL_BASE.high-poly",
@@ -658,8 +658,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "52f3b5bf77117c7f28c2f365b9b519863c041cd21fef76ed7afe13f0d246532a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
       },
       "matrix_world": [
         [
@@ -695,10 +695,10 @@
       "bounds_max": [
         3.43184494972229,
         19.299083709716797,
-        1.6665124893188477
+        1.6938265562057495
       ],
-      "vertices": 23170,
-      "faces": 21506,
+      "vertices": 23706,
+      "faces": 21916,
       "materials": [
         "P04_ANATOMICAL_BASE.body",
         "P04_ANATOMICAL_BASE.high-poly",
@@ -724,8 +724,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "52f3b5bf77117c7f28c2f365b9b519863c041cd21fef76ed7afe13f0d246532a"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "7612a6e7160ee6d2dd8ee57fda26f6c3f8887ca0ea5ddc66f7822f01e425fe70"
       },
       "matrix_world": [
         [
@@ -761,10 +761,10 @@
       "bounds_max": [
         8.631844520568848,
         -7.3009161949157715,
-        1.6665124893188477
+        1.6938265562057495
       ],
-      "vertices": 23170,
-      "faces": 21506,
+      "vertices": 23706,
+      "faces": 21916,
       "materials": [
         "P04_ANATOMICAL_BASE.body",
         "P04_ANATOMICAL_BASE.high-poly",
@@ -790,8 +790,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4f79ce5481d5dd8765f54af96e61ebf87410255f93777dc9d3c5f6c8d7c2a420"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
       },
       "matrix_world": [
         [
@@ -854,8 +854,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4f79ce5481d5dd8765f54af96e61ebf87410255f93777dc9d3c5f6c8d7c2a420"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
       },
       "matrix_world": [
         [
@@ -918,8 +918,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "4f79ce5481d5dd8765f54af96e61ebf87410255f93777dc9d3c5f6c8d7c2a420"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "1e18293318eba6c7b754adb532cc727751c78d4ffa4fa3c434b6b7e35066c4b7"
       },
       "matrix_world": [
         [
@@ -982,8 +982,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "64d906d52d8c1427caefe2b0dabb53381faf3544af28f48deec921f3e508a1e0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
       },
       "matrix_world": [
         [
@@ -1019,10 +1019,10 @@
       "bounds_max": [
         -8.775481224060059,
         16.234619140625,
-        1.675681710243225
+        1.6894609928131104
       ],
-      "vertices": 26437,
-      "faces": 23665,
+      "vertices": 26538,
+      "faces": 23738,
       "materials": [
         "P06_ANATOMICAL_BASE.body",
         "P06_ANATOMICAL_BASE.high-poly",
@@ -1046,8 +1046,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "64d906d52d8c1427caefe2b0dabb53381faf3544af28f48deec921f3e508a1e0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
       },
       "matrix_world": [
         [
@@ -1083,10 +1083,10 @@
       "bounds_max": [
         21.362947463989258,
         18.216890335083008,
-        1.675681710243225
+        1.6894609928131104
       ],
-      "vertices": 26437,
-      "faces": 23665,
+      "vertices": 26538,
+      "faces": 23738,
       "materials": [
         "P06_ANATOMICAL_BASE.body",
         "P06_ANATOMICAL_BASE.high-poly",
@@ -1110,8 +1110,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "64d906d52d8c1427caefe2b0dabb53381faf3544af28f48deec921f3e508a1e0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "4753633338e7f6bc65c5434e58a2f3df60fbd7753e9e28fcd3867922dd7b6984"
       },
       "matrix_world": [
         [
@@ -1147,10 +1147,10 @@
       "bounds_max": [
         -11.437053680419922,
         -7.283109188079834,
-        1.675681710243225
+        1.6894609928131104
       ],
-      "vertices": 26437,
-      "faces": 23665,
+      "vertices": 26538,
+      "faces": 23738,
       "materials": [
         "P06_ANATOMICAL_BASE.body",
         "P06_ANATOMICAL_BASE.high-poly",
@@ -1174,8 +1174,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0133fa6ba7e7aa8c00dfb97a28724b837eac6d9e288c584b4001a5f2f1327227"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
       },
       "matrix_world": [
         [
@@ -1211,10 +1211,10 @@
       "bounds_max": [
         8.484182357788086,
         16.273488998413086,
-        1.797471523284912
+        1.8031779527664185
       ],
-      "vertices": 21638,
-      "faces": 20569,
+      "vertices": 21712,
+      "faces": 20639,
       "materials": [
         "P07_ANATOMICAL_BASE.body",
         "P07_ANATOMICAL_BASE.high-poly",
@@ -1240,8 +1240,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0133fa6ba7e7aa8c00dfb97a28724b837eac6d9e288c584b4001a5f2f1327227"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
       },
       "matrix_world": [
         [
@@ -1277,10 +1277,10 @@
       "bounds_max": [
         -21.483903884887695,
         -18.39200782775879,
-        1.797471523284912
+        1.8031779527664185
       ],
-      "vertices": 21638,
-      "faces": 20569,
+      "vertices": 21712,
+      "faces": 20639,
       "materials": [
         "P07_ANATOMICAL_BASE.body",
         "P07_ANATOMICAL_BASE.high-poly",
@@ -1306,8 +1306,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "0133fa6ba7e7aa8c00dfb97a28724b837eac6d9e288c584b4001a5f2f1327227"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "81dc46056ff133ac46cc2d8f14ec653feda10a337666e6c73d681b8d2b9ba95d"
       },
       "matrix_world": [
         [
@@ -1343,10 +1343,10 @@
       "bounds_max": [
         12.516095161437988,
         9.607993125915527,
-        1.797471523284912
+        1.8031779527664185
       ],
-      "vertices": 21638,
-      "faces": 20569,
+      "vertices": 21712,
+      "faces": 20639,
       "materials": [
         "P07_ANATOMICAL_BASE.body",
         "P07_ANATOMICAL_BASE.high-poly",
@@ -1372,8 +1372,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "3ab9dce78f66faaf2131e126c2ea47077daf573b00086c2f799fb508345d7ffd"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
       },
       "matrix_world": [
         [
@@ -1436,8 +1436,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "3ab9dce78f66faaf2131e126c2ea47077daf573b00086c2f799fb508345d7ffd"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
       },
       "matrix_world": [
         [
@@ -1500,8 +1500,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "3ab9dce78f66faaf2131e126c2ea47077daf573b00086c2f799fb508345d7ffd"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8230d2c39e0c174002e23e612855d125693e69fb65bbf88707214cab67dd8677"
       },
       "matrix_world": [
         [
@@ -1564,8 +1564,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "d38ac3ac8ee51dd9c3684adc67b7a8bb0b752824d0589b69d95c618813b366d9"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
       },
       "matrix_world": [
         [
@@ -1601,10 +1601,10 @@
       "bounds_max": [
         -25.671300888061523,
         5.21090030670166,
-        1.7570512294769287
+        1.7534294128417969
       ],
-      "vertices": 23004,
-      "faces": 21454,
+      "vertices": 23109,
+      "faces": 21550,
       "materials": [
         "P09_ANATOMICAL_BASE.body",
         "P09_ANATOMICAL_BASE.high-poly",
@@ -1628,8 +1628,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "d38ac3ac8ee51dd9c3684adc67b7a8bb0b752824d0589b69d95c618813b366d9"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
       },
       "matrix_world": [
         [
@@ -1665,10 +1665,10 @@
       "bounds_max": [
         -4.671299934387207,
         -18.789098739624023,
-        1.7570512294769287
+        1.7534294128417969
       ],
-      "vertices": 23004,
-      "faces": 21454,
+      "vertices": 23109,
+      "faces": 21550,
       "materials": [
         "P09_ANATOMICAL_BASE.body",
         "P09_ANATOMICAL_BASE.high-poly",
@@ -1692,8 +1692,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "d38ac3ac8ee51dd9c3684adc67b7a8bb0b752824d0589b69d95c618813b366d9"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "edc2a6b028ca982868577422d2d7ab8d58b3dfea401d2eba388dc4a4ba5321d7"
       },
       "matrix_world": [
         [
@@ -1729,10 +1729,10 @@
       "bounds_max": [
         -12.671299934387207,
         10.21090030670166,
-        1.7570512294769287
+        1.7534294128417969
       ],
-      "vertices": 23004,
-      "faces": 21454,
+      "vertices": 23109,
+      "faces": 21550,
       "materials": [
         "P09_ANATOMICAL_BASE.body",
         "P09_ANATOMICAL_BASE.high-poly",
@@ -1756,8 +1756,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "ecc77402498d1c46e546177412b6172b8b0639f3ff0ab77179d7d294b4afa0fb"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
       },
       "matrix_world": [
         [
@@ -1793,10 +1793,10 @@
       "bounds_max": [
         26.45212745666504,
         -9.754404067993164,
-        1.6793299913406372
+        1.710879921913147
       ],
-      "vertices": 23172,
-      "faces": 21510,
+      "vertices": 23821,
+      "faces": 21997,
       "materials": [
         "P10_ANATOMICAL_BASE.body",
         "P10_ANATOMICAL_BASE.high-poly",
@@ -1822,8 +1822,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "ecc77402498d1c46e546177412b6172b8b0639f3ff0ab77179d7d294b4afa0fb"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
       },
       "matrix_world": [
         [
@@ -1859,10 +1859,10 @@
       "bounds_max": [
         4.452127933502197,
         -18.754404067993164,
-        1.6793299913406372
+        1.710879921913147
       ],
-      "vertices": 23172,
-      "faces": 21510,
+      "vertices": 23821,
+      "faces": 21997,
       "materials": [
         "P10_ANATOMICAL_BASE.body",
         "P10_ANATOMICAL_BASE.high-poly",
@@ -1888,8 +1888,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "ecc77402498d1c46e546177412b6172b8b0639f3ff0ab77179d7d294b4afa0fb"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8fdaa78e29a974c611a62b4bbcbbecc944d61c7449a98122409097a5f8463614"
       },
       "matrix_world": [
         [
@@ -1925,10 +1925,10 @@
       "bounds_max": [
         -11.347871780395508,
         10.745595932006836,
-        1.6793299913406372
+        1.710879921913147
       ],
-      "vertices": 23172,
-      "faces": 21510,
+      "vertices": 23821,
+      "faces": 21997,
       "materials": [
         "P10_ANATOMICAL_BASE.body",
         "P10_ANATOMICAL_BASE.high-poly",
@@ -1954,8 +1954,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "de8e1948def81d4fb03f6fc70f8e89e7dbdbc12258b3f3dd706fa18857d7a387"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
       },
       "matrix_world": [
         [
@@ -2018,8 +2018,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "de8e1948def81d4fb03f6fc70f8e89e7dbdbc12258b3f3dd706fa18857d7a387"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
       },
       "matrix_world": [
         [
@@ -2082,8 +2082,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "de8e1948def81d4fb03f6fc70f8e89e7dbdbc12258b3f3dd706fa18857d7a387"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b"
       },
       "matrix_world": [
         [
@@ -2146,8 +2146,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "c58840f81dbe2b831711eb337e8afa60931a412e7bb8312dee1c56934b1b4de0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
       },
       "matrix_world": [
         [
@@ -2183,10 +2183,10 @@
       "bounds_max": [
         20.25065803527832,
         -22.772397994995117,
-        1.6410188674926758
+        1.6511917114257812
       ],
-      "vertices": 26486,
-      "faces": 23716,
+      "vertices": 26577,
+      "faces": 23784,
       "materials": [
         "P12_ANATOMICAL_BASE.body",
         "P12_ANATOMICAL_BASE.high-poly",
@@ -2210,8 +2210,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "c58840f81dbe2b831711eb337e8afa60931a412e7bb8312dee1c56934b1b4de0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
       },
       "matrix_world": [
         [
@@ -2247,10 +2247,10 @@
       "bounds_max": [
         22.25065803527832,
         -17.772397994995117,
-        1.6410188674926758
+        1.6511917114257812
       ],
-      "vertices": 26486,
-      "faces": 23716,
+      "vertices": 26577,
+      "faces": 23784,
       "materials": [
         "P12_ANATOMICAL_BASE.body",
         "P12_ANATOMICAL_BASE.high-poly",
@@ -2274,8 +2274,8 @@
         "building_id": "CROWD",
         "layer": "people",
         "floor_id": "PUBLIC",
-        "stage": "R3_ACCESSORY_FITTING_CORRECTED",
-        "rig_source_sha256": "c58840f81dbe2b831711eb337e8afa60931a412e7bb8312dee1c56934b1b4de0"
+        "stage": "R6_ACCESSORY_FITTING_CORRECTED",
+        "rig_source_sha256": "8d22dcaf117a0984f7e543843f5966a37039f0640c242736c2061afedd1509fc"
       },
       "matrix_world": [
         [
@@ -2311,10 +2311,10 @@
       "bounds_max": [
         5.450657367706299,
         3.627601146697998,
-        1.6410188674926758
+        1.6511917114257812
       ],
-      "vertices": 26486,
-      "faces": 23716,
+      "vertices": 26577,
+      "faces": 23784,
       "materials": [
         "P12_ANATOMICAL_BASE.body",
         "P12_ANATOMICAL_BASE.high-poly",

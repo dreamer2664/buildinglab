@@ -1,7 +1,7 @@
 import bpy,os,json,hashlib
 from pathlib import Path
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];key=os.environ['SQUARE_COMPONENT'];base=R/'.cache/final-components';path=base/'Winterlichtplatz-R4.glb' if key=='ALL' else base/'GLB'/(key+'.glb');bpy.ops.wm.read_factory_settings(use_empty=True);bpy.ops.import_scene.gltf(filepath=str(path));s=bpy.context.scene;bpy.context.view_layer.update();meshes=[o for o in s.objects if o.type=='MESH'];pts=[o.matrix_world@Vector(p) for o in meshes for p in o.bound_box]
+R=Path(__file__).resolve().parents[2];key=os.environ['SQUARE_COMPONENT'];base=R/'.cache/final-components';path=base/'Winterlichtplatz-R6.glb' if key=='ALL' else base/'GLB'/(key+'.glb');bpy.ops.wm.read_factory_settings(use_empty=True);bpy.ops.import_scene.gltf(filepath=str(path));s=bpy.context.scene;bpy.context.view_layer.update();meshes=[o for o in s.objects if o.type=='MESH'];pts=[o.matrix_world@Vector(p) for o in meshes for p in o.bound_box]
 actual={'mesh_objects':len(meshes),'triangles_instance_sum':sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in meshes),'bounds_min':[min(p[i] for p in pts) for i in range(3)],'bounds_max':[max(p[i] for p in pts) for i in range(3)],'floor_ids':sorted({str(o.get('floor_id')) for o in meshes}),'room_ids':sorted({str(o.get('room_id')) for o in meshes}),'person_ids':sorted([int(o['person_id']) for o in meshes if o.get('person_id')])}
 if key=='ALL':
  expected={};exports=[json.loads(p.read_text())['expected_geometry'] for p in sorted((R/'evidence/production').glob('export-*.json'))]

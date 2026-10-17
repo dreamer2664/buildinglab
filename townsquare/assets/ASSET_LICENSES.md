@@ -40,10 +40,18 @@ Rights intake does not constitute visual acceptance or independent project accep
 
 ## R3 inspect-driven revisions
 
-All12 scarf tails were authored as gently folded double-sided textile surfaces outside the evaluated parka. Four cap wearers use editable crown masks to prevent hair penetration found in actual studio images; raw anatomical mesh and authored rig pose signatures remain unchanged. Original physical interior business panels, cafe furnishing/ceramics and a generic espresso/grinder workstation are project-authored CC0 geometry; their modelling scripts reuse the same author's MIT component library without modifying the previous project. A separate auxiliary snow backdrop and physical seamless inspection cyclorama are original geometry, not generated-image substitutes.
+All12 scarf tails were authored as gently folded double-sided textile surfaces outside the evaluated parka. Cap wearers use editable crown masks to prevent hair penetration found in actual studio images; raw anatomical mesh and authored rig pose signatures remain unchanged. Original physical interior business panels, cafe furnishing/ceramics and a generic espresso/grinder workstation are project-authored CC0 geometry; their modelling scripts reuse the same author's MIT component library without modifying the previous project. A separate auxiliary snow backdrop and physical seamless inspection cyclorama are original geometry, not generated-image substitutes.
 
 R3 native structure/packing/room furnishing/foot contact has actually passed. Visual inspection/export/reimport/public verification are separate gates; neither this rights ledger nor a package upload grants realism or independent acceptance. Pre-freeze studies are labelled separately from strict frozen-source evidence.
 
 ## Font notice
 
 Original vector marks use DejaVu Sans/sans-serif typography; rasterized marks are packed, not font binaries. DejaVu/Bitstream Vera font rights remain separate from the original CC0 logo compositions. See `FONT-NOTICE.txt` copied from the actually installed font package. No exclusive typeface/trademark rights are claimed.
+
+## R5 all-variant reinspection corrections
+
+Actual original2560x1440 D02/D04 exposed residual sawtooth mask edges and too-low P04 brim. R5 uses smooth-interpolated weighted clipping25mm inside each cap, and fits each low brim12mm above actual posed eyebrow height. The actual capped variants are P01, P03, P04, P06, P07, P09, P10, P12. Original native wool microrelief improves textile response; it is a documented procedural-normal fallback in glTF. All12 raw anatomical mesh/authored rig-pose signature comparisons remain equal. R4 outputs remain historical rejected-candidate studies, not final accepted images.
+
+## R6 cap-hem regression
+
+R5 previews exposed lateral protrusions at P03/P09 despite smoother edges. R6 keeps the posed-eyebrow fit but clips hair exactly0.5mm below lowest cap-part edge using full-range world-z-linear weights, not a clamped narrow band. Actual evaluated hair max-z constraints pass on every capped mesh; raw anatomical mesh and rig pose conserved. This is geometry/clothing-fit evidence, not photo-realism or independent acceptance.

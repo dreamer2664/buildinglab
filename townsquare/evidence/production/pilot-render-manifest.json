@@ -26,23 +26,23 @@
     "view_id": "D01",
     "title": "Studio asset inspection / P01 and P02",
     "kind": "people",
-    "source_native_sha256": "8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb",
-    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
-    "image": ".cache/pilot-R3/D01.png",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D01.png",
     "dimensions": [
       1024,
       576
     ],
-    "final_sha256": "6d38fd660f0fb1cacf351c0ba31b61daf43a29f656c9d439d1f4c021f492512a",
-    "noisy_original_sha256": "682386c179dc6ab1ba858e77c3c982cd911db4576d8fc22145fbef9d68c19965",
-    "noisy_original": ".cache/pilot-R3/D01.noisy.png",
-    "original_before_denoise_sha256": "682386c179dc6ab1ba858e77c3c982cd911db4576d8fc22145fbef9d68c19965",
+    "final_sha256": "272542ce47cd47ad956ba5945d2013666f3971ee5649012fd845d5d5c5a84402",
+    "noisy_original_sha256": "2dab0974373c92b963972ae38b6042eb04f56ed6d7c4f2903751f9aad4a0f9b5",
+    "noisy_original": ".cache/pilot-R6/D01.noisy.png",
+    "original_before_denoise_sha256": "2dab0974373c92b963972ae38b6042eb04f56ed6d7c4f2903751f9aad4a0f9b5",
     "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
     "render_reports": [
-      ".cache/pilot-R3/D01.render.json"
+      ".cache/pilot-R6/D01.render.json"
     ],
     "tile_assembly": null,
-    "elapsed_seconds": 30.38,
+    "elapsed_seconds": 17.95,
     "visual_inspection": "PENDING"
   },
   "H02": {
@@ -66,6 +66,121 @@
     ],
     "tile_assembly": null,
     "elapsed_seconds": 95.71,
+    "visual_inspection": "PENDING"
+  },
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D02.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "827afc574f044d21ff9ebdbbdee6dd3cc2e09739ce66ee04d2bb00ff210a3b5e",
+    "noisy_original_sha256": "d7c3f3fd5705351a2421b1323f0011f7fa48db59ae55dc1471e162d00b5172b4",
+    "noisy_original": ".cache/pilot-R6/D02.noisy.png",
+    "original_before_denoise_sha256": "d7c3f3fd5705351a2421b1323f0011f7fa48db59ae55dc1471e162d00b5172b4",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R6/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 18.73,
+    "visual_inspection": "PENDING"
+  },
+  "D03": {
+    "view_id": "D03",
+    "title": "Studio asset inspection / P05 and P06",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D03.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "877fdcde1b6221397d474d86ad5dd22e69da07ab61f24ca4cd63656fd32b918d",
+    "noisy_original_sha256": "80e9d07acefd80c1445938308cc110533277ba81e0496aa8638b03b1756d509e",
+    "noisy_original": ".cache/pilot-R6/D03.noisy.png",
+    "original_before_denoise_sha256": "80e9d07acefd80c1445938308cc110533277ba81e0496aa8638b03b1756d509e",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R6/D03.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 16.7,
+    "visual_inspection": "PENDING"
+  },
+  "D04": {
+    "view_id": "D04",
+    "title": "Studio asset inspection / P07 and P08",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D04.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "21ebfe2586b656297d6b3eed098a40da434532822f61f8abdde44967d354df62",
+    "noisy_original_sha256": "cd911ab42696f4492e0a8a0443891a8712642fb707eab33f953a6d559a010f5d",
+    "noisy_original": ".cache/pilot-R6/D04.noisy.png",
+    "original_before_denoise_sha256": "cd911ab42696f4492e0a8a0443891a8712642fb707eab33f953a6d559a010f5d",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R6/D04.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 18.67,
+    "visual_inspection": "PENDING"
+  },
+  "D05": {
+    "view_id": "D05",
+    "title": "Studio asset inspection / P09 and P10",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D05.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "4959a2b7503ab360904044c684ca2837788babf0af40dc74c200ffcbf5d3816d",
+    "noisy_original_sha256": "3fb8102e1f0828e9ea066fb7a612cc8f79a92bf00c923e0227ff97ca8cf4ea49",
+    "noisy_original": ".cache/pilot-R6/D05.noisy.png",
+    "original_before_denoise_sha256": "3fb8102e1f0828e9ea066fb7a612cc8f79a92bf00c923e0227ff97ca8cf4ea49",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R6/D05.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 18.38,
+    "visual_inspection": "PENDING"
+  },
+  "D06": {
+    "view_id": "D06",
+    "title": "Studio asset inspection / P11 and P12",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/pilot-R6/D06.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "27aac74c94bfb622f10913572209a0f26c6fc3877d45ec15f81c904fd8bff980",
+    "noisy_original_sha256": "c147e75530d5fd3d4fd7a9094ccff2fbee0d9e887072ba530f13943ac2b7d5f5",
+    "noisy_original": ".cache/pilot-R6/D06.noisy.png",
+    "original_before_denoise_sha256": "c147e75530d5fd3d4fd7a9094ccff2fbee0d9e887072ba530f13943ac2b7d5f5",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R6/D06.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 18.52,
     "visual_inspection": "PENDING"
   }
 }

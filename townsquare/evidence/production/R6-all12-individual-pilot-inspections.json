@@ -1,0 +1,71 @@
+{
+  "inspections": [
+    {
+      "view": "D01",
+      "image": ".cache/pilot-R6/D01.png",
+      "sha256": "272542ce47cd47ad956ba5945d2013666f3971ee5649012fd845d5d5c5a84402",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P01/P02 faces/scarves clear; no crown penetration at study scale.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    },
+    {
+      "view": "D02",
+      "image": ".cache/pilot-R6/D02.png",
+      "sha256": "827afc574f044d21ff9ebdbbdee6dd3cc2e09739ce66ee04d2bb00ff210a3b5e",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P03 lateral crown protrusion absent, smooth hair termination below brim; P04 eyes unobscured by green cap.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    },
+    {
+      "view": "D03",
+      "image": ".cache/pilot-R6/D03.png",
+      "sha256": "877fdcde1b6221397d474d86ad5dd22e69da07ab61f24ca4cd63656fd32b918d",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P06 smooth hair termination, no sawtooth spikes; P05 skin/grey hair/scarf visible.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    },
+    {
+      "view": "D04",
+      "image": ".cache/pilot-R6/D04.png",
+      "sha256": "21ebfe2586b656297d6b3eed098a40da434532822f61f8abdde44967d354df62",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P07 cap/fringe and P08 uncapped blonde hair clear; scarf tails remain in front of parkas.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    },
+    {
+      "view": "D05",
+      "image": ".cache/pilot-R6/D05.png",
+      "sha256": "4959a2b7503ab360904044c684ca2837788babf0af40dc74c200ffcbf5d3816d",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P09 lateral hair protrusion absent; P10 eyes visible under cap. Both scarf tails outside coat.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    },
+    {
+      "view": "D06",
+      "image": ".cache/pilot-R6/D06.png",
+      "sha256": "27aac74c94bfb622f10913572209a0f26c6fc3877d45ec15f81c904fd8bff980",
+      "actual_original_opened_separately": true,
+      "method": "Single functions.read_file call per actual file, unambiguous image association",
+      "finding": "P11/P12 naturalistic textured CG faces, hair/brim and scarf geometry visible; no identified remaining intersection at study scale.",
+      "fit_reinspection": "Identified R4/R5 clothing/crown defects corrected at study scale",
+      "final_resolution_acceptance": false,
+      "photorealism_or_independent_acceptance": false
+    }
+  ],
+  "decision": "Proceed to final-resolution image production, not a claim of photographic/scanned humans or overall acceptance. All12 generic anatomical CG variants actually inspected in6 paired images; actual evaluated under-hem regression also PASS on capped hair."
+}

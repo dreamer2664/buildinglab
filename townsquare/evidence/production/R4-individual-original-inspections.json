@@ -1,0 +1,63 @@
+{
+  "actual_individual_inspections": [
+    {
+      "view": "D01",
+      "image": ".cache/final-R4-rejected-studies/D01.png",
+      "sha256": "1d7cb4107c8388a547adb63b261320d695e705cc3de58da69bbd0432a995ff85",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "actual_original_opened": true,
+      "inspection_method": "functions.read_file separate original file per image",
+      "notes": "Actually opened original. P01/P02 anatomical textured faces and fitted scarf; no extra severe frontal cap defect. Generic CG not photorealism acceptance.",
+      "candidate_acceptance": "REJECTED: systematic hat fit/mask corrections needed",
+      "independent_acceptance": false
+    },
+    {
+      "view": "D02",
+      "image": ".cache/final-R4-rejected-studies/D02.png",
+      "sha256": "da6c376781acbff81e07419c02553dc088454d5f51aca2220bea6c4ad0412216",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "actual_original_opened": true,
+      "inspection_method": "functions.read_file separate original file per image",
+      "notes": "Authoritative SINGLE-FILE reopen confirms P03 left purple cap has jagged hair boundary; P04 right green brim obscures upper eyes. REJECT; R5 smooth cap-interior hair clip and posed-eyebrow rim fitting.",
+      "candidate_acceptance": "REJECTED: systematic hat fit/mask corrections needed",
+      "independent_acceptance": false
+    },
+    {
+      "view": "D03",
+      "image": ".cache/final-R4-rejected-studies/D03.png",
+      "sha256": "b9e446f558ab167e1b058d10e4b59afe5af5ff9cb07aefff8cfb5472cb35fa70",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "actual_original_opened": true,
+      "inspection_method": "functions.read_file separate original file per image",
+      "notes": "Authoritative SINGLE-FILE reopen confirms P05 left grey-haired man has no cap; P06 right red-capped woman has sawtooth hair under rim. REJECT; R5 smooth weighted crown mask.",
+      "candidate_acceptance": "REJECTED: systematic hat fit/mask corrections needed",
+      "independent_acceptance": false
+    },
+    {
+      "view": "D04",
+      "image": ".cache/final-R4-rejected-studies/D04.png",
+      "sha256": "43942042d7cbaa78f2cf7e00cdca5e68678a1e24a8f5f62f86b3dc88c0e57fdd",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "actual_original_opened": true,
+      "inspection_method": "functions.read_file separate original file per image",
+      "notes": "Authoritative SINGLE-FILE reopen confirms P07 right green parka/navy cap and P08 left blonde-haired woman without cap. Mild fringe-edge issue at P07 frontal rim; P08 has no cap. Earlier parallel-image-to-file association was incorrect, now corrected from separate actual file reopens.",
+      "candidate_acceptance": "REJECTED: systematic hat fit/mask corrections needed",
+      "independent_acceptance": false
+    }
+  ],
+  "not_inspected": "D05 generated before stop but not opened; D06 interrupted. Neither is accepted or counted as inspected.",
+  "fix": "R5 all12 rigs actually rebuilt from immutable originals; anatomical/pose signatures conserved. Smooth25mm-inside-cap weighted masks; brim now12mm above actual posed eyebrows, original native wool microrelief. New native/derivative actually reopened PASS; six paired people pilots running before restarting full92 frames.",
+  "association_correction": "Parallel image tool outputs were not in requested filename order. D02,D03,D04 separately reopened by single-file calls and exact observations corrected above. Do not repeat the erroneous P08 low-cap claim."
+}

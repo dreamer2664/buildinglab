@@ -2,7 +2,7 @@
   "person": "P11",
   "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
   "corrected_rig": ".cache/fixed-people/rigs/P11.blend",
-  "corrected_rig_sha256": "de8e1948def81d4fb03f6fc70f8e89e7dbdbc12258b3f3dd706fa18857d7a387",
+  "corrected_rig_sha256": "a8a063691fea0e7e00ac7a901df23ac55df2f263970fda429a06b2c785f6131b",
   "anatomy_and_pose_signature_before": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
   "anatomy_and_pose_signature_after": "d684f38f57432d21fcd3dc56c7a431a97f9c91473f9c5cdfd60fe9bcefd7c43a",
   "anatomy_and_pose_conserved": true,

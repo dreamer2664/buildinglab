@@ -1,14 +1,14 @@
 {
   "component": "P03",
-  "source_native_sha256": "8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb",
+  "source_native_sha256": "71d0b9bc620f93982d6ff41bc41c59e16f7a3c0c4d457943cc2f908b73c713d0",
   "glb": ".cache/final-components/GLB/P03.glb",
-  "glb_sha256": "6c8751049e94bb5344d6664a12ad58e9b747814e2969be7b1868576de51ff8ba",
-  "glb_bytes": 3362124,
+  "glb_sha256": "58cd2f50023a754f8a4558947c5b72aabc30e47636a3babc7c259e3ab2e475a1",
+  "glb_bytes": 3335856,
   "expected_geometry": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 68325,
-    "polygons_instance_sum": 63648,
-    "triangles_instance_sum": 128124,
+    "vertices_instance_sum": 69483,
+    "polygons_instance_sum": 64422,
+    "triangles_instance_sum": 129654,
     "bounds_min": [
       -6.2981414794921875,
       -16.284982681274414,
@@ -17,7 +17,7 @@
     "bounds_max": [
       8.275882720947266,
       18.340696334838867,
-      1.859457015991211
+      1.851645588874817
     ],
     "floor_ids": [
       "PUBLIC"
@@ -32,7 +32,8 @@
     ]
   },
   "texture_cap_px": 512,
-  "scope": "All final component geometry except explicitly labelled auxiliary500m snow backdrop; static people, with separate full-resolution editable rigs",
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
   "portability_limitations": [
     "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
     "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",

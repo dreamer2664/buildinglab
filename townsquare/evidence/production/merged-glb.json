@@ -1,7 +1,7 @@
 {
-  "glb": ".cache/final-components/Winterlichtplatz-R3.glb",
-  "bytes": 139548532,
-  "sha256": "0670f7bec4459a9bd2389f1e32dbfe0829fd943a4438901114baa03184cb7e91",
+  "glb": ".cache/final-components/Winterlichtplatz-R5.glb",
+  "bytes": 139766076,
+  "sha256": "1dbd434fa7c22fb02b31e123158e62b6395f659fe5bdfb79d1e9862cc474544b",
   "components": [
     {
       "file": "B01.glb",
@@ -77,81 +77,81 @@
     },
     {
       "file": "PUBLIC.glb",
-      "bytes": 17032948,
-      "sha256": "3ca0d6fbdb5cc9cd8a0e6741db06503ca01a235c808bf2d5194135859cdd7f4e",
+      "bytes": 17035172,
+      "sha256": "9e3ae8a1cbe9aa1262a4d63d71483d2d3c1457ebeea085165cf4b6d4503c9cd0",
       "binary_offset": 151106000
     },
     {
       "file": "P01.glb",
-      "bytes": 3762200,
-      "sha256": "15bda471df87e490711b6a62b3090e4272048a84a7447fa5c99d6d683f7c9bc5",
-      "binary_offset": 168024744
+      "bytes": 3733752,
+      "sha256": "18282082cd549b2e07381c2b035a3cb8cca692524678cc627b962839cbfa7afa",
+      "binary_offset": 168025896
     },
     {
       "file": "P02.glb",
       "bytes": 3460580,
-      "sha256": "9d71fb5c9e7bd28a0b22b6ec9f8f4f460ff877840c98859a98a0f10d447d96e8",
-      "binary_offset": 171772264
+      "sha256": "1b59b6bc1e2af80d1a1ca17cef93b1aa6ec3703fe7a73b256e4b4b48111ce814",
+      "binary_offset": 171745160
     },
     {
       "file": "P03.glb",
-      "bytes": 3362124,
-      "sha256": "6c8751049e94bb5344d6664a12ad58e9b747814e2969be7b1868576de51ff8ba",
-      "binary_offset": 175220208
+      "bytes": 3335856,
+      "sha256": "58cd2f50023a754f8a4558947c5b72aabc30e47636a3babc7c259e3ab2e475a1",
+      "binary_offset": 175193104
     },
     {
       "file": "P04.glb",
-      "bytes": 3980428,
-      "sha256": "2a0017a4fbf0fc7b14e6c14ae060a18618d64c1f0e803dce51ec2493e8fe553a",
-      "binary_offset": 178569780
+      "bytes": 3994212,
+      "sha256": "1bd82de7de53a670158109a462d77092596293a0e9b9392bc2b9cfb900a8871a",
+      "binary_offset": 178516592
     },
     {
       "file": "P05.glb",
       "bytes": 3467596,
-      "sha256": "c092ea89bb6fbe4b9142f3f47ef374a3f26d224c94ab4755d7235e65e50320cf",
-      "binary_offset": 182535472
+      "sha256": "e250de5e48202bf870de7447d27853c01f023014496c3480634d92d12ca2a196",
+      "binary_offset": 182496260
     },
     {
       "file": "P06.glb",
-      "bytes": 3420664,
-      "sha256": "c8b81799e35f0e2a0a67774e95c474b307460f86627d8eb91dfeed355eb0f987",
-      "binary_offset": 185990472
+      "bytes": 3382636,
+      "sha256": "914ae76fc302ec7c13b21d26c9cce0e467b7d06a55c26788eabd6e5e6bfcd549",
+      "binary_offset": 185951260
     },
     {
       "file": "P07.glb",
-      "bytes": 3768548,
-      "sha256": "1ce57e664244b762e816a0ddd425c328fea02a0c75e388c3a20004d391428307",
-      "binary_offset": 189398544
+      "bytes": 3737024,
+      "sha256": "15dfaf229f2165e3152e85de1cda06e342fb548dc74becd3877a9cfe02065c14",
+      "binary_offset": 189321496
     },
     {
       "file": "P08.glb",
       "bytes": 3456312,
-      "sha256": "5656a1fe496fb7c1e129bc7cb024ed0fb4cb0f84e292db18b8d1a6032633d56b",
-      "binary_offset": 193152444
+      "sha256": "849c737249f5d502a36c2cbf744612c68d72122d1b35d1fb9ee6087585eabe76",
+      "binary_offset": 193044064
     },
     {
       "file": "P09.glb",
-      "bytes": 3375620,
-      "sha256": "d8d521108fcd429f481ba7ba52bea1acd53f6bbe1630dde585bae91bb3caafb9",
-      "binary_offset": 196596148
+      "bytes": 3352172,
+      "sha256": "813d3d969a646248bd2bd4a6fb7a5ea0f93b492b2a7e0dcd49b162431027603e",
+      "binary_offset": 196487768
     },
     {
       "file": "P10.glb",
-      "bytes": 3967040,
-      "sha256": "cf330553abab5d9502dabea89e38eb4de2dcabb0ccdae5c22c653d933fbf9be8",
-      "binary_offset": 199959172
+      "bytes": 3985000,
+      "sha256": "90a61319061e3464eb542294d5e5d9417c7e60b299e6a0a268252e328d6d9638",
+      "binary_offset": 199827528
     },
     {
       "file": "P11.glb",
       "bytes": 3456784,
-      "sha256": "ad7936cb3609f72a8b57dfd29b0280df1fbdcf5c5296f37b26a3b80560fe2ed6",
-      "binary_offset": 203911488
+      "sha256": "1c988c1f71237233ff035fc627a390ae3e746fd97e0d298edbf65a81f63d9da6",
+      "binary_offset": 203797992
     },
     {
       "file": "P12.glb",
-      "bytes": 3422672,
-      "sha256": "bbc06337deb4a6b7505c92e08aaa3d0a0b0567950c6f6000ddecd95f2c4f945f",
-      "binary_offset": 207355664
+      "bytes": 3384144,
+      "sha256": "9dcc40286f59d9e1d4cdccd0631b7381aa223bfe685251ae8066f14e1e3c4b16",
+      "binary_offset": 207242168
     }
   ],
   "nodes": 1263,

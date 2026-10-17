@@ -5,9 +5,9 @@
   "fresh_factory_scene_imported_with_blender": "4.3.2",
   "expected": {
     "mesh_objects": 3,
-    "vertices_instance_sum": 69510,
-    "polygons_instance_sum": 64518,
-    "triangles_instance_sum": 130020,
+    "vertices_instance_sum": 73608,
+    "polygons_instance_sum": 67662,
+    "triangles_instance_sum": 136332,
     "bounds_min": [
       2.6053261756896973,
       -16.245874404907227,
@@ -16,7 +16,7 @@
     "bounds_max": [
       17.313106536865234,
       19.299083709716797,
-      1.6665124893188477
+      1.6938265562057495
     ],
     "floor_ids": [
       "PUBLIC"
@@ -32,7 +32,7 @@
   },
   "actual": {
     "mesh_objects": 3,
-    "triangles_instance_sum": 130020,
+    "triangles_instance_sum": 136332,
     "bounds_min": [
       2.6053261756896973,
       -16.245874404907227,
@@ -41,7 +41,7 @@
     "bounds_max": [
       17.313106536865234,
       19.299083709716797,
-      1.6665124893188477
+      1.6938265562057495
     ],
     "floor_ids": [
       "PUBLIC"
@@ -57,7 +57,7 @@
   },
   "issues": [],
   "mesh_objects_without_uv_plain_colour_allowed": [],
-  "image_count": 12,
-  "packed_images": 12,
+  "image_count": 11,
+  "packed_images": 11,
   "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
 }

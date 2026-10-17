@@ -1,3 +1,45 @@
+# R6 execution update
+
+All6 R6 paired studio originals D01..D06 ACTUALLY opened with separate single-file calls, all12 variants covered. P03/P09 crown protrusions absent, P04 eyes clear, P06 sawtooth absent; fitted scarf outside coat. `R6-all12-individual-pilot-inspections.json`. Proceeded to final resolution; no photorealism/independent acceptance claim.
+
+RUNNING final92 process `christmas-square-final-resolutio-8d5fd35b`; R6 all25component+whole clean reimport process `christmas-square-final-model-por-0d4b26dc`. Inputs FROZEN43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc / derivative88f0c41434feeba114cfb2d53ca4e400a4f34c00db8c154b3923da35d2b29abd. Do not rerun generator/fixes while final frames render. Shared lock serializes Blender/OIDN/export. Per-source render manifest filtering added so old candidate records do not inflate progress/skip fresh frames.
+
+---
+
+# Latest R6 — supersedes R5-current notes below
+
+R5 six paired pilot originals ACTUALLY opened SEPARATELY. P04 low brim corrected and P06 sawtooth fixed, but P03/D02 and P09/D05 still had lateral hair protrusion because25mm-above-hem mask plane too high. R5 rejected; `R5-all12-individual-pilot-inspections.json`. Earlier parallel-image association wrongly called low-brim figure P08; SINGLE-FILE reopens proved it was P04 in D02. D03/P06 had other sawtooth; D04/P08 has NO cap. Corrected factual evidence/notes. Never infer parallel-image order.
+
+R6 all12 original rigs ACTUALLY rebuilt: keep R5 posed-eyebrow cap fitting/wool, use exact full-range world-z-linear smooth mask threshold0.5mm BELOW lowest cap-part edge. EVERY capped hair mesh actual evaluated max-z <= cut-plane+20micrometres ASSERT PASS (8cap variants P01/P03/P04/P06/P07/P09/P10/P12). No above-hem hair vertices can remain. Raw anatomical mesh and authored rig-pose signatures conserved on all12. Current `.cache/fixed-people/rigs`; earlier R5 dirs and fit reports preserved `rigs-R5` / `history-R5`.
+
+ACTUAL R6 full native+derivative reopen PASS: full `.cache/master/Winterlichtplatz-R6.blend` SHA `43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc`; derivative SHA `88f0c41434feeba114cfb2d53ca4e400a4f34c00db8c154b3923da35d2b29abd`; conserved full/derivative signature `bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36`.1356objects/112packedimages/92presets;26furnishedfloors164rooms36people. R6 supersedes e596... R5 signature.
+
+RUNNING R6 six all12-variant pilots `christmas-square-verified-hem-cl-760b9356`; no R6 final batch/export started yet. Native frozen. After opening all6 single-file images and actual fit reinspection, launch final92 and export25/merged/clean reimport. R5 export completed actual PASS including cropped112x100m context; obsolete R5 wholeGLB139766076bytes/SHA1dbd434fa7c22fb02b31e123158e62b6395f659fe5bdfb79d1e9862cc474544b. Source has been switched to R6; stale-export guard checks full source SHA and invalidates matching component import reports.
+
+R5 backup additionally DURABLE public `townsquare/blender/candidate-20261017-71d0b9bc620f`: master304493664bytes/SHA2aca716fb57f320566c22fdcfb883d1dfa7cf3b638685c9855cd4b7bfeef0152,12rigs500681317bytes/SHA3f4008c93e6ce5955e4b2391596f942b67b8b11d994b2e88e24a23798fb653fe; actual anonymous byte/CRC/every-member PASS; source71d0..., ledger1f0332fdc47b5264cf5c7d6ff3f5d66855e5b3ff. R5 was NOT final visual acceptance, has residual temple protrusions and is superseded by R6. R6 PUBLIC BACKUP NOT YET EXECUTED; wait for pilots then preserve new full native/rigs. R3 backup still immutable too.
+
+Final accepted frame count currently0. R4 five full-resolution originals are rejected historical studies, not final images. Current source remote df657a5c5004c588c2bfbdf7d16dab0c632e30c3 predates R5/R6; needs next actual metadata/code push. Portable proof script is written but UNEXECUTED and points to actual clean-reimport native; execute only after R6 export.
+
+Continue whole commission with no milestone approvals; no self-review/photorealism/final/independent acceptance claims.
+
+---
+
+# Latest R5 — supersedes R4-current wording below
+
+Actual full-resolution original D01,D02,D03,D04 were each separately opened at2560x1440. Single-file reopen corrected the parallel image association: D02/P03 and D03/P06 showed sawtooth hair borders, D02/P04 green brim too low over eyes. Rejected R4 candidate; full batch STOPPED after5 completed, D06 interrupted. Only4 originals actually opened; D05 not inspected. Historical raws/noisy/metadata conserved `.cache/final-R4-rejected-studies`, `R4-rejected-final-render-manifest.json`, `R4-individual-original-inspections.json`. No final accepted count.
+
+All12 R5 rigs ACTUALLY rebuilt from immutable original rigs in26.8s: per-person cap rim12mm above evaluated posed eyebrow maximum, smooth interpolated weighted hair mask25mm inside cap, original wool microrelief. Raw anatomical mesh and authored rig-pose signatures all conserved. Current fixed rigs `.cache/fixed-people/rigs`; earlier R3 rigs preserved `rigs-R3` and verified public ZIP. R4 person-fit reports archived `evidence/production/history-R4`.
+
+Current R5 full native `.cache/master/Winterlichtplatz-R5.blend`, SHA `71d0b9bc620f93982d6ff41bc41c59e16f7a3c0c4d457943cc2f908b73c713d0`; derivative `.cache/master/Winterlichtplatz-render-R5.blend`, SHA `5e5f828e657bd5c60a505d3d6f2300f29bfe9338c7f6283fb937c90730da6d63`. ACTUAL full-native and derivative reopens PASS, geometry/UV/material-index/world-pose signature `e5960a5c18e478777c2be2e6f27be0080448f55352e78569421c0a8df35acdaf`.1356objects/112packedimages/92presets,26floors164rooms36people. R5 actor changes supersede58f49...signature. Source/native inputs frozen again.
+
+RUNNING paired all12-variant pilots D01..D06 process `christmas-square-all-twelve-peop-f8a97544`; R5 all25component/whole export+reimport process `christmas-square-corrected-crowd-5d7097d2`. Do not start duplicate Blender; shared lock. Inspect all six actual pilot originals; fix as necessary then restart final92 batch. R4 full92 process `christmas-square-final-resolutio-de902f39` is STOPPED, not progressing. R4 portable25components+merged whole actually passed with cropped112x100m horizon; R5 portable testing newly running.
+
+Source metadata/source scripts actually PUSHED and remote head verified `df657a5c5004c588c2bfbdf7d16dab0c632e30c3`, DRAFT PR6 body corrected from old zero-furnishing claim. That commit was before R5 hat refinements; newest changes need next actual push. R3 verified public backup remains safe, but its person rigs do NOT contain new R5 smooth-mask/brim improvements and need new final person package.
+
+Continue everything in one go, no approvals. No final/photorealistic/independent acceptance.
+
+---
+
 # Latest R4 update — supersedes R3-current wording below
 
 R4 full-map native `.cache/master/Winterlichtplatz-R4.blend` SHA `1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288`; derivative SHA `a53f6733e0cfddd3a7ac880c5121e92f7774ae85e3cf0f52879f5c8d0234b971`. BOTH ACTUALLY REOPENED PASS; same geometry/UV/material-index/world-pose signature58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb as R3. R4 only fixes interior helper visibility: retain other-floor architectural envelope of the same building. Actual mesh-component audit confirmed door lintels existed; sky strips in R3 cafe were a floor-isolation artifact, not missing native walls. R4 cafe original ACTUALLY OPENED and confirms sky strips closed and real espresso bar/identity visible. Not final-resolution/photorealism/independent acceptance.
