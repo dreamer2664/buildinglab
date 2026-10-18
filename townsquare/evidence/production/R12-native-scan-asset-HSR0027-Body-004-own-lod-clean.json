@@ -1,0 +1,59 @@
+{
+  "stage": "OWN_SOURCE_UV_CORRECT_LOD_AND_SOLE_CLEANUP / saved-source render/inspection PENDING",
+  "pose_asset_id": "HSR0027-Body-004",
+  "source_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_archive_sha256": "7adf99c9c038282b3afa8143b00eba52fced5dfe69416d3e7299597a8bc6c12f",
+  "cleanup": {
+    "method": "Own original-LOD0 UV/photo geometric decimation, followed by10mmsole slice/cap/origin shift"
+  },
+  "lod": "LOD0",
+  "texture_actually_used_sha256": "121d2e3f1075b6f301c019a75bc53c08ead803c0d0055c482a99223e95f7738c",
+  "texture_actually_used_path": ".cache/scan-intake/HSR0027-Body-004/extracted-LOD0/HSR0027-Body-004_LOD0-4096-bounded.png",
+  "source_obj_sha256": "0c4d9723cc901b6f2d9b0c0e520e2df98223065eb967f147bc06238cc802b75f",
+  "source_texture_sha256": "e6fb43f72ba1f2be3a83d7fd59a55ef737100dcfad4196ea6b6a1d9aa8ff2716",
+  "original_source_bounds": [
+    [
+      -0.3114850204581921,
+      -0.16054901752060624,
+      -0.00021346880217724962
+    ],
+    [
+      0.2851581006399586,
+      0.2379768509248975,
+      1.6704275381558928
+    ]
+  ],
+  "actual_origin_translation": [
+    -0.013163459909116743,
+    0.038713916702145634,
+    -0.00021346880217724962
+  ],
+  "mesh_vertices": 74885,
+  "mesh_polygons": 149347,
+  "mesh_uv_layers": 1,
+  "packed_diffuse_dimensions": [
+    4096,
+    4096
+  ],
+  "native": ".cache/scan-intake/native/HSR0027-Body-004-own-lod-clean-native-study.blend",
+  "native_sha256": "d37096e0c501a06a9cc5a8c2debd5ce7d39b87b96ca907f5461666e5e74e0532",
+  "native_bytes": 37055406,
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.\nActual changes: {}; texture used .cache/scan-intake/HSR0027-Body-004/extracted-LOD0/HSR0027-Body-004_LOD0-4096-bounded.png SHA256 121d2e3f1075b6f301c019a75bc53c08ead803c0d0055c482a99223e95f7738c; source original remains unchanged.\n\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 7adf99c9c038282b3afa8143b00eba52fced5dfe69416d3e7299597a8bc6c12f.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "limitations": "Static real3Dphoto scan, not a rigged scan/automatic body animation. Source photo may contain captured shading; single rough dielectric approximate material, not separate scanned BRDF. No person identification inferred or required.",
+  "own_source_photo_override": ".cache/scan-intake/HSR0027-Body-004/extracted-LOD0/HSR0027-Body-004_LOD0-4096-bounded.png",
+  "own_source_photo_sha256": "121d2e3f1075b6f301c019a75bc53c08ead803c0d0055c482a99223e95f7738c",
+  "original_source_higher_native_sha256": "467db983eb367fa83c74c5a9165d3d1e5d3ae6c8fea2271fb5cf854be523d317",
+  "own_mesh_decimation": {
+    "original_vertices_faces": [
+      499930,
+      999992
+    ],
+    "ratio": 0.15,
+    "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+    "actual_surface_error_samples": 4950,
+    "actual_source_to_proxy_RMS_m": 0.0002032826485234953,
+    "actual_source_to_proxy_max_m": 0.004254085943102837,
+    "strict_RMS_limit_m": 0.002,
+    "strict_max_limit_m": 0.01
+  }
+}

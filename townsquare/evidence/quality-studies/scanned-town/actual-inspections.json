@@ -1,0 +1,12 @@
+{
+  "inspections": [
+    {
+      "image": "evidence/quality-studies/scanned-town/D01.png",
+      "image_sha256": "c161fa37f8870254fc1d2029a2ab0856b9a658e55a7daa7b4b907770869bc0ae",
+      "native_sha256": "5f54426b3cf9186da044c01c7796079ed8d25edc6b2f1f6b0fef1c5c16f836a8",
+      "actually_opened": true,
+      "observation": "Actual saved town5f D01 studio composition individually opened: both photographic winter-clothed visitors face camera correctly after measured180degree reconciliation; natural face expression/posture/coat seam/knit/scarf/phone detail, a strong improvement over earlier generic CG. Hair remains photographed scan geometry with captured roughness. Not a town-wide environment view, not full-resolution92/final/independent acceptance.",
+      "result": "SCOPED_PEOPLE_COMPOSITION_IMPROVEMENT / TOWN_AND_FINAL_OPEN"
+    }
+  ]
+}

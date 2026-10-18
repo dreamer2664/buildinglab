@@ -1,0 +1,10 @@
+{
+  "action": "Freed only redundant staged/upload-download copies AFTER public archive/member checks. Authoritative native/source/assets and receipts retained.",
+  "removed": [
+    ".cache/rebuilt-study-publish-70b8ddf3",
+    ".cache/rebuilt-study-publish-a4da0bcd",
+    ".cache/public-rebuilt-study/downloaded-Winterlichtplatz-UNPROMOTED-rebuilt-editable-5f54426b3cf9-61304ff4c294.zip",
+    ".cache/public-rebuilt-study/downloaded-Winterlichtplatz-UNPROMOTED-rebuilt-editable-75945c0b9c4f-4fdecb089faf.zip",
+    ".cache/licensed-scan-publish-9a56e060"
+  ]
+}

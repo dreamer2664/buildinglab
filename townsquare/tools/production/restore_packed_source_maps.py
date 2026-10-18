@@ -1,7 +1,7 @@
 """Recover exact canonical photographic bytes from current packed native; read-only, no network."""
-import bpy,json,hashlib
+import bpy,json,hashlib,os
 from pathlib import Path
-R=Path(__file__).resolve().parents[2];b=json.loads((R/'evidence/production/R11-native-build.json').read_text());source=R/b['full_resolution_native'];manifest=json.loads((R/'evidence/production/native-source-map-manifest.json').read_text());needed={r['sha256'] for r in manifest};data={}
+R=Path(__file__).resolve().parents[2];b=json.loads((R/'evidence/production'/os.environ.get('SQUARE_MAP_SOURCE_REPORT','R11-native-build.json')).read_text());source=R/(b['native']if 'native'in b else b['full_resolution_native']);manifest=json.loads((R/'evidence/production/native-source-map-manifest.json').read_text());needed={r['sha256'] for r in manifest};data={}
 if bpy.data.filepath and Path(bpy.data.filepath).resolve()==source.resolve():
  images=list(bpy.data.images) # Never recursively library-load the already open native.
 else:

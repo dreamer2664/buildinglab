@@ -1,0 +1,12 @@
+{
+  "asset": "Winterlichtplatz-Licensed-winter-scan-native-intake-e32db400b0a54314.zip",
+  "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-Licensed-winter-scan-native-intake-e32db400b0a54314.zip",
+  "bytes": 405972813,
+  "sha256": "d5e1d239d4db5d40a85067fb8315d8857af718a8d072af655c8a0a32d5c6bd9b",
+  "actual_native_scan_variants": 12,
+  "source_subject_id_count": 8,
+  "archive_CRC_and_every_member_SHA_bytes": "ACTUAL_ANONYMOUS_PASS",
+  "scope": "LICENSED_STATIC_NATIVE_INTAKE_NOT_TOWN_ADOPTION_FINAL_OR_INDEPENDENT_ACCEPTANCE",
+  "verified_utc": "2026-10-18T16:44:51.974157+00:00",
+  "storage_ledger_commit": "962b9fa0a0cd70879bee8a99f431edf963320d19"
+}

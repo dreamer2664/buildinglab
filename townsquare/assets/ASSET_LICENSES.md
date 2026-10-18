@@ -63,3 +63,8 @@ Full-resolution D02 exposed that18 original vertical knit ribs were omitted from
 
 ## Interactive preview library
 Three.js0.180.0 from the npm registry `three@0.180.0`, MIT. Unmodified vendor modules and exact upstream LICENSE are supplied in `viewer/vendor/`. Viewer is a WebGL convenience approximation of the actual static GLB, not a claim of native-lighting parity or final realism acceptance. Original project-authored viewer code follows the project code licence.
+
+
+## Licensed photographic winter scan intake (not yet town adoption)
+
+HSRD-100(2025), Digital Reality Lab, pinned revision9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a. CC BY4.0, **not CC0/MIT**. Full attribution/licence/source grant/change ledger in `people-scan-sources/ATTRIBUTION.md` and original official README. Twelve actual winter-clothed source poses from8subject IDs, not12different photographed people or rigged assets. Original source ZIP/LFS/member digests preserved, original UV/body topology retained above scoped10mmsole slice, photo8192→4096 resampling, approximate rough dielectric material. Actual per-original inspection/adoption is recorded separately. Provider collection consent assertions are not independently verified model releases. Neutral architectural illustration, no identity inference or endorsement. Original generic rigged alternatives and licences remain unchanged.

@@ -1,0 +1,74 @@
+{
+  "component": "B07",
+  "source_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "glb": ".cache/crafted-portable-components/GLB/B07.glb",
+  "glb_sha256": "898ed6d69c830200a751a6f3ae5a9321dc8133c4b4d62fafd70c98c9b27bfdfe",
+  "glb_bytes": 21125224,
+  "expected_geometry": {
+    "mesh_objects": 284,
+    "vertices_instance_sum": 127951,
+    "polygons_instance_sum": 116223,
+    "triangles_instance_sum": 226810,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      10.549999237060547,
+      -41.51499938964844,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      29.450000762939453,
+      -26.264999389648438,
+      16.950000762939453
+    ],
+    "floor_ids": [
+      "B07_L01",
+      "B07_L02",
+      "B07_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B07_L01_SALES",
+      "B07_L01_SERVICE_A",
+      "B07_L01_SERVICE_B",
+      "B07_L01_SERVICE_HALL",
+      "B07_L01_UPPER_ENTRY",
+      "B07_L01_WC",
+      "B07_L02_GUEST_HALL",
+      "B07_L02_SERVICE_A",
+      "B07_L02_SERVICE_B",
+      "B07_L02_SUITE_-1_ENSUITE",
+      "B07_L02_SUITE_-1_LOUNGE",
+      "B07_L02_SUITE_-1_SLEEP",
+      "B07_L02_SUITE_1_ENSUITE",
+      "B07_L02_SUITE_1_LOUNGE",
+      "B07_L02_SUITE_1_SLEEP",
+      "B07_L02_WC",
+      "B07_L03_GUEST_HALL",
+      "B07_L03_SERVICE_A",
+      "B07_L03_SERVICE_B",
+      "B07_L03_SUITE_-1_ENSUITE",
+      "B07_L03_SUITE_-1_LOUNGE",
+      "B07_L03_SUITE_-1_SLEEP",
+      "B07_L03_SUITE_1_ENSUITE",
+      "B07_L03_SUITE_1_LOUNGE",
+      "B07_L03_SUITE_1_SLEEP",
+      "B07_L03_WC",
+      "COMMON",
+      "None"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

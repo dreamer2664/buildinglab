@@ -1,0 +1,31 @@
+{
+  "pose_asset_id": "HSR0042-Body-002",
+  "view": "full",
+  "actual_opened_native_sha256": "6e0696dc9a893fa039841ebfbb58e6f86bea9cfc324ca921ad61da92cce577d1",
+  "source_pinned_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_zip_sha256": "317231d7a443efc96c654f5ced8e92b51e6c2952b36e4d04b6254cc5553e6075",
+  "actual_native_render_image": "evidence/quality-studies/licensed-scan-study/HSR0042-Body-002-own-lod-clean-full.png",
+  "image_sha256": "22dd5db9f501364e198fc818971e28ef1dc7b28d5beafb321e2009b292e3c87a",
+  "dimensions": [
+    1280,
+    960
+  ],
+  "cycles_samples": 24,
+  "render_seconds": 39.85355674699986,
+  "camera": {
+    "position": [
+      -1.9197343912072111,
+      3.9308847058052416,
+      1.956300760563539
+    ],
+    "target": [
+      0,
+      0,
+      0.9507256032645236
+    ],
+    "lens_mm": 58
+  },
+  "method": "Real original licensed scan mesh/photoUV in Blender Cycles, physical neutral lights/ground and standard source-linear normal/albedo-guided OIDN. No model-image generation/retouch/sourcebeautyimage substitution. Native file untouched, study camera/ground unsaved.",
+  "source_attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.\nActual changes: {}; texture used .cache/scan-intake/HSR0042-Body-002/extracted-LOD0/HSR0042-Body-002_LOD0-4096-bounded.png SHA256 dc4c4127489de445fdda33e2e7b52994817bfa20508113740f2d50d8899a31f4; source original remains unchanged.\n\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 317231d7a443efc96c654f5ced8e92b51e6c2952b36e4d04b6254cc5553e6075.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "inspection": "PENDING / source preview and renderer success are not adoption/realism acceptance"
+}

@@ -1,0 +1,2457 @@
+{
+  "native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "actual_detail_groups_checked": 144,
+  "building_bound_failures": [],
+  "clear_glass_rectangle_failures": [],
+  "objects": [
+    {
+      "object": "B01 / stone corner quoins and profiled cornices",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -9.216665267944336,
+          -7.216665267944336,
+          0.059999942779541016
+        ],
+        [
+          9.216665267944336,
+          7.216667175292969,
+          10.212499618530273
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 1 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -4.990001678466797,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 2 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -1.0300006866455078,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 3 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          2.9299983978271484,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 4 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          6.8899993896484375,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 5 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.990001678466797,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 6 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -1.0300006866455078,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 7 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          2.9299983978271484,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 8 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.8899993896484375,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 9 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          -4.990001678466797,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 10 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          -1.0300006866455078,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 11 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          2.9299983978271484,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured front window 12 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          6.8899993896484375,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 13 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          -4.990001678466797,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 14 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          -1.0300006866455078,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 15 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          2.9299983978271484,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / measured back window 16 / stonework and joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          6.8899993896484375,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / copper gutters downpipes and gable joinery",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -9.279998779296875,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          9.279999732971191,
+          7.5149993896484375,
+          13.354029655456543
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B01 / actual striped cloth shop canopy",
+      "building": "B01",
+      "actual_local_bounds": [
+        [
+          -6.317728042602539,
+          -8.037498474121094,
+          2.553199291229248
+        ],
+        [
+          6.3177289962768555,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / stone corner quoins and profiled cornices",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -9.216667175292969,
+          -7.216665267944336,
+          0.06999999284744263
+        ],
+        [
+          9.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured front window 1 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -7.324999809265137,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -4.555000305175781,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured front window 2 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -3.3650002479553223,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -0.5950000286102295,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured front window 3 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          0.5950000286102295,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          3.3650002479553223,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured front window 4 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          4.555000305175781,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          7.324999809265137,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured back window 5 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -7.324999809265137,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.555000305175781,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured back window 6 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -3.3650002479553223,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.5950000286102295,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured back window 7 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          0.5950000286102295,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.3650002479553223,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / measured back window 8 / stonework and joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          4.555000305175781,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          7.324999809265137,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / copper gutters downpipes and gable joinery",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -9.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          9.279999732971191,
+          7.5149993896484375,
+          10.503190040588379
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B02 / actual striped cloth shop canopy",
+      "building": "B02",
+      "actual_local_bounds": [
+        [
+          -6.3177289962768555,
+          -8.037498474121094,
+          2.553199291229248
+        ],
+        [
+          6.3177289962768555,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / stone corner quoins and profiled cornices",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -9.216667175292969,
+          -7.216665267944336,
+          0.06999999284744263
+        ],
+        [
+          9.216665267944336,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured front window 1 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -6.878999710083008,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -5.000999450683594,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured front window 2 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -2.9189987182617188,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -1.0410003662109375,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured front window 3 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          1.0410003662109375,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          2.9189987182617188,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured front window 4 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          5.001001358032227,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          6.878999710083008,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured back window 5 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -6.878999710083008,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -5.000999450683594,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured back window 6 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -2.9189987182617188,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -1.0410003662109375,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured back window 7 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          1.0410003662109375,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          2.9189987182617188,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / measured back window 8 / stonework and joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          5.001001358032227,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.878999710083008,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / copper gutters downpipes and gable joinery",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -9.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          9.279998779296875,
+          7.5149993896484375,
+          10.852311134338379
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B03 / actual striped cloth shop canopy",
+      "building": "B03",
+      "actual_local_bounds": [
+        [
+          -6.3177289962768555,
+          -8.037498474121094,
+          2.553199291229248
+        ],
+        [
+          6.317728042602539,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / stone corner quoins and profiled cornices",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -8.216665267944336,
+          -7.216667175292969,
+          0.059999942779541016
+        ],
+        [
+          8.216668128967285,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured front window 1 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -6.664999008178711,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -3.8950023651123047,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured front window 2 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -3.144998550415039,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -0.3750019073486328,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured front window 3 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          0.3750019073486328,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          3.145000457763672,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured front window 4 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          3.895000457763672,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          6.664999008178711,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured back window 5 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -6.664999008178711,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -3.8950023651123047,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured back window 6 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -3.144998550415039,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.3750019073486328,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured back window 7 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          0.3750019073486328,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.145000457763672,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / measured back window 8 / stonework and joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          3.895000457763672,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.664999008178711,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B04 / copper gutters downpipes and gable joinery",
+      "building": "B04",
+      "actual_local_bounds": [
+        [
+          -8.280000686645508,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.279999732971191,
+          7.5149993896484375,
+          10.15402889251709
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / stone corner quoins and profiled cornices",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -8.216667175292969,
+          -7.216667175292969,
+          0.06999999284744263
+        ],
+        [
+          8.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured front window 1 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -6.664999961853027,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -3.8950002193450928,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured front window 2 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -3.1450002193450928,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -0.375,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured front window 3 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          0.375,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          3.1450002193450928,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured front window 4 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          3.8950002193450928,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          6.6650004386901855,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured back window 5 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -6.664999961853027,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -3.8950002193450928,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured back window 6 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -3.1450002193450928,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.3749997615814209,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured back window 7 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          0.37499988079071045,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.1449999809265137,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / measured back window 8 / stonework and joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          3.8950002193450928,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.6650004386901855,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / copper gutters downpipes and gable joinery",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -8.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.279999732971191,
+          7.5149993896484375,
+          10.503190040588379
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B05 / actual striped cloth shop canopy",
+      "building": "B05",
+      "actual_local_bounds": [
+        [
+          -5.6177287101745605,
+          -8.037500381469727,
+          2.553199291229248
+        ],
+        [
+          5.6177287101745605,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / stone corner quoins and profiled cornices",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -8.216667175292969,
+          -7.216667175292969,
+          0.06999999284744263
+        ],
+        [
+          8.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured front window 1 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -6.218999862670898,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -4.340999603271484,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured front window 2 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -2.699000358581543,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -0.8210010528564453,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured front window 3 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          0.8210010528564453,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          2.6989994049072266,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured front window 4 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          4.341001510620117,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          6.218999862670898,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured back window 5 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -6.218999862670898,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.340999603271484,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured back window 6 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -2.699000358581543,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.8210010528564453,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured back window 7 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          0.8210010528564453,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          2.6989994049072266,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / measured back window 8 / stonework and joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          4.341001510620117,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.218999862670898,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / copper gutters downpipes and gable joinery",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -8.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.280000686645508,
+          7.5149993896484375,
+          10.852311134338379
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B06 / actual striped cloth shop canopy",
+      "building": "B06",
+      "actual_local_bounds": [
+        [
+          -5.617728233337402,
+          -8.037500381469727,
+          2.553199291229248
+        ],
+        [
+          5.617729187011719,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / stone corner quoins and profiled cornices",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -9.216665267944336,
+          -7.216665267944336,
+          0.059999942779541016
+        ],
+        [
+          9.216667175292969,
+          7.216667175292969,
+          10.212499618530273
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 1 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -4.990001678466797,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 2 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -1.0300006866455078,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 3 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          2.9299983978271484,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 4 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          6.8899993896484375,
+          -6.899999618530273,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 5 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.990001678466797,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 6 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -1.0300006866455078,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 7 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          2.9299983978271484,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 8 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.8899993896484375,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 9 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          -4.990001678466797,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 10 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          -1.0300006866455078,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 11 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          2.9299983978271484,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured front window 12 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          -7.229999542236328,
+          7.604999542236328
+        ],
+        [
+          6.8899993896484375,
+          -6.899999618530273,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 13 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -6.8899993896484375,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          -4.990001678466797,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 14 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -2.9299983978271484,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          -1.0300006866455078,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 15 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          1.0300006866455078,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          2.9299983978271484,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / measured back window 16 / stonework and joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          4.989999771118164,
+          6.900001525878906,
+          7.604999542236328
+        ],
+        [
+          6.8899993896484375,
+          7.229999542236328,
+          9.817500114440918
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B07 / copper gutters downpipes and gable joinery",
+      "building": "B07",
+      "actual_local_bounds": [
+        [
+          -9.280000686645508,
+          -7.51500129699707,
+          0.15999984741210938
+        ],
+        [
+          9.280000686645508,
+          7.5149993896484375,
+          13.354029655456543
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / stone corner quoins and profiled cornices",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -9.216667175292969,
+          -7.216665267944336,
+          0.06999999284744263
+        ],
+        [
+          9.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured front window 1 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -7.324999809265137,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -4.554999828338623,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured front window 2 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -3.3650002479553223,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -0.5950000286102295,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured front window 3 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          0.5949999094009399,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          3.3650002479553223,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured front window 4 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          4.555000305175781,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          7.325000286102295,
+          -6.899999618530273,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured back window 5 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -7.324999809265137,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.554999828338623,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured back window 6 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -3.3650002479553223,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.5950000286102295,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured back window 7 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          0.5950000286102295,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.3650002479553223,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / measured back window 8 / stonework and joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          4.555000305175781,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          7.325000286102295,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / copper gutters downpipes and gable joinery",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -9.280000686645508,
+          -7.51500129699707,
+          0.15999984741210938
+        ],
+        [
+          9.280000686645508,
+          7.5149993896484375,
+          10.503189086914062
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B08 / actual striped cloth shop canopy",
+      "building": "B08",
+      "actual_local_bounds": [
+        [
+          -6.3177289962768555,
+          -8.037500381469727,
+          2.553199291229248
+        ],
+        [
+          6.3177289962768555,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / stone corner quoins and profiled cornices",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -9.216667175292969,
+          -7.216665267944336,
+          0.06999999284744263
+        ],
+        [
+          9.216667175292969,
+          7.216670989990234,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured front window 1 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -6.878997802734375,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -5.000997543334961,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured front window 2 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -2.918996810913086,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          -1.0409984588623047,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured front window 3 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          1.0410022735595703,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          2.9190006256103516,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured front window 4 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          5.001003265380859,
+          -7.219999313354492,
+          4.404999732971191
+        ],
+        [
+          6.879001617431641,
+          -6.899999618530273,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured back window 5 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -6.878999710083008,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -5.000999450683594,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured back window 6 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -2.9189987182617188,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -1.0410003662109375,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured back window 7 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          1.0410003662109375,
+          6.899997711181641,
+          4.404999732971191
+        ],
+        [
+          2.9189987182617188,
+          7.219997406005859,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / measured back window 8 / stonework and joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          5.001001358032227,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.878999710083008,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / copper gutters downpipes and gable joinery",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -9.280000686645508,
+          -7.51500129699707,
+          0.15999984741210938
+        ],
+        [
+          9.280000686645508,
+          7.5149993896484375,
+          10.852311134338379
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B09 / actual striped cloth shop canopy",
+      "building": "B09",
+      "actual_local_bounds": [
+        [
+          -6.317729949951172,
+          -8.03750228881836,
+          2.553199291229248
+        ],
+        [
+          6.317726135253906,
+          -7.038064956665039,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / stone corner quoins and profiled cornices",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -8.216667175292969,
+          -7.216667175292969,
+          0.059999942779541016
+        ],
+        [
+          8.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured front window 1 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -6.664999008178711,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -3.8950023651123047,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured front window 2 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -3.144998550415039,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          -0.3750019073486328,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured front window 3 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          0.3750019073486328,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          3.145000457763672,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured front window 4 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          3.895000457763672,
+          -7.229999542236328,
+          4.404999732971191
+        ],
+        [
+          6.664999008178711,
+          -6.900001525878906,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured back window 5 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -6.664999008178711,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -3.8950023651123047,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured back window 6 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -3.144998550415039,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.3750019073486328,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured back window 7 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          0.3750019073486328,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.145000457763672,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / measured back window 8 / stonework and joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          3.895000457763672,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.664999008178711,
+          7.229999542236328,
+          6.617499828338623
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B10 / copper gutters downpipes and gable joinery",
+      "building": "B10",
+      "actual_local_bounds": [
+        [
+          -8.280000686645508,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.279999732971191,
+          7.5149993896484375,
+          10.15402889251709
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / stone corner quoins and profiled cornices",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -8.216667175292969,
+          -7.216667175292969,
+          0.06999999284744263
+        ],
+        [
+          8.216668128967285,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured front window 1 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -6.664999961853027,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -3.8950002193450928,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured front window 2 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -3.1450002193450928,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -0.375,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured front window 3 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          0.375,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          3.1450002193450928,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured front window 4 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          3.8950002193450928,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          6.6650004386901855,
+          -6.900001525878906,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured back window 5 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -6.664999961853027,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -3.8950002193450928,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured back window 6 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -3.1450002193450928,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.375,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured back window 7 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          0.375,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          3.1450002193450928,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / measured back window 8 / stonework and joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          3.8950002193450928,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.6650004386901855,
+          7.220001220703125,
+          6.574999809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / copper gutters downpipes and gable joinery",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -8.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.279999732971191,
+          7.5149993896484375,
+          10.503189086914062
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B11 / actual striped cloth shop canopy",
+      "building": "B11",
+      "actual_local_bounds": [
+        [
+          -5.6177287101745605,
+          -8.037500381469727,
+          2.553199291229248
+        ],
+        [
+          5.6177287101745605,
+          -7.038063049316406,
+          3.0299999713897705
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / stone corner quoins and profiled cornices",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -8.216668128967285,
+          -7.216667175292969,
+          0.06999999284744263
+        ],
+        [
+          8.216667175292969,
+          7.216667175292969,
+          7.012499809265137
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured front window 1 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -6.218999862670898,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -4.340999603271484,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured front window 2 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -2.699000358581543,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          -0.8210010528564453,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured front window 3 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          0.8210010528564453,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          2.6989994049072266,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured front window 4 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          4.341001510620117,
+          -7.220001220703125,
+          4.404999732971191
+        ],
+        [
+          6.218999862670898,
+          -6.900001525878906,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured back window 5 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -6.218999862670898,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -4.340999603271484,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured back window 6 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -2.699000358581543,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          -0.8210010528564453,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured back window 7 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          0.8210010528564453,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          2.6989994049072266,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / measured back window 8 / stonework and joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          4.341001510620117,
+          6.900001525878906,
+          4.404999732971191
+        ],
+        [
+          6.218999862670898,
+          7.220001220703125,
+          6.864999771118164
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "object": "B12 / copper gutters downpipes and gable joinery",
+      "building": "B12",
+      "actual_local_bounds": [
+        [
+          -8.279999732971191,
+          -7.5149993896484375,
+          0.15999984741210938
+        ],
+        [
+          8.280000686645508,
+          7.5149993896484375,
+          10.852311134338379
+        ]
+      ],
+      "issues": []
+    }
+  ],
+  "scope": "Actual transformed new detail bounds and conservative raw face bounding-box projection versus measured glass clear rectangles. Not structural/accessibility/playground/meshcollision certification or proof of individual visual inspection."
+}

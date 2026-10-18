@@ -4,7 +4,7 @@ Uses the recorded immutable archive/member digests; does not create visual accep
 from pathlib import Path
 import urllib.request,json,zipfile,hashlib,shutil,datetime
 R=Path(__file__).resolve().parents[1]
-choices=[('R12-groomed-native-public-backup.json','R12-groomed-town.json'),('R12-wall-native-public-backup.json','R12-wall-corrected-interiors.json'),('R12-placement-native-public-backup.json','R12-placement-corrected-interiors.json')]
+choices=[('R13-crafted-exteriors-native-public-backup.json','R13-crafted-exteriors.json'),('R12-original-uv-scanned-town-native-public-backup.json','R12-original-uv-scanned-town.json'),('R12-scanned-town-native-public-backup.json','R12-scanned-town.json'),('R12-groomed-native-public-backup.json','R12-groomed-town.json'),('R12-wall-native-public-backup.json','R12-wall-corrected-interiors.json'),('R12-placement-native-public-backup.json','R12-placement-corrected-interiors.json')]
 rn,bn=next((a,b)for a,b in choices if (R/'evidence/production'/a).exists());receipt=json.loads((R/'evidence/production'/rn).read_text());build=json.loads((R/'evidence/production'/bn).read_text());cache=R/'.cache/restored-placement-study';cache.mkdir(parents=True,exist_ok=True);archive=cache/receipt['asset']
 def sha(p):
  with p.open('rb')as f:return hashlib.file_digest(f,'sha256').hexdigest()

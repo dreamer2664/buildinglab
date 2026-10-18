@@ -1,0 +1,150 @@
+{
+  "stage": "All12own sourceUV-correct saved-native body originals individually opened; scoped source candidates, remaining minor capture details and town-wide/final acceptance open",
+  "recorded_utc": "2026-10-18T17:46:33.034481+00:00",
+  "inspections": [
+    {
+      "variant": "P01",
+      "pose": "HSR0015-Body-009",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0015-Body-009-own-lod-clean-full.png",
+      "image_sha256": "0fc7f5404fa4d3f633e359be8eacf692787cf5651ec05f8300b4d054a62ca2fb",
+      "native_sha256": "cebcb1112d2b2bfb57d685a0b22b2fc7aac99f71ff0362448e62b338fcc7f6c2",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: photographic coat quilting/belt/zipper and knit readable, natural phone posture/face; feet grounded and original floor tags absent in this view. Captured hair roughness remains a source limitation.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P02",
+      "pose": "HSR0027-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0027-Body-004-own-lod-clean-full.png",
+      "image_sha256": "c288c30235fdf48e85801c322cccef07c1c5d7bfd18199972c9955033b70c1ce",
+      "native_sha256": "d37096e0c501a06a9cc5a8c2debd5ce7d39b87b96ca907f5461666e5e74e0532",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: pink cap/scarf, padded coat/gloves/jeans/winter boots coherent, natural gaze; no obvious floor cards. Source fringe remains clumpy at full zoom, not strand hair.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P03",
+      "pose": "HSR0028-Body-010",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0028-Body-010-own-lod-clean-full.png",
+      "image_sha256": "a4693efc994ca20d73cb79fd413a59d2daa406c54c770b0e10549a7f0266e2fb",
+      "native_sha256": "a1405aab68680d214ca12dd5a9168c1e44db3841a4e4e3bf0efc94c3a0fda93d",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: grey coat/shearling-like collar and blue beanie/phone/patterned boots; correct photo alignment, sparse small dark garment specks captured in source. No obvious blue UV tear.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P04",
+      "pose": "HSR0040-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0040-Body-004-own-lod-clean-full.png",
+      "image_sha256": "90eee828881724ee2219cd4d81d5e692bb0578495b50ae82c9f701923d7cdb8f",
+      "native_sha256": "08d9227551ad3f9c26ecbd960c02491ffb85ccf07986a22b55d434fb0b60659b",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: olive parka arms-crossed pose, laced footwear, jeans and facial expression coherent. Source grey hair is captured/sculpted geometry, not individual strands; no obvious texture tear.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P05",
+      "pose": "HSR0042-Body-002",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0042-Body-002-own-lod-clean-full.png",
+      "image_sha256": "22dd5db9f501364e198fc818971e28ef1dc7b28d5beafb321e2009b292e3c87a",
+      "native_sha256": "6e0696dc9a893fa039841ebfbb58e6f86bea9cfc324ca921ad61da92cce577d1",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: green varsity-style jacket/beanie, natural face/stance and trouser/footwear detail. Captured apparel marks are not our fictional business branding/endorsement. No obvious floor tag.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P06",
+      "pose": "HSR0081-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0081-Body-004-own-lod-clean-full.png",
+      "image_sha256": "251bdebdcb4c108a5a3be17c2a822318c67d453fd7929fcd5071ae5c386dd353",
+      "native_sha256": "9505082ca8a340553deb586aa2756d4871d941df5a562e86732052d888ed6e7a",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: cream coat/hat/curls and ankle boots retain natural posture/photo alignment. Small tan/reddish rear heel detail remains: may be heel material or capture fragment, needs a scoped side close-up before declaring final closure.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P07",
+      "pose": "HSR0112-Body-007",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0112-Body-007-own-lod-clean-full.png",
+      "image_sha256": "dd5657b9598add690b3c72fd6b307f23b200de29eec9a28293fd47c9af293cb5",
+      "native_sha256": "4efaf85d6e1623a71b6d340abc49a04380ae68206e8efa9c17a4319d1857bdb4",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: dark padded coat/fur-like hood, phone gesture and red footwear; actual skin/cloth alignment coherent, no obvious large floor cards. Captured hood/hair texture roughness remains.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P08",
+      "pose": "HSR0161-Body-002",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0161-Body-002-own-lod-clean-full.png",
+      "image_sha256": "a703e0cc7ba899b9d2aaac36737e940f59d8a8986ba04944efbb69244ebdf2fd",
+      "native_sha256": "d82552f97d472505b7786b25485f0a01afc2660b2816d90e3aa1e46b731c4911",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: smiling face, crossed arms, dark zip hoodie/hat and tan shoes coherent. No trouser texture tear unlike rejected006walking source. Lighter outerwear should be placed plausibly/sheltered.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P09",
+      "pose": "HSR0015-Body-015",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0015-Body-015-own-lod-clean-full.png",
+      "image_sha256": "392ada795738e547a0564d9f200c60824367b4b3b6246d9bf5b292659665c227",
+      "native_sha256": "66491adab15bb0df6fdbe5638670597c11b1a57f193e9bd03b2c8ddf33d36918",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: coat-adjusting gesture and open knit shirt, burgundy cap and boots coherent. A thin projecting thread/spike at the beanie crown is visible and needs scoped assessment/cleanup before final close-view acceptance. Not hidden by framing.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P10",
+      "pose": "HSR0027-Body-006",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0027-Body-006-own-lod-clean-full.png",
+      "image_sha256": "2bf335a393b01c4c44ab9c1bc8e432e6ac33d06b2865849404f37a11514cdad0",
+      "native_sha256": "62c651967b6f617f2214ce8560bbfce503825868fd0511291bf74b2dcfa1a44a",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: crossed-arm pink-cap/scarf pose; previous blue/pale sleeve bake artifact is gone, coat folds correctly textured. Feet grounded, source fringe remains coarse at macro scale.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P11",
+      "pose": "HSR0028-Body-016",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0028-Body-016-own-lod-clean-full.png",
+      "image_sha256": "a2625b616c8305900dba304ac220cedc016bd6368aa9a7a421f7a42d3af5a073",
+      "native_sha256": "e5ff075f26f3bdeb2fc0a2fa4fa18120a65bdd4f6c3217155508df9db32a1587",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: blue cap/grey coat/raised green prop and patterned boots correct. Thin pale cheek-edge line/hair wisp persists; source-capture limitation/close-up assessment open, not claimed independently photorealistic.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "variant": "P12",
+      "pose": "HSR0040-Body-012",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0040-Body-012-own-lod-clean-full.png",
+      "image_sha256": "b757d941010044c2d91b33419fea6d5e3a9b0fc510eba578bb5a177b6ff27d7c",
+      "native_sha256": "cfd362405f52a75e31d4c1f1e461765e6630d2592ba3db5d65d82aa26ce7547d",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual own-LOD original opened: blue/pale placket defect from suppliedLOD1 is gone, olive coat front/zipper/phone gesture/face/jeans and shoes now coherent. Captured floor cards absent after10mmsole cleanup. High source UV retained through measured geometricLOD; not incompatible texture swapping or painting.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    }
+  ]
+}

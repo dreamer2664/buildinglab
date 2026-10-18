@@ -1,0 +1,21 @@
+{
+  "stage": "EXACT_R13_NATIVE_FRESH_REOPEN_TECHNICAL_PASS_NOT_VISUAL_OR_INDEPENDENT_ACCEPTANCE",
+  "native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "native_bytes": 548200008,
+  "whole_geometry_uv_pose_material_index_signature": "a958ee0b64b1eaf73c4225305c2266a425c05a701a0380045c33d80d5cc51a91",
+  "original_preexisting_geometry_uv_pose_material_index_signature_verified": "383f8f5fab2eddd8d88289632ebe09fc3b17065b87cffdf5c77ceb4c14bee389",
+  "original_preexisting_architectural_material_graph_photo_signature_verified": "9292832804d874eae8a5efbf2e9ed37ff804d4dced8730e6558c51770ef7b151",
+  "actual_additive_mesh_groups": 144,
+  "actual_added_vertices": 46000,
+  "actual_added_faces": 32316,
+  "actual_anchored_upper_window_groups": 112,
+  "occupied_floors": 26,
+  "actual_finished_rooms": 164,
+  "finished_rooms_without_furniture": [],
+  "actual_people": 36,
+  "actual_source_poses": 12,
+  "actual_source_subject_ids": 8,
+  "saved_cameras": 92,
+  "missing_images": [],
+  "limitations": "This is not proof that every new detail was individually inspected or a code/collision/realism certification. Exact saved-source exterior/interior views and final92/independent acceptance pending."
+}

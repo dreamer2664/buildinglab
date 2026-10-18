@@ -1,0 +1,137 @@
+{
+  "stage": "Producer actual per-original source-bound observations; scoped candidates for separate scene test, NOT independent/final realism acceptance",
+  "inspections": [
+    {
+      "pose": "HSR0015-Body-009",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0015-Body-009-clean-full.png",
+      "image_sha256": "4882db5689c53323137a384b1fe95886cd544e6615f435277e1d545b16da1ead",
+      "native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: burgundy knit, coat quilting, zipper/belt and phone posture convincing; original small sole-floor tags no longer visible in this view, feet/shadows grounded. Ragged captured hair remains a scoped scan limitation, not procedural fibres.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0027-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0027-Body-004-clean-full.png",
+      "image_sha256": "a79fcfac4c73d3442e88b1386eabe3151977494b7cc4e7436244be450d065a2f",
+      "native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: pink knit cap/scarf, dark quilted jacket, light gloves, jeans and winter boots readable; natural gaze, no obvious sole-floor cards. Captured fringe detail coarse at zoom.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0028-Body-010",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0028-Body-010-clean-full.png",
+      "image_sha256": "253d0fc363737015870a665c895c9ced2c70858a7d92459bc25522fc179d2a0d",
+      "native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: long pale coat/shearling-like collar, blue knit cap and patterned boots with phone; original winter layers clearly read. Source hair edge/phone edge slightly rough, not hidden; no obvious floor tag.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0040-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0040-Body-004-clean-full.png",
+      "image_sha256": "57a1952d1f36fa49dbc685e4f1ea8b523a8b6412861cefeef9ac34d4a258229c",
+      "native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: olive parka and arms-crossed posture, jeans and laced footwear, natural face expression. Grey hair remains scanned/clumpy rather than strand groom. No obvious floor cards in this original.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0042-Body-002",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0042-Body-002-clean-full.png",
+      "image_sha256": "cc07c4cc8ad499f097a1872234530d6a6334df2b87cafdbb688b93c23a08df84",
+      "native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: green varsity-style jacket and knit beanie, hands in pockets, natural face and trouser folds. Apparel marks are original captured clothing, not fictional business logos or an endorsement. Sole-floor cards absent in this view.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0081-Body-004",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0081-Body-004-clean-full.png",
+      "image_sha256": "12342aba8b3011d7c02ae44248fa5ddd1da993ad96a2f883dd7f4f0727cf969a",
+      "native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: cream coat/hat, long curls and ankle boots, natural pose/face; tiny reddish triangular detail near rear heel could be retained capture-floor fragment or heel detail, needs localized diagnostic before final acceptance. Candidate use only, not defect closure.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0112-Body-007",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0112-Body-007-clean-full.png",
+      "image_sha256": "b345c31264bda3fbf6378f8ca657e5f83291c313b051829dedb84841ba4dc716",
+      "native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: long black padded coat/fur-like hood, phone gesture, dark trousers and red footwear. Natural head tilt; captured hood/hair roughness remains, no obvious large floor fragments.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0161-Body-002",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0161-Body-002-clean-full.png",
+      "image_sha256": "7ea16dde524ec05b41b79efa99db8b0d93a8a3f532d23d233dc08f863231bd75",
+      "native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual cleaned full body opened: smiling face, dark zip hoodie/hat, crossed arms and tan shoes; much more natural expression/wardrobe than previous generic CG. Lighter outerwear needs plausible/sheltered town placement. No obvious captured floor tags.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0015-Body-015",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0015-Body-015-clean-full.png",
+      "image_sha256": "099625cc4c45c993d94c694dda6ae868e685cbc7e161fd4ce42e11f7142507b1",
+      "native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual original opened: coat-adjusting pose, open quilted coat with knit shirt, burgundy beanie, natural hands/stance. Small pointed beanie tip and ragged hair are source-capture details/limitations, not generic hair-cap substitution. Floor tags not obvious after sole slice.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0027-Body-006",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0027-Body-006-clean-full.png",
+      "image_sha256": "e38086d05eb5dc5b9a3a1939674bf528d92e28420a8e8cbca78af5eb3539d97b",
+      "native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual original opened: arms-crossed alternate pink-cap/scarf winter pose, glove folds and boots readable. Small pale/blue sleeve patch needs source-versus-capture diagnostic; not silently declared corrected. Suitable for scene test only.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0028-Body-016",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0028-Body-016-clean-full.png",
+      "image_sha256": "23c72f9d4c4e82ea907d9e3797bd8dfd17c575375380b020bfff13a9f422f016",
+      "native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual original opened: distinct raised-hand green-prop pose, blue knit cap, long coat and patterned boots. Slight pale cheek-edge fragments and hair capture roughness remain visible. No person identity inferred; captured green prop not relabelled as a verified apple.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    },
+    {
+      "pose": "HSR0040-Body-012",
+      "image": "evidence/quality-studies/licensed-scan-study/HSR0040-Body-012-clean-full.png",
+      "image_sha256": "2766494b946b1dfac67c466615966adb0fd0b5fc1e2b81ea5b86daffbb05aeb2",
+      "native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "actually_opened": true,
+      "producer_candidate_for_scene_test": true,
+      "observation": "Actual original opened: phone-to-ear parka pose, jeans and laced shoes. Unusual blue/pale area at jacket placket compared against actual source-author Square.jpg (also opened) needs diagnosis. OriginalOBJ every vertex/face-corner/UV comparison actually passed; not a UV gate waiver or final asset acceptance. A separate higherLOD source comparison is running, outcome not yet read.",
+      "independent_acceptance": false,
+      "final_realism_acceptance": false
+    }
+  ]
+}

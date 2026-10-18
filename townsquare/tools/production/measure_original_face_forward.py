@@ -1,0 +1,5 @@
+import bpy,json
+from pathlib import Path
+R=Path('/home/user/townsquare');b=json.loads((R/'evidence/production/R12-groomed-town.json').read_text());bpy.ops.wm.read_factory_settings(use_empty=True)
+with bpy.data.libraries.load(str(R/b['native']),link=False)as(a,c):c.objects=['CROWD_01_P01']
+o=c.objects[0];m=o.data;ids={i for i,x in enumerate(m.materials)if x and x.name.endswith('high-poly')};verts={i for p in m.polygons if p.material_index in ids for i in p.vertices};mean=[sum(m.vertices[i].co[k]for i in verts)/len(verts)for k in range(3)];assert len(verts)>100 and mean[1]<-.04;report={'source_native_sha256':b['native_sha256'],'actual_eye_material':[m.materials[i].name for i in ids],'actual_eye_vertex_count':len(verts),'actual_eye_centroid_local':mean,'observed_old_forward_axis':'-Y','scan_forward_axis':'+Y from actual front/back/face render inspection','required_source_scan_to_old_actor_yaw_radians':3.141592653589793};(R/'evidence/production/R12-measured-scan-facing.json').write_text(json.dumps(report,indent=2)+'\n');print('ACTUAL_ORIGINAL_FACE_FORWARD_MEASURED',report)
