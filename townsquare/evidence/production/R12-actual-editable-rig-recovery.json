@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "actual_anonymous_archive_sha256": "db6b3c9c577cadc7635bb56d547963541e9ad5b8a8a061cff1b83632b21cf609",
+  "actual_archive_bytes": 500453565,
+  "all_members_CRC_SHA_size": "PASS",
+  "recovered_editable_rigs": [
+    {
+      "rig": "P01",
+      "member": "People/P01.blend",
+      "path": ".cache/restored-editable-people/P01.blend",
+      "sha256": "cff063c0a21176fa77d387061cab387ce425fc706026f631402e60748a816cf2",
+      "bytes": 26815357
+    },
+    {
+      "rig": "P02",
+      "member": "People/P02.blend",
+      "path": ".cache/restored-editable-people/P02.blend",
+      "sha256": "b63d8427d834d47ae26e4454d6edf0dcc7f2ffaeb555fb3dbe76084aa4516c23",
+      "bytes": 42874778
+    },
+    {
+      "rig": "P03",
+      "member": "People/P03.blend",
+      "path": ".cache/restored-editable-people/P03.blend",
+      "sha256": "197e273ec00d210d11c837fcd8230d36f0e5d0db78203ff30c32ed237f0a9f08",
+      "bytes": 43503789
+    },
+    {
+      "rig": "P04",
+      "member": "People/P04.blend",
+      "path": ".cache/restored-editable-people/P04.blend",
+      "sha256": "b586ceb46e6874bf236220b0af3aaa16785946a40d481e73a22ae59d421b8c20",
+      "bytes": 45298400
+    },
+    {
+      "rig": "P05",
+      "member": "People/P05.blend",
+      "path": ".cache/restored-editable-people/P05.blend",
+      "sha256": "691f44864bb441fa1dfba4465ae9584a9b885d8c07b99783c308ebefd9d607c2",
+      "bytes": 44457986
+    },
+    {
+      "rig": "P06",
+      "member": "People/P06.blend",
+      "path": ".cache/restored-editable-people/P06.blend",
+      "sha256": "7a17514fda5ddf4b9ec3dd2b9f05e8fd7750b83502860f850c6e4625365ad988",
+      "bytes": 41065677
+    },
+    {
+      "rig": "P07",
+      "member": "People/P07.blend",
+      "path": ".cache/restored-editable-people/P07.blend",
+      "sha256": "eb34546fe58dc2bc84cd0be96dac50b13edec73d4207126501d37a58851a1a24",
+      "bytes": 41010272
+    },
+    {
+      "rig": "P08",
+      "member": "People/P08.blend",
+      "path": ".cache/restored-editable-people/P08.blend",
+      "sha256": "bf4ad4062fa16369ee4eab22ef1e61d290809c22a0a1147827bcefa86246592d",
+      "bytes": 43267275
+    },
+    {
+      "rig": "P09",
+      "member": "People/P09.blend",
+      "path": ".cache/restored-editable-people/P09.blend",
+      "sha256": "4fac441e2dc7f8d6cdc03886aa961dc8c83b30cd3ba4ff3d5a9a971eccd3afb5",
+      "bytes": 43589045
+    },
+    {
+      "rig": "P10",
+      "member": "People/P10.blend",
+      "path": ".cache/restored-editable-people/P10.blend",
+      "sha256": "fd12efc1a3c47838f4c2beb236c1c93700f0710c82e1606d34791ddbbf6c230b",
+      "bytes": 44820029
+    },
+    {
+      "rig": "P11",
+      "member": "People/P11.blend",
+      "path": ".cache/restored-editable-people/P11.blend",
+      "sha256": "f65580a59f529e24e8ee7d76fbdf2b7496b6ae3707ae382e233fea4047913768",
+      "bytes": 43961657
+    },
+    {
+      "rig": "P12",
+      "member": "People/P12.blend",
+      "path": ".cache/restored-editable-people/P12.blend",
+      "sha256": "cca56695bd7315b5b50af97d67e287685adc81da190b14860c36f73adcffc9ef",
+      "bytes": 41099389
+    }
+  ],
+  "scope": "Actual recovery of exact previously preserved rig bytes, not fresh Blender open/visual quality. Original files immutable; any groom adaptation must save separately."
+}

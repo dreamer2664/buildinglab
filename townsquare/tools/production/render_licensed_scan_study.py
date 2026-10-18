@@ -1,0 +1,19 @@
+"""Actual packed licensed scan native render, not source beauty-image substitution."""
+import bpy,os,sys,json,time
+from pathlib import Path
+from mathutils import Vector
+R=Path(__file__).resolve().parents[2];sys.path.insert(0,str(R/'tools/production'))
+from fingerprints import file_sha256
+pose=os.environ.get('SQUARE_SCAN_POSE','HSR0015-Body-009');lod=os.environ.get('SQUARE_SCAN_LOD','LOD1');suffix=(''if lod=='LOD1'else'-'+lod)+('-clean'if os.environ.get('SQUARE_SCAN_CLEAN')=='1'else'');b=json.loads((R/'evidence/production'/('R12-native-scan-asset-'+pose+suffix+'.json')).read_text());actual=file_sha256(bpy.data.filepath);assert actual==b['native_sha256'];view=os.environ.get('SQUARE_SCAN_VIEW','full');s=bpy.context.scene;cam=s.camera
+height=b['original_source_bounds'][1][2]-b['original_source_bounds'][0][2]-(.01 if b.get('cleanup')else 0)
+if view=='full':position=(-1.05*height,2.15*height,1.07*height);target=(0,0,.52*height);lens=58
+elif view=='close':position=(0,-1.1,1.55);target=(0,0,1.48);lens=62
+elif view=='back':position=(1.05*height,-2.15*height,1.07*height);target=(0,0,.52*height);lens=58
+elif view=='front-close':position=(0,1.15,.88*height+.17);target=(0,0,.88*height);lens=62
+else:raise ValueError(view)
+cam.location=position;cam.rotation_euler=(Vector(target)-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=lens;cam.data.clip_end=10000;s.render.resolution_x=1280;s.render.resolution_y=960;s.cycles.samples=24;s.cycles.use_denoising=False;s.render.threads_mode='FIXED';s.render.threads=2
+bpy.ops.mesh.primitive_plane_add(size=2000,location=(0,0,-.0003));ground=bpy.context.object;ground.name='STUDY / neutral physical contact ground';mat=bpy.data.materials.new('STUDY / grey rough contact ground');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.12,.14,.17,1);bs.inputs['Roughness'].default_value=.9;ground.data.materials.append(mat)
+s.use_nodes=True;bpy.context.view_layer.cycles.denoising_store_passes=True;nt=s.node_tree;nt.nodes.clear();rl=nt.nodes.new('CompositorNodeRLayers');dn=nt.nodes.new('CompositorNodeDenoise');dn.prefilter='ACCURATE'
+for a,bn in [('Image','Image'),('Denoising Normal','Normal'),('Denoising Albedo','Albedo')]:nt.links.new(rl.outputs[a],dn.inputs[bn])
+comp=nt.nodes.new('CompositorNodeComposite');nt.links.new(dn.outputs['Image'],comp.inputs['Image']);out=R/'evidence/quality-studies/licensed-scan-study';out.mkdir(parents=True,exist_ok=True);name=pose+suffix+'-'+view;raw=nt.nodes.new('CompositorNodeOutputFile');raw.base_path=str(out);raw.format.file_format='PNG';raw.format.color_mode='RGB';raw.format.color_depth='8';raw.file_slots[0].path=name+'-noisy-';nt.links.new(rl.outputs['Image'],raw.inputs[0]);s.render.filepath=str(out/(name+'.png'));start=time.monotonic();bpy.ops.render.render(write_still=True)
+r={'pose_asset_id':pose,'view':view,'actual_opened_native_sha256':actual,'source_pinned_dataset_revision':b['source_dataset_revision'],'source_zip_sha256':b['source_archive_sha256'],'actual_native_render_image':str(Path(s.render.filepath).relative_to(R)),'image_sha256':file_sha256(s.render.filepath),'dimensions':[1280,960],'cycles_samples':24,'render_seconds':time.monotonic()-start,'camera':{'position':position,'target':target,'lens_mm':lens},'method':'Real original licensed scan mesh/photoUV in Blender Cycles, physical neutral lights/ground and standard source-linear normal/albedo-guided OIDN. No model-image generation/retouch/sourcebeautyimage substitution. Native file untouched, study camera/ground unsaved.','source_attribution':b['attribution'],'inspection':'PENDING / source preview and renderer success are not adoption/realism acceptance'};(out/(name+'.json')).write_text(json.dumps(r,indent=2)+'\n');print('ACTUAL_LICENSED_SCAN_NATIVE_RENDERED',pose,view,r['image_sha256'],flush=True)

@@ -1,3 +1,21 @@
+# Current actual unpromoted production checkpoint
+
+Full editable source `8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d` has corrected room/floor placement and26measured wall-overlap repairs. Three exact saved-source eye originals were actually opened: bicycle/workbench, writer shelving, artist reference storage; the sharp wall streaks are gone. Actual25component clean imports plus merged155070748-byte portable town clean import passed; GLB SHA `1602c1d3885b643150676e40ffcb12d4d610eae9e8897de955bb990279a7ae84`. Exact13public editable building/public files were separately reopened read-only and their hashes matched public archive members. These are technical/scoped producer observations, **not final visual or high-realism acceptance**.
+
+| Actual preserved asset | Download |
+|---|---|
+| Packed editable town study | [Native archive](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-8cf939dc13f9-80be1837147b.zip) |
+| Winterlichtplatz-UNPROMOTED-Study-Buildings-01-06 | [Verified immutable ZIP](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Buildings-01-06-8cf939dc13f9.zip) |
+| Winterlichtplatz-UNPROMOTED-Study-Buildings-07-12 | [Verified immutable ZIP](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Buildings-07-12-8cf939dc13f9.zip) |
+| Winterlichtplatz-UNPROMOTED-Study-Public-realm | [Verified immutable ZIP](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Public-realm-8cf939dc13f9.zip) |
+| Winterlichtplatz-UNPROMOTED-Study-Portable-town | [Verified immutable ZIP](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-Study-Portable-town-8cf939dc13f9.zip) |
+
+All listed archives were anonymously downloaded and actually passed CRC/every-member SHA/byte checks. OriginalSVGbranding, licence/provenance notes and component/export/import reports are included. Portable exports are static and use resampled photographic maps/PBR approximations; Blender HDRI/area lights/procedural shaders are not promised to match. Original12rig source package remains separately preserved and unmodified. Experimental new scalp hair is not in these native/portable files.
+
+**Still open:** close-up human/hair realism (old stock hair visibly helmet-like); fresh full-resolution92-view production/individual fix-reinspect loop; independent non-owner acceptance. Frozen R11 remains unchanged, with16historical/public originals and2FIX_REQUIRED; do not count those as current8cfinal views. Counts/licensing/technical integrity are not realism certification. Earlier chronological notes follow.
+
+---
+
 # Winterlichtplatz — editable Christmas town square / R11 producer candidate
 
 **12 buildings · 26 furnished occupied floors · 164 modeled rooms · 36 anatomical CG people / 12 licensed variants.** Central European historic Christmas-market concept with supermarket, bakery, café and other distinct businesses/homes, original fictional business marks, eight market stalls, benches, lamps, trees and playground. Metric conceptual architecture, not code-certified.

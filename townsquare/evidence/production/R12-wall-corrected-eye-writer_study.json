@@ -1,0 +1,38 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_writer_study",
+      "floor": "B12_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/wall-corrected-eye-level/writer_study.png",
+      "native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+      "image_sha256": "218d6643fdda4d373627cc09093ddf71a1e78d9748c251994568c34884d8c104",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "samples": 8,
+      "actual_unsaved_wall_overlap_patch": null,
+      "camera_position_world": [
+        -45.300001525878905,
+        17.799999237060547,
+        5.25
+      ],
+      "camera_target_world": [
+        -42.6,
+        17.799999237060547,
+        4.9
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "NOT YET OPENED",
+      "actual_original_opened_by_agent": true,
+      "opened_image_sha256": "218d6643fdda4d373627cc09093ddf71a1e78d9748c251994568c34884d8c104",
+      "producer_observations": "Actually opened original1024x768: both inward-facing bookshelves visibly furnished; doorway/threshold and centre approach clear in this reverse view, dark wall streak absent. Reverse view intentionally omits writing desk behind camera; shelf-facing storage check, not full-room/final-res acceptance."
+    }
+  ],
+  "inspection": "ACTUAL SINGLE ORIGINAL OPENED / scoped wall and furnishings regression, not final acceptance",
+  "fresh_process": "Separate actual Blender process per image; all3exit0, unlike parent47sequential3process EXIT137",
+  "camera_orientation_input": "SQUARE_STUDY_REVERSE=1"
+}

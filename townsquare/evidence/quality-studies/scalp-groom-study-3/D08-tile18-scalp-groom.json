@@ -1,0 +1,70 @@
+{
+  "view": "D08",
+  "native_pixel_crop": {
+    "index": 18,
+    "pixels": [
+      1024,
+      1664,
+      384,
+      1184
+    ]
+  },
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    640,
+    800
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.4000000059604645,
+  "seconds": 31.07448381299946,
+  "image_sha256": "e5a734d912b703a0384337000767fc0b518518852c473405b3ca3f09a7764a78",
+  "raw_paths": [
+    "D08-tile18-scalp-groom-noisy-0001.png"
+  ],
+  "inspection": "ACTUAL ORIGINAL OPENED / SCOPED OBSERVATIONS, NOT ADOPTED",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_06_P06",
+      "nonhair_geometry_uv_material_signature_before": "6f314b6ccb6ae8443967614ee7f132c16414f73993db24bdf8534f771c7f5b62",
+      "nonhair_geometry_uv_material_signature_after": "6f314b6ccb6ae8443967614ee7f132c16414f73993db24bdf8534f771c7f5b62",
+      "actual_removed_source_hair_card_faces": 2759,
+      "scalp_root_proxy_subdivision": 2,
+      "actual_curves": 100000,
+      "actual_points": 1151610,
+      "root_attempts": 103265,
+      "hairline_boundary_stops": 9189,
+      "actual_root_surface_m2": 0.05515469020658155,
+      "clipped_scalp_triangles": 12864,
+      "body_skin_top_z": 1.5849629640579224,
+      "head_centre_y": -0.0484894122928381,
+      "ear_centre_yz": [
+        -0.047634021760268534,
+        1.4618053955117656
+      ],
+      "head_half_width": 0.08728425577282906,
+      "root_radius_m": 3.8e-05,
+      "underlay_offset_m": 0.0007,
+      "underlay_hairline_alpha_feather_m": 0.006,
+      "style": "Original short swept-back physical scalp groom3. Continuous triangle clipping, ear exclusion,6mm root/underlay fade and proper forehead/crown/nape rotational flow. Smoothed actual head root proxy, obsolete hair-card faces physically removed only in copied UNSAVED static actor mesh (no transparent layer artifact); real hair curves, no paint/generation or skin anatomy/face coordinates/lighting change. UNSAVED; not native adoption/quality acceptance."
+    }
+  ],
+  "prototype_implementation_sha256": "f948bf8cf992729dd857da696f81b6f6901a3da64ea28ecea2f8b3bde13632b5",
+  "prototype_implementation_snapshot": "evidence/quality-studies/implementations/hair-f948bf8cf992729dd857da696f81b6f6901a3da64ea28ecea2f8b3bde13632b5.py",
+  "prototype_controls": {
+    "scalp_groom": "1",
+    "nape_ray_fit": "0",
+    "nape_smooth": "0",
+    "boundary_guard": "0",
+    "hide_fibres": "0",
+    "hide_mass": "0"
+  },
+  "actual_hidden_fibre_objects": 0,
+  "actual_hidden_mass_objects": 0,
+  "nominal_whole_frame_render_dimensions": [
+    2560,
+    1440
+  ],
+  "producer_observations": "Actually opened640x800original: smoother crown/head volume, fine brown physical strand response; previous triangular comb/nape and black floating patches gone. Source2759hair-card faces physically replaced by100000actual curves; non-hair coordinates/UV/material signature actually equal before/after. New short swept-back style is a scoped producer improvement, not photorealism/final approval. Needs fresh accessory/full-source/front/P12/portableLOD/rig checks before adoption."
+}

@@ -1,0 +1,113 @@
+{
+  "stage": "Source author previews only, NOT native acceptance or adoption",
+  "rows": [
+    {
+      "subject_asset_id": "HSR0015",
+      "pose_asset_id": "HSR0015-Body-009",
+      "path": ".cache/scan-intake/survey/HSR0015-Body-009-Cover.jpg",
+      "sha256": "516b3d9b02e5a2d556d59d126141f8167406169bfd068ff1da5e16f51748d296",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0015-Body-009-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Winter black padded coat/burgundy beanie/boots; promising. Actual native front/rear subsequently rendered and opened; small scan-floor markers at soles require cleanup.",
+      "native_acceptance": false
+    },
+    {
+      "subject_asset_id": "HSR0023",
+      "pose_asset_id": "HSR0023-Body-017",
+      "path": ".cache/scan-intake/survey/HSR0023-Body-017-Cover.jpg",
+      "sha256": "9e27ddb4840b16a3aa173f753c34571351316e71d3ab7c59f64e21daae47a7f1",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0023-Body-017-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Blue sweater/jeans; insufficient outdoor winterwear and visible top-of-head capture artifact; reject this preview for outdoor deployment.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0027",
+      "pose_asset_id": "HSR0027-Body-004",
+      "path": ".cache/scan-intake/survey/HSR0027-Body-004-Cover.jpg",
+      "sha256": "e0409049802a3cb1b762222d3138ff45b5dcf2f784d9b83b7b02f04b8377446e",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0027-Body-004-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Black padded jacket/pink knit cap/scarf/gloves/boots; plausible outdoor candidate.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0028",
+      "pose_asset_id": "HSR0028-Body-010",
+      "path": ".cache/scan-intake/survey/HSR0028-Body-010-Cover.jpg",
+      "sha256": "c29a1983162a758824974703d864333cc2188be8533e8e0d5bc013e6dea79a31",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0028-Body-010-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Long grey coat/blue knit cap/boots/phone; plausible outdoor candidate.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0040",
+      "pose_asset_id": "HSR0040-Body-004",
+      "path": ".cache/scan-intake/survey/HSR0040-Body-004-Cover.jpg",
+      "sha256": "22e84380092fe7013393346e489fe9f985c6fa60a1040e2240674f2062a15404",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0040-Body-004-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Olive winter parka/jeans/shoes/arms crossed; plausible outdoor candidate.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0042",
+      "pose_asset_id": "HSR0042-Body-002",
+      "path": ".cache/scan-intake/survey/HSR0042-Body-002-Cover.jpg",
+      "sha256": "7b12856f768477309c7683ceaf76fb27f59ac27688fb1ec64b844c962a51828f",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0042-Body-002-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Green varsity-style jacket/beanie/trousers/trainers; cooler-weather candidate, visible apparel marks not our business brands; avoid endorsement.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0081",
+      "pose_asset_id": "HSR0081-Body-004",
+      "path": ".cache/scan-intake/survey/HSR0081-Body-004-Cover.jpg",
+      "sha256": "736ba5744f0566facbdae3bcf64877c21e45e4284775104f283409f8d405718c",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0081-Body-004-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Cream coat/hat/jeans/ankle boots; plausible outdoor candidate.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0102",
+      "pose_asset_id": "HSR0102-Body-019",
+      "path": ".cache/scan-intake/survey/HSR0102-Body-019-Cover.jpg",
+      "sha256": "b736aaa6bf6b1980ae20046ad8c41390c8e64fbe9bda3ed21ac807281cce880b",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0102-Body-019-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Green sweater/jeans/trainers; reserve only possible indoor use, not snowy outdoor crowd.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0112",
+      "pose_asset_id": "HSR0112-Body-007",
+      "path": ".cache/scan-intake/survey/HSR0112-Body-007-Cover.jpg",
+      "sha256": "7a3ca8cbd2f1ec9018b260b11f2110b29293b30c076920200d2e584092bef9be",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0112-Body-007-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Long black padded coat/fur-like hood/dark trousers/red shoes/phone; plausible outdoor candidate.",
+      "native_acceptance": false,
+      "individual_reopen_to_resolve_parallel_order": true
+    },
+    {
+      "subject_asset_id": "HSR0161",
+      "pose_asset_id": "HSR0161-Body-002",
+      "path": ".cache/scan-intake/survey/HSR0161-Body-002-Cover.jpg",
+      "sha256": "8bb7421dc435ae583558292d310828feb49bcd819b12010674477bc1abb439fb",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0161-Body-002-Cover.jpg",
+      "actually_opened_source_author_preview": true,
+      "observation": "Dark zip hoodie/hat/trousers/tan shoes/arms crossed; lighter winterwear, reserve sheltered context.",
+      "native_acceptance": false
+    }
+  ]
+}

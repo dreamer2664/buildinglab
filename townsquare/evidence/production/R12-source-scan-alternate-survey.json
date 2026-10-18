@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "pose_asset_id": "HSR0015-Body-015",
+      "path": ".cache/scan-intake/survey/HSR0015-Body-015-Cover.jpg",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0015-Body-015-Cover.jpg",
+      "sha256": "128f4f772cb25cd2cbad6699660d56b51b066f82f4e1a3bf16ad644b6e896a7a",
+      "inspection": "PENDING source author preview, not native acceptance"
+    },
+    {
+      "pose_asset_id": "HSR0023-Body-029",
+      "path": ".cache/scan-intake/survey/HSR0023-Body-029-Cover.jpg",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0023-Body-029-Cover.jpg",
+      "sha256": "76993b9c05ba88de0b3c69afd3e1edd7d4f14988c954a1f14d93596f24ccfb6b",
+      "inspection": "PENDING source author preview, not native acceptance"
+    },
+    {
+      "pose_asset_id": "HSR0028-Body-016",
+      "path": ".cache/scan-intake/survey/HSR0028-Body-016-Cover.jpg",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0028-Body-016-Cover.jpg",
+      "sha256": "62ea36635c4bba7075ab60c3728ce5204fe53aa89ad258d07093ccec1ae2d32e",
+      "inspection": "PENDING source author preview, not native acceptance"
+    },
+    {
+      "pose_asset_id": "HSR0040-Body-012",
+      "path": ".cache/scan-intake/survey/HSR0040-Body-012-Cover.jpg",
+      "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0040-Body-012-Cover.jpg",
+      "sha256": "c5b0d7924bad241d1b77879c38aad625643eff64890dd0a8406ee9fb511843bb",
+      "inspection": "PENDING source author preview, not native acceptance"
+    }
+  ]
+}

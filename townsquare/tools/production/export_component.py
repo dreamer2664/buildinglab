@@ -8,7 +8,7 @@ with bpy.data.libraries.load(str(source),link=False) as (a,b):
  elif key=='PUBLIC':b.collections=[n for n in a.collections if n=='PUBLIC_REALM' or 'FILL' in n or n.startswith('AUXILIARY /')]
  else:b.objects=[n for n in a.objects if n.startswith('CROWD_') and n.endswith('_'+key)]
  if key.startswith('B') or key=='PUBLIC':b.worlds=list(a.worlds)
-s=bpy.context.scene
+s=bpy.context.scene;s.unit_settings.system='METRIC';s.unit_settings.scale_length=1
 if key.startswith('B') or key=='PUBLIC':
  for c in b.collections:s.collection.children.link(c)
  if b.worlds:s.world=b.worlds[0]

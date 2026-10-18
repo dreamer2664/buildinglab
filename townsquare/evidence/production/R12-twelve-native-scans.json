@@ -1,0 +1,341 @@
+{
+  "stage": "ACTUAL 12 packed native source-pose meshes imported, upper-body conservation and scoped sole cleanup checked; individual render/visual review and town adoption pending",
+  "variants": [
+    {
+      "variant": "P01",
+      "pose": "HSR0015-Body-009",
+      "native": ".cache/scan-intake/native/HSR0015-Body-009-clean-native-study.blend",
+      "native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "vertices": 49976,
+      "polygons": 99612,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49963,
+          99998
+        ],
+        "vertices_faces_after": [
+          49976,
+          99612
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49192,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P02",
+      "pose": "HSR0027-Body-004",
+      "native": ".cache/scan-intake/native/HSR0027-Body-004-clean-native-study.blend",
+      "native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "vertices": 49889,
+      "polygons": 99353,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49965,
+          99970
+        ],
+        "vertices_faces_after": [
+          49889,
+          99353
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48880,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P03",
+      "pose": "HSR0028-Body-010",
+      "native": ".cache/scan-intake/native/HSR0028-Body-010-clean-native-study.blend",
+      "native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "vertices": 49937,
+      "polygons": 99588,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50014,
+          100021
+        ],
+        "vertices_faces_after": [
+          49937,
+          99588
+        ],
+        "new_sole_cap_faces": 1,
+        "actual_upper_body_vertex_count_conserved": 49099,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P04",
+      "pose": "HSR0040-Body-004",
+      "native": ".cache/scan-intake/native/HSR0040-Body-004-clean-native-study.blend",
+      "native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "vertices": 49848,
+      "polygons": 98946,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49979,
+          99994
+        ],
+        "vertices_faces_after": [
+          49848,
+          98946
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48129,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P05",
+      "pose": "HSR0042-Body-002",
+      "native": ".cache/scan-intake/native/HSR0042-Body-002-clean-native-study.blend",
+      "native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "vertices": 49926,
+      "polygons": 99466,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50006,
+          100032
+        ],
+        "vertices_faces_after": [
+          49926,
+          99466
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48971,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P06",
+      "pose": "HSR0081-Body-004",
+      "native": ".cache/scan-intake/native/HSR0081-Body-004-clean-native-study.blend",
+      "native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "vertices": 49878,
+      "polygons": 99392,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49974,
+          100004
+        ],
+        "vertices_faces_after": [
+          49878,
+          99392
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48820,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P07",
+      "pose": "HSR0112-Body-007",
+      "native": ".cache/scan-intake/native/HSR0112-Body-007-clean-native-study.blend",
+      "native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "vertices": 49960,
+      "polygons": 99549,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49970,
+          99972
+        ],
+        "vertices_faces_after": [
+          49960,
+          99549
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49054,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P08",
+      "pose": "HSR0161-Body-002",
+      "native": ".cache/scan-intake/native/HSR0161-Body-002-clean-native-study.blend",
+      "native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "vertices": 49888,
+      "polygons": 99334,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50044,
+          100008
+        ],
+        "vertices_faces_after": [
+          49888,
+          99334
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48522,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P09",
+      "pose": "HSR0015-Body-015",
+      "native": ".cache/scan-intake/native/HSR0015-Body-015-clean-native-study.blend",
+      "native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "vertices": 49930,
+      "polygons": 99428,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49966,
+          99976
+        ],
+        "vertices_faces_after": [
+          49930,
+          99428
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49116,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P10",
+      "pose": "HSR0027-Body-006",
+      "native": ".cache/scan-intake/native/HSR0027-Body-006-clean-native-study.blend",
+      "native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "vertices": 49871,
+      "polygons": 99278,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49980,
+          99972
+        ],
+        "vertices_faces_after": [
+          49871,
+          99278
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48780,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P11",
+      "pose": "HSR0028-Body-016",
+      "native": ".cache/scan-intake/native/HSR0028-Body-016-clean-native-study.blend",
+      "native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "vertices": 49910,
+      "polygons": 99552,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49956,
+          99964
+        ],
+        "vertices_faces_after": [
+          49910,
+          99552
+        ],
+        "new_sole_cap_faces": 1,
+        "actual_upper_body_vertex_count_conserved": 49194,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P12",
+      "pose": "HSR0040-Body-012",
+      "native": ".cache/scan-intake/native/HSR0040-Body-012-clean-native-study.blend",
+      "native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "vertices": 49837,
+      "polygons": 98965,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49958,
+          99988
+        ],
+        "vertices_faces_after": [
+          49837,
+          98965
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48255,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    }
+  ]
+}

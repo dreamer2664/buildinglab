@@ -1,0 +1,21 @@
+{
+  "stage": "Selected licensed winter-clothed source poses for actual native testing; not yet town adoption",
+  "dataset": "digitalrealitylab/HSRD-100",
+  "revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "license": "CC BY 4.0",
+  "limitations": "12 distinct scanned poses from 8 source subject IDs, not 12 distinct photographed people. Static editable meshes, not rigged. Source preview is not actual native render approval. Original rigged generic characters are retained separately as alternatives.",
+  "variants": [
+    {"variant": "P01", "pose": "HSR0015-Body-009", "preview": "Black padded coat, burgundy knit beanie, boots, phone"},
+    {"variant": "P02", "pose": "HSR0027-Body-004", "preview": "Black padded jacket, pink knit cap and scarf, gloves and winter boots"},
+    {"variant": "P03", "pose": "HSR0028-Body-010", "preview": "Long grey coat, blue knit cap, patterned boots, phone"},
+    {"variant": "P04", "pose": "HSR0040-Body-004", "preview": "Olive parka, jeans, arms crossed"},
+    {"variant": "P05", "pose": "HSR0042-Body-002", "preview": "Green varsity-style jacket, dark knit beanie, hands in pockets"},
+    {"variant": "P06", "pose": "HSR0081-Body-004", "preview": "Cream coat and hat, jeans and black ankle boots"},
+    {"variant": "P07", "pose": "HSR0112-Body-007", "preview": "Long black padded coat and fur-like hood, red shoes, phone"},
+    {"variant": "P08", "pose": "HSR0161-Body-002", "preview": "Dark zip hoodie and hat, tan shoes, smiling, arms crossed; sheltered placement preferred"},
+    {"variant": "P09", "pose": "HSR0015-Body-015", "preview": "Black padded coat and burgundy beanie, adjusting coat closure"},
+    {"variant": "P10", "pose": "HSR0027-Body-006", "preview": "Black padded jacket, pink cap and scarf, arms crossed"},
+    {"variant": "P11", "pose": "HSR0028-Body-016", "preview": "Long grey coat and blue knit cap, raised hand with captured green prop"},
+    {"variant": "P12", "pose": "HSR0040-Body-012", "preview": "Olive winter parka, phone held to ear"}
+  ]
+}

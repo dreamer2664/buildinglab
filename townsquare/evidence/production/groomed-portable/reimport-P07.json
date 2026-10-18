@@ -1,0 +1,66 @@
+{
+  "component": "P07",
+  "glb_sha256": "e01ec89a5f5c30cde04feddfe9bf39625dfc483eb382acdaf9f02fbc5221d4ea",
+  "source_full_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "glb": ".cache/groomed-portable-components/GLB/P07.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 65139,
+    "polygons_instance_sum": 59337,
+    "triangles_instance_sum": 118650,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -22.49612808227539,
+      -19.341556549072266,
+      0.006000000052154064
+    ],
+    "bounds_max": [
+      12.516095161437988,
+      16.273488998413086,
+      1.7522486448287964
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      7,
+      19,
+      31
+    ]
+  },
+  "actual": {
+    "mesh_objects": 3,
+    "triangles_instance_sum": 118650,
+    "bounds_min": [
+      -22.49612808227539,
+      -19.341556549072266,
+      0.006000000052154064
+    ],
+    "bounds_max": [
+      12.516095161437988,
+      16.273488998413086,
+      1.7522486448287964
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      7,
+      19,
+      31
+    ]
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 11,
+  "packed_images": 11,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

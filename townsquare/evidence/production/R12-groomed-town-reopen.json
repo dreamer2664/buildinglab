@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "actual_separate_native_reopen": true,
+  "native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "verified_mesh_geometry_uv_pose_material_signature": "8c14e691d30fc18acf4121f3c78e9a09c8e8dfde1a297ef3f7128078a8246d36",
+  "verified_hair_curve_partition_radius_pose_and_root_fade_signature": "6d99d525dc210d3358eae9e8a4b0fd59a04a6cd73cef8c17c6e45f747edddf99",
+  "actual_people_instances": 36,
+  "actual_variants": 12,
+  "actual_prepared_cameras": 92,
+  "native_hair_curve_objects": 6,
+  "portable_lod_objects_hidden": 6,
+  "packed_images": 112,
+  "missing_external_images": [],
+  "actual_reopened_nonhair_parent_conservation": [
+    {
+      "actor": "CROWD_06_P06",
+      "actual_reopened_nonhair_signature": "6f314b6ccb6ae8443967614ee7f132c16414f73993db24bdf8534f771c7f5b62",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    },
+    {
+      "actor": "CROWD_18_P06",
+      "actual_reopened_nonhair_signature": "6f314b6ccb6ae8443967614ee7f132c16414f73993db24bdf8534f771c7f5b62",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    },
+    {
+      "actor": "CROWD_30_P06",
+      "actual_reopened_nonhair_signature": "6f314b6ccb6ae8443967614ee7f132c16414f73993db24bdf8534f771c7f5b62",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    },
+    {
+      "actor": "CROWD_12_P12",
+      "actual_reopened_nonhair_signature": "973d369293e693a04ac9ba4c5daea5e6f01c214bbb7c36a89cc0fb65b67ad1c3",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    },
+    {
+      "actor": "CROWD_24_P12",
+      "actual_reopened_nonhair_signature": "973d369293e693a04ac9ba4c5daea5e6f01c214bbb7c36a89cc0fb65b67ad1c3",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    },
+    {
+      "actor": "CROWD_36_P12",
+      "actual_reopened_nonhair_signature": "973d369293e693a04ac9ba4c5daea5e6f01c214bbb7c36a89cc0fb65b67ad1c3",
+      "matches_parent_unmodified_anatomy_clothing_UV_material_assignment": true
+    }
+  ],
+  "scope": "Actual exact saved full native separately reopened; mesh/UV/poses + curve positions/radii/partition/poses + root vertex fade and parent nonhair conservation, image packing,36/12people/cameras/native-vs-portable visibility. Not visual/highrealism/collision/certification/independent acceptance."
+}

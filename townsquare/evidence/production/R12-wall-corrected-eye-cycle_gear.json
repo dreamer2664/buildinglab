@@ -1,0 +1,38 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_cycle_gear",
+      "floor": "B11_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/wall-corrected-eye-level/cycle_gear.png",
+      "native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+      "image_sha256": "e10537827ffcf23093a58e21bd2e57cf9b4c7e318d3bd825c3f3fac2174c337d",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "samples": 8,
+      "actual_unsaved_wall_overlap_patch": null,
+      "camera_position_world": [
+        -44.150000762939456,
+        -1.6500001430511477,
+        5.15
+      ],
+      "camera_target_world": [
+        -44.150000762939456,
+        -0.2000000476837158,
+        4.35
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "NOT YET OPENED",
+      "actual_original_opened_by_agent": true,
+      "opened_image_sha256": "e10537827ffcf23093a58e21bd2e57cf9b4c7e318d3bd825c3f3fac2174c337d",
+      "producer_observations": "Actually opened original1024x768: bicycle now clearly visible side-on, both wheels/spokes/frame/saddle/handlebars present; photographic floor grain and workbench legibility improved. Sharp black coplanar wall streak absent. Simplified bicycle lacks full drivetrain/brake micro-detail; not mechanical certification or photorealism acceptance."
+    }
+  ],
+  "inspection": "ACTUAL SINGLE ORIGINAL OPENED / scoped wall and furnishings regression, not final acceptance",
+  "fresh_process": "Separate actual Blender process per image; all3exit0, unlike parent47sequential3process EXIT137",
+  "camera_orientation_input": "SQUARE_STUDY_SIDE=1"
+}

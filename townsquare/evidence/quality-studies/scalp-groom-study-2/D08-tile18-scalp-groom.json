@@ -1,0 +1,66 @@
+{
+  "view": "D08",
+  "native_pixel_crop": {
+    "index": 18,
+    "pixels": [
+      1024,
+      1664,
+      384,
+      1184
+    ]
+  },
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    640,
+    800
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.4000000059604645,
+  "seconds": 34.26944894400003,
+  "image_sha256": "3c7b9e19071bf7b1a8d397c120609f40495f46a086de7c661363fbba8fca135d",
+  "raw_paths": [
+    "D08-tile18-scalp-groom-noisy-0001.png"
+  ],
+  "inspection": "ACTUAL ORIGINAL OPENED / SCOPED OBSERVATIONS, NOT ADOPTED",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_06_P06",
+      "actual_curves": 100000,
+      "actual_points": 1152824,
+      "root_attempts": 102859,
+      "hairline_boundary_stops": 8898,
+      "actual_root_surface_m2": 0.059162119572993443,
+      "clipped_scalp_triangles": 1175,
+      "body_skin_top_z": 1.5860799551010132,
+      "head_centre_y": -0.04782947152853012,
+      "ear_centre_yz": [
+        -0.04683480772082923,
+        1.4620133540669427
+      ],
+      "head_half_width": 0.08928824588656425,
+      "root_radius_m": 3.8e-05,
+      "underlay_offset_m": 0.0007,
+      "underlay_hairline_alpha_feather_m": 0.006,
+      "style": "Original short swept-back physical scalp groom2. Continuous triangle clipping, ear exclusion,6mm root/underlay fade and proper forehead/crown/nape rotational flow. Real hair curves, no paint/generation or anatomy/face/light change. UNSAVED; not native adoption/quality acceptance."
+    }
+  ],
+  "prototype_implementation_sha256": "b1275f2bcc133452a436251db8de4538d114c7c5543a70ba3cc5a3d3f4e71990",
+  "prototype_implementation_snapshot": "evidence/quality-studies/implementations/hair-b1275f2bcc133452a436251db8de4538d114c7c5543a70ba3cc5a3d3f4e71990.py",
+  "prototype_controls": {
+    "scalp_groom": "1",
+    "nape_ray_fit": "0",
+    "nape_smooth": "0",
+    "boundary_guard": "0",
+    "hide_fibres": "0",
+    "hide_mass": "0"
+  },
+  "actual_hidden_fibre_objects": 0,
+  "actual_hidden_mass_objects": 0,
+  "nominal_whole_frame_render_dimensions": [
+    2560,
+    1440
+  ],
+  "producer_observations": "Actually opened640x800original: much improved continuous hairline and physical fine-fibre response; no face/ear overpaint, but blunt front, visibly faceted crown and small black floating patches behind neck remain. NOT adopted. Smooth root proxy and removal of obsolete transparent hair cards needed."
+}

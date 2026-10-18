@@ -1,0 +1,59 @@
+{
+  "view": "D08",
+  "native_pixel_crop": {
+    "index": 18,
+    "pixels": [
+      1024,
+      1664,
+      384,
+      1184
+    ]
+  },
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    640,
+    800
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.4000000059604645,
+  "seconds": 31.604499625000244,
+  "image_sha256": "f3675737aacbc9dd006276bfe738038624016caf84081e4ec88c9bdd9ec704f3",
+  "raw_paths": [
+    "D08-tile18-scalp-groom-noisy-0001.png"
+  ],
+  "inspection": "ACTUAL640x800 ORIGINAL OPENED / REJECTED, no adoption",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_06_P06",
+      "actual_curves": 100000,
+      "actual_points": 1200000,
+      "actual_root_surface_m2": 0.09778117006304399,
+      "scalp_triangles": 4078,
+      "body_skin_top_z": 1.5860799551010132,
+      "crown_centre_y": -0.06324436626321561,
+      "head_half_width": 0.08691544404074021,
+      "root_radius_m": 3.8e-05,
+      "underlay_offset_m": 0.0007,
+      "style": "Original swept-back short layered procedural groom grown from actual head/neck skin. Original braid01 hair cards made transparent in UNSAVED study; anatomy/face UV/lighting unchanged. No scalp removal or photo/painting/generation. Not native adoption or quality acceptance."
+    }
+  ],
+  "prototype_implementation_sha256": "bf9fa9ae8a5b67183a230ec2045b5b1f62750bda4ba91cf2ddda9c8f71bd2240",
+  "prototype_implementation_snapshot": "evidence/quality-studies/implementations/hair-bf9fa9ae8a5b67183a230ec2045b5b1f62750bda4ba91cf2ddda9c8f71bd2240.py",
+  "prototype_controls": {
+    "scalp_groom": "1",
+    "nape_ray_fit": "0",
+    "nape_smooth": "0",
+    "boundary_guard": "0",
+    "hide_fibres": "0",
+    "hide_mass": "0"
+  },
+  "actual_hidden_fibre_objects": 0,
+  "actual_hidden_mass_objects": 0,
+  "nominal_whole_frame_render_dimensions": [
+    2560,
+    1440
+  ],
+  "producer_observations": "100000actual physical fibres give visible hair-like fine strand response, but opaque root selection covers ear/side cheek and creates unacceptable polygonal stair-step hairline and neck stripe. Forehead sink/cowlick and faceted underlay also remain. Not good enough; continuous clipped/feathered hairline, ear exclusion and rotational forehead-to-crown-to-nape flow required. Native unchanged."
+}

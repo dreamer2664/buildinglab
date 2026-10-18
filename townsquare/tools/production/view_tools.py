@@ -55,7 +55,10 @@ def apply_view(view_id):
  if f.get('studio_key'):
   p=Vector(f['position'])+Vector((-.5,.2,1.3));_area('Close-human inspection key',p,f['target'],120,3.0,(1,.95,.89))
   q=Vector(f['target'])+(Vector(f['target'])-Vector(f['position']))*.5+Vector((.8,0,1.7));_area('Close-human rim',q,f['target'],70,2.0,(.78,.87,1))
- s['active_view_id']=view_id;s['active_view_description']=f['title'];bpy.context.view_layer.update();return f
+ s['active_view_id']=view_id;s['active_view_description']=f['title']
+ for o in s.objects:
+  if o.get('portable_hair_lod'):o.hide_render=True;o.hide_set(True)
+ bpy.context.view_layer.update();return f
 
 def prune_for_render(frame,border=None):
  """Memory optimization on an UNSAVED working copy only. Preserve architectural occluders.

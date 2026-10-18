@@ -1,0 +1,21 @@
+{
+  "source_photo": {
+    "member": "HSR0040-Body-004_LOD1_u0_v0_diffuse.png",
+    "path": ".cache/scan-intake/HSR0040-Body-004/extracted-LOD1/HSR0040-Body-004_LOD1_u0_v0_diffuse.png",
+    "bytes": 77344324,
+    "sha256": "8861609297b16baa08df7597343ae7d1d4ba6a6476b4128664c68b8be9e3a320"
+  },
+  "actual_original_dimensions": [
+    8192,
+    8192
+  ],
+  "derivative": ".cache/scan-intake/HSR0040-Body-004/extracted-LOD1/HSR0040-Body-004_LOD1-4096-bounded.png",
+  "derivative_dimensions": [
+    4096,
+    4096
+  ],
+  "derivative_sha256": "ca096a07ccc09f0e566cc9fc56b262864720cb651878da7a29bab96b1f43cdc2",
+  "method": "libvips sequential Lanczos3 source-photo resampling only; no retouch, generation or geometry changes",
+  "pose": "HSR0040-Body-004",
+  "lod": "LOD1"
+}

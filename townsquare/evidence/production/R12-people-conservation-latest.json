@@ -1,0 +1,189 @@
+{
+  "actual_opened_file_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+  "phase": "latest",
+  "people_mesh_objects": 36,
+  "geometry_uv_material_names_world_pose_sha256": "59aba7783f21b48fc7376a1b51cf8a46c86d2c8d83292e2312eddb49e90b7447",
+  "objects": [
+    {
+      "object": "CROWD_01_P01",
+      "person_id": 1,
+      "geometry_uv_material_names_world_pose_sha256": "0c5f0dd95ac32077ad4e04328b6b70249e217f02a9b600ae5dc9f4e5d0a2057f"
+    },
+    {
+      "object": "CROWD_02_P02",
+      "person_id": 2,
+      "geometry_uv_material_names_world_pose_sha256": "a49a752ca9bfa4053d1e726026454de39adb06bc79260b11a0a378e8a303df23"
+    },
+    {
+      "object": "CROWD_03_P03",
+      "person_id": 3,
+      "geometry_uv_material_names_world_pose_sha256": "455c752bfaab91bfe4152d9c40716b63f5b612eae39cacab19b1ff47301805e8"
+    },
+    {
+      "object": "CROWD_04_P04",
+      "person_id": 4,
+      "geometry_uv_material_names_world_pose_sha256": "cab89ca31075569cea6bf87d143ebd07940afdcab9f23947426b9a184db0ec22"
+    },
+    {
+      "object": "CROWD_05_P05",
+      "person_id": 5,
+      "geometry_uv_material_names_world_pose_sha256": "999a17bd43a1873fdd72aa2a67a37f195ef440ed32a0be3d60031337bb213873"
+    },
+    {
+      "object": "CROWD_06_P06",
+      "person_id": 6,
+      "geometry_uv_material_names_world_pose_sha256": "7db09ab2e6703e544d86ed6c4106bcccd96d9031feb7c3e3cf7518faadb607e7"
+    },
+    {
+      "object": "CROWD_07_P07",
+      "person_id": 7,
+      "geometry_uv_material_names_world_pose_sha256": "b303fa4784c9d8e6ecc1ee7673027707f797540b29781f89a633f3ff872b66a9"
+    },
+    {
+      "object": "CROWD_08_P08",
+      "person_id": 8,
+      "geometry_uv_material_names_world_pose_sha256": "cadd943a91334dadfbb9c6f401e04e1445619e024a73ea5e9c1afa83078dbc88"
+    },
+    {
+      "object": "CROWD_09_P09",
+      "person_id": 9,
+      "geometry_uv_material_names_world_pose_sha256": "cd2d1bf21fe2abf3ad189d9963c167b7ba08d7d3961f1ae1b9119070a2b6a973"
+    },
+    {
+      "object": "CROWD_10_P10",
+      "person_id": 10,
+      "geometry_uv_material_names_world_pose_sha256": "4abebaafd58d576d6d89e558dcc44d2943e6aa826c5a5c5513506dda78821abb"
+    },
+    {
+      "object": "CROWD_11_P11",
+      "person_id": 11,
+      "geometry_uv_material_names_world_pose_sha256": "a9d004a33d95a40179fcea9b71172a330de5a72618e25c4e5e9a39081263fce5"
+    },
+    {
+      "object": "CROWD_12_P12",
+      "person_id": 12,
+      "geometry_uv_material_names_world_pose_sha256": "061677430b89f5ae9e8365d52408df4dbc5b73e4933747e0d464b92d346d87ea"
+    },
+    {
+      "object": "CROWD_13_P01",
+      "person_id": 13,
+      "geometry_uv_material_names_world_pose_sha256": "dd46f5e28903ac5a7b6edbf05e013805eaee04e2793c4ab4421ece32a82a4cf1"
+    },
+    {
+      "object": "CROWD_14_P02",
+      "person_id": 14,
+      "geometry_uv_material_names_world_pose_sha256": "a8a0a34011485be05becc8ae17dc3dc9718d6d06b8c3d55046881bc5c74a3193"
+    },
+    {
+      "object": "CROWD_15_P03",
+      "person_id": 15,
+      "geometry_uv_material_names_world_pose_sha256": "73c316b5c1ccd5168e87574207ae2c92a78a87f3039d4d25e320fe8729e36d2e"
+    },
+    {
+      "object": "CROWD_16_P04",
+      "person_id": 16,
+      "geometry_uv_material_names_world_pose_sha256": "8a6a63ae9a855754dc3d807b990efdff9aece7be097f290bc0f91395fd0d32ed"
+    },
+    {
+      "object": "CROWD_17_P05",
+      "person_id": 17,
+      "geometry_uv_material_names_world_pose_sha256": "98833d0356184655a62f48a4d9f62ff1e69b269944338aa7882a9e2fa42dfd11"
+    },
+    {
+      "object": "CROWD_18_P06",
+      "person_id": 18,
+      "geometry_uv_material_names_world_pose_sha256": "5ac349bf6ac49f1811c2a08515388c7fa68af667fc3513ac5500e8bab64550b5"
+    },
+    {
+      "object": "CROWD_19_P07",
+      "person_id": 19,
+      "geometry_uv_material_names_world_pose_sha256": "5e024a6a5829c6047e5d1f57efa627ee84baff195dc743d3cdabd3aa84d7a0b1"
+    },
+    {
+      "object": "CROWD_20_P08",
+      "person_id": 20,
+      "geometry_uv_material_names_world_pose_sha256": "20c4642232636956cf2b5db8458677e9a18790eb13769bc68abe27d2780ffb8b"
+    },
+    {
+      "object": "CROWD_21_P09",
+      "person_id": 21,
+      "geometry_uv_material_names_world_pose_sha256": "cada5e3c6b3b7e8f94ebe5368e7afa56db2fe27fb5917998c7a57578b99dca8c"
+    },
+    {
+      "object": "CROWD_22_P10",
+      "person_id": 22,
+      "geometry_uv_material_names_world_pose_sha256": "34e75d5e3000f0fb6494493a33aa65771d3cc26eaba93ddaa21d28076d5ff611"
+    },
+    {
+      "object": "CROWD_23_P11",
+      "person_id": 23,
+      "geometry_uv_material_names_world_pose_sha256": "32586b1e1d790fea025ee08fdd7cc37661aeb0bba3f50a961b2b5e9ee84b41da"
+    },
+    {
+      "object": "CROWD_24_P12",
+      "person_id": 24,
+      "geometry_uv_material_names_world_pose_sha256": "db5643805461b496b4b460a69e44bb7b86de99851e6548658b9214dc2507e750"
+    },
+    {
+      "object": "CROWD_25_P01",
+      "person_id": 25,
+      "geometry_uv_material_names_world_pose_sha256": "c85e81b6f7c42dc8e6284ecce0c6500cf813c82ff6dab15f63cdb1d590196d1c"
+    },
+    {
+      "object": "CROWD_26_P02",
+      "person_id": 26,
+      "geometry_uv_material_names_world_pose_sha256": "d39c13e8db7bed5566f1116038ffa16ebcd2f00c6ed02e2a3b157460d31653d1"
+    },
+    {
+      "object": "CROWD_27_P03",
+      "person_id": 27,
+      "geometry_uv_material_names_world_pose_sha256": "485129cd9b0cb8a1005d06aefb8f6cae7215e32328b24790fb6a3040c3d111fd"
+    },
+    {
+      "object": "CROWD_28_P04",
+      "person_id": 28,
+      "geometry_uv_material_names_world_pose_sha256": "df06da2e970bf4d77eef1739206ca67d060b050ce94a7e648912a83db9f48d33"
+    },
+    {
+      "object": "CROWD_29_P05",
+      "person_id": 29,
+      "geometry_uv_material_names_world_pose_sha256": "a5a673ce44ba5b1917066ac0e52c03ba78ad3f795d666e8f179ccce07b267df3"
+    },
+    {
+      "object": "CROWD_30_P06",
+      "person_id": 30,
+      "geometry_uv_material_names_world_pose_sha256": "ce763cf3dff80c7e90a55ab2957023c6913cf0879f3efc1c6828b6096b6c4c3c"
+    },
+    {
+      "object": "CROWD_31_P07",
+      "person_id": 31,
+      "geometry_uv_material_names_world_pose_sha256": "287e2448da5b54b32e7c2616a507e5e07a97e73d4e9434571cf4312ba88696ef"
+    },
+    {
+      "object": "CROWD_32_P08",
+      "person_id": 32,
+      "geometry_uv_material_names_world_pose_sha256": "5c45680d0371540d4b68b3a32f70b3dac35896e6709604e77f8c12a55805d812"
+    },
+    {
+      "object": "CROWD_33_P09",
+      "person_id": 33,
+      "geometry_uv_material_names_world_pose_sha256": "20950c8b1ce5ec2faa042cabf928ae8a7a121d073c4a12496d9af068c41162f5"
+    },
+    {
+      "object": "CROWD_34_P10",
+      "person_id": 34,
+      "geometry_uv_material_names_world_pose_sha256": "7b76fa913fdcc6cfc24b152e61cc927bf0c8a6e93b043ba792ca9e9f2f6b2f21"
+    },
+    {
+      "object": "CROWD_35_P11",
+      "person_id": 35,
+      "geometry_uv_material_names_world_pose_sha256": "76b1fd690a3c6b97031efcbdce4a21c11909b9c4b6357019c39bfd4ff761f86d"
+    },
+    {
+      "object": "CROWD_36_P12",
+      "person_id": 36,
+      "geometry_uv_material_names_world_pose_sha256": "74e725a2b8438f6efd542cb0bb7a72eca572beda3152043cbc35332888db75f0"
+    }
+  ],
+  "scope": "Geometry/UV/material indices+names/world poses only, no pixel texture equivalence claim between resampled derivative/full source; old full-town image acceptance is not rebound."
+}
