@@ -18,3 +18,10 @@ def build_stair_and_landing_core(name, cx, cy, ffl, storey_h, mat_stone, mat_met
     objs.append(spawn_bevel_box(f"{name}_LIFT_FRAME", (1.05, 0.12, 2.15), (cx + 0.75, cy + 1.8, ffl + 1.075), mat_metal, coll, role="prop", family="lift_portal", **tags))
     objs.append(spawn_bevel_box(f"{name}_LIFT_PLAQUE", (0.24, 0.02, 0.14), (cx + 0.75, cy + 1.72, ffl + 1.55), mat_wood, coll, role="prop", family="floor_plaque", **tags))
     return objs
+
+
+def build_stair_flight(name, loc, storey_h, mat_wood, mat_metal, coll, **tags):
+    cx, cy, ffl = loc
+    return build_stair_and_landing_core(
+        name, cx, cy, ffl, storey_h, mat_wood, mat_metal, mat_wood, coll, **tags
+    )

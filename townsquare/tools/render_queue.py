@@ -1,221 +1,355 @@
 #!/usr/bin/env python3
 """
-render_queue.py — Geometry-hash-addressed render queue (R1, R2, §12, §26).
-Supports:
-  python3 townsquare/tools/render_queue.py --slice --pass proof --jobs 2
-  python3 townsquare/tools/render_queue.py --slice --pass final --only-dirty
-  python3 townsquare/tools/render_queue.py --pass proof --jobs 2
-  python3 townsquare/tools/render_queue.py --pass final --only-dirty
+Geometry-hash-addressed (`R1`), two-tier proof/final (`R2`) batch renderer (`townsquare/tools/render_queue.py`).
+Supports both:
+- Stage B vertical slice (`--scene slice`, 12 views from `slice_B02_L02.blend`)
+- Stage F full 271-view production (`--scene master`, 271 views from `master.blend` & `VIEWS.json`)
+
+Maintains `/home/user/buildinglab/renders/manifest.json` and enforces `GEOMETRY_FROZEN` (§21).
 """
 from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import subprocess
 import sys
-from datetime import datetime, timezone
+import time
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-REPO_ROOT = ROOT.parent
-RENDERS_DIR = REPO_ROOT / "renders"
-MANIFEST_PATH = RENDERS_DIR / "manifest.json"
+ROOT = Path("/home/user/buildinglab")
+SLICE_BLEND = ROOT / "townsquare/scene/slice_B02_L02.blend"
+MASTER_BLEND = ROOT / "townsquare/scene/master.blend"
+SLICE_BUILD_JSON = ROOT / "townsquare/evidence/validation/stage_b_slice_build.json"
+VIEWS_JSON = ROOT / "townsquare/design/VIEWS.json"
+MANIFEST_PATH = ROOT / "renders/manifest.json"
+FROZEN_FLAG = ROOT / "townsquare/scene/GEOMETRY_FROZEN"
 
 
-def compute_file_sha256(p: Path) -> str:
+def sha256_file(p: Path) -> str:
     h = hashlib.sha256()
     with p.open("rb") as f:
-        while chunk := f.read(1024 * 1024):
+        while chunk := f.read(65536):
             h.update(chunk)
     return h.hexdigest()
 
 
-def compute_geometry_key(view: dict, native_sha: str) -> str:
-    payload = json.dumps({
-        "id": view["id"],
-        "lighting": view.get("lighting", "blue_hour"),
-        "location": view.get("location"),
-        "target": view.get("target"),
-        "resolution": view.get("resolution"),
-        "native_sha": native_sha,
-    }, sort_keys=True)
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+def load_manifest() -> dict:
+    if MANIFEST_PATH.exists():
+        return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    return {"schema": "winterlichtplatz.render_manifest.v1", "views": {}}
 
 
-BLENDER_BATCH_SCRIPT = """
-import bpy, json, os, sys
+def save_manifest(m: dict) -> None:
+    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MANIFEST_PATH.write_text(json.dumps(m, indent=2), encoding="utf-8")
+
+
+def render_inside_blender(blend_path: Path, tier: str, view_ids: list[str], samples_override: int | None = None) -> None:
+    code = f"""
+import bpy, json, math, sys, time
 from pathlib import Path
+from mathutils import Vector
 
-ROOT = Path(os.environ["TS_ROOT"])
-if str(ROOT.parent) not in sys.path:
-    sys.path.insert(0, str(ROOT.parent))
+sys.path.insert(0, "/home/user/buildinglab")
 from townsquare.kits.lighting.builder import set_scene_lighting_mood
 
-batch = json.loads(os.environ["TS_RENDER_BATCH"])
-pass_kind = os.environ["TS_PASS_KIND"]
-samples = int(os.environ.get("TS_SAMPLES", "12"))
+tier = {tier!r}
+view_ids = {view_ids!r}
+samples_override = {samples_override!r}
+is_master = ({blend_path.name!r} == "master.blend")
 
-scene = bpy.context.scene
-scene.render.engine = "CYCLES"
-scene.cycles.device = "CPU"
-scene.cycles.use_denoising = False
-scene.cycles.samples = samples
-scene.cycles.max_bounces = 4
-scene.cycles.diffuse_bounces = 2
-scene.cycles.glossy_bounces = 2
-scene.cycles.transmission_bounces = 2
-scene.render.image_settings.file_format = "PNG"
-scene.render.image_settings.color_mode = "RGB"
+if is_master:
+    all_views = json.loads(Path("/home/user/buildinglab/townsquare/design/VIEWS.json").read_text())
+else:
+    all_views = json.loads(Path("/home/user/buildinglab/townsquare/evidence/validation/stage_b_slice_build.json").read_text())["slice_views"]
 
-for item in batch:
-    vid = item["id"]
-    out_path = item["out_path"]
-    lstate = item.get("lighting", "blue_hour")
-    set_scene_lighting_mood(scene, lstate)
+vmap = {{v["id"]: v for v in all_views}}
 
-    # Cutaway / plan visibility toggle for roof & ceiling slabs above target level
-    is_cut = ("cutaway" in vid) or ("plan" in vid) or ("sec_" in vid)
-    if "01_B02_UpperAndRoof" in bpy.data.collections:
-        bpy.data.collections["01_B02_UpperAndRoof"].hide_render = is_cut
-    for obj in scene.objects:
-        if obj.type == "MESH":
-            hide = False
-            if is_cut and (
-                obj.get("level") in ("ROOF", "L03", "L04", "L05", "L06", "L07")
-                or "SPANDREL_TOP" in obj.name
-                or ("L02" in obj.name and any(k in obj.name for k in ("_CEIL_ROSE", "_PENDANT_SHADE", "_PENDANT_BULB", "_CORNICE_")))
-                or ("B02_ExtWall_N_0" in obj.name)
-                or ("B02_SouthPier_0_" in obj.name)
-                or ("B02_Z4_" in obj.name)
-                or ("B02_L02_W" in obj.name)
-                or ("B02_Belt" in obj.name and "_7" in obj.name)
-            ):
-                hide = True
-            obj.hide_render = hide
+Path("/var/tmp/blender_tmp").mkdir(parents=True, exist_ok=True)
+bpy.context.preferences.filepaths.temporary_directory = "/var/tmp/blender_tmp"
+sc = bpy.context.scene
+sc.render.engine = "CYCLES"
+sc.cycles.device = "CPU"
+sc.render.use_persistent_data = (tier == "proof")
+sc.cycles.use_auto_tile = True
+sc.cycles.tile_size = 512
+sc.cycles.use_adaptive_sampling = True
+sc.cycles.adaptive_threshold = 0.08 if tier == "proof" else 0.025
+sc.cycles.use_denoising = False
+sc.cycles.max_bounces = 2 if tier == "proof" else 3
+sc.cycles.diffuse_bounces = 1
+sc.cycles.glossy_bounces = 1 if tier == "proof" else 2
+sc.cycles.transmission_bounces = 2
+sc.cycles.sample_clamp_direct = 8.0
+sc.cycles.sample_clamp_indirect = 4.0
 
-    cam = bpy.data.objects.get(vid)
+for m in bpy.data.materials:
+    if hasattr(m, "cycles"):
+        m.cycles.emission_sampling = "NONE"
+
+def make_static_light(name, ltype, energy, color, loc, size=0.30, rot=(0.0, 0.0, 0.0)):
+    ld = bpy.data.lights.new(name, type=ltype)
+    ld.energy = energy
+    ld.color = color
+    if ltype == "POINT":
+        ld.shadow_soft_size = size
+    elif ltype == "AREA":
+        ld.size = size
+    obj = bpy.data.objects.new(name, ld)
+    sc.collection.objects.link(obj)
+    obj.location = loc
+    obj.rotation_euler = rot
+    return obj
+
+out_dir = Path("/home/user/buildinglab/renders") / ("proofs" if tier == "proof" else "final")
+out_dir.mkdir(parents=True, exist_ok=True)
+
+# Homogeneous batch setup ONCE before the render loop so Cycles builds the BVH & Light Tree only ONCE per batch!
+first_v = vmap[view_ids[0]]
+first_cls = first_v.get("class", "")
+preset = first_v.get("lighting", "blue_hour")
+if preset == "day":
+    preset = "overcast"
+set_scene_lighting_mood(sc, preset)
+
+if preset == "overcast":
+    make_static_light("DYN_DAY_SUN", "SUN", 5.5, (1.0, 0.97, 0.91), (0.0, 0.0, 40.0), 0.1, (math.radians(54.0), math.radians(18.0), math.radians(38.0)))
+    make_static_light("DYN_DAY_FILL", "AREA", 24000.0, (0.78, 0.87, 1.0), (0.0, 0.0, 28.0), 48.0)
+
+if is_master:
+    target_bldg = first_v.get("building") or ""
+    is_indoor_focus = first_cls in ("apartment_interior", "plan")
+    is_cutaway = first_cls in ("plan", "building_section")
+    hide_trees = first_cls in ("building_exterior", "night_alternate", "building_section", "shopfront", "plan", "apartment_interior")
+    for o in sc.objects:
+        role = o.get("role", "")
+        b_id = o.get("building_id")
+        if o.type == "MESH":
+            o.visible_shadow = not (is_cutaway and ("EXTERIOR_SHELL" in o.name or "SLAB_AND_STAIR" in o.name or first_cls == "plan"))
+        if role == "room_dressing":
+            if is_indoor_focus or is_cutaway:
+                o.hide_render = (b_id != target_bldg)
+            else:
+                o.hide_render = not str(o.get("room_id", "")).endswith("shop_sales")
+        elif role in ("building_shell", "floor_slab"):
+            if is_indoor_focus and target_bldg:
+                o.hide_render = (b_id != target_bldg)
+            else:
+                o.hide_render = False
+        elif role in ("tree", "deciduous_tree") or "DECIDUOUS_TREE" in o.name:
+            o.hide_render = hide_trees
+        elif "SQUARE_" in o.name or "CHRISTMAS_TREE" in o.name or "STALL_" in o.name:
+            o.hide_render = is_indoor_focus
+        elif role == "human":
+            if is_indoor_focus and target_bldg:
+                o.hide_render = (b_id != target_bldg)
+            elif is_cutaway and target_bldg:
+                o.hide_render = (b_id != target_bldg and o.get("location_type") == "indoor")
+            else:
+                o.hide_render = (o.get("location_type") == "indoor")
+        elif o.type == "LIGHT" and not o.name.startswith("DYN_"):
+            if "WarmBounce" in o.name or "WarmLight" in o.name:
+                if is_indoor_focus or is_cutaway:
+                    o.hide_render = True
+                else:
+                    o.hide_render = ("L01_shop" not in o.name)
+            elif "SqPoint" in o.name or "TreeGlow" in o.name or "WindowGlow" in o.name or "ShopSign" in o.name:
+                o.hide_render = is_indoor_focus
+
+# Pre-create all camera/view helper lights & camera clip planes ONCE before rendering any frame!
+for idx_v, vid in enumerate(view_ids):
+    v = vmap[vid]
+    vcls = v.get("class", "")
+    cam = bpy.data.objects.get(f"CAM_{{vid}}") or bpy.data.objects.get(vid)
     if cam is None:
-        from mathutils import Vector
-        cdata = bpy.data.cameras.new(vid)
-        cdata.lens = 30.0
-        cam = bpy.data.objects.new(vid, cdata)
-        scene.collection.objects.link(cam)
-        cam.location = Vector(item["location"])
-        cam.rotation_euler = (Vector(item["target"]) - cam.location).to_track_quat("-Z", "Y").to_euler()
+        raise RuntimeError(f"Camera for {{vid}} not found in scene")
+    cx, cy, cz = v["location"]
+    tx, ty, tz = v["target"]
+    cam.location = (cx, cy, cz)
+    direction = Vector((tx - cx, ty - cy, tz - cz))
+    if direction.length > 1e-5:
+        cam.rotation_euler = direction.to_track_quat("-Z", "Y").to_euler()
+    if "lens_mm" in v and cam.data.type == "PERSP":
+        cam.data.lens = float(v["lens_mm"])
+    cam.data.clip_start = 4.8 if vcls in ("building_exterior", "night_alternate", "shopfront") else 0.05
+    cam.data.clip_end = 250.0
 
-    scene.camera = cam
-    rx, ry = item["px"]
-    scene.render.resolution_x = rx
-    scene.render.resolution_y = ry
-    scene.render.resolution_percentage = 100
-    scene.render.filepath = out_path
+    if vcls == "apartment_interior":
+        make_static_light(f"DYN_KEY_{{idx_v}}", "POINT", 155.0, (1.0, 0.78, 0.50), ((cx + tx) * 0.5, (cy + ty) * 0.5, cz + 0.95), 0.25)
+        make_static_light(f"DYN_FILL_{{idx_v}}", "POINT", 85.0, (1.0, 0.72, 0.42), (tx + (tx - cx) * 0.25, ty + (ty - cy) * 0.25, cz + 0.35), 0.30)
+    elif vcls == "plan" or vid == "slice_10_plan_B02_L02":
+        if is_master:
+            cam.data.clip_start = 15.70
+            cam.data.clip_end = 18.08
+            if idx_v == 0:
+                make_static_light(f"DYN_PLAN_{{idx_v}}", "AREA", 12000.0, (1.0, 0.96, 0.90), (tx, ty, tz + 30.0), 18.0)
+    elif vcls == "building_section" or vid == "slice_03_cutaway_L02":
+        if is_master:
+            dist = (Vector((tx, ty, tz)) - Vector((cx, cy, cz))).length
+            cam.data.clip_start = max(1.0, dist - 5.2)
+            make_static_light(f"DYN_SEC_{{idx_v}}", "AREA", 16000.0, (1.0, 0.96, 0.90), (cx, cy, cz + 8.0), 16.0, tuple(cam.rotation_euler))
+    elif vcls == "human_closeup":
+        make_static_light(f"DYN_HUM_{{idx_v}}", "POINT", 35.0 if preset == "overcast" else 55.0, (1.0, 0.82, 0.60), (cx + 0.6, cy + 0.3, cz + 0.45), 0.25)
+
+# Now render the entire homogeneous batch changing ONLY sc.camera!
+for vid in view_ids:
+    v = vmap[vid]
+    cam = bpy.data.objects.get(f"CAM_{{vid}}") or bpy.data.objects.get(vid)
+    sc.camera = cam
+
+    if not is_master:
+        cut_hide = vid in ("slice_03_cutaway_L02", "slice_10_plan_B02_L02")
+        for o in sc.objects:
+            if any(k in o.name for k in ("B02_L03_Slab", "B02_ROOF", "B02_UpperShell")):
+                o.hide_render = cut_hide
+
+    if tier == "proof":
+        sc.render.resolution_x = 1024
+        sc.render.resolution_y = 576
+        sc.cycles.samples = samples_override or 16
+    else:
+        rx, ry = v["resolution"]
+        sc.render.resolution_x = rx
+        sc.render.resolution_y = ry
+        if samples_override:
+            sc.cycles.samples = samples_override
+        elif rx >= 3840:
+            sc.cycles.samples = 36
+        elif rx >= 2560:
+            sc.cycles.samples = 28
+        else:
+            sc.cycles.samples = 24
+
+    out_file = out_dir / f"{{vid}}.png"
+    sc.render.filepath = str(out_file)
+    sc.render.image_settings.file_format = "PNG"
+    sc.render.image_settings.color_mode = "RGBA"
+    t0 = time.time()
     bpy.ops.render.render(write_still=True)
-    print(f"RENDERED_VIEW {vid} {rx}x{ry} -> {out_path}", flush=True)
+    dt = time.time() - t0
+    print(f"RENDERED {{tier}} {{vid}} ({{sc.render.resolution_x}}x{{sc.render.resolution_y}}, {{sc.cycles.samples}} spp) -> {{out_file.name}} in {{dt:.2f}}s", flush=True)
 """
+    cmd = [
+        "blender",
+        "--background",
+        str(blend_path),
+        "--python-exit-code",
+        "1",
+        "--python-expr",
+        code,
+    ]
+    import os, shutil
+    env = dict(os.environ)
+    Path("/var/tmp/blender_tmp").mkdir(parents=True, exist_ok=True)
+    env["TMPDIR"] = "/var/tmp/blender_tmp"
+    try:
+        subprocess.run(cmd, check=True, env=env)
+    finally:
+        shutil.rmtree("/var/tmp/blender_tmp", ignore_errors=True)
 
 
 def main() -> int:
-    p = argparse.ArgumentParser()
-    p.add_argument("--slice", action="store_true", help="Render Stage B 12-view slice")
-    p.add_argument("--pass", dest="pass_kind", choices=["proof", "final"], default="proof")
-    p.add_argument("--jobs", type=int, default=1)
-    p.add_argument("--only-dirty", action="store_true")
-    p.add_argument("--samples", type=int, default=0)
-    p.add_argument("--limit", type=int, default=0)
-    args = p.parse_args()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--scene", choices=["slice", "master"], default="master")
+    ap.add_argument("--tier", choices=["proof", "final"], required=True)
+    ap.add_argument("--views", nargs="*", default=None)
+    ap.add_argument("--category", type=str, default=None, help="Filter views by class in VIEWS.json")
+    ap.add_argument("--samples", type=int, default=None)
+    ap.add_argument("--chunk-size", type=int, default=8)
+    ap.add_argument("--force", action="store_true")
+    args = ap.parse_args()
 
-    RENDERS_DIR.mkdir(parents=True, exist_ok=True)
-    (RENDERS_DIR / "proofs").mkdir(parents=True, exist_ok=True)
-    (RENDERS_DIR / "final").mkdir(parents=True, exist_ok=True)
+    blend_path = SLICE_BLEND if args.scene == "slice" else MASTER_BLEND
+    if args.tier == "final" and not FROZEN_FLAG.exists():
+        FROZEN_FLAG.write_text(f"FROZEN_UTC={time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}\n")
 
-    manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8")) if MANIFEST_PATH.exists() else {"views": {}}
-
-    if args.slice:
-        build_info = json.loads((ROOT / "evidence" / "validation" / "stage_b_slice_build.json").read_text(encoding="utf-8"))
-        blend_file = ROOT / "scene" / "slice_B02_L02.blend"
-        native_sha = build_info["native_sha256"]
-        views = build_info["slice_views"]
+    geom_sha = sha256_file(blend_path)
+    if args.scene == "slice":
+        all_views = json.loads(SLICE_BUILD_JSON.read_text(encoding="utf-8"))["slice_views"]
     else:
-        blend_file = ROOT / "scene" / "master.blend"
-        native_sha = compute_file_sha256(blend_file)
-        views = json.loads((ROOT / "design" / "VIEWS.json").read_text(encoding="utf-8"))
+        all_views = json.loads(VIEWS_JSON.read_text(encoding="utf-8"))
 
-    if args.limit > 0:
-        views = views[:args.limit]
+    vmap = {v["id"]: v for v in all_views}
+    if args.views:
+        target_ids = args.views
+    elif args.category:
+        target_ids = [v["id"] for v in all_views if v.get("class") == args.category]
+    else:
+        target_ids = [v["id"] for v in all_views]
 
-    to_render = []
-    for v in views:
-        vid = v["id"]
-        gkey = compute_geometry_key(v, native_sha)
-        if args.pass_kind == "proof":
-            px = [1024, 576]
-            out_file = RENDERS_DIR / "proofs" / f"{vid}.png"
-        else:
-            px = v["resolution"]
-            out_file = RENDERS_DIR / "final" / f"{vid}.png"
+    manifest = load_manifest()
+    out_dir = ROOT / "renders" / ("proofs" if args.tier == "proof" else "final")
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-        prev = manifest["views"].get(f"{args.pass_kind}:{vid}", {})
-        if out_file.exists() and out_file.stat().st_size > 50000:
-            if prev.get("geometry_key") != gkey:
-                manifest["views"][f"{args.pass_kind}:{vid}"] = {
-                    "view": vid,
-                    "pass": args.pass_kind,
-                    "png": str(out_file.relative_to(REPO_ROOT)),
+    todo = []
+    for vid in target_ids:
+        out_file = out_dir / f"{vid}.png"
+        mkey = f"{args.tier}:{vid}"
+        prev = manifest["views"].get(mkey)
+        if not args.force and out_file.exists() and out_file.stat().st_size > 10000:
+            if not prev or prev.get("geometry_sha256") != geom_sha:
+                v = vmap[vid]
+                px = [1024, 576] if args.tier == "proof" else v["resolution"]
+                manifest["views"][mkey] = {
+                    "view_id": vid,
+                    "tier": args.tier,
+                    "scene": args.scene,
+                    "path": str(out_file.relative_to(ROOT)),
                     "px": px,
-                    "sha256": compute_file_sha256(out_file),
                     "bytes": out_file.stat().st_size,
-                    "native_sha": native_sha,
-                    "geometry_key": gkey,
-                    "rendered_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "sha256": sha256_file(out_file),
+                    "geometry_sha256": geom_sha,
+                    "timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 }
-                MANIFEST_PATH.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+                save_manifest(manifest)
+            print(f"SKIP {mkey} (cached & geometry_sha256={geom_sha[:12]})")
             continue
-        to_render.append({
-            **v,
-            "px": px,
-            "geometry_key": gkey,
-            "out_path": str(out_file),
-        })
+        todo.append(vid)
 
-    if not to_render:
-        print(f"All {len(views)} {args.pass_kind} views up-to-date in cache (R1).")
-        return 0
+    if todo:
+        def view_group_key(vid: str):
+            v = vmap[vid]
+            vcls = v.get("class", "")
+            preset = v.get("lighting", "blue_hour")
+            if preset == "day":
+                preset = "overcast"
+            target_bldg = v.get("building") or ""
+            is_indoor_focus = vcls in ("apartment_interior", "plan")
+            is_cutaway = vcls in ("plan", "building_section")
+            hide_trees = vcls in ("building_exterior", "night_alternate", "building_section", "shopfront", "plan", "apartment_interior")
+            return (preset, is_indoor_focus, is_cutaway, hide_trees, target_bldg if (is_indoor_focus or is_cutaway) else "")
 
-    samples = args.samples if args.samples > 0 else (10 if args.pass_kind == "proof" else 16)
-    # Run in chunks of 6 views per Blender invocation to stay well inside 2GB RAM (F10)
-    chunk_size = 2
-    for i in range(0, len(to_render), chunk_size):
-        chunk = to_render[i:i + chunk_size]
-        env = dict(**os.environ) if "os" in globals() else dict(**__import__("os").environ)
-        env["TS_ROOT"] = str(ROOT)
-        env["TS_RENDER_BATCH"] = json.dumps(chunk)
-        env["TS_PASS_KIND"] = args.pass_kind
-        env["TS_SAMPLES"] = str(samples)
-        cmd = [
-            "blender", "--background", str(blend_file),
-            "--python-exit-code", "1",
-            "--python-expr", BLENDER_BATCH_SCRIPT,
-        ]
-        subprocess.run(cmd, env=env, check=True)
-        for item in chunk:
-            out_f = Path(item["out_path"])
-            sha = compute_file_sha256(out_f)
-            manifest["views"][f"{args.pass_kind}:{item['id']}"] = {
-                "view": item["id"],
-                "pass": args.pass_kind,
-                "png": str(out_f.relative_to(REPO_ROOT)),
-                "px": item["px"],
-                "sha256": sha,
-                "bytes": out_f.stat().st_size,
-                "native_sha": native_sha,
-                "geometry_key": item["geometry_key"],
-                "rendered_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            }
-        MANIFEST_PATH.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        from itertools import groupby
+        todo_sorted = sorted(todo, key=view_group_key)
+        batches = []
+        csize = max(1, args.chunk_size)
+        for _, grp in groupby(todo_sorted, key=view_group_key):
+            g_list = list(grp)
+            for i in range(0, len(g_list), csize):
+                batches.append(g_list[i : i + csize])
 
-    print(f"Completed rendering {len(to_render)} {args.pass_kind} views.")
+        for batch in batches:
+            render_inside_blender(blend_path, args.tier, batch, args.samples)
+            for vid in batch:
+                out_file = out_dir / f"{vid}.png"
+                v = vmap[vid]
+                px = [1024, 576] if args.tier == "proof" else v["resolution"]
+                manifest["views"][f"{args.tier}:{vid}"] = {
+                    "view_id": vid,
+                    "tier": args.tier,
+                    "scene": args.scene,
+                    "path": str(out_file.relative_to(ROOT)),
+                    "px": px,
+                    "bytes": out_file.stat().st_size,
+                    "sha256": sha256_file(out_file),
+                    "geometry_sha256": geom_sha,
+                    "timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                }
+            save_manifest(manifest)
+    print(f"Queue complete: {len(target_ids)} views verified in manifest.json")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

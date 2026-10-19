@@ -9,3 +9,35 @@ def build_roof_and_drainage(name, cx, cy, z_eaves, width, depth, pitch_deg, mat_
     objs.append(spawn_bevel_box(f"{name}_GUTTER_FRONT", (width + 0.30, 0.14, 0.10), (cx, cy - depth/2 - 0.18, z_eaves + 0.05), mat_copper, coll, role="gutter", family="roof", **tags))
     objs.append(spawn_lathe(f"{name}_DOWNPIPE", [(0.055, 0.0), (0.055, z_eaves)], (cx + width/2 - 0.22, cy - depth/2 - 0.08, 0.0), mat_copper, coll, segments=18, role="downpipe", family="roof", **tags))
     return objs
+
+
+def build_pitched_roof(
+    name: str,
+    loc: tuple[float, float, float],
+    width: float,
+    depth: float,
+    pitch_deg: float,
+    mat_tile,
+    mat_snow,
+    mat_copper,
+    mat_brick,
+    coll,
+    **tags,
+):
+    cx, cy, z_eaves = loc
+    objs = build_roof_and_drainage(
+        name, cx, cy, z_eaves, width, depth, pitch_deg, mat_tile, mat_copper, mat_snow, coll, **tags
+    )
+    objs.append(
+        spawn_bevel_box(
+            f"{name}_CHIMNEY",
+            (0.75, 0.75, 2.35),
+            (cx - width * 0.25, cy + depth * 0.15, z_eaves + 1.45),
+            mat_brick,
+            coll,
+            bevel=0.004,
+            role="chimney",
+            **tags,
+        )
+    )
+    return objs

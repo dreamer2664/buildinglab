@@ -241,7 +241,7 @@ def configure_world_and_color_management(scene: bpy.types.Scene, preset: str = "
         sky.ground_albedo = 0.45
         sky.sun_elevation = math.radians(19.0)
         sky.sun_rotation = math.radians(40.0)
-        bg.inputs["Strength"].default_value = 0.65
+        bg.inputs["Strength"].default_value = 1.65
         nt.links.new(sky.outputs["Color"], bg.inputs["Color"])
     elif preset == "night":
         if RAW_HDRI.exists():
@@ -280,12 +280,12 @@ def configure_world_lighting(preset: str = "blue_hour") -> None:
 def set_scene_lighting_mood(scene: bpy.types.Scene, preset: str) -> None:
     """Adjust sun & sky-bounce lights per preset so overcast, blue_hour, and night are unmistakably distinct."""
     configure_world_and_color_management(scene, preset=preset)
-    sun = bpy.data.objects.get("Sun_Key")
+    sun = bpy.data.objects.get("Sun_Key") or bpy.data.objects.get("SQUARE_WINTER_SUN")
     sky_fill = bpy.data.objects.get("SkyBounce_FacadeFill")
     if preset == "overcast":
         scene.view_settings.exposure = -0.05
         if sun and sun.data:
-            sun.data.energy = 2.40
+            sun.data.energy = 4.60
             sun.data.color = kelvin_to_rgb(5800.0)
         if sky_fill and sky_fill.data:
             sky_fill.data.energy = 950.0

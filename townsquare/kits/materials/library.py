@@ -162,6 +162,44 @@ def build_material_library() -> dict[str, bpy.types.Material]:
         if isinstance(ph_asset, str):
             attach_polyhaven_maps(mat, ph_asset)
         lib[name] = mat
+    aliases = {
+        "Plaster_Terracotta": "Terracotta_Pot",
+        "Painted_Pine_Burgundy": "Painted_Metal_Burgundy",
+        "Painted_Pine_Forest": "Painted_Metal_Green",
+        "Walnut_Joinery_Dark": "Walnut_Dark_Joinery",
+        "Glass_Architectural_8mm": "Architectural_Glass",
+        "Window_Warm_Interior_Glow": "Emitter_Warm_2700K",
+        "Clay_Roof_Tile_Red": "Roof_Clay_Tile",
+        "Slate_Roof_Dark": "Roof_Slate_Dark",
+        "Brass_Brushed": "Aged_Brass",
+        "Copper_Patina": "Roof_Copper_Patina",
+        "Brick_Chimney": "Roof_Clay_Tile",
+        "Concrete_Slab_Structural": "Granite_Kerb_Weathered",
+        "Pine_Needles_Evergreen": "Needles_Fir_Green",
+        "Ceramic_Warm_Glaze": "Rug_Persian_Crimson",
+        "Bulb_Warm_2700K": "Emitter_Warm_2700K",
+        "Bulb_Warm_2200K": "Emitter_Festive_2400K",
+        "Bread_Crust_Golden": "Bakery_Bread_Crust",
+        "Cobble_Granite_Wet": "Cobble_Granite_Dark",
+        "Granite_Kerb_Block": "Granite_Kerb_Weathered",
+        "Water_Wet_Slush": "Puddle_Water_Film",
+        "Fabric_Linen_Slate": "Winter_Coat_Wool",
+        "Fabric_Curtain_Sheer": "Curtain_Drape_Warm",
+        "Stucco_Pastel_Ochre": "Plaster_Warm_Ochre",
+        "Stucco_Warm_Cream": "Plaster_Baroque_Cream",
+        "Stucco_Sage_Grey": "Plaster_Sage_Green",
+        "Stucco_Terracotta_Rose": "Plaster_Rose_Stone",
+        "Stucco_Dusty_Blue": "Plaster_Guild_Grey",
+        "Stucco_Sandstone_Buff": "Limestone_Quoin_Ashlar",
+        "Roof_Clay_Tile_Red": "Roof_Clay_Tile",
+        "Roof_Slate_Anthr": "Roof_Slate_Dark",
+        "Aged_Copper_Patina": "Roof_Copper_Patina",
+        "Brick_Chimney_Red": "Roof_Clay_Tile",
+        "Light_Filament_Warm": "Emitter_Festive_2400K",
+    }
+    for k, target in aliases.items():
+        if k not in lib and target in lib:
+            lib[k] = lib[target]
     return lib
 
 

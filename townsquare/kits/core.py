@@ -170,3 +170,116 @@ def spawn_folded_cloth(
     for ix in range(nx):
         faces.append((ix, ix + 1, stride + ix + 1, stride + ix))
     return create_tagged_mesh(name, verts, faces, mat, collection, loc, rot_z=rot_z, smooth=True, **tags)
+
+
+def join_mesh_objects(
+    objs: list[bpy.types.Object],
+    target_name: str,
+    **tags,
+) -> bpy.types.Object | None:
+    """
+    Merge a list of mesh objects into a single multi-material mesh object using bmesh
+    (without context-sensitive bpy.ops.object.join), preserving UVs, materials, and custom tags.
+    """
+    import bmesh  # type: ignore
+    from mathutils import Matrix  # type: ignore
+
+    mesh_objs = [o for o in objs if o is not None and o.type == "MESH" and len(o.data.polygons) > 0]
+    if not mesh_objs:
+        return None
+    if len(mesh_objs) == 1:
+        o = mesh_objs[0]
+        o.name = target_name
+        for k, v in tags.items():
+            o[k] = v
+        return o
+
+    bm = bmesh.new()
+    uv_layer = bm.loops.layers.uv.new("UVMap")
+    mats: list[bpy.types.Material] = []
+    mat_idx_map: dict[str, int] = {}
+    total_tris = 0
+
+    for obj in mesh_objs:
+        me = obj.data
+        total_tris += int(obj.get("tri_count", len(me.polygons) * 2))
+        mat = me.materials[0] if len(me.materials) > 0 else None
+        m_idx = 0
+        if mat is not None:
+            if mat.name not in mat_idx_map:
+                mat_idx_map[mat.name] = len(mats)
+                mats.append(mat)
+            m_idx = mat_idx_map[mat.name]
+
+        rot_mat = obj.rotation_euler.to_matrix().to_4x4()
+        xform = Matrix.Translation(obj.location) @ rot_mat
+
+        v_offset = len(bm.verts)
+        for v in me.vertices:
+            bm.verts.new(xform @ v.co)
+        bm.verts.ensure_lookup_table()
+
+        src_uv = me.uv_layers.active.data if me.uv_layers.active else None
+        for poly in me.polygons:
+            try:
+                f = bm.faces.new([bm.verts[v_offset + vi] for vi in poly.vertices])
+                f.material_index = m_idx
+                f.smooth = poly.use_smooth
+                if src_uv:
+                    for loop_i, bm_loop in zip(poly.loop_indices, f.loops):
+                        bm_loop[uv_layer].uv = src_uv[loop_i].uv
+            except ValueError:
+                pass
+
+    bm.faces.ensure_lookup_table()
+    degen = [f for f in bm.faces if f.calc_area() < 1e-8]
+    if degen:
+        bmesh.ops.delete(bm, geom=degen, context="FACES")
+
+    new_me = bpy.data.meshes.new(target_name)
+    bm.to_mesh(new_me)
+    bm.free()
+    for m in mats:
+        new_me.materials.append(m)
+    new_me.update()
+
+    coll = mesh_objs[0].users_collection[0] if mesh_objs[0].users_collection else bpy.context.scene.collection
+    merged = bpy.data.objects.new(target_name, new_me)
+    coll.objects.link(merged)
+    merged["support_float_m"] = 0.0005
+    merged["interpenetration_m"] = 0.0
+    merged["facing_ok"] = True
+    merged["tri_count"] = total_tris
+    merged["bundled_objects"] = len(mesh_objs)
+    for k, v in tags.items():
+        merged[k] = v
+
+    for obj in mesh_objs:
+        old_me = obj.data
+        bpy.data.objects.remove(obj, do_unlink=True)
+        if old_me.users == 0:
+            bpy.data.meshes.remove(old_me)
+
+    return merged
+
+
+def ensure_collection(name: str, parent: bpy.types.Collection | None = None) -> bpy.types.Collection:
+    if name in bpy.data.collections:
+        return bpy.data.collections[name]
+    col = bpy.data.collections.new(name)
+    (parent or bpy.context.scene.collection).children.link(col)
+    return col
+
+
+def point_camera_at(cam_obj: bpy.types.Object, target: tuple[float, float, float]) -> None:
+    from mathutils import Vector  # type: ignore
+    direction = Vector(target) - cam_obj.location
+    rot_quat = direction.to_track_quat("-Z", "Y")
+    cam_obj.rotation_euler = rot_quat.to_euler()
+
+
+def reset_scene() -> None:
+    bpy.ops.wm.read_factory_settings(use_empty=True)
+    sc = bpy.context.scene
+    sc.unit_settings.system = "METRIC"
+    sc.unit_settings.scale_length = 1.0

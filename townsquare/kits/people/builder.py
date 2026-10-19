@@ -31,7 +31,7 @@ def load_licensed_scan_person(
     """Import a licensed HSRD-100 LOD2 OBJ scan + photographic diffuse map, normalize sole to Z=0.0005m."""
     sdir = RAW_SCAN_DIR / pose_id
     obj_path = sdir / f"{pose_id}_LOD2.obj"
-    tex_path = sdir / f"{pose_id}_LOD2_u0_v0_diffuse.png"
+    tex_path = (sdir / f"{pose_id}_LOD2_u0_v0_diffuse_2k.jpg") if (sdir / f"{pose_id}_LOD2_u0_v0_diffuse_2k.jpg").exists() else (sdir / f"{pose_id}_LOD2_u0_v0_diffuse.png")
 
     before = set(bpy.context.scene.objects)
     bpy.ops.wm.obj_import(
@@ -61,7 +61,7 @@ def load_licensed_scan_person(
     cy = (min(ys) + max(ys)) / 2.0
     zmin = min(zs)
     h_raw = max(zs) - zmin
-    scale_f = 1.75 / h_raw if (h_raw < 1.65 or h_raw > 1.85) else 1.0
+    scale_f = 1.745 / max(0.1, h_raw)
     for v in me.vertices:
         v.co.x = (v.co.x - cx) * scale_f
         v.co.y = (v.co.y - cy) * scale_f

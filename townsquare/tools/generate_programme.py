@@ -581,9 +581,9 @@ def main() -> None:
                 "id": f"{b_id}_{f_code}",
                 "building": b_id,
                 "floor": f_code,
-                "level_index": f_num,
+                "level_index": f_num, "level": f_num,
                 "use": "commercial" if f_num == 1 else "residential",
-                "ffl_m": ffl,
+                "ffl_m": ffl, "elevation_m": ffl,
                 "storey_height_m": storey_h,
                 "ceiling_m": ceil_h,
                 "slab_thickness_m": 0.22,
@@ -679,7 +679,7 @@ def main() -> None:
     for vid, state, loc, target in [
         ("hero_01_square_blue_hour", "blue_hour", [-24.0, -20.0, 1.62], [6.0, 14.0, 4.5]),
         ("hero_02_square_day", "day", [24.0, -20.0, 1.62], [-6.0, 14.0, 4.5]),
-        ("hero_03_square_night", "night", [0.0, -23.0, 1.62], [0.0, 18.0, 5.0]),
+        ("hero_03_square_night", "night", [1.85, -21.2, 1.62], [0.0, 18.0, 5.0]),
         ("hero_04_square_oblique", "blue_hour", [-29.0, -24.0, 22.0], [4.0, 6.0, 2.0]),
     ]:
         views.append({"id": vid, "class": "square_hero", "resolution": [3840, 2160], "lighting": state, "location": loc, "target": target})
@@ -691,13 +691,41 @@ def main() -> None:
     for b in buildings_out:
         bid = b["id"]
         cx, cy = b["center"]
-        views.append({"id": f"ext_{bid}_blue_hour", "class": "building_exterior", "building": bid, "resolution": [3840, 2160], "lighting": "blue_hour", "location": [cx * 0.4, cy * 0.4, 1.62], "target": [cx, cy, b["total_height_m"] * 0.45]})
-        views.append({"id": f"sec_{bid}_cutaway", "class": "building_section", "building": bid, "resolution": [2560, 1440], "lighting": "day", "location": [cx * 0.55, cy * 0.55, b["total_height_m"] * 0.5], "target": [cx, cy, b["total_height_m"] * 0.5]})
-        views.append({"id": f"shop_{bid}_front", "class": "shopfront", "building": bid, "resolution": [2560, 1440], "lighting": "blue_hour", "location": [cx * 0.72, cy * 0.72, 1.62], "target": [cx, cy, 2.1]})
-        views.append({"id": f"night_{bid}_exterior", "class": "night_alternate", "building": bid, "resolution": [3840, 2160], "lighting": "night", "location": [cx * 0.42, cy * 0.42, 1.62], "target": [cx, cy, b["total_height_m"] * 0.45]})
+        f_dir = b["facing"][0].upper()
+        # Outward unit normal from building's square-facing facade toward the square
+        if f_dir == "S":
+            nx, ny = 0.0, -1.0
+        elif f_dir == "N":
+            nx, ny = 0.0, 1.0
+        elif f_dir == "E":
+            nx, ny = 1.0, 0.0
+        else:
+            nx, ny = -1.0, 0.0
+        front_x = cx + nx * (b["depth"] / 2.0)
+        front_y = cy + ny * (b["depth"] / 2.0)
+        th = b["total_height_m"]
+        views.append({"id": f"ext_{bid}_blue_hour", "class": "building_exterior", "building": bid, "resolution": [3840, 2160], "lighting": "blue_hour", "lens_mm": 24.0, "location": [round(front_x + nx * 16.5 + ny * 1.5, 2), round(front_y + ny * 16.5 - nx * 1.5, 2), 1.70], "target": [round(front_x, 2), round(front_y, 2), round(th * 0.42, 2)]})
+        views.append({"id": f"sec_{bid}_cutaway", "class": "building_section", "building": bid, "resolution": [2560, 1440], "lighting": "day", "lens_mm": 28.0, "location": [round(front_x + nx * 14.5, 2), round(front_y + ny * 14.5, 2), round(th * 0.48, 2)], "target": [round(cx, 2), round(cy, 2), round(th * 0.45, 2)]})
+        views.append({"id": f"shop_{bid}_front", "class": "shopfront", "building": bid, "resolution": [2560, 1440], "lighting": "blue_hour", "lens_mm": 28.0, "location": [round(front_x + nx * 7.2 + ny * 0.8, 2), round(front_y + ny * 7.2 - nx * 0.8, 2), 1.62], "target": [round(front_x, 2), round(front_y, 2), 1.95]})
+        views.append({"id": f"night_{bid}_exterior", "class": "night_alternate", "building": bid, "resolution": [3840, 2160], "lighting": "night", "lens_mm": 24.0, "location": [round(front_x + nx * 17.2 - ny * 1.8, 2), round(front_y + ny * 17.2 + nx * 1.8, 2), 1.70], "target": [round(front_x, 2), round(front_y, 2), round(th * 0.42, 2)]})
 
-    # 5. Apartment interiors (110 @ 1920x1080)
+    # Build lookup of living rooms per apartment for exact interior camera placement
+    living_room_lookup = {}
+    for b in buildings_out:
+        bcx, bcy = b["center"]
+        for fl in b["floors"]:
+            ffl = fl.get("ffl_m", fl.get("elevation_m", 0.0))
+            for rm in fl["rooms"]:
+                if rm.get("apartment") and rm["room_type"] == "living":
+                    xmin, ymin, xmax, ymax = rm["bounds_local"]
+                    rw, rd = xmax - xmin, ymax - ymin
+                    rcx = bcx + (xmin + xmax) / 2.0
+                    rcy = bcy + (ymin + ymax) / 2.0
+                    living_room_lookup[rm["apartment"]] = (rcx, rcy, rw, rd, ffl)
+
+    # 5. Apartment interiors (110 @ 1920x1080) — placed inside each apartment's living room
     for apt in apartments_rows:
+        rcx, rcy, rw, rd, ffl = living_room_lookup[apt["id"]]
         views.append({
             "id": f"int_{apt['id']}",
             "class": "apartment_interior",
@@ -706,8 +734,9 @@ def main() -> None:
             "apartment": apt["id"],
             "resolution": [1920, 1080],
             "lighting": "blue_hour",
-            "location": [0.0, 0.0, 1.62],
-            "target": [1.5, 1.5, 1.40],
+            "lens_mm": 26.0,
+            "location": [round(rcx + 0.34 * rw, 3), round(rcy - 0.26 * rd, 3), round(ffl + 1.42, 3)],
+            "target": [round(rcx - 0.16 * rw, 3), round(rcy + 0.22 * rd, 3), round(ffl + 1.05, 3)],
         })
 
     # 6. Plans (67 @ 1920x1080)
@@ -725,9 +754,25 @@ def main() -> None:
                 "target": [b["center"][0], b["center"][1], fl["ffl_m"]],
             })
 
-    # 7. Human close-ups (24 @ 2560x1440 = 12 heroes x 2 angles)
-    for h_idx in range(1, 13):
+    # 7. Human close-ups (24 @ 2560x1440 = 12 HSRD-100 photogrammetry heroes x 2 angles)
+    hero_coords = [
+        (-2.10, 23.60, 0.12),   # H01: B02 bakery sidewalk
+        (1.30, 24.40, 0.12),    # H02: B02 bakery warm window
+        (-19.50, 23.60, 0.12),  # H03: B01 apothecary sidewalk
+        (18.50, 23.60, 0.12),   # H04: B03 bookshop sidewalk
+        (-9.50, 8.80, 0.00),    # H05: Stall 01 Glühwein
+        (9.50, 8.80, 0.00),     # H06: Stall 02 Maroni
+        (-9.50, -8.80, 0.00),   # H07: Stall 05 Holzkunst
+        (9.50, -8.80, 0.00),    # H08: Stall 06 Kerzen
+        (-3.80, -4.20, 0.00),   # H09: Christmas tree southwest
+        (3.80, -4.20, 0.00),    # H10: Christmas tree southeast
+        (-18.50, -23.60, 0.12), # H11: B04 Konditorei sidewalk
+        (18.50, -23.60, 0.12),  # H12: B06 Spielzeug sidewalk
+    ]
+    for h_idx, (hx, hy, hz) in enumerate(hero_coords, 1):
         for ang in ("A", "B"):
+            dx = 0.0 if ang == "A" else 0.58
+            dy = -1.35 if ang == "A" else -1.24
             views.append({
                 "id": f"human_{h_idx:02d}_{ang}",
                 "class": "human_closeup",
@@ -735,8 +780,9 @@ def main() -> None:
                 "angle": ang,
                 "resolution": [2560, 1440],
                 "lighting": "day" if ang == "A" else "blue_hour",
-                "location": [0.0, -1.35, 1.58],
-                "target": [0.0, 0.0, 1.56],
+                "lens_mm": 52.0,
+                "location": [round(hx + dx, 3), round(hy + dy, 3), round(hz + 1.32, 3)],
+                "target": [round(hx, 3), round(hy, 3), round(hz + 1.24, 3)],
             })
 
     # 8. Terrain / public detail (12 @ 2560x1440)
@@ -746,14 +792,19 @@ def main() -> None:
         "gully_grating_drain", "bicycle_rack_snow", "playground_gate", "bakery_threshold_slush",
     ]
     for idx, subj in enumerate(terrain_subjects, 1):
+        ang = 2.0 * math.pi * (idx - 1) / 12.0 + 0.39
+        cx = round(8.4 * math.cos(ang), 2)
+        cy = round(6.8 * math.sin(ang), 2)
+        tx = round(5.6 * math.cos(ang), 2)
+        ty = round(4.6 * math.sin(ang), 2)
         views.append({
             "id": f"terrain_{idx:02d}_{subj}",
             "class": "terrain_detail",
             "subject": subj,
             "resolution": [2560, 1440],
-            "lighting": "blue_hour",
-            "location": [idx * 1.5, -4.0, 1.20],
-            "target": [idx * 1.5, 0.0, 0.15],
+            "lighting": "day" if idx % 2 == 1 else "blue_hour",
+            "location": [cx, cy, 1.15],
+            "target": [tx, ty, 0.08],
         })
 
     # 9. Technical (6 @ 2560x1440)
@@ -761,15 +812,24 @@ def main() -> None:
         "structure_wireframe", "facade_material_scales", "lighting_plan",
         "master_section", "terrain_wireframe", "kit_index",
     ]
+    tech_locs = [
+        ([0.0, -21.5, 14.5], [0.0, 10.0, 5.0]),
+        ([-22.0, -17.5, 12.5], [10.0, 14.0, 5.5]),
+        ([22.0, 17.5, 16.0], [0.0, 0.0, 2.5]),
+        ([2.2, -20.5, 9.5], [0.0, 26.0, 8.5]),
+        ([-14.5, 11.5, 6.5], [0.0, 0.0, 1.0]),
+        ([21.5, -16.5, 13.5], [-8.0, 10.0, 4.5]),
+    ]
     for idx, subj in enumerate(tech_subjects, 1):
+        loc, tgt = tech_locs[idx - 1]
         views.append({
             "id": f"tech_{idx:02d}_{subj}",
             "class": "technical",
             "subject": subj,
             "resolution": [2560, 1440],
             "lighting": "day",
-            "location": [0.0, -30.0, 18.0],
-            "target": [0.0, 0.0, 4.0],
+            "location": loc,
+            "target": tgt,
         })
 
     assert len(views) == 271, f"Expected 271 views, got {len(views)}"
