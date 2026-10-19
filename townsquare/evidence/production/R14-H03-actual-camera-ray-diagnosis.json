@@ -1,0 +1,145 @@
+{
+  "actual_opened_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "camera_position": [
+    -30.0,
+    17.0,
+    2.0999999046325684
+  ],
+  "actual_camera_matrix": [
+    [
+      0.7399400472640991,
+      -0.027127310633659363,
+      -0.6721256375312805,
+      -30.0
+    ],
+    [
+      -0.6726728677749634,
+      -0.029840007424354553,
+      -0.7393380999565125,
+      17.0
+    ],
+    [
+      1.889594614112866e-08,
+      0.9991865158081055,
+      -0.04032761976122856,
+      2.0999999046325684
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "preset": {
+    "id": "H03",
+    "title": "MARKTGRUEN supermarket / original shop identity",
+    "kind": "town",
+    "position": [
+      -30,
+      17,
+      2.1
+    ],
+    "target": [
+      -20,
+      28,
+      2.7
+    ],
+    "lens_mm": 27,
+    "resolution": [
+      3840,
+      2160
+    ],
+    "samples": 32,
+    "exposure": 1.2
+  },
+  "actual_primary_ray_hits": [
+    {
+      "ray": "centre",
+      "hit": true,
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__street_furniture",
+      "distance_m": 0.05266660989920025,
+      "position": [
+        -29.964601516723633,
+        17.038938522338867,
+        2.102123737335205
+      ],
+      "face": 4478,
+      "building": "PUBLIC",
+      "floor": "PUBLIC",
+      "room": "EXISTING_BENCHES_LAMPS",
+      "layer": "street_furniture",
+      "material": "Blackened iron"
+    },
+    {
+      "ray": "0",
+      "hit": true,
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__street_furniture",
+      "distance_m": 0.0555681895211245,
+      "position": [
+        -29.949010848999023,
+        17.012344360351562,
+        2.1183178424835205
+      ],
+      "face": 4477,
+      "building": "PUBLIC",
+      "floor": "PUBLIC",
+      "room": "EXISTING_BENCHES_LAMPS",
+      "layer": "street_furniture",
+      "material": "Blackened iron"
+    },
+    {
+      "ray": "1",
+      "hit": true,
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__street_furniture",
+      "distance_m": 0.05436365773722714,
+      "position": [
+        -29.949237823486328,
+        17.013044357299805,
+        2.085561990737915
+      ],
+      "face": 4477,
+      "building": "PUBLIC",
+      "floor": "PUBLIC",
+      "room": "EXISTING_BENCHES_LAMPS",
+      "layer": "street_furniture",
+      "material": "Blackened iron"
+    },
+    {
+      "ray": "2",
+      "hit": true,
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__street_furniture",
+      "distance_m": 0.05492749066041563,
+      "position": [
+        -29.99175453186035,
+        17.052309036254883,
+        2.08541202545166
+      ],
+      "face": 4479,
+      "building": "PUBLIC",
+      "floor": "PUBLIC",
+      "room": "EXISTING_BENCHES_LAMPS",
+      "layer": "street_furniture",
+      "material": "Blackened iron"
+    },
+    {
+      "ray": "3",
+      "hit": true,
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__street_furniture",
+      "distance_m": 0.055972230555928766,
+      "position": [
+        -29.992502212524414,
+        17.052309036254883,
+        2.118450880050659
+      ],
+      "face": 4479,
+      "building": "PUBLIC",
+      "floor": "PUBLIC",
+      "room": "EXISTING_BENCHES_LAMPS",
+      "layer": "street_furniture",
+      "material": "Blackened iron"
+    }
+  ],
+  "actual_volume_materials": [],
+  "stage": "Actual source camera occlusion/volume diagnosis, not a visual acceptance or source mutation"
+}

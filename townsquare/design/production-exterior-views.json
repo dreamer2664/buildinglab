@@ -1,0 +1,475 @@
+{
+  "buildings": [
+    {
+      "building": "B01",
+      "brand": "MARKTGRUEN",
+      "business": "Neighbourhood supermarket",
+      "bounds_min": [
+        -29.45,
+        25.963,
+        -0.24
+      ],
+      "bounds_max": [
+        -10.55,
+        41.515,
+        14.29
+      ],
+      "height_m": 14.53,
+      "camera": [
+        -4.702,
+        7.932,
+        4.359
+      ],
+      "camera_height_m": 4.36,
+      "camera_distance_m": 30,
+      "orbit_offset_deg": 0,
+      "lens_mm": 21.54,
+      "projected_extent": [
+        0.238,
+        0.731,
+        0.133,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B02",
+      "brand": "KRUME & KORN",
+      "business": "Bakery",
+      "bounds_min": [
+        -9.45,
+        25.607,
+        -0.24
+      ],
+      "bounds_max": [
+        9.45,
+        41.515,
+        11.44
+      ],
+      "height_m": 11.68,
+      "camera": [
+        -6.237,
+        4.217,
+        3.504
+      ],
+      "camera_height_m": 3.5,
+      "camera_distance_m": 30,
+      "orbit_offset_deg": -12,
+      "lens_mm": 29.4,
+      "projected_extent": [
+        0.189,
+        0.873,
+        0.125,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B03",
+      "brand": "KESSEL & KAKAO",
+      "business": "Cafe",
+      "bounds_min": [
+        10.55,
+        25.607,
+        -0.24
+      ],
+      "bounds_max": [
+        29.45,
+        41.515,
+        11.79
+      ],
+      "height_m": 12.03,
+      "camera": [
+        21.063,
+        14.591,
+        3.609
+      ],
+      "camera_height_m": 3.61,
+      "camera_distance_m": 19,
+      "orbit_offset_deg": 34,
+      "lens_mm": 15.13,
+      "projected_extent": [
+        0.125,
+        0.877,
+        0.126,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B04",
+      "brand": "FABELHAUS",
+      "business": "Bookshop",
+      "bounds_min": [
+        32.265,
+        9.55,
+        -0.24
+      ],
+      "bounds_max": [
+        47.515,
+        26.45,
+        11.09
+      ],
+      "height_m": 11.33,
+      "camera": [
+        -1.127,
+        -0.509,
+        3.399
+      ],
+      "camera_height_m": 3.4,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": 0,
+      "lens_mm": 52.45,
+      "projected_extent": [
+        0.118,
+        0.827,
+        0.109,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B05",
+      "brand": "TANNENGRUEN",
+      "business": "Florist",
+      "bounds_min": [
+        31.607,
+        -8.45,
+        -0.24
+      ],
+      "bounds_max": [
+        47.515,
+        8.45,
+        11.44
+      ],
+      "height_m": 11.68,
+      "camera": [
+        -5.439,
+        0.0,
+        3.504
+      ],
+      "camera_height_m": 3.5,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": 0,
+      "lens_mm": 55.51,
+      "projected_extent": [
+        0.146,
+        0.854,
+        0.093,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B06",
+      "brand": "FADENWERK",
+      "business": "Clothing and knitwear",
+      "bounds_min": [
+        31.962,
+        -26.45,
+        -0.24
+      ],
+      "bounds_max": [
+        47.515,
+        -9.55,
+        11.79
+      ],
+      "height_m": 12.03,
+      "camera": [
+        -4.217,
+        -8.361,
+        3.609
+      ],
+      "camera_height_m": 3.61,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": 12,
+      "lens_mm": 51.27,
+      "projected_extent": [
+        0.221,
+        0.862,
+        0.102,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B07",
+      "brand": "HAUS ABENDROT",
+      "business": "Boutique hotel",
+      "bounds_min": [
+        10.55,
+        -41.515,
+        -0.24
+      ],
+      "bounds_max": [
+        29.45,
+        -26.265,
+        16.95
+      ],
+      "height_m": 17.19,
+      "camera": [
+        22.711,
+        11.028,
+        5.157
+      ],
+      "camera_height_m": 5.16,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": -34,
+      "lens_mm": 37.81,
+      "projected_extent": [
+        0.241,
+        0.777,
+        0.089,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B08",
+      "brand": "LICHTSPIEL",
+      "business": "Toy shop",
+      "bounds_min": [
+        -9.45,
+        -41.515,
+        -0.24
+      ],
+      "bounds_max": [
+        9.45,
+        -25.607,
+        11.44
+      ],
+      "height_m": 11.68,
+      "camera": [
+        -7.693,
+        2.63,
+        3.504
+      ],
+      "camera_height_m": 3.5,
+      "camera_distance_m": 37,
+      "orbit_offset_deg": 12,
+      "lens_mm": 39.94,
+      "projected_extent": [
+        0.109,
+        0.812,
+        0.114,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B09",
+      "brand": "GOLDFADEN",
+      "business": "Jewellery and craft",
+      "bounds_min": [
+        -29.45,
+        -41.515,
+        -0.24
+      ],
+      "bounds_max": [
+        -10.55,
+        -25.962,
+        11.79
+      ],
+      "height_m": 12.03,
+      "camera": [
+        -7.762,
+        -13.094,
+        3.609
+      ],
+      "camera_height_m": 3.61,
+      "camera_distance_m": 24,
+      "orbit_offset_deg": 0,
+      "lens_mm": 17.28,
+      "projected_extent": [
+        0.272,
+        0.768,
+        0.15,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B10",
+      "brand": "STERNBLICK",
+      "business": "Pharmacy",
+      "bounds_min": [
+        -47.515,
+        -26.45,
+        -0.24
+      ],
+      "bounds_max": [
+        -32.265,
+        -9.55,
+        11.09
+      ],
+      "height_m": 11.33,
+      "camera": [
+        -10.066,
+        3.898,
+        3.399
+      ],
+      "camera_height_m": 3.4,
+      "camera_distance_m": 37,
+      "orbit_offset_deg": 12,
+      "lens_mm": 38.58,
+      "projected_extent": [
+        0.159,
+        0.82,
+        0.125,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B11",
+      "brand": "NORDRAD",
+      "business": "Cycle shop",
+      "bounds_min": [
+        -47.515,
+        -8.45,
+        -0.24
+      ],
+      "bounds_max": [
+        -31.962,
+        8.45,
+        11.44
+      ],
+      "height_m": 11.68,
+      "camera": [
+        1.985,
+        16.857,
+        3.504
+      ],
+      "camera_height_m": 3.5,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": 22,
+      "lens_mm": 50.99,
+      "projected_extent": [
+        0.126,
+        0.812,
+        0.108,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    },
+    {
+      "building": "B12",
+      "brand": "WINTERPOST",
+      "business": "Stationery and parcel shop",
+      "bounds_min": [
+        -47.515,
+        9.55,
+        -0.24
+      ],
+      "bounds_max": [
+        -31.607,
+        26.45,
+        11.79
+      ],
+      "height_m": 12.03,
+      "camera": [
+        1.398,
+        -0.636,
+        3.609
+      ],
+      "camera_height_m": 3.61,
+      "camera_distance_m": 45,
+      "orbit_offset_deg": 0,
+      "lens_mm": 48.88,
+      "projected_extent": [
+        0.192,
+        0.864,
+        0.111,
+        0.955
+      ],
+      "occlusion": "nine ray-cast sight lines from camera to frontage; first hit must be the target building"
+    }
+  ],
+  "village_views": [
+    {
+      "view": "V01",
+      "orbit_deg": 35.0,
+      "camera": [
+        77.82,
+        54.49,
+        39.9
+      ],
+      "height_m": 39.9,
+      "distance_m": 103.04,
+      "lens_mm": 15.82,
+      "projected_extent": [
+        0.175,
+        0.742,
+        0.03,
+        0.665
+      ]
+    },
+    {
+      "view": "V02",
+      "orbit_deg": 125.0,
+      "camera": [
+        -51.62,
+        73.72,
+        37.8
+      ],
+      "height_m": 37.8,
+      "distance_m": 97.62,
+      "lens_mm": 14.71,
+      "projected_extent": [
+        0.2,
+        0.761,
+        0.03,
+        0.657
+      ]
+    },
+    {
+      "view": "V03",
+      "orbit_deg": 215.0,
+      "camera": [
+        -77.82,
+        -54.49,
+        39.9
+      ],
+      "height_m": 39.9,
+      "distance_m": 103.04,
+      "lens_mm": 15.82,
+      "projected_extent": [
+        0.175,
+        0.742,
+        0.03,
+        0.665
+      ]
+    },
+    {
+      "view": "V04",
+      "orbit_deg": 305.0,
+      "camera": [
+        51.62,
+        -73.72,
+        37.8
+      ],
+      "height_m": 37.8,
+      "distance_m": 97.62,
+      "lens_mm": 14.71,
+      "projected_extent": [
+        0.2,
+        0.761,
+        0.03,
+        0.657
+      ]
+    }
+  ],
+  "measured_whole_built_extent": {
+    "min": [
+      -47.515,
+      -41.515,
+      -0.24
+    ],
+    "max": [
+      47.515,
+      41.515,
+      16.95
+    ]
+  },
+  "method": "candidate viewpoints inside the square, nine-ray occlusion test to the target frontage, then numerically solved lens for the measured envelope"
+}

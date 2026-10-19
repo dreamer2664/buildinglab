@@ -4,6 +4,7 @@ Dedicated output/report namespace, never overwrites frozen R11 components or gat
 import os,sys,json,subprocess,fcntl,hashlib
 from pathlib import Path
 R=Path(__file__).resolve().parents[2];b=json.loads((R/'evidence/production'/os.environ.get('SQUARE_EXPORT_BUILD_REPORT','R12-placement-corrected-interiors.json')).read_text());source=R/b['native'];assert hashlib.file_digest(source.open('rb'),'sha256').hexdigest()==b['native_sha256'];base=R/os.environ.get('SQUARE_EXPORT_OUT','.cache/placement-portable-components');reports=R/os.environ.get('SQUARE_EXPORT_REPORTS','evidence/production/placement-portable');reports.mkdir(exist_ok=True);logs=R/os.environ.get('SQUARE_EXPORT_LOGS','.cache/placement-portable-logs');logs.mkdir(exist_ok=True);B='/home/user/.cache/blender-4.3.2-linux-x64/blender';env={k:os.environ[k]for k in ['PATH','HOME','LANG','LD_LIBRARY_PATH']if k in os.environ};env.update(OMP_NUM_THREADS='2',OPENBLAS_NUM_THREADS='1',SQUARE_SOURCE_NATIVE=b['native'],SQUARE_SOURCE_SHA256=b['native_sha256'],SQUARE_COMPONENT_OUT=str(base.relative_to(R)),SQUARE_COMPONENT_REPORTS=str(reports.relative_to(R)),SQUARE_WHOLE_GLB_NAME='Winterlichtplatz-interior-study.glb',SQUARE_REVISION='UNPROMOTED inspected-interior study '+b['native_sha256'][:12])
+env['SQUARE_PORTABLE_SCAN_TARGET_FACES']=os.environ.get('SQUARE_PORTABLE_SCAN_TARGET_FACES','0')
 def run(script,key):
  E=env.copy();E['SQUARE_COMPONENT']=key
  with (R/'.cache/blender-job.lock').open('a')as lock:

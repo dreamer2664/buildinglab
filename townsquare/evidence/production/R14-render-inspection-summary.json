@@ -1,0 +1,58 @@
+{
+  "stage": "ACTUAL_INDIVIDUAL_INSPECTION_OF_OPENED_ORIGINALS",
+  "source_native_sha256": "d101169695309b387d8150ecfcf07bf96741d96dbf0068d1460d1cc2b1181e3f",
+  "renders_made_from_derivative_of": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+  "views_rendered": 16,
+  "views_inspected": 16,
+  "verdicts": {
+    "B05_exterior": "FIX_REQUIRED",
+    "B03_exterior": "PASS_WITH_NOTES",
+    "B01_exterior": "PASS_WITH_NOTES",
+    "B02_exterior": "PASS_WITH_NOTES",
+    "B07_exterior": "PASS_WITH_NOTES",
+    "B06_exterior": "PASS_WITH_NOTES",
+    "B11_exterior": "PASS_WITH_NOTES",
+    "B12_exterior": "PASS_WITH_NOTES",
+    "B04_exterior": "PASS_WITH_NOTES",
+    "V01": "PASS_WITH_NOTES",
+    "V02": "PASS_WITH_NOTES",
+    "B08_exterior": "PASS_WITH_NOTES",
+    "B10_exterior": "PASS_WITH_NOTES",
+    "V03": "PASS_WITH_NOTES",
+    "V04": "PASS_WITH_NOTES",
+    "B09_exterior": "PASS_WITH_NOTES"
+  },
+  "fix_history": [
+    {
+      "view": "B09_exterior",
+      "defect": "market-stall roof filled the lower third of the frame",
+      "fix": "camera re-solved with a 13x9 frame-grid near-occluder coverage limit (measured 1.7 % residual)",
+      "result": "PASS_WITH_NOTES; original failure retained"
+    },
+    {
+      "view": "V01..V04",
+      "defect": "render-only ground extension magnified the cobblestone texture into the far terrain",
+      "fix": "replaced with a plain render-only snow field placed below the paved square",
+      "result": "re-rendered and re-opened; PASS_WITH_NOTES"
+    },
+    {
+      "view": "B01..B12 exterior",
+      "defect": "first fits parked the camera inside a tree canopy",
+      "fix": "discarded; replaced with a candidate grid plus nine-ray frontage occlusion test inside the square",
+      "result": "all twelve real frontages framed"
+    }
+  ],
+  "known_defects_recorded_not_fixed": [
+    "Mirrored lettering is visible on the playground surface in B04/B05; searching the model found no text image or decal object there, so the source of the reversed glyphs is not yet identified. Recorded, not fixed.",
+    "The twelve bare trees share near-identical silhouettes; trunk and branch variation is not modelled.",
+    "Backs and flanks of the buildings are plain walls without windows.",
+    "Interiors behind shop glazing read sparse at street distance for some units."
+  ],
+  "not_claimed": [
+    "photorealism",
+    "architectural or code-compliance certification",
+    "independent acceptance",
+    "the full 92-frame evidence set"
+  ],
+  "utc": "2026-10-19T15:29:52.451378+00:00"
+}

@@ -1,6 +1,45 @@
+## Renders of every building + the whole square, and the full 3D model
+
+**Release:** https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/r14-exteriors-20261019
+
+| What | File | Bytes | SHA-256 |
+|---|---|---|---|
+| Rendered images (16 PNG + gallery + manifests) | `Winterlichtplatz-Renders-r14-d10116969530.zip` | 29690932 | `fa9e96811b6b9ce6f06fed586afdb5ce94fe923990e96a010b4671a8e06674b6` |
+| Full editable Blender model | `Winterlichtplatz-Full-3D-Editable-r14-d10116969530.zip` | 616777731 | `704904a2455db1e446c95ef742e2440f4f44a0a900678196e9103586bed27586` |
+| Portable glTF model + viewer | `Winterlichtplatz-Portable-3D-r14-d10116969530.zip` | 415110630 | `4d5586273a7f5b85c34f848aafa809951161bc0d741d4238da9621684dc17c2a` |
+
+All three were re-downloaded without credentials and CRC / entry-count / listed-member-SHA verified.
+
+- Images: 12 building exteriors (`B01_exterior` … `B12_exterior`) and 4 whole-village elevated views (`V01` … `V04`), 1600×900, actual Cycles renders of the saved editable source, normal/albedo-guided OIDN, no generative retouching. `gallery-selfcontained.html` is one self-opening page with every image embedded.
+- Editable model: `Editable/Winterlichtplatz-full-editable.blend`, SHA-256 `d101169695309b387d8150ecfcf07bf96741d96dbf0068d1460d1cc2b1181e3f` (548390483 bytes), Blender 4.3.2, all photographs packed, 108 camera presets inside the file.
+- Portable model: `Portable/Winterlichtplatz.glb` (263,030,884 bytes) plus `P01..P12.glb` variants, a clean-reimport `.blend`, and a local viewer (`HOW-TO-OPEN.txt` explains the one-line static server).
+
+Framing was solved, not eyeballed: each building exterior camera is picked from a candidate grid inside the square, with nine ray-cast sight lines to the measured frontage and a 13×9 frame-grid near-occluder limit, then the lens is solved against the measured envelope.
+
+**Inspection status (honest):** 16 of these 16 views were opened individually. Recorded fixes: B09 (a market-stall roof filled the frame — camera re-solved, residual near-occluder coverage measured at 1.7 %), V01–V04 (the render-only ground extension magnified the cobble texture — replaced with a plain snow field), and the first twelve fits (camera parked inside a tree canopy — discarded). Recorded and NOT fixed: mirrored lettering on the playground surface (source of the reversed glyphs not identified), twelve near-identical bare trees, plain windowless building backs, some sparse shop interiors. B05 keeps a `FIX_REQUIRED` verdict in the ledger.
+
+This is a working production asset: **not photoreal, not architectural/code certification, and not independently accepted.** People are licensed photographic scans (Digital Reality Lab HSRD-100, CC BY 4.0, 12 poses from 8 source individuals); all brands are original fictional ones.
+
+## Current state — detailed, stocked, camera-corrected working model (not a finished delivery)
+
+Current editable natives (all built, checked and preserved):
+
+- `53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731` — 551 original grocery products on 15 **measured** shelf surfaces; scan duplicate-face repair with exact unique-geometry/UV proofs; required packed source photos restored.
+- `0cd688a59879cab523f119518514b45d8d8a541f558be54be79c51c9731e4a74` → `26f3d577…`/`0cd688…` studio-camera refit: six pair-studio cameras fitted to actual paired actor bounds so both complete silhouettes sit inside frame; presets written back to native + design file.
+- Current public native archives (anonymous CRC/every-member/SHA/bytes PASS, storage ledger appended): `…53c32b17eaeb-88b5a01c088b.zip` (614160232 B, SHA `2f165f31…`) and `…97e0004aba8c…`/`26f3d577…` studio-refit ZIP 617875453 B (SHA `052c6b39…`, ledger `fdc0a586…`).
+- Verified **current** component/portable packages (r2, `R14-stocked-component-public-packages.json`, ledger `3d6a9731…`): Buildings01–06 353670430 B, Buildings07–12 363305330 B, Public-realm 80027107 B, Portable-town 561579337 B.
+
+Portable pipeline is now genuinely gated rather than "balanced by wish": every one of 25 components and the merged 263030884 B whole GLB passed **clean import**; scan people use measured ~50k-face/2048 px portable LODs (sampled source-to-portable RMS ≤ 0.272 mm, max ≤ 1.64 mm) while the **native keeps the 150k-face meshes and 4k photographs**.
+
+Actual current full-resolution evidence produced and individually opened this session: MARKETGRUEN plan (2560×1440), supermarket interior (MARKTGRUEN brand + dense original product stock visible), storefront H03 (after discovering the previous H03 camera sat *inside* a lamp post — geometry untouched, camera moved and re-checked), and pair-studio D01–D04. Remaining D05/D06/D07/D08 and the 26 plan/cutaway/interior plus 6 hero frames are still queued; the 2 GB runtime kills some full-frame renders (documented, not hidden).
+
+Interactive viewer: real headless Chromium/WebGL test PASSED with the current GLB (33 textures, real draw calls), including building selection, floor cutaway (triangles drop to the selected floor) and restore; browser screenshots retained in `evidence/current-production/viewer-*.png`. The in-app preview cannot load the 263 MB local GLB, so the shipped preview page carries a documented fallback; the browser test proves it works locally.
+
+Digital Reality Lab HSRD-100 (2025), CC BY 4.0 for the human scans — attribution, pinned revision, source archives, changes and limitations retained. Original fictional merchandise/labels and buildings remain project work.
+
+**Still open and not claimed:** remaining full-resolution frames with individual inspect→fix→reinspect, final package/gallery, independent non-owner acceptance. Counts, integrity, or a renderer finishing are not realism acceptance.
 
 
-**Current R13 native archive is now publicly verified:** [Winterlichtplatz-UNPROMOTED-rebuilt-editable-b8ea5ed69e0a-8bd26279c1b8.zip](https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-b8ea5ed69e0a-8bd26279c1b8.zip), 692360170bytes, SHA`b5dfc99472995638ba08b441dcb05970f164cd6766b64e33bfbca21a8691f8be`; actualanonymousCRC/everymemberSHA/bytesPASS, ledger`9a919bf0344f4123fa7708ab9803bdcd3d6718c9`. This supersedes the earlier statement that only759was public; exteriorvisual/final92/independent acceptance remains open.
 # Current editable candidate — measured exterior craft and photographic people
 
 Native `b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb` (548200008bytes) adds144editable facade-detail groups:112measured upper-window surrounds/joinery assemblies, alternating corner quoins/pilasters, cornices, varied shutters, gutters/downpipes, gable vent covers and8real striped canvas canopies. Actual144world-bound/clear-glass checks passed with0pane intrusions. Original preexisting shell/interior/crowd geometry,UVs,poses and material indices were conserved; fresh reopen passed26furnished floors/164rooms/36people/92cameras, no missing images. This is an **unpromoted working candidate**, not final/independent/high-realism acceptance.

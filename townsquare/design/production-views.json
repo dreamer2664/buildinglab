@@ -1,5 +1,5 @@
 {
-  "count": 92,
+  "count": 108,
   "source_production_checkpoint": "4bf44a021c3d",
   "frames": [
     {
@@ -51,8 +51,8 @@
       "title": "MARKTGRUEN supermarket / original shop identity",
       "kind": "town",
       "position": [
-        -30,
-        17,
+        -28.8,
+        16.8,
         2.1
       ],
       "target": [
@@ -2539,16 +2539,16 @@
         2
       ],
       "position": [
-        -2.739907396715867,
-        -12.635159322557808,
-        1.55
+        -6.8307695388793945,
+        -10.59615421295166,
+        1.7414190769195557
       ],
       "target": [
-        -2.4,
+        -2.4000000953674316,
         -8.75,
-        1.39
+        0.8414191603660583
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2570,16 +2570,16 @@
         4
       ],
       "position": [
-        8.444114494358601,
-        -11.60755442776774,
-        1.55
+        2.2873740196228027,
+        -9.570876121520996,
+        1.8325088024139404
       ],
       "target": [
-        7.6,
-        -7.8,
-        1.39
+        7.599999904632568,
+        -7.800000190734863,
+        0.9325087666511536
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2601,16 +2601,16 @@
         6
       ],
       "position": [
-        -12.060092603284133,
-        -11.635159322557808,
-        1.55
+        -17.569229125976562,
+        -9.903846740722656,
+        1.8169567584991455
       ],
       "target": [
-        -12.4,
+        -12.399999618530273,
         -7.75,
-        1.39
+        0.9169567227363586
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2632,16 +2632,16 @@
         8
       ],
       "position": [
-        13.1090521496582,
-        13.06663495935786,
-        1.55
+        7.287374019622803,
+        7.429125785827637,
+        1.7919114828109741
       ],
       "target": [
-        12.6,
-        9.2,
-        1.39
+        12.600000381469727,
+        9.199999809265137,
+        0.891911506652832
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2663,16 +2663,16 @@
         10
       ],
       "position": [
-        -12.57011561072481,
-        6.353711935830756,
-        1.55
+        -17.569229125976562,
+        8.096153259277344,
+        1.761141300201416
       ],
       "target": [
-        -12.4,
+        -12.399999618530273,
         10.25,
-        1.39
+        0.8611413836479187
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2694,16 +2694,16 @@
         12
       ],
       "position": [
-        4.090947850341799,
-        -0.6666349593578604,
-        1.55
+        -0.7126259803771973,
+        1.429123878479004,
+        1.8282387256622314
       ],
       "target": [
-        4.6,
-        3.2,
-        1.39
+        4.599999904632568,
+        3.200000047683716,
+        0.9282386898994446
       ],
-      "lens_mm": 57,
+      "lens_mm": 42,
       "resolution": [
         2560,
         1440
@@ -2769,6 +2769,382 @@
       "samples": 64,
       "exposure": 0.4,
       "studio_key": true
+    },
+    {
+      "id": "B01_exterior",
+      "title": "MARKTGRUEN / Neighbourhood supermarket exterior",
+      "kind": "building",
+      "building_id": "B01",
+      "position": [
+        -4.702,
+        7.932,
+        4.359
+      ],
+      "target": [
+        -20.0,
+        33.739,
+        7.025
+      ],
+      "lens_mm": 21.54,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B02_exterior",
+      "title": "KRUME & KORN / Bakery exterior",
+      "kind": "building",
+      "building_id": "B02",
+      "position": [
+        -6.237,
+        4.217,
+        3.504
+      ],
+      "target": [
+        0.0,
+        33.561,
+        5.6
+      ],
+      "lens_mm": 29.4,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B03_exterior",
+      "title": "KESSEL & KAKAO / Cafe exterior",
+      "kind": "building",
+      "building_id": "B03",
+      "position": [
+        21.063,
+        14.591,
+        3.609
+      ],
+      "target": [
+        20.0,
+        33.561,
+        5.775
+      ],
+      "lens_mm": 15.13,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B04_exterior",
+      "title": "FABELHAUS / Bookshop exterior",
+      "kind": "building",
+      "building_id": "B04",
+      "position": [
+        -1.127,
+        -0.509,
+        3.399
+      ],
+      "target": [
+        39.89,
+        18.0,
+        5.425
+      ],
+      "lens_mm": 52.45,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B05_exterior",
+      "title": "TANNENGRUEN / Florist exterior",
+      "kind": "building",
+      "building_id": "B05",
+      "position": [
+        -5.439,
+        0.0,
+        3.504
+      ],
+      "target": [
+        39.561,
+        0.0,
+        5.6
+      ],
+      "lens_mm": 55.51,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B06_exterior",
+      "title": "FADENWERK / Clothing and knitwear exterior",
+      "kind": "building",
+      "building_id": "B06",
+      "position": [
+        -4.217,
+        -8.361,
+        3.609
+      ],
+      "target": [
+        39.739,
+        -18.0,
+        5.775
+      ],
+      "lens_mm": 51.27,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B07_exterior",
+      "title": "HAUS ABENDROT / Boutique hotel exterior",
+      "kind": "building",
+      "building_id": "B07",
+      "position": [
+        22.711,
+        11.028,
+        5.157
+      ],
+      "target": [
+        20.0,
+        -33.89,
+        8.355
+      ],
+      "lens_mm": 37.81,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B08_exterior",
+      "title": "LICHTSPIEL / Toy shop exterior",
+      "kind": "building",
+      "building_id": "B08",
+      "position": [
+        -7.693,
+        2.63,
+        3.504
+      ],
+      "target": [
+        0.0,
+        -33.561,
+        5.6
+      ],
+      "lens_mm": 39.94,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B09_exterior",
+      "title": "GOLDFADEN / Jewellery and craft exterior",
+      "kind": "building",
+      "building_id": "B09",
+      "position": [
+        -18.005,
+        9.215,
+        7.218
+      ],
+      "target": [
+        -20.0,
+        -33.739,
+        5.775
+      ],
+      "lens_mm": 51.33,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B10_exterior",
+      "title": "STERNBLICK / Pharmacy exterior",
+      "kind": "building",
+      "building_id": "B10",
+      "position": [
+        -10.066,
+        3.898,
+        3.399
+      ],
+      "target": [
+        -39.89,
+        -18.0,
+        5.425
+      ],
+      "lens_mm": 38.58,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B11_exterior",
+      "title": "NORDRAD / Cycle shop exterior",
+      "kind": "building",
+      "building_id": "B11",
+      "position": [
+        1.985,
+        16.857,
+        3.504
+      ],
+      "target": [
+        -39.739,
+        0.0,
+        5.6
+      ],
+      "lens_mm": 50.99,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "B12_exterior",
+      "title": "WINTERPOST / Stationery and parcel shop exterior",
+      "kind": "building",
+      "building_id": "B12",
+      "position": [
+        1.398,
+        -0.636,
+        3.609
+      ],
+      "target": [
+        -39.561,
+        18.0,
+        5.775
+      ],
+      "lens_mm": 48.88,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "exposure": 1.55
+    },
+    {
+      "id": "V01",
+      "title": "Whole village / elevated view 1",
+      "kind": "village",
+      "position": [
+        77.819,
+        54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "exposure": 1.35,
+      "max_bounces": 3,
+      "diffuse_bounces": 2,
+      "glossy_bounces": 2
+    },
+    {
+      "id": "V02",
+      "title": "Whole village / elevated view 2",
+      "kind": "village",
+      "position": [
+        -51.622,
+        73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "exposure": 1.35,
+      "max_bounces": 3,
+      "diffuse_bounces": 2,
+      "glossy_bounces": 2
+    },
+    {
+      "id": "V03",
+      "title": "Whole village / elevated view 3",
+      "kind": "village",
+      "position": [
+        -77.819,
+        -54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "exposure": 1.35,
+      "max_bounces": 3,
+      "diffuse_bounces": 2,
+      "glossy_bounces": 2
+    },
+    {
+      "id": "V04",
+      "title": "Whole village / elevated view 4",
+      "kind": "village",
+      "position": [
+        51.622,
+        -73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "resolution": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "exposure": 1.35,
+      "max_bounces": 3,
+      "diffuse_bounces": 2,
+      "glossy_bounces": 2
     }
   ]
 }

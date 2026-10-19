@@ -1,0 +1,432 @@
+{
+  "building": "B01",
+  "actual_opened_component_native_sha256": "afaa1c8c46a1c3db77c9ef1f5fdd44615489829d4022064144df7557e3d538e4",
+  "source_full_town_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "evaluated_triangles_matched_export_source_expectation": 297647,
+  "original_component_mesh_objects": 600,
+  "image": "evidence/quality-studies/crafted-building-components/B01-facade.png",
+  "image_sha256": "0b118ffb6f9194c6bc60145cdbb15538e390937c9c82c7bc927bb37d81324182",
+  "dimensions": [
+    1280,
+    960
+  ],
+  "render_seconds": 69.85109495899997,
+  "camera": {
+    "id": "H03",
+    "title": "MARKTGRUEN supermarket / original shop identity",
+    "kind": "town",
+    "position": [
+      -30,
+      17,
+      2.1
+    ],
+    "target": [
+      -20,
+      28,
+      2.7
+    ],
+    "lens_mm": 27,
+    "resolution": [
+      3840,
+      2160
+    ],
+    "samples": 32,
+    "exposure": 1.2,
+    "building_id": "B01"
+  },
+  "photographic_map_resampling": [
+    {
+      "image": "B01.png",
+      "source_packed_sha256": "486bac465e0fb81a37ed563c6cf68d0dc56b65540e04354ead175cc175e1094e",
+      "source_dimensions": [
+        2160,
+        600
+      ],
+      "previous_derivative_dimensions": [
+        2160,
+        600
+      ],
+      "render_dimensions": [
+        2048,
+        569
+      ],
+      "cap_px": 2048
+    },
+    {
+      "image": "cobblestone_street_night_2k.hdr",
+      "source_packed_sha256": "e3c95d049ea26dc5d54b24a2904bfdd1929fac65d655e83328dfb958715e779a",
+      "source_dimensions": [
+        2048,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        1024
+      ],
+      "render_dimensions": [
+        1024,
+        512
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_packed_sha256": "3be0b006000145d8c879a381ac5937f6ab51bf7e4720f2ba7c11d3184aec7e15",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "fabric_pattern_05_rough_2k.jpg",
+      "source_packed_sha256": "3b2838c46227bf11e1c0d8da21703659d70676f56b848abff39c39ceac56f5f8",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_legs_diff.png",
+      "source_packed_sha256": "b11d85b689bc9e16f5aebcb0c94cb0783e7c76ef5c0b93ec576836750adc23c1",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_legs_metal.png",
+      "source_packed_sha256": "fb96b44c55677e850c09ed442e2aeb07c21bf013a3912b477b4baae21d1ffeb8",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_legs_nor_gl.png",
+      "source_packed_sha256": "b337cd7c6929c22a8c4034123dd772d0c06a1d46e944e408164c2ec2bc0a1ee7",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_legs_rough.png",
+      "source_packed_sha256": "29cf8fe198b0a531a4ebff085f3571d3757b9817bad7548b8b44bbabf6076f55",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_diff.png",
+      "source_packed_sha256": "37dfdb66f60ebd36434048e0080236b8bdf2b80256ac3ed8b2804a15d5c3d949",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_nor_gl.png",
+      "source_packed_sha256": "7375a10115ddc824f249f0bd4e067a9cdb765346befc6ed3aacb03e4fa1acfa6",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "modern_arm_chair_01_pillow_rough.png",
+      "source_packed_sha256": "6d7b264e6bfc668ccda39780974abdb43a9e939e1d739e845cb2bce5367ebf34",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_packed_sha256": "266526d00b68f4e136d422a0cf9d7c31a8c3e767b9f7a8fa364ef001e549e03a",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "rough_plaster_brick_rough_2k.jpg",
+      "source_packed_sha256": "c6814610599db13b69d2f80cf27e7dda2fafe9249c3343362498d5a433fbfe7c",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "snow_02_diff_2k.jpg",
+      "source_packed_sha256": "d185c2853c7e674161789db4eed1c5708d85e4f6e3dcb5698209568adf02aa98",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "snow_02_nor_gl_2k.jpg",
+      "source_packed_sha256": "288539ee33387e91035be4dc8d10da574bf6a95c8374d33b6b1dc465c6949e8f",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "snow_02_rough_2k.jpg",
+      "source_packed_sha256": "9cfa994318ef190d4540875a166c7c745184c1a166e82271bca7c0a628f8820f",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "cap_px": 1024
+    },
+    {
+      "image": "sofa_02_diff.png",
+      "source_packed_sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "sofa_02_metallic.png",
+      "source_packed_sha256": "2e03a19191671bfa5e157574b4b361faedf74401d2b46f22f36927b5eed30b75",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "sofa_02_nor_gl.png",
+      "source_packed_sha256": "28e89013856bf59eb0ed2bbe534e1d39904c2830b0eb6195f45add9ec4e8315f",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "sofa_02_roughness.png",
+      "source_packed_sha256": "ce18bf8abd5d580a0757fd41fadff320d00e1fa224ab4bad6b96876580626e0b",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "previous_derivative_dimensions": [
+        1024,
+        1024
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "wood_floor_diff_2k.jpg",
+      "source_packed_sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "wood_floor_nor_gl_2k.jpg",
+      "source_packed_sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    },
+    {
+      "image": "wood_floor_rough_2k.jpg",
+      "source_packed_sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "previous_derivative_dimensions": [
+        2048,
+        2048
+      ],
+      "render_dimensions": [
+        512,
+        512
+      ],
+      "cap_px": 512
+    }
+  ],
+  "method": "Actual native building subset with actual source furniture/windows/brand and added3Dstone/canvas/gutters. UNSAVED neutral physical studio ground/world/area lights, source cameraH03; not whole-town source lighting or final92/independent acceptance. Standard source-linear normal/albedo-guidedOIDN with noisy original retained. No image generation/retouch/model substitution.",
+  "inspection": "PENDING"
+}

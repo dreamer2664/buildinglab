@@ -1,6 +1,6 @@
 {
   "project": "Winterlichtplatz",
-  "stage": "R10 furnished production candidate; actual native reopen PASS; final visual and independent acceptance pending",
+  "stage": "Editable working model with original measured facade detail and551measured supermarket products; producer visual/final/independent review separately recorded.",
   "units": "metres",
   "square_dimensions_m": [
     64,
@@ -561,7 +561,12 @@
     "final_visual_inspection": "PENDING",
     "independent_acceptance": "NOT GRANTED"
   },
-  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/candidate-20261017-7fb9ce64d020",
-  "candidate_revision": "R11",
-  "quality_acceptance": "Not granted; generic CG human hair/sparse dressing limits explicitly recorded in evidence/REALISM_LIMITATIONS.md"
+  "interior_uniqueness_actual_gate": {
+    "status": "FIX_REQUIRED",
+    "actual_evidence": "R11-duplicate-domestic-interior-finding.json",
+    "scope": "Mixed commercial programmes and furniture counts are real, but at least B01_L03/B02_L02 domestic arrangements duplicate; titles alone do not establish distinct interiors."
+  },
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-53c32b17eaeb-88b5a01c088b.zip",
+  "native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "preview_scope": "Working current model, not final image/independent acceptance. Native full detail; lighting/glass approximate in browser."
 }

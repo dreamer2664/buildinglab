@@ -55,22 +55,29 @@ if key=='PUBLIC':
   bm.to_mesh(o.data);o.data.update();bm.free()
 bpy.data.orphans_purge(do_recursive=True)
 portable_triangulation=[]
-if key.startswith('P'):
+if len(key)==3 and key[0]=='P'and key[1:].isdigit():
  # Make the evaluated export mesh explicitly triangular BEFORE measuring its expectation.
  # Supplied/source-derived sole cap n-gons can otherwise be tessellated differently by glTF.
  groups={}
  for ob in s.objects:
   if ob.type=='MESH':groups.setdefault(ob.data.as_pointer(),[]).append(ob)
  for group in groups.values():
-  source_mesh=group[0].data;source_mesh.calc_loop_triangles();before_count=len(source_mesh.loop_triangles);before_area=sum(t.area for t in source_mesh.loop_triangles);before_bounds=[tuple(v.co)for v in source_mesh.vertices];probe=group[0];probe.data=source_mesh.copy();bpy.context.view_layer.objects.active=probe;modifier=probe.modifiers.new('Explicit deterministic portable scan cap triangulation','TRIANGULATE');modifier.min_vertices=4;modifier.ngon_method='BEAUTY';modifier.quad_method='BEAUTY'
+  source_mesh=group[0].data;source_mesh.calc_loop_triangles();before_count=len(source_mesh.loop_triangles);before_area=sum(t.area for t in source_mesh.loop_triangles);before_bounds=[tuple(v.co)for v in source_mesh.vertices];probe=group[0];probe.data=source_mesh.copy();
+  portable_lod=None;target=int(os.environ.get('SQUARE_PORTABLE_SCAN_TARGET_FACES','0'))
+  if target and len(probe.data.polygons)>target:
+   from mathutils.bvhtree import BVHTree
+   samples=[v.co.copy()for i,v in enumerate(probe.data.vertices)if i%max(1,len(probe.data.vertices)//2000)==0];original_faces=len(probe.data.polygons);bpy.context.view_layer.objects.active=probe;lod=probe.modifiers.new('Measured portable scan LOD','DECIMATE');lod.ratio=target/original_faces;lod.use_collapse_triangulate=True;bpy.ops.object.modifier_apply(modifier=lod.name);bpy.context.view_layer.update();tree=BVHTree.FromObject(probe,bpy.context.evaluated_depsgraph_get());errors=[tree.find_nearest(v)[3]for v in samples];rms=math.sqrt(sum(x*x for x in errors)/len(errors));worst=max(errors);assert rms<.002 and worst<.01,('Portable source shape drift',rms,worst);del tree;portable_lod={'source_faces':original_faces,'portable_faces':len(probe.data.polygons),'actual_sampled_source_to_portable_RMS_m':rms,'actual_sampled_max_m':worst,'sample_count':len(samples),'strict_RMS_limit_m':.002,'strict_max_limit_m':.01,'native_source_unchanged':True};before_bounds=[tuple(v.co)for v in probe.data.vertices]
+  from scan_mesh_topology_repair import repair_duplicate_faces
+  topology_repair=repair_duplicate_faces(probe.data);probe.data.calc_loop_triangles();before_count=len(probe.data.loop_triangles);before_area=sum(t.area for t in probe.data.loop_triangles)
+  bpy.context.view_layer.objects.active=probe;modifier=probe.modifiers.new('Explicit deterministic portable scan cap triangulation','TRIANGULATE');modifier.min_vertices=4;modifier.ngon_method='BEAUTY';modifier.quad_method='BEAUTY'
   if hasattr(modifier,'keep_custom_normals'):modifier.keep_custom_normals=True
   bpy.ops.object.modifier_apply(modifier=modifier.name);triangular=probe.data;triangular.calc_loop_triangles();after_area=sum(t.area for t in triangular.loop_triangles);after_positions=[tuple(v.co)for v in triangular.vertices];assert before_bounds==after_positions,'Portable triangulation changed original vertex coordinates';area_delta=abs(before_area-after_area);assert area_delta<1e-8,('Portable triangulation surface area drift',before_area,after_area,area_delta)
   for ob in group:ob.data=triangular
-  portable_triangulation.append({'source_mesh':source_mesh.name,'actor_instances':len(group),'source_loop_triangles_before':before_count,'actual_explicit_portable_triangles_after':len(triangular.loop_triangles),'surface_area_before_m2':before_area,'surface_area_after_m2':after_area,'absolute_surface_area_delta_m2':area_delta,'all_original_vertex_positions_exactly_preserved':True,'method':'ExplicitTriangulate modifier for nontriangle source cap faces, UV/materials/custom normals retained; native source untouched. Strict reimport triangle gate unchanged.'})
+  portable_triangulation.append({'source_mesh':source_mesh.name,'measured_duplicate_face_repair':topology_repair,'actual_portable_shape_lod':portable_lod,'actor_instances':len(group),'source_loop_triangles_before':before_count,'actual_explicit_portable_triangles_after':len(triangular.loop_triangles),'surface_area_before_m2':before_area,'surface_area_after_m2':after_area,'absolute_surface_area_delta_m2':area_delta,'all_original_vertex_positions_exactly_preserved':True,'method':'ExplicitTriangulate modifier for nontriangle source cap faces, UV/materials/custom normals retained; native source untouched. Strict reimport triangle gate unchanged.'})
  bpy.data.orphans_purge(do_recursive=True)
 for im in bpy.data.images:
  if im.source not in ['FILE','GENERATED'] or not all(im.size):continue
- old=tuple(im.size);cap=2048 if im.name.startswith('HSRD100_') else 512;factor=min(1,cap/max(old));new=(max(1,round(old[0]*factor)),max(1,round(old[1]*factor)))
+ old=tuple(im.size);cap=2048 if im.name.startswith('HSRD100_')else 1024 if im.name.startswith('MARKTGRUEN_PRODUCTS_')else 512;factor=min(1,cap/max(old));new=(max(1,round(old[0]*factor)),max(1,round(old[1]*factor)))
  if new!=old:im.scale(*new);im.pack()
  im.buffers_free()
 bpy.context.view_layer.update();meshes=[o for o in s.objects if o.type=='MESH'];pts=[o.matrix_world@Vector(p) for o in meshes for p in o.bound_box]

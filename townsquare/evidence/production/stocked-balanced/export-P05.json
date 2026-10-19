@@ -1,0 +1,93 @@
+{
+  "component": "P05",
+  "source_native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "glb": ".cache/stocked-balanced-components/GLB/P05.glb",
+  "glb_sha256": "a49c72628ac2ca867df00cf54721cd395276e4ddee80d33d8b4c904d55f88a7a",
+  "glb_bytes": 8207264,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 75204,
+    "polygons_instance_sum": 150501,
+    "triangles_instance_sum": 150501,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -17.396867752075195,
+      -8.322301864624023,
+      0.005960422568023205
+    ],
+    "bounds_max": [
+      14.44209098815918,
+      20.322559356689453,
+      1.8338541984558105
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      5,
+      17,
+      29
+    ]
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "portable_scan_cap_triangulation": [
+    {
+      "source_mesh": "SCAN / actual original LOD0 / HSR0042-Body-002",
+      "measured_duplicate_face_repair": {
+        "actual_mesh_validate_changed": false,
+        "source_vertices_faces_before": [
+          25068,
+          50167
+        ],
+        "actual_vertices_faces_after": [
+          25068,
+          50167
+        ],
+        "actual_source_triangles_before": 50167,
+        "actual_validated_triangles_after": 50167,
+        "actual_duplicate_faces_removed": 0,
+        "original_vertex_coordinates_exact_equality": true,
+        "unique_triangle_geometry_set_exact_equality": true,
+        "unique_triangle_geometry_signature_before_and_after": "4bc9705ed1b4ca1db3c2a91d197f69214f5a7c08e07633185e7085ecaf6b1b3e",
+        "kept_textured_triangle_set_is_exact_source_subset": true,
+        "textured_triangle_set_counts": [
+          50167,
+          50167
+        ],
+        "method": "Actual Mesh.validate duplicateface repair BEFORE export expectation; glTF exporter invokes this same validation. No coordinate/UV approximation and no relaxed triangle gate. Native unchanged unless explicitly saved by a separate source-repair stage."
+      },
+      "actual_portable_shape_lod": {
+        "source_faces": 149173,
+        "portable_faces": 50167,
+        "actual_sampled_source_to_portable_RMS_m": 0.0002800089840799784,
+        "actual_sampled_max_m": 0.0014211211819201708,
+        "sample_count": 2023,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01,
+        "native_source_unchanged": true
+      },
+      "actor_instances": 3,
+      "source_loop_triangles_before": 50167,
+      "actual_explicit_portable_triangles_after": 50167,
+      "surface_area_before_m2": 2.643499042588502,
+      "surface_area_after_m2": 2.643499042588502,
+      "absolute_surface_area_delta_m2": 0.0,
+      "all_original_vertex_positions_exactly_preserved": true,
+      "method": "ExplicitTriangulate modifier for nontriangle source cap faces, UV/materials/custom normals retained; native source untouched. Strict reimport triangle gate unchanged."
+    }
+  ],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

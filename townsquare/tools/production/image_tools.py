@@ -31,6 +31,10 @@ def upgrade_images(root,frame=None,full_resolution=False):
    if not p.exists():p.write_bytes(raw)
    del raw
    new=bpy.data.images.load(str(p),check_existing=False);new.colorspace_settings.name=color;new.scale(*dest);new.pack();new.buffers_free();old.user_remap(new);bpy.data.images.remove(old);new.name=oldname;changes.append({'image':oldname,'source_packed_sha256':source_hash,'source_dimensions':source,'render_dimensions':dest,'cap_px':cap,'scope':'Render-only source-photo resampling; geometry/UV unchanged and full4kpacked source retained in immutable native'});gc.collect();continue
+  if old.name.startswith('MARKTGRUEN_PRODUCTS_')and not full_resolution:
+   ledger=json.loads((R/'assets/branding/products/manifest.json').read_text());p=R/ledger['atlas'];assert hashlib.sha256(p.read_bytes()).hexdigest()==ledger['atlas_sha256'];name=old.name;color=old.colorspace_settings.name;cap=1536 if frame['kind']=='interior'else 1024 if frame.get('id')=='H03'else 512;new=bpy.data.images.load(str(p),check_existing=False);new.colorspace_settings.name=color;source=tuple(new.size);factor=min(1,cap/max(source));dest=tuple(round(x*factor)for x in source)
+   if dest!=source:new.scale(*dest)
+   new.pack();new.buffers_free();old.user_remap(new);bpy.data.images.remove(old);new.name=name;changes.append({'image':name,'source_original_graphic_sha256':ledger['atlas_sha256'],'source_dimensions':source,'render_dimensions':dest,'cap_px':cap,'scope':'Original fictional package atlas, no image generation or geometry substitution'});continue
   choices=groups.get(base(old.name),[])
   if not choices:continue
   rec=max(choices,key=lambda x:x['bytes']);p=R/rec['file']

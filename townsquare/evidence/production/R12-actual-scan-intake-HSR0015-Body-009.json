@@ -1,44 +1,43 @@
 {
-  "stage": "ACTUAL licensed source ZIP/CRC/member digest intake, not adoption/acceptance",
+  "stage": "ACTUAL LICENSED SCAN ZIP CRC/member digest intake; not yet imported/rendered/adopted",
   "dataset": "digitalrealitylab/HSRD-100",
   "revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
   "pose": "HSR0015-Body-009",
-  "lod": "LOD1",
   "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/data/HSR0015/HSR0015-Body-009/scans/HSR0015-Body-009-Scan-LOD1.zip",
   "source_archive": ".cache/scan-intake/HSR0015-Body-009/HSR0015-Body-009-Scan-LOD1.zip",
   "source_archive_bytes": 72782822,
   "source_archive_sha256": "a90f6ae81b35b94db19caf9e5888084260ad16841ca575226eda48128269728e",
   "upstream_LFS_sha256_matched": true,
   "license": "CC BY4.0",
-  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.",
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes pending native import/normalization/lighting tests.",
   "members": [
     {
       "member": "HSR0015-Body-009_LOD1.obj",
-      "path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD1/HSR0015-Body-009_LOD1.obj",
+      "path": ".cache/scan-intake/HSR0015-Body-009/extracted/HSR0015-Body-009_LOD1.obj",
       "bytes": 9914038,
       "sha256": "82b2f4d603fd305d507f83f492e90604458a8c5c15f86f7e5ea53028ffbaf6ea"
     },
     {
       "member": "HSR0015-Body-009_LOD1_u0_v0_diffuse.png",
-      "path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD1/HSR0015-Body-009_LOD1_u0_v0_diffuse.png",
+      "path": ".cache/scan-intake/HSR0015-Body-009/extracted/HSR0015-Body-009_LOD1_u0_v0_diffuse.png",
       "bytes": 68954961,
       "sha256": "cd28bcbe8c0227c18701988f3199821487e5e63c115cb35c7f87a7c82ac5004d"
     },
     {
       "member": "HSR0015-Body-009-Square.jpg",
-      "path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD1/HSR0015-Body-009-Square.jpg",
+      "path": ".cache/scan-intake/HSR0015-Body-009/extracted/HSR0015-Body-009-Square.jpg",
       "bytes": 216145,
       "sha256": "76dd7aa1a7c7f0f7c657680f59f7405b16ed89912651d0d30f31b0a5bd4819af"
     },
     {
       "member": "pose_metadata.json",
-      "path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD1/pose_metadata.json",
+      "path": ".cache/scan-intake/HSR0015-Body-009/extracted/pose_metadata.json",
       "bytes": 915,
       "sha256": "df559d283c6d6a538f05cfa60aa4086ca12edca516b0fc4a0d4a4f0e008a7701"
     },
     {
       "member": "person_metadata.json",
-      "path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD1/person_metadata.json",
+      "path": ".cache/scan-intake/HSR0015-Body-009/extracted/person_metadata.json",
       "bytes": 716,
       "sha256": "807efb31be435efa25ba679ef9d84eed5c2c65bd08a57f67cf2ab8fedf47efd9"
     }

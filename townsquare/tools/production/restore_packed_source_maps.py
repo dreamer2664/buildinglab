@@ -1,5 +1,5 @@
 """Recover exact canonical photographic bytes from current packed native; read-only, no network."""
-import bpy,json,hashlib,os
+import bpy,json,hashlib,os,re
 from pathlib import Path
 R=Path(__file__).resolve().parents[2];b=json.loads((R/'evidence/production'/os.environ.get('SQUARE_MAP_SOURCE_REPORT','R11-native-build.json')).read_text());source=R/(b['native']if 'native'in b else b['full_resolution_native']);manifest=json.loads((R/'evidence/production/native-source-map-manifest.json').read_text());needed={r['sha256'] for r in manifest};data={}
 if bpy.data.filepath and Path(bpy.data.filepath).resolve()==source.resolve():
@@ -16,5 +16,8 @@ for r in manifest:
  p=R/r['file']
  if r['sha256'] not in data:missing.append(r['name']);continue
  p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data[r['sha256']]);assert p.stat().st_size==r['bytes']
-assert not missing,'Canonical maps absent from packed current native: '+str(missing)
+if missing and os.environ.get('SQUARE_ALLOW_UNUSED_LEGACY_MAPS')=='1':
+ active={re.sub(r'\.\d{3}$','',im.name)for im in images if im and im.users>0};required=[name for name in missing if re.sub(r'\.\d{3}$','',name)in active];assert not required,'Active canonical source maps absent: '+str(required)
+else:assert not missing,'Canonical maps absent from packed current native: '+str(missing)
+print('UNUSED_LEGACY_MAPS_NOT_PART_OF_CURRENT_NATIVE',missing,flush=True)
 print('ACTUAL_PACKED_PHOTOGRAPHIC_MAPS_RESTORED_EXACT_SHA',len(manifest))

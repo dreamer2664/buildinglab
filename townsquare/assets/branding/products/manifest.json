@@ -1,0 +1,109 @@
+{
+  "stage": "Original fictional grocery graphic sources, not copied real brands; concept prices only",
+  "atlas": "assets/branding/products/MARKTGRUEN-products-original-atlas.png",
+  "atlas_sha256": "aa537f64927219bd10f3b4623c9213524a95e42ea92ffa0237f904e94ed9e022",
+  "atlas_dimensions": [
+    1536,
+    1536
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "sku": "Hafer",
+      "title": "HAFER",
+      "category": "carton",
+      "label_cell_px": [
+        0,
+        0,
+        512,
+        768
+      ],
+      "rgb_srgb": "3F6751",
+      "concept_price_eur": "2,49",
+      "fictional_original_product": true
+    },
+    {
+      "id": 1,
+      "sku": "Milch",
+      "title": "MILCH",
+      "category": "milk",
+      "label_cell_px": [
+        512,
+        0,
+        1024,
+        768
+      ],
+      "rgb_srgb": "476C88",
+      "concept_price_eur": "1,39",
+      "fictional_original_product": true
+    },
+    {
+      "id": 2,
+      "sku": "Pasta",
+      "title": "PASTA",
+      "category": "carton",
+      "label_cell_px": [
+        1024,
+        0,
+        1536,
+        768
+      ],
+      "rgb_srgb": "A16443",
+      "concept_price_eur": "1,89",
+      "fictional_original_product": true
+    },
+    {
+      "id": 3,
+      "sku": "Tomaten",
+      "title": "TOMATEN",
+      "category": "can",
+      "label_cell_px": [
+        0,
+        768,
+        512,
+        1536
+      ],
+      "rgb_srgb": "985447",
+      "concept_price_eur": "1,59",
+      "fictional_original_product": true
+    },
+    {
+      "id": 4,
+      "sku": "Bohnen",
+      "title": "BOHNEN",
+      "category": "can",
+      "label_cell_px": [
+        512,
+        768,
+        1024,
+        1536
+      ],
+      "rgb_srgb": "9D8448",
+      "concept_price_eur": "1,49",
+      "fictional_original_product": true
+    },
+    {
+      "id": 5,
+      "sku": "Apfel",
+      "title": "APFELSAFT",
+      "category": "bottle",
+      "label_cell_px": [
+        1024,
+        768,
+        1536,
+        1536
+      ],
+      "rgb_srgb": "577052",
+      "concept_price_eur": "2,29",
+      "fictional_original_product": true
+    }
+  ],
+  "project_graphic_license": "CC0 under project original-work licence; third-party human scans remain separate CC BY4",
+  "font_rasterization_only": {
+    "name": "DejaVu Sans and DejaVu Sans Bold",
+    "font_file_sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+    "bold_file_sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+    "notice": "DejaVu-font-rasterization-notice.txt",
+    "native_export_dependency": "None: actual label pixel data packed. Editable SVG has standard sans-serif fallback; font software not bundled."
+  }
+}

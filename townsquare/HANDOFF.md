@@ -1,3 +1,24 @@
+## Current state — detailed, stocked, camera-corrected working model (not a finished delivery)
+
+Current editable natives (all built, checked and preserved):
+
+- `53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731` — 551 original grocery products on 15 **measured** shelf surfaces; scan duplicate-face repair with exact unique-geometry/UV proofs; required packed source photos restored.
+- `0cd688a59879cab523f119518514b45d8d8a541f558be54be79c51c9731e4a74` → `26f3d577…`/`0cd688…` studio-camera refit: six pair-studio cameras fitted to actual paired actor bounds so both complete silhouettes sit inside frame; presets written back to native + design file.
+- Current public native archives (anonymous CRC/every-member/SHA/bytes PASS, storage ledger appended): `…53c32b17eaeb-88b5a01c088b.zip` (614160232 B, SHA `2f165f31…`) and `…97e0004aba8c…`/`26f3d577…` studio-refit ZIP 617875453 B (SHA `052c6b39…`, ledger `fdc0a586…`).
+- Verified **current** component/portable packages (r2, `R14-stocked-component-public-packages.json`, ledger `3d6a9731…`): Buildings01–06 353670430 B, Buildings07–12 363305330 B, Public-realm 80027107 B, Portable-town 561579337 B.
+
+Portable pipeline is now genuinely gated rather than "balanced by wish": every one of 25 components and the merged 263030884 B whole GLB passed **clean import**; scan people use measured ~50k-face/2048 px portable LODs (sampled source-to-portable RMS ≤ 0.272 mm, max ≤ 1.64 mm) while the **native keeps the 150k-face meshes and 4k photographs**.
+
+Actual current full-resolution evidence produced and individually opened this session: MARKETGRUEN plan (2560×1440), supermarket interior (MARKTGRUEN brand + dense original product stock visible), storefront H03 (after discovering the previous H03 camera sat *inside* a lamp post — geometry untouched, camera moved and re-checked), and pair-studio D01–D04. Remaining D05/D06/D07/D08 and the 26 plan/cutaway/interior plus 6 hero frames are still queued; the 2 GB runtime kills some full-frame renders (documented, not hidden).
+
+Interactive viewer: real headless Chromium/WebGL test PASSED with the current GLB (33 textures, real draw calls), including building selection, floor cutaway (triangles drop to the selected floor) and restore; browser screenshots retained in `evidence/current-production/viewer-*.png`. The in-app preview cannot load the 263 MB local GLB, so the shipped preview page carries a documented fallback; the browser test proves it works locally.
+
+Digital Reality Lab HSRD-100 (2025), CC BY 4.0 for the human scans — attribution, pinned revision, source archives, changes and limitations retained. Original fictional merchandise/labels and buildings remain project work.
+
+**Still open and not claimed:** remaining full-resolution frames with individual inspect→fix→reinspect, final package/gallery, independent non-owner acceptance. Counts, integrity, or a renderer finishing are not realism acceptance.
+
+---
+
 ## Latest durable R13 checkpoint — actual additive exterior craft and own-UV photographic visitors
 
 Current native b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb/548200008B;144added mesh groups/46000rawvertices/32316rawfaces,112actual upperwindow stone/joinery groups. Existing native759 preexisting geometryUV/pose/materialindices subset exactly conserved383f8f5fab2eddd8d88289632ebe09fc3b17065b87cffdf5c77ceb4c14bee389. Actual freshreopen164furnishedrooms/26floors/36photographicvisitors/12poses/8sourceIDs/92cameras/nomissingimagesPASS. Readonly actual144world-bound checks and conservative decorfaceprojection into measured clear-glass rectangles PASS0paneintrusions. These are technical gates, not facade visual approval/code/clearance certification.

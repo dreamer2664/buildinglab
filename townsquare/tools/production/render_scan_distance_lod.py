@@ -7,7 +7,7 @@ from mathutils.bvhtree import BVHTree
 from mathutils import Vector
 
 def apply_scan_distance_lod(frame):
- if frame['kind']not in ['aerial','town']:return {'applied':False,'reason':'Full source geometry retained for close people/interior/technical views'}
+ if frame['kind']not in ['aerial','town','village','building']:return {'applied':False,'reason':'Full source geometry retained for close people/interior/technical views'}
  s=bpy.context.scene;groups={};records=[]
  for o in s.objects:
   if o.type=='MESH'and o.name.startswith('CROWD_')and not o.hide_render and o.get('source_pose_id'):groups.setdefault(o.data.as_pointer(),[]).append(o)
