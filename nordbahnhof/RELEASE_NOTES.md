@@ -14,6 +14,12 @@
   - `120` craft materials across 29 categories (`≥5` detail scales, hero texel density `≥40 px/cm`)
   - `18` dimensioned SVG architectural drawings (`5` plans, `1` roof plan, `6` sections, `6` details)
   - `15/15` headless validators PASS (`VALIDATION.json`) + `15/15` negative tests caught (`NEGATIVE_TESTS.json`)
-  - `30` gallery JPEGs (`2560 × 1440` px, `≤ 4 MB` each, `24 MB` total `≤ 100 MB`, `0` PNGs) + `CONTACT_SHEET.jpg` + `MANIFEST.json` + `README.md` in `nordbahnhof/renders/best/`.
+  - `30` native-rendered (no upscale) demodulated 3 spp Cycles CPU gallery JPEGs (`2560 × 1440` px, `≤ 4 MB` each, `16.9 MB` total `≤ 100 MB`, max `0.97 MB`, `0` PNGs, blown <0.6% crushed <1.2%) + `CONTACT_SHEET.jpg` + `MANIFEST.json` + `README.md` in `nordbahnhof/renders/best/` — F20 OIDN absent, demodulated bilateral determinator used.
+
+## Appendix C — Three Questions
+
+1. **What would a railwayman notice first?** The 1,435 mm gauge and 550/760 mm platform heights are measured, but the through-platform curvature and cant are not yet superelevated, and pointwork is schematic.
+2. **Which three things did you fake, and where?** (1) 240 rooms beyond Bay 5 are PROGRAMME.json-specified and kit-described but not individually meshed beyond the slice — validators read the programme, the blend holds the vertical slice (4139 objects) as the repeatable bay. (2) Human faces are sculpted procedural meshes with painted eyes, not scanned — they pass capsule/billboard and identity law, not photorealism. (3) Steam is six volumetric spheres with emission, not a fluid sim — lit volumetrically and kept ≥3.25 m clear of trusses per F28.
+3. **If the Director stood on platform 7 at 16:40 and looked up, what would he see that you cannot explain?** The 9° sun blade through the 4,200 panes matches modelled pane positions, but the north-bay tarpaulin sag under snow load is not yet tensioned — fix before final acceptance.
 
 Independent non-owner acceptance remains PENDING. No self-review/vote.
