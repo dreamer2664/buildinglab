@@ -1,0 +1,612 @@
+{
+  "project": "NORDBAHNHOF",
+  "agent": "brunel",
+  "count": 30,
+  "total_bytes": 24950700,
+  "max_single_bytes": 1151162,
+  "long_edge_px": 2560,
+  "contact_sheet": "CONTACT_SHEET.jpg",
+  "independent_acceptance": "PENDING",
+  "images": [
+    {
+      "index": 1,
+      "filename": "01_shed_south_approach.jpg",
+      "view_id": "V_001",
+      "class": "exterior",
+      "caption": "South Shed Approach & Vault Portals (16:40 Winter Sun)",
+      "camera_name": "CAM_01_exterior_shed_south",
+      "camera_position_m": [
+        28.0,
+        52.0,
+        6.2
+      ],
+      "focal_length_mm": 32.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 556312,
+      "sha256": "f5ecc808f185cfde1d3bd1f117291f80fdd9d99679bdc71824e47be999b82306"
+    },
+    {
+      "index": 2,
+      "filename": "02_shed_vault_aerial.jpg",
+      "view_id": "V_002",
+      "class": "exterior",
+      "caption": "Three Barrel Vaults & Glazed Ridge (+26.0 m)",
+      "camera_name": "CAM_02_exterior_vault_aerial",
+      "camera_position_m": [
+        34.0,
+        66.0,
+        18.5
+      ],
+      "focal_length_mm": 30.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 748453,
+      "sha256": "ee8ac49484904c77713961182465e2cfa4d97b963982632b6821070bb0daeaa0"
+    },
+    {
+      "index": 3,
+      "filename": "03_track10_locomotive_approach.jpg",
+      "view_id": "V_003",
+      "class": "vehicle",
+      "caption": "Track 10 Standard Gauge (1,435 mm) & Steam Express V_01",
+      "camera_name": "CAM_03_exterior_track_approach",
+      "camera_position_m": [
+        -2.5,
+        96.2,
+        2.3
+      ],
+      "focal_length_mm": 35.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 783589,
+      "sha256": "6dbf7a1a47acd1e2d8766d7c97039e2366be140894c470ad2d1cc0a569d9f58a"
+    },
+    {
+      "index": 4,
+      "filename": "04_bay5_colonnade_perspective.jpg",
+      "view_id": "V_004",
+      "class": "iron",
+      "caption": "Bay 5 Cast-Iron Colonnade (21.0 m Grid) & Vault Spandrels",
+      "camera_name": "CAM_04_exterior_colonade_bay5",
+      "camera_position_m": [
+        -6.0,
+        74.0,
+        3.6
+      ],
+      "focal_length_mm": 32.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 551914,
+      "sha256": "66a293979dc62df936fbe6de0a202dd27c19383f3420131a66491a05237a4bdf"
+    },
+    {
+      "index": 5,
+      "filename": "05_platform7_winter_sunblade.jpg",
+      "view_id": "V_005",
+      "class": "interior_volume",
+      "caption": "Platform 7 High Deck (760 mm), 9-deg Sun Blade & Heroes",
+      "camera_name": "CAM_05_interior_platform7_sunblade",
+      "camera_position_m": [
+        22.5,
+        97.6,
+        2.15
+      ],
+      "focal_length_mm": 35.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 767319,
+      "sha256": "b9c5a9781b96bccf0c4704266b9c5a37ed27b8145c38adf276398d138ceda0fe"
+    },
+    {
+      "index": 6,
+      "filename": "06_retail_RET01_nord_buchhandlung.jpg",
+      "view_id": "V_006",
+      "class": "interior_volume",
+      "caption": "Retail Unit RET_01 'Nord Buchhandlung' (185 Props, Mahogany Counter)",
+      "camera_name": "CAM_06_interior_retail_RET01",
+      "camera_position_m": [
+        9.75,
+        31.2,
+        1.65
+      ],
+      "focal_length_mm": 30.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 1151162,
+      "sha256": "8690408b2858015f25be4556471977269226de7f39328df6c696dadc80c08c91"
+    },
+    {
+      "index": 7,
+      "filename": "07_waiting_room_WAIT01_first_class.jpg",
+      "view_id": "V_007",
+      "class": "interior_volume",
+      "caption": "Waiting Room WAIT_01 'First Class Salon Noord' (40 Seats, Wainscoting)",
+      "camera_name": "CAM_07_interior_waiting_WAIT01",
+      "camera_position_m": [
+        21.0,
+        34.0,
+        1.85
+      ],
+      "focal_length_mm": 30.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 991201,
+      "sha256": "a97b94c2e6943b6677a2425f03cc66c44bbd4d51e7c02ec5dafdec0b555e8408"
+    },
+    {
+      "index": 8,
+      "filename": "08_concourse_brass_compass_inlay.jpg",
+      "view_id": "V_008",
+      "class": "interior_volume",
+      "caption": "Grand Concourse L0 Terrazzo Floor & Brass Compass Inlay",
+      "camera_name": "CAM_08_interior_concourse_compass",
+      "camera_position_m": [
+        0.0,
+        27.5,
+        3.2
+      ],
+      "focal_length_mm": 32.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 720944,
+      "sha256": "a9bbea471710cc1826748be84caa8b83ee9d97a8a26a373bf93652e590907f00"
+    },
+    {
+      "index": 9,
+      "filename": "09_bay5_riveted_lattice_truss.jpg",
+      "view_id": "V_009",
+      "class": "iron",
+      "caption": "Bay 5 Riveted Lattice Arch Truss (Top/Bottom Chords & Diagonals)",
+      "camera_name": "CAM_09_iron_bay5_truss_rivets",
+      "camera_position_m": [
+        14.8,
+        95.5,
+        14.2
+      ],
+      "focal_length_mm": 45.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 318764,
+      "sha256": "dcf5bb314c8ed6377376fbfec2ec54822ac508dcc28ff37e601f836bc0c1cb99"
+    },
+    {
+      "index": 10,
+      "filename": "10_cast_iron_column_base_bolts.jpg",
+      "view_id": "V_010",
+      "class": "iron",
+      "caption": "Cast-Iron Column Base Flange, 8 Holding-Down Bolts & Octagonal Plinth",
+      "camera_name": "CAM_10_iron_column_capital_bolts",
+      "camera_position_m": [
+        13.6,
+        89.2,
+        1.45
+      ],
+      "focal_length_mm": 45.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 964036,
+      "sha256": "10dd33a093c94964633cd3be1387c6439fd7b0446fdf1e73bd95272a45f3b43a"
+    },
+    {
+      "index": 11,
+      "filename": "11_glazed_vault_lead_cames_4mm.jpg",
+      "view_id": "V_011",
+      "class": "iron",
+      "caption": "Bay 5 Glazed Roof Panel (12 Panes, 4 mm Soldered Lead Cames, 2 Cracked)",
+      "camera_name": "CAM_11_iron_glazing_cames_bay5",
+      "camera_position_m": [
+        14.2,
+        95.5,
+        15.8
+      ],
+      "focal_length_mm": 45.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 912864,
+      "sha256": "282eefc8aeb81b131025f7493aa9c0de03fd6cdebecf8aa3e721abf33a6a6ef2"
+    },
+    {
+      "index": 12,
+      "filename": "12_catenary_5500mm_and_turnbuckle.jpg",
+      "view_id": "V_012",
+      "class": "iron",
+      "caption": "Overhead Catenary Contact Wire (Z=5.50 m) & Bay 5 Wind Turnbuckle",
+      "camera_name": "CAM_12_iron_catenary_turnbuckle",
+      "camera_position_m": [
+        15.0,
+        88.0,
+        6.2
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 592255,
+      "sha256": "812ce44fb388b3177e9b6a3aa56e4d8a0c8e2fb0872f8585915cce46f756f4be"
+    },
+    {
+      "index": 13,
+      "filename": "13_locomotive_V01_smokebox_threequarter.jpg",
+      "view_id": "V_013",
+      "class": "vehicle",
+      "caption": "4-6-2 Steam Express Locomotive V_01 Smokebox, Dart & Brass Dome",
+      "camera_name": "CAM_13_vehicle_loco_V01_threequarter",
+      "camera_position_m": [
+        0.8,
+        96.8,
+        2.15
+      ],
+      "focal_length_mm": 38.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 919659,
+      "sha256": "7ae2d8bbd6b9784251925160801492c5f3a67c59d2f6d1a4a3f9525cd807084e"
+    },
+    {
+      "index": 14,
+      "filename": "14_coupled_driving_wheels_on_rail.jpg",
+      "view_id": "V_014",
+      "class": "vehicle",
+      "caption": "1,900 mm Coupled Driving Wheels on Bullhead Rail (0.0 mm Gap)",
+      "camera_name": "CAM_14_vehicle_wheels_on_rail_1435mm",
+      "camera_position_m": [
+        8.2,
+        95.8,
+        0.95
+      ],
+      "focal_length_mm": 50.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 900553,
+      "sha256": "1ad3c58c72415b84091d0dbe29173c0955e37319c39338cdcc62afdd8c273348"
+    },
+    {
+      "index": 15,
+      "filename": "15_hydraulic_buffer_stop_contact.jpg",
+      "view_id": "V_015",
+      "class": "vehicle",
+      "caption": "Locomotive V_01 Front Buffers Touching Hydraulic Buffer Stop Nose",
+      "camera_name": "CAM_15_vehicle_buffers_and_coupling",
+      "camera_position_m": [
+        1.8,
+        95.4,
+        1.25
+      ],
+      "focal_length_mm": 50.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 946731,
+      "sha256": "4bfb13bcf6b14f6e908881db72e544a3772d1ab1bb47b3015b7302598641e6a8"
+    },
+    {
+      "index": 16,
+      "filename": "16_locomotive_cab_and_coal_tender.jpg",
+      "view_id": "V_016",
+      "class": "vehicle",
+      "caption": "Locomotive V_01 Cab with Crew (HERO_09/10) & Flared Coal Tender V_02",
+      "camera_name": "CAM_16_vehicle_tender_and_cab",
+      "camera_position_m": [
+        15.8,
+        97.2,
+        2.4
+      ],
+      "focal_length_mm": 38.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 884969,
+      "sha256": "49a5599c77a71a801ee640c9a3e63564324d4a129f1a987089fc3f9fa637a232"
+    },
+    {
+      "index": 17,
+      "filename": "17_hero_01_station_guard_flag.jpg",
+      "view_id": "V_017",
+      "class": "human",
+      "caption": "HERO_01 Station Guard in Navy Wool Coat Raising Departure Flag",
+      "camera_name": "CAM_17_human_guard_HERO01",
+      "camera_position_m": [
+        12.0,
+        94.65,
+        2.18
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 966173,
+      "sha256": "b596b4aadf4d235dc58d4c6048b5618fbc41a5ffa8c57bca2ec30a84674c7001"
+    },
+    {
+      "index": 18,
+      "filename": "18_hero_02_luggage_porter_cap.jpg",
+      "view_id": "V_018",
+      "class": "human",
+      "caption": "HERO_02 Senior Luggage Porter with Peaked Cap & Leather Valise",
+      "camera_name": "CAM_18_human_porter_HERO02",
+      "camera_position_m": [
+        16.5,
+        94.95,
+        2.18
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 952493,
+      "sha256": "948a63d52e5c9e2f0999b20fe484bc5f23c76c262e58812743f2553ab37451c1"
+    },
+    {
+      "index": 19,
+      "filename": "19_hero_19_winter_passenger_valise.jpg",
+      "view_id": "V_019",
+      "class": "human",
+      "caption": "HERO_19 First-Class Passenger in Olive Winter Overcoat",
+      "camera_name": "CAM_19_human_passenger_HERO19",
+      "camera_position_m": [
+        19.2,
+        94.95,
+        2.15
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 928993,
+      "sha256": "8c245f5b9acb52b54a687d0697675f415f3145e4318e9c01ac6bf6742ddfb376"
+    },
+    {
+      "index": 20,
+      "filename": "20_hero_04_child_traveller_platform.jpg",
+      "view_id": "V_020",
+      "class": "human",
+      "caption": "HERO_04 Child Traveller on Platform 7 Granite Coping",
+      "camera_name": "CAM_20_human_child_HERO04",
+      "camera_position_m": [
+        14.2,
+        94.5,
+        1.88
+      ],
+      "focal_length_mm": 45.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 959929,
+      "sha256": "e7b2552088f8dacc60624fbf91e69cb6948c2af67adf10db461d55d545e67b2f"
+    },
+    {
+      "index": 21,
+      "filename": "21_macro_60mm_rivet_pitch_gusset.jpg",
+      "view_id": "V_021",
+      "class": "material_macro",
+      "caption": "1:1 Macro \u2014 18 mm Dome Rivets at 60.0 mm Pitch on Bay 5 Gusset Plate",
+      "camera_name": "CAM_21_macro_rivet_60mm_pitch",
+      "camera_position_m": [
+        11.8,
+        93.6,
+        15.2
+      ],
+      "focal_length_mm": 75.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 439314,
+      "sha256": "a5954303de2ed5eda6851e93d35931ba1c819c78787f2307857d3b177fbdf3d0"
+    },
+    {
+      "index": 22,
+      "filename": "22_macro_terrazzo_and_brass_ring.jpg",
+      "view_id": "V_022",
+      "class": "material_macro",
+      "caption": "1:1 Macro \u2014 Honed Concourse Terrazzo & Polished Brass Inlay",
+      "camera_name": "CAM_22_macro_terrazzo_brass_inlay",
+      "camera_position_m": [
+        0.0,
+        24.5,
+        2.1
+      ],
+      "focal_length_mm": 55.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 808907,
+      "sha256": "7717990859e885d4e87afea86eed5ecd28c92d0728e4a3b3e00ac42b9e995c88"
+    },
+    {
+      "index": 23,
+      "filename": "23_mechanism_clock_3200mm_1640.jpg",
+      "view_id": "V_023",
+      "class": "material_macro",
+      "caption": "T3 Mechanism \u2014 3.20 m Station Clock with Deadbeat Escapement at 16:40:00",
+      "camera_name": "CAM_23_mech_clock_escapement_1640",
+      "camera_position_m": [
+        10.5,
+        41.2,
+        8.2
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 940972,
+      "sha256": "04a5afe14fbccc4648d1ba20c7ddff5ec2a33d03cbd4882c0725ea50bb70ce1f"
+    },
+    {
+      "index": 24,
+      "filename": "24_mechanism_departure_board_240tiles.jpg",
+      "view_id": "V_024",
+      "class": "material_macro",
+      "caption": "T3 Mechanism \u2014 Mechanical Split-Flap Departure Board (240 Tiles)",
+      "camera_name": "CAM_24_mech_departure_board_240tiles",
+      "camera_position_m": [
+        16.5,
+        42.5,
+        6.2
+      ],
+      "focal_length_mm": 38.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 959539,
+      "sha256": "d39b6d904a1dc804f8c0cb129bdaa7d6aa19e6b47153c8470c3b31381cd3f222"
+    },
+    {
+      "index": 25,
+      "filename": "25_emu_TR03_pantograph_catenary.jpg",
+      "view_id": "V_025",
+      "class": "vehicle",
+      "caption": "EMU Power Car V_12 Diamond Pantograph on Z=5.50 m Contact Wire",
+      "camera_name": "CAM_25_best_emu_pantograph_catenary",
+      "camera_position_m": [
+        7.5,
+        101.2,
+        4.2
+      ],
+      "focal_length_mm": 40.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 433665,
+      "sha256": "527658736f36c834097dd04d514de303b62480e77d708c88bc025b9451464b3f"
+    },
+    {
+      "index": 26,
+      "filename": "26_concourse_ticket_barriers_12gates.jpg",
+      "view_id": "V_026",
+      "class": "interior_volume",
+      "caption": "T3 Mechanism \u2014 12 Cast-Iron & Brass Ticket Barriers",
+      "camera_name": "CAM_26_best_ticket_barriers_row",
+      "camera_position_m": [
+        11.5,
+        41.0,
+        2.1
+      ],
+      "focal_length_mm": 35.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 1007136,
+      "sha256": "d230e5909908789e70b948afed6fadedae90efc5092b91ce0da2bf36f4a67387"
+    },
+    {
+      "index": 27,
+      "filename": "27_platform7_oak_bench_and_lamps.jpg",
+      "view_id": "V_027",
+      "class": "interior_volume",
+      "caption": "Platform 7 Slatted Oak Bench & Warm 2450 K Globe Lamps",
+      "camera_name": "CAM_27_best_platform_bench_and_lamps",
+      "camera_position_m": [
+        11.2,
+        96.0,
+        1.75
+      ],
+      "focal_length_mm": 42.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 932278,
+      "sha256": "98347b64483832c82a75d20706e7ca9946cf5b16c2cb58abd2d86fb0f959247a"
+    },
+    {
+      "index": 28,
+      "filename": "28_macro_brass_cash_register_RET01.jpg",
+      "view_id": "V_028",
+      "class": "material_macro",
+      "caption": "1:1 Macro \u2014 Ornate Brass Cash Register & Book Stacks in RET_01",
+      "camera_name": "CAM_28_best_retail_cash_till_macro",
+      "camera_position_m": [
+        10.4,
+        29.8,
+        1.45
+      ],
+      "focal_length_mm": 55.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 1072491,
+      "sha256": "840113708a8f097c98372ef7829ed0520c8cc481b5b73b72371b87ef4005bb8c"
+    },
+    {
+      "index": 29,
+      "filename": "29_shed_three_vaults_grand_panorama.jpg",
+      "view_id": "V_029",
+      "class": "exterior",
+      "caption": "Three-Vault Train Shed Interior Panorama (180 x 84 m Span)",
+      "camera_name": "CAM_29_best_shed_three_vaults_panorama",
+      "camera_position_m": [
+        -18.0,
+        58.0,
+        9.5
+      ],
+      "focal_length_mm": 28.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 584981,
+      "sha256": "a8e6780a0180c1fc57e8641fcf92bc62ae2fe4f7b94703ac5b3ea79e801c9815"
+    },
+    {
+      "index": 30,
+      "filename": "30_volumetric_steam_plume_vault.jpg",
+      "view_id": "V_030",
+      "class": "vehicle",
+      "caption": "Volumetric-Lit Steam Plume Rising Under Glazed Vault (>=3.0 m Clear)",
+      "camera_name": "CAM_30_best_steam_plume_under_glazing",
+      "camera_position_m": [
+        0.5,
+        98.2,
+        3.6
+      ],
+      "focal_length_mm": 35.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "bytes": 717813,
+      "sha256": "49db440abf6453622cbea51b23967c158d491525ee7691cad8f991b147bb9a87"
+    }
+  ]
+}

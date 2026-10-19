@@ -1,7 +1,0 @@
-{
-  "validator": "v_iron",
-  "status": "FAIL",
-  "errors": [
-    "TRUSS_01 rivet_pitch_mm 45.0 outside 60 +-1 mm"
-  ]
-}

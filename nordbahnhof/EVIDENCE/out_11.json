@@ -1,7 +1,0 @@
-{
-  "validator": "v_mechanism",
-  "status": "FAIL",
-  "errors": [
-    "Clock seconds hand does not advance in animation"
-  ]
-}

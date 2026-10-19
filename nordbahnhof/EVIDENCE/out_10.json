@@ -1,9 +1,0 @@
-{
-  "validator": "v_glazing",
-  "status": "FAIL",
-  "pane_count": 4199,
-  "distinct_seeds": 4199,
-  "errors": [
-    "Pane count 4199 != 4200"
-  ]
-}

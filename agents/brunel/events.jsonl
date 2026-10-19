@@ -1,2 +1,3 @@
 {"ts":"2026-10-19T14:52:00Z","agent":"brunel","stage":"0","event":"bootstrap_complete","card":"t-20261019-62e7","storagecode_sha":"f021b5050e34"}
 {"ts":"2026-10-19T15:18:00Z","agent":"brunel","stage":"A","event":"stage_a_programme_complete","card":"t-20261019-62e7","rooms":240,"panes":4200,"validators_passed":15,"negative_tests_caught":15}
+{"ts":"2026-10-19T15:46:00Z","agent":"brunel","stage":"B_G","event":"vertical_slice_and_30_best_renders_complete","card":"t-20261019-62e7","objects":3222,"best_renders":30,"defects_closed":6}

@@ -1,7 +1,0 @@
-{
-  "validator": "v_scale",
-  "status": "FAIL",
-  "errors": [
-    "Shed ridge 26.3 outside +26.0 +-0.03 m"
-  ]
-}

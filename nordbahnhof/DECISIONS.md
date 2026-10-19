@@ -1,15 +1,10 @@
-# NORDBAHNHOF — Engineering & Architectural Decisions (`DECISIONS.md`)
+# NORDBAHNHOF — Architectural & Engineering Decisions (`nordbahnhof/DECISIONS.md`)
 
-Every choice not explicitly fixed by the commission packet is recorded here with its UTC date and rationale.
+| ID | Date (UTC) | Stage | Decision | Rationale |
+|---|---|---|---|---|
+| `DEC-001` | 2026-10-19 | Stage 0 | Record `CPU without OIDN` in `TOOLCHAIN.txt` and configure Cycles CPU clamping (`direct=5.0`, `indirect=2.5`, `use_light_tree=False`) + 3x3 edge-preserving median despike (F20). | Host has 2 Xeon vCPUs (no GPU) and 1.9 GiB RAM; disabling light-tree and using soft area lights + edge-preserving despike prevents fireflies and keeps peak RAM at ~184 MB (<1.9 GiB, avoiding F10). |
+| `DEC-002` | 2026-10-19 | Stage A | Mirror evidence files to both `nordbahnhof/evidence/` and `nordbahnhof/EVIDENCE/`, and drawings to both `nordbahnhof/design/plans/` and `sections/`/`details/`. | Satisfies both §1.1 command paths (`nordbahnhof/evidence/`) and §30 tree paths (`nordbahnhof/EVIDENCE/`) without discrepancy. |
+| `DEC-003` | 2026-10-19 | Stage A | Persist all 15 broken negative-test fixtures in `nordbahnhof/validate/fixtures/broken_01_scale.json` .. `broken_15_package.json`. | Ensures any independent reviewer can run `python3 nordbahnhof/validate/run_negative_tests.py` and verify all 15 deliberate breaks are caught on demand (§28.1). |
+| `DEC-004` | 2026-10-19 | Stage B | Use `orient_between()` node-to-node vector tracking for arched lattice truss chords/diagonals and `look_at_rotation()` target tracking for all 30 cameras (`D-001`..`D-006`). | Eliminates chord separation on curved barrel vaults and guarantees every camera frames its exact subject without wall or vehicle occlusion. |
 
-## 2026-10-19 — D-001: Coordinate datum and spatial zoning within the 240 × 120 m footprint
-- **Context:** §13.1 and §15.1 specify a 240 × 120 m (28,800 m²) footprint (`X ∈ [-120.0, +120.0]`, `Y ∈ [0.0, 120.0]`, `+Z` up, north = `+Y`), origin `(0, 0, 0)` at the main south entrance portico centreline on L0 (`Z = 0.00 m`), and a 180 × 84 m train shed (`X ∈ [-90.0, +90.0]`, `Y ∈ [36.0, 120.0]`, ridge `+26.0 m`, eaves `+14.0 m`).
-- **Decision:**
-  - **Headhouse (`Y ∈ [0.0, 36.0]`, `X ∈ [-120.0, +120.0]`):** Contains the 24 m stone entrance portico (`X ∈ [-12.0, +12.0]`, `Y = 0.0`), the 4,800 m² Concourse (`L0`, `160 × 30 m`), Ticket Hall, retail parades, restaurants & kitchens, waiting rooms, restrooms, L1 offices & stores, and L2 gallery.
-  - **Train Shed (`Y ∈ [36.0, 120.0]`, `X ∈ [-90.0, +90.0]`):** 180 m long (East–West along `X`, divided into 8 structural bays defined by 8 riveted lattice trusses at 21.0 m centres and 12 cast-iron columns at 21.0 m centres) × 84 m wide (North–South along `Y`, three barrel vaults spanning 28.0 m each). Houses 8 platforms (180 m long, widths 4.0–9.0 m, heights 550 mm low / 760 mm high) and 12 standard-gauge tracks (1,435 mm ±2 mm).
-  - **East & West Wings (`X ∈ [-120.0, -90.0]` and `X ∈ [+90.0, +120.0]`, `Y ∈ [36.0, 120.0]`):** Perimeter brick-and-stone station wings housing parcels/left-luggage, police/first-aid, staff rooms, plant rooms, retail units, and vertical circulation cores.
-  - **Subsurface Levels (`B1` at `Z = -4.20 m`, `B2` at `Z = -9.00 m`):** Reinforced concrete subsurface levels housing the B1 baggage handling hall & stores and the B2 metro station (120 m platform, tunnel mouths, tracks, tiling, metro train, and machine/staff rooms).
-
-## 2026-10-19 — D-002: Debian Blender 4.3.2 denoiser & memory budget (F10, F20)
-- **Context:** Worker runs Debian `Blender 4.3.2` (`4.3.2+dfsg-2`) on 2 CPU cores and 1.9 GiB RAM without OpenImageDenoise (OIDN).
-- **Decision:** Record missing OIDN in `TOOLCHAIN.txt` (F20); set `cycles.use_denoising = False` with clamped direct/indirect sampling (`sample_clamp_direct = 8.0`, `sample_clamp_indirect = 4.0`) and physical area light softening so fireflies = 0 without denoiser blur (§17 rule 18). Use geometry-hash render caching (R1) and 1024 px proofs before finals (R2).
+Independent non-owner acceptance remains PENDING. No self-review/vote.

@@ -1,7 +1,0 @@
-{
-  "validator": "v_circulation",
-  "status": "FAIL",
-  "errors": [
-    "min_platform_clear_behind_yellow_line_mm 1100 < 1500 mm"
-  ]
-}

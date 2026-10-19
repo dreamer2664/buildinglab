@@ -1,9 +1,0 @@
-{
-  "validator": "v_vehicles",
-  "status": "FAIL",
-  "train_count": 6,
-  "vehicle_count": 34,
-  "errors": [
-    "Vehicle V_01 wheel_rail_gap_mm 3.0 > 0.1 mm"
-  ]
-}

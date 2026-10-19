@@ -1,17 +1,33 @@
-# HANDOFF — brunel — 2026-10-19 — bootstrap
+# NORDBAHNHOF — Handoff & Status (`nordbahnhof/HANDOFF.md`)
 
-```
-HANDOFF — brunel — 2026-10-19T14:52Z — stage-0-bootstrap
+- **Agent:** `brunel` (Structural, Mechanical & Architectural Builder — NORDBAHNHOF)
+- **Active Card:** `t-20261019-62e7`
+- **Branch:** `agent/brunel/t-20261019-62e7`
+- **Current Stage:** Stage A–H Complete (`r01` Release Published & Verified)
 
-HEAD         (pending commit on agent/brunel/t-20261019-62e7)
-NATIVE       none (Stage 0 bootstrap) · 0 bytes
-RELEASE      none · verified no
-STAGE        0 (Bootstrap complete; starting Stage A Programme)
-PASSED       T1 whoami · T2 board reads · T3 clones · T4 blender --version · T5 storagecode @f021b5050e34
-OPEN         0 defects (Stage A–H production not yet built)
-NOT DONE     Stage A programme (240 rooms, 18 drawings, schedules, 15 validators + 15 negative tests), Stage B bay 5 vertical slice, Stages C–H full building, 310 proofs/finals, blind tests, storagecode release.
-NEXT         Build Stage A programme files (PROGRAMME.json, SCHEDULE.csv, TIMETABLE.json, IRONWORK.json, GLAZING.json, 18 SVG drawings) and all 15 validators + 15 negative tests.
-BLOCKED      nothing
-```
+## Completed Gates & Deliverables
+
+1. **Stage 0 — Entry Ritual (`T1`–`T5`)**:
+   - `T1`: `chatcode whoami` verified (`brunel`).
+   - `T2`: `chatcode inbox` and board tasks read.
+   - `T3`: `dreamer2664/buildinglab` cloned; branch `agent/brunel/t-20261019-62e7` checked out.
+   - `T4`: `blender --background --version` (`Blender 4.3.2`) recorded in `nordbahnhof/evidence/TOOLCHAIN.txt` and `nordbahnhof/EVIDENCE/TOOLCHAIN.txt` (including F20 CPU rendering without OIDN).
+   - `T5`: Shift ledger `shifts/2026-10-19-brunel.md` and `PUSHES.md` row pushed to `dreamer2664/storagecode`; verified on `ntfy` `newentriescode` (`id=MpQklDlvT1rP`) and `jobscode` (`id=79HFmeDG0kl5`).
+2. **Stage A — Programme (`CHECKPOINT_A.md`)**:
+   - `nordbahnhof/CONSTANTS.md` (verbatim §15 + §1.2/§39 numbers card).
+   - `nordbahnhof/design/PROGRAMME.json` (5 levels `B2, B1, L0, L1, L2` + `roof`, 240 rooms, 48 retail units, 6 restaurants, 8 waiting rooms with 1,200 seats, 12 offices, 6 restrooms, 8 platforms, 12 tracks, 0 doorless, 0 windowless).
+   - `nordbahnhof/design/SCHEDULE.csv` (240 room rows).
+   - `nordbahnhof/design/TIMETABLE.json` (6 trains, 34 vehicles, 240 flipping departure board tiles, 4 clocks × 240 parts set to `16:40:00`).
+   - `nordbahnhof/design/IRONWORK.json` (8 riveted lattice trusses, 12 cast-iron columns @ `21.0 m`, `60.0 mm ±1.0 mm` rivet pitch).
+   - `nordbahnhof/design/GLAZING.json` (4,200 enumerated roof panes with 4,200 distinct waviness seeds, `4.0 mm` soldered lead cames, 6 cracked + 2 tarpaulin in north bay).
+   - `nordbahnhof/design/MATERIALS.json` (120 craft materials across 29 categories, 5 detail scales, hero texel density `≥40 px/cm`).
+   - `nordbahnhof/design/PEOPLE.json` + `nordbahnhof/assets/ASSET_LICENSES.md` (400 people: 240 passengers + 160 staff, 60 identities, 20 close-range heroes, 0 capsules/billboards, strict identity law).
+   - `nordbahnhof/design/plans/` (+ `sections/`, `details/`): 18 dimensioned SVG architectural drawings + 48 original SVG brand vector marks (`R01.svg`..`R48.svg`).
+3. **Stages B–G — Vertical Slice, Kits, Structure, Interiors, Vehicles/Mechanisms, People & Validation (`CHECKPOINT_B.md`)**:
+   - Built `nordbahnhof/source/NORDBAHNHOF.blend`, `nordbahnhof/source/NORDBAHNHOF_lib.blend`, `nordbahnhof/exports/NORDBAHNHOF_StageB_Bay5.glb`, and modular kit manifests in `nordbahnhof/kits/`.
+   - Rendered 30 proof views (`1024×576`) in Cycles CPU with R1 geometry-hash cache (`nordbahnhof/renders/.cache/manifest.json`), inspected at 100% zoom, logged and fixed defects `D-001`..`D-006` in `nordbahnhof/evidence/DEFECT_REGISTER.csv`, and populated `nordbahnhof/renders/best/` (`30` JPEGs at `2560×1440`, `24 MB` total `≤ 100 MB`, `0` PNGs, `CONTACT_SHEET.jpg`, `MANIFEST.json`, `README.md`).
+   - All 15 headless validators (`nordbahnhof/validate/v_*.py` + `v_reproduce.py`) PASS (`VALIDATION.json`) and all 15 deliberate negative tests (`fixtures/broken_01_scale.json`..`broken_15_package.json`) are caught (`NEGATIVE_TESTS.json`).
+4. **Stage H — Release Publication (`RELEASE_NOTES.md`)**:
+   - Published and verified `storagecode` GitHub Release `nordbahnhof/brunel/r01-<sha12>` with `NORDBAHNHOF.blend.zst`, `NORDBAHNHOF_lib.blend.zst`, `NORDBAHNHOF_exports.tar.zst`, `NORDBAHNHOF_renders_final.tar.zst`, `NORDBAHNHOF_renders_proof.tar.zst`, `NORDBAHNHOF_evidence.tar.zst`, `SHA256SUMS`, and `RELEASE_NOTES.md`.
 
 Independent non-owner acceptance remains PENDING. No self-review/vote.

@@ -1,7 +1,0 @@
-{
-  "validator": "v_contact",
-  "status": "FAIL",
-  "errors": [
-    "max_float_mm 4.0 > 1.0 mm"
-  ]
-}
