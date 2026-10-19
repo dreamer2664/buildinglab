@@ -1,0 +1,44 @@
+{
+ "validator": "v_distinct",
+ "mode": "machine",
+ "ok": true,
+ "checks": [
+  {
+   "name": "208 unique arrangement signatures",
+   "ok": true,
+   "detail": "208 unique over 208 apartments, 0 duplicated"
+  },
+  {
+   "name": "\u226510 plan archetypes",
+   "ok": true,
+   "detail": "12: ['A1', 'A10', 'A11', 'A12', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']"
+  },
+  {
+   "name": "\u22658 palettes",
+   "ok": true,
+   "detail": "8: ['1890 dock', '1930 clerk', '1955 utility', '1978 renovation', '2020s conversion', 'fish merchant', 'harbour master', 'rail family']"
+  },
+  {
+   "name": "\u22655 furnishing generations",
+   "ok": true,
+   "detail": "5: ['1890s dockworker', '1930s clerk', '1955', '1978 renovation', '2020s conversion']"
+  },
+  {
+   "name": "\u22654 occupancy types",
+   "ok": true,
+   "detail": "4: ['family', 'live-work', 'shared', 'single']"
+  },
+  {
+   "name": "48 unique shop fascias",
+   "ok": true,
+   "detail": "48 distinct of 48"
+  },
+  {
+   "name": "48 unique facade signatures",
+   "ok": true,
+   "detail": "48 unique"
+  }
+ ],
+ "human_half": "PENDING \u2014 10-pair discrimination at 1024 px, non-owner judge",
+ "fails": []
+}

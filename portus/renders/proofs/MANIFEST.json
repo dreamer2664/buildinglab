@@ -1,0 +1,92 @@
+{
+ "CAM_01_district_aerial_sw": {
+  "file": "CAM_01_district_aerial_sw.png",
+  "key": "6669bf9d65904bb8259dcde0248345b472a4da47ce31ca77d1d67c873fb2d5e1",
+  "cached": false,
+  "seconds": 55.1,
+  "sha256": "7b43227b15f48e21c4f72635b7e71bac593813685b37b2f3112edb1f11235978",
+  "bytes": 782291,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "312ab886efe69cc47bcafd6d",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+ },
+ "CAM_03_b05_frontage": {
+  "file": "CAM_03_b05_frontage.png",
+  "key": "41a880ef9ebcae44e5a52edff06dc34c4e0c34db86016e208e1fa96e163d6896",
+  "cached": false,
+  "seconds": 66.9,
+  "sha256": "af1671c3318f7bb373432d492f18c499c196d981e701c0f1a8622b593e63819b",
+  "bytes": 696775,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "312ab886efe69cc47bcafd6d",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+ },
+ "CAM_12_interior_living": {
+  "file": "CAM_12_interior_living.png",
+  "key": "8cb0112b6044d0b8bb7fcb995377f80ecc26f867f1b02bc018e12010589dbbc2",
+  "cached": false,
+  "seconds": 16.0,
+  "sha256": "7d874d77063cc1749d19230d6a17fd13a0e37617397863b88450cb33afafe942",
+  "bytes": 155518,
+  "px": [
+   512,
+   288
+  ],
+  "content": "f499426a8d710e91953fd011",
+  "light": "9287bb55744112c6",
+  "native_sha256": "b9f17b23e614605f871d917afada6688a6410d83f3d81de3cf4617505919a2cd"
+ },
+ "CAM_16_shop_floor": {
+  "file": "CAM_16_shop_floor.png",
+  "key": "3dd7e8b5d8f2847bdad25af596d8f302565fd5cde2140782f6d1c11a3eb4f559",
+  "cached": false,
+  "seconds": 15.9,
+  "sha256": "6196275eeef64ba18902228039b5fd06dbea6fe3f9ed4bac1fe04b94ad087048",
+  "bytes": 135014,
+  "px": [
+   512,
+   288
+  ],
+  "content": "f499426a8d710e91953fd011",
+  "light": "9287bb55744112c6",
+  "native_sha256": "b9f17b23e614605f871d917afada6688a6410d83f3d81de3cf4617505919a2cd"
+ },
+ "CAM_02_district_aerial_ne": {
+  "file": "CAM_02_district_aerial_ne.png",
+  "key": "dd115ef6b84d4d312932828915dd017a7ef21978eb9b126d83c225f7153c955d",
+  "cached": false,
+  "seconds": 47.7,
+  "sha256": "85b7fa8521bd4f6f6f393d55a3c04bec2ee93fe851a6d7b6b53848a0f1239b0e",
+  "bytes": 733004,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "312ab886efe69cc47bcafd6d",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+ },
+ "CAM_04_quay_from_water": {
+  "file": "CAM_04_quay_from_water.png",
+  "key": "51ac29b8a49fcefbea4a6c5e1607922aa161acaaaa27b08c634afebbd2000678",
+  "cached": false,
+  "seconds": 64.0,
+  "sha256": "6ddaf2f510c04f8eacd1dd2b422671cc423934d47127744736c11649f9f3e4f8",
+  "bytes": 714287,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "4440a4ce49227189a2d5bf34",
+  "light": "9287bb55744112c6",
+  "native_sha256": "1846e4ef16555d98d4f2c7c582dfecc04ad837c5283377a112bc24476a8397cf"
+ }
+}

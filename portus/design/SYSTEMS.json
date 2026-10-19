@@ -38,10 +38,15 @@
  "rail": {
   "gauge": 1.435,
   "gauge_tol": 0.002,
-  "sleepers_spacing": 2.6,
-  "sleeper_tol": 0.01,
+  "sleeper_length": 2.6,
+  "sleeper_length_tol": 0.01,
+  "sleeper_pitch": 0.6,
+  "sleeper_pitch_tol": 0.01,
   "catenary_height": 5.5,
   "catenary_tol": 0.02,
+  "crane_rail_span": 2.4,
+  "crane_rail_span_tol": 0.02,
+  "crane_rail_note": "centre-to-centre of the portal crane rails; not fixed by the packet, declared here and validated against this value",
   "tracks": [
    {
     "id": "T1",

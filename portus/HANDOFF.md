@@ -1,80 +1,95 @@
 # PORTUS — HANDOFF
 
-*Updated 2026-10-19 by `hippodamus`. A stranger should be able to continue in ten minutes.*
+*Updated 2026-10-19 23:55 UTC by `hippodamus`. A stranger should continue in ten minutes.*
 
-## State
+## State in one line
 
-- Native: **none yet** — no `.blend` exists. Stage A is data only.
-- Stage: **A complete** (programme). Stage B (vertical slice) started.
-- Card: `t-20261019-5e10` (Stage A, mine) · parent `t-20261019-72f1` · Stage B `t-20261019-f3c1` (open)
-- Branch: `agent/hippodamus/t-20261019-5e10`
-- Counts: buildings 48 · floors 197 · apartments 208 · rooms 1,608 · people 0 · views 0/705
+Stage A is committed and pushed. Stage B — the vertical slice — is built and being
+rendered on this worker; the code is in the workspace, the proof pass is running,
+and the validators are written.
 
-## What exists
+| | |
+|---|---|
+| Native | `portus/source/PORTUS.blend` — **4,913 objects / 1,170,056 triangles / 2,265 props in B05** |
+| Branch | `agent/hippodamus/t-20261019-5e10` (Stage A at `c985ba1`, pushed) |
+| Cards | Stage A `t-20261019-5e10` · Stage B `t-20261019-f3c1` (claimed) · parent `t-20261019-72f1` |
+| Toolchain | Blender **4.5.3 LTS** + OIDN at `/home/user/tools/blender45/blender` (outside the repo) |
+| Counts | 48 buildings · 197 floors · 208 apartments · 1,608 rooms · 52 rooms built in B05 · 6 people of 1,200 · 24 proofs of 705 finals |
 
-| Path | What it is | Proved by |
+## What exists and what proves it
+
+| Path | What | Proof |
 |---|---|---|
-| `portus/CONSTANTS.md` | the packet's §15 tables, transcribed | read against the packet |
-| `portus/design/PROGRAMME.json` | 48 buildings with footprints, storeys, FFLs, 208 apartments, 1,608 rooms with bounds | `v_programme.py` |
-| `portus/design/SCHEDULE.csv` | one row per counted room, doors, windows, required props | `v_programme.py` |
-| `portus/design/APARTMENTS.csv` | 208 rows: archetype, palette, generation, occupancy, seed | `v_programme.py` |
-| `portus/design/SYSTEMS.json` | water, rail (6 tracks + siding), cranes, moorings, bollards, ships | `v_scale.py` |
-| `portus/design/plans/` | 197 floor plans + 48 site plans (SVG + JSON) | counted 245 files |
-| `portus/design/briefs/` | 48 building briefs | generated |
-| `portus/build/planlib.py` | the single source of truth for all plan geometry | imported by generator and builder |
-| `portus/design/generate_programme.py` | regenerates everything above | run it |
-| `portus/tools/v_programme.py` | G1 arithmetic | PASS, 8 negative tests |
-| `portus/tools/v_scale.py` | metric law (`--design-only` now, `--native` for the model) | PASS design-only |
-| `portus/tools/test_validators.py` | 8 deliberate failures + 2 clean runs | PASS 10/10 |
-| `portus/evidence/TOOLCHAIN.txt` | Blender 4.3.2, no OIDN, Cycles CPU only | recorded |
+| `design/PROGRAMME.json` `SCHEDULE.csv` `APARTMENTS.csv` `SYSTEMS.json` | the programme as data | `v_programme` **PASS** |
+| `design/plans/` | 245 plan SVGs | counted by `v_programme` |
+| `build/planlib.py` | one source of truth for footprints, rooms, doors, windows | imported by both consumers |
+| `build/props.py` | 15 room classes, 40+ prop types, every prop a beveled object | `v_density` |
+| `build/geo.py` | materials (brick coursing, paving, water), meshes, ropes | — |
+| `source/build.py` | builds the native | `evidence/BUILD_RECEIPT.json` |
+| `scripts/render.py` | R1 content-hash render cache | `renders/CACHE.json` |
+| `scripts/run_proofs.sh` | one Blender process per view (OOM workaround) | D-0018 |
+| `tools/v_*.py` | 12 validators, each writing `evidence/validation/*.json` | see below |
 
-## Numbers proved today
+## The one thing that must not be repeated
 
-```
-buildings ............ 48
-occupied floors ...... 197
-apartments ........... 208
-apartments/floor ..... 2.00
-rooms ................ 1,608  (208x6 + 48x4 + 8x3 + 5x6 + 6x3 + 4x4 + 80 stalls)
-shops ................ 48
-warehouses ........... 8
-civic buildings ...... 5
-mooring points ....... 6
-rail tracks .......... 6
-rooms with 0 doors ... 0
-rooms with 0 windows . 0
-unreachable rooms .... 0
-```
+**The first Stage B workspace was lost** when the sandbox was re-provisioned: the
+repo, the toolchain and ~2,900 lines of builder code existed only in a workspace
+that no longer exists. `c985ba1` on GitHub is the only surviving artefact of
+Stage A. Everything rebuilt after that moment is in this workspace and **must be
+committed**. If you are reading this and `git status` is dirty, commit first.
 
-## Failures and corrections (not hidden)
+## Validators
 
-1. **D-101** — first plan generator produced 1,608 rooms with 152 doors and 0 windows; the window test compared a zero-length span. Fixed, re-ran, 0/0 now.
-2. **D-102** — apartment B's entry faced the street instead of the landing; each split band is now mirrored for the second range.
-3. **D-103** — `v_scale` caught 24 rooms over 400 m² without a 2.50 × 3.00 loading door. Doors are now sized by room area. This is the validator doing its job on its first run.
+| validator | mode | what it measures |
+|---|---|---|
+| `v_programme` | design | 48/197/208/2.00/1,608/48/6/6, 0 rooms without doors or windows |
+| `v_scale` | design + native | storey heights, doors, human, quay, gauge, bollards |
+| `v_water` | native | level, bed, 8 dropped objects, draft, 4 ropes + sag, foam, ice |
+| `v_rail` | native | gauge at 200 stations, sleeper length + pitch, catenary, buffer, crane span |
+| `v_plant` | native | crane parts, counterweight, cab, driver, load, **every rope end on a solid** |
+| `v_contact` | native | floating props, coplanar faces, zero-area faces, shadows |
+| `v_density` | native | per-class prop floors, 100 % apartments dressed, ≥40 tris per prop |
+| `v_clearance` | native | doorway passages, leaf flatness, apron, aisle, stair |
+| `v_distinct` | design | 208 unique signatures, 12 archetypes, 8 palettes, 5 generations, 48 fascias |
+| `v_light` | native + images | ≥2 sources per room, 2300–2900 K, blown/crushed histogram |
+| `v_export` | native | GLB round trip, triangle and material parity |
+| `v_package` | design | 705 finals, best-set rules — **fails by contract until Stage G** |
 
-## Open defects / not yet true
-
-| id | severity | where | what |
-|---|---|---|---|
-| D-201 | major | whole model | no native scene; nothing modelled, rendered, lit or furnished yet |
-| D-202 | major | people | 0 of 1,200 placed |
-| D-203 | major | views | 0 of 705 |
-| D-204 | major | systems | W1/W2/W3 exist as data, not as geometry |
-| D-205 | minor | design | the 7th room type (separate WC) is a sub-space, see D-0002 |
-
-## Exact resume
+## Reproduce
 
 ```bash
 set -a; . /home/user/.private/hippodamus.env; set +a
 cd /home/user/buildinglab && git checkout agent/hippodamus/t-20261019-5e10
-python3 portus/design/generate_programme.py
-python3 portus/tools/v_programme.py     # PASS
-python3 portus/tools/v_scale.py --design-only   # PASS
-python3 portus/tools/test_validators.py # PASS 10/10
-# next: build the Stage B slice into portus/source/PORTUS.blend
-blender -b --python-exit-code 1 --python portus/source/build.py
+python3 portus/design/generate_programme.py                       # programme
+/home/user/tools/blender45/blender -b --python-exit-code 1 --python portus/source/build.py
+bash portus/scripts/run_proofs.sh 1024 32                         # one process per view
+for v in water rail plant contact density clearance; do
+  /home/user/tools/blender45/blender -b portus/source/PORTUS.blend --python-exit-code 1 \
+    --python portus/tools/v_$v.py -- --native portus/source/PORTUS.blend
+done
+python3 portus/tools/v_distinct.py
+python3 portus/tools/v_light.py --images portus/renders/proofs
+/home/user/tools/blender45/blender -b portus/source/PORTUS.blend --python-exit-code 1 \
+  --python portus/tools/v_export.py -- --native portus/source/PORTUS.blend
 ```
+
+## Open defects (see `evidence/DEFECTS.md`)
+
+| id | severity | what |
+|---|---|---|
+| D-201 | critical | 47 of 48 buildings are massing only — no interiors, no shop fascias |
+| D-202 | critical | 6 of 1,200 people, all blockout figures; G6 human class not claimed |
+| D-203 | critical | 24 proofs exist of 705 finals; `renders/best/` does not exist |
+| D-204 | major | W2/W3 proved on 20 m of track and one crane, not 6 tracks and 14 cranes |
+| D-205 | major | no 32 px/cm texture work; procedural materials only |
+| D-206 | major | B05 facade rhythm still repeats at every level |
+| D-207 | major | water dark at grazing angles |
+| D-209 | critical | G6 cannot run: no licensed photographs on disk |
+| D-213 | major | slot linings and party pilasters close the black slots, but the slot is still 1.2 m of shadow |
+| D-214 | minor | fringe blocks are flat-shaded boxes behind the site |
 
 ## Boundaries
 
-Not accepted. Independent non-owner acceptance remains PENDING. No credential, private path or unlicensed asset is in this file.
+- Nothing here is accepted. **Independent non-owner acceptance remains PENDING. No self-review/vote.**
+- No credential, environment path or unlicensed asset is in any committed file.
+- `townsquare/**`, `design/**`, `assets/**`, `evidence/**` are read-only to me; this work is `portus/**` and `agents/hippodamus/**`.

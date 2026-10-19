@@ -147,16 +147,16 @@
 <line x1="40.0" y1="62.5" x2="940.0" y2="62.5" stroke="#e4ded4" stroke-width="0.6"/>
 <line x1="40.0" y1="51.2" x2="940.0" y2="51.2" stroke="#e4ded4" stroke-width="0.6"/>
 <rect x="40.0" y="40.0" width="900.0" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
-<rect x="710.5" y="660.1" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="676.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G01 201.6</text>
-<rect x="710.5" y="626.4" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="642.5" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G02 201.6</text>
-<rect x="710.5" y="592.6" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="608.8" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G03 201.6</text>
-<rect x="710.5" y="558.9" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="575.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G04 201.6</text>
-<rect x="710.5" y="525.1" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="541.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G05 201.6</text>
-<rect x="710.5" y="491.3" width="31.5" height="32.4" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="726.2" y="507.5" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G06 201.6</text>
+<rect x="710.5" y="658.9" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="675.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G01 209.3</text>
+<rect x="710.5" y="625.1" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="641.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G02 209.3</text>
+<rect x="710.5" y="591.4" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="608.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G03 209.3</text>
+<rect x="710.5" y="557.6" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="574.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G04 209.3</text>
+<rect x="710.5" y="523.9" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="540.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G05 209.3</text>
+<rect x="710.5" y="490.1" width="31.5" height="33.6" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="726.2" y="506.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">G06 209.3</text>
 </svg>

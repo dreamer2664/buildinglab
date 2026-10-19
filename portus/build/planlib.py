@@ -161,7 +161,7 @@ def building_specs():
         x0 = 110.0 + 15.0 * i
         specs.append(dict(
             id=f"B{i+1:02d}", block="B", kind="mixed", name=f"Kaimauer {i+1:02d}",
-            x0=x0, y0=B_ROW_Y[0], x1=x0 + 14.4, y1=B_ROW_Y[1],
+            x0=x0, y0=B_ROW_Y[0], x1=x0 + 14.95, y1=B_ROW_Y[1],
             storeys=[dict(h=COM_STOREY, use="commercial")] +
                     [dict(h=RES_STOREY, use="residential") for _ in range(4)],
             wall="brick", roof=ROOFS[(i + 2) % 6], pitch=[36, 40, 42, 38, 34, 44][i % 6],
@@ -193,9 +193,9 @@ def building_specs():
         else:
             x0 = 110.0 + 15.0 * (i - 6)
             y0, y1 = E_SOUTH_Y[0], E_SOUTH_Y[1]
-            x1 = x0 + 14.4
+            x1 = x0 + 14.95
         if i < 6:
-            y1 = y0 + 14.4
+            y1 = y0 + 14.95
         specs.append(dict(
             id=f"E{i+1:02d}", block="E", kind="townhouse", name=f"Kaistrasse {i+1:02d}",
             x0=x0, y0=y0, x1=x1, y1=y1,
@@ -219,7 +219,7 @@ def building_specs():
         y0 = 30.0 + 15.0 * i
         specs.append(dict(
             id=f"G{i+1:02d}", block="G", kind="shed", name=f"Kaiwerkstatt {i+1:02d}",
-            x0=G_ROW_X[0], y0=y0, x1=G_ROW_X[1], y1=y0 + 14.4,
+            x0=G_ROW_X[0], y0=y0, x1=G_ROW_X[1], y1=y0 + 14.95,
             storeys=[dict(h=5.00, use="commercial")],
             wall="cladding", roof="standing_seam", pitch=[12, 14, 10, 16, 12, 14][i % 6],
             module=[3.0, 3.6, 2.4, 4.2, 3.0, 3.6][i % 6], front="W"))

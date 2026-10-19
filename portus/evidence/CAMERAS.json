@@ -1,0 +1,31 @@
+{
+ "cameras": [
+  "CAM_01_district_aerial_sw",
+  "CAM_02_district_aerial_ne",
+  "CAM_03_b05_frontage",
+  "CAM_04_quay_from_water",
+  "CAM_05_waterline_b05",
+  "CAM_06_crane",
+  "CAM_07_crane_cab",
+  "CAM_08_hull_bow",
+  "CAM_09_mooring_rope",
+  "CAM_10_rail_buffer",
+  "CAM_11_rail_catenary",
+  "CAM_12_interior_living",
+  "CAM_13_interior_kitchen",
+  "CAM_14_interior_bedroom",
+  "CAM_15_interior_bathroom",
+  "CAM_16_shop_floor",
+  "CAM_17_entry_hall",
+  "CAM_18_facade_floors",
+  "CAM_19_ice_edge",
+  "CAM_20_basin_wide",
+  "CAM_21_docker_close",
+  "CAM_22_stern_ropes",
+  "CAM_23_b05_section_cut",
+  "CAM_24_gulls_skyline"
+ ],
+ "notes": [],
+ "exterior_clear": true,
+ "exterior_intrusions": []
+}

@@ -229,8 +229,16 @@ def systems():
                    ripple_scales=[0.1, 1.0, 8.0], amplitude_mm=[15, 80],
                    foam_reach=0.150, ice_thickness_mm=[20, 90],
                    dropped_objects=8),
-        rail=dict(gauge=1.435, gauge_tol=0.002, sleepers_spacing=2.6, sleeper_tol=0.010,
-                  catenary_height=5.50, catenary_tol=0.02, tracks=tracks, buffer_stops=4,
+        rail=dict(gauge=1.435, gauge_tol=0.002,
+                  # the packet says "sleepers 2,600 +/- 10 mm": that is the LENGTH of a
+                  # standard sleeper, not the pitch. Both are declared, both validated.
+                  sleeper_length=2.600, sleeper_length_tol=0.010,
+                  sleeper_pitch=0.600, sleeper_pitch_tol=0.010,
+                  catenary_height=5.50, catenary_tol=0.02,
+                  crane_rail_span=2.400, crane_rail_span_tol=0.020,
+                  crane_rail_note="centre-to-centre of the portal crane rails; not fixed by "
+                                  "the packet, declared here and validated against this value",
+                  tracks=tracks, buffer_stops=4,
                   points_groups=3, vehicles=14),
         cranes=cranes, moorings=moorings, bollards=bollards,
         ships=[

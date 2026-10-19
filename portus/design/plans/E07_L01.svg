@@ -6,16 +6,16 @@
 <line x1="320.0" y1="760.0" x2="320.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
 <line x1="520.0" y1="760.0" x2="520.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
 <line x1="720.0" y1="760.0" x2="720.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
-<line x1="40.0" y1="600.0" x2="776.0" y2="600.0" stroke="#e4ded4" stroke-width="0.6"/>
-<line x1="40.0" y1="400.0" x2="776.0" y2="400.0" stroke="#e4ded4" stroke-width="0.6"/>
-<line x1="40.0" y1="200.0" x2="776.0" y2="200.0" stroke="#e4ded4" stroke-width="0.6"/>
-<rect x="40.0" y="40.0" width="736.0" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
-<rect x="381.0" y="138.0" width="297.0" height="524.0" fill="#f0dfc0" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="529.5" y="400.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">sales 97.3</text>
-<rect x="138.0" y="400.0" width="243.0" height="262.0" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="259.5" y="531.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">stock 39.8</text>
-<rect x="138.0" y="242.8" width="243.0" height="157.2" fill="#e3e7d6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="259.5" y="321.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">staff 23.9</text>
-<rect x="138.0" y="138.0" width="243.0" height="104.8" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
-<text x="259.5" y="190.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">wc 15.9</text>
+<line x1="40.0" y1="600.0" x2="798.0" y2="600.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="400.0" x2="798.0" y2="400.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="200.0" x2="798.0" y2="200.0" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="758.0" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="390.9" y="138.0" width="309.1" height="524.0" fill="#f0dfc0" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="545.5" y="400.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">sales 101.2</text>
+<rect x="138.0" y="400.0" width="252.9" height="262.0" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="264.5" y="531.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">stock 41.4</text>
+<rect x="138.0" y="242.8" width="252.9" height="157.2" fill="#e3e7d6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="264.5" y="321.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">staff 24.8</text>
+<rect x="138.0" y="138.0" width="252.9" height="104.8" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="264.5" y="190.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">wc 16.6</text>
 </svg>

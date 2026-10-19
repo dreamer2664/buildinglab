@@ -1,0 +1,31 @@
+{
+ "built": "2026-10-19T23:31:51Z",
+ "objects": 4913,
+ "triangles": 1170056,
+ "blend": "/home/user/buildinglab/portus/source/PORTUS.blend",
+ "log": [
+  "B05 schedule: 52 rooms joined, door/window recomputed from planlib",
+  "setts: 44,000 stones in 4 merged bands",
+  "water: surface, bed + 8 dropped objects, 30 ice plates, 104 foam strips",
+  "quay: walls, coping, 4 ladders, 14 fenders, 55 bollards, stair",
+  "  B05 envelope, level 1: 4 openings",
+  "  B05 envelope, level 2: 12 openings",
+  "  B05 envelope, level 3: 12 openings",
+  "  B05 envelope, level 4: 12 openings",
+  "  B05 envelope, level 5: 12 openings",
+  "B05: 52 windows glazed in the envelope",
+  "B05: 52 rooms built and dressed",
+  "invariant: every prop sits inside its own room",
+  "buildings: 48 (52 rooms in B05; 47 massing only), 26 party piers",
+  "rail: 20 m, 34 sleepers, gauge 1.435, contact wire +5.50 over rail head, buffer stop",
+  "crane: hammerhead, 22 m jib, 8 m counter-jib with counterweight, cab, driver, load on hook",
+  "coaster: 90 x 13.5 m, draft 4.20 m, deck +3.55, 4 ropes in catenary",
+  "people: 6 placed in task poses (blockout figures, G6 not claimed)",
+  "light: Nishita dawn sky (strength 1.35), sun at 6.5 deg, sky fill, water bounce",
+  "24 proof cameras; F8 interior unresolved 0; F8 exterior lenses inside solids 0"
+ ],
+ "blender": "4.5.3 LTS",
+ "engine": "CYCLES CPU, OpenImageDenoise available",
+ "rooms_b05": 52,
+ "props_b05": 2265
+}

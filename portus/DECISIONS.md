@@ -77,3 +77,48 @@ reported per view. Recorded in `evidence/TOOLCHAIN.txt`.
 Blender build. A room rectangle in `SCHEDULE.csv` and the same room in the native
 scene come from one expression, so a plan and a model cannot drift apart. The
 validators read the emitted data, never the generator's memory.
+
+## D-0015 · 2026-10-19 · Terraces are continuous; joints are pilasters
+
+B, E and F were laid as 14.40 m fronts on a 15.00 m pitch, leaving a 0.60 m slot
+between neighbours. From every street camera that slot is a black stripe, and it
+is not how a 19th-century quay terrace is built. Fronts are now 14.95 m (a 50 mm
+joint) and every joint carries a `PARTYWALL_*` pilaster standing 60 mm proud of
+both facades, so the joint reads as a pilaster and nothing is coplanar.
+
+## D-0016 · 2026-10-19 · No two boxes share a plane
+
+The black bands across every elevation were not shadows: ray-casting the dark
+pixels named `B04_FS_L4` — the facade band itself. Each band was built 0.24 m
+below its floor line while the band beneath reached that same line, so two
+coplanar boxes self-shadowed along the seam. Bands now start exactly at the floor
+line and each level is 3 mm proud of the one below, alternating. Dark pixels in
+`CAM_03` fell from 4.3 % to 1.1 %, and the residual is window reveals.
+
+## D-0017 · 2026-10-19 · A punched hole is not a window
+
+One accurate ray-cast reading is worth ten guesses.
+
+Every opening in the envelope now carries a pane, a frame and a dark room behind
+it (`glaze_envelope`, `facade_band`). An open hole in a hollow massing box reads
+as a black cave; a pane with a dark surface 220 mm behind it reads as a window.
+
+## D-0018 · 2026-10-19 · One Blender process per view
+
+At 1024 px with 1.17 M triangles a single process rendering all 24 views is
+killed by the kernel at 1.27 GB RSS (observed twice, `oom-kill`, exit 137).
+`scripts/run_proofs.sh` starts one process per camera: ~2 s to load the blend and
+a clean heap for every frame. Peak RSS per view is now 162 MB at 1024 px.
+
+## D-0019 · 2026-10-19 · Merge per building, not per facade
+
+Emitting one object per facade, one per glazing run and one per reveal produced
+1,920 objects for the massing alone; Cycles spent its budget on BVH nodes and
+thrashing, not samples. Facades, glazing and reveals are now merged per building
+(48 × 3 objects), and the object count fell from 6,861 to 4,913.
+
+## D-0020 · 2026-10-19 · The model does not end in mid-air
+
+`QUAY_SKIRT` carries the site down 6 m to the water on all four sides, an
+outer water plane surrounds it, and `city_fringe()` puts 130+ low-detail blocks
+behind the site so an aerial view shows a district inside a city, not a diorama.
