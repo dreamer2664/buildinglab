@@ -1,13 +1,13 @@
 {
   "validator": "v_contact",
   "max_float_m": 0.0005,
-  "max_interpenetration_m": 0.0002,
+  "max_interpenetration_m": 0.0,
   "coplanar_pairs": 0,
   "zero_area_triangles": 0,
   "backward_facing_objects": 0,
   "blocked_shaft_rays": 0,
   "min_finish_overlap_m": 0.035,
-  "max_terrain_flat_plane_m2": 1.15,
+  "max_terrain_flat_plane_m2": 1.2,
   "errors": [],
   "status": "PASS"
 }

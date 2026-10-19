@@ -1,0 +1,24 @@
+{
+  "tag": "townsquare-stage-b-20261019",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare-stage-b-20261019",
+  "assets": [
+    {
+      "name": "slice_B02_L02.blend",
+      "bytes": 135429256,
+      "sha256": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/slice_B02_L02.blend"
+    },
+    {
+      "name": "slice_B02_L02.glb",
+      "bytes": 114194428,
+      "sha256": "bc4cec7bae7295db37e2e888cfcf02fd62b6bd40a24f861ac8e6416f083cc52c",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/slice_B02_L02.glb"
+    },
+    {
+      "name": "stage_b_renders_final.tar.gz",
+      "bytes": 181333645,
+      "sha256": "fe2b33e03ee5999088e212d7935ac7426f913b78ddebc2ad50ceeec45db8c4b4",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/stage_b_renders_final.tar.gz"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "views": {
+    "proof:slice_01_ext_blue_hour": {
+      "view": "slice_01_ext_blue_hour",
+      "pass": "proof",
+      "png": "renders/proofs/slice_01_ext_blue_hour.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "1faea8ab7352ccee90314b31d792bb58b56de6826e9ce7325e0e599449a3cb65",
+      "bytes": 1430469,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "f1b924cad34a5f9a03c51d0bfe7d9b719c178c18ad565c58f94729b25ecfb9b3",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_02_ext_day": {
+      "view": "slice_02_ext_day",
+      "pass": "proof",
+      "png": "renders/proofs/slice_02_ext_day.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "715207bc393d3948e3252601d328774a1d6e3ccab4401931299cfff0e628e41a",
+      "bytes": 1362569,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "be0fc36e760d6b910e59c25ed64126def8dcc226bc8dafa2917c3a5e26494a82",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_03_cutaway_L02": {
+      "view": "slice_03_cutaway_L02",
+      "pass": "proof",
+      "png": "renders/proofs/slice_03_cutaway_L02.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "c2f6e10d27b4465f043b4a3e80d1397b9e29040e11a47ae3f4fa655dd6026620",
+      "bytes": 1498987,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "ec5bfa30ed750941be528e56326d1af76a9ad4b9c21660e8120c38b8319f22a5",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_04_int_B02_L02_A": {
+      "view": "slice_04_int_B02_L02_A",
+      "pass": "proof",
+      "png": "renders/proofs/slice_04_int_B02_L02_A.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "b4e207b242c1ccc6b02682daacf6c740ce992a95a1be0c35e872e31b5d8e82dd",
+      "bytes": 1706710,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "d1962f492345595ea82216440a6a2c39a647cefae561fa89098b0aa5dd97e4f9",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_05_int_B02_L02_B": {
+      "view": "slice_05_int_B02_L02_B",
+      "pass": "proof",
+      "png": "renders/proofs/slice_05_int_B02_L02_B.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "7768b450c8192984ad6ce9fd3cb406f78d31807f46d936c3f4d756f36aa84311",
+      "bytes": 1677769,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "84dd16c76af07f075d8b4f89956acae6d42a115a952f3ca52d0d8339daaa35cd",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_06_shop_bakery": {
+      "view": "slice_06_shop_bakery",
+      "pass": "proof",
+      "png": "renders/proofs/slice_06_shop_bakery.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "1aeeab53251a8f1cf3bc677f3af1d53a50544eb2a3b64f042378cc8cf6cece8f",
+      "bytes": 1685150,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "4a4f4b6812ead65398e88ea93e6984fbaf8a1882c637a3c562f7ad16181c2b9f",
+      "rendered_at": "2026-10-19T15:12:18Z"
+    },
+    "proof:slice_07_human_daylight_close": {
+      "view": "slice_07_human_daylight_close",
+      "pass": "proof",
+      "png": "renders/proofs/slice_07_human_daylight_close.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "0a63f1ccdda6acbde3841c68c6195e081f8feb2929c0125602fbba332cb72cad",
+      "bytes": 1442738,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "2a04cb032b961807d33c2fbbf1c476b5630e77257ecb696912cd14b8ba481a10",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "proof:slice_08_human_bakery_warm": {
+      "view": "slice_08_human_bakery_warm",
+      "pass": "proof",
+      "png": "renders/proofs/slice_08_human_bakery_warm.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "b0756d699d8171b5c1a78169b50f03ca68e67e87797ab093da6ea570157e18b3",
+      "bytes": 1555741,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "c06db54c0b9407de82c021d473883439469dab0546d0ce5b8844b6c89d942dfd",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "proof:slice_09_terrain_cobbles_slush": {
+      "view": "slice_09_terrain_cobbles_slush",
+      "pass": "proof",
+      "png": "renders/proofs/slice_09_terrain_cobbles_slush.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "196466fd098e35062fbfc9ff7b220307141191187ad02e0461d467ea0760e1ac",
+      "bytes": 1593168,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "578f9050e44f964d25a1b7bdfa095ca579e042b593509773ecfe0118279f452c",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "proof:slice_10_plan_B02_L02": {
+      "view": "slice_10_plan_B02_L02",
+      "pass": "proof",
+      "png": "renders/proofs/slice_10_plan_B02_L02.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "16134d063ec7fcde10cece9bdd59ff2ef277c346602803a63bd834771cfd628f",
+      "bytes": 1643595,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "8f61f33a8c47a7e2f1b1109a292266cd9af771a52fb5f5647aba484954a22a25",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "proof:slice_11_technical_facade": {
+      "view": "slice_11_technical_facade",
+      "pass": "proof",
+      "png": "renders/proofs/slice_11_technical_facade.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "a07b8e20e881aab2a151d280009c564a2681297ad70ae17ac6898d7ca1fecf62",
+      "bytes": 1108698,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "5d64af7f3e4082b11638fd2e690f666a45a030f6271d81ef6176efe08c8c1016",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "proof:slice_12_ext_night": {
+      "view": "slice_12_ext_night",
+      "pass": "proof",
+      "png": "renders/proofs/slice_12_ext_night.png",
+      "px": [
+        1024,
+        576
+      ],
+      "sha256": "9bb7f0d0232d60cf8b6352a709b388b4cde2a8dcaaa4352819e813854d5ccf0f",
+      "bytes": 1428257,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "cb81e38b6ca874a22f62a1b26705e8e5de929b53e52277ce0c87d45e92416007",
+      "rendered_at": "2026-10-19T15:15:00Z"
+    },
+    "final:slice_01_ext_blue_hour": {
+      "view": "slice_01_ext_blue_hour",
+      "pass": "final",
+      "png": "renders/final/slice_01_ext_blue_hour.png",
+      "px": [
+        3840,
+        2160
+      ],
+      "sha256": "07b97d99a8dfe860b4804287e002d176a385e5b62c1d4a9f6a678bdd9143926f",
+      "bytes": 20717463,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "f1b924cad34a5f9a03c51d0bfe7d9b719c178c18ad565c58f94729b25ecfb9b3",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_02_ext_day": {
+      "view": "slice_02_ext_day",
+      "pass": "final",
+      "png": "renders/final/slice_02_ext_day.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "28fd9d90644f3517486f4c92157968a78cf003aeb45959888d51287671a1560e",
+      "bytes": 8778989,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "be0fc36e760d6b910e59c25ed64126def8dcc226bc8dafa2917c3a5e26494a82",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_03_cutaway_L02": {
+      "view": "slice_03_cutaway_L02",
+      "pass": "final",
+      "png": "renders/final/slice_03_cutaway_L02.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "a9c7e293d8d733ea50bd4e1a818f04f8b1dfff3f85db77da244f6f35b81077f0",
+      "bytes": 9562861,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "ec5bfa30ed750941be528e56326d1af76a9ad4b9c21660e8120c38b8319f22a5",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_04_int_B02_L02_A": {
+      "view": "slice_04_int_B02_L02_A",
+      "pass": "final",
+      "png": "renders/final/slice_04_int_B02_L02_A.png",
+      "px": [
+        3840,
+        2160
+      ],
+      "sha256": "f93b0f232d2f8c9cb9fd309244c2f57a624ab6147c954770b294e2e98ca775fe",
+      "bytes": 22931823,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "d1962f492345595ea82216440a6a2c39a647cefae561fa89098b0aa5dd97e4f9",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_05_int_B02_L02_B": {
+      "view": "slice_05_int_B02_L02_B",
+      "pass": "final",
+      "png": "renders/final/slice_05_int_B02_L02_B.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "1029d094451b0c1d225b2ab2fdf337f81022ffccb3933fedc6693eb1acf78481",
+      "bytes": 10100278,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "84dd16c76af07f075d8b4f89956acae6d42a115a952f3ca52d0d8339daaa35cd",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_06_shop_bakery": {
+      "view": "slice_06_shop_bakery",
+      "pass": "final",
+      "png": "renders/final/slice_06_shop_bakery.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "2c903cc54826ec4754cf9beec0bd705a6bd0b0793dc4af335c36b3e064127215",
+      "bytes": 9616772,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "4a4f4b6812ead65398e88ea93e6984fbaf8a1882c637a3c562f7ad16181c2b9f",
+      "rendered_at": "2026-10-19T15:34:55Z"
+    },
+    "final:slice_07_human_daylight_close": {
+      "view": "slice_07_human_daylight_close",
+      "pass": "final",
+      "png": "renders/final/slice_07_human_daylight_close.png",
+      "px": [
+        3840,
+        2160
+      ],
+      "sha256": "dce9f1ed3aa6def63fc31604f1934cfdba2716d976f01594938fb04c18e1e58a",
+      "bytes": 21288330,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "2a04cb032b961807d33c2fbbf1c476b5630e77257ecb696912cd14b8ba481a10",
+      "rendered_at": "2026-10-19T15:39:24Z"
+    },
+    "final:slice_08_human_bakery_warm": {
+      "view": "slice_08_human_bakery_warm",
+      "pass": "final",
+      "png": "renders/final/slice_08_human_bakery_warm.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "bf5e55ebdefb4478f6a6ad782169d75dde807a7335d655819102234641a1f8b0",
+      "bytes": 10287301,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "c06db54c0b9407de82c021d473883439469dab0546d0ce5b8844b6c89d942dfd",
+      "rendered_at": "2026-10-19T15:44:06Z"
+    },
+    "final:slice_09_terrain_cobbles_slush": {
+      "view": "slice_09_terrain_cobbles_slush",
+      "pass": "final",
+      "png": "renders/final/slice_09_terrain_cobbles_slush.png",
+      "px": [
+        3840,
+        2160
+      ],
+      "sha256": "3ccf5dc6c3fe477e9d403e5107dc515c3ed2f899501852a3d172224057d23d0a",
+      "bytes": 23481660,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "578f9050e44f964d25a1b7bdfa095ca579e042b593509773ecfe0118279f452c",
+      "rendered_at": "2026-10-19T15:44:06Z"
+    },
+    "final:slice_10_plan_B02_L02": {
+      "view": "slice_10_plan_B02_L02",
+      "pass": "final",
+      "png": "renders/final/slice_10_plan_B02_L02.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "1f1448ab0608e31c16c2b889c7a49fc165c9703fd27610d24ee9133016c3aa07",
+      "bytes": 10225544,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "8f61f33a8c47a7e2f1b1109a292266cd9af771a52fb5f5647aba484954a22a25",
+      "rendered_at": "2026-10-19T15:46:59Z"
+    },
+    "final:slice_11_technical_facade": {
+      "view": "slice_11_technical_facade",
+      "pass": "final",
+      "png": "renders/final/slice_11_technical_facade.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "1ed29cf9e80b9c59fdbdb7975639edf92f560fb3397e2613393d4467fb395f3c",
+      "bytes": 7014657,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "5d64af7f3e4082b11638fd2e690f666a45a030f6271d81ef6176efe08c8c1016",
+      "rendered_at": "2026-10-19T15:46:59Z"
+    },
+    "final:slice_12_ext_night": {
+      "view": "slice_12_ext_night",
+      "pass": "final",
+      "png": "renders/final/slice_12_ext_night.png",
+      "px": [
+        2560,
+        1440
+      ],
+      "sha256": "53b134520853bbb5d931f41fcdcdf94c292a5bd81af27c942d3fe56d10ca1105",
+      "bytes": 9162237,
+      "native_sha": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+      "geometry_key": "cb81e38b6ca874a22f62a1b26705e8e5de929b53e52277ce0c87d45e92416007",
+      "rendered_at": "2026-10-19T15:48:29Z"
+    }
+  }
+}

@@ -1,28 +1,20 @@
-# Winterlichtplatz II — Running Handoff (`townsquare/HANDOFF.md`)
+# Winterlichtplatz II — Vitruvius Handoff (`townsquare/HANDOFF.md`)
 
-## State
-- Native: `none (Stage A programme complete; entering Stage B vertical slice)` `0 B` · frozen: no · published: `https://github.com/dreamer2664/storagecode` `verified: yes`
-- Stage: A complete (entering Stage B) · card: `t-20261016-339c` · lease expires `2026-10-19T22:19:25Z`
-- Counts: buildings 12/12 (programme) · floors 55/55 res + 12/12 ground (67 plans) · apartments 110/110 · rooms 873 (770 apt + 48 shop + 55 landings) · people 0/220 (programme 220) · views 0/271 (271 defined in `VIEWS.json`)
+- **Agent:** `vitruvius`
+- **Task Card:** `t-20261016-339c` (`[townsquare] Winterlichtplatz II — Complete 3D Winter Town Square + 12 Full Buildings + 110 Homes + 220 People`)
+- **Branch:** `agent/vitruvius/t-20261016-339c`
+- **Current Stage Completed:** Stage B — Vertical Slice (`B02_L02` + `B02_L01` Bäckerei + 15 m flanking `B01`/`B03` + 20 m² cobbled terrain + 4 licensed `HSRD-100` photogrammetry humans + 12 proof & 12 final 4K/1440p views)
+- **Next Stage:** Stage C (`kits/*` & 12-building master assembly `scene/build_buildings.py`)
 
-## What I did since the last handoff
-1. Completed Stage 0 bootstrap (`016614953f96`) and Stage A programme generation (`townsquare/tools/generate_programme.py`).
-2. Generated `townsquare/design/PROGRAMME.json`, `SCHEDULE.csv` (873 rooms), `APARTMENTS.csv` (110 apartments, 110 unique arrangement signatures across 8 archetypes, 6 palettes, 4 generations, 4 occupancies), `VIEWS.json` (271 camera definitions), 67 dimensioned SVG floor plans (`townsquare/design/plans/B01-L01.svg` .. `B12-L05.svg`), and 12 original fictional branding SVGs (`townsquare/assets/branding/B01.svg` .. `B12.svg`).
-3. Built the validator suite (`v_scale.py`, `v_programme.py`, `v_contact.py`, `v_clearance.py`, `v_density.py`, `v_distinct.py`, `v_light.py`, `v_export.py`, `v_package.py`, `v_blind.py`) and `test_validators.py` (10 positive + 10 deliberate negative tests all PASS).
-4. Verified `v_programme.py` under both `python3` and `blender --background --python-exit-code 1`: prints `12 / 55 / 110 / 2.00 / 770 / 48 / 55 / 0 / 0 / 0 / PASS`.
+## Completed Milestones & Checksums
 
-## Failures and corrections (not hidden)
-1. **D-001 (F21/CLI arg parsing under Blender):** Initial invocation of `blender --background --python-exit-code 1 --python townsquare/tools/v_programme.py` without `--` passed Blender's own flags to `argparse.parse_args()` and exited 2. Fixed in `get_cli_argv()` across all `v_*.py` scripts so Blender flags are stripped when `--` is absent. Re-tested under `blender --background --python-exit-code 1` -> PASS (defect D-001 closed).
-
-## Open defects
-| id | severity | where | what |
+| Stage | Deliverable | Path / URL | SHA-256 / Commit |
 |---|---|---|---|
-| — | — | Stage B–G | 3D kit, Stage B vertical slice (`B02/L02`), full 12-building assembly, 220 people, and 271 renders not yet produced |
+| **Stage 0** | Toolchain & Bootstrap | `townsquare/evidence/TOOLCHAIN.txt`, `CONSTANTS.md`, `DECISIONS.md` | `016614953f96` |
+| **Stage A** | Programme, 67 Floor Plans, 12 Brandings, 10 Validators + 10 Negative Tests | `townsquare/design/PROGRAMME.json`, `plans/*.svg`, `tools/v_*.py` | `62f9e059eda6` |
+| **Stage B** | Native Vertical Slice (`.blend`, 3,466 objects, 227,944 tris, 9 packed files) | [slice_B02_L02.blend](https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/slice_B02_L02.blend) (`135,429,256` B) | `2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749` |
+| **Stage B** | GLB Export (round-trip re-imported: 3,466/3,466 meshes) | [slice_B02_L02.glb](https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/slice_B02_L02.glb) (`114,194,428` B) | `bc4cec7bae7295db37e2e888cfcf02fd62b6bd40a24f861ac8e6416f083cc52c` |
+| **Stage B** | 12 Final 4K/1440p PNGs + 12 Proof PNGs + `manifest.json` | [stage_b_renders_final.tar.gz](https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-b-20261019/stage_b_renders_final.tar.gz) (`181,333,645` B) | `fe2b33e03ee5999088e212d7935ac7426f913b78ddebc2ad50ceeec45db8c4b4` |
+| **Stage B** | Visual Inspection & Rejected Study Ledger | `townsquare/evidence/VISUAL_REVIEW.md`, `FAILED_ATTEMPTS.md`, `RIGHTS.md` | All 12 proofs & 12 finals inspected at 100% |
 
-## Exact resume
-1. `blender --background --python-exit-code 1 --python townsquare/scene/build_slice.py`
-2. `python3 townsquare/tools/render_queue.py --slice --pass proof --jobs 2`
-
-## Boundaries
-- Not accepted. Independent non-owner acceptance remains PENDING. No self-review/vote.
-- No credential, private path or unlicensed asset in this file.
+Independent non-owner acceptance remains PENDING. No self-review/vote.

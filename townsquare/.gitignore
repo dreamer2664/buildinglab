@@ -1,0 +1,5 @@
+# Keep large binaries and raw render PNGs out of Git (archived in storagecode Releases)
+scene/*.blend
+scene/*.blend1
+scene/*.glb
+assets/raw/
