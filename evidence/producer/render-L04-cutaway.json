@@ -1,0 +1,82 @@
+{
+  "id": "L04-cutaway",
+  "camera": "CAM_L04_AXON",
+  "level": "L04",
+  "mode": "floor",
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    38.0,
+    -35.0,
+    66.19999694824219
+  ],
+  "camera_lens_mm": 30.0,
+  "camera_type": "ORTHO",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.8741573095321655,
+      -0.3575327694416046,
+      0.3286629915237427,
+      38.0
+    ],
+    [
+      0.4856429100036621,
+      0.6435589790344238,
+      -0.5915933847427368,
+      -35.0
+    ],
+    [
+      3.982040475136728e-09,
+      0.6767585277557373,
+      0.7362050414085388,
+      66.19999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.8741573095321655,
+      -0.3575327694416046,
+      0.3286629915237427,
+      38.0
+    ],
+    [
+      0.4856429100036621,
+      0.6435589790344238,
+      -0.5915933847427368,
+      -35.0
+    ],
+    [
+      3.982040475136728e-09,
+      0.6767585277557373,
+      0.7362050414085388,
+      66.19999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "render_visibility_revision": null,
+  "caption": "L04 / FURNISHED FLOOR CUTAWAY",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "84d81f38a802f7b05d46bd11dd0f67ef0e3f3d00c24bcdff30601f57e4ca0764",
+  "render_completed_utc": "2026-10-16T17:44:44.473572+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

@@ -1,0 +1,81 @@
+{
+  "id": "L02-interior",
+  "camera": "CAM_L02_INTERIOR",
+  "level": "L02",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    0.949999988079071,
+    13.399999618530273,
+    5.420000076293945
+  ],
+  "camera_lens_mm": 25.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.6857770085334778,
+      0.035592347383499146,
+      -0.726940929889679,
+      0.949999988079071
+    ],
+    [
+      -0.7278117537498474,
+      0.03353669494390488,
+      -0.6849564909934998,
+      13.399999618530273
+    ],
+    [
+      -1.3790170783067879e-08,
+      0.9988034963607788,
+      0.048903219401836395,
+      5.420000076293945
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.6857770085334778,
+      0.035592347383499146,
+      -0.726940929889679,
+      0.949999988079071
+    ],
+    [
+      -0.7278117537498474,
+      0.03353669494390488,
+      -0.6849564909934998,
+      13.399999618530273
+    ],
+    [
+      -1.3790170783067879e-08,
+      0.9988034963607788,
+      0.048903219401836395,
+      5.420000076293945
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "caption": "L02 / HOME 2A \u2014 LIVING + KITCHEN",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "3b2f6cce90255f2abc694fbaddfa52c419cc62edac250b96e51eae2ae8cb2419",
+  "render_completed_utc": "2026-10-16T15:53:05.552113+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

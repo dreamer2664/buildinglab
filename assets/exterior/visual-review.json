@@ -1,0 +1,20 @@
+[
+  {
+    "image": "assets/exterior/shell-cutaway-A.png",
+    "sha256": "12ae71c1ca5dfdd9387805939c6bb7cf558ec4e3cf3a4aec0ab414bfae9ddd4a",
+    "opened": true,
+    "stage": "shell inspection A",
+    "observation": "Exterior day: roof edge has a dark 220mm soffit gap, overlapping parapet-corner faces and tight framing. Cutaway: terminal stair rails lack proper landing posts.",
+    "correction": "Added roof edge beams; eliminated parapet/coping corner overlap; widened day camera framing; replaced L06 terminal rails with a supported landing guard. Regenerated shell; reinspection will use updated shell/furnished scene.",
+    "reinspection": "pending"
+  },
+  {
+    "image": "assets/exterior/shell-day-A.png",
+    "sha256": "04bae6b8149ddd815ba0bb07af245bdc21cbb02537694d8e2c31b790e8c56a85",
+    "opened": true,
+    "stage": "shell inspection A",
+    "observation": "Exterior day: roof edge has a dark 220mm soffit gap, overlapping parapet-corner faces and tight framing. Cutaway: terminal stair rails lack proper landing posts.",
+    "correction": "Added roof edge beams; eliminated parapet/coping corner overlap; widened day camera framing; replaced L06 terminal rails with a supported landing guard. Regenerated shell; reinspection will use updated shell/furnished scene.",
+    "reinspection": "pending"
+  }
+]

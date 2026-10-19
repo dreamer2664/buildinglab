@@ -1,0 +1,28 @@
+{
+  "id": "L03-detail",
+  "camera": "CAM_L03_DETAIL",
+  "level": "L03",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    17.97800064086914,
+    0.9176499843597412,
+    8.619999885559082
+  ],
+  "camera_lens_mm": 22.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "L03 / HOME 3C \u2014 BEDROOM 1",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+  "raw_sha256": "4a53716a01cea0640c77cd70069f0a918bb8d0540fc3c64092b099ebf7ee05bc",
+  "render_completed_utc": "2026-10-16T15:09:02.377227+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

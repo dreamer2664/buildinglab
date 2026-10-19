@@ -1,0 +1,28 @@
+{
+  "id": "L05-detail",
+  "camera": "CAM_L05_DETAIL",
+  "level": "L05",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    13.75,
+    16.926469802856445,
+    15.020000457763672
+  ],
+  "camera_lens_mm": 22.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "L05 / HOME 5B \u2014 BEDROOM",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+  "raw_sha256": "91cf2fdc724f6e1cf29e486d84b0b4b4e14f642391493cc4434ae98328bceec5",
+  "render_completed_utc": "2026-10-16T15:28:15.837362+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}
