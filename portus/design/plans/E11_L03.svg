@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">E11 Kaistrasse 11 — L03 (residential, FFL 10.00)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 40.000 px · grid 5 m · 12 rooms</text>
+<line x1="120.0" y1="760.0" x2="120.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="320.0" y1="760.0" x2="320.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="520.0" y1="760.0" x2="520.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="720.0" y1="760.0" x2="720.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="600.0" x2="776.0" y2="600.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="400.0" x2="776.0" y2="400.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="200.0" x2="776.0" y2="200.0" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="736.0" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="547.8" y="528.7" width="130.2" height="133.3" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="612.9" y="595.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 10.8</text>
+<rect x="547.8" y="424.0" width="130.2" height="104.7" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="612.9" y="476.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 8.5</text>
+<rect x="368.5" y="424.0" width="179.3" height="238.0" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="458.2" y="543.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 26.7</text>
+<rect x="237.2" y="517.8" width="131.4" height="144.2" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="302.9" y="589.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 11.8</text>
+<rect x="237.2" y="424.0" width="131.4" height="93.8" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="302.9" y="470.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 7.7</text>
+<rect x="138.0" y="424.0" width="99.2" height="238.0" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="187.6" y="543.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 14.8</text>
+<rect x="485.2" y="138.0" width="192.8" height="238.0" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="581.6" y="257.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 28.7</text>
+<rect x="350.7" y="282.2" width="134.5" height="93.8" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="418.0" y="329.1" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 7.9</text>
+<rect x="350.7" y="138.0" width="134.5" height="144.2" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="418.0" y="210.1" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 12.1</text>
+<rect x="210.9" y="273.9" width="139.8" height="102.1" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="280.8" y="324.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 8.9</text>
+<rect x="210.9" y="138.0" width="139.8" height="135.9" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="280.8" y="205.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 11.9</text>
+<rect x="138.0" y="138.0" width="72.9" height="238.0" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="174.4" y="257.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 10.8</text>
+</svg>

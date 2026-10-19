@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">C02 Werft 02 — L01 (commercial, FFL 2.40)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 22.500 px · grid 5 m · 8 rooms</text>
+<line x1="85.0" y1="760.0" x2="85.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="197.5" y1="760.0" x2="197.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="310.0" y1="760.0" x2="310.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="422.5" y1="760.0" x2="422.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="535.0" y1="760.0" x2="535.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="647.5" y1="760.0" x2="647.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="760.0" y1="760.0" x2="760.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="715.0" x2="850.0" y2="715.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="602.5" x2="850.0" y2="602.5" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="490.0" x2="850.0" y2="490.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="377.5" x2="850.0" y2="377.5" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="265.0" x2="850.0" y2="265.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="152.5" x2="850.0" y2="152.5" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="810.0" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="91.8" y="91.7" width="388.6" height="616.5" fill="#f0dfc0" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="286.0" y="400.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">sales 473.2</text>
+<rect x="480.3" y="400.0" width="317.9" height="308.2" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="639.3" y="554.1" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">stock 193.6</text>
+<rect x="480.3" y="215.1" width="317.9" height="185.0" fill="#e3e7d6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="639.3" y="307.5" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">staff 116.1</text>
+<rect x="480.3" y="91.7" width="317.9" height="123.3" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="639.3" y="153.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">wc 77.4</text>
+<rect x="91.8" y="363.0" width="706.5" height="345.2" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="445.0" y="535.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">machine hall 481.8</text>
+<rect x="91.8" y="239.7" width="706.5" height="123.3" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="445.0" y="301.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">joinery 172.1</text>
+<rect x="91.8" y="153.4" width="706.5" height="86.3" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="445.0" y="196.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">paint shop 120.5</text>
+<rect x="91.8" y="91.7" width="706.5" height="61.7" fill="#e9e4da" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="445.0" y="122.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">foreman office 86.0</text>
+</svg>

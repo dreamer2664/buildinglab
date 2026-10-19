@@ -1,0 +1,73 @@
+{
+ "ok": true,
+ "tests": [
+  {
+   "test": "v_programme: one room removed (1607 != 1608)",
+   "validator": "v_programme.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: rooms: got 1607, required 1608"
+  },
+  {
+   "test": "v_programme: one apartment removed (207 != 208)",
+   "validator": "v_programme.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: apartments: got 207, required 208"
+  },
+  {
+   "test": "v_programme: a room with no door",
+   "validator": "v_programme.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: rooms with 0 doors: got 1, required 0"
+  },
+  {
+   "test": "v_programme: an unreachable room",
+   "validator": "v_programme.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: unreachable rooms: got 1, required 0"
+  },
+  {
+   "test": "v_programme: two buildings share a rhythm triple",
+   "validator": "v_programme.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: unique building rhythm triples: got 47, required 48"
+  },
+  {
+   "test": "v_scale: undeclared 3.55 m storey",
+   "validator": "v_scale.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: every storey height is canonical or declared special: A01 L01 = 3.55 m"
+  },
+  {
+   "test": "v_scale: bollard spacing 9.40 m",
+   "validator": "v_scale.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: bollard spacing 8.00 +-0.05: 2 gaps off: [9.4, 6.6]"
+  },
+  {
+   "test": "v_scale: large hall loses its loading door",
+   "validator": "v_scale.py",
+   "exit": 2,
+   "detected": true,
+   "line": "FAIL: every room > 400 m2 carries a 2.50 x 3.00 loading door: 24 large rooms, 1 without: ['R00001 sales']"
+  },
+  {
+   "test": "v_programme.py clean design",
+   "validator": "v_programme.py",
+   "exit": 0,
+   "detected": true
+  },
+  {
+   "test": "v_scale.py clean design",
+   "validator": "v_scale.py",
+   "exit": 0,
+   "detected": true
+  }
+ ]
+}

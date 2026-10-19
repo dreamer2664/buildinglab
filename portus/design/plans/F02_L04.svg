@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">F02 Harbour Master — L04 (residential, FFL 13.20)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 32.727 px · grid 5 m · 12 rooms</text>
+<line x1="66.2" y1="760.0" x2="66.2" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="229.8" y1="760.0" x2="229.8" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="393.5" y1="760.0" x2="393.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="557.1" y1="760.0" x2="557.1" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="661.8" x2="720.7" y2="661.8" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="498.2" x2="720.7" y2="498.2" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="334.5" x2="720.7" y2="334.5" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="170.9" x2="720.7" y2="170.9" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="680.7" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="120.2" y="120.2" width="240.5" height="176.4" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="208.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 39.6</text>
+<rect x="120.2" y="296.6" width="134.7" height="114.8" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="187.6" y="354.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 14.4</text>
+<rect x="254.9" y="296.6" width="105.8" height="114.8" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="307.8" y="354.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 11.3</text>
+<rect x="120.2" y="411.4" width="153.6" height="133.9" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="197.0" y="478.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 19.2</text>
+<rect x="273.8" y="411.4" width="86.9" height="133.9" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="317.3" y="478.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 10.9</text>
+<rect x="120.2" y="545.3" width="240.5" height="134.5" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="612.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 30.2</text>
+<rect x="400.0" y="120.2" width="240.5" height="164.1" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="202.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 36.8</text>
+<rect x="400.0" y="284.2" width="112.3" height="136.0" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="456.1" y="352.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 14.3</text>
+<rect x="512.3" y="284.2" width="128.3" height="136.0" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="576.4" y="352.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 16.3</text>
+<rect x="400.0" y="420.3" width="105.9" height="134.8" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="453.0" y="487.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 13.3</text>
+<rect x="505.9" y="420.3" width="134.6" height="134.8" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="573.2" y="487.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 16.9</text>
+<rect x="400.0" y="555.1" width="240.5" height="124.8" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="617.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 28.0</text>
+</svg>

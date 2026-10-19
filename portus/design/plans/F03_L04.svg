@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">F03 Fire Station — L04 (residential, FFL 13.20)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 32.727 px · grid 5 m · 12 rooms</text>
+<line x1="157.8" y1="760.0" x2="157.8" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="321.5" y1="760.0" x2="321.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="485.1" y1="760.0" x2="485.1" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="648.7" y1="760.0" x2="648.7" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="661.8" x2="720.7" y2="661.8" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="498.2" x2="720.7" y2="498.2" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="334.5" x2="720.7" y2="334.5" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="170.9" x2="720.7" y2="170.9" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="680.7" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="120.2" y="120.2" width="148.5" height="149.2" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="194.4" y="194.8" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 20.7</text>
+<rect x="268.6" y="120.2" width="92.1" height="149.2" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="314.7" y="194.8" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 12.8</text>
+<rect x="120.2" y="269.4" width="240.5" height="161.0" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="349.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 36.1</text>
+<rect x="120.2" y="430.4" width="142.6" height="146.6" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="191.5" y="503.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 19.5</text>
+<rect x="262.8" y="430.4" width="98.0" height="146.6" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="311.8" y="503.6" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 13.4</text>
+<rect x="120.2" y="576.9" width="240.5" height="102.9" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="628.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 23.1</text>
+<rect x="400.0" y="120.2" width="240.5" height="190.1" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="215.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 42.7</text>
+<rect x="400.0" y="310.3" width="114.4" height="135.5" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="457.2" y="378.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 14.5</text>
+<rect x="514.4" y="310.3" width="126.1" height="135.5" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="577.5" y="378.0" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 16.0</text>
+<rect x="400.0" y="445.8" width="90.3" height="143.7" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="445.1" y="517.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 12.1</text>
+<rect x="490.3" y="445.8" width="150.3" height="143.7" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="565.4" y="517.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 20.2</text>
+<rect x="400.0" y="589.5" width="240.5" height="90.3" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="634.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 20.3</text>
+</svg>

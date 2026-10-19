@@ -1,0 +1,272 @@
+{
+ "validator": "v_programme",
+ "design": "/home/user/buildinglab/portus/design",
+ "ok": true,
+ "checks": [
+  {
+   "name": "buildings",
+   "got": 48,
+   "want": 48,
+   "ok": true
+  },
+  {
+   "name": "occupied floors",
+   "got": 197,
+   "want": 197,
+   "ok": true
+  },
+  {
+   "name": "apartments",
+   "got": 208,
+   "want": 208,
+   "ok": true
+  },
+  {
+   "name": "apartments/floor",
+   "got": 2.0,
+   "want": 2.0,
+   "ok": true
+  },
+  {
+   "name": "rooms",
+   "got": 1608,
+   "want": 1608,
+   "ok": true
+  },
+  {
+   "name": "rooms == 208x6+48x4+8x3+5x6+6x3+4x4+80",
+   "got": 1608,
+   "want": 1608,
+   "ok": true
+  },
+  {
+   "name": "shops",
+   "got": 48,
+   "want": 48,
+   "ok": true
+  },
+  {
+   "name": "warehouses",
+   "got": 8,
+   "want": 8,
+   "ok": true
+  },
+  {
+   "name": "civic buildings",
+   "got": 5,
+   "want": 5,
+   "ok": true
+  },
+  {
+   "name": "mooring points",
+   "got": 6,
+   "want": 6,
+   "ok": true
+  },
+  {
+   "name": "rail tracks",
+   "got": 6,
+   "want": 6,
+   "ok": true
+  },
+  {
+   "name": "blocks",
+   "got": 6,
+   "want": 6,
+   "ok": true
+  },
+  {
+   "name": "quarters named",
+   "got": 7,
+   "want": 7,
+   "ok": true
+  },
+  {
+   "name": "market stalls",
+   "got": 80,
+   "want": 80,
+   "ok": true
+  },
+  {
+   "name": "rooms with 0 doors",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "rooms with 0 windows",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "unreachable rooms",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "stalls without an aisle front",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "block A buildings",
+   "got": 8,
+   "want": 8,
+   "ok": true
+  },
+  {
+   "name": "block B buildings",
+   "got": 12,
+   "want": 12,
+   "ok": true
+  },
+  {
+   "name": "block C buildings",
+   "got": 4,
+   "want": 4,
+   "ok": true
+  },
+  {
+   "name": "block D buildings",
+   "got": 1,
+   "want": 1,
+   "ok": true
+  },
+  {
+   "name": "block E buildings",
+   "got": 12,
+   "want": 12,
+   "ok": true
+  },
+  {
+   "name": "block F buildings",
+   "got": 5,
+   "want": 5,
+   "ok": true
+  },
+  {
+   "name": "block G buildings",
+   "got": 6,
+   "want": 6,
+   "ok": true
+  },
+  {
+   "name": "block B apartments",
+   "got": 96,
+   "want": 96,
+   "ok": true
+  },
+  {
+   "name": "block E apartments",
+   "got": 72,
+   "want": 72,
+   "ok": true
+  },
+  {
+   "name": "block F apartments",
+   "got": 40,
+   "want": 40,
+   "ok": true
+  },
+  {
+   "name": "floors with != 2 apartments",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "duplicate room ids",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "rooms with area <= 1 m2",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "rooms outside the site",
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  {
+   "name": "plan archetypes >= 10",
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  {
+   "name": "palettes >= 8",
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  {
+   "name": "furnishing generations >= 5",
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  {
+   "name": "occupancy types >= 4",
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  {
+   "name": "unique building rhythm triples",
+   "got": 48,
+   "want": 48,
+   "ok": true
+  },
+  {
+   "name": "water level",
+   "got": 0.0,
+   "want": 0.0,
+   "ok": true
+  },
+  {
+   "name": "rail gauge",
+   "got": 1.435,
+   "want": 1.435,
+   "ok": true
+  },
+  {
+   "name": "catenary height",
+   "got": 5.5,
+   "want": 5.5,
+   "ok": true
+  },
+  {
+   "name": "ships",
+   "got": 3,
+   "want": 3,
+   "ok": true
+  },
+  {
+   "name": "cranes",
+   "got": 4,
+   "want": 4,
+   "ok": true
+  },
+  {
+   "name": "gantry cranes",
+   "got": 2,
+   "want": 2,
+   "ok": true
+  },
+  {
+   "name": "wall jib cranes",
+   "got": 8,
+   "want": 8,
+   "ok": true
+  }
+ ],
+ "fails": []
+}

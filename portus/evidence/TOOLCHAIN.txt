@@ -1,0 +1,16 @@
+Blender 4.3.2
+Blender 4.3.2
+
+# Recorded 2026-10-19 by hippodamus on the worker
+OS              Debian GNU/Linux 13 (trixie), kernel 6.1.158+
+CPU             2 vCPU Intel Xeon @ 2.60 GHz
+RAM             1.9 GiB
+DISK            25 GB (21 GB free at entry)
+BLENDER         Blender 4.3.2 (Debian package 4.3.2+dfsg-2), Python 3.13.16
+RENDER ENGINES  Cycles CPU only.
+                EEVEE-Next cannot render headless here: EGL Error 0x3009 EGL_BAD_MATCH (no GPU context).
+OIDN            ABSENT. _cycles.with_openimagedenoise == False.
+                Cycles aborts if denoising is enabled ("Failed to denoise, build has no OpenImageDenoise support").
+                => every render disables denoise; noise is controlled by samples only. Recorded per F20.
+GPU             none
+GIT             2.x, credential helper injects GITHUB_TOKEN at run time; token never written to .git/config or a URL

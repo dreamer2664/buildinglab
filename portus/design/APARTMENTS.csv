@@ -1,0 +1,209 @@
+apartment_id,building,block,level,ffl,index,archetype,palette,generation,occupancy,seed
+B01-L02-A,B01,B,1,6.8,1,A6,1978 renovation,1955,live-work,PORTUS:B01-L02-A:001
+B01-L02-B,B01,B,1,6.8,2,A11,rail family,2020s conversion,shared,PORTUS:B01-L02-B:002
+B01-L03-A,B01,B,2,10.0,3,A4,1930 clerk,1930s clerk,single,PORTUS:B01-L03-A:003
+B01-L03-B,B01,B,2,10.0,4,A9,2020s conversion,1978 renovation,family,PORTUS:B01-L03-B:004
+B01-L04-A,B01,B,3,13.2,5,A2,harbour master,1890s dockworker,live-work,PORTUS:B01-L04-A:005
+B01-L04-B,B01,B,3,13.2,6,A7,1955 utility,1955,shared,PORTUS:B01-L04-B:006
+B01-L05-A,B01,B,4,16.4,7,A12,fish merchant,2020s conversion,single,PORTUS:B01-L05-A:007
+B01-L05-B,B01,B,4,16.4,8,A5,1890 dock,1930s clerk,family,PORTUS:B01-L05-B:008
+B02-L02-A,B02,B,1,6.8,9,A10,1978 renovation,1978 renovation,live-work,PORTUS:B02-L02-A:009
+B02-L02-B,B02,B,1,6.8,10,A3,rail family,1890s dockworker,shared,PORTUS:B02-L02-B:010
+B02-L03-A,B02,B,2,10.0,11,A8,1930 clerk,1955,single,PORTUS:B02-L03-A:011
+B02-L03-B,B02,B,2,10.0,12,A1,2020s conversion,2020s conversion,family,PORTUS:B02-L03-B:012
+B02-L04-A,B02,B,3,13.2,13,A6,harbour master,1930s clerk,live-work,PORTUS:B02-L04-A:013
+B02-L04-B,B02,B,3,13.2,14,A11,1955 utility,1978 renovation,shared,PORTUS:B02-L04-B:014
+B02-L05-A,B02,B,4,16.4,15,A4,fish merchant,1890s dockworker,single,PORTUS:B02-L05-A:015
+B02-L05-B,B02,B,4,16.4,16,A9,1890 dock,1955,family,PORTUS:B02-L05-B:016
+B03-L02-A,B03,B,1,6.8,17,A2,1978 renovation,2020s conversion,live-work,PORTUS:B03-L02-A:017
+B03-L02-B,B03,B,1,6.8,18,A7,rail family,1930s clerk,shared,PORTUS:B03-L02-B:018
+B03-L03-A,B03,B,2,10.0,19,A12,1930 clerk,1978 renovation,single,PORTUS:B03-L03-A:019
+B03-L03-B,B03,B,2,10.0,20,A5,2020s conversion,1890s dockworker,family,PORTUS:B03-L03-B:020
+B03-L04-A,B03,B,3,13.2,21,A10,harbour master,1955,live-work,PORTUS:B03-L04-A:021
+B03-L04-B,B03,B,3,13.2,22,A3,1955 utility,2020s conversion,shared,PORTUS:B03-L04-B:022
+B03-L05-A,B03,B,4,16.4,23,A8,fish merchant,1930s clerk,single,PORTUS:B03-L05-A:023
+B03-L05-B,B03,B,4,16.4,24,A1,1890 dock,1978 renovation,family,PORTUS:B03-L05-B:024
+B04-L02-A,B04,B,1,6.8,25,A6,1978 renovation,1890s dockworker,live-work,PORTUS:B04-L02-A:025
+B04-L02-B,B04,B,1,6.8,26,A11,rail family,1955,shared,PORTUS:B04-L02-B:026
+B04-L03-A,B04,B,2,10.0,27,A4,1930 clerk,2020s conversion,single,PORTUS:B04-L03-A:027
+B04-L03-B,B04,B,2,10.0,28,A9,2020s conversion,1930s clerk,family,PORTUS:B04-L03-B:028
+B04-L04-A,B04,B,3,13.2,29,A2,harbour master,1978 renovation,live-work,PORTUS:B04-L04-A:029
+B04-L04-B,B04,B,3,13.2,30,A7,1955 utility,1890s dockworker,shared,PORTUS:B04-L04-B:030
+B04-L05-A,B04,B,4,16.4,31,A12,fish merchant,1955,single,PORTUS:B04-L05-A:031
+B04-L05-B,B04,B,4,16.4,32,A5,1890 dock,2020s conversion,family,PORTUS:B04-L05-B:032
+B05-L02-A,B05,B,1,6.8,33,A10,1978 renovation,1930s clerk,live-work,PORTUS:B05-L02-A:033
+B05-L02-B,B05,B,1,6.8,34,A3,rail family,1978 renovation,shared,PORTUS:B05-L02-B:034
+B05-L03-A,B05,B,2,10.0,35,A8,1930 clerk,1890s dockworker,single,PORTUS:B05-L03-A:035
+B05-L03-B,B05,B,2,10.0,36,A1,2020s conversion,1955,family,PORTUS:B05-L03-B:036
+B05-L04-A,B05,B,3,13.2,37,A6,harbour master,2020s conversion,live-work,PORTUS:B05-L04-A:037
+B05-L04-B,B05,B,3,13.2,38,A11,1955 utility,1930s clerk,shared,PORTUS:B05-L04-B:038
+B05-L05-A,B05,B,4,16.4,39,A4,fish merchant,1978 renovation,single,PORTUS:B05-L05-A:039
+B05-L05-B,B05,B,4,16.4,40,A9,1890 dock,1890s dockworker,family,PORTUS:B05-L05-B:040
+B06-L02-A,B06,B,1,6.8,41,A2,1978 renovation,1955,live-work,PORTUS:B06-L02-A:041
+B06-L02-B,B06,B,1,6.8,42,A7,rail family,2020s conversion,shared,PORTUS:B06-L02-B:042
+B06-L03-A,B06,B,2,10.0,43,A12,1930 clerk,1930s clerk,single,PORTUS:B06-L03-A:043
+B06-L03-B,B06,B,2,10.0,44,A5,2020s conversion,1978 renovation,family,PORTUS:B06-L03-B:044
+B06-L04-A,B06,B,3,13.2,45,A10,harbour master,1890s dockworker,live-work,PORTUS:B06-L04-A:045
+B06-L04-B,B06,B,3,13.2,46,A3,1955 utility,1955,shared,PORTUS:B06-L04-B:046
+B06-L05-A,B06,B,4,16.4,47,A8,fish merchant,2020s conversion,single,PORTUS:B06-L05-A:047
+B06-L05-B,B06,B,4,16.4,48,A1,1890 dock,1930s clerk,family,PORTUS:B06-L05-B:048
+B07-L02-A,B07,B,1,6.8,49,A6,1978 renovation,1978 renovation,live-work,PORTUS:B07-L02-A:049
+B07-L02-B,B07,B,1,6.8,50,A11,rail family,1890s dockworker,shared,PORTUS:B07-L02-B:050
+B07-L03-A,B07,B,2,10.0,51,A4,1930 clerk,1955,single,PORTUS:B07-L03-A:051
+B07-L03-B,B07,B,2,10.0,52,A9,2020s conversion,2020s conversion,family,PORTUS:B07-L03-B:052
+B07-L04-A,B07,B,3,13.2,53,A2,harbour master,1930s clerk,live-work,PORTUS:B07-L04-A:053
+B07-L04-B,B07,B,3,13.2,54,A7,1955 utility,1978 renovation,shared,PORTUS:B07-L04-B:054
+B07-L05-A,B07,B,4,16.4,55,A12,fish merchant,1890s dockworker,single,PORTUS:B07-L05-A:055
+B07-L05-B,B07,B,4,16.4,56,A5,1890 dock,1955,family,PORTUS:B07-L05-B:056
+B08-L02-A,B08,B,1,6.8,57,A10,1978 renovation,2020s conversion,live-work,PORTUS:B08-L02-A:057
+B08-L02-B,B08,B,1,6.8,58,A3,rail family,1930s clerk,shared,PORTUS:B08-L02-B:058
+B08-L03-A,B08,B,2,10.0,59,A8,1930 clerk,1978 renovation,single,PORTUS:B08-L03-A:059
+B08-L03-B,B08,B,2,10.0,60,A1,2020s conversion,1890s dockworker,family,PORTUS:B08-L03-B:060
+B08-L04-A,B08,B,3,13.2,61,A6,harbour master,1955,live-work,PORTUS:B08-L04-A:061
+B08-L04-B,B08,B,3,13.2,62,A11,1955 utility,2020s conversion,shared,PORTUS:B08-L04-B:062
+B08-L05-A,B08,B,4,16.4,63,A4,fish merchant,1930s clerk,single,PORTUS:B08-L05-A:063
+B08-L05-B,B08,B,4,16.4,64,A9,1890 dock,1978 renovation,family,PORTUS:B08-L05-B:064
+B09-L02-A,B09,B,1,6.8,65,A2,1978 renovation,1890s dockworker,live-work,PORTUS:B09-L02-A:065
+B09-L02-B,B09,B,1,6.8,66,A7,rail family,1955,shared,PORTUS:B09-L02-B:066
+B09-L03-A,B09,B,2,10.0,67,A12,1930 clerk,2020s conversion,single,PORTUS:B09-L03-A:067
+B09-L03-B,B09,B,2,10.0,68,A5,2020s conversion,1930s clerk,family,PORTUS:B09-L03-B:068
+B09-L04-A,B09,B,3,13.2,69,A10,harbour master,1978 renovation,live-work,PORTUS:B09-L04-A:069
+B09-L04-B,B09,B,3,13.2,70,A3,1955 utility,1890s dockworker,shared,PORTUS:B09-L04-B:070
+B09-L05-A,B09,B,4,16.4,71,A8,fish merchant,1955,single,PORTUS:B09-L05-A:071
+B09-L05-B,B09,B,4,16.4,72,A1,1890 dock,2020s conversion,family,PORTUS:B09-L05-B:072
+B10-L02-A,B10,B,1,6.8,73,A6,1978 renovation,1930s clerk,live-work,PORTUS:B10-L02-A:073
+B10-L02-B,B10,B,1,6.8,74,A11,rail family,1978 renovation,shared,PORTUS:B10-L02-B:074
+B10-L03-A,B10,B,2,10.0,75,A4,1930 clerk,1890s dockworker,single,PORTUS:B10-L03-A:075
+B10-L03-B,B10,B,2,10.0,76,A9,2020s conversion,1955,family,PORTUS:B10-L03-B:076
+B10-L04-A,B10,B,3,13.2,77,A2,harbour master,2020s conversion,live-work,PORTUS:B10-L04-A:077
+B10-L04-B,B10,B,3,13.2,78,A7,1955 utility,1930s clerk,shared,PORTUS:B10-L04-B:078
+B10-L05-A,B10,B,4,16.4,79,A12,fish merchant,1978 renovation,single,PORTUS:B10-L05-A:079
+B10-L05-B,B10,B,4,16.4,80,A5,1890 dock,1890s dockworker,family,PORTUS:B10-L05-B:080
+B11-L02-A,B11,B,1,6.8,81,A10,1978 renovation,1955,live-work,PORTUS:B11-L02-A:081
+B11-L02-B,B11,B,1,6.8,82,A3,rail family,2020s conversion,shared,PORTUS:B11-L02-B:082
+B11-L03-A,B11,B,2,10.0,83,A8,1930 clerk,1930s clerk,single,PORTUS:B11-L03-A:083
+B11-L03-B,B11,B,2,10.0,84,A1,2020s conversion,1978 renovation,family,PORTUS:B11-L03-B:084
+B11-L04-A,B11,B,3,13.2,85,A6,harbour master,1890s dockworker,live-work,PORTUS:B11-L04-A:085
+B11-L04-B,B11,B,3,13.2,86,A11,1955 utility,1955,shared,PORTUS:B11-L04-B:086
+B11-L05-A,B11,B,4,16.4,87,A4,fish merchant,2020s conversion,single,PORTUS:B11-L05-A:087
+B11-L05-B,B11,B,4,16.4,88,A9,1890 dock,1930s clerk,family,PORTUS:B11-L05-B:088
+B12-L02-A,B12,B,1,6.8,89,A2,1978 renovation,1978 renovation,live-work,PORTUS:B12-L02-A:089
+B12-L02-B,B12,B,1,6.8,90,A7,rail family,1890s dockworker,shared,PORTUS:B12-L02-B:090
+B12-L03-A,B12,B,2,10.0,91,A12,1930 clerk,1955,single,PORTUS:B12-L03-A:091
+B12-L03-B,B12,B,2,10.0,92,A5,2020s conversion,2020s conversion,family,PORTUS:B12-L03-B:092
+B12-L04-A,B12,B,3,13.2,93,A10,harbour master,1930s clerk,live-work,PORTUS:B12-L04-A:093
+B12-L04-B,B12,B,3,13.2,94,A3,1955 utility,1978 renovation,shared,PORTUS:B12-L04-B:094
+B12-L05-A,B12,B,4,16.4,95,A8,fish merchant,1890s dockworker,single,PORTUS:B12-L05-A:095
+B12-L05-B,B12,B,4,16.4,96,A1,1890 dock,1955,family,PORTUS:B12-L05-B:096
+E01-L02-A,E01,E,1,6.8,97,A6,1978 renovation,2020s conversion,live-work,PORTUS:E01-L02-A:097
+E01-L02-B,E01,E,1,6.8,98,A11,rail family,1930s clerk,shared,PORTUS:E01-L02-B:098
+E01-L03-A,E01,E,2,10.0,99,A4,1930 clerk,1978 renovation,single,PORTUS:E01-L03-A:099
+E01-L03-B,E01,E,2,10.0,100,A9,2020s conversion,1890s dockworker,family,PORTUS:E01-L03-B:100
+E01-L04-A,E01,E,3,13.2,101,A2,harbour master,1955,live-work,PORTUS:E01-L04-A:101
+E01-L04-B,E01,E,3,13.2,102,A7,1955 utility,2020s conversion,shared,PORTUS:E01-L04-B:102
+E02-L02-A,E02,E,1,6.8,103,A12,fish merchant,1930s clerk,single,PORTUS:E02-L02-A:103
+E02-L02-B,E02,E,1,6.8,104,A5,1890 dock,1978 renovation,family,PORTUS:E02-L02-B:104
+E02-L03-A,E02,E,2,10.0,105,A10,1978 renovation,1890s dockworker,live-work,PORTUS:E02-L03-A:105
+E02-L03-B,E02,E,2,10.0,106,A3,rail family,1955,shared,PORTUS:E02-L03-B:106
+E02-L04-A,E02,E,3,13.2,107,A8,1930 clerk,2020s conversion,single,PORTUS:E02-L04-A:107
+E02-L04-B,E02,E,3,13.2,108,A1,2020s conversion,1930s clerk,family,PORTUS:E02-L04-B:108
+E03-L02-A,E03,E,1,6.8,109,A6,harbour master,1978 renovation,live-work,PORTUS:E03-L02-A:109
+E03-L02-B,E03,E,1,6.8,110,A11,1955 utility,1890s dockworker,shared,PORTUS:E03-L02-B:110
+E03-L03-A,E03,E,2,10.0,111,A4,fish merchant,1955,single,PORTUS:E03-L03-A:111
+E03-L03-B,E03,E,2,10.0,112,A9,1890 dock,2020s conversion,family,PORTUS:E03-L03-B:112
+E03-L04-A,E03,E,3,13.2,113,A2,1978 renovation,1930s clerk,live-work,PORTUS:E03-L04-A:113
+E03-L04-B,E03,E,3,13.2,114,A7,rail family,1978 renovation,shared,PORTUS:E03-L04-B:114
+E04-L02-A,E04,E,1,6.8,115,A12,1930 clerk,1890s dockworker,single,PORTUS:E04-L02-A:115
+E04-L02-B,E04,E,1,6.8,116,A5,2020s conversion,1955,family,PORTUS:E04-L02-B:116
+E04-L03-A,E04,E,2,10.0,117,A10,harbour master,2020s conversion,live-work,PORTUS:E04-L03-A:117
+E04-L03-B,E04,E,2,10.0,118,A3,1955 utility,1930s clerk,shared,PORTUS:E04-L03-B:118
+E04-L04-A,E04,E,3,13.2,119,A8,fish merchant,1978 renovation,single,PORTUS:E04-L04-A:119
+E04-L04-B,E04,E,3,13.2,120,A1,1890 dock,1890s dockworker,family,PORTUS:E04-L04-B:120
+E05-L02-A,E05,E,1,6.8,121,A6,1978 renovation,1955,live-work,PORTUS:E05-L02-A:121
+E05-L02-B,E05,E,1,6.8,122,A11,rail family,2020s conversion,shared,PORTUS:E05-L02-B:122
+E05-L03-A,E05,E,2,10.0,123,A4,1930 clerk,1930s clerk,single,PORTUS:E05-L03-A:123
+E05-L03-B,E05,E,2,10.0,124,A9,2020s conversion,1978 renovation,family,PORTUS:E05-L03-B:124
+E05-L04-A,E05,E,3,13.2,125,A2,harbour master,1890s dockworker,live-work,PORTUS:E05-L04-A:125
+E05-L04-B,E05,E,3,13.2,126,A7,1955 utility,1955,shared,PORTUS:E05-L04-B:126
+E06-L02-A,E06,E,1,6.8,127,A12,fish merchant,2020s conversion,single,PORTUS:E06-L02-A:127
+E06-L02-B,E06,E,1,6.8,128,A5,1890 dock,1930s clerk,family,PORTUS:E06-L02-B:128
+E06-L03-A,E06,E,2,10.0,129,A10,1978 renovation,1978 renovation,live-work,PORTUS:E06-L03-A:129
+E06-L03-B,E06,E,2,10.0,130,A3,rail family,1890s dockworker,shared,PORTUS:E06-L03-B:130
+E06-L04-A,E06,E,3,13.2,131,A8,1930 clerk,1955,single,PORTUS:E06-L04-A:131
+E06-L04-B,E06,E,3,13.2,132,A1,2020s conversion,2020s conversion,family,PORTUS:E06-L04-B:132
+E07-L02-A,E07,E,1,6.8,133,A6,harbour master,1930s clerk,live-work,PORTUS:E07-L02-A:133
+E07-L02-B,E07,E,1,6.8,134,A11,1955 utility,1978 renovation,shared,PORTUS:E07-L02-B:134
+E07-L03-A,E07,E,2,10.0,135,A4,fish merchant,1890s dockworker,single,PORTUS:E07-L03-A:135
+E07-L03-B,E07,E,2,10.0,136,A9,1890 dock,1955,family,PORTUS:E07-L03-B:136
+E07-L04-A,E07,E,3,13.2,137,A2,1978 renovation,2020s conversion,live-work,PORTUS:E07-L04-A:137
+E07-L04-B,E07,E,3,13.2,138,A7,rail family,1930s clerk,shared,PORTUS:E07-L04-B:138
+E08-L02-A,E08,E,1,6.8,139,A12,1930 clerk,1978 renovation,single,PORTUS:E08-L02-A:139
+E08-L02-B,E08,E,1,6.8,140,A5,2020s conversion,1890s dockworker,family,PORTUS:E08-L02-B:140
+E08-L03-A,E08,E,2,10.0,141,A10,harbour master,1955,live-work,PORTUS:E08-L03-A:141
+E08-L03-B,E08,E,2,10.0,142,A3,1955 utility,2020s conversion,shared,PORTUS:E08-L03-B:142
+E08-L04-A,E08,E,3,13.2,143,A8,fish merchant,1930s clerk,single,PORTUS:E08-L04-A:143
+E08-L04-B,E08,E,3,13.2,144,A1,1890 dock,1978 renovation,family,PORTUS:E08-L04-B:144
+E09-L02-A,E09,E,1,6.8,145,A6,1978 renovation,1890s dockworker,live-work,PORTUS:E09-L02-A:145
+E09-L02-B,E09,E,1,6.8,146,A11,rail family,1955,shared,PORTUS:E09-L02-B:146
+E09-L03-A,E09,E,2,10.0,147,A4,1930 clerk,2020s conversion,single,PORTUS:E09-L03-A:147
+E09-L03-B,E09,E,2,10.0,148,A9,2020s conversion,1930s clerk,family,PORTUS:E09-L03-B:148
+E09-L04-A,E09,E,3,13.2,149,A2,harbour master,1978 renovation,live-work,PORTUS:E09-L04-A:149
+E09-L04-B,E09,E,3,13.2,150,A7,1955 utility,1890s dockworker,shared,PORTUS:E09-L04-B:150
+E10-L02-A,E10,E,1,6.8,151,A12,fish merchant,1955,single,PORTUS:E10-L02-A:151
+E10-L02-B,E10,E,1,6.8,152,A5,1890 dock,2020s conversion,family,PORTUS:E10-L02-B:152
+E10-L03-A,E10,E,2,10.0,153,A10,1978 renovation,1930s clerk,live-work,PORTUS:E10-L03-A:153
+E10-L03-B,E10,E,2,10.0,154,A3,rail family,1978 renovation,shared,PORTUS:E10-L03-B:154
+E10-L04-A,E10,E,3,13.2,155,A8,1930 clerk,1890s dockworker,single,PORTUS:E10-L04-A:155
+E10-L04-B,E10,E,3,13.2,156,A1,2020s conversion,1955,family,PORTUS:E10-L04-B:156
+E11-L02-A,E11,E,1,6.8,157,A6,harbour master,2020s conversion,live-work,PORTUS:E11-L02-A:157
+E11-L02-B,E11,E,1,6.8,158,A11,1955 utility,1930s clerk,shared,PORTUS:E11-L02-B:158
+E11-L03-A,E11,E,2,10.0,159,A4,fish merchant,1978 renovation,single,PORTUS:E11-L03-A:159
+E11-L03-B,E11,E,2,10.0,160,A9,1890 dock,1890s dockworker,family,PORTUS:E11-L03-B:160
+E11-L04-A,E11,E,3,13.2,161,A2,1978 renovation,1955,live-work,PORTUS:E11-L04-A:161
+E11-L04-B,E11,E,3,13.2,162,A7,rail family,2020s conversion,shared,PORTUS:E11-L04-B:162
+E12-L02-A,E12,E,1,6.8,163,A12,1930 clerk,1930s clerk,single,PORTUS:E12-L02-A:163
+E12-L02-B,E12,E,1,6.8,164,A5,2020s conversion,1978 renovation,family,PORTUS:E12-L02-B:164
+E12-L03-A,E12,E,2,10.0,165,A10,harbour master,1890s dockworker,live-work,PORTUS:E12-L03-A:165
+E12-L03-B,E12,E,2,10.0,166,A3,1955 utility,1955,shared,PORTUS:E12-L03-B:166
+E12-L04-A,E12,E,3,13.2,167,A8,fish merchant,2020s conversion,single,PORTUS:E12-L04-A:167
+E12-L04-B,E12,E,3,13.2,168,A1,1890 dock,1930s clerk,family,PORTUS:E12-L04-B:168
+F01-L02-A,F01,F,1,6.8,169,A6,1978 renovation,1978 renovation,live-work,PORTUS:F01-L02-A:169
+F01-L02-B,F01,F,1,6.8,170,A11,rail family,1890s dockworker,shared,PORTUS:F01-L02-B:170
+F01-L03-A,F01,F,2,10.0,171,A4,1930 clerk,1955,single,PORTUS:F01-L03-A:171
+F01-L03-B,F01,F,2,10.0,172,A9,2020s conversion,2020s conversion,family,PORTUS:F01-L03-B:172
+F01-L04-A,F01,F,3,13.2,173,A2,harbour master,1930s clerk,live-work,PORTUS:F01-L04-A:173
+F01-L04-B,F01,F,3,13.2,174,A7,1955 utility,1978 renovation,shared,PORTUS:F01-L04-B:174
+F01-L05-A,F01,F,4,16.4,175,A12,fish merchant,1890s dockworker,single,PORTUS:F01-L05-A:175
+F01-L05-B,F01,F,4,16.4,176,A5,1890 dock,1955,family,PORTUS:F01-L05-B:176
+F02-L02-A,F02,F,1,6.8,177,A10,1978 renovation,2020s conversion,live-work,PORTUS:F02-L02-A:177
+F02-L02-B,F02,F,1,6.8,178,A3,rail family,1930s clerk,shared,PORTUS:F02-L02-B:178
+F02-L03-A,F02,F,2,10.0,179,A8,1930 clerk,1978 renovation,single,PORTUS:F02-L03-A:179
+F02-L03-B,F02,F,2,10.0,180,A1,2020s conversion,1890s dockworker,family,PORTUS:F02-L03-B:180
+F02-L04-A,F02,F,3,13.2,181,A6,harbour master,1955,live-work,PORTUS:F02-L04-A:181
+F02-L04-B,F02,F,3,13.2,182,A11,1955 utility,2020s conversion,shared,PORTUS:F02-L04-B:182
+F02-L05-A,F02,F,4,16.4,183,A4,fish merchant,1930s clerk,single,PORTUS:F02-L05-A:183
+F02-L05-B,F02,F,4,16.4,184,A9,1890 dock,1978 renovation,family,PORTUS:F02-L05-B:184
+F03-L02-A,F03,F,1,6.8,185,A2,1978 renovation,1890s dockworker,live-work,PORTUS:F03-L02-A:185
+F03-L02-B,F03,F,1,6.8,186,A7,rail family,1955,shared,PORTUS:F03-L02-B:186
+F03-L03-A,F03,F,2,10.0,187,A12,1930 clerk,2020s conversion,single,PORTUS:F03-L03-A:187
+F03-L03-B,F03,F,2,10.0,188,A5,2020s conversion,1930s clerk,family,PORTUS:F03-L03-B:188
+F03-L04-A,F03,F,3,13.2,189,A10,harbour master,1978 renovation,live-work,PORTUS:F03-L04-A:189
+F03-L04-B,F03,F,3,13.2,190,A3,1955 utility,1890s dockworker,shared,PORTUS:F03-L04-B:190
+F03-L05-A,F03,F,4,16.4,191,A8,fish merchant,1955,single,PORTUS:F03-L05-A:191
+F03-L05-B,F03,F,4,16.4,192,A1,1890 dock,2020s conversion,family,PORTUS:F03-L05-B:192
+F04-L02-A,F04,F,1,6.8,193,A6,1978 renovation,1930s clerk,live-work,PORTUS:F04-L02-A:193
+F04-L02-B,F04,F,1,6.8,194,A11,rail family,1978 renovation,shared,PORTUS:F04-L02-B:194
+F04-L03-A,F04,F,2,10.0,195,A4,1930 clerk,1890s dockworker,single,PORTUS:F04-L03-A:195
+F04-L03-B,F04,F,2,10.0,196,A9,2020s conversion,1955,family,PORTUS:F04-L03-B:196
+F04-L04-A,F04,F,3,13.2,197,A2,harbour master,2020s conversion,live-work,PORTUS:F04-L04-A:197
+F04-L04-B,F04,F,3,13.2,198,A7,1955 utility,1930s clerk,shared,PORTUS:F04-L04-B:198
+F04-L05-A,F04,F,4,16.4,199,A12,fish merchant,1978 renovation,single,PORTUS:F04-L05-A:199
+F04-L05-B,F04,F,4,16.4,200,A5,1890 dock,1890s dockworker,family,PORTUS:F04-L05-B:200
+F05-L02-A,F05,F,1,6.8,201,A10,1978 renovation,1955,live-work,PORTUS:F05-L02-A:201
+F05-L02-B,F05,F,1,6.8,202,A3,rail family,2020s conversion,shared,PORTUS:F05-L02-B:202
+F05-L03-A,F05,F,2,10.0,203,A8,1930 clerk,1930s clerk,single,PORTUS:F05-L03-A:203
+F05-L03-B,F05,F,2,10.0,204,A1,2020s conversion,1978 renovation,family,PORTUS:F05-L03-B:204
+F05-L04-A,F05,F,3,13.2,205,A6,harbour master,1890s dockworker,live-work,PORTUS:F05-L04-A:205
+F05-L04-B,F05,F,3,13.2,206,A11,1955 utility,1955,shared,PORTUS:F05-L04-B:206
+F05-L05-A,F05,F,4,16.4,207,A4,fish merchant,2020s conversion,single,PORTUS:F05-L05-A:207
+F05-L05-B,F05,F,4,16.4,208,A9,1890 dock,1930s clerk,family,PORTUS:F05-L05-B:208

@@ -1,0 +1,15 @@
+{
+  "_note": "Storey heights that are neither 3.20 (residential), 4.40 (commercial) nor 4.00 (warehouse). Each must be declared with a reason here; v_scale fails on any undeclared special.",
+  "declared": [
+    {"building": "C01", "level": 1, "height": 8.00, "reason": "tall single-storey shipbuilding workshop (packet 13.2: 2 tall single-storey workshops)"},
+    {"building": "C02", "level": 1, "height": 8.00, "reason": "tall single-storey shipbuilding workshop"},
+    {"building": "D01", "level": 1, "height": 7.50, "reason": "market hall volume, iron and glass (packet 13.2: hall + gallery)"},
+    {"building": "D01", "level": 2, "height": 4.50, "reason": "market gallery over the hall"},
+    {"building": "G01", "level": 1, "height": 5.00, "reason": "single-storey quay workshop with crane gantry clearance"},
+    {"building": "G02", "level": 1, "height": 5.00, "reason": "single-storey quay workshop"},
+    {"building": "G03", "level": 1, "height": 5.00, "reason": "single-storey quay workshop"},
+    {"building": "G04", "level": 1, "height": 5.00, "reason": "single-storey quay workshop"},
+    {"building": "G05", "level": 1, "height": 5.00, "reason": "single-storey quay workshop"},
+    {"building": "G06", "level": 1, "height": 5.00, "reason": "single-storey quay workshop"}
+  ]
+}

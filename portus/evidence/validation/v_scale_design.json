@@ -1,0 +1,83 @@
+{
+ "validator": "v_scale",
+ "mode": "design-only",
+ "ok": true,
+ "checks": [
+  {
+   "name": "site is 400 x 320 m",
+   "ok": true,
+   "detail": "400.0 x 320.0"
+  },
+  {
+   "name": "basin is 180 x 90 m",
+   "ok": true,
+   "detail": "180.0 x 90.0"
+  },
+  {
+   "name": "water level 0.00",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "name": "basin depth 6.00 m",
+   "ok": true,
+   "detail": "6.0"
+  },
+  {
+   "name": "quay top +2.40 m",
+   "ok": true,
+   "detail": "2.4"
+  },
+  {
+   "name": "every storey height is canonical or declared special",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "storeys at 3.20 m (residential)",
+   "ok": true,
+   "detail": "108 found"
+  },
+  {
+   "name": "storeys at 4.40 m (commercial)",
+   "ok": true,
+   "detail": "31 found"
+  },
+  {
+   "name": "storeys at 4.00 m (warehouse)",
+   "ok": true,
+   "detail": "48 found"
+  },
+  {
+   "name": "declared specials match the programme",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "every room > 400 m2 carries a 2.50 x 3.00 loading door",
+   "ok": true,
+   "detail": "24 large rooms, 0 without: []"
+  },
+  {
+   "name": "bollard spacing 8.00 +-0.05",
+   "ok": true,
+   "detail": "0 gaps off: []"
+  },
+  {
+   "name": "gauge 1.435 m",
+   "ok": true,
+   "detail": "1.435"
+  },
+  {
+   "name": "catenary 5.50 m",
+   "ok": true,
+   "detail": "5.5"
+  },
+  {
+   "name": "human height constant 1.75",
+   "ok": true,
+   "detail": "constant"
+  }
+ ],
+ "fails": []
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">A05 Speicher 05 — L01 (commercial, FFL 2.40)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 21.176 px · grid 5 m · 4 rooms</text>
+<line x1="82.4" y1="760.0" x2="82.4" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="188.2" y1="760.0" x2="188.2" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="294.1" y1="760.0" x2="294.1" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="400.0" y1="760.0" x2="400.0" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="505.9" y1="760.0" x2="505.9" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="611.8" y1="760.0" x2="611.8" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="717.6" y1="760.0" x2="717.6" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="823.5" y1="760.0" x2="823.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="717.6" x2="929.4" y2="717.6" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="611.8" x2="929.4" y2="611.8" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="505.9" x2="929.4" y2="505.9" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="400.0" x2="929.4" y2="400.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="294.1" x2="929.4" y2="294.1" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="188.2" x2="929.4" y2="188.2" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="82.4" x2="929.4" y2="82.4" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="889.4" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="95.1" y="369.5" width="779.3" height="335.4" fill="#f0dfc0" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="484.7" y="537.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">sales 582.9</text>
+<rect x="95.1" y="95.1" width="389.6" height="274.4" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="289.9" y="232.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">stock 238.5</text>
+<rect x="484.7" y="95.1" width="233.8" height="274.4" fill="#e3e7d6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="601.6" y="232.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">staff 143.1</text>
+<rect x="718.5" y="95.1" width="155.9" height="274.4" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="796.4" y="232.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">wc 95.4</text>
+</svg>

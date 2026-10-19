@@ -1,0 +1,725 @@
+{
+ "units": "metres",
+ "datum": "basin SW corner, water +0.00, +Z up, north +Y",
+ "water": {
+  "level": 0.0,
+  "tolerance": 0.005,
+  "depth": 6.0,
+  "bed_z": -6.0,
+  "basin": {
+   "x0": 110.0,
+   "y0": 30.0,
+   "x1": 290.0,
+   "y1": 120.0
+  },
+  "quay_top": 2.4,
+  "states": [
+   "calm",
+   "flood",
+   "wind",
+   "ice"
+  ],
+  "ripple_scales": [
+   0.1,
+   1.0,
+   8.0
+  ],
+  "amplitude_mm": [
+   15,
+   80
+  ],
+  "foam_reach": 0.15,
+  "ice_thickness_mm": [
+   20,
+   90
+  ],
+  "dropped_objects": 8
+ },
+ "rail": {
+  "gauge": 1.435,
+  "gauge_tol": 0.002,
+  "sleepers_spacing": 2.6,
+  "sleeper_tol": 0.01,
+  "catenary_height": 5.5,
+  "catenary_tol": 0.02,
+  "tracks": [
+   {
+    "id": "T1",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      150.0
+     ],
+     [
+      330.0,
+      150.0
+     ],
+     [
+      360.0,
+      150.0
+     ],
+     [
+      396.0,
+      150.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     150.0
+    ],
+    "enters_building": null
+   },
+   {
+    "id": "T2",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      155.0
+     ],
+     [
+      330.0,
+      155.0
+     ],
+     [
+      360.0,
+      155.0
+     ],
+     [
+      396.0,
+      155.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     155.0
+    ],
+    "enters_building": null
+   },
+   {
+    "id": "T3",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      160.0
+     ],
+     [
+      330.0,
+      160.0
+     ],
+     [
+      360.0,
+      160.0
+     ],
+     [
+      396.0,
+      160.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     160.0
+    ],
+    "enters_building": null
+   },
+   {
+    "id": "T4",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      165.0
+     ],
+     [
+      330.0,
+      165.0
+     ],
+     [
+      360.0,
+      165.0
+     ],
+     [
+      396.0,
+      165.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     165.0
+    ],
+    "enters_building": null
+   },
+   {
+    "id": "T5",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      170.0
+     ],
+     [
+      330.0,
+      170.0
+     ],
+     [
+      360.0,
+      170.0
+     ],
+     [
+      396.0,
+      170.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     170.0
+    ],
+    "enters_building": null
+   },
+   {
+    "id": "T6",
+    "kind": "yard",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      175.0
+     ],
+     [
+      330.0,
+      175.0
+     ],
+     [
+      360.0,
+      175.0
+     ],
+     [
+      396.0,
+      175.0
+     ]
+    ],
+    "radii": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cant_mm": [
+     0,
+     0,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     175.0
+    ],
+    "enters_building": "D01"
+   },
+   {
+    "id": "T0",
+    "kind": "siding",
+    "gauge": 1.435,
+    "centreline": [
+     [
+      300.0,
+      145.0
+     ],
+     [
+      318.0,
+      143.0
+     ],
+     [
+      336.0,
+      145.0
+     ],
+     [
+      360.0,
+      145.0
+     ]
+    ],
+    "radii": [
+     120.0,
+     120.0
+    ],
+    "cant_mm": [
+     25,
+     25,
+     0
+    ],
+    "buffer_stop": [
+     300.0,
+     145.0
+    ],
+    "enters_building": null
+   }
+  ],
+  "buffer_stops": 4,
+  "points_groups": 3,
+  "vehicles": 14
+ },
+ "cranes": [
+  {
+   "id": "CR-H1",
+   "type": "hammerhead",
+   "x": 140.0,
+   "y": 124.0,
+   "jib": 22.0,
+   "rail_y": 124.0,
+   "load": "crate 2.4 t"
+  },
+  {
+   "id": "CR-H2",
+   "type": "hammerhead",
+   "x": 190.0,
+   "y": 124.0,
+   "jib": 22.0,
+   "rail_y": 124.0,
+   "load": "pallet 1.1 t"
+  },
+  {
+   "id": "CR-H3",
+   "type": "hammerhead",
+   "x": 240.0,
+   "y": 124.0,
+   "jib": 22.0,
+   "rail_y": 124.0,
+   "load": "fish box 0.4 t"
+  },
+  {
+   "id": "CR-H4",
+   "type": "hammerhead",
+   "x": 96.0,
+   "y": 70.0,
+   "jib": 22.0,
+   "rail_x": 96.0,
+   "load": "coil 3.2 t"
+  },
+  {
+   "id": "CR-G1",
+   "type": "gantry",
+   "x0": 322.0,
+   "x1": 386.0,
+   "y": 64.0,
+   "span": 64.0,
+   "load": "plate stack"
+  },
+  {
+   "id": "CR-G2",
+   "type": "gantry",
+   "x0": 310.0,
+   "x1": 380.0,
+   "y": 168.0,
+   "span": 70.0,
+   "load": "wagon load"
+  },
+  {
+   "id": "CR-J1",
+   "type": "wall_jib",
+   "x": 20.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A01",
+   "load": "none"
+  },
+  {
+   "id": "CR-J2",
+   "type": "wall_jib",
+   "x": 60.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A02",
+   "load": "sack 60 kg"
+  },
+  {
+   "id": "CR-J3",
+   "type": "wall_jib",
+   "x": 100.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A03",
+   "load": "none"
+  },
+  {
+   "id": "CR-J4",
+   "type": "wall_jib",
+   "x": 140.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A04",
+   "load": "sack 60 kg"
+  },
+  {
+   "id": "CR-J5",
+   "type": "wall_jib",
+   "x": 20.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A05",
+   "load": "none"
+  },
+  {
+   "id": "CR-J6",
+   "type": "wall_jib",
+   "x": 60.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A06",
+   "load": "sack 60 kg"
+  },
+  {
+   "id": "CR-J7",
+   "type": "wall_jib",
+   "x": 100.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A07",
+   "load": "none"
+  },
+  {
+   "id": "CR-J8",
+   "type": "wall_jib",
+   "x": 140.0,
+   "y": 232.0,
+   "jib": 6.0,
+   "wall": "A08",
+   "load": "sack 60 kg"
+  }
+ ],
+ "moorings": [
+  {
+   "id": "M1",
+   "x": 124.0,
+   "y": 128.0,
+   "type": "bollard",
+   "berth": "coaster"
+  },
+  {
+   "id": "M2",
+   "x": 164.0,
+   "y": 128.0,
+   "type": "bollard",
+   "berth": "coaster"
+  },
+  {
+   "id": "M3",
+   "x": 204.0,
+   "y": 128.0,
+   "type": "bollard",
+   "berth": "coaster"
+  },
+  {
+   "id": "M4",
+   "x": 238.0,
+   "y": 128.0,
+   "type": "bollard",
+   "berth": "coaster"
+  },
+  {
+   "id": "M5",
+   "x": 104.0,
+   "y": 60.0,
+   "type": "bollard",
+   "berth": "tug"
+  },
+  {
+   "id": "M6",
+   "x": 262.0,
+   "y": 32.0,
+   "type": "slipway winch",
+   "berth": "fishing boat"
+  }
+ ],
+ "bollards": [
+  {
+   "id": "BOL01",
+   "x": 110.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL02",
+   "x": 118.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL03",
+   "x": 126.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL04",
+   "x": 134.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL05",
+   "x": 142.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL06",
+   "x": 150.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL07",
+   "x": 158.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL08",
+   "x": 166.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL09",
+   "x": 174.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL10",
+   "x": 182.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL11",
+   "x": 190.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL12",
+   "x": 198.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL13",
+   "x": 206.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL14",
+   "x": 214.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL15",
+   "x": 222.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL16",
+   "x": 230.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL17",
+   "x": 238.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL18",
+   "x": 246.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL19",
+   "x": 254.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL20",
+   "x": 262.0,
+   "y": 128.0
+  },
+  {
+   "id": "BOL21",
+   "x": 102.0,
+   "y": 32.0
+  },
+  {
+   "id": "BOL22",
+   "x": 102.0,
+   "y": 40.0
+  },
+  {
+   "id": "BOL23",
+   "x": 102.0,
+   "y": 48.0
+  },
+  {
+   "id": "BOL24",
+   "x": 102.0,
+   "y": 56.0
+  },
+  {
+   "id": "BOL25",
+   "x": 102.0,
+   "y": 64.0
+  },
+  {
+   "id": "BOL26",
+   "x": 102.0,
+   "y": 72.0
+  },
+  {
+   "id": "BOL27",
+   "x": 102.0,
+   "y": 80.0
+  },
+  {
+   "id": "BOL28",
+   "x": 102.0,
+   "y": 88.0
+  },
+  {
+   "id": "BOL29",
+   "x": 102.0,
+   "y": 96.0
+  },
+  {
+   "id": "BOL30",
+   "x": 102.0,
+   "y": 104.0
+  },
+  {
+   "id": "BOL31",
+   "x": 120.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL32",
+   "x": 128.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL33",
+   "x": 136.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL34",
+   "x": 144.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL35",
+   "x": 152.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL36",
+   "x": 160.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL37",
+   "x": 168.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL38",
+   "x": 176.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL39",
+   "x": 184.0,
+   "y": 22.0
+  },
+  {
+   "id": "BOL40",
+   "x": 192.0,
+   "y": 22.0
+  }
+ ],
+ "ships": [
+  {
+   "id": "SHIP-COASTER",
+   "type": "coaster",
+   "length": 90.0,
+   "beam": 13.5,
+   "draft": 4.2,
+   "berth": "north quay",
+   "x": 120.0,
+   "y": 100.0,
+   "heading": 0.0
+  },
+  {
+   "id": "SHIP-TUG",
+   "type": "tug",
+   "length": 25.0,
+   "beam": 8.4,
+   "draft": 2.8,
+   "berth": "west quay",
+   "x": 100.0,
+   "y": 48.0,
+   "heading": 90.0
+  },
+  {
+   "id": "SHIP-FISH",
+   "type": "fishing boat",
+   "length": 18.0,
+   "beam": 5.6,
+   "draft": 1.9,
+   "berth": "slipway",
+   "x": 256.0,
+   "y": 40.0,
+   "heading": 0.0
+  }
+ ]
+}

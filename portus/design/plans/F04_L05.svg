@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#f6f3ee"/>
+<text x="20" y="26" font-family="monospace" font-size="16">F04 Bathhouse — L05 (residential, FFL 16.40)</text>
+<text x="20" y="788" font-family="monospace" font-size="11" fill="#555">1 m = 32.727 px · grid 5 m · 12 rooms</text>
+<line x1="85.8" y1="760.0" x2="85.8" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="249.5" y1="760.0" x2="249.5" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="413.1" y1="760.0" x2="413.1" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="576.7" y1="760.0" x2="576.7" y2="40.0" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="661.8" x2="720.7" y2="661.8" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="498.2" x2="720.7" y2="498.2" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="334.5" x2="720.7" y2="334.5" stroke="#e4ded4" stroke-width="0.6"/>
+<line x1="40.0" y1="170.9" x2="720.7" y2="170.9" stroke="#e4ded4" stroke-width="0.6"/>
+<rect x="40.0" y="40.0" width="680.7" height="720.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="120.2" y="120.2" width="240.5" height="154.4" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="197.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 34.7</text>
+<rect x="120.2" y="274.6" width="147.2" height="124.3" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="193.8" y="336.8" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 17.1</text>
+<rect x="267.4" y="274.6" width="93.4" height="124.3" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="314.0" y="336.8" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 10.8</text>
+<rect x="120.2" y="398.9" width="144.6" height="134.0" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="192.5" y="465.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 18.1</text>
+<rect x="264.8" y="398.9" width="96.0" height="134.0" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="312.7" y="465.9" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 12.0</text>
+<rect x="120.2" y="532.9" width="240.5" height="146.9" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="240.5" y="606.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 33.0</text>
+<rect x="400.0" y="120.2" width="240.5" height="153.1" fill="#e8d9c3" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="196.7" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">living 34.4</text>
+<rect x="400.0" y="273.3" width="99.4" height="158.0" fill="#cfe2ea" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="449.7" y="352.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bathroom 14.7</text>
+<rect x="499.4" y="273.3" width="141.2" height="158.0" fill="#d9d2e6" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="570.0" y="352.3" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">bedroom 20.8</text>
+<rect x="400.0" y="431.3" width="96.5" height="139.8" fill="#efe7cf" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="448.3" y="501.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">entry 12.6</text>
+<rect x="496.5" y="431.3" width="144.0" height="139.8" fill="#dbe6d8" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="568.5" y="501.2" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">kitchen 18.8</text>
+<rect x="400.0" y="571.1" width="240.5" height="108.8" fill="#ded6cc" stroke="#444" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="520.3" y="625.4" font-family="monospace" font-size="7" text-anchor="middle" fill="#333">store 24.4</text>
+</svg>

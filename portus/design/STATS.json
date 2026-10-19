@@ -1,0 +1,20 @@
+{
+ "buildings": 48,
+ "floors": 197,
+ "apartments": 208,
+ "rooms": 1608,
+ "stalls": 80,
+ "shops": 48,
+ "rooms_without_door": 0,
+ "rooms_without_window": 0,
+ "stalls_without_aisle_front": 0,
+ "unreachable": 0,
+ "plans_svg": 245,
+ "tracks": 6,
+ "moorings": 6,
+ "archetypes": 12,
+ "palettes": 8,
+ "generations": 5,
+ "occupancies": 4,
+ "unique_apartment_signatures": 208
+}
