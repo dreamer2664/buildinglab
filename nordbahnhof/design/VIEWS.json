@@ -1,0 +1,4965 @@
+{
+  "total_views": 310,
+  "views": [
+    {
+      "view_id": "V_001_station_heroes_01",
+      "class": "station_heroes",
+      "index_in_class": 1,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "439705905dce8927"
+    },
+    {
+      "view_id": "V_002_station_heroes_02",
+      "class": "station_heroes",
+      "index_in_class": 2,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "30cee2de77484510"
+    },
+    {
+      "view_id": "V_003_station_heroes_03",
+      "class": "station_heroes",
+      "index_in_class": 3,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "72bfdd72484d17f9"
+    },
+    {
+      "view_id": "V_004_station_heroes_04",
+      "class": "station_heroes",
+      "index_in_class": 4,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "baeee4eeb2fcd196"
+    },
+    {
+      "view_id": "V_005_station_heroes_05",
+      "class": "station_heroes",
+      "index_in_class": 5,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9ed1ae065daa71fd"
+    },
+    {
+      "view_id": "V_006_station_heroes_06",
+      "class": "station_heroes",
+      "index_in_class": 6,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8567ea45788d7c06"
+    },
+    {
+      "view_id": "V_007_station_heroes_07",
+      "class": "station_heroes",
+      "index_in_class": 7,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7f63fd46f27eb1c0"
+    },
+    {
+      "view_id": "V_008_station_heroes_08",
+      "class": "station_heroes",
+      "index_in_class": 8,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "be2df181f25b2c50"
+    },
+    {
+      "view_id": "V_009_station_heroes_09",
+      "class": "station_heroes",
+      "index_in_class": 9,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "13372962a2319d12"
+    },
+    {
+      "view_id": "V_010_station_heroes_10",
+      "class": "station_heroes",
+      "index_in_class": 10,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "47fa5f4a6baadb08"
+    },
+    {
+      "view_id": "V_011_station_heroes_11",
+      "class": "station_heroes",
+      "index_in_class": 11,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6b1cc1938c2a2f65"
+    },
+    {
+      "view_id": "V_012_station_heroes_12",
+      "class": "station_heroes",
+      "index_in_class": 12,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7ba594330b13861f"
+    },
+    {
+      "view_id": "V_013_interior_volumes_01",
+      "class": "interior_volumes",
+      "index_in_class": 1,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2d99aa0753c46ce3"
+    },
+    {
+      "view_id": "V_014_interior_volumes_02",
+      "class": "interior_volumes",
+      "index_in_class": 2,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a13fcfaaf9b62cbc"
+    },
+    {
+      "view_id": "V_015_interior_volumes_03",
+      "class": "interior_volumes",
+      "index_in_class": 3,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4a78def3f01d185b"
+    },
+    {
+      "view_id": "V_016_interior_volumes_04",
+      "class": "interior_volumes",
+      "index_in_class": 4,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2e9785d4975b7f80"
+    },
+    {
+      "view_id": "V_017_interior_volumes_05",
+      "class": "interior_volumes",
+      "index_in_class": 5,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5a50f0b91f2d9d29"
+    },
+    {
+      "view_id": "V_018_interior_volumes_06",
+      "class": "interior_volumes",
+      "index_in_class": 6,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c2d9d7958815408a"
+    },
+    {
+      "view_id": "V_019_interior_volumes_07",
+      "class": "interior_volumes",
+      "index_in_class": 7,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6fecbe2592821579"
+    },
+    {
+      "view_id": "V_020_interior_volumes_08",
+      "class": "interior_volumes",
+      "index_in_class": 8,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bbdfcc3a6b156fc1"
+    },
+    {
+      "view_id": "V_021_interior_volumes_09",
+      "class": "interior_volumes",
+      "index_in_class": 9,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "026495b29e2078eb"
+    },
+    {
+      "view_id": "V_022_interior_volumes_10",
+      "class": "interior_volumes",
+      "index_in_class": 10,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "cfba35221923681f"
+    },
+    {
+      "view_id": "V_023_interior_volumes_11",
+      "class": "interior_volumes",
+      "index_in_class": 11,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "df9d72c54f9842f6"
+    },
+    {
+      "view_id": "V_024_interior_volumes_12",
+      "class": "interior_volumes",
+      "index_in_class": 12,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f0fadf7147f7b4d6"
+    },
+    {
+      "view_id": "V_025_interior_volumes_13",
+      "class": "interior_volumes",
+      "index_in_class": 13,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "db66febee6d078e3"
+    },
+    {
+      "view_id": "V_026_interior_volumes_14",
+      "class": "interior_volumes",
+      "index_in_class": 14,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e09d6f88ffc6f802"
+    },
+    {
+      "view_id": "V_027_interior_volumes_15",
+      "class": "interior_volumes",
+      "index_in_class": 15,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "89c28b29fa898266"
+    },
+    {
+      "view_id": "V_028_interior_volumes_16",
+      "class": "interior_volumes",
+      "index_in_class": 16,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "42fc62e6da4dacdd"
+    },
+    {
+      "view_id": "V_029_interior_volumes_17",
+      "class": "interior_volumes",
+      "index_in_class": 17,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d09893f86f820f83"
+    },
+    {
+      "view_id": "V_030_interior_volumes_18",
+      "class": "interior_volumes",
+      "index_in_class": 18,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "431c6e28047f7a63"
+    },
+    {
+      "view_id": "V_031_interior_volumes_19",
+      "class": "interior_volumes",
+      "index_in_class": 19,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "96a69627c48f6cc5"
+    },
+    {
+      "view_id": "V_032_interior_volumes_20",
+      "class": "interior_volumes",
+      "index_in_class": 20,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "45a9f7d8dcf07f30"
+    },
+    {
+      "view_id": "V_033_interior_volumes_21",
+      "class": "interior_volumes",
+      "index_in_class": 21,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "076ca65104f0e1dc"
+    },
+    {
+      "view_id": "V_034_interior_volumes_22",
+      "class": "interior_volumes",
+      "index_in_class": 22,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "586af016947ecf52"
+    },
+    {
+      "view_id": "V_035_interior_volumes_23",
+      "class": "interior_volumes",
+      "index_in_class": 23,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ef8063dc8c074d93"
+    },
+    {
+      "view_id": "V_036_interior_volumes_24",
+      "class": "interior_volumes",
+      "index_in_class": 24,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9fee215fe1885675"
+    },
+    {
+      "view_id": "V_037_platform_views_01",
+      "class": "platform_views",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ae5d057651ae107f"
+    },
+    {
+      "view_id": "V_038_platform_views_02",
+      "class": "platform_views",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0762a5cf45800517"
+    },
+    {
+      "view_id": "V_039_platform_views_03",
+      "class": "platform_views",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1bf5d3e2d55b4146"
+    },
+    {
+      "view_id": "V_040_platform_views_04",
+      "class": "platform_views",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bca6617f7c8b4f4d"
+    },
+    {
+      "view_id": "V_041_platform_views_05",
+      "class": "platform_views",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e7c44f893917a2ae"
+    },
+    {
+      "view_id": "V_042_platform_views_06",
+      "class": "platform_views",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "82de90a6df960606"
+    },
+    {
+      "view_id": "V_043_platform_views_07",
+      "class": "platform_views",
+      "index_in_class": 7,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "29f69b288f6e3f1e"
+    },
+    {
+      "view_id": "V_044_platform_views_08",
+      "class": "platform_views",
+      "index_in_class": 8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e80d9d60929c8f0e"
+    },
+    {
+      "view_id": "V_045_platform_views_09",
+      "class": "platform_views",
+      "index_in_class": 9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bdcbfb4da905b76c"
+    },
+    {
+      "view_id": "V_046_platform_views_10",
+      "class": "platform_views",
+      "index_in_class": 10,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6b5ac0e4d5e0b26a"
+    },
+    {
+      "view_id": "V_047_platform_views_11",
+      "class": "platform_views",
+      "index_in_class": 11,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5fab7813fd7300a7"
+    },
+    {
+      "view_id": "V_048_platform_views_12",
+      "class": "platform_views",
+      "index_in_class": 12,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "65f0e5f456b731f1"
+    },
+    {
+      "view_id": "V_049_platform_views_13",
+      "class": "platform_views",
+      "index_in_class": 13,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ccccbb302ed9040b"
+    },
+    {
+      "view_id": "V_050_platform_views_14",
+      "class": "platform_views",
+      "index_in_class": 14,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2e2c995419f36ecf"
+    },
+    {
+      "view_id": "V_051_platform_views_15",
+      "class": "platform_views",
+      "index_in_class": 15,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a7f850f086ce35a4"
+    },
+    {
+      "view_id": "V_052_platform_views_16",
+      "class": "platform_views",
+      "index_in_class": 16,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9feedf07e78d3685"
+    },
+    {
+      "view_id": "V_053_retail_interiors_01",
+      "class": "retail_interiors",
+      "index_in_class": 1,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8bd8674af977e8ee"
+    },
+    {
+      "view_id": "V_054_retail_interiors_02",
+      "class": "retail_interiors",
+      "index_in_class": 2,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4bf81a2acff802d6"
+    },
+    {
+      "view_id": "V_055_retail_interiors_03",
+      "class": "retail_interiors",
+      "index_in_class": 3,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "12f69bc55ae1719b"
+    },
+    {
+      "view_id": "V_056_retail_interiors_04",
+      "class": "retail_interiors",
+      "index_in_class": 4,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "940ab3b621a76af3"
+    },
+    {
+      "view_id": "V_057_retail_interiors_05",
+      "class": "retail_interiors",
+      "index_in_class": 5,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7af2545078b77284"
+    },
+    {
+      "view_id": "V_058_retail_interiors_06",
+      "class": "retail_interiors",
+      "index_in_class": 6,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4de8ff94a434178b"
+    },
+    {
+      "view_id": "V_059_retail_interiors_07",
+      "class": "retail_interiors",
+      "index_in_class": 7,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "df0f06fcd5edda6c"
+    },
+    {
+      "view_id": "V_060_retail_interiors_08",
+      "class": "retail_interiors",
+      "index_in_class": 8,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4b2c3ab48e71fb67"
+    },
+    {
+      "view_id": "V_061_retail_interiors_09",
+      "class": "retail_interiors",
+      "index_in_class": 9,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7ea72f2f20e0f62d"
+    },
+    {
+      "view_id": "V_062_retail_interiors_10",
+      "class": "retail_interiors",
+      "index_in_class": 10,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d7ece1bda0841ead"
+    },
+    {
+      "view_id": "V_063_retail_interiors_11",
+      "class": "retail_interiors",
+      "index_in_class": 11,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5ddfdc21c7611c2c"
+    },
+    {
+      "view_id": "V_064_retail_interiors_12",
+      "class": "retail_interiors",
+      "index_in_class": 12,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "883712b04b7da315"
+    },
+    {
+      "view_id": "V_065_retail_interiors_13",
+      "class": "retail_interiors",
+      "index_in_class": 13,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e05f5ab7a42f7812"
+    },
+    {
+      "view_id": "V_066_retail_interiors_14",
+      "class": "retail_interiors",
+      "index_in_class": 14,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e52c80eb14f8ec46"
+    },
+    {
+      "view_id": "V_067_retail_interiors_15",
+      "class": "retail_interiors",
+      "index_in_class": 15,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "306492069d336fd2"
+    },
+    {
+      "view_id": "V_068_retail_interiors_16",
+      "class": "retail_interiors",
+      "index_in_class": 16,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0bfdb97ba7911da3"
+    },
+    {
+      "view_id": "V_069_retail_interiors_17",
+      "class": "retail_interiors",
+      "index_in_class": 17,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1e355bb90cb24e40"
+    },
+    {
+      "view_id": "V_070_retail_interiors_18",
+      "class": "retail_interiors",
+      "index_in_class": 18,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "769b63b40e04bebe"
+    },
+    {
+      "view_id": "V_071_retail_interiors_19",
+      "class": "retail_interiors",
+      "index_in_class": 19,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "851c29aecb0d40ab"
+    },
+    {
+      "view_id": "V_072_retail_interiors_20",
+      "class": "retail_interiors",
+      "index_in_class": 20,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2df12d9d7f848156"
+    },
+    {
+      "view_id": "V_073_retail_interiors_21",
+      "class": "retail_interiors",
+      "index_in_class": 21,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "421ab39ac2465818"
+    },
+    {
+      "view_id": "V_074_retail_interiors_22",
+      "class": "retail_interiors",
+      "index_in_class": 22,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "47a2fc614ff04476"
+    },
+    {
+      "view_id": "V_075_retail_interiors_23",
+      "class": "retail_interiors",
+      "index_in_class": 23,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5036381b8cdb62d0"
+    },
+    {
+      "view_id": "V_076_retail_interiors_24",
+      "class": "retail_interiors",
+      "index_in_class": 24,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b94af8cc4a0a933b"
+    },
+    {
+      "view_id": "V_077_retail_interiors_25",
+      "class": "retail_interiors",
+      "index_in_class": 25,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "327617229240d7fc"
+    },
+    {
+      "view_id": "V_078_retail_interiors_26",
+      "class": "retail_interiors",
+      "index_in_class": 26,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e5c949ef2d205376"
+    },
+    {
+      "view_id": "V_079_retail_interiors_27",
+      "class": "retail_interiors",
+      "index_in_class": 27,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "cf5145f39743e249"
+    },
+    {
+      "view_id": "V_080_retail_interiors_28",
+      "class": "retail_interiors",
+      "index_in_class": 28,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0106b29d7d1c6bef"
+    },
+    {
+      "view_id": "V_081_retail_interiors_29",
+      "class": "retail_interiors",
+      "index_in_class": 29,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a113932db6043050"
+    },
+    {
+      "view_id": "V_082_retail_interiors_30",
+      "class": "retail_interiors",
+      "index_in_class": 30,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8af294bebc5b40d6"
+    },
+    {
+      "view_id": "V_083_retail_interiors_31",
+      "class": "retail_interiors",
+      "index_in_class": 31,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a5b4bc3a64e9b367"
+    },
+    {
+      "view_id": "V_084_retail_interiors_32",
+      "class": "retail_interiors",
+      "index_in_class": 32,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ee936d2c8791a8b3"
+    },
+    {
+      "view_id": "V_085_retail_interiors_33",
+      "class": "retail_interiors",
+      "index_in_class": 33,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5a2475f47a765da6"
+    },
+    {
+      "view_id": "V_086_retail_interiors_34",
+      "class": "retail_interiors",
+      "index_in_class": 34,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "35b0bdac8f6ec5a4"
+    },
+    {
+      "view_id": "V_087_retail_interiors_35",
+      "class": "retail_interiors",
+      "index_in_class": 35,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d95a4eb516332bb2"
+    },
+    {
+      "view_id": "V_088_retail_interiors_36",
+      "class": "retail_interiors",
+      "index_in_class": 36,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "72af7551dd8dc034"
+    },
+    {
+      "view_id": "V_089_retail_interiors_37",
+      "class": "retail_interiors",
+      "index_in_class": 37,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "318cad10821e6e2b"
+    },
+    {
+      "view_id": "V_090_retail_interiors_38",
+      "class": "retail_interiors",
+      "index_in_class": 38,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7c2c4ce558ca0601"
+    },
+    {
+      "view_id": "V_091_retail_interiors_39",
+      "class": "retail_interiors",
+      "index_in_class": 39,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5a6e499da0aa3640"
+    },
+    {
+      "view_id": "V_092_retail_interiors_40",
+      "class": "retail_interiors",
+      "index_in_class": 40,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7cf7dfb9e6a9d00b"
+    },
+    {
+      "view_id": "V_093_retail_interiors_41",
+      "class": "retail_interiors",
+      "index_in_class": 41,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "eeed444a13341334"
+    },
+    {
+      "view_id": "V_094_retail_interiors_42",
+      "class": "retail_interiors",
+      "index_in_class": 42,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a507dd15c2946915"
+    },
+    {
+      "view_id": "V_095_retail_interiors_43",
+      "class": "retail_interiors",
+      "index_in_class": 43,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "97a71a26c7d8d58e"
+    },
+    {
+      "view_id": "V_096_retail_interiors_44",
+      "class": "retail_interiors",
+      "index_in_class": 44,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "62cfa740e86d822b"
+    },
+    {
+      "view_id": "V_097_retail_interiors_45",
+      "class": "retail_interiors",
+      "index_in_class": 45,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "060da4fa250b2729"
+    },
+    {
+      "view_id": "V_098_retail_interiors_46",
+      "class": "retail_interiors",
+      "index_in_class": 46,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c78ce6bf1235b223"
+    },
+    {
+      "view_id": "V_099_retail_interiors_47",
+      "class": "retail_interiors",
+      "index_in_class": 47,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "37d398716208fdb9"
+    },
+    {
+      "view_id": "V_100_retail_interiors_48",
+      "class": "retail_interiors",
+      "index_in_class": 48,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a722e89a53a4a4d2"
+    },
+    {
+      "view_id": "V_101_restaurants_01",
+      "class": "restaurants",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b18a7589c12cf77b"
+    },
+    {
+      "view_id": "V_102_restaurants_02",
+      "class": "restaurants",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3c3af2e18f7d5f77"
+    },
+    {
+      "view_id": "V_103_restaurants_03",
+      "class": "restaurants",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ae2fd141a509c5d2"
+    },
+    {
+      "view_id": "V_104_restaurants_04",
+      "class": "restaurants",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7990611a50b0002f"
+    },
+    {
+      "view_id": "V_105_restaurants_05",
+      "class": "restaurants",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f18773946184883d"
+    },
+    {
+      "view_id": "V_106_restaurants_06",
+      "class": "restaurants",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e9507582be367839"
+    },
+    {
+      "view_id": "V_107_concourse_ticket_details_01",
+      "class": "concourse_ticket_details",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "30123e0c1f657455"
+    },
+    {
+      "view_id": "V_108_concourse_ticket_details_02",
+      "class": "concourse_ticket_details",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6ab89f1acac4ae3c"
+    },
+    {
+      "view_id": "V_109_concourse_ticket_details_03",
+      "class": "concourse_ticket_details",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b2d60d471a14e369"
+    },
+    {
+      "view_id": "V_110_concourse_ticket_details_04",
+      "class": "concourse_ticket_details",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a6eeb5747943fee6"
+    },
+    {
+      "view_id": "V_111_concourse_ticket_details_05",
+      "class": "concourse_ticket_details",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "07bd932305472eeb"
+    },
+    {
+      "view_id": "V_112_concourse_ticket_details_06",
+      "class": "concourse_ticket_details",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "df49294d579b2f80"
+    },
+    {
+      "view_id": "V_113_concourse_ticket_details_07",
+      "class": "concourse_ticket_details",
+      "index_in_class": 7,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bb9d2c7f4e74036e"
+    },
+    {
+      "view_id": "V_114_concourse_ticket_details_08",
+      "class": "concourse_ticket_details",
+      "index_in_class": 8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e147664008f263b9"
+    },
+    {
+      "view_id": "V_115_concourse_ticket_details_09",
+      "class": "concourse_ticket_details",
+      "index_in_class": 9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d27402716bacb2b8"
+    },
+    {
+      "view_id": "V_116_concourse_ticket_details_10",
+      "class": "concourse_ticket_details",
+      "index_in_class": 10,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f14507072593ed94"
+    },
+    {
+      "view_id": "V_117_concourse_ticket_details_11",
+      "class": "concourse_ticket_details",
+      "index_in_class": 11,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "cdeb7d68dfe373ed"
+    },
+    {
+      "view_id": "V_118_concourse_ticket_details_12",
+      "class": "concourse_ticket_details",
+      "index_in_class": 12,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "702ef4e84d5056af"
+    },
+    {
+      "view_id": "V_119_concourse_ticket_details_13",
+      "class": "concourse_ticket_details",
+      "index_in_class": 13,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7da9d2ba0ce5a64c"
+    },
+    {
+      "view_id": "V_120_concourse_ticket_details_14",
+      "class": "concourse_ticket_details",
+      "index_in_class": 14,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "74df42c6eb0eb83d"
+    },
+    {
+      "view_id": "V_121_concourse_ticket_details_15",
+      "class": "concourse_ticket_details",
+      "index_in_class": 15,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "dd90a1adfa5bb67b"
+    },
+    {
+      "view_id": "V_122_concourse_ticket_details_16",
+      "class": "concourse_ticket_details",
+      "index_in_class": 16,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c9368ea548d6b1f2"
+    },
+    {
+      "view_id": "V_123_concourse_ticket_details_17",
+      "class": "concourse_ticket_details",
+      "index_in_class": 17,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f47d1c800b6e7340"
+    },
+    {
+      "view_id": "V_124_concourse_ticket_details_18",
+      "class": "concourse_ticket_details",
+      "index_in_class": 18,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7d875aef3bae12d3"
+    },
+    {
+      "view_id": "V_125_concourse_ticket_details_19",
+      "class": "concourse_ticket_details",
+      "index_in_class": 19,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "decdc80b1e32ba93"
+    },
+    {
+      "view_id": "V_126_concourse_ticket_details_20",
+      "class": "concourse_ticket_details",
+      "index_in_class": 20,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4375146a26d4fb73"
+    },
+    {
+      "view_id": "V_127_concourse_ticket_details_21",
+      "class": "concourse_ticket_details",
+      "index_in_class": 21,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b16dec43e9bc03af"
+    },
+    {
+      "view_id": "V_128_concourse_ticket_details_22",
+      "class": "concourse_ticket_details",
+      "index_in_class": 22,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "cd1a21c3c235c895"
+    },
+    {
+      "view_id": "V_129_concourse_ticket_details_23",
+      "class": "concourse_ticket_details",
+      "index_in_class": 23,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b46d935b3ed3da57"
+    },
+    {
+      "view_id": "V_130_concourse_ticket_details_24",
+      "class": "concourse_ticket_details",
+      "index_in_class": 24,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b8fdce1ee9d1ffa1"
+    },
+    {
+      "view_id": "V_131_vehicle_views_01",
+      "class": "vehicle_views",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5a9148d1a00096e4"
+    },
+    {
+      "view_id": "V_132_vehicle_views_02",
+      "class": "vehicle_views",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9ee5a9ed1f4f3001"
+    },
+    {
+      "view_id": "V_133_vehicle_views_03",
+      "class": "vehicle_views",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a83f6067d7595dde"
+    },
+    {
+      "view_id": "V_134_vehicle_views_04",
+      "class": "vehicle_views",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "89b28e44f22d4817"
+    },
+    {
+      "view_id": "V_135_vehicle_views_05",
+      "class": "vehicle_views",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bb5e3fc14ef5a143"
+    },
+    {
+      "view_id": "V_136_vehicle_views_06",
+      "class": "vehicle_views",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "472748b9dca0ab92"
+    },
+    {
+      "view_id": "V_137_vehicle_views_07",
+      "class": "vehicle_views",
+      "index_in_class": 7,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "648e1884fdc046f4"
+    },
+    {
+      "view_id": "V_138_vehicle_views_08",
+      "class": "vehicle_views",
+      "index_in_class": 8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b8d5c403fc3a7f08"
+    },
+    {
+      "view_id": "V_139_vehicle_views_09",
+      "class": "vehicle_views",
+      "index_in_class": 9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4b0a252e3639be7e"
+    },
+    {
+      "view_id": "V_140_vehicle_views_10",
+      "class": "vehicle_views",
+      "index_in_class": 10,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3d428d163075395c"
+    },
+    {
+      "view_id": "V_141_vehicle_views_11",
+      "class": "vehicle_views",
+      "index_in_class": 11,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "40ba40357d7c7766"
+    },
+    {
+      "view_id": "V_142_vehicle_views_12",
+      "class": "vehicle_views",
+      "index_in_class": 12,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "47c80115e7a8e65a"
+    },
+    {
+      "view_id": "V_143_vehicle_views_13",
+      "class": "vehicle_views",
+      "index_in_class": 13,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "74d05b7a4d1c5216"
+    },
+    {
+      "view_id": "V_144_vehicle_views_14",
+      "class": "vehicle_views",
+      "index_in_class": 14,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "99ab0e767b441950"
+    },
+    {
+      "view_id": "V_145_vehicle_views_15",
+      "class": "vehicle_views",
+      "index_in_class": 15,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bb578547ab037b38"
+    },
+    {
+      "view_id": "V_146_vehicle_views_16",
+      "class": "vehicle_views",
+      "index_in_class": 16,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b01b141ff43aab33"
+    },
+    {
+      "view_id": "V_147_vehicle_views_17",
+      "class": "vehicle_views",
+      "index_in_class": 17,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "804998fb9df500ed"
+    },
+    {
+      "view_id": "V_148_vehicle_views_18",
+      "class": "vehicle_views",
+      "index_in_class": 18,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8c6f6a1d159a7073"
+    },
+    {
+      "view_id": "V_149_vehicle_views_19",
+      "class": "vehicle_views",
+      "index_in_class": 19,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "593d4d8edb086a3b"
+    },
+    {
+      "view_id": "V_150_vehicle_views_20",
+      "class": "vehicle_views",
+      "index_in_class": 20,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3e9d6755e120ba7c"
+    },
+    {
+      "view_id": "V_151_vehicle_views_21",
+      "class": "vehicle_views",
+      "index_in_class": 21,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e5ddee11ebbaff83"
+    },
+    {
+      "view_id": "V_152_vehicle_views_22",
+      "class": "vehicle_views",
+      "index_in_class": 22,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "21c3f4ab2de3b7f7"
+    },
+    {
+      "view_id": "V_153_vehicle_views_23",
+      "class": "vehicle_views",
+      "index_in_class": 23,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "db04912d089568bf"
+    },
+    {
+      "view_id": "V_154_vehicle_views_24",
+      "class": "vehicle_views",
+      "index_in_class": 24,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0972fb4ca0ec8c2a"
+    },
+    {
+      "view_id": "V_155_vehicle_views_25",
+      "class": "vehicle_views",
+      "index_in_class": 25,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2a8727bd0222bcf4"
+    },
+    {
+      "view_id": "V_156_vehicle_views_26",
+      "class": "vehicle_views",
+      "index_in_class": 26,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a9d7254b669a37b3"
+    },
+    {
+      "view_id": "V_157_vehicle_views_27",
+      "class": "vehicle_views",
+      "index_in_class": 27,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "69b860baf9aad758"
+    },
+    {
+      "view_id": "V_158_vehicle_views_28",
+      "class": "vehicle_views",
+      "index_in_class": 28,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e8cb336cf4c5bc2b"
+    },
+    {
+      "view_id": "V_159_vehicle_views_29",
+      "class": "vehicle_views",
+      "index_in_class": 29,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ea21428c603170fc"
+    },
+    {
+      "view_id": "V_160_vehicle_views_30",
+      "class": "vehicle_views",
+      "index_in_class": 30,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9795199a3b1afd60"
+    },
+    {
+      "view_id": "V_161_vehicle_views_31",
+      "class": "vehicle_views",
+      "index_in_class": 31,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bad0097c54d8b5a0"
+    },
+    {
+      "view_id": "V_162_vehicle_views_32",
+      "class": "vehicle_views",
+      "index_in_class": 32,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c37be7790f66933d"
+    },
+    {
+      "view_id": "V_163_vehicle_views_33",
+      "class": "vehicle_views",
+      "index_in_class": 33,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d7e414d47ee34b62"
+    },
+    {
+      "view_id": "V_164_vehicle_views_34",
+      "class": "vehicle_views",
+      "index_in_class": 34,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "eb61557863710032"
+    },
+    {
+      "view_id": "V_165_vehicle_views_35",
+      "class": "vehicle_views",
+      "index_in_class": 35,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4bcbd544f0ce821f"
+    },
+    {
+      "view_id": "V_166_vehicle_views_36",
+      "class": "vehicle_views",
+      "index_in_class": 36,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d3e1d8287689bc4c"
+    },
+    {
+      "view_id": "V_167_vehicle_views_37",
+      "class": "vehicle_views",
+      "index_in_class": 37,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d71f17d32261cffb"
+    },
+    {
+      "view_id": "V_168_vehicle_views_38",
+      "class": "vehicle_views",
+      "index_in_class": 38,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "60ca8e83e0118675"
+    },
+    {
+      "view_id": "V_169_vehicle_views_39",
+      "class": "vehicle_views",
+      "index_in_class": 39,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9d602e914fce0699"
+    },
+    {
+      "view_id": "V_170_vehicle_views_40",
+      "class": "vehicle_views",
+      "index_in_class": 40,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bded15a516ac6bd8"
+    },
+    {
+      "view_id": "V_171_vehicle_views_41",
+      "class": "vehicle_views",
+      "index_in_class": 41,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "08d69b4a8949ccc1"
+    },
+    {
+      "view_id": "V_172_vehicle_views_42",
+      "class": "vehicle_views",
+      "index_in_class": 42,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3ac9108e07fefcab"
+    },
+    {
+      "view_id": "V_173_vehicle_views_43",
+      "class": "vehicle_views",
+      "index_in_class": 43,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "89e9fb9b1c9ed00d"
+    },
+    {
+      "view_id": "V_174_vehicle_views_44",
+      "class": "vehicle_views",
+      "index_in_class": 44,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b21fd6198658c56b"
+    },
+    {
+      "view_id": "V_175_vehicle_views_45",
+      "class": "vehicle_views",
+      "index_in_class": 45,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4a2c5155c12af9f2"
+    },
+    {
+      "view_id": "V_176_vehicle_views_46",
+      "class": "vehicle_views",
+      "index_in_class": 46,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bdfc0e0864c5e3a6"
+    },
+    {
+      "view_id": "V_177_vehicle_views_47",
+      "class": "vehicle_views",
+      "index_in_class": 47,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b0d2ba4c35475fa7"
+    },
+    {
+      "view_id": "V_178_vehicle_views_48",
+      "class": "vehicle_views",
+      "index_in_class": 48,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0152a6844704f1ef"
+    },
+    {
+      "view_id": "V_179_vehicle_views_49",
+      "class": "vehicle_views",
+      "index_in_class": 49,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "045c246f965f3146"
+    },
+    {
+      "view_id": "V_180_vehicle_views_50",
+      "class": "vehicle_views",
+      "index_in_class": 50,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e49df7fe13bf7981"
+    },
+    {
+      "view_id": "V_181_vehicle_views_51",
+      "class": "vehicle_views",
+      "index_in_class": 51,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e203e50343480188"
+    },
+    {
+      "view_id": "V_182_vehicle_views_52",
+      "class": "vehicle_views",
+      "index_in_class": 52,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "30de8536d19ea19e"
+    },
+    {
+      "view_id": "V_183_vehicle_views_53",
+      "class": "vehicle_views",
+      "index_in_class": 53,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7c89b48d382f8b3d"
+    },
+    {
+      "view_id": "V_184_vehicle_views_54",
+      "class": "vehicle_views",
+      "index_in_class": 54,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "26eb7511995a68b6"
+    },
+    {
+      "view_id": "V_185_vehicle_views_55",
+      "class": "vehicle_views",
+      "index_in_class": 55,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "dd9a65e7f9776308"
+    },
+    {
+      "view_id": "V_186_vehicle_views_56",
+      "class": "vehicle_views",
+      "index_in_class": 56,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "95cd9ee94795a588"
+    },
+    {
+      "view_id": "V_187_vehicle_views_57",
+      "class": "vehicle_views",
+      "index_in_class": 57,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d59ac415759c2d52"
+    },
+    {
+      "view_id": "V_188_vehicle_views_58",
+      "class": "vehicle_views",
+      "index_in_class": 58,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "960105c9ff580c11"
+    },
+    {
+      "view_id": "V_189_vehicle_views_59",
+      "class": "vehicle_views",
+      "index_in_class": 59,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a5e22169e4f5cac5"
+    },
+    {
+      "view_id": "V_190_vehicle_views_60",
+      "class": "vehicle_views",
+      "index_in_class": 60,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "827709bbba8d60cf"
+    },
+    {
+      "view_id": "V_191_human_closeups_01",
+      "class": "human_closeups",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "015f670aa373f115"
+    },
+    {
+      "view_id": "V_192_human_closeups_02",
+      "class": "human_closeups",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e5920d51284c1ad6"
+    },
+    {
+      "view_id": "V_193_human_closeups_03",
+      "class": "human_closeups",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0374f1643276bee6"
+    },
+    {
+      "view_id": "V_194_human_closeups_04",
+      "class": "human_closeups",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "141f6e592b1c8b2e"
+    },
+    {
+      "view_id": "V_195_human_closeups_05",
+      "class": "human_closeups",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "90d0f42f437eb0de"
+    },
+    {
+      "view_id": "V_196_human_closeups_06",
+      "class": "human_closeups",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "086a2db106681894"
+    },
+    {
+      "view_id": "V_197_human_closeups_07",
+      "class": "human_closeups",
+      "index_in_class": 7,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "faba21eba3fa3d79"
+    },
+    {
+      "view_id": "V_198_human_closeups_08",
+      "class": "human_closeups",
+      "index_in_class": 8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ae44ca9f2ea2036a"
+    },
+    {
+      "view_id": "V_199_human_closeups_09",
+      "class": "human_closeups",
+      "index_in_class": 9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "35dfc8381c613b11"
+    },
+    {
+      "view_id": "V_200_human_closeups_10",
+      "class": "human_closeups",
+      "index_in_class": 10,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9e96d663980f6966"
+    },
+    {
+      "view_id": "V_201_human_closeups_11",
+      "class": "human_closeups",
+      "index_in_class": 11,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f48c63423f68ae0f"
+    },
+    {
+      "view_id": "V_202_human_closeups_12",
+      "class": "human_closeups",
+      "index_in_class": 12,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "85ac724aea4a79d7"
+    },
+    {
+      "view_id": "V_203_human_closeups_13",
+      "class": "human_closeups",
+      "index_in_class": 13,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "830fe698d88e2ac8"
+    },
+    {
+      "view_id": "V_204_human_closeups_14",
+      "class": "human_closeups",
+      "index_in_class": 14,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "fe0b326fb65eb383"
+    },
+    {
+      "view_id": "V_205_human_closeups_15",
+      "class": "human_closeups",
+      "index_in_class": 15,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ba38571232f8189e"
+    },
+    {
+      "view_id": "V_206_human_closeups_16",
+      "class": "human_closeups",
+      "index_in_class": 16,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7f62608a03e85709"
+    },
+    {
+      "view_id": "V_207_human_closeups_17",
+      "class": "human_closeups",
+      "index_in_class": 17,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a70d103266eb0724"
+    },
+    {
+      "view_id": "V_208_human_closeups_18",
+      "class": "human_closeups",
+      "index_in_class": 18,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "185a3a1f43a84ca5"
+    },
+    {
+      "view_id": "V_209_human_closeups_19",
+      "class": "human_closeups",
+      "index_in_class": 19,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "534237d3c61d0699"
+    },
+    {
+      "view_id": "V_210_human_closeups_20",
+      "class": "human_closeups",
+      "index_in_class": 20,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4eb7ad13f3f8b878"
+    },
+    {
+      "view_id": "V_211_human_closeups_21",
+      "class": "human_closeups",
+      "index_in_class": 21,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "324812823767dca4"
+    },
+    {
+      "view_id": "V_212_human_closeups_22",
+      "class": "human_closeups",
+      "index_in_class": 22,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2637a4b9855e895c"
+    },
+    {
+      "view_id": "V_213_human_closeups_23",
+      "class": "human_closeups",
+      "index_in_class": 23,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "79d386ec2a32eebb"
+    },
+    {
+      "view_id": "V_214_human_closeups_24",
+      "class": "human_closeups",
+      "index_in_class": 24,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "fe1073cf104cc440"
+    },
+    {
+      "view_id": "V_215_human_closeups_25",
+      "class": "human_closeups",
+      "index_in_class": 25,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f7092f53f923d043"
+    },
+    {
+      "view_id": "V_216_human_closeups_26",
+      "class": "human_closeups",
+      "index_in_class": 26,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8a1a4f44f12c4263"
+    },
+    {
+      "view_id": "V_217_human_closeups_27",
+      "class": "human_closeups",
+      "index_in_class": 27,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7dd72fb87e77a2ca"
+    },
+    {
+      "view_id": "V_218_human_closeups_28",
+      "class": "human_closeups",
+      "index_in_class": 28,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d21b851b29d00f1d"
+    },
+    {
+      "view_id": "V_219_human_closeups_29",
+      "class": "human_closeups",
+      "index_in_class": 29,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "85fc330e2779160d"
+    },
+    {
+      "view_id": "V_220_human_closeups_30",
+      "class": "human_closeups",
+      "index_in_class": 30,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c60573e83f8b74a3"
+    },
+    {
+      "view_id": "V_221_human_closeups_31",
+      "class": "human_closeups",
+      "index_in_class": 31,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "10d51ccf8f94d0aa"
+    },
+    {
+      "view_id": "V_222_human_closeups_32",
+      "class": "human_closeups",
+      "index_in_class": 32,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2100dada19b559a3"
+    },
+    {
+      "view_id": "V_223_human_closeups_33",
+      "class": "human_closeups",
+      "index_in_class": 33,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "77e5a1532378bf4d"
+    },
+    {
+      "view_id": "V_224_human_closeups_34",
+      "class": "human_closeups",
+      "index_in_class": 34,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f1e39e1b1fca0930"
+    },
+    {
+      "view_id": "V_225_human_closeups_35",
+      "class": "human_closeups",
+      "index_in_class": 35,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0c51c93d1d6d6e6e"
+    },
+    {
+      "view_id": "V_226_human_closeups_36",
+      "class": "human_closeups",
+      "index_in_class": 36,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d106341c4ef3d93d"
+    },
+    {
+      "view_id": "V_227_human_closeups_37",
+      "class": "human_closeups",
+      "index_in_class": 37,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "8374142dbd1fcf1f"
+    },
+    {
+      "view_id": "V_228_human_closeups_38",
+      "class": "human_closeups",
+      "index_in_class": 38,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7def804105a8a6bf"
+    },
+    {
+      "view_id": "V_229_human_closeups_39",
+      "class": "human_closeups",
+      "index_in_class": 39,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "edf8f0edc92a7429"
+    },
+    {
+      "view_id": "V_230_human_closeups_40",
+      "class": "human_closeups",
+      "index_in_class": 40,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a7959eef3dc685ed"
+    },
+    {
+      "view_id": "V_231_material_macros_01",
+      "class": "material_macros",
+      "index_in_class": 1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ed39653c8af0a5da"
+    },
+    {
+      "view_id": "V_232_material_macros_02",
+      "class": "material_macros",
+      "index_in_class": 2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0206ccf2e1315de6"
+    },
+    {
+      "view_id": "V_233_material_macros_03",
+      "class": "material_macros",
+      "index_in_class": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "76df30457dffa6f7"
+    },
+    {
+      "view_id": "V_234_material_macros_04",
+      "class": "material_macros",
+      "index_in_class": 4,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3dead5b3d4f647a8"
+    },
+    {
+      "view_id": "V_235_material_macros_05",
+      "class": "material_macros",
+      "index_in_class": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1e0e0c2f1d46088a"
+    },
+    {
+      "view_id": "V_236_material_macros_06",
+      "class": "material_macros",
+      "index_in_class": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7d94d3f2839405c7"
+    },
+    {
+      "view_id": "V_237_material_macros_07",
+      "class": "material_macros",
+      "index_in_class": 7,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "14da935e4c9b1692"
+    },
+    {
+      "view_id": "V_238_material_macros_08",
+      "class": "material_macros",
+      "index_in_class": 8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "f7b47e8430bff49b"
+    },
+    {
+      "view_id": "V_239_material_macros_09",
+      "class": "material_macros",
+      "index_in_class": 9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "45ef563210701ee0"
+    },
+    {
+      "view_id": "V_240_material_macros_10",
+      "class": "material_macros",
+      "index_in_class": 10,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9f9234abba4b4634"
+    },
+    {
+      "view_id": "V_241_material_macros_11",
+      "class": "material_macros",
+      "index_in_class": 11,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d594a0e733a67379"
+    },
+    {
+      "view_id": "V_242_material_macros_12",
+      "class": "material_macros",
+      "index_in_class": 12,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a78e25d50f848b70"
+    },
+    {
+      "view_id": "V_243_material_macros_13",
+      "class": "material_macros",
+      "index_in_class": 13,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "52ee98ca359ab264"
+    },
+    {
+      "view_id": "V_244_material_macros_14",
+      "class": "material_macros",
+      "index_in_class": 14,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "401eaa4507802ce9"
+    },
+    {
+      "view_id": "V_245_material_macros_15",
+      "class": "material_macros",
+      "index_in_class": 15,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "096a5c1c80ffa324"
+    },
+    {
+      "view_id": "V_246_material_macros_16",
+      "class": "material_macros",
+      "index_in_class": 16,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bcd71f33509c4682"
+    },
+    {
+      "view_id": "V_247_material_macros_17",
+      "class": "material_macros",
+      "index_in_class": 17,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "881b27aa68f0aed0"
+    },
+    {
+      "view_id": "V_248_material_macros_18",
+      "class": "material_macros",
+      "index_in_class": 18,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d1c125248e41f33e"
+    },
+    {
+      "view_id": "V_249_material_macros_19",
+      "class": "material_macros",
+      "index_in_class": 19,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6e03223b8391deaa"
+    },
+    {
+      "view_id": "V_250_material_macros_20",
+      "class": "material_macros",
+      "index_in_class": 20,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ab84b08b279a99df"
+    },
+    {
+      "view_id": "V_251_material_macros_21",
+      "class": "material_macros",
+      "index_in_class": 21,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "062cd49d3bd8ba02"
+    },
+    {
+      "view_id": "V_252_material_macros_22",
+      "class": "material_macros",
+      "index_in_class": 22,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "379fdc0abf588895"
+    },
+    {
+      "view_id": "V_253_material_macros_23",
+      "class": "material_macros",
+      "index_in_class": 23,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "284b20310b506153"
+    },
+    {
+      "view_id": "V_254_material_macros_24",
+      "class": "material_macros",
+      "index_in_class": 24,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d3c87d8657a1ac9c"
+    },
+    {
+      "view_id": "V_255_material_macros_25",
+      "class": "material_macros",
+      "index_in_class": 25,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "369c0f2891c97050"
+    },
+    {
+      "view_id": "V_256_material_macros_26",
+      "class": "material_macros",
+      "index_in_class": 26,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "328f07ae328c5f9d"
+    },
+    {
+      "view_id": "V_257_material_macros_27",
+      "class": "material_macros",
+      "index_in_class": 27,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "549a9314babae838"
+    },
+    {
+      "view_id": "V_258_material_macros_28",
+      "class": "material_macros",
+      "index_in_class": 28,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "08ca297fa17de18b"
+    },
+    {
+      "view_id": "V_259_material_macros_29",
+      "class": "material_macros",
+      "index_in_class": 29,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9625e49866600621"
+    },
+    {
+      "view_id": "V_260_material_macros_30",
+      "class": "material_macros",
+      "index_in_class": 30,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0dde20ca0ba5ebd4"
+    },
+    {
+      "view_id": "V_261_drawings_01",
+      "class": "drawings",
+      "index_in_class": 1,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4e95b388248ae331"
+    },
+    {
+      "view_id": "V_262_drawings_02",
+      "class": "drawings",
+      "index_in_class": 2,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "608f1735f4e286fa"
+    },
+    {
+      "view_id": "V_263_drawings_03",
+      "class": "drawings",
+      "index_in_class": 3,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b3d79941edd5f32f"
+    },
+    {
+      "view_id": "V_264_drawings_04",
+      "class": "drawings",
+      "index_in_class": 4,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "fba9dd740bb876d7"
+    },
+    {
+      "view_id": "V_265_drawings_05",
+      "class": "drawings",
+      "index_in_class": 5,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "3b59059ac4c05c07"
+    },
+    {
+      "view_id": "V_266_drawings_06",
+      "class": "drawings",
+      "index_in_class": 6,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "783e26d6f4c9f0ba"
+    },
+    {
+      "view_id": "V_267_drawings_07",
+      "class": "drawings",
+      "index_in_class": 7,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "0239e5e5ff0fa0af"
+    },
+    {
+      "view_id": "V_268_drawings_08",
+      "class": "drawings",
+      "index_in_class": 8,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "86606dfe5f7dd85b"
+    },
+    {
+      "view_id": "V_269_drawings_09",
+      "class": "drawings",
+      "index_in_class": 9,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "abae766906e0775c"
+    },
+    {
+      "view_id": "V_270_drawings_10",
+      "class": "drawings",
+      "index_in_class": 10,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1099105566b7858b"
+    },
+    {
+      "view_id": "V_271_drawings_11",
+      "class": "drawings",
+      "index_in_class": 11,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b0e1ff8df4516280"
+    },
+    {
+      "view_id": "V_272_drawings_12",
+      "class": "drawings",
+      "index_in_class": 12,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "117ee5040556d533"
+    },
+    {
+      "view_id": "V_273_drawings_13",
+      "class": "drawings",
+      "index_in_class": 13,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "81221f758fc4136b"
+    },
+    {
+      "view_id": "V_274_drawings_14",
+      "class": "drawings",
+      "index_in_class": 14,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d571faa3a625b220"
+    },
+    {
+      "view_id": "V_275_drawings_15",
+      "class": "drawings",
+      "index_in_class": 15,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "46bdb7b9c54230eb"
+    },
+    {
+      "view_id": "V_276_drawings_16",
+      "class": "drawings",
+      "index_in_class": 16,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a5b794717d1fbda6"
+    },
+    {
+      "view_id": "V_277_drawings_17",
+      "class": "drawings",
+      "index_in_class": 17,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e5de4226c9167670"
+    },
+    {
+      "view_id": "V_278_drawings_18",
+      "class": "drawings",
+      "index_in_class": 18,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "71d9f340ac8fdaac"
+    },
+    {
+      "view_id": "V_279_lighting_states_01",
+      "class": "lighting_states",
+      "index_in_class": 1,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b90893be342b47ed"
+    },
+    {
+      "view_id": "V_280_lighting_states_02",
+      "class": "lighting_states",
+      "index_in_class": 2,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d927abca3d6407df"
+    },
+    {
+      "view_id": "V_281_lighting_states_03",
+      "class": "lighting_states",
+      "index_in_class": 3,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ff3a96f31a738218"
+    },
+    {
+      "view_id": "V_282_lighting_states_04",
+      "class": "lighting_states",
+      "index_in_class": 4,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "4fc7712086898d6a"
+    },
+    {
+      "view_id": "V_283_lighting_states_05",
+      "class": "lighting_states",
+      "index_in_class": 5,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "b70a4c76465cbcfb"
+    },
+    {
+      "view_id": "V_284_lighting_states_06",
+      "class": "lighting_states",
+      "index_in_class": 6,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6684258b0fb6697a"
+    },
+    {
+      "view_id": "V_285_lighting_states_07",
+      "class": "lighting_states",
+      "index_in_class": 7,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "961fffc15fa3bea1"
+    },
+    {
+      "view_id": "V_286_lighting_states_08",
+      "class": "lighting_states",
+      "index_in_class": 8,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "18218f9085359218"
+    },
+    {
+      "view_id": "V_287_lighting_states_09",
+      "class": "lighting_states",
+      "index_in_class": 9,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c6501a64f29da47b"
+    },
+    {
+      "view_id": "V_288_lighting_states_10",
+      "class": "lighting_states",
+      "index_in_class": 10,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "ad5cca2c2b8bbb4e"
+    },
+    {
+      "view_id": "V_289_lighting_states_11",
+      "class": "lighting_states",
+      "index_in_class": 11,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "bea7c4458bc05157"
+    },
+    {
+      "view_id": "V_290_lighting_states_12",
+      "class": "lighting_states",
+      "index_in_class": 12,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e08163849647f4a6"
+    },
+    {
+      "view_id": "V_291_exterior_detail_01",
+      "class": "exterior_detail",
+      "index_in_class": 1,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "e9ea42effc6b57a3"
+    },
+    {
+      "view_id": "V_292_exterior_detail_02",
+      "class": "exterior_detail",
+      "index_in_class": 2,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "7bd2a6083bf16be5"
+    },
+    {
+      "view_id": "V_293_exterior_detail_03",
+      "class": "exterior_detail",
+      "index_in_class": 3,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1a5abee926e6a885"
+    },
+    {
+      "view_id": "V_294_exterior_detail_04",
+      "class": "exterior_detail",
+      "index_in_class": 4,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "dfb0d5d698c4e329"
+    },
+    {
+      "view_id": "V_295_exterior_detail_05",
+      "class": "exterior_detail",
+      "index_in_class": 5,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "d4c39753bd258bce"
+    },
+    {
+      "view_id": "V_296_exterior_detail_06",
+      "class": "exterior_detail",
+      "index_in_class": 6,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "54ae0170f422565b"
+    },
+    {
+      "view_id": "V_297_exterior_detail_07",
+      "class": "exterior_detail",
+      "index_in_class": 7,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2928d106c0c4ef4c"
+    },
+    {
+      "view_id": "V_298_exterior_detail_08",
+      "class": "exterior_detail",
+      "index_in_class": 8,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "c90c6b200ebc8913"
+    },
+    {
+      "view_id": "V_299_exterior_detail_09",
+      "class": "exterior_detail",
+      "index_in_class": 9,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1b4d03b139a20d09"
+    },
+    {
+      "view_id": "V_300_exterior_detail_10",
+      "class": "exterior_detail",
+      "index_in_class": 10,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "a2e8debc1275e5bd"
+    },
+    {
+      "view_id": "V_301_exterior_detail_11",
+      "class": "exterior_detail",
+      "index_in_class": 11,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5736b080b61361d9"
+    },
+    {
+      "view_id": "V_302_exterior_detail_12",
+      "class": "exterior_detail",
+      "index_in_class": 12,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "df816700109e129e"
+    },
+    {
+      "view_id": "V_303_exterior_detail_13",
+      "class": "exterior_detail",
+      "index_in_class": 13,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1aff7b4779a50c54"
+    },
+    {
+      "view_id": "V_304_exterior_detail_14",
+      "class": "exterior_detail",
+      "index_in_class": 14,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "9f08d5d083e0ac11"
+    },
+    {
+      "view_id": "V_305_exterior_detail_15",
+      "class": "exterior_detail",
+      "index_in_class": 15,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "6ac65e9155192fe5"
+    },
+    {
+      "view_id": "V_306_exterior_detail_16",
+      "class": "exterior_detail",
+      "index_in_class": 16,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "da624ca683912b56"
+    },
+    {
+      "view_id": "V_307_exterior_detail_17",
+      "class": "exterior_detail",
+      "index_in_class": 17,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "2cfd7ab18c37cfe7"
+    },
+    {
+      "view_id": "V_308_exterior_detail_18",
+      "class": "exterior_detail",
+      "index_in_class": 18,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "32602651923042a8"
+    },
+    {
+      "view_id": "V_309_exterior_detail_19",
+      "class": "exterior_detail",
+      "index_in_class": 19,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "1dd07ba3c3cc24e8"
+    },
+    {
+      "view_id": "V_310_exterior_detail_20",
+      "class": "exterior_detail",
+      "index_in_class": 20,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "proof_resolution": [
+        1024,
+        576
+      ],
+      "camera_sphere_clear_m": 0.65,
+      "frame_coverage_pct": 78.5,
+      "geometry_key": "5f256c5da5e3adee"
+    }
+  ]
+}

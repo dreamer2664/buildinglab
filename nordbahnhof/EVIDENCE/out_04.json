@@ -1,0 +1,28 @@
+{
+  "validator": "v_programme",
+  "status": "FAIL",
+  "summary": "5 / 239 / 47 / 6 / 8 / 12 / 34, zero doorless=True, zero windowless=True",
+  "counts": {
+    "levels": 5,
+    "rooms": 239,
+    "retail_units": 47,
+    "restaurants": 6,
+    "waiting_rooms": 8,
+    "offices": 12,
+    "restrooms": 6,
+    "platforms": 8,
+    "tracks": 12,
+    "trains": 6,
+    "vehicles": 34,
+    "glazing_panes": 4200,
+    "trusses": 8,
+    "clock_parts": 240,
+    "board_tiles": 240,
+    "doorless_rooms": 0,
+    "windowless_rooms": 0
+  },
+  "errors": [
+    "rooms: got 239, expected 240",
+    "retail_units: got 47, expected 48"
+  ]
+}

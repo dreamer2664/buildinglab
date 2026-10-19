@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="3840" height="2160">
+  <rect width="1920" height="1080" fill="#0B1320"/>
+  <rect x="40" y="30" width="1840" height="1020" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="70" y="62" font-family="monospace" font-size="20" font-weight="bold" fill="#D4AF37">NORDBAHNHOF — LEVEL L1 — MEZZANINE RETAIL PARADE & 12 STATION OFFICES (FFL +6.40 m)</text>
+  <text x="70" y="84" font-family="monospace" font-size="13" fill="#A9CCE3">FOOTPRINT 240.00 m x 120.00 m (28,800 m2) · ORIGIN (0,0,0) AT SOUTH PORTICO CENTRELINE · +Y NORTH · ROOMS ON LEVEL: 72</text>
+  <rect x="120" y="80" width="1680" height="840" fill="#0F1B2D" stroke="#F4D03F" stroke-width="2"/>
+  <rect x="330" y="80" width="1260" height="588" fill="none" stroke="#5DADE2" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <rect x="682.8" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="685.8" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_33 (45m2)</text>
+  <rect x="682.8" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="685.8" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_33 (22m2)</text>
+  <rect x="751.4" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="754.4" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_34 (45m2)</text>
+  <rect x="751.4" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="754.4" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_34 (22m2)</text>
+  <rect x="820.0" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="823.0" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_35 (45m2)</text>
+  <rect x="820.0" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="823.0" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_35 (22m2)</text>
+  <rect x="888.6" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="891.6" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_36 (45m2)</text>
+  <rect x="888.6" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="891.6" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_36 (22m2)</text>
+  <rect x="957.2" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="960.2" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_37 (45m2)</text>
+  <rect x="957.2" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="960.2" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_37 (22m2)</text>
+  <rect x="1025.8" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1028.8" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_38 (45m2)</text>
+  <rect x="1025.8" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1028.8" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_38 (22m2)</text>
+  <rect x="1094.4" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1097.4" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_39 (45m2)</text>
+  <rect x="1094.4" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1097.4" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_39 (22m2)</text>
+  <rect x="1163.0" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1166.0" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_40 (45m2)</text>
+  <rect x="1163.0" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1166.0" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_40 (22m2)</text>
+  <rect x="1231.6" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1234.6" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_41 (45m2)</text>
+  <rect x="1231.6" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1234.6" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_41 (22m2)</text>
+  <rect x="1300.2" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1303.2" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_42 (45m2)</text>
+  <rect x="1300.2" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1303.2" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_42 (22m2)</text>
+  <rect x="1368.8" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1371.8" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_43 (45m2)</text>
+  <rect x="1368.8" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1371.8" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_43 (22m2)</text>
+  <rect x="1437.4" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1440.4" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_44 (45m2)</text>
+  <rect x="1437.4" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1440.4" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_44 (22m2)</text>
+  <rect x="1506.0" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1509.0" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_45 (45m2)</text>
+  <rect x="1506.0" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1509.0" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_45 (22m2)</text>
+  <rect x="1574.6" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1577.6" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_46 (45m2)</text>
+  <rect x="1574.6" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1577.6" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_46 (22m2)</text>
+  <rect x="1643.2" y="864.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1646.2" y="875.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_47 (45m2)</text>
+  <rect x="1643.2" y="843.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1646.2" y="854.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_47 (22m2)</text>
+  <rect x="1711.8" y="738.0" width="52.5" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1714.8" y="749.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RET_48 (45m2)</text>
+  <rect x="1711.8" y="717.0" width="52.5" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1714.8" y="728.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RBR_48 (22m2)</text>
+  <rect x="1163.0" y="766.0" width="112.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1166.0" y="777.0" font-family="monospace" font-size="8.5" fill="#EAECEE">REST_05 (192m2)</text>
+  <rect x="1275.0" y="794.0" width="70.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1278.0" y="805.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RK_05 (80m2)</text>
+  <rect x="1415.0" y="766.0" width="112.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1418.0" y="777.0" font-family="monospace" font-size="8.5" fill="#EAECEE">REST_06 (192m2)</text>
+  <rect x="1527.0" y="794.0" width="70.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1530.0" y="805.0" font-family="monospace" font-size="8.5" fill="#EAECEE">RK_06 (80m2)</text>
+  <rect x="162.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="165.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_01 (96m2)</text>
+  <rect x="162.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="165.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_01 (48m2)</text>
+  <rect x="295.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="298.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_02 (96m2)</text>
+  <rect x="295.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="298.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_02 (48m2)</text>
+  <rect x="428.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="431.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_03 (96m2)</text>
+  <rect x="428.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="431.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_03 (48m2)</text>
+  <rect x="561.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="564.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_04 (96m2)</text>
+  <rect x="561.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="564.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_04 (48m2)</text>
+  <rect x="694.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="697.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_05 (96m2)</text>
+  <rect x="694.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="697.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_05 (48m2)</text>
+  <rect x="827.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="830.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_06 (96m2)</text>
+  <rect x="827.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="830.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_06 (48m2)</text>
+  <rect x="960.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="963.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_07 (96m2)</text>
+  <rect x="960.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="963.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_07 (48m2)</text>
+  <rect x="1093.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1096.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_08 (96m2)</text>
+  <rect x="1093.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1096.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_08 (48m2)</text>
+  <rect x="1226.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1229.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_09 (96m2)</text>
+  <rect x="1226.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1229.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_09 (48m2)</text>
+  <rect x="1359.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1362.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_10 (96m2)</text>
+  <rect x="1359.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1362.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_10 (48m2)</text>
+  <rect x="1492.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1495.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_11 (96m2)</text>
+  <rect x="1492.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1495.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_11 (48m2)</text>
+  <rect x="1625.0" y="850.0" width="84.0" height="56.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1628.0" y="861.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OFF_12 (96m2)</text>
+  <rect x="1625.0" y="822.0" width="84.0" height="28.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1628.0" y="833.0" font-family="monospace" font-size="8.5" fill="#EAECEE">OST_12 (48m2)</text>
+  <rect x="1324.0" y="668.0" width="63.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1327.0" y="679.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WC_05 (54m2)</text>
+  <rect x="1324.0" y="710.0" width="63.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1327.0" y="721.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WCL_05 (27m2)</text>
+  <rect x="1590.0" y="668.0" width="63.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1593.0" y="679.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WC_06 (54m2)</text>
+  <rect x="1590.0" y="710.0" width="63.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1593.0" y="721.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WCL_06 (27m2)</text>
+  <rect x="148.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="151.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_13 (48m2)</text>
+  <rect x="414.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="417.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_14 (48m2)</text>
+  <rect x="680.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="683.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_15 (48m2)</text>
+  <rect x="946.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="949.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_16 (48m2)</text>
+  <rect x="687.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="690.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_04 (48m2)</text>
+  <rect x="1457.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1460.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_09 (48m2)</text>
+  <rect x="687.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="690.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_14 (48m2)</text>
+  <rect x="1457.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1460.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_19 (48m2)</text>
+  <g transform="translate(120, 965)">
+    <line x1="0" y1="0" x2="350" y2="0" stroke="#F4D03F" stroke-width="3"/>
+    <text x="0" y="20" font-family="monospace" font-size="12" fill="#F4D03F">0 m ———— 10 m ———— 25 m ———— 50 m (SCALE 1:200)</text>
+  </g>
+  <g transform="translate(1810, 960)">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <polygon points="0,-24 -8,10 0,3 8,10" fill="#D4AF37"/>
+    <text x="-18" y="44" font-family="monospace" font-size="13" font-weight="bold" fill="#D4AF37">N (+Y)</text>
+  </g>
+</svg>

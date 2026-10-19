@@ -1,0 +1,8 @@
+{
+  "validator": "v_material",
+  "status": "FAIL",
+  "material_count": 120,
+  "errors": [
+    "MAT_001_stone_01 texel_density 25.0 < 40.0 px/cm"
+  ]
+}

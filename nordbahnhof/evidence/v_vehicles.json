@@ -1,0 +1,7 @@
+{
+  "validator": "v_vehicles",
+  "status": "PASS",
+  "train_count": 6,
+  "vehicle_count": 34,
+  "errors": []
+}

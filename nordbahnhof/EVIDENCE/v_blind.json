@@ -1,0 +1,13 @@
+{
+  "validator": "v_blind",
+  "status": "PASS",
+  "checked_classes": [
+    "exterior",
+    "interior_volume",
+    "human",
+    "material_macro",
+    "iron",
+    "vehicle"
+  ],
+  "errors": []
+}

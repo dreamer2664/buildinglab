@@ -1,0 +1,7 @@
+{
+  "validator": "v_light",
+  "status": "FAIL",
+  "errors": [
+    "Room CONC_01 emitter practical_pendant_brass has 0/10 clear rays (< 9)"
+  ]
+}

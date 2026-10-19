@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="3840" height="2160">
+  <rect width="1920" height="1080" fill="#0B1320"/>
+  <rect x="40" y="30" width="1840" height="1020" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="70" y="62" font-family="monospace" font-size="20" font-weight="bold" fill="#D4AF37">NORDBAHNHOF — LEVEL B1 — BAGGAGE HANDLING, CONVEYOR HALL & BOILER PLANT (FFL -4.20 m)</text>
+  <text x="70" y="84" font-family="monospace" font-size="13" fill="#A9CCE3">FOOTPRINT 240.00 m x 120.00 m (28,800 m2) · ORIGIN (0,0,0) AT SOUTH PORTICO CENTRELINE · +Y NORTH · ROOMS ON LEVEL: 23</text>
+  <rect x="120" y="80" width="1680" height="840" fill="#0F1B2D" stroke="#F4D03F" stroke-width="2"/>
+  <rect x="330" y="80" width="1260" height="588" fill="none" stroke="#5DADE2" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <rect x="260.0" y="668.0" width="63.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="263.0" y="679.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WC_01 (54m2)</text>
+  <rect x="260.0" y="710.0" width="63.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="263.0" y="721.0" font-family="monospace" font-size="8.5" fill="#EAECEE">WCL_01 (27m2)</text>
+  <rect x="190.0" y="542.0" width="154.0" height="98.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="193.0" y="553.0" font-family="monospace" font-size="8.5" fill="#EAECEE">PLN_01 (308m2)</text>
+  <rect x="554.0" y="542.0" width="154.0" height="98.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="557.0" y="553.0" font-family="monospace" font-size="8.5" fill="#EAECEE">PLN_02 (308m2)</text>
+  <rect x="1282.0" y="542.0" width="154.0" height="98.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1285.0" y="553.0" font-family="monospace" font-size="8.5" fill="#EAECEE">PLN_04 (308m2)</text>
+  <rect x="400.0" y="402.0" width="1120.0" height="168.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="403.0" y="413.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_01 (3840m2)</text>
+  <rect x="435.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="438.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_02 (240m2)</text>
+  <rect x="610.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="613.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_03 (240m2)</text>
+  <rect x="785.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="788.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_04 (240m2)</text>
+  <rect x="960.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="963.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_05 (240m2)</text>
+  <rect x="1135.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1138.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_06 (240m2)</text>
+  <rect x="1310.0" y="318.0" width="140.0" height="84.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1313.0" y="329.0" font-family="monospace" font-size="8.5" fill="#EAECEE">BAG_07 (240m2)</text>
+  <rect x="1212.0" y="346.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1215.0" y="357.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_05 (48m2)</text>
+  <rect x="1478.0" y="346.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1481.0" y="357.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_06 (48m2)</text>
+  <rect x="148.0" y="290.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="151.0" y="301.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_07 (48m2)</text>
+  <rect x="414.0" y="290.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="417.0" y="301.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_08 (48m2)</text>
+  <rect x="379.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="382.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_02 (48m2)</text>
+  <rect x="1149.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1152.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_07 (48m2)</text>
+  <rect x="379.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="382.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_12 (48m2)</text>
+  <rect x="1149.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1152.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_17 (48m2)</text>
+  <rect x="1065.0" y="654.0" width="28.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1068.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STC_06 (12m2)</text>
+  <rect x="1219.0" y="654.0" width="28.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1222.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STC_07 (12m2)</text>
+  <rect x="1527.0" y="654.0" width="28.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1530.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STC_09 (12m2)</text>
+  <g transform="translate(120, 965)">
+    <line x1="0" y1="0" x2="350" y2="0" stroke="#F4D03F" stroke-width="3"/>
+    <text x="0" y="20" font-family="monospace" font-size="12" fill="#F4D03F">0 m ———— 10 m ———— 25 m ———— 50 m (SCALE 1:200)</text>
+  </g>
+  <g transform="translate(1810, 960)">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <polygon points="0,-24 -8,10 0,3 8,10" fill="#D4AF37"/>
+    <text x="-18" y="44" font-family="monospace" font-size="13" font-weight="bold" fill="#D4AF37">N (+Y)</text>
+  </g>
+</svg>

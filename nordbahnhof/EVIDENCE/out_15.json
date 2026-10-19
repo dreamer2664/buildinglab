@@ -1,0 +1,8 @@
+{
+  "validator": "v_package",
+  "status": "FAIL",
+  "errors": [
+    "Forbidden PNG in renders/best/: illegal_master.png",
+    "Image illegal_master.png bytes 31457280 > 4 MB limit"
+  ]
+}

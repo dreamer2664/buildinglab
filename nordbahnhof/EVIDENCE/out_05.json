@@ -1,0 +1,8 @@
+{
+  "validator": "v_density",
+  "status": "FAIL",
+  "rooms_checked": 240,
+  "errors": [
+    "Room REST_03 (restaurant) actual_props 160 < required 200"
+  ]
+}

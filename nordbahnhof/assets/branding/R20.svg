@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <rect x="4" y="4" width="632" height="192" rx="10" fill="#1F3A4D" stroke="#B87333" stroke-width="4"/>
+  <rect x="14" y="14" width="612" height="172" rx="6" fill="none" stroke="#F0F4F8" stroke-width="1.5" stroke-dasharray="9 4"/>
+  <circle cx="96" cy="100" r="54" fill="none" stroke="#B87333" stroke-width="3"/>
+  <polygon points="96,54 140,100 96,146 52,100" fill="#F0F4F8" fill-opacity="0.25" stroke="#B87333" stroke-width="2"/>
+  <text x="96" y="107" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#B87333">R20</text>
+  <text x="185" y="88" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#B87333">Uhrwerk Weinhandlung</text>
+  <text x="185" y="126" font-family="monospace" font-size="15" fill="#F0F4F8">NORDBAHNHOF · WINE_SPIRITS · EST. 1903</text>
+  <line x1="185" y1="142" x2="590" y2="142" stroke="#B87333" stroke-width="2"/>
+</svg>

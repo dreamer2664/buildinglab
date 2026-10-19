@@ -1,0 +1,12 @@
+{
+  "validator": "v_people",
+  "status": "FAIL",
+  "total_people": 401,
+  "passengers": 240,
+  "staff": 161,
+  "identities": 60,
+  "heroes": 21,
+  "errors": [
+    "Duplicate identity ID_01 in room/platform PLT_07 (F29)"
+  ]
+}
