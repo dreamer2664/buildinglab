@@ -1,0 +1,7 @@
+{
+  "validator": "v_density",
+  "rooms_checked": 825,
+  "min_prop_triangles": 48,
+  "errors": [],
+  "status": "PASS"
+}

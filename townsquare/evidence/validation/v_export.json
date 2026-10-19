@@ -1,0 +1,14 @@
+{
+  "validator": "v_export",
+  "expected_triangles": 124800,
+  "reimported_triangles": 124800,
+  "expected_materials": 64,
+  "reimported_materials": 64,
+  "expected_textures": 18,
+  "reimported_textures": 18,
+  "identifiable_levels": 7,
+  "triangle_delta": 0,
+  "material_delta": 0,
+  "errors": [],
+  "status": "PASS"
+}

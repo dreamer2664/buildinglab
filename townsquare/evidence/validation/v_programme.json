@@ -1,0 +1,16 @@
+{
+  "buildings": 12,
+  "residential_floors": 55,
+  "apartments": 110,
+  "apartments_per_floor": 2.0,
+  "apartment_rooms": 770,
+  "shop_rooms": 48,
+  "landings": 55,
+  "rooms_with_0_doors": 0,
+  "rooms_with_0_windows": 0,
+  "unreachable_rooms": 0,
+  "min_occupied_ratio": 1.0,
+  "floor_area_balance": "PASS",
+  "errors": [],
+  "status": "PASS"
+}

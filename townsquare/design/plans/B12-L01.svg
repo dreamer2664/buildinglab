@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 911 784" width="911" height="784" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfbf8"/>
+<text x="130" y="38" font-size="18" font-weight="bold" fill="#1a1a1a">B12 · Ecke Süd — Floor L01 (FFL +0.00 m · Clear Ceiling 3.60 m)</text>
+<text x="130" y="60" font-size="12" fill="#444444">Footprint 15.50 × 12.00 m (186.0 m²) · Front facing EAST onto Winterlichtplatz · Exterior wall 0.40 m · Partition 0.12/0.25 m</text>
+<rect x="124.0" y="104.0" width="663.0" height="516.0" fill="#2c2c2c" stroke="#111" stroke-width="2"/>
+<rect x="130.0" y="341.0" width="651.0" height="273.0" fill="#f9ebd2" stroke="#333333" stroke-width="2.2"/>
+<rect x="325.3" y="611.0" width="260.4" height="8" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<rect x="125.0" y="422.9" width="8" height="109.2" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<rect x="778.0" y="422.9" width="8" height="109.2" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<text x="455.5" y="469.5" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1b1b1b">SALES</text>
+<text x="455.5" y="483.5" font-size="9.5" text-anchor="middle" fill="#333333">15.50×6.50 m (100.8 m²)</text>
+<text x="455.5" y="496.5" font-size="8.5" text-anchor="middle" fill="#555555">D:3 W:4 P≥30</text>
+<rect x="130.0" y="227.6" width="325.5" height="113.4" fill="#ecd9ba" stroke="#333333" stroke-width="2.2"/>
+<rect x="125.0" y="261.6" width="8" height="45.4" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<text x="292.8" y="276.3" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1b1b1b">COUNTER</text>
+<text x="292.8" y="290.3" font-size="9.5" text-anchor="middle" fill="#333333">7.75×2.70 m (20.9 m²)</text>
+<text x="292.8" y="303.3" font-size="8.5" text-anchor="middle" fill="#555555">D:2 W:1 P≥20</text>
+<rect x="130.0" y="110.0" width="325.5" height="117.6" fill="#e2dfd7" stroke="#333333" stroke-width="2.2"/>
+<rect x="227.6" y="105.0" width="130.2" height="8" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<rect x="125.0" y="145.3" width="8" height="47.0" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<text x="292.8" y="160.8" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1b1b1b">BACKROOM</text>
+<text x="292.8" y="174.8" font-size="9.5" text-anchor="middle" fill="#333333">7.75×2.80 m (21.7 m²)</text>
+<text x="292.8" y="187.8" font-size="8.5" text-anchor="middle" fill="#555555">D:2 W:2 P≥18</text>
+<rect x="455.5" y="110.0" width="325.5" height="231.0" fill="#e5edf2" stroke="#333333" stroke-width="2.2"/>
+<rect x="553.1" y="105.0" width="130.2" height="8" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<rect x="778.0" y="179.3" width="8" height="92.4" fill="#8fd3fe" stroke="#1b6ca8" stroke-width="1.2"/>
+<text x="618.2" y="217.5" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1b1b1b">STAFF</text>
+<text x="618.2" y="231.5" font-size="9.5" text-anchor="middle" fill="#333333">7.75×5.50 m (42.6 m²)</text>
+<text x="618.2" y="244.5" font-size="8.5" text-anchor="middle" fill="#555555">D:2 W:2 P≥12</text>
+<line x1="130.0" y1="646.0" x2="781.0" y2="646.0" stroke="#222" stroke-width="1.5"/>
+<line x1="130.0" y1="640.0" x2="130.0" y2="652.0" stroke="#222" stroke-width="1.5"/>
+<line x1="781.0" y1="640.0" x2="781.0" y2="652.0" stroke="#222" stroke-width="1.5"/>
+<text x="455.5" y="640.0" font-size="11" text-anchor="middle" fill="#111">15.50 m overall width</text>
+<line x1="98.0" y1="110.0" x2="98.0" y2="614.0" stroke="#222" stroke-width="1.5"/>
+<line x1="92.0" y1="110.0" x2="104.0" y2="110.0" stroke="#222" stroke-width="1.5"/>
+<line x1="92.0" y1="614.0" x2="104.0" y2="614.0" stroke="#222" stroke-width="1.5"/>
+<text x="88.0" y="362.0" font-size="11" text-anchor="middle" transform="rotate(-90 88.0 362.0)" fill="#111">12.00 m overall depth</text>
+<rect x="130" y="752" width="210.0" height="8" fill="none" stroke="#111" stroke-width="1.5"/>
+<rect x="130.0" y="752" width="42.0" height="8" fill="#111" stroke="#111" stroke-width="1"/>
+<text x="130.0" y="748" font-size="9" text-anchor="middle" fill="#111">0m</text>
+<rect x="172.0" y="752" width="42.0" height="8" fill="#fff" stroke="#111" stroke-width="1"/>
+<text x="172.0" y="748" font-size="9" text-anchor="middle" fill="#111">1m</text>
+<rect x="214.0" y="752" width="42.0" height="8" fill="#111" stroke="#111" stroke-width="1"/>
+<text x="214.0" y="748" font-size="9" text-anchor="middle" fill="#111">2m</text>
+<rect x="256.0" y="752" width="42.0" height="8" fill="#fff" stroke="#111" stroke-width="1"/>
+<text x="256.0" y="748" font-size="9" text-anchor="middle" fill="#111">3m</text>
+<rect x="298.0" y="752" width="42.0" height="8" fill="#111" stroke="#111" stroke-width="1"/>
+<text x="298.0" y="748" font-size="9" text-anchor="middle" fill="#111">4m</text>
+<text x="340.0" y="748" font-size="9" text-anchor="middle" fill="#111">5m</text>
+<circle cx="846" cy="55" r="22" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<polygon points="846,37 839,65 846,59 853,65" fill="#111"/>
+<text x="846" y="31" font-size="11" font-weight="bold" text-anchor="middle" fill="#111">N (+Y)</text>
+</svg>

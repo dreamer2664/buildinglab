@@ -1,0 +1,11 @@
+{
+  "validator": "v_scale",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "square_m": [
+    64.0,
+    52.0
+  ],
+  "errors": [],
+  "status": "PASS"
+}

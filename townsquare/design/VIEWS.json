@@ -1,0 +1,5796 @@
+[
+  {
+    "id": "hero_01_square_blue_hour",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -24.0,
+      -20.0,
+      1.62
+    ],
+    "target": [
+      6.0,
+      14.0,
+      4.5
+    ]
+  },
+  {
+    "id": "hero_02_square_day",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "day",
+    "location": [
+      24.0,
+      -20.0,
+      1.62
+    ],
+    "target": [
+      -6.0,
+      14.0,
+      4.5
+    ]
+  },
+  {
+    "id": "hero_03_square_night",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      0.0,
+      -23.0,
+      1.62
+    ],
+    "target": [
+      0.0,
+      18.0,
+      5.0
+    ]
+  },
+  {
+    "id": "hero_04_square_oblique",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -29.0,
+      -24.0,
+      22.0
+    ],
+    "target": [
+      4.0,
+      6.0,
+      2.0
+    ]
+  },
+  {
+    "id": "ext_B01_blue_hour",
+    "class": "building_exterior",
+    "building": "B01",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -8.4,
+      12.8,
+      1.62
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "sec_B01_cutaway",
+    "class": "building_section",
+    "building": "B01",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -11.55,
+      17.6,
+      10.1
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      10.1
+    ]
+  },
+  {
+    "id": "shop_B01_front",
+    "class": "shopfront",
+    "building": "B01",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -15.12,
+      23.04,
+      1.62
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B01_exterior",
+    "class": "night_alternate",
+    "building": "B01",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -8.82,
+      13.44,
+      1.62
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "ext_B02_blue_hour",
+    "class": "building_exterior",
+    "building": "B02",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -0.2,
+      12.8,
+      1.62
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "sec_B02_cutaway",
+    "class": "building_section",
+    "building": "B02",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -0.275,
+      17.6,
+      10.1
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      10.1
+    ]
+  },
+  {
+    "id": "shop_B02_front",
+    "class": "shopfront",
+    "building": "B02",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -0.36,
+      23.04,
+      1.62
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B02_exterior",
+    "class": "night_alternate",
+    "building": "B02",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -0.21,
+      13.44,
+      1.62
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "ext_B03_blue_hour",
+    "class": "building_exterior",
+    "building": "B03",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      7.800000000000001,
+      12.8,
+      1.62
+    ],
+    "target": [
+      19.5,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "sec_B03_cutaway",
+    "class": "building_section",
+    "building": "B03",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      10.725000000000001,
+      17.6,
+      10.1
+    ],
+    "target": [
+      19.5,
+      32.0,
+      10.1
+    ]
+  },
+  {
+    "id": "shop_B03_front",
+    "class": "shopfront",
+    "building": "B03",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      14.04,
+      23.04,
+      1.62
+    ],
+    "target": [
+      19.5,
+      32.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B03_exterior",
+    "class": "night_alternate",
+    "building": "B03",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      8.19,
+      13.44,
+      1.62
+    ],
+    "target": [
+      19.5,
+      32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "ext_B04_blue_hour",
+    "class": "building_exterior",
+    "building": "B04",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      15.200000000000001,
+      7.0,
+      1.62
+    ],
+    "target": [
+      38.0,
+      17.5,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B04_cutaway",
+    "class": "building_section",
+    "building": "B04",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      20.900000000000002,
+      9.625,
+      8.5
+    ],
+    "target": [
+      38.0,
+      17.5,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B04_front",
+    "class": "shopfront",
+    "building": "B04",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      27.36,
+      12.6,
+      1.62
+    ],
+    "target": [
+      38.0,
+      17.5,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B04_exterior",
+    "class": "night_alternate",
+    "building": "B04",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      15.959999999999999,
+      7.35,
+      1.62
+    ],
+    "target": [
+      38.0,
+      17.5,
+      7.65
+    ]
+  },
+  {
+    "id": "ext_B05_blue_hour",
+    "class": "building_exterior",
+    "building": "B05",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      15.200000000000001,
+      -0.1,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B05_cutaway",
+    "class": "building_section",
+    "building": "B05",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      20.900000000000002,
+      -0.1375,
+      8.5
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B05_front",
+    "class": "shopfront",
+    "building": "B05",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      27.36,
+      -0.18,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B05_exterior",
+    "class": "night_alternate",
+    "building": "B05",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      15.959999999999999,
+      -0.105,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      7.65
+    ]
+  },
+  {
+    "id": "ext_B06_blue_hour",
+    "class": "building_exterior",
+    "building": "B06",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      15.200000000000001,
+      -7.1000000000000005,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B06_cutaway",
+    "class": "building_section",
+    "building": "B06",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      20.900000000000002,
+      -9.762500000000001,
+      8.5
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B06_front",
+    "class": "shopfront",
+    "building": "B06",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      27.36,
+      -12.78,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B06_exterior",
+    "class": "night_alternate",
+    "building": "B06",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      15.959999999999999,
+      -7.455,
+      1.62
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "ext_B07_blue_hour",
+    "class": "building_exterior",
+    "building": "B07",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      8.3,
+      -12.8,
+      1.62
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "sec_B07_cutaway",
+    "class": "building_section",
+    "building": "B07",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      11.412500000000001,
+      -17.6,
+      10.1
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      10.1
+    ]
+  },
+  {
+    "id": "shop_B07_front",
+    "class": "shopfront",
+    "building": "B07",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      14.94,
+      -23.04,
+      1.62
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B07_exterior",
+    "class": "night_alternate",
+    "building": "B07",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      8.715,
+      -13.44,
+      1.62
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      9.09
+    ]
+  },
+  {
+    "id": "ext_B08_blue_hour",
+    "class": "building_exterior",
+    "building": "B08",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.8,
+      -12.8,
+      1.62
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B08_cutaway",
+    "class": "building_section",
+    "building": "B08",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      1.1,
+      -17.6,
+      8.5
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B08_front",
+    "class": "shopfront",
+    "building": "B08",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      1.44,
+      -23.04,
+      1.62
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B08_exterior",
+    "class": "night_alternate",
+    "building": "B08",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      0.84,
+      -13.44,
+      1.62
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      7.65
+    ]
+  },
+  {
+    "id": "ext_B09_blue_hour",
+    "class": "building_exterior",
+    "building": "B09",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -7.800000000000001,
+      -12.9,
+      1.62
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      10.53
+    ]
+  },
+  {
+    "id": "sec_B09_cutaway",
+    "class": "building_section",
+    "building": "B09",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -10.725000000000001,
+      -17.7375,
+      11.7
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      11.7
+    ]
+  },
+  {
+    "id": "shop_B09_front",
+    "class": "shopfront",
+    "building": "B09",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -14.04,
+      -23.22,
+      1.62
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B09_exterior",
+    "class": "night_alternate",
+    "building": "B09",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -8.19,
+      -13.545,
+      1.62
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      10.53
+    ]
+  },
+  {
+    "id": "ext_B10_blue_hour",
+    "class": "building_exterior",
+    "building": "B10",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -15.200000000000001,
+      -7.1000000000000005,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B10_cutaway",
+    "class": "building_section",
+    "building": "B10",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -20.900000000000002,
+      -9.762500000000001,
+      8.5
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B10_front",
+    "class": "shopfront",
+    "building": "B10",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -27.36,
+      -12.78,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B10_exterior",
+    "class": "night_alternate",
+    "building": "B10",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -15.959999999999999,
+      -7.455,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "ext_B11_blue_hour",
+    "class": "building_exterior",
+    "building": "B11",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -15.200000000000001,
+      0.0,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      9.09
+    ]
+  },
+  {
+    "id": "sec_B11_cutaway",
+    "class": "building_section",
+    "building": "B11",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -20.900000000000002,
+      0.0,
+      10.1
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      10.1
+    ]
+  },
+  {
+    "id": "shop_B11_front",
+    "class": "shopfront",
+    "building": "B11",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -27.36,
+      0.0,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B11_exterior",
+    "class": "night_alternate",
+    "building": "B11",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -15.959999999999999,
+      0.0,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      9.09
+    ]
+  },
+  {
+    "id": "ext_B12_blue_hour",
+    "class": "building_exterior",
+    "building": "B12",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -15.200000000000001,
+      7.1000000000000005,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "sec_B12_cutaway",
+    "class": "building_section",
+    "building": "B12",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      -20.900000000000002,
+      9.762500000000001,
+      8.5
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      8.5
+    ]
+  },
+  {
+    "id": "shop_B12_front",
+    "class": "shopfront",
+    "building": "B12",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      -27.36,
+      12.78,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      2.1
+    ]
+  },
+  {
+    "id": "night_B12_exterior",
+    "class": "night_alternate",
+    "building": "B12",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "location": [
+      -15.959999999999999,
+      7.455,
+      1.62
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      7.65
+    ]
+  },
+  {
+    "id": "int_B01_L02_A",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L02",
+    "apartment": "B01_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L02_B",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L02",
+    "apartment": "B01_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L03_A",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L03",
+    "apartment": "B01_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L03_B",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L03",
+    "apartment": "B01_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L04_A",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L04",
+    "apartment": "B01_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L04_B",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L04",
+    "apartment": "B01_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L05_A",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L05",
+    "apartment": "B01_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L05_B",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L05",
+    "apartment": "B01_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L06_A",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L06",
+    "apartment": "B01_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B01_L06_B",
+    "class": "apartment_interior",
+    "building": "B01",
+    "floor": "L06",
+    "apartment": "B01_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L02_A",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L02",
+    "apartment": "B02_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L02_B",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L02",
+    "apartment": "B02_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L03_A",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L03",
+    "apartment": "B02_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L03_B",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L03",
+    "apartment": "B02_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L04_A",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L04",
+    "apartment": "B02_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L04_B",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L04",
+    "apartment": "B02_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L05_A",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L05",
+    "apartment": "B02_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L05_B",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L05",
+    "apartment": "B02_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L06_A",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L06",
+    "apartment": "B02_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B02_L06_B",
+    "class": "apartment_interior",
+    "building": "B02",
+    "floor": "L06",
+    "apartment": "B02_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L02_A",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L02",
+    "apartment": "B03_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L02_B",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L02",
+    "apartment": "B03_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L03_A",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L03",
+    "apartment": "B03_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L03_B",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L03",
+    "apartment": "B03_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L04_A",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L04",
+    "apartment": "B03_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L04_B",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L04",
+    "apartment": "B03_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L05_A",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L05",
+    "apartment": "B03_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L05_B",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L05",
+    "apartment": "B03_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L06_A",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L06",
+    "apartment": "B03_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B03_L06_B",
+    "class": "apartment_interior",
+    "building": "B03",
+    "floor": "L06",
+    "apartment": "B03_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L02_A",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L02",
+    "apartment": "B04_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L02_B",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L02",
+    "apartment": "B04_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L03_A",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L03",
+    "apartment": "B04_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L03_B",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L03",
+    "apartment": "B04_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L04_A",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L04",
+    "apartment": "B04_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L04_B",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L04",
+    "apartment": "B04_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L05_A",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L05",
+    "apartment": "B04_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B04_L05_B",
+    "class": "apartment_interior",
+    "building": "B04",
+    "floor": "L05",
+    "apartment": "B04_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L02_A",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L02",
+    "apartment": "B05_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L02_B",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L02",
+    "apartment": "B05_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L03_A",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L03",
+    "apartment": "B05_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L03_B",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L03",
+    "apartment": "B05_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L04_A",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L04",
+    "apartment": "B05_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L04_B",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L04",
+    "apartment": "B05_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L05_A",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L05",
+    "apartment": "B05_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B05_L05_B",
+    "class": "apartment_interior",
+    "building": "B05",
+    "floor": "L05",
+    "apartment": "B05_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L02_A",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L02",
+    "apartment": "B06_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L02_B",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L02",
+    "apartment": "B06_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L03_A",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L03",
+    "apartment": "B06_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L03_B",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L03",
+    "apartment": "B06_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L04_A",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L04",
+    "apartment": "B06_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L04_B",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L04",
+    "apartment": "B06_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L05_A",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L05",
+    "apartment": "B06_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B06_L05_B",
+    "class": "apartment_interior",
+    "building": "B06",
+    "floor": "L05",
+    "apartment": "B06_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L02_A",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L02",
+    "apartment": "B07_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L02_B",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L02",
+    "apartment": "B07_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L03_A",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L03",
+    "apartment": "B07_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L03_B",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L03",
+    "apartment": "B07_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L04_A",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L04",
+    "apartment": "B07_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L04_B",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L04",
+    "apartment": "B07_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L05_A",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L05",
+    "apartment": "B07_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L05_B",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L05",
+    "apartment": "B07_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L06_A",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L06",
+    "apartment": "B07_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B07_L06_B",
+    "class": "apartment_interior",
+    "building": "B07",
+    "floor": "L06",
+    "apartment": "B07_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L02_A",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L02",
+    "apartment": "B08_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L02_B",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L02",
+    "apartment": "B08_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L03_A",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L03",
+    "apartment": "B08_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L03_B",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L03",
+    "apartment": "B08_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L04_A",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L04",
+    "apartment": "B08_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L04_B",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L04",
+    "apartment": "B08_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L05_A",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L05",
+    "apartment": "B08_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B08_L05_B",
+    "class": "apartment_interior",
+    "building": "B08",
+    "floor": "L05",
+    "apartment": "B08_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L02_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L02",
+    "apartment": "B09_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L02_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L02",
+    "apartment": "B09_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L03_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L03",
+    "apartment": "B09_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L03_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L03",
+    "apartment": "B09_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L04_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L04",
+    "apartment": "B09_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L04_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L04",
+    "apartment": "B09_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L05_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L05",
+    "apartment": "B09_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L05_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L05",
+    "apartment": "B09_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L06_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L06",
+    "apartment": "B09_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L06_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L06",
+    "apartment": "B09_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L07_A",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L07",
+    "apartment": "B09_L07_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B09_L07_B",
+    "class": "apartment_interior",
+    "building": "B09",
+    "floor": "L07",
+    "apartment": "B09_L07_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L02_A",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L02",
+    "apartment": "B10_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L02_B",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L02",
+    "apartment": "B10_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L03_A",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L03",
+    "apartment": "B10_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L03_B",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L03",
+    "apartment": "B10_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L04_A",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L04",
+    "apartment": "B10_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L04_B",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L04",
+    "apartment": "B10_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L05_A",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L05",
+    "apartment": "B10_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B10_L05_B",
+    "class": "apartment_interior",
+    "building": "B10",
+    "floor": "L05",
+    "apartment": "B10_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L02_A",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L02",
+    "apartment": "B11_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L02_B",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L02",
+    "apartment": "B11_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L03_A",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L03",
+    "apartment": "B11_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L03_B",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L03",
+    "apartment": "B11_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L04_A",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L04",
+    "apartment": "B11_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L04_B",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L04",
+    "apartment": "B11_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L05_A",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L05",
+    "apartment": "B11_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L05_B",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L05",
+    "apartment": "B11_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L06_A",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L06",
+    "apartment": "B11_L06_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B11_L06_B",
+    "class": "apartment_interior",
+    "building": "B11",
+    "floor": "L06",
+    "apartment": "B11_L06_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L02_A",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L02",
+    "apartment": "B12_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L02_B",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L02",
+    "apartment": "B12_L02_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L03_A",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L03",
+    "apartment": "B12_L03_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L03_B",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L03",
+    "apartment": "B12_L03_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L04_A",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L04",
+    "apartment": "B12_L04_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L04_B",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L04",
+    "apartment": "B12_L04_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L05_A",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L05",
+    "apartment": "B12_L05_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "int_B12_L05_B",
+    "class": "apartment_interior",
+    "building": "B12",
+    "floor": "L05",
+    "apartment": "B12_L05_B",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      0.0,
+      1.62
+    ],
+    "target": [
+      1.5,
+      1.5,
+      1.4
+    ]
+  },
+  {
+    "id": "plan_B01_L01",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B01-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      18.0
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B01_L02",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B01-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      22.2
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B01_L03",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B01-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      25.4
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B01_L04",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B01-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      28.6
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B01_L05",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B01-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      31.8
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B01_L06",
+    "class": "plan",
+    "building": "B01",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B01-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -21.0,
+      32.0,
+      35.0
+    ],
+    "target": [
+      -21.0,
+      32.0,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B02_L01",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B02-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      18.0
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B02_L02",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B02-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      22.2
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B02_L03",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B02-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      25.4
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B02_L04",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B02-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      28.6
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B02_L05",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B02-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      31.8
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B02_L06",
+    "class": "plan",
+    "building": "B02",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B02-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -0.5,
+      32.0,
+      35.0
+    ],
+    "target": [
+      -0.5,
+      32.0,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B03_L01",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B03-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      18.0
+    ],
+    "target": [
+      19.5,
+      32.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B03_L02",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B03-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      22.2
+    ],
+    "target": [
+      19.5,
+      32.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B03_L03",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B03-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      25.4
+    ],
+    "target": [
+      19.5,
+      32.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B03_L04",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B03-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      28.6
+    ],
+    "target": [
+      19.5,
+      32.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B03_L05",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B03-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      31.8
+    ],
+    "target": [
+      19.5,
+      32.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B03_L06",
+    "class": "plan",
+    "building": "B03",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B03-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      19.5,
+      32.0,
+      35.0
+    ],
+    "target": [
+      19.5,
+      32.0,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B04_L01",
+    "class": "plan",
+    "building": "B04",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B04-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      17.5,
+      18.0
+    ],
+    "target": [
+      38.0,
+      17.5,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B04_L02",
+    "class": "plan",
+    "building": "B04",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B04-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      17.5,
+      22.2
+    ],
+    "target": [
+      38.0,
+      17.5,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B04_L03",
+    "class": "plan",
+    "building": "B04",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B04-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      17.5,
+      25.4
+    ],
+    "target": [
+      38.0,
+      17.5,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B04_L04",
+    "class": "plan",
+    "building": "B04",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B04-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      17.5,
+      28.6
+    ],
+    "target": [
+      38.0,
+      17.5,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B04_L05",
+    "class": "plan",
+    "building": "B04",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B04-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      17.5,
+      31.8
+    ],
+    "target": [
+      38.0,
+      17.5,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B05_L01",
+    "class": "plan",
+    "building": "B05",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B05-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -0.25,
+      18.0
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B05_L02",
+    "class": "plan",
+    "building": "B05",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B05-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -0.25,
+      22.2
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B05_L03",
+    "class": "plan",
+    "building": "B05",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B05-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -0.25,
+      25.4
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B05_L04",
+    "class": "plan",
+    "building": "B05",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B05-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -0.25,
+      28.6
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B05_L05",
+    "class": "plan",
+    "building": "B05",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B05-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -0.25,
+      31.8
+    ],
+    "target": [
+      38.0,
+      -0.25,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B06_L01",
+    "class": "plan",
+    "building": "B06",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B06-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -17.75,
+      18.0
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B06_L02",
+    "class": "plan",
+    "building": "B06",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B06-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -17.75,
+      22.2
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B06_L03",
+    "class": "plan",
+    "building": "B06",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B06-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -17.75,
+      25.4
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B06_L04",
+    "class": "plan",
+    "building": "B06",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B06-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -17.75,
+      28.6
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B06_L05",
+    "class": "plan",
+    "building": "B06",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B06-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      38.0,
+      -17.75,
+      31.8
+    ],
+    "target": [
+      38.0,
+      -17.75,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B07_L01",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B07-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      18.0
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B07_L02",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B07-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      22.2
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B07_L03",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B07-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      25.4
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B07_L04",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B07-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      28.6
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B07_L05",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B07-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      31.8
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B07_L06",
+    "class": "plan",
+    "building": "B07",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B07-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      20.75,
+      -32.0,
+      35.0
+    ],
+    "target": [
+      20.75,
+      -32.0,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B08_L01",
+    "class": "plan",
+    "building": "B08",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B08-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      2.0,
+      -32.0,
+      18.0
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B08_L02",
+    "class": "plan",
+    "building": "B08",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B08-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      2.0,
+      -32.0,
+      22.2
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B08_L03",
+    "class": "plan",
+    "building": "B08",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B08-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      2.0,
+      -32.0,
+      25.4
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B08_L04",
+    "class": "plan",
+    "building": "B08",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B08-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      2.0,
+      -32.0,
+      28.6
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B08_L05",
+    "class": "plan",
+    "building": "B08",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B08-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      2.0,
+      -32.0,
+      31.8
+    ],
+    "target": [
+      2.0,
+      -32.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B09_L01",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B09-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      18.0
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B09_L02",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B09-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      22.2
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B09_L03",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B09-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      25.4
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B09_L04",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B09-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      28.6
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B09_L05",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B09-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      31.8
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B09_L06",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B09-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      35.0
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B09_L07",
+    "class": "plan",
+    "building": "B09",
+    "floor": "L07",
+    "svg": "townsquare/design/plans/B09-L07.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -19.5,
+      -32.25,
+      38.2
+    ],
+    "target": [
+      -19.5,
+      -32.25,
+      20.2
+    ]
+  },
+  {
+    "id": "plan_B10_L01",
+    "class": "plan",
+    "building": "B10",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B10-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      -17.75,
+      18.0
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B10_L02",
+    "class": "plan",
+    "building": "B10",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B10-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      -17.75,
+      22.2
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B10_L03",
+    "class": "plan",
+    "building": "B10",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B10-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      -17.75,
+      25.4
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B10_L04",
+    "class": "plan",
+    "building": "B10",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B10-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      -17.75,
+      28.6
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B10_L05",
+    "class": "plan",
+    "building": "B10",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B10-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      -17.75,
+      31.8
+    ],
+    "target": [
+      -38.0,
+      -17.75,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B11_L01",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B11-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      18.0
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B11_L02",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B11-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      22.2
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B11_L03",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B11-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      25.4
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B11_L04",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B11-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      28.6
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B11_L05",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B11-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      31.8
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      13.8
+    ]
+  },
+  {
+    "id": "plan_B11_L06",
+    "class": "plan",
+    "building": "B11",
+    "floor": "L06",
+    "svg": "townsquare/design/plans/B11-L06.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      0.0,
+      35.0
+    ],
+    "target": [
+      -38.0,
+      0.0,
+      17.0
+    ]
+  },
+  {
+    "id": "plan_B12_L01",
+    "class": "plan",
+    "building": "B12",
+    "floor": "L01",
+    "svg": "townsquare/design/plans/B12-L01.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      17.75,
+      18.0
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      0.0
+    ]
+  },
+  {
+    "id": "plan_B12_L02",
+    "class": "plan",
+    "building": "B12",
+    "floor": "L02",
+    "svg": "townsquare/design/plans/B12-L02.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      17.75,
+      22.2
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      4.2
+    ]
+  },
+  {
+    "id": "plan_B12_L03",
+    "class": "plan",
+    "building": "B12",
+    "floor": "L03",
+    "svg": "townsquare/design/plans/B12-L03.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      17.75,
+      25.4
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      7.4
+    ]
+  },
+  {
+    "id": "plan_B12_L04",
+    "class": "plan",
+    "building": "B12",
+    "floor": "L04",
+    "svg": "townsquare/design/plans/B12-L04.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      17.75,
+      28.6
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      10.6
+    ]
+  },
+  {
+    "id": "plan_B12_L05",
+    "class": "plan",
+    "building": "B12",
+    "floor": "L05",
+    "svg": "townsquare/design/plans/B12-L05.svg",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "day",
+    "location": [
+      -38.0,
+      17.75,
+      31.8
+    ],
+    "target": [
+      -38.0,
+      17.75,
+      13.8
+    ]
+  },
+  {
+    "id": "human_01_A",
+    "class": "human_closeup",
+    "hero_id": "H01",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_01_B",
+    "class": "human_closeup",
+    "hero_id": "H01",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_02_A",
+    "class": "human_closeup",
+    "hero_id": "H02",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_02_B",
+    "class": "human_closeup",
+    "hero_id": "H02",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_03_A",
+    "class": "human_closeup",
+    "hero_id": "H03",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_03_B",
+    "class": "human_closeup",
+    "hero_id": "H03",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_04_A",
+    "class": "human_closeup",
+    "hero_id": "H04",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_04_B",
+    "class": "human_closeup",
+    "hero_id": "H04",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_05_A",
+    "class": "human_closeup",
+    "hero_id": "H05",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_05_B",
+    "class": "human_closeup",
+    "hero_id": "H05",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_06_A",
+    "class": "human_closeup",
+    "hero_id": "H06",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_06_B",
+    "class": "human_closeup",
+    "hero_id": "H06",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_07_A",
+    "class": "human_closeup",
+    "hero_id": "H07",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_07_B",
+    "class": "human_closeup",
+    "hero_id": "H07",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_08_A",
+    "class": "human_closeup",
+    "hero_id": "H08",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_08_B",
+    "class": "human_closeup",
+    "hero_id": "H08",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_09_A",
+    "class": "human_closeup",
+    "hero_id": "H09",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_09_B",
+    "class": "human_closeup",
+    "hero_id": "H09",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_10_A",
+    "class": "human_closeup",
+    "hero_id": "H10",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_10_B",
+    "class": "human_closeup",
+    "hero_id": "H10",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_11_A",
+    "class": "human_closeup",
+    "hero_id": "H11",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_11_B",
+    "class": "human_closeup",
+    "hero_id": "H11",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_12_A",
+    "class": "human_closeup",
+    "hero_id": "H12",
+    "angle": "A",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "human_12_B",
+    "class": "human_closeup",
+    "hero_id": "H12",
+    "angle": "B",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      0.0,
+      -1.35,
+      1.58
+    ],
+    "target": [
+      0.0,
+      0.0,
+      1.56
+    ]
+  },
+  {
+    "id": "terrain_01_cobbles_wet_puddle",
+    "class": "terrain_detail",
+    "subject": "cobbles_wet_puddle",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      1.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      1.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_02_kerb_snow_slush",
+    "class": "terrain_detail",
+    "subject": "kerb_snow_slush",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      3.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      3.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_03_bench_bolted_01",
+    "class": "terrain_detail",
+    "subject": "bench_bolted_01",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      4.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      4.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_04_market_stall_01",
+    "class": "terrain_detail",
+    "subject": "market_stall_01",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      6.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      6.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_05_fountain_frozen_edge",
+    "class": "terrain_detail",
+    "subject": "fountain_frozen_edge",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      7.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      7.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_06_street_lamp_01",
+    "class": "terrain_detail",
+    "subject": "street_lamp_01",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      9.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      9.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_07_tree_pit_grate",
+    "class": "terrain_detail",
+    "subject": "tree_pit_grate",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      10.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      10.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_08_christmas_tree_base",
+    "class": "terrain_detail",
+    "subject": "christmas_tree_base",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      12.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      12.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_09_gully_grating_drain",
+    "class": "terrain_detail",
+    "subject": "gully_grating_drain",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      13.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      13.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_10_bicycle_rack_snow",
+    "class": "terrain_detail",
+    "subject": "bicycle_rack_snow",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      15.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      15.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_11_playground_gate",
+    "class": "terrain_detail",
+    "subject": "playground_gate",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      16.5,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      16.5,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "terrain_12_bakery_threshold_slush",
+    "class": "terrain_detail",
+    "subject": "bakery_threshold_slush",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "location": [
+      18.0,
+      -4.0,
+      1.2
+    ],
+    "target": [
+      18.0,
+      0.0,
+      0.15
+    ]
+  },
+  {
+    "id": "tech_01_structure_wireframe",
+    "class": "technical",
+    "subject": "structure_wireframe",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "tech_02_facade_material_scales",
+    "class": "technical",
+    "subject": "facade_material_scales",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "tech_03_lighting_plan",
+    "class": "technical",
+    "subject": "lighting_plan",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "tech_04_master_section",
+    "class": "technical",
+    "subject": "master_section",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "tech_05_terrain_wireframe",
+    "class": "technical",
+    "subject": "terrain_wireframe",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "tech_06_kit_index",
+    "class": "technical",
+    "subject": "kit_index",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "location": [
+      0.0,
+      -30.0,
+      18.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      4.0
+    ]
+  }
+]
