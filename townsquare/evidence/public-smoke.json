@@ -1,0 +1,12 @@
+{
+  "stage": "small public-native reopen smoke test; not final evidence",
+  "native_sha256": "4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d",
+  "image_sha256": "5d8060b7cb601925d919e9172ed2c3497396c09b9068abd1091b9a5f7f5ce37c",
+  "dimensions": [
+    640,
+    400
+  ],
+  "samples": 4,
+  "opened_individually": true,
+  "observations": "Actually opened small render from exact publicly redownloaded A2 native: same twelve-shell square, roofs, tree/stalls and corrected playground layout visible. Very noisy4sample smoke intentionally below production quality; proves reopen/render only, not realism or furnishing."
+}

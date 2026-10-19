@@ -1,0 +1,17 @@
+{
+  "component": "B01",
+  "status": "PASS",
+  "path": ".cache/placement-portable-components/Native/B01.blend",
+  "sha256": "d42ee6bb9d5fe7c06682fb9d8b2937e49411088001e2c6d485bcce2f65b82513",
+  "bytes": 46575811,
+  "actual_opened_native_sha256": "d42ee6bb9d5fe7c06682fb9d8b2937e49411088001e2c6d485bcce2f65b82513",
+  "metric_normalization_resaved": false,
+  "exact_current_file_was_freshly_opened": true,
+  "mesh_objects": 581,
+  "packed_images": 35,
+  "missing_external_images": [],
+  "issues": [],
+  "metric_scale_length": 1.0,
+  "blender": "4.3.2",
+  "scope": "Actual separate Blender process open of saved full-map editable component, metric units, mesh presence, packed/existing images and building floor/room membership/offline view tools. Not visual quality/collision/certification."
+}

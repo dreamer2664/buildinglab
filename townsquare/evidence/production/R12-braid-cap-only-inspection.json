@@ -1,0 +1,11 @@
+{
+  "stage": "ACTUALLY_OPENED_CAP_ONLY_DIAGNOSTIC_NOT_ADOPTED",
+  "image": "evidence/quality-studies/braid-cap-only-diagnosis/D08-tile18-physical-hair-prototype-cap-only.png",
+  "image_sha256": "006bad5160db0f8ca9fb5298654d489ed8990a3edc5bef4127387ed3b87b6677",
+  "actual_dimensions": [
+    640,
+    800
+  ],
+  "observation": "Rear comb-like contour and broad overlapping side bands remain with generated fibres hidden. Coarse underlying licensed hair surface contributes; not evidence that fibre emission is the only cause. No solution or realism acceptance. Actual original braid Alpha shader link separately inspected: TEX_IMAGE Alpha output, not RGB Color.",
+  "next": "Separate fibres-only control without coarse underlayer; inspect actual output."
+}

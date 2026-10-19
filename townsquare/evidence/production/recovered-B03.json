@@ -1,0 +1,335 @@
+{
+  "chunk": "B03",
+  "objects": 85,
+  "geometry_uv_pose_material_signature_before": "d4adeef43dd5f7c98add46fb274806ade8f26a1639e0e1181c452e4eb112f17b",
+  "signature_after": "d4adeef43dd5f7c98add46fb274806ade8f26a1639e0e1181c452e4eb112f17b",
+  "conserved": true,
+  "image_changes": [
+    {
+      "name": "B03.png",
+      "source_dimensions": [
+        2160,
+        600
+      ],
+      "derivative_dimensions": [
+        256,
+        71
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-00.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-01.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-02.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-03.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-04.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-05.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-06.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-07.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-08.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-09.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-10.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "food-11.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_diff.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_metallic.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_nor_gl.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "sofa_02_roughness.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    }
+  ],
+  "file": ".cache/render-chunks/B03.blend",
+  "source_production_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776"
+}

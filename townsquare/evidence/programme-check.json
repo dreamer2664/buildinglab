@@ -1,0 +1,9 @@
+{
+  "stage": "design-data-only",
+  "status": "PASS",
+  "buildings": 12,
+  "occupied_floor_programmes": 26,
+  "unique_floor_programmes": 26,
+  "overlapping_building_footprints": 0,
+  "not_evidence_of_built_interiors": true
+}

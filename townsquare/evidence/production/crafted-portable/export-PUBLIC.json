@@ -1,0 +1,92 @@
+{
+  "component": "PUBLIC",
+  "source_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "glb": ".cache/crafted-portable-components/GLB/PUBLIC.glb",
+  "glb_sha256": "8404d515269d5fb1571389c6768447ae7c2205cdcc1c92d41665b97d8434b72d",
+  "glb_bytes": 20207460,
+  "expected_geometry": {
+    "mesh_objects": 25,
+    "vertices_instance_sum": 194694,
+    "polygons_instance_sum": 149543,
+    "triangles_instance_sum": 290356,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -56.0,
+      -50.0,
+      -0.7000000476837158
+    ],
+    "bounds_max": [
+      56.0,
+      50.0,
+      13.069999694824219
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "CHRISTMAS_FIR",
+      "EXISTING_BENCHES_LAMPS",
+      "FESTOONS",
+      "LINDEN_01",
+      "LINDEN_02",
+      "LINDEN_03",
+      "LINDEN_04",
+      "LINDEN_05",
+      "LINDEN_06",
+      "LINDEN_07",
+      "LINDEN_08",
+      "LINDEN_09",
+      "LINDEN_10",
+      "LINDEN_11",
+      "LINDEN_12",
+      "MARKET_01",
+      "MARKET_02",
+      "MARKET_03",
+      "MARKET_04",
+      "MARKET_05",
+      "MARKET_06",
+      "MARKET_07",
+      "MARKET_08",
+      "PLAYGROUND"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [
+    {
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__ground",
+      "action": "Cropped only legacy horizon component to112x100m, preserving original local UV metre density and z levels; all town architecture/plaza/people unchanged.",
+      "original_vertices": 8,
+      "original_bounds_min": [
+        -500.0,
+        -500.0,
+        -0.7000000476837158
+      ],
+      "original_bounds_max": [
+        500.0,
+        500.0,
+        -0.09999999403953552
+      ],
+      "portable_bounds_min": [
+        -56,
+        -50,
+        -0.7000000476837158
+      ],
+      "portable_bounds_max": [
+        56,
+        50,
+        -0.09999999403953552
+      ]
+    }
+  ],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

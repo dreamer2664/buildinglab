@@ -1,0 +1,21 @@
+{
+  "inspections": [
+    {
+      "view": "D01",
+      "image": ".cache/final-R6-rejected-studies/D01.png",
+      "sha256": "b45bd80a18998495758206fff4175498c6e79026528ee8962d3ce53a83ed66fe",
+      "actual_original_opened": true,
+      "decision": "REJECTED_CANDIDATE",
+      "notes": "Actually opened full-resolution original: faces/scarves/crown clipping acceptable CG at this view; reject candidate globally due cap rib assembly regression at D02."
+    },
+    {
+      "view": "D02",
+      "image": ".cache/final-R6-rejected-studies/D02.png",
+      "sha256": "4b285bcdbefa3f6bd6c93f247b78bd920f1879f360d553a235d8b7c603552409",
+      "actual_original_opened": true,
+      "decision": "REJECTED_CANDIDATE",
+      "notes": "Actually opened full-resolution original: P04 eyes clear and P03 hair below hem, but two dark strokes protrude at P03 cap edge. Compared actual R3 fitting reports:18 named P03_RIB components omitted by R5/R6 narrower selector, so they did not move with cap. Real inspect-driven assembly defect, not hair. R7 selects exact PID_RIB/PID_RIB.* names and asserts original cap-relative matrices conserved for every piece."
+    }
+  ],
+  "uninspected": "D03..D07 rendered before stop but not opened; D08 interrupted. None accepted."
+}

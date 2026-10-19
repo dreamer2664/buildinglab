@@ -1,0 +1,572 @@
+{
+  "project": "Winterlichtplatz",
+  "stage": "Editable working model with original measured facade detail and551measured supermarket products; producer visual/final/independent review separately recorded.",
+  "units": "metres",
+  "square_dimensions_m": [
+    64,
+    52
+  ],
+  "overall_building_envelope_m": [
+    -47,
+    -41,
+    47,
+    41
+  ],
+  "buildings": [
+    {
+      "id": "B01",
+      "brand": "MARKTGRUEN",
+      "business": "Neighbourhood supermarket",
+      "centre_xy_m": [
+        -20,
+        34
+      ],
+      "rotation_deg": 0,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B01_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Produce, dry goods, chilled cabinets, bakery island, checkouts, accessible WC, receiving",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B01_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Stockroom, purchasing office, staff kitchen, lockers, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B01_L03",
+          "index": 2,
+          "datum_m": 7.0,
+          "height_m": 3.2,
+          "programme": "Separate-entry two-bedroom loft home",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B02",
+      "brand": "KRUME & KORN",
+      "business": "Bakery",
+      "centre_xy_m": [
+        0,
+        34
+      ],
+      "rotation_deg": 0,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B02_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Bread counter, pastry displays, baking/prep kitchen, wash-up, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B02_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Bakers maisonette: living/kitchen, two bedrooms, bathroom, storage",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B03",
+      "brand": "KESSEL & KAKAO",
+      "business": "Cafe",
+      "centre_xy_m": [
+        20,
+        34
+      ],
+      "rotation_deg": 0,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B03_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Coffee bar, pastry display, varied seating, prep kitchen, customer WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B03_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Quiet reading cafe: lounge, tea pantry, games room, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B04",
+      "brand": "FABELHAUS",
+      "business": "Bookshop",
+      "centre_xy_m": [
+        40,
+        18
+      ],
+      "rotation_deg": -90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B04_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Bookshelves, accessible browse aisles, central display tables, till, stock, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B04_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Illustrator home/studio: bedroom, drawing studio, kitchen/living, bathroom",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B05",
+      "brand": "TANNENGRUEN",
+      "business": "Florist",
+      "centre_xy_m": [
+        40,
+        0
+      ],
+      "rotation_deg": -90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B05_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Bouquet workbench, pot/display shelves, cold store, till, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B05_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Conservatory home: planted dining room, bedroom, kitchen, bathroom",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B06",
+      "brand": "FADENWERK",
+      "business": "Clothing and knitwear",
+      "centre_xy_m": [
+        40,
+        -18
+      ],
+      "rotation_deg": -90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B06_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Garment rails, knit displays, fitting rooms, till, stock, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B06_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Tailoring atelier: sewing, cutting, fabric store, office, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B07",
+      "brand": "HAUS ABENDROT",
+      "business": "Boutique hotel",
+      "centre_xy_m": [
+        20,
+        -34
+      ],
+      "rotation_deg": 180,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B07_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Reception, luggage store, breakfast lounge, kitchen, public WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B07_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Two separately furnished guest suites with ensuite bathrooms and linen cupboard",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 10
+        },
+        {
+          "id": "B07_L03",
+          "index": 2,
+          "datum_m": 7.0,
+          "height_m": 3.2,
+          "programme": "Two different attic suites with ensuite bathrooms, reading alcoves",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 10
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B08",
+      "brand": "LICHTSPIEL",
+      "business": "Toy shop",
+      "centre_xy_m": [
+        0,
+        -34
+      ],
+      "rotation_deg": 180,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B08_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Toy shelving, play-test table, display train, checkout, stock, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B08_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Family home: living/kitchen, parents room, child room, bathroom",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B09",
+      "brand": "GOLDFADEN",
+      "business": "Jewellery and craft",
+      "centre_xy_m": [
+        -20,
+        -34
+      ],
+      "rotation_deg": 180,
+      "footprint_m": [
+        18,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B09_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Glazed displays, consultation counter, jeweller bench, secure stock, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B09_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Maker loft: workshop, living/kitchen, bedroom, bathroom",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B10",
+      "brand": "STERNBLICK",
+      "business": "Pharmacy",
+      "centre_xy_m": [
+        -40,
+        -18
+      ],
+      "rotation_deg": 90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B10_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Customer display shelving, dispensary counter, consultation room, stock, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B10_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Practice rooms: reception, two distinct consultation rooms, staff pantry, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B11",
+      "brand": "NORDRAD",
+      "business": "Cycle shop",
+      "centre_xy_m": [
+        -40,
+        0
+      ],
+      "rotation_deg": 90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B11_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Cycle display, service workstands, tools, parts, till, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B11_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Cyclist home: mudroom, living/kitchen, bedroom, bathroom, gear store",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    },
+    {
+      "id": "B12",
+      "brand": "WINTERPOST",
+      "business": "Stationery and parcel shop",
+      "centre_xy_m": [
+        -40,
+        18
+      ],
+      "rotation_deg": 90,
+      "footprint_m": [
+        16,
+        14
+      ],
+      "floors": [
+        {
+          "id": "B12_L01",
+          "index": 0,
+          "datum_m": 0,
+          "height_m": 3.8,
+          "programme": "Stationery shelving, cards/gifts, parcel lockers, service counter, sorting, WC",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        },
+        {
+          "id": "B12_L02",
+          "index": 1,
+          "datum_m": 3.8,
+          "height_m": 3.2,
+          "programme": "Writers home: library/living, separate kitchen, study, bedroom, bathroom",
+          "furnishing_status": "Actual native furniture/finish geometry reopened and verified",
+          "layout_status": "As-built conceptual model; no accessibility, clearance or code certification",
+          "verified_finished_room_count": 6
+        }
+      ],
+      "roof": "steep pitched tile/slate with actual eaves and snow accumulation",
+      "brand_status": "Original SVG mark supplied and packed original brand image connection verified in actual reopened native",
+      "unique_interior_required": true
+    }
+  ],
+  "occupied_floor_count": 26,
+  "public_realm": {
+    "christmas_tree": {
+      "xy": [
+        -4,
+        7
+      ],
+      "height_m": 12.5
+    },
+    "market_stalls": 8,
+    "benches": 24,
+    "street_lamps": 24,
+    "deciduous_trees": 12,
+    "playground": {
+      "bounds_xy_m": [
+        15,
+        -4,
+        27,
+        10
+      ],
+      "equipment": [
+        "swing pair",
+        "slide with guarded stair/platform",
+        "small climbing/play structure"
+      ],
+      "winter_use": "model plausible fall zones, non-slip surfacing and clear paths; no safety certification"
+    },
+    "crowd_target": 36,
+    "crowd_close_view_variants_min": 12,
+    "routes": "Keep at least4m principal pedestrian routes; four corner approaches and separate shop/service paths. Test actual obstacles, not labels."
+  },
+  "final_evidence_plan": {
+    "square_heroes": 6,
+    "floor_plans": 26,
+    "floor_cutaways": 26,
+    "interiors_minimum": 26,
+    "technical_and_human_closeups_minimum": 6,
+    "note": "Each occupied floor must be independently visible; individual actual-image inspection required. Planned minimum90 images; no image is yet final or accepted."
+  },
+  "realism_gates": [
+    "Close-up human feasibility test before crowd replication; no capsule people in release",
+    "Distinct shop layouts/fixtures/brands, not clones with recolours",
+    "Measured multi-map PBR, packed assets and controlled wetness/snow placement",
+    "Ground contact, diverse anatomically credible winter-clothed people and natural poses",
+    "Physically plausible practical light fixtures and exposure, no white emissive shop planes pretending to be interiors",
+    "Every occupied floor furnished, accessible and independently inspectable",
+    "Real inspect/fix/reinspect history, clean native reopen/GLB import and independent non-owner review"
+  ],
+  "current_production": {
+    "native_revision": "R10",
+    "actual_full_resolution_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "actual_structural_clean_reopen": "PASS",
+    "actual_furnished_floors": 26,
+    "actual_furnished_rooms": 164,
+    "static_people": 36,
+    "anatomical_rig_variants": 12,
+    "final_visual_inspection": "PENDING",
+    "independent_acceptance": "NOT GRANTED"
+  },
+  "interior_uniqueness_actual_gate": {
+    "status": "FIX_REQUIRED",
+    "actual_evidence": "R11-duplicate-domestic-interior-finding.json",
+    "scope": "Mixed commercial programmes and furniture counts are real, but at least B01_L03/B02_L02 domestic arrangements duplicate; titles alone do not establish distinct interiors."
+  },
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/candidate-20261017-7fb9ce64d020/Winterlichtplatz-UNPROMOTED-rebuilt-editable-53c32b17eaeb-88b5a01c088b.zip",
+  "native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "preview_scope": "Working current model, not final image/independent acceptance. Native full detail; lighting/glass approximate in browser."
+}

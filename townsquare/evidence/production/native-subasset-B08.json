@@ -1,0 +1,20 @@
+{
+  "asset": "B08",
+  "status": "PASS",
+  "actual_factory_reopen": true,
+  "path": ".cache/final-components/Native/B08.blend",
+  "sha256": "bb00650dcdcd5fc5cae9e682535808a4b3dde76822410c3cca31153c4b4c33bd",
+  "blender_version": "4.3.2",
+  "mesh_objects": 65,
+  "armatures": 0,
+  "packed_images": 23,
+  "unpacked_file_images": [],
+  "metadata": {
+    "occupied_floors": [
+      "B08_L01",
+      "B08_L02"
+    ]
+  },
+  "issues": [],
+  "scope": "Actual saved subasset reopen/packed-image/geometry/editability/content consistency. No render-quality, animation-readiness or independent acceptance claim."
+}

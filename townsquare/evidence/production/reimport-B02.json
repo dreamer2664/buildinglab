@@ -1,0 +1,87 @@
+{
+  "component": "B02",
+  "glb_sha256": "7df9709158b013029214d99a1507a2e4616f16fc8a8ec95d5e331058c2b9ffec",
+  "source_full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "glb": ".cache/final-components/GLB/B02.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 65,
+    "vertices_instance_sum": 61265,
+    "polygons_instance_sum": 52779,
+    "triangles_instance_sum": 107830,
+    "bounds_min": [
+      -9.449999809265137,
+      25.607498168945312,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      9.449999809265137,
+      41.45000076293945,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B02_L01",
+      "B02_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B02_L01_SALES",
+      "B02_L01_SERVICE_A",
+      "B02_L01_SERVICE_B",
+      "B02_L01_SERVICE_HALL",
+      "B02_L01_UPPER_ENTRY",
+      "B02_L01_WC",
+      "B02_L02_BATH",
+      "B02_L02_ENTRY_HALL",
+      "B02_L02_KITCHEN",
+      "B02_L02_LIVING",
+      "B02_L02_PRIMARY_BED",
+      "B02_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 65,
+    "triangles_instance_sum": 107830,
+    "bounds_min": [
+      -9.449999809265137,
+      25.607498168945312,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      9.449999809265137,
+      41.45000076293945,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B02_L01",
+      "B02_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B02_L01_SALES",
+      "B02_L01_SERVICE_A",
+      "B02_L01_SERVICE_B",
+      "B02_L01_SERVICE_HALL",
+      "B02_L01_UPPER_ENTRY",
+      "B02_L01_WC",
+      "B02_L02_BATH",
+      "B02_L02_ENTRY_HALL",
+      "B02_L02_KITCHEN",
+      "B02_L02_LIVING",
+      "B02_L02_PRIMARY_BED",
+      "B02_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 32,
+  "packed_images": 32,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

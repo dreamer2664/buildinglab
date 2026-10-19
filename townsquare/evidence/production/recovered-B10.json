@@ -1,0 +1,287 @@
+{
+  "chunk": "B10",
+  "objects": 88,
+  "geometry_uv_pose_material_signature_before": "d35d3c84bc16184bb45f1610a262c67187f1792e981f1b5db027a0b3df955a56",
+  "signature_after": "d35d3c84bc16184bb45f1610a262c67187f1792e981f1b5db027a0b3df955a56",
+  "conserved": true,
+  "image_changes": [
+    {
+      "name": "B10.png",
+      "source_dimensions": [
+        2160,
+        600
+      ],
+      "derivative_dimensions": [
+        256,
+        71
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "fabric_pattern_05_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-00.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-01.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-02.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-03.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-04.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-05.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-06.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-07.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-08.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-09.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-10.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "pharmacy-11.png",
+      "source_dimensions": [
+        400,
+        300
+      ],
+      "derivative_dimensions": [
+        256,
+        192
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "rough_plaster_brick_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "snow_02_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_diff_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_nor_gl_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "wood_floor_rough_2k.jpg",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "derivative_dimensions": [
+        256,
+        256
+      ],
+      "packed": true
+    }
+  ],
+  "file": ".cache/render-chunks/B10.blend",
+  "source_production_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776"
+}

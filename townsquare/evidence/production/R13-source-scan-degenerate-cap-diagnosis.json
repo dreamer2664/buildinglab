@@ -1,0 +1,9 @@
+{
+  "source_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "source_actor": "CROWD_01_P01",
+  "actual_loop_triangles": 149920,
+  "actual_triangles_at_or_below_1e_minus16_m2": [],
+  "actual_zero_area_count": 0,
+  "measured_area_threshold_m2": 1e-16,
+  "stage": "DIAGNOSIS_ONLY_NOT_ACCEPTANCE"
+}

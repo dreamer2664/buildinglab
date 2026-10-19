@@ -1,0 +1,88 @@
+{
+  "component": "B02",
+  "glb_sha256": "f4abeded45a4b53c3529d136e70df1e3636d761f90e97e324d8d41e739b93057",
+  "source_full_native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+  "glb": ".cache/placement-portable-components/GLB/B02.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 258,
+    "vertices_instance_sum": 69373,
+    "polygons_instance_sum": 61349,
+    "triangles_instance_sum": 124434,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -9.449999809265137,
+      25.607498168945312,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      9.449999809265137,
+      41.45000076293945,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B02_L01",
+      "B02_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B02_L01_SALES",
+      "B02_L01_SERVICE_A",
+      "B02_L01_SERVICE_B",
+      "B02_L01_SERVICE_HALL",
+      "B02_L01_UPPER_ENTRY",
+      "B02_L01_WC",
+      "B02_L02_BATH",
+      "B02_L02_ENTRY_HALL",
+      "B02_L02_KITCHEN",
+      "B02_L02_LIVING",
+      "B02_L02_PRIMARY_BED",
+      "B02_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 258,
+    "triangles_instance_sum": 124434,
+    "bounds_min": [
+      -9.449999809265137,
+      25.607498168945312,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      9.449999809265137,
+      41.45000076293945,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B02_L01",
+      "B02_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B02_L01_SALES",
+      "B02_L01_SERVICE_A",
+      "B02_L01_SERVICE_B",
+      "B02_L01_SERVICE_HALL",
+      "B02_L01_UPPER_ENTRY",
+      "B02_L01_WC",
+      "B02_L02_BATH",
+      "B02_L02_ENTRY_HALL",
+      "B02_L02_KITCHEN",
+      "B02_L02_LIVING",
+      "B02_L02_PRIMARY_BED",
+      "B02_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 32,
+  "packed_images": 32,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

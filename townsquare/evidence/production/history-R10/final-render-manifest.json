@@ -1,0 +1,110 @@
+{
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/final-renders/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "5c01c8e0f688eaa14cae066dd7e51cca8e6e37c05eeddfa780e3e2d022de44d0",
+    "noisy_original_sha256": "1519d3370db0de7c5de5ace528ba4e97632302385e8321dc7ad945968d4cafb1",
+    "noisy_original": ".cache/final-renders/D02.noisy.png",
+    "original_before_denoise_sha256": "1519d3370db0de7c5de5ace528ba4e97632302385e8321dc7ad945968d4cafb1",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 112.52,
+    "visual_inspection": "PENDING"
+  },
+  "D08": {
+    "view_id": "D08",
+    "title": "P06 / face and fabric detail",
+    "kind": "people",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/final-renders/D08.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "e1a5d194ef0744a2b1e28642cc265ee09f60bcadfd1cd829f1491c6dc86ab7a1",
+    "noisy_original_sha256": "b1427fef44ebb55adb47d362c12ec28ad6c9a35b46fd38df22c1c16c2cff09c2",
+    "noisy_original": ".cache/final-renders/D08.noisy.png",
+    "original_before_denoise_sha256": "b1427fef44ebb55adb47d362c12ec28ad6c9a35b46fd38df22c1c16c2cff09c2",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D08.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 109.53,
+    "visual_inspection": "PENDING"
+  },
+  "H02": {
+    "view_id": "H02",
+    "title": "Christmas tree and winter market",
+    "kind": "town",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/final-renders/H02.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "0df5a7447f549760f023bb6bd54d5c7cc8656391a42dc85380916e9bf73712f1",
+    "noisy_original_sha256": "045bb1a4bca1d4ac1501810fc96232d31255656c61237b0e8a8d7887e73db2e9",
+    "noisy_original": ".cache/final-renders/H02.noisy.png",
+    "original_before_denoise_sha256": "045bb1a4bca1d4ac1501810fc96232d31255656c61237b0e8a8d7887e73db2e9",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/H02-tile0.render.json",
+      ".cache/final-renders/H02-tile1.render.json",
+      ".cache/final-renders/H02-tile2.render.json",
+      ".cache/final-renders/H02-tile3.render.json",
+      ".cache/final-renders/H02-tile4.render.json",
+      ".cache/final-renders/H02-tile5.render.json",
+      ".cache/final-renders/H02-tile6.render.json",
+      ".cache/final-renders/H02-tile7.render.json",
+      ".cache/final-renders/H02-tile8.render.json",
+      ".cache/final-renders/H02-tile9.render.json",
+      ".cache/final-renders/H02-tile10.render.json",
+      ".cache/final-renders/H02-tile11.render.json",
+      ".cache/final-renders/H02-tile12.render.json",
+      ".cache/final-renders/H02-tile13.render.json",
+      ".cache/final-renders/H02-tile14.render.json",
+      ".cache/final-renders/H02-tile15.render.json"
+    ],
+    "tile_assembly": "Exact native-pixel camera-border4x4, no scaling; common whole-frame frustum for every tile",
+    "elapsed_seconds": 1191.01,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L01_interior": {
+    "view_id": "B01_L01_interior",
+    "title": "MARKTGRUEN / B01_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+    "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+    "image": ".cache/final-renders/B01_L01_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "91b4dfc24379ac4d4409f8174dab47cd8b1e8554bc275dc071e9274d95dc07d8",
+    "noisy_original_sha256": "e6c374c4973707e9a98ff03a0a83777c5144e03262296abb660186a06d76e106",
+    "noisy_original": ".cache/final-renders/B01_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "e6c374c4973707e9a98ff03a0a83777c5144e03262296abb660186a06d76e106",
+    "camera_exposure_bias_EV": 5.0,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 380.3,
+    "visual_inspection": "PENDING"
+  }
+}

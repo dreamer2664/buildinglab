@@ -1,0 +1,43 @@
+{
+  "component": "P10",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "glb": ".cache/final-components/GLB/P10.glb",
+  "glb_sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46",
+  "glb_bytes": 4234880,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 67341,
+    "polygons_instance_sum": 61848,
+    "triangles_instance_sum": 123672,
+    "bounds_min": [
+      -12.221768379211426,
+      -19.491558074951172,
+      0.006000000052154064
+    ],
+    "bounds_max": [
+      26.45212745666504,
+      10.745595932006836,
+      1.6299623250961304
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      10,
+      22,
+      34
+    ]
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

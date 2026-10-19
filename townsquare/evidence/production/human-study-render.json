@@ -1,0 +1,23 @@
+{
+  "image": ".cache/human-study-R2.png",
+  "sha256": "915cb76b9d9c7c644d2bc380483b3dbd655a2a6e23db829d9186af1469b36beb",
+  "source_native_sha256": "4bf44a021c3df796388b61fab54e3ba92a4d823687686928020ef9da1276d776",
+  "render_derivative": "/home/user/townsquare/.cache/master/Winterlichtplatz-render-R1.blend",
+  "samples": 16,
+  "size": [
+    1200,
+    750
+  ],
+  "camera": [
+    -3.5999999046325684,
+    -12.800000190734863,
+    1.649999976158142
+  ],
+  "target": [
+    -3,
+    -9,
+    1.1
+  ],
+  "lens_mm": 64.0,
+  "visual_review": "PENDING"
+}

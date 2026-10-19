@@ -1,0 +1,62 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_drawing_studio",
+      "floor": "B04_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/placement-corrected-eye-level/drawing_studio.png",
+      "native_sha256": "47beeab4432b5be50585b4a502044d2c7033d47358bbc22b91e5e9ac6083fd97",
+      "image_sha256": "ac79c6022babfb92410ac0854bd78a95ccd3243bc0784600a843472dd44c7d7f",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "samples": 16,
+      "camera_position_world": [
+        42.4,
+        18.450000762939453,
+        5.35
+      ],
+      "camera_target_world": [
+        46.00000152587891,
+        17.00000114440918,
+        4.85
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "decision": "FIX_REQUIRED_WALL_OVERLAP",
+      "observations": "Actual new furniture is present; sharp dark streaks across right wall remain. Native height diagnostic proves10mmcoplanar low/high wall overlap. New saved wall-corrected source must be tested; this image is not accepted."
+    },
+    {
+      "id": "STUDY_cycle_gear",
+      "floor": "B11_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/placement-corrected-eye-level/cycle_gear.png",
+      "native_sha256": "47beeab4432b5be50585b4a502044d2c7033d47358bbc22b91e5e9ac6083fd97",
+      "image_sha256": "de7a5f2472af0f3a18c192c1cab31a87150323ae5d99c440f2a752722e19c2ee",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "samples": 16,
+      "camera_position_world": [
+        -42.4,
+        -0.4500000476837159,
+        5.35
+      ],
+      "camera_target_world": [
+        -46.00000152587891,
+        1.0000000476837163,
+        4.85
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "decision": "FIX_REQUIRED_WALL_OVERLAP",
+      "observations": "Actual new furniture is present; sharp dark streaks across right wall remain. Native height diagnostic proves10mmcoplanar low/high wall overlap. New saved wall-corrected source must be tested; this image is not accepted."
+    }
+  ],
+  "process_outcome": "EXIT137 during third writer render; only two completed images. No completed writer original or all3success claim."
+}

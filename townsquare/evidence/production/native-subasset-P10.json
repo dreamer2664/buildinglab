@@ -1,0 +1,18 @@
+{
+  "asset": "P10",
+  "status": "PASS",
+  "actual_factory_reopen": true,
+  "path": ".cache/fixed-people/rigs/P10.blend",
+  "sha256": "fd12efc1a3c47838f4c2beb236c1c93700f0710c82e1606d34791ddbbf6c230b",
+  "blender_version": "4.3.2",
+  "mesh_objects": 41,
+  "armatures": 1,
+  "packed_images": 18,
+  "unpacked_file_images": [],
+  "metadata": {
+    "anatomical_and_pose_signature_actual": "0482f9e1fadf85b0db0ea78be05df641d1cac50dce1a4625db73e9bed25522ab",
+    "hair_max_z_checks": []
+  },
+  "issues": [],
+  "scope": "Actual saved subasset reopen/packed-image/geometry/editability/content consistency. No render-quality, animation-readiness or independent acceptance claim."
+}

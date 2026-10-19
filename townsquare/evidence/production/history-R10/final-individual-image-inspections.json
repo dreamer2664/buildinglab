@@ -1,0 +1,69 @@
+{
+  "scope": "Manual producer original-image inspections after actual separate file opens; not independent acceptance or photographic-realism certification",
+  "inspections": {
+    "D02": {
+      "view_id": "D02",
+      "image": ".cache/final-renders/D02.png",
+      "image_sha256": "5c01c8e0f688eaa14cae066dd7e51cca8e6e37c05eeddfa780e3e2d022de44d0",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual R10 2560x1440 original singly opened. P03 and P04 show full original hair/foreheads and unobstructed eyes/mouth; rejected hats and scarves absent, so earlier scalp intersection and collar/wrap defects removed from final outfits. Anatomically modelled faces, separated fingers, fitted jacket/shirt/trousers visible. Licensed textured hair remains visibly generic CG (especially shiny short-hair shell); not photographic scan quality or a photorealism certification. Scoped outfit/geometry producer check, not independent acceptance.",
+      "checked_utc": "2026-10-17T15:21:53.305884+00:00",
+      "independent_acceptance": false
+    },
+    "D08": {
+      "view_id": "D08",
+      "image": ".cache/final-renders/D08.png",
+      "image_sha256": "e1a5d194ef0744a2b1e28642cc265ee09f60bcadfd1cd829f1491c6dc86ab7a1",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual R10 original 2560x1440 singly opened at same macro camera as rejected R7/R8/R9 studies. Full face, mouth and collar visible. Rejected procedural hat/wrap/tail absent from final outfit; original full hair crown preserved, no clipped-under-cap mask. Hair crown is visibly polygonal and hair/coat remain generic textured CG rather than photographic/scanned strand detail. Scoped geometry/outfit regression checked; do not claim photographic-realism acceptance. Source anatomy/pose unchanged.",
+      "checked_utc": "2026-10-17T15:24:45.455991+00:00",
+      "independent_acceptance": false
+    },
+    "H02": {
+      "view_id": "H02",
+      "image": ".cache/final-renders/H02.png",
+      "image_sha256": "0df5a7447f549760f023bb6bd54d5c7cc8656391a42dc85380916e9bf73712f1",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual R10 original3840x2160 singly opened. Complete fir crown/star and lit market booths visible, varied crowd in plaza, slatted benches, lamps, bare winter trees, snow roof surfaces and geometric windows with interior depth. Sixteen native-pixel tiles assemble without visible grid seams or missing off-border tree geometry. Foreground people intentionally intersect lower composition edge; full-body asset view remains separate. Night storefront interiors are dark at this exterior exposure; individual occupied-floor views must establish furnishings. Buildings/people still read as simplified textured CG, not photographic realism. Scoped producer composition/source-integrity check; no independent realism acceptance.",
+      "checked_utc": "2026-10-17T15:51:29.225957+00:00",
+      "independent_acceptance": false
+    },
+    "B01_L01_interior": {
+      "view_id": "B01_L01_interior",
+      "image": ".cache/final-renders/B01_L01_interior.png",
+      "image_sha256": "91b4dfc24379ac4d4409f8174dab47cd8b1e8554bc275dc071e9274d95dc07d8",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual corrected2560x1440 original singly opened after rejected baseline, +3EV and +5EV pilot studies. Explicit +5EV camera exposure (same frozen source geometry/materials/lights) makes stocked shelving, rear produce stand, windows, counter/POS silhouette and MARKTGRUEN original mark/slogan visible. Warm night/practical-light colour and some residual color-only-denoising softness/noise remain; no claim of photographic finish. Scope is readable occupied-store geometry and source-bound producer inspection, not overall supermarket-programme completeness or independent realism approval. Reproduction must apply recorded +5EV override; native default preset alone remains darker.",
+      "checked_utc": "2026-10-17T16:07:33.047787+00:00",
+      "independent_acceptance": false
+    }
+  }
+}

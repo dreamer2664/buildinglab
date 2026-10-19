@@ -1,0 +1,113 @@
+{
+  "source_full_native_sha256": "cba9993806b615cc421cfa3ac71d88d5cda2bb351f3626e2275cd07bcd975890",
+  "rows": [
+    {
+      "name": "HSRD100_HSR0015-Body-009_original_UV_photo4096",
+      "source_packed_sha256": "fd079331b86c0bb19f5dbbd20c907f97ddbba61545c056144f7dbe2cb96d7216",
+      "file": ".cache/native-scan-photo-originals/fd079331b86c0bb19f5dbbd20c907f97ddbba61545c056144f7dbe2cb96d7216.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0015-Body-015_original_UV_photo4096",
+      "source_packed_sha256": "9f86f6c4dac0082834e2c7920fcaec51bd8e6154934d0afaf65a4e2936f1b5fb",
+      "file": ".cache/native-scan-photo-originals/9f86f6c4dac0082834e2c7920fcaec51bd8e6154934d0afaf65a4e2936f1b5fb.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0027-Body-004_original_UV_photo4096",
+      "source_packed_sha256": "121d2e3f1075b6f301c019a75bc53c08ead803c0d0055c482a99223e95f7738c",
+      "file": ".cache/native-scan-photo-originals/121d2e3f1075b6f301c019a75bc53c08ead803c0d0055c482a99223e95f7738c.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0027-Body-006_original_UV_photo4096",
+      "source_packed_sha256": "f3aa2cbb2d81a5158bbc8a5906915b68e8bdf27aba17292ca07f122d81dadd08",
+      "file": ".cache/native-scan-photo-originals/f3aa2cbb2d81a5158bbc8a5906915b68e8bdf27aba17292ca07f122d81dadd08.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0028-Body-010_original_UV_photo4096",
+      "source_packed_sha256": "afe0ef294f5bef5a9d4b9c199b2f99efbbc3feda45296cc9a2ba738b86f57a4c",
+      "file": ".cache/native-scan-photo-originals/afe0ef294f5bef5a9d4b9c199b2f99efbbc3feda45296cc9a2ba738b86f57a4c.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0028-Body-016_original_UV_photo4096",
+      "source_packed_sha256": "44e86f11a02b2b1bc08b0483c09d2a0b8f9eeb14f192b0638ed07d129757c3d5",
+      "file": ".cache/native-scan-photo-originals/44e86f11a02b2b1bc08b0483c09d2a0b8f9eeb14f192b0638ed07d129757c3d5.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0040-Body-004_original_UV_photo4096",
+      "source_packed_sha256": "21495f988c3011d32d07d1ddabbb53a9790d92f462d164323a868bf8b767405b",
+      "file": ".cache/native-scan-photo-originals/21495f988c3011d32d07d1ddabbb53a9790d92f462d164323a868bf8b767405b.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0040-Body-012_original_UV_photo4096",
+      "source_packed_sha256": "d04f090a8489e2ae52f3efef3ce91f3579e0a26ed8054763be1259a4d487abbb",
+      "file": ".cache/native-scan-photo-originals/d04f090a8489e2ae52f3efef3ce91f3579e0a26ed8054763be1259a4d487abbb.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0042-Body-002_original_UV_photo4096",
+      "source_packed_sha256": "dc4c4127489de445fdda33e2e7b52994817bfa20508113740f2d50d8899a31f4",
+      "file": ".cache/native-scan-photo-originals/dc4c4127489de445fdda33e2e7b52994817bfa20508113740f2d50d8899a31f4.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0081-Body-004_original_UV_photo4096",
+      "source_packed_sha256": "0d6f57a2ee528201f876f8fca182fc444c88c11ff1009da584390e457390166b",
+      "file": ".cache/native-scan-photo-originals/0d6f57a2ee528201f876f8fca182fc444c88c11ff1009da584390e457390166b.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0112-Body-007_original_UV_photo4096",
+      "source_packed_sha256": "081973130f0e57218ec3bfe837969f2b89cce785939f52044cf7f2dbecea1522",
+      "file": ".cache/native-scan-photo-originals/081973130f0e57218ec3bfe837969f2b89cce785939f52044cf7f2dbecea1522.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "HSRD100_HSR0161-Body-002_original_UV_photo4096",
+      "source_packed_sha256": "faf3254133bec840896db04da5f443c451b93c43177b209abe9a6ced6247f151",
+      "file": ".cache/native-scan-photo-originals/faf3254133bec840896db04da5f443c451b93c43177b209abe9a6ced6247f151.png",
+      "original_dimensions": [
+        4096,
+        4096
+      ]
+    }
+  ]
+}

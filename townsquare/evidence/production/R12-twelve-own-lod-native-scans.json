@@ -1,0 +1,317 @@
+{
+  "stage": "Actual own original-UV source-photo scan LODs and saved-source body renders; individual inspection/adoption pending",
+  "variants": [
+    {
+      "variant": "P01",
+      "pose": "HSR0015-Body-009",
+      "native": ".cache/scan-intake/native/HSR0015-Body-009-own-lod-clean-native-study.blend",
+      "native_sha256": "cebcb1112d2b2bfb57d685a0b22b2fc7aac99f71ff0362448e62b338fcc7f6c2",
+      "report": "R12-native-scan-asset-HSR0015-Body-009-own-lod-clean.json",
+      "vertices": 74888,
+      "polygons": 149490,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499929,
+          1000002
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4967,
+        "actual_source_to_proxy_RMS_m": 0.00014900818879284942,
+        "actual_source_to_proxy_max_m": 0.0011502577690407634,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P02",
+      "pose": "HSR0027-Body-004",
+      "native": ".cache/scan-intake/native/HSR0027-Body-004-own-lod-clean-native-study.blend",
+      "native_sha256": "d37096e0c501a06a9cc5a8c2debd5ce7d39b87b96ca907f5461666e5e74e0532",
+      "report": "R12-native-scan-asset-HSR0027-Body-004-own-lod-clean.json",
+      "vertices": 74885,
+      "polygons": 149347,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499930,
+          999992
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4950,
+        "actual_source_to_proxy_RMS_m": 0.0002032826485234953,
+        "actual_source_to_proxy_max_m": 0.004254085943102837,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P03",
+      "pose": "HSR0028-Body-010",
+      "native": ".cache/scan-intake/native/HSR0028-Body-010-own-lod-clean-native-study.blend",
+      "native_sha256": "a1405aab68680d214ca12dd5a9168c1e44db3841a4e4e3bf0efc94c3a0fda93d",
+      "report": "R12-native-scan-asset-HSR0028-Body-010-own-lod-clean.json",
+      "vertices": 74868,
+      "polygons": 149521,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          500058,
+          1000008
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4918,
+        "actual_source_to_proxy_RMS_m": 0.00016672091741723048,
+        "actual_source_to_proxy_max_m": 0.0009677862981334329,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P04",
+      "pose": "HSR0040-Body-004",
+      "native": ".cache/scan-intake/native/HSR0040-Body-004-own-lod-clean-native-study.blend",
+      "native_sha256": "08d9227551ad3f9c26ecbd960c02491ffb85ccf07986a22b55d434fb0b60659b",
+      "report": "R12-native-scan-asset-HSR0040-Body-004-own-lod-clean.json",
+      "vertices": 74794,
+      "polygons": 148742,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499954,
+          999996
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4910,
+        "actual_source_to_proxy_RMS_m": 0.00016859402523750958,
+        "actual_source_to_proxy_max_m": 0.0010277472902089357,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P05",
+      "pose": "HSR0042-Body-002",
+      "native": ".cache/scan-intake/native/HSR0042-Body-002-own-lod-clean-native-study.blend",
+      "native_sha256": "6e0696dc9a893fa039841ebfbb58e6f86bea9cfc324ca921ad61da92cce577d1",
+      "report": "R12-native-scan-asset-HSR0042-Body-002-own-lod-clean.json",
+      "vertices": 74823,
+      "polygons": 149175,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499988,
+          1000008
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4960,
+        "actual_source_to_proxy_RMS_m": 0.00018998149810940142,
+        "actual_source_to_proxy_max_m": 0.0012276590568944812,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P06",
+      "pose": "HSR0081-Body-004",
+      "native": ".cache/scan-intake/native/HSR0081-Body-004-own-lod-clean-native-study.blend",
+      "native_sha256": "9505082ca8a340553deb586aa2756d4871d941df5a562e86732052d888ed6e7a",
+      "report": "R12-native-scan-asset-HSR0081-Body-004-own-lod-clean.json",
+      "vertices": 74807,
+      "polygons": 149176,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499961,
+          999998
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4953,
+        "actual_source_to_proxy_RMS_m": 0.00010685072839593514,
+        "actual_source_to_proxy_max_m": 0.0005477859522216022,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P07",
+      "pose": "HSR0112-Body-007",
+      "native": ".cache/scan-intake/native/HSR0112-Body-007-own-lod-clean-native-study.blend",
+      "native_sha256": "4efaf85d6e1623a71b6d340abc49a04380ae68206e8efa9c17a4319d1857bdb4",
+      "report": "R12-native-scan-asset-HSR0112-Body-007-own-lod-clean.json",
+      "vertices": 74934,
+      "polygons": 149547,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499936,
+          999988
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4978,
+        "actual_source_to_proxy_RMS_m": 0.0002480959195055767,
+        "actual_source_to_proxy_max_m": 0.0018678278429433703,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P08",
+      "pose": "HSR0161-Body-002",
+      "native": ".cache/scan-intake/native/HSR0161-Body-002-own-lod-clean-native-study.blend",
+      "native_sha256": "d82552f97d472505b7786b25485f0a01afc2660b2816d90e3aa1e46b731c4911",
+      "report": "R12-native-scan-asset-HSR0161-Body-002-own-lod-clean.json",
+      "vertices": 74740,
+      "polygons": 148928,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          500219,
+          1000003
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4868,
+        "actual_source_to_proxy_RMS_m": 0.00010586012260424256,
+        "actual_source_to_proxy_max_m": 0.0005056058871559799,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P09",
+      "pose": "HSR0015-Body-015",
+      "native": ".cache/scan-intake/native/HSR0015-Body-015-own-lod-clean-native-study.blend",
+      "native_sha256": "66491adab15bb0df6fdbe5638670597c11b1a57f193e9bd03b2c8ddf33d36918",
+      "report": "R12-native-scan-asset-HSR0015-Body-015-own-lod-clean.json",
+      "vertices": 74865,
+      "polygons": 149345,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499930,
+          999988
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4943,
+        "actual_source_to_proxy_RMS_m": 0.00018388998093429992,
+        "actual_source_to_proxy_max_m": 0.0016616338398307562,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P10",
+      "pose": "HSR0027-Body-006",
+      "native": ".cache/scan-intake/native/HSR0027-Body-006-own-lod-clean-native-study.blend",
+      "native_sha256": "62c651967b6f617f2214ce8560bbfce503825868fd0511291bf74b2dcfa1a44a",
+      "report": "R12-native-scan-asset-HSR0027-Body-006-own-lod-clean.json",
+      "vertices": 74828,
+      "polygons": 149156,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499942,
+          999992
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4916,
+        "actual_source_to_proxy_RMS_m": 0.0001863565144541356,
+        "actual_source_to_proxy_max_m": 0.001467794761992991,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P11",
+      "pose": "HSR0028-Body-016",
+      "native": ".cache/scan-intake/native/HSR0028-Body-016-own-lod-clean-native-study.blend",
+      "native_sha256": "e5ff075f26f3bdeb2fc0a2fa4fa18120a65bdd4f6c3217155508df9db32a1587",
+      "report": "R12-native-scan-asset-HSR0028-Body-016-own-lod-clean.json",
+      "vertices": 74853,
+      "polygons": 149572,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499905,
+          999994
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4970,
+        "actual_source_to_proxy_RMS_m": 0.00023076897776165412,
+        "actual_source_to_proxy_max_m": 0.0016111449804157019,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P12",
+      "pose": "HSR0040-Body-012",
+      "native": ".cache/scan-intake/native/HSR0040-Body-012-own-lod-clean-native-study.blend",
+      "native_sha256": "cfd362405f52a75e31d4c1f1e461765e6630d2592ba3db5d65d82aa26ce7547d",
+      "report": "R12-native-scan-asset-HSR0040-Body-012-own-lod-clean.json",
+      "vertices": 74750,
+      "polygons": 148754,
+      "actual_decimation": {
+        "original_vertices_faces": [
+          499926,
+          999992
+        ],
+        "ratio": 0.15,
+        "sample_region": "Original source vertices above4cm sole region; deliberate capture-floor cleanup excluded",
+        "actual_surface_error_samples": 4924,
+        "actual_source_to_proxy_RMS_m": 0.00018155460631595705,
+        "actual_source_to_proxy_max_m": 0.001066734199412167,
+        "strict_RMS_limit_m": 0.002,
+        "strict_max_limit_m": 0.01
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    }
+  ]
+}

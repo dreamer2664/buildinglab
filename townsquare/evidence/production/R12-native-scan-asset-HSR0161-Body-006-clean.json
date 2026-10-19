@@ -1,0 +1,56 @@
+{
+  "stage": "Actual imported packed editable licensed scan native; image/render/adoption PENDING",
+  "pose_asset_id": "HSR0161-Body-006",
+  "source_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_archive_sha256": "a19a0f66a57f7225e5882ccdfa30dfd66358c7102b385c2e68061031760b73f6",
+  "cleanup": {
+    "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+    "slice_plane_original_normalized_z_m": 0.01,
+    "vertices_faces_before": [
+      49944,
+      100004
+    ],
+    "vertices_faces_after": [
+      49881,
+      99465
+    ],
+    "new_sole_cap_faces": 3,
+    "actual_upper_body_vertex_count_conserved": 48792,
+    "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+    "actual_upper_body_topology_and_uv_exact_equality": true
+  },
+  "lod": "LOD1",
+  "texture_actually_used_sha256": "cb765320153fc716054b3b5b2d7d28e76292aa51d9d48596967c34f5db27e138",
+  "texture_actually_used_path": ".cache/scan-intake/HSR0161-Body-006/extracted-LOD1/HSR0161-Body-006_LOD1-4096-bounded.png",
+  "source_obj_sha256": "c7aaee10ee763e836d684ba3d094259f2f5ffd7dfcce7eefd6a287eb7e685878",
+  "source_texture_sha256": "41bb15d571ba96d2eaf82163c5104b041b1d84b9d04b94ac8487e501bcb39138",
+  "original_source_bounds": [
+    [
+      -0.35507115893149627,
+      -0.31534448807839044,
+      -0.0009731542922290265
+    ],
+    [
+      0.300805601831951,
+      0.32521469656010926,
+      1.7876747148684198
+    ]
+  ],
+  "actual_origin_translation": [
+    -0.02713277854977264,
+    0.0049351042408594115,
+    -0.0009731542922290265
+  ],
+  "mesh_vertices": 49881,
+  "mesh_polygons": 99465,
+  "mesh_uv_layers": 1,
+  "packed_diffuse_dimensions": [
+    4096,
+    4096
+  ],
+  "native": ".cache/scan-intake/native/HSR0161-Body-006-clean-native-study.blend",
+  "native_sha256": "8b367fccab3e74c881adb5af88b04a962a5abaf2b89aa7f63743a01804b73999",
+  "native_bytes": 25923745,
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.\nActual changes: {\"method\": \"Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.\", \"slice_plane_original_normalized_z_m\": 0.01, \"vertices_faces_before\": [49944, 100004], \"vertices_faces_after\": [49881, 99465], \"new_sole_cap_faces\": 3, \"actual_upper_body_vertex_count_conserved\": 48792, \"actual_upper_body_max_vertex_error_m_before_documented_origin_shift\": 0, \"actual_upper_body_topology_and_uv_exact_equality\": true}; texture used .cache/scan-intake/HSR0161-Body-006/extracted-LOD1/HSR0161-Body-006_LOD1-4096-bounded.png SHA256 cb765320153fc716054b3b5b2d7d28e76292aa51d9d48596967c34f5db27e138; source original remains unchanged.\n\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 a19a0f66a57f7225e5882ccdfa30dfd66358c7102b385c2e68061031760b73f6.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "limitations": "Static real3Dphoto scan, not a rigged scan/automatic body animation. Source photo may contain captured shading; single rough dielectric approximate material, not separate scanned BRDF. No person identification inferred or required."
+}

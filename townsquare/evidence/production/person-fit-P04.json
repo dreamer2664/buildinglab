@@ -1,0 +1,29 @@
+{
+  "person": "P04",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P04.blend",
+  "corrected_rig_sha256": "b586ceb46e6874bf236220b0af3aaa16785946a40d481e73a22ae59d421b8c20",
+  "anatomy_and_pose_signature_before": "7a8cbac897147279b1885a6bd6008c665b5fe2ad7f144c1e48cac0e43881cb24",
+  "anatomy_and_pose_signature_after": "7a8cbac897147279b1885a6bd6008c665b5fe2ad7f144c1e48cac0e43881cb24",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "optional scarf and fringe studies",
+      "fix": "Removed all optional scarf components from final outfit after actual close-ups rejected collar intersection and raised-wrap mouth occlusion. Original editable study meshes retained explicitly labelled, disabled for rendering; final town static meshes contain none of this rejected geometry. People keep actual licensed jacket, shirt, trousers, shoes, hair."
+    },
+    {
+      "part": "optional procedural hat studies",
+      "fix": "Actual R9 D02 P03 forehead protrudes through subdivided hat: rejected. All optional procedural hat parts disabled in editable rigs and omitted from final static outfits. Full original licensed hair remains unmasked. Original skin, clothing, armature and authored pose conserved; no camera framing workaround."
+    }
+  ],
+  "static_vertices": 22447,
+  "static_faces": 20616,
+  "static_instances": [
+    "CROWD_04_P04",
+    "CROWD_16_P04",
+    "CROWD_28_P04"
+  ],
+  "sole_before_placement_m": 0.003487026086077094,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

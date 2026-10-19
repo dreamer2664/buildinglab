@@ -1,0 +1,102 @@
+{
+  "component": "B11",
+  "glb_sha256": "5341be930863b0e44c684b88bbbc6dc4e27d0c4763eab536625eadebe08695da",
+  "source_full_native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "glb": ".cache/stocked-portable-components/GLB/B11.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 141,
+    "vertices_instance_sum": 93543,
+    "polygons_instance_sum": 85920,
+    "triangles_instance_sum": 174868,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -47.51499938964844,
+      -8.449999809265137,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -31.962499618530273,
+      8.449999809265137,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B11_L01",
+      "B11_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B11_L01_SALES",
+      "B11_L01_SERVICE_A",
+      "B11_L01_SERVICE_B",
+      "B11_L01_SERVICE_HALL",
+      "B11_L01_UPPER_ENTRY",
+      "B11_L01_WC",
+      "B11_L02_BATH",
+      "B11_L02_ENTRY_HALL",
+      "B11_L02_KITCHEN",
+      "B11_L02_LIVING",
+      "B11_L02_PRIMARY_BED",
+      "B11_L02_SECOND_ROOM",
+      "COMMON",
+      "None"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 141,
+    "triangles_instance_sum": 174868,
+    "bounds_min": [
+      -47.5150032043457,
+      -8.449999809265137,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -31.962499618530273,
+      8.449999809265137,
+      11.4399995803833
+    ],
+    "floor_ids": [
+      "B11_L01",
+      "B11_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B11_L01_SALES",
+      "B11_L01_SERVICE_A",
+      "B11_L01_SERVICE_B",
+      "B11_L01_SERVICE_HALL",
+      "B11_L01_UPPER_ENTRY",
+      "B11_L01_WC",
+      "B11_L02_BATH",
+      "B11_L02_ENTRY_HALL",
+      "B11_L02_KITCHEN",
+      "B11_L02_LIVING",
+      "B11_L02_PRIMARY_BED",
+      "B11_L02_SECOND_ROOM",
+      "COMMON",
+      "None"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [
+    "B11 / stone corner quoins and profiled cornices",
+    "B11 / measured front window 1 / stonework and joinery",
+    "B11 / measured front window 2 / stonework and joinery",
+    "B11 / measured front window 3 / stonework and joinery",
+    "B11 / measured front window 4 / stonework and joinery",
+    "B11 / measured back window 5 / stonework and joinery",
+    "B11 / measured back window 6 / stonework and joinery",
+    "B11 / measured back window 7 / stonework and joinery",
+    "B11 / measured back window 8 / stonework and joinery",
+    "B11 / copper gutters downpipes and gable joinery",
+    "B11 / actual striped cloth shop canopy"
+  ],
+  "image_count": 20,
+  "packed_images": 20,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

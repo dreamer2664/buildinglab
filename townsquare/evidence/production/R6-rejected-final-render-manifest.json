@@ -1,0 +1,163 @@
+{
+  "D01": {
+    "view_id": "D01",
+    "title": "Studio asset inspection / P01 and P02",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D01.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "b45bd80a18998495758206fff4175498c6e79026528ee8962d3ce53a83ed66fe",
+    "noisy_original_sha256": "541b80d566121b97e4bed541ca21a61d430c099aae95093b180c28a9a9bb3ab5",
+    "noisy_original": ".cache/final-R6-rejected-studies/D01.noisy.png",
+    "original_before_denoise_sha256": "541b80d566121b97e4bed541ca21a61d430c099aae95093b180c28a9a9bb3ab5",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D01.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 91.43,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "4b285bcdbefa3f6bd6c93f247b78bd920f1879f360d553a235d8b7c603552409",
+    "noisy_original_sha256": "d8fe57dca61e836ccb619b56cbbba8fc3595cdf14a5e7a8145001f6c28b725c6",
+    "noisy_original": ".cache/final-R6-rejected-studies/D02.noisy.png",
+    "original_before_denoise_sha256": "d8fe57dca61e836ccb619b56cbbba8fc3595cdf14a5e7a8145001f6c28b725c6",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 116.32,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D03": {
+    "view_id": "D03",
+    "title": "Studio asset inspection / P05 and P06",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D03.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "84110f7edd75cad59722bc81f70363217a0748a8349f1dd40db726c4b2210dd1",
+    "noisy_original_sha256": "7a9be60c48c90a66562e93ce069f460a6fb8fdf62159690484c873343b1ee304",
+    "noisy_original": ".cache/final-R6-rejected-studies/D03.noisy.png",
+    "original_before_denoise_sha256": "7a9be60c48c90a66562e93ce069f460a6fb8fdf62159690484c873343b1ee304",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D03.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 92.81,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D04": {
+    "view_id": "D04",
+    "title": "Studio asset inspection / P07 and P08",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D04.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "86e4d2d14156be12c92aa87e1336761d370e56777437b8c4aca609291092db4e",
+    "noisy_original_sha256": "022d95109c4746a1fe46c4b785d8f2ec141d8496de2d1c6453ff071a55058168",
+    "noisy_original": ".cache/final-R6-rejected-studies/D04.noisy.png",
+    "original_before_denoise_sha256": "022d95109c4746a1fe46c4b785d8f2ec141d8496de2d1c6453ff071a55058168",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D04.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 94.22,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D05": {
+    "view_id": "D05",
+    "title": "Studio asset inspection / P09 and P10",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D05.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "14a98518f3d9a508c271fb6bd9be59302fc4fd6b4e1967871123dc592e91df6d",
+    "noisy_original_sha256": "481e4b30344627917490fafd4956b8694bb10c0cd4a8474d6708499c3b9d1969",
+    "noisy_original": ".cache/final-R6-rejected-studies/D05.noisy.png",
+    "original_before_denoise_sha256": "481e4b30344627917490fafd4956b8694bb10c0cd4a8474d6708499c3b9d1969",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D05.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 93.64,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D06": {
+    "view_id": "D06",
+    "title": "Studio asset inspection / P11 and P12",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D06.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "52e27d0024f32369dd39398b530a561cd004767d8f225a68535bcab4d8012fca",
+    "noisy_original_sha256": "af21bbebf36694ca5c170a3fa62a8a1e3c7c986e61e8ad27dfdac1c5c07bc258",
+    "noisy_original": ".cache/final-R6-rejected-studies/D06.noisy.png",
+    "original_before_denoise_sha256": "af21bbebf36694ca5c170a3fa62a8a1e3c7c986e61e8ad27dfdac1c5c07bc258",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D06.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 99.79,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  },
+  "D07": {
+    "view_id": "D07",
+    "title": "P01 / full-body fit and ground contact",
+    "kind": "people",
+    "source_native_sha256": "43692020a8b1f3b9b88262f0f643beb02576fafdba2d832eb8bf408efbabccdc",
+    "geometry_uv_pose_material_signature": "bc7809fa28c61ddd5b421cdafbdaaf504f8179f5bc21cadfcdd9e43d9327ad36",
+    "image": ".cache/final-R6-rejected-studies/D07.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "30a64897b7b94585321c25e22ca6f6eab7ec55ed20cba3bae452535b049a1c01",
+    "noisy_original_sha256": "025dafb6a4cf8a34ebc1588f5759cb04b4acaa47289397259196b264f5baff71",
+    "noisy_original": ".cache/final-R6-rejected-studies/D07.noisy.png",
+    "original_before_denoise_sha256": "025dafb6a4cf8a34ebc1588f5759cb04b4acaa47289397259196b264f5baff71",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D07.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 88.49,
+    "visual_inspection": "REJECTED_CANDIDATE: full-resolution D02 exposed detached vertical cap ribs; R5/R6 narrow cap-part selector omitted18 named PID_RIB components. Only D01/D02 actually opened; others not yet inspected."
+  }
+}

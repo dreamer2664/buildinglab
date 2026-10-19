@@ -1,0 +1,17 @@
+{
+  "stage": "A0 blockout only",
+  "buildings": 12,
+  "occupied_floor_collections": 26,
+  "objects": 2531,
+  "people_built": 0,
+  "furnished_floors": 0,
+  "final_brand_logos": 0,
+  "packed_images": 3,
+  "native": "scene/square-A2.blend",
+  "limitations": [
+    "All26 floor shells exist, but no occupied floor furnishing is complete.",
+    "Roof snow, tree silhouettes, playground and street furniture are A0 design studies, not final realism.",
+    "No people are modelled or accepted.",
+    "Brand typography is placement study, not finished logo system."
+  ]
+}

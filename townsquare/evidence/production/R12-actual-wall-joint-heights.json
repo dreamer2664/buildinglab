@@ -1,0 +1,446 @@
+[
+  {
+    "object": "B02__B02_L02__COMMON__wall_low",
+    "floor": "B02_L02",
+    "room": "COMMON",
+    "layer": "wall_low",
+    "world_z_levels_most_common": [
+      [
+        3.81,
+        56
+      ],
+      [
+        4.79,
+        56
+      ]
+    ],
+    "min_world_z": 3.81,
+    "max_world_z": 4.79
+  },
+  {
+    "object": "B02__B02_L02__COMMON__wall_high",
+    "floor": "B02_L02",
+    "room": "COMMON",
+    "layer": "wall_high",
+    "world_z_levels_most_common": [
+      [
+        7.0,
+        80
+      ],
+      [
+        4.78,
+        56
+      ],
+      [
+        5.95,
+        24
+      ]
+    ],
+    "min_world_z": 4.78,
+    "max_world_z": 7.0
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_SECOND_ROOM__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_SECOND_ROOM",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_PRIMARY_BED__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_PRIMARY_BED",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_LIVING__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_LIVING",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_KITCHEN__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_KITCHEN",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_ENTRY_HALL__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_ENTRY_HALL",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B02__B02_L02__B02_L02_BATH__ceiling",
+    "floor": "B02_L02",
+    "room": "B02_L02_BATH",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__COMMON__wall_low",
+    "floor": "B04_L02",
+    "room": "COMMON",
+    "layer": "wall_low",
+    "world_z_levels_most_common": [
+      [
+        3.81,
+        56
+      ],
+      [
+        4.79,
+        56
+      ]
+    ],
+    "min_world_z": 3.81,
+    "max_world_z": 4.79
+  },
+  {
+    "object": "B04__B04_L02__COMMON__wall_high",
+    "floor": "B04_L02",
+    "room": "COMMON",
+    "layer": "wall_high",
+    "world_z_levels_most_common": [
+      [
+        7.0,
+        80
+      ],
+      [
+        4.78,
+        56
+      ],
+      [
+        5.95,
+        24
+      ]
+    ],
+    "min_world_z": 4.78,
+    "max_world_z": 7.0
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_SECOND_ROOM__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_SECOND_ROOM",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_PRIMARY_BED__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_PRIMARY_BED",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_LIVING__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_LIVING",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_KITCHEN__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_KITCHEN",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_ENTRY_HALL__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_ENTRY_HALL",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B04__B04_L02__B04_L02_BATH__ceiling",
+    "floor": "B04_L02",
+    "room": "B04_L02_BATH",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__COMMON__wall_low",
+    "floor": "B11_L02",
+    "room": "COMMON",
+    "layer": "wall_low",
+    "world_z_levels_most_common": [
+      [
+        3.81,
+        56
+      ],
+      [
+        4.79,
+        56
+      ]
+    ],
+    "min_world_z": 3.81,
+    "max_world_z": 4.79
+  },
+  {
+    "object": "B11__B11_L02__COMMON__wall_high",
+    "floor": "B11_L02",
+    "room": "COMMON",
+    "layer": "wall_high",
+    "world_z_levels_most_common": [
+      [
+        7.0,
+        80
+      ],
+      [
+        4.78,
+        56
+      ],
+      [
+        5.95,
+        24
+      ]
+    ],
+    "min_world_z": 4.78,
+    "max_world_z": 7.0
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_SECOND_ROOM__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_SECOND_ROOM",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_PRIMARY_BED__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_PRIMARY_BED",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_LIVING__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_LIVING",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_KITCHEN__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_KITCHEN",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_ENTRY_HALL__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_ENTRY_HALL",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  },
+  {
+    "object": "B11__B11_L02__B11_L02_BATH__ceiling",
+    "floor": "B11_L02",
+    "room": "B11_L02_BATH",
+    "layer": "ceiling",
+    "world_z_levels_most_common": [
+      [
+        6.9,
+        4
+      ],
+      [
+        6.95,
+        4
+      ]
+    ],
+    "min_world_z": 6.9,
+    "max_world_z": 6.95
+  }
+]

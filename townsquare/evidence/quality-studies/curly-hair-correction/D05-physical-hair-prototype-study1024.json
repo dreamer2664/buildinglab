@@ -1,0 +1,42 @@
+{
+  "view": "D05",
+  "native_pixel_crop": null,
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    1024,
+    576
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.699999988079071,
+  "seconds": 21.6541500910007,
+  "image_sha256": "ad18a78570409af420ceb3184d7931e9b9fc30fc7f91f74aee44d0e477bb305e",
+  "raw_paths": [
+    "D05-physical-hair-prototype-study1024-noisy-0001.png"
+  ],
+  "inspection": "PENDING / do not infer improved realism from renderer success",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_09_P09",
+      "actual_native_hair_curves": 18625,
+      "actual_curve_points": 152262,
+      "root_radius_metres": 4.5e-05,
+      "hair_mass_subdivision": 2,
+      "original_alpha_masks_respected": 1,
+      "actual_curly_fibre_variant": true,
+      "method": "Actual hair curves with tapered radius and physical melanin absorption fibre BSDF over smoothed licensed hair mass, not geometric-tube/groove or new texture/image. UNSAVED study only; no native/model/archive mutation."
+    },
+    {
+      "object": "CROWD_10_P10",
+      "actual_native_hair_curves": 28502,
+      "actual_curve_points": 254169,
+      "root_radius_metres": 4.5e-05,
+      "hair_mass_subdivision": 2,
+      "original_alpha_masks_respected": 1,
+      "actual_curly_fibre_variant": false,
+      "method": "Actual hair curves with tapered radius and physical melanin absorption fibre BSDF over smoothed licensed hair mass, not geometric-tube/groove or new texture/image. UNSAVED study only; no native/model/archive mutation."
+    }
+  ],
+  "prototype_implementation_sha256": "b2398c2a171efd1b0226eeda37ab8c0c9c3e6e3b70869b66656408e522e8541b"
+}

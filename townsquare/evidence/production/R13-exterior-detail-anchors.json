@@ -1,0 +1,1826 @@
+{
+  "source_native_sha256": "75945c0b9c4fe38a9372604bcfdd625fb3c8740c1025178ba5e7428e27406cc6",
+  "buildings": [
+    {
+      "building": "B01",
+      "actual_roof_object_names": [
+        "B01__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.450000762939453,
+          -7.450000762939453,
+          10.199999809265137
+        ],
+        [
+          9.449999809265137,
+          7.450000762939453,
+          14.289999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L02",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B01__B01_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B01_L03",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B01__B01_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 581
+    },
+    {
+      "building": "B02",
+      "actual_roof_object_names": [
+        "B02__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          9.449999809265137,
+          7.450000762939453,
+          11.4399995803833
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            -6.570000171661377,
+            -5.309999942779541
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            -2.6100001335144043,
+            -1.350000023841858
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            1.350000023841858,
+            2.6100001335144043
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            5.309999942779541,
+            6.570000171661377
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            -6.570000171661377,
+            -5.309999942779541
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            -2.6100001335144043,
+            -1.350000023841858
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            1.350000023841858,
+            2.6100001335144043
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B02_L02",
+          "horizontal_bounds": [
+            5.309999942779541,
+            6.570000171661377
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B02__B02_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 258
+    },
+    {
+      "building": "B03",
+      "actual_roof_object_names": [
+        "B03__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          9.450000762939453,
+          7.450000762939453,
+          11.789999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.309999465942383
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            5.310001373291016,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.309999465942383
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B03_L02",
+          "horizontal_bounds": [
+            5.310001373291016,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B03__B03_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 66
+    },
+    {
+      "building": "B04",
+      "actual_roof_object_names": [
+        "B04__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.450000762939453,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.449999809265137,
+          7.450000762939453,
+          11.09000015258789
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.650001525878906
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            -2.3899993896484375,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.390000343322754
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            4.649999618530273,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.650001525878906
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            -2.3899993896484375,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.390000343322754
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B04_L02",
+          "horizontal_bounds": [
+            4.649999618530273,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B04__B04_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 122
+    },
+    {
+      "building": "B05",
+      "actual_roof_object_names": [
+        "B05__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.449999809265137,
+          7.450000762939453,
+          11.4399995803833
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            -5.910000324249268,
+            -4.650000095367432
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            -2.390000104904175,
+            -1.1299999952316284
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            1.1299999952316284,
+            2.390000104904175
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            4.650000095367432,
+            5.910000324249268
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            -5.910000324249268,
+            -4.650000095367432
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            -2.390000104904175,
+            -1.1299999952316284
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            1.1299999952316284,
+            2.390000104904175
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B05_L02",
+          "horizontal_bounds": [
+            4.650000095367432,
+            5.910000324249268
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B05__B05_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 212
+    },
+    {
+      "building": "B06",
+      "actual_roof_object_names": [
+        "B06__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.450000762939453,
+          7.450000762939453,
+          11.789999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.649999618530273
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            -2.390000343322754,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.3899993896484375
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            4.650001525878906,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.649999618530273
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            -2.390000343322754,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.3899993896484375
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B06_L02",
+          "horizontal_bounds": [
+            4.650001525878906,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B06__B06_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 146
+    },
+    {
+      "building": "B07",
+      "actual_roof_object_names": [
+        "B07__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.450000762939453,
+          -7.450000762939453,
+          10.199999809265137
+        ],
+        [
+          9.450000762939453,
+          7.450000762939453,
+          14.289999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L02",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B07__B07_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.310001373291016
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B07_L03",
+          "horizontal_bounds": [
+            5.309999465942383,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            7.799999713897705,
+            9.5
+          ],
+          "source_object": "B07__B07_L03__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 266
+    },
+    {
+      "building": "B08",
+      "actual_roof_object_names": [
+        "B08__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.450000762939453,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          9.450000762939453,
+          7.450000762939453,
+          11.4399995803833
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            -6.570000171661377,
+            -5.309999942779541
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            -2.6100001335144043,
+            -1.350000023841858
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            1.350000023841858,
+            2.6100001335144043
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            5.309999942779541,
+            6.570000171661377
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            -6.570000171661377,
+            -5.309999942779541
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            -2.6100001335144043,
+            -1.350000023841858
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            1.350000023841858,
+            2.6100001335144043
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B08_L02",
+          "horizontal_bounds": [
+            5.309999942779541,
+            6.570000171661377
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B08__B08_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 110
+    },
+    {
+      "building": "B09",
+      "actual_roof_object_names": [
+        "B09__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -9.450000762939453,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          9.450000762939453,
+          7.450000762939453,
+          11.789999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.309999465942383
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            5.310001373291016,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            -6.569999694824219,
+            -5.309999465942383
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            -2.6099987030029297,
+            -1.3500003814697266
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            1.3500003814697266,
+            2.6099987030029297
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B09_L02",
+          "horizontal_bounds": [
+            5.310001373291016,
+            6.569999694824219
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B09__B09_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 137
+    },
+    {
+      "building": "B10",
+      "actual_roof_object_names": [
+        "B10__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.450000762939453,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.449999809265137,
+          7.450000762939453,
+          11.09000015258789
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.650001525878906
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            -2.3899993896484375,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.390000343322754
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            4.649999618530273,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.650001525878906
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            -2.3899993896484375,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.390000343322754
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B10_L02",
+          "horizontal_bounds": [
+            4.649999618530273,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B10__B10_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 65
+    },
+    {
+      "building": "B11",
+      "actual_roof_object_names": [
+        "B11__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.449999809265137,
+          7.450000762939453,
+          11.4399995803833
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            -5.910000324249268,
+            -4.650000095367432
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            -2.390000104904175,
+            -1.1299999952316284
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            1.1299999952316284,
+            2.390000104904175
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            4.650000095367432,
+            5.910000324249268
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            -5.910000324249268,
+            -4.650000095367432
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            -2.390000104904175,
+            -1.1299999952316284
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            1.1299999952316284,
+            2.390000104904175
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B11_L02",
+          "horizontal_bounds": [
+            4.650000095367432,
+            5.910000324249268
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B11__B11_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 130
+    },
+    {
+      "building": "B12",
+      "actual_roof_object_names": [
+        "B12__ROOF__COMMON__roof"
+      ],
+      "actual_roof_local_bounds": [
+        [
+          -8.449999809265137,
+          -7.450000762939453,
+          7.0
+        ],
+        [
+          8.450000762939453,
+          7.450000762939453,
+          11.789999961853027
+        ]
+      ],
+      "actual_measured_upper_window_groups": [
+        {
+          "side": "front",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.649999618530273
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            -2.390000343322754,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.3899993896484375
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "front",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            4.650001525878906,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            -5.909999847412109,
+            -4.649999618530273
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            -2.390000343322754,
+            -1.1300010681152344
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            1.1300010681152344,
+            2.3899993896484375
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        },
+        {
+          "side": "back",
+          "floor": "B12_L02",
+          "horizontal_bounds": [
+            4.650001525878906,
+            5.909999847412109
+          ],
+          "vertical_bounds": [
+            4.599999904632568,
+            6.299999713897705
+          ],
+          "source_object": "B12__B12_L02__COMMON__exterior",
+          "source_glass_faces": 4
+        }
+      ],
+      "actual_existing_mesh_objects": 154
+    }
+  ],
+  "method": "Actual saved-source glass polygon bounds transformed through documented building yaw; no inferred room/window labels or fabricated observations"
+}

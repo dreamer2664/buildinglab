@@ -1,0 +1,37 @@
+{
+  "stage": "Actual imported packed editable licensed scan native; image/render/adoption PENDING",
+  "pose_asset_id": "HSR0015-Body-009",
+  "source_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_archive_sha256": "a90f6ae81b35b94db19caf9e5888084260ad16841ca575226eda48128269728e",
+  "source_obj_sha256": "82b2f4d603fd305d507f83f492e90604458a8c5c15f86f7e5ea53028ffbaf6ea",
+  "source_texture_sha256": "cd28bcbe8c0227c18701988f3199821487e5e63c115cb35c7f87a7c82ac5004d",
+  "original_source_bounds": [
+    [
+      -0.27257517962264893,
+      -0.24303332715700732,
+      -0.0011850362001858607
+    ],
+    [
+      0.3246936758761275,
+      0.24860654409293037,
+      1.6859134636468098
+    ]
+  ],
+  "actual_origin_translation": [
+    0.026059248126739293,
+    0.0027866084679615266,
+    -0.0011850362001858607
+  ],
+  "mesh_vertices": 49963,
+  "mesh_polygons": 99998,
+  "mesh_uv_layers": 1,
+  "packed_diffuse_dimensions": [
+    8192,
+    8192
+  ],
+  "native": ".cache/scan-intake/native/HSR0015-Body-009-native-study.blend",
+  "native_sha256": "c87db8149f42dade93fb8fc30805ab1f1f0f16b3b585c975608910df9af3f41c",
+  "native_bytes": 72513938,
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes pending native import/normalization/lighting tests.\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 a90f6ae81b35b94db19caf9e5888084260ad16841ca575226eda48128269728e.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "limitations": "Static real3Dphoto scan, not a rigged scan/automatic body animation. Source photo may contain captured shading; single rough dielectric approximate material, not separate scanned BRDF. No person identification inferred or required."
+}

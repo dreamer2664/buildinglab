@@ -1,0 +1,1942 @@
+{
+  "stage": "NEW photographic winter scan crowd candidate, UNPROMOTED / actual saved-source town rendering/fresh-reopen/export/visual and independent acceptance pending",
+  "base_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "native": ".cache/scanned-town/Winterlichtplatz-licensed-scan-candidate-UNPROMOTED.blend",
+  "native_sha256": "5f54426b3cf9186da044c01c7796079ed8d25edc6b2f1f6b0fef1c5c16f836a8",
+  "native_bytes": 522394973,
+  "actual_finished_room_ids": 164,
+  "finished_rooms_without_furniture": [],
+  "actual_changes": [
+    {
+      "floor": "B02_L02",
+      "actual_theme": "Baker guest bedroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B02__B02_L02__B02_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.950000762939453,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660156,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246094,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B04_L02",
+      "actual_theme": "Illustrator drawing studio",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B04__B04_L02__B04_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.350000381469727,
+              -2.9499969482421875,
+              -4.7683715642676816e-08
+            ],
+            [
+              -1.8500003814697266,
+              -0.7843666076660154,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -4.700000762939453,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.5343704223632812,
+              -0.09999656677246072,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B05_L02",
+      "actual_theme": "Planted conservatory",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B08_L02",
+      "actual_theme": "Child bedroom and play",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B08__B08_L02__B08_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B09_L02",
+      "actual_theme": "Maker workroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B09__B09_L02__B09_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.850000381469727,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3500003814697266,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.200004577636719,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.0343704223632812,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B11_L02",
+      "actual_theme": "Cycle and outdoor gear room",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B12_L02",
+      "actual_theme": "Writer library and study",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -7.569999694824219,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -5.729999542236328,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -7.719999694824218,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -5.879999542236328,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -0.14999999999999947,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -1.9950008392333984,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -0.1550006866455078,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -3.215000839233398,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -1.3750006866455076,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -1.2199999999999998,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          3.5799999237060547,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          5.420000076293945,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.2799999237060549,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          3.1200000762939455,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -2.3,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03_L01__R3_ORIGINAL_FURNITURE",
+      "tag": "Additional_cafe_two_seat_columns_into_actual_intercolumn_aisles",
+      "actual_vertices_rigidly_moved": 3520,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          0.6750011444091797,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          1.5249996185302734,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.974998855590821,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          -4.125000381469727,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -5.65,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03_L01__R3_ORIGINAL_FURNITURE",
+      "tag": "Additional_cafe_two_seat_columns_into_actual_intercolumn_aisles",
+      "actual_vertices_rigidly_moved": 3520,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          3.575000762939453,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          4.424999237060547,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -0.4749992370605467,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          0.37499923706054705,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -4.05,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L02__B03_L02_FRONT_A__furniture",
+      "tag": "Reading_sofa_clear_of_hall_entry",
+      "actual_vertices_rigidly_moved": 1389,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -5.962499618530273,
+          -0.04300689697265625,
+          -4.7683715642676816e-08
+        ],
+        [
+          -3.5625,
+          1.0430030822753906,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -5.962499618530273,
+          -1.0930068969726563,
+          -4.7683715642676816e-08
+        ],
+        [
+          -3.5625,
+          -0.006996917724609419,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.05,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_SLEEP__furniture",
+      "tag": "Hotel_left_bed_rug_nightstands_clear_of_hall_entry",
+      "actual_vertices_rigidly_moved": 440,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -5.844999313354492,
+          -2.3499984741210946,
+          0.015999984741211115
+        ],
+        [
+          -2.905000686645508,
+          1.255001068115234,
+          1.2349998474121096
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -5.844999313354492,
+          -3.3499984741210946,
+          0.015999984741211115
+        ],
+        [
+          -2.905000686645508,
+          0.25500106811523393,
+          1.2349998474121096
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "floor": "B07_L03",
+      "room": "SUITE_-1_SLEEP",
+      "old_furniture_batches_actually_removed": 1,
+      "actual_replacement": "Two side-wall twin beds/shared bedside lamp/luggage wardrobe OR south-facing queen/luggage bench/side-wall wardrobe; each with work desk, seat, guest notebook and plant. Real fit-out difference; hall/salon door approaches to be individually checked."
+    },
+    {
+      "floor": "B07_L03",
+      "room": "SUITE_1_SLEEP",
+      "old_furniture_batches_actually_removed": 1,
+      "actual_replacement": "Two side-wall twin beds/shared bedside lamp/luggage wardrobe OR south-facing queen/luggage bench/side-wall wardrobe; each with work desk, seat, guest notebook and plant. Real fit-out difference; hall/salon door approaches to be individually checked."
+    },
+    {
+      "floor": "B01_L02",
+      "actual_addition": "Two3.1m steel carton racks with30closed taped/shipping-labelled cartons and original geometric barcodes; staff four-seat team table/purchase orders/physical wall schedule board. Door-side zones reserved."
+    },
+    {
+      "floor": "B06_L02",
+      "actual_addition": "Separate usable sewing bench with real3Dmachine chassis/curved arm/needle/presser/handwheel/spool/fabric and pattern table with real cutting-mat grid/paper/rule/ticks/scissor handles/blades. Not name-only atelier."
+    },
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_armchair_separated_from_existing_plant",
+      "actual_vertices_rigidly_moved": 4486,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -7.351309299468994,
+          -3.0999984741210933,
+          -4.7683715642676816e-08
+        ],
+        [
+          -6.148690700531006,
+          -2.0999984741210933,
+          1.2468568801879885
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -6.551309299468994,
+          -4.799998474121093,
+          -4.7683715642676816e-08
+        ],
+        [
+          -5.348690700531006,
+          -3.799998474121093,
+          1.2468568801879885
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0.8,
+        -1.7,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_plant_moved_sideways_off_kitchen_door_approach",
+      "actual_vertices_rigidly_moved": 438,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          0.38946476578712447,
+          -3.2171554565429688,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -1.9831809997558594,
+          1.4673997879028322
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          0.38946476578712447,
+          -4.667155456542969,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -3.4331809997558596,
+          1.4673997879028322
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.45,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_SLEEP__furniture",
+      "tag": "Hotel_right_bed_rug_nightstands_north_approach",
+      "actual_vertices_rigidly_moved": 440,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          2.905000686645508,
+          -2.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          1.255001068115235,
+          1.2349998474121096
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          2.905000686645508,
+          -3.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          0.25500106811523504,
+          1.2349998474121096
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    }
+  ],
+  "images": [],
+  "inspection": "Actual12sourcebody images individually opened before this separate candidate save. Town integration/lighting/collisions/camera evidence PENDING. No previous final images rebound.",
+  "parent_placement_study_native_sha256": "47beeab4432b5be50585b4a502044d2c7033d47358bbc22b91e5e9ac6083fd97",
+  "actual_wall_overlap_repairs": [
+    {
+      "floor": "B01_L01",
+      "high_wall_object": "B01__B01_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B01_L02",
+      "high_wall_object": "B01__B01_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B01_L03",
+      "high_wall_object": "B01__B01_L03__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 7.989999771118164,
+      "actual_high_wall_bottom_before_world_z": 7.980000019073486,
+      "actual_overlap_removed_m": 0.009999752044677734,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 7.989999771118164
+    },
+    {
+      "floor": "B02_L01",
+      "high_wall_object": "B02__B02_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B02_L02",
+      "high_wall_object": "B02__B02_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B03_L01",
+      "high_wall_object": "B03__B03_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B03_L02",
+      "high_wall_object": "B03__B03_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 60,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B04_L01",
+      "high_wall_object": "B04__B04_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B04_L02",
+      "high_wall_object": "B04__B04_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B05_L01",
+      "high_wall_object": "B05__B05_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B05_L02",
+      "high_wall_object": "B05__B05_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B06_L01",
+      "high_wall_object": "B06__B06_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B06_L02",
+      "high_wall_object": "B06__B06_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 60,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B07_L01",
+      "high_wall_object": "B07__B07_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B07_L02",
+      "high_wall_object": "B07__B07_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 92,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B07_L03",
+      "high_wall_object": "B07__B07_L03__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 7.989999771118164,
+      "actual_high_wall_bottom_before_world_z": 7.980000019073486,
+      "actual_overlap_removed_m": 0.009999752044677734,
+      "vertices_moved": 92,
+      "actual_high_wall_bottom_after_world_z": 7.989999771118164
+    },
+    {
+      "floor": "B08_L01",
+      "high_wall_object": "B08__B08_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B08_L02",
+      "high_wall_object": "B08__B08_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B09_L01",
+      "high_wall_object": "B09__B09_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B09_L02",
+      "high_wall_object": "B09__B09_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B10_L01",
+      "high_wall_object": "B10__B10_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B10_L02",
+      "high_wall_object": "B10__B10_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 60,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B11_L01",
+      "high_wall_object": "B11__B11_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B11_L02",
+      "high_wall_object": "B11__B11_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    },
+    {
+      "floor": "B12_L01",
+      "high_wall_object": "B12__B12_L01__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 0.9900000095367432,
+      "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+      "actual_overlap_removed_m": 0.009999871253967285,
+      "vertices_moved": 52,
+      "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+    },
+    {
+      "floor": "B12_L02",
+      "high_wall_object": "B12__B12_L02__COMMON__wall_high",
+      "actual_low_wall_top_world_z": 4.789999961853027,
+      "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+      "actual_overlap_removed_m": 0.010000228881835938,
+      "vertices_moved": 56,
+      "actual_high_wall_bottom_after_world_z": 4.789999961853027
+    }
+  ],
+  "geometry_uv_pose_material_signature": "3608f28413d0fa8be3d05a4ca52644358983ddae9f461466a5dac11b72b3064e",
+  "parent_wall_corrected_native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+  "parent_generic_groomed_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "architecture_geometry_uv_pose_material_index_signature_before": "5b0606c98d68256d1f10d8d02ca75d6d3ba6d015be34a036f0b99ba4456e3a6d",
+  "architecture_geometry_uv_pose_material_index_signature_after": "5b0606c98d68256d1f10d8d02ca75d6d3ba6d015be34a036f0b99ba4456e3a6d",
+  "architectural_material_graph_and_photo_signature_before": "9292832804d874eae8a5efbf2e9ed37ff804d4dced8730e6558c51770ef7b151",
+  "architectural_material_graph_and_photo_signature_after": "9292832804d874eae8a5efbf2e9ed37ff804d4dced8730e6558c51770ef7b151",
+  "actual_scan_replacements": [
+    {
+      "actor": "CROWD_01_P01",
+      "person_id": 1,
+      "variant": "P01",
+      "source_pose": "HSR0015-Body-009",
+      "scan_native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "old_generic_mesh": "base.001",
+      "actual_preserved_sole_z_m": 0.005999998189508915,
+      "old_yaw_rad": 0.2617993950843811,
+      "scan_yaw_rad": -2.879793405532837,
+      "preserved_xy_m": [
+        -3.0,
+        -9.0
+      ],
+      "actual_scan_body_height_m": 1.6770985126495361
+    },
+    {
+      "actor": "CROWD_13_P01",
+      "person_id": 13,
+      "variant": "P01",
+      "source_pose": "HSR0015-Body-009",
+      "scan_native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "old_generic_mesh": "base.001",
+      "actual_preserved_sole_z_m": 0.005999998189508915,
+      "old_yaw_rad": 0.2617993950843811,
+      "scan_yaw_rad": -2.879793405532837,
+      "preserved_xy_m": [
+        -20.0,
+        19.0
+      ],
+      "actual_scan_body_height_m": 1.6770985126495361
+    },
+    {
+      "actor": "CROWD_25_P01",
+      "person_id": 25,
+      "variant": "P01",
+      "source_pose": "HSR0015-Body-009",
+      "scan_native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "old_generic_mesh": "base.001",
+      "actual_preserved_sole_z_m": 0.005999998189508915,
+      "old_yaw_rad": 3.1415927410125732,
+      "scan_yaw_rad": -2.384185791015625e-07,
+      "preserved_xy_m": [
+        -17.0,
+        -16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.6770985126495361
+    },
+    {
+      "actor": "CROWD_02_P02",
+      "person_id": 2,
+      "variant": "P02",
+      "source_pose": "HSR0027-Body-004",
+      "scan_native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "old_generic_mesh": "base.002",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.4363323152065277,
+      "scan_yaw_rad": 2.7052605152130127,
+      "preserved_xy_m": [
+        -1.7999999523162842,
+        -8.5
+      ],
+      "actual_scan_body_height_m": 1.6607221364974976
+    },
+    {
+      "actor": "CROWD_14_P02",
+      "person_id": 14,
+      "variant": "P02",
+      "source_pose": "HSR0027-Body-004",
+      "scan_native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "old_generic_mesh": "base.002",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.4363323152065277,
+      "scan_yaw_rad": 2.7052605152130127,
+      "preserved_xy_m": [
+        -16.0,
+        18.0
+      ],
+      "actual_scan_body_height_m": 1.6607221364974976
+    },
+    {
+      "actor": "CROWD_26_P02",
+      "person_id": 26,
+      "variant": "P02",
+      "source_pose": "HSR0027-Body-004",
+      "scan_native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "old_generic_mesh": "base.002",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 3.1415927410125732,
+      "scan_yaw_rad": -2.384185791015625e-07,
+      "preserved_xy_m": [
+        -9.0,
+        -16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.6607221364974976
+    },
+    {
+      "actor": "CROWD_03_P03",
+      "person_id": 3,
+      "variant": "P03",
+      "source_pose": "HSR0028-Body-010",
+      "scan_native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "old_generic_mesh": "base.003",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 1.0471975803375244,
+      "scan_yaw_rad": -2.0943949222564697,
+      "preserved_xy_m": [
+        7.0,
+        -8.0
+      ],
+      "actual_scan_body_height_m": 1.6761945486068726
+    },
+    {
+      "actor": "CROWD_15_P03",
+      "person_id": 15,
+      "variant": "P03",
+      "source_pose": "HSR0028-Body-010",
+      "scan_native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "old_generic_mesh": "base.003",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 1.0471975803375244,
+      "scan_yaw_rad": -2.0943949222564697,
+      "preserved_xy_m": [
+        -6.0,
+        18.0
+      ],
+      "actual_scan_body_height_m": 1.6761945486068726
+    },
+    {
+      "actor": "CROWD_27_P03",
+      "person_id": 27,
+      "variant": "P03",
+      "source_pose": "HSR0028-Body-010",
+      "scan_native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "old_generic_mesh": "base.003",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 3.1415927410125732,
+      "scan_yaw_rad": -2.384185791015625e-07,
+      "preserved_xy_m": [
+        8.0,
+        -16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.6761945486068726
+    },
+    {
+      "actor": "CROWD_04_P04",
+      "person_id": 4,
+      "variant": "P04",
+      "source_pose": "HSR0040-Body-004",
+      "scan_native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "old_generic_mesh": "base.004",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": -0.6108652353286743,
+      "scan_yaw_rad": 2.5307276248931885,
+      "preserved_xy_m": [
+        8.199999809265137,
+        -7.599999904632568
+      ],
+      "actual_scan_body_height_m": 1.8588829040527344
+    },
+    {
+      "actor": "CROWD_16_P04",
+      "person_id": 16,
+      "variant": "P04",
+      "source_pose": "HSR0040-Body-004",
+      "scan_native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "old_generic_mesh": "base.004",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": -0.6108652353286743,
+      "scan_yaw_rad": 2.5307276248931885,
+      "preserved_xy_m": [
+        3.0,
+        19.0
+      ],
+      "actual_scan_body_height_m": 1.8588829040527344
+    },
+    {
+      "actor": "CROWD_28_P04",
+      "person_id": 28,
+      "variant": "P04",
+      "source_pose": "HSR0040-Body-004",
+      "scan_native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "old_generic_mesh": "base.004",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 3.1415927410125732,
+      "scan_yaw_rad": -2.384185791015625e-07,
+      "preserved_xy_m": [
+        17.0,
+        -16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.8588829040527344
+    },
+    {
+      "actor": "CROWD_05_P05",
+      "person_id": 5,
+      "variant": "P05",
+      "source_pose": "HSR0042-Body-002",
+      "scan_native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "old_generic_mesh": "base.005",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.2617993950843811,
+      "scan_yaw_rad": 2.879793405532837,
+      "preserved_xy_m": [
+        -13.0,
+        -8.0
+      ],
+      "actual_scan_body_height_m": 1.8278751373291016
+    },
+    {
+      "actor": "CROWD_17_P05",
+      "person_id": 17,
+      "variant": "P05",
+      "source_pose": "HSR0042-Body-002",
+      "scan_native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "old_generic_mesh": "base.005",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.2617993950843811,
+      "scan_yaw_rad": 2.879793405532837,
+      "preserved_xy_m": [
+        14.0,
+        20.0
+      ],
+      "actual_scan_body_height_m": 1.8278751373291016
+    },
+    {
+      "actor": "CROWD_29_P05",
+      "person_id": 29,
+      "variant": "P05",
+      "source_pose": "HSR0042-Body-002",
+      "scan_native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "old_generic_mesh": "base.005",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 0.0,
+      "scan_yaw_rad": 3.141592502593994,
+      "preserved_xy_m": [
+        -17.0,
+        16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.8278751373291016
+    },
+    {
+      "actor": "CROWD_06_P06",
+      "person_id": 6,
+      "variant": "P06",
+      "source_pose": "HSR0081-Body-004",
+      "scan_native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "old_generic_mesh": "base.013",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.4363323152065277,
+      "scan_yaw_rad": -2.7052605152130127,
+      "preserved_xy_m": [
+        -11.800000190734863,
+        -7.5
+      ],
+      "actual_scan_body_height_m": 1.7748128175735474
+    },
+    {
+      "actor": "CROWD_18_P06",
+      "person_id": 18,
+      "variant": "P06",
+      "source_pose": "HSR0081-Body-004",
+      "scan_native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "old_generic_mesh": "base.013",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.4363323152065277,
+      "scan_yaw_rad": -2.7052605152130127,
+      "preserved_xy_m": [
+        21.0,
+        18.0
+      ],
+      "actual_scan_body_height_m": 1.7748128175735474
+    },
+    {
+      "actor": "CROWD_30_P06",
+      "person_id": 30,
+      "variant": "P06",
+      "source_pose": "HSR0081-Body-004",
+      "scan_native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "old_generic_mesh": "base.013",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.0,
+      "scan_yaw_rad": 3.141592502593994,
+      "preserved_xy_m": [
+        -9.0,
+        16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.7748128175735474
+    },
+    {
+      "actor": "CROWD_07_P07",
+      "person_id": 7,
+      "variant": "P07",
+      "source_pose": "HSR0112-Body-007",
+      "scan_native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "old_generic_mesh": "base.007",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 2.5307273864746094,
+      "scan_yaw_rad": -0.6108658313751221,
+      "preserved_xy_m": [
+        12.0,
+        9.0
+      ],
+      "actual_scan_body_height_m": 1.6603368520736694
+    },
+    {
+      "actor": "CROWD_19_P07",
+      "person_id": 19,
+      "variant": "P07",
+      "source_pose": "HSR0112-Body-007",
+      "scan_native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "old_generic_mesh": "base.007",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 2.5307273864746094,
+      "scan_yaw_rad": -0.6108658313751221,
+      "preserved_xy_m": [
+        -22.0,
+        -19.0
+      ],
+      "actual_scan_body_height_m": 1.6603368520736694
+    },
+    {
+      "actor": "CROWD_31_P07",
+      "person_id": 31,
+      "variant": "P07",
+      "source_pose": "HSR0112-Body-007",
+      "scan_native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "old_generic_mesh": "base.007",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 0.0,
+      "scan_yaw_rad": 3.141592502593994,
+      "preserved_xy_m": [
+        8.0,
+        16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.6603368520736694
+    },
+    {
+      "actor": "CROWD_08_P08",
+      "person_id": 8,
+      "variant": "P08",
+      "source_pose": "HSR0161-Body-002",
+      "scan_native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "old_generic_mesh": "base.008",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 3.4906585216522217,
+      "scan_yaw_rad": 0.34906551241874695,
+      "preserved_xy_m": [
+        13.199999809265137,
+        9.399999618530273
+      ],
+      "actual_scan_body_height_m": 1.7778054475784302
+    },
+    {
+      "actor": "CROWD_20_P08",
+      "person_id": 20,
+      "variant": "P08",
+      "source_pose": "HSR0161-Body-002",
+      "scan_native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "old_generic_mesh": "base.008",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 3.4906585216522217,
+      "scan_yaw_rad": 0.34906551241874695,
+      "preserved_xy_m": [
+        -16.0,
+        -19.0
+      ],
+      "actual_scan_body_height_m": 1.7778054475784302
+    },
+    {
+      "actor": "CROWD_32_P08",
+      "person_id": 32,
+      "variant": "P08",
+      "source_pose": "HSR0161-Body-002",
+      "scan_native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "old_generic_mesh": "base.008",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": 0.0,
+      "scan_yaw_rad": 3.141592502593994,
+      "preserved_xy_m": [
+        17.0,
+        16.100000381469727
+      ],
+      "actual_scan_body_height_m": 1.7778054475784302
+    },
+    {
+      "actor": "CROWD_09_P09",
+      "person_id": 9,
+      "variant": "P09",
+      "source_pose": "HSR0015-Body-015",
+      "scan_native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "old_generic_mesh": "base.009",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.2617993950843811,
+      "scan_yaw_rad": -2.879793405532837,
+      "preserved_xy_m": [
+        -13.0,
+        10.0
+      ],
+      "actual_scan_body_height_m": 1.6959290504455566
+    },
+    {
+      "actor": "CROWD_21_P09",
+      "person_id": 21,
+      "variant": "P09",
+      "source_pose": "HSR0015-Body-015",
+      "scan_native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "old_generic_mesh": "base.009",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.2617993950843811,
+      "scan_yaw_rad": -2.879793405532837,
+      "preserved_xy_m": [
+        -5.0,
+        -19.0
+      ],
+      "actual_scan_body_height_m": 1.6959290504455566
+    },
+    {
+      "actor": "CROWD_33_P09",
+      "person_id": 33,
+      "variant": "P09",
+      "source_pose": "HSR0015-Body-015",
+      "scan_native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "old_generic_mesh": "base.009",
+      "actual_preserved_sole_z_m": 0.00599999725818634,
+      "old_yaw_rad": 0.2617993950843811,
+      "scan_yaw_rad": -2.879793405532837,
+      "preserved_xy_m": [
+        -26.0,
+        5.0
+      ],
+      "actual_scan_body_height_m": 1.6959290504455566
+    },
+    {
+      "actor": "CROWD_10_P10",
+      "person_id": 10,
+      "variant": "P10",
+      "source_pose": "HSR0027-Body-006",
+      "scan_native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "old_generic_mesh": "base.010",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": -0.3490658402442932,
+      "scan_yaw_rad": 2.7925264835357666,
+      "preserved_xy_m": [
+        -11.800000190734863,
+        10.5
+      ],
+      "actual_scan_body_height_m": 1.6473808288574219
+    },
+    {
+      "actor": "CROWD_22_P10",
+      "person_id": 22,
+      "variant": "P10",
+      "source_pose": "HSR0027-Body-006",
+      "scan_native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "old_generic_mesh": "base.010",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": -0.3490658402442932,
+      "scan_yaw_rad": 2.7925264835357666,
+      "preserved_xy_m": [
+        4.0,
+        -19.0
+      ],
+      "actual_scan_body_height_m": 1.6473808288574219
+    },
+    {
+      "actor": "CROWD_34_P10",
+      "person_id": 34,
+      "variant": "P10",
+      "source_pose": "HSR0027-Body-006",
+      "scan_native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "old_generic_mesh": "base.010",
+      "actual_preserved_sole_z_m": 0.006000000052154064,
+      "old_yaw_rad": -0.3490658402442932,
+      "scan_yaw_rad": 2.7925264835357666,
+      "preserved_xy_m": [
+        26.0,
+        -10.0
+      ],
+      "actual_scan_body_height_m": 1.6473808288574219
+    },
+    {
+      "actor": "CROWD_11_P11",
+      "person_id": 11,
+      "variant": "P11",
+      "source_pose": "HSR0028-Body-016",
+      "scan_native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "old_generic_mesh": "base.011",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 0.3490658402442932,
+      "scan_yaw_rad": -2.792526960372925,
+      "preserved_xy_m": [
+        4.0,
+        3.0
+      ],
+      "actual_scan_body_height_m": 1.6690781116485596
+    },
+    {
+      "actor": "CROWD_23_P11",
+      "person_id": 23,
+      "variant": "P11",
+      "source_pose": "HSR0028-Body-016",
+      "scan_native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "old_generic_mesh": "base.011",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 0.3490658402442932,
+      "scan_yaw_rad": -2.792526960372925,
+      "preserved_xy_m": [
+        12.0,
+        -20.0
+      ],
+      "actual_scan_body_height_m": 1.6690781116485596
+    },
+    {
+      "actor": "CROWD_35_P11",
+      "person_id": 35,
+      "variant": "P11",
+      "source_pose": "HSR0028-Body-016",
+      "scan_native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "old_generic_mesh": "base.011",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": 0.3490658402442932,
+      "scan_yaw_rad": -2.792526960372925,
+      "preserved_xy_m": [
+        -4.0,
+        22.0
+      ],
+      "actual_scan_body_height_m": 1.6690781116485596
+    },
+    {
+      "actor": "CROWD_12_P12",
+      "person_id": 12,
+      "variant": "P12",
+      "source_pose": "HSR0040-Body-012",
+      "scan_native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "old_generic_mesh": "base.014",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.6108652353286743,
+      "scan_yaw_rad": 2.5307276248931885,
+      "preserved_xy_m": [
+        5.199999809265137,
+        3.4000000953674316
+      ],
+      "actual_scan_body_height_m": 1.8510891199111938
+    },
+    {
+      "actor": "CROWD_24_P12",
+      "person_id": 24,
+      "variant": "P12",
+      "source_pose": "HSR0040-Body-012",
+      "scan_native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "old_generic_mesh": "base.014",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.6108652353286743,
+      "scan_yaw_rad": 2.5307276248931885,
+      "preserved_xy_m": [
+        22.0,
+        -18.0
+      ],
+      "actual_scan_body_height_m": 1.8510891199111938
+    },
+    {
+      "actor": "CROWD_36_P12",
+      "person_id": 36,
+      "variant": "P12",
+      "source_pose": "HSR0040-Body-012",
+      "scan_native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "old_generic_mesh": "base.014",
+      "actual_preserved_sole_z_m": 0.0059999991208314896,
+      "old_yaw_rad": -0.6108652353286743,
+      "scan_yaw_rad": 2.5307276248931885,
+      "preserved_xy_m": [
+        20.0,
+        -23.0
+      ],
+      "actual_scan_body_height_m": 1.8510891199111938
+    }
+  ],
+  "actual_removed_original_native_groom_objects": [
+    "CROWD_06_HAIR_LOD_P06",
+    "CROWD_06_HAIR_ROOTS_P06",
+    "CROWD_06_HAIR_CURVES_P06",
+    "CROWD_18_HAIR_LOD_P06",
+    "CROWD_18_HAIR_ROOTS_P06",
+    "CROWD_18_HAIR_CURVES_P06",
+    "CROWD_30_HAIR_LOD_P06",
+    "CROWD_30_HAIR_ROOTS_P06",
+    "CROWD_30_HAIR_CURVES_P06",
+    "CROWD_12_HAIR_LOD_P12",
+    "CROWD_12_HAIR_ROOTS_P12",
+    "CROWD_12_HAIR_CURVES_P12",
+    "CROWD_24_HAIR_LOD_P12",
+    "CROWD_24_HAIR_ROOTS_P12",
+    "CROWD_24_HAIR_CURVES_P12",
+    "CROWD_36_HAIR_LOD_P12",
+    "CROWD_36_HAIR_ROOTS_P12",
+    "CROWD_36_HAIR_CURVES_P12"
+  ],
+  "actual_source_pose_count": 12,
+  "actual_source_subject_ids": 8,
+  "scan_sources": [
+    {
+      "variant": "P01",
+      "pose": "HSR0015-Body-009",
+      "native": ".cache/scan-intake/native/HSR0015-Body-009-clean-native-study.blend",
+      "native_sha256": "860f246ab3c61958559513bd2c76880eda2149c6319c65142316f45f8853a963",
+      "vertices": 49976,
+      "polygons": 99612,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49963,
+          99998
+        ],
+        "vertices_faces_after": [
+          49976,
+          99612
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49192,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P02",
+      "pose": "HSR0027-Body-004",
+      "native": ".cache/scan-intake/native/HSR0027-Body-004-clean-native-study.blend",
+      "native_sha256": "8194d7f536196431f024469284e77df05025c7990d2a4a97d33627238c2d742b",
+      "vertices": 49889,
+      "polygons": 99353,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49965,
+          99970
+        ],
+        "vertices_faces_after": [
+          49889,
+          99353
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48880,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P03",
+      "pose": "HSR0028-Body-010",
+      "native": ".cache/scan-intake/native/HSR0028-Body-010-clean-native-study.blend",
+      "native_sha256": "352b8b59c24ed1bc646a06b78c4b37a06a7f5519a0d6b6357e5a03d18f5980b7",
+      "vertices": 49937,
+      "polygons": 99588,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50014,
+          100021
+        ],
+        "vertices_faces_after": [
+          49937,
+          99588
+        ],
+        "new_sole_cap_faces": 1,
+        "actual_upper_body_vertex_count_conserved": 49099,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P04",
+      "pose": "HSR0040-Body-004",
+      "native": ".cache/scan-intake/native/HSR0040-Body-004-clean-native-study.blend",
+      "native_sha256": "75965dd325e5bf06354e4a752558760583a140d269ac21610d34bb861dc5bcc1",
+      "vertices": 49848,
+      "polygons": 98946,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49979,
+          99994
+        ],
+        "vertices_faces_after": [
+          49848,
+          98946
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48129,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P05",
+      "pose": "HSR0042-Body-002",
+      "native": ".cache/scan-intake/native/HSR0042-Body-002-clean-native-study.blend",
+      "native_sha256": "685af7dd2844d945e5f5db4d3fd04f53deafce7c506b1027416e53db4e647afb",
+      "vertices": 49926,
+      "polygons": 99466,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50006,
+          100032
+        ],
+        "vertices_faces_after": [
+          49926,
+          99466
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48971,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P06",
+      "pose": "HSR0081-Body-004",
+      "native": ".cache/scan-intake/native/HSR0081-Body-004-clean-native-study.blend",
+      "native_sha256": "cdaa83f6f6912171abfd8285081882ccbac4f1f26404dc9945a499275c456b18",
+      "vertices": 49878,
+      "polygons": 99392,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49974,
+          100004
+        ],
+        "vertices_faces_after": [
+          49878,
+          99392
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48820,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P07",
+      "pose": "HSR0112-Body-007",
+      "native": ".cache/scan-intake/native/HSR0112-Body-007-clean-native-study.blend",
+      "native_sha256": "1f493e762509cce84309b54bbc9de85716bf6f1ba8b3ccdeebc3582dc257a6b6",
+      "vertices": 49960,
+      "polygons": 99549,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49970,
+          99972
+        ],
+        "vertices_faces_after": [
+          49960,
+          99549
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49054,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P08",
+      "pose": "HSR0161-Body-002",
+      "native": ".cache/scan-intake/native/HSR0161-Body-002-clean-native-study.blend",
+      "native_sha256": "5406b8a9da6471cda16da31a5bc0ca4ac1718d548fd85e8bea6470f7459c9588",
+      "vertices": 49888,
+      "polygons": 99334,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          50044,
+          100008
+        ],
+        "vertices_faces_after": [
+          49888,
+          99334
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48522,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P09",
+      "pose": "HSR0015-Body-015",
+      "native": ".cache/scan-intake/native/HSR0015-Body-015-clean-native-study.blend",
+      "native_sha256": "ff92c4299bd3f3c47a0e61e247cafd926ca1255ebf40afb033904448a4cce35f",
+      "vertices": 49930,
+      "polygons": 99428,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49966,
+          99976
+        ],
+        "vertices_faces_after": [
+          49930,
+          99428
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 49116,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P10",
+      "pose": "HSR0027-Body-006",
+      "native": ".cache/scan-intake/native/HSR0027-Body-006-clean-native-study.blend",
+      "native_sha256": "6da96557828f479f1ba91b7ae908ef37b30bf2df85c4f9f19ee9fd501a3c575c",
+      "vertices": 49871,
+      "polygons": 99278,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49980,
+          99972
+        ],
+        "vertices_faces_after": [
+          49871,
+          99278
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48780,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P11",
+      "pose": "HSR0028-Body-016",
+      "native": ".cache/scan-intake/native/HSR0028-Body-016-clean-native-study.blend",
+      "native_sha256": "4d56c219a33bf169c11e0b7a1eec7fceda55778bf64c25c7ee31d3a688f255d8",
+      "vertices": 49910,
+      "polygons": 99552,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49956,
+          99964
+        ],
+        "vertices_faces_after": [
+          49910,
+          99552
+        ],
+        "new_sole_cap_faces": 1,
+        "actual_upper_body_vertex_count_conserved": 49194,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "variant": "P12",
+      "pose": "HSR0040-Body-012",
+      "native": ".cache/scan-intake/native/HSR0040-Body-012-clean-native-study.blend",
+      "native_sha256": "19425ba2bdb924de683e3c9ddd223a89045b2a6b7c0db792dbaeee07480908a7",
+      "vertices": 49837,
+      "polygons": 98965,
+      "actual_cleanup": {
+        "method": "Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.",
+        "slice_plane_original_normalized_z_m": 0.01,
+        "vertices_faces_before": [
+          49958,
+          99988
+        ],
+        "vertices_faces_after": [
+          49837,
+          98965
+        ],
+        "new_sole_cap_faces": 2,
+        "actual_upper_body_vertex_count_conserved": 48255,
+        "actual_upper_body_max_vertex_error_m_before_documented_origin_shift": 0,
+        "actual_upper_body_topology_and_uv_exact_equality": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "limitations": "Static editable 3Dscan/photoUV, not rigged.12poses/8subject IDs repeated3instances per pose. Sourcephoto captured shading and rough dielectric approximation. Source4k texture derivatives and10mmsole cut documented. Separate original rigs retained; not replaced in original archives."
+}

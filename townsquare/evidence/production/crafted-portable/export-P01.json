@@ -1,0 +1,60 @@
+{
+  "component": "P01",
+  "source_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "glb": ".cache/crafted-portable-components/GLB/P01.glb",
+  "glb_sha256": "724327177979c5ef8ec4d1cad7739ff8542e9705fdfebabf80f7f0608aa8ccbf",
+  "glb_bytes": 15906972,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 224664,
+    "polygons_instance_sum": 449760,
+    "triangles_instance_sum": 449760,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -20.3519344329834,
+      -16.345813751220703,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      -2.647934675216675,
+      19.314725875854492,
+      1.6828383207321167
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      1,
+      13,
+      25
+    ]
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "portable_scan_cap_triangulation": [
+    {
+      "source_mesh": "SCAN / actual original LOD0 / HSR0015-Body-009",
+      "actor_instances": 3,
+      "source_loop_triangles_before": 149920,
+      "actual_explicit_portable_triangles_after": 149920,
+      "surface_area_before_m2": 2.0904844531062565,
+      "surface_area_after_m2": 2.0904844517395187,
+      "absolute_surface_area_delta_m2": 1.3667378340187497e-09,
+      "all_original_vertex_positions_exactly_preserved": true,
+      "method": "ExplicitTriangulate modifier for nontriangle source cap faces, UV/materials/custom normals retained; native source untouched. Strict reimport triangle gate unchanged."
+    }
+  ],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

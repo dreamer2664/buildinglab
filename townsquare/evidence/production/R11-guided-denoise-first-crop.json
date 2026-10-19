@@ -1,0 +1,35 @@
+{
+  "view": "D08",
+  "native_pixel_crop": {
+    "index": 10,
+    "pixels": [
+      1184,
+      2016,
+      624,
+      1176
+    ]
+  },
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    2560,
+    1440
+  ],
+  "samples": 24,
+  "method": "Actual Cycles render of frozenR11 with recorded camera/lighting; standard non-generative compositor OIDN with actual source-linear colour, denoising normal and albedo passes; accurate auxiliary prefilter. Geometry/materials/lights/exposure untouched; no native resave.",
+  "camera_exposure_EV": 0.4000000059604645,
+  "seconds": 12.33856531100173,
+  "image_sha256": "4b15a3726099d75cace246aebc2ba5b0c202f961b6ff1e87e91f299ea23599b3",
+  "raw_paths": [
+    "D08-tile10-noisy-0001.png"
+  ],
+  "inspection": {
+    "actual_original_opened_individually": true,
+    "observed_findings": "Actual832x552nativepixel crop singly opened. Lips/nostril/eye edges resolve clearly with fine face texture; coarse glossy cap-like braid surface and angular crown silhouette persist. No final-frame/seam/realism approval from this crop; full assembly study pending.",
+    "scope": "Bounded actual source-linear normal/albedo-guided standardOIDN study, not final production adoption or native change."
+  },
+  "actual_crop_dimensions": [
+    832,
+    552
+  ]
+}

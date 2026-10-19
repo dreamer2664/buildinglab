@@ -1,0 +1,45 @@
+{
+  "scope": "Actual headless Chromium/SwiftShader browser interaction and screenshots of approximate WebGL preview, NOT final Blender view inspection. Screenshots require separate actual visual opens.",
+  "status": "BROWSER_EXECUTED_TWO_UNIQUE_ORIGINALS_ACTUALLY_OPENED",
+  "actual_webgl_render_call_diagnostics": {
+    "frames": 4,
+    "modelLoaded": true,
+    "renderCallCompleted": true,
+    "selection": "ALL",
+    "floor": "ALL",
+    "calls": 3976,
+    "triangles": 4883329,
+    "geometries": 3330,
+    "textures": 102
+  },
+  "javascript_runtime_errors": [],
+  "actual_actions": [
+    "Loaded actual145MB clean-import-tested GLB through local HTTP",
+    "Whole square screenshot",
+    "Selected B01 and occupied B01_L01",
+    "Asserted supermarket programme/title",
+    "Restored whole square"
+  ],
+  "screenshots": {
+    "whole-square.png": "a5aa6e97c272138b69d85d97ff9e6a360777b22d39216ffcf4a6108ca53a981a",
+    "supermarket-floor.png": "ceb25f7f7e4d750fc304697caaf9e9a6813f64c10af2fad5374846f286b5471b",
+    "whole-square-canvas.png": "a5aa6e97c272138b69d85d97ff9e6a360777b22d39216ffcf4a6108ca53a981a",
+    "supermarket-floor-canvas.png": "ceb25f7f7e4d750fc304697caaf9e9a6813f64c10af2fad5374846f286b5471b"
+  },
+  "manual_visual_inspection": {
+    "at": "2026-10-17T17:25:36.474346+00:00",
+    "opened_individually": [
+      "whole-square.png",
+      "supermarket-floor.png"
+    ],
+    "whole_square": "Title now fits; entire square/model lies in reserved viewport to right of sidebar with all12surrounding buildings/snow ground visible. UI does not occlude geometry. Approximate WebGL is pale/distant compared with native Cycles; no final realism acceptance.",
+    "supermarket_floor": "B01_L01 actual selected furnished geometry visible in right viewport; shelving/fridges/stairs/counters appear full-height and no longer globally sliced. Branding fascias remain floating when supporting exterior hidden, intentionally sectional. Shelf backs face camera; orbit to stocked fronts. Camera/controls functional, title fits.",
+    "scope": "Two distinct actual screenshots, not four independent visuals. Canvas locator screenshots capture composited canvas bounding rectangle including overlay UI, NOT isolated GPU framebuffer. No comparison of GPU-only framebuffer was performed. No independent or high-realism acceptance."
+  },
+  "unchanged_local_model_binding": {
+    "resolved_path": "/home/user/townsquare/.cache/final-components/Winterlichtplatz-R11.glb",
+    "bytes": 145248716,
+    "sha256": "e6a43659e2e1911ca5f6fad5b9741e0bfaa1de0c40cd2f36e1596e716ce8a6c6",
+    "scope": "Actual local served symlink target hash after the test; browser did load145MBmodel and draw it, no browser-side byte-hash measurement."
+  }
+}

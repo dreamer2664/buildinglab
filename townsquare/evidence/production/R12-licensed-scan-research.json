@@ -1,0 +1,1228 @@
+{
+  "stage": "EXPLORATORY LICENSED HUMAN SCAN RESEARCH, not adopted/imported/rendered",
+  "repository": "digitalrealitylab/HSRD-100",
+  "revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "dataset_license": "cc-by-4.0",
+  "readme_sha256": "359b5b10fcb8deb7dded4f65299103c34e4e4c2ec8a6d7e9b5a1bbef2a7e8c40",
+  "person_roots": [
+    "data/HSR0015",
+    "data/HSR0023",
+    "data/HSR0027",
+    "data/HSR0028",
+    "data/HSR0040",
+    "data/HSR0042",
+    "data/HSR0081",
+    "data/HSR0102",
+    "data/HSR0112",
+    "data/HSR0161"
+  ],
+  "preview_rows": [
+    {
+      "type": "file",
+      "oid": "83a1e443ace3c76c1323483026c1d94cd9202dc4",
+      "size": 461837,
+      "lfs": {
+        "oid": "516b3d9b02e5a2d556d59d126141f8167406169bfd068ff1da5e16f51748d296",
+        "size": 461837,
+        "pointerSize": 131
+      },
+      "xetHash": "9ca0b3afc0f8a4417e541d7967b41f853ea12dd85a6b0a90e5f9fd8d0698e84c",
+      "path": "preview/HSR0015-Body-009-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "a325e67760474a8984bfb59d0b1f6cee8ed7a013",
+      "size": 466165,
+      "lfs": {
+        "oid": "128f4f772cb25cd2cbad6699660d56b51b066f82f4e1a3bf16ad644b6e896a7a",
+        "size": 466165,
+        "pointerSize": 131
+      },
+      "xetHash": "47b40a73121d9bbf378b96c34d1d4d720cfe43729ff0146db899a2f596cab8a4",
+      "path": "preview/HSR0015-Body-015-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "7ce3ea0a00f4bb68e60ec5f9643196c1102ef72c",
+      "size": 553437,
+      "lfs": {
+        "oid": "82f108f7adfe61c98607d99bcc6b3d79cb1ba8f4864671d858eef2a8bf54fb66",
+        "size": 553437,
+        "pointerSize": 131
+      },
+      "xetHash": "0f1306c239dee2cfa77aa2a96baf9bdad0ac258db045a6e21838d5c4e6dccb12",
+      "path": "preview/HSR0015-Body-023-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "fb524678d5b1f2e978d805be73106de677433986",
+      "size": 560122,
+      "lfs": {
+        "oid": "7f15275470ea6d808d2ce263d6abc1d7f503df16a6b7cbd28c6c9b1b7b0ae256",
+        "size": 560122,
+        "pointerSize": 131
+      },
+      "xetHash": "687b13cd555886633d30553aeb74b350a044e83af7419ab7f0c8ff9ef79cd9aa",
+      "path": "preview/HSR0015-Body-032-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "badcb92ff49996fc3a430da77aa40ec444fd5b7c",
+      "size": 570482,
+      "lfs": {
+        "oid": "b095ad2b7804b74e9e5a13a1ffd1483f780df444d05fcfac07b87c2316bd78c7",
+        "size": 570482,
+        "pointerSize": 131
+      },
+      "xetHash": "6363f55e596d26cad7a17ded89ea5a0b877c6ecfb960cfb569637e9214da1112",
+      "path": "preview/HSR0015-Body-035-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "726669aeaf44e14688378913e4f7682abf1b9ed6",
+      "size": 535580,
+      "lfs": {
+        "oid": "b5f24f654ad35e34937304ab7ec8e2f48284aab4d2271ca121bedcf03db08192",
+        "size": 535580,
+        "pointerSize": 131
+      },
+      "xetHash": "eac60489f4b2f22bca726bdbf660757c2c34630f6a506a844f503cd7e2eba9fb",
+      "path": "preview/HSR0015-Body-049-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "dfb3369f9ac15a288acc731e0e6ec0effa2e92a4",
+      "size": 517649,
+      "lfs": {
+        "oid": "9a289c022c4c02f14a6c30f0f0a5046aa31a945950986080f958e152451c309a",
+        "size": 517649,
+        "pointerSize": 131
+      },
+      "xetHash": "08b9cb555bf4e5536234cfe5361424efb515db8f42b52b3f5f413790aae99f6e",
+      "path": "preview/HSR0015-Body-054-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "d708e51b978e19cde33c3cb93ac656e277b0ee55",
+      "size": 706668,
+      "lfs": {
+        "oid": "47162d90759aa440701705820ee6a9dbb64e4ec2ef73a562c6f281d7a0c490e1",
+        "size": 706668,
+        "pointerSize": 131
+      },
+      "xetHash": "634d13b55b01390d7c804220338d10b4a666c0a8966efe191407c33ee121627d",
+      "path": "preview/HSR0015-Body-069-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "9204cf468d1c7fff81a0c063bd93d0bfff856045",
+      "size": 711423,
+      "lfs": {
+        "oid": "c5c8acdc6d031f36e47cf3ddc0399bdd32819f93fbe1013c67a05f98a3bee756",
+        "size": 711423,
+        "pointerSize": 131
+      },
+      "xetHash": "e489acc7768cb4d5af7b5da9bd6b113541b39a1871e701d05a6d010898f56559",
+      "path": "preview/HSR0015-Body-070-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "d4aa9bcd2d2c5a56630634e90092b783db484e19",
+      "size": 460559,
+      "lfs": {
+        "oid": "f27f018111077b62e04d6d5c27209d7c91eb266153eb29d633760b753400cd61",
+        "size": 460559,
+        "pointerSize": 131
+      },
+      "xetHash": "90e88746730fbe71d7632088eace71f0821db4171ac133c747382d31ba8792c2",
+      "path": "preview/HSR0015-Body-087-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b346d65c9f8b1cf19f3bad370c3540a1868f71e5",
+      "size": 572546,
+      "lfs": {
+        "oid": "9e27ddb4840b16a3aa173f753c34571351316e71d3ab7c59f64e21daae47a7f1",
+        "size": 572546,
+        "pointerSize": 131
+      },
+      "xetHash": "b2bab22bc417a1a8402cbef2881a84fad939de62315d23b5158cdb893188d5ca",
+      "path": "preview/HSR0023-Body-017-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "962658a7fab7d59bcbd4e13d08298b4e5b4c4e38",
+      "size": 568926,
+      "lfs": {
+        "oid": "76993b9c05ba88de0b3c69afd3e1edd7d4f14988c954a1f14d93596f24ccfb6b",
+        "size": 568926,
+        "pointerSize": 131
+      },
+      "xetHash": "39b0c64b981bebf144188344cbeced1e8f0cd2dab2b9533befd999db6519574b",
+      "path": "preview/HSR0023-Body-029-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "7bb26d7394f8a94050e97b70dc32936ad8aa0798",
+      "size": 554928,
+      "lfs": {
+        "oid": "085ed376107edf45fe96d4451c661cf2fa0341036c03d3a34b51ffb5a66a62a9",
+        "size": 554928,
+        "pointerSize": 131
+      },
+      "xetHash": "da298e8110bceca457fba582f6d8f3cdbb5a9ba3e71b647b0d92e45f0e89826b",
+      "path": "preview/HSR0023-Body-042-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ff2ca09044319ad87ec8cecb91b4c07a387a9423",
+      "size": 550035,
+      "lfs": {
+        "oid": "b3d852164fcf653d7f4e6ad3c2c6286e73c8bd2160e83753fb5eeebd56385897",
+        "size": 550035,
+        "pointerSize": 131
+      },
+      "xetHash": "cd54f20d06f9c2ae3bae49e5b86fc2d724d69d0e13d74f208e2d8e660cfbab5f",
+      "path": "preview/HSR0023-Body-046-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "3d75ad8593360abe62b174e2408ce612a328e343",
+      "size": 553831,
+      "lfs": {
+        "oid": "3a2fa511f74a4fa7085b7ec23aeed7688f4a58c77bfa48bb7fa40b6818791422",
+        "size": 553831,
+        "pointerSize": 131
+      },
+      "xetHash": "d213d7f4c4752f39768dab8e47969d541c642a26294cbc23ff623b5227a1ac0d",
+      "path": "preview/HSR0023-Body-052-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "c8843cb14d12e5ec078853bf0eba2cf7c35d3503",
+      "size": 541490,
+      "lfs": {
+        "oid": "56a2968cc3f3b136dd16dc3a4efa127a0db0b25f9aafefdda8049c8d3fb88afd",
+        "size": 541490,
+        "pointerSize": 131
+      },
+      "xetHash": "10d77917d864f32ce91722dab41abbc50a2ec17724c312b0ec1656ca9b677b43",
+      "path": "preview/HSR0023-Body-053-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "2a6ac44822d79126747c5ba55d767feff3455902",
+      "size": 544572,
+      "lfs": {
+        "oid": "e7eb0c80fee1faf7fb331ba651a83d01fa9f802bc84bacc289d4fa36bfbf8f3f",
+        "size": 544572,
+        "pointerSize": 131
+      },
+      "xetHash": "b8de00c213b7a2d12072ec87895940804d55ad7d53eb31ecc4dc174633cf590d",
+      "path": "preview/HSR0023-Body-054-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "51dda826b0e1b2ce5fa9ece871346fb5a64a62b8",
+      "size": 553815,
+      "lfs": {
+        "oid": "89fce816078820faa20219643be97ecce111a9bd11b252cd5ff84b67b915c801",
+        "size": 553815,
+        "pointerSize": 131
+      },
+      "xetHash": "6423db3a744348aaa670fcf8163da78b2eb5956a1af8ec1627dc0391c5849f69",
+      "path": "preview/HSR0023-Body-060-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "bb0203b45d28a49735bbe2334e9ba90cad416447",
+      "size": 531319,
+      "lfs": {
+        "oid": "cf517f25b8c2aa38d6e89ddd8664e10cc703ac18d83dc633120391220e825397",
+        "size": 531319,
+        "pointerSize": 131
+      },
+      "xetHash": "8135517576ee347c7d3a43e5bebfe5fc8f469af32991170844edd1d96c16165f",
+      "path": "preview/HSR0023-Body-071-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "26713c0b255a83acc0239e332872b35caafb41ee",
+      "size": 540679,
+      "lfs": {
+        "oid": "902d651f85d7095ba5dbe1e9745f4b3231ffe19c64e90c13db781c42072c2dcf",
+        "size": 540679,
+        "pointerSize": 131
+      },
+      "xetHash": "1c9c2dee60d5e55811af62b3a82a357db5b251834466f3db4b346765c209176a",
+      "path": "preview/HSR0023-Body-077-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "31b98ebdf8966308a3155adf14242e6bd47fbfc0",
+      "size": 512684,
+      "lfs": {
+        "oid": "e0409049802a3cb1b762222d3138ff45b5dcf2f784d9b83b7b02f04b8377446e",
+        "size": 512684,
+        "pointerSize": 131
+      },
+      "xetHash": "f758eebd7c96cd4879d76a0fa6182be4afe179f452a20a5fb179a8dba5815057",
+      "path": "preview/HSR0027-Body-004-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "12325e2bdc589803c37408271de03b09c7e426bb",
+      "size": 498153,
+      "lfs": {
+        "oid": "baea50f3a077a60b92f62a410569abb4ed589825b7c0f4f712c4998c19cad88e",
+        "size": 498153,
+        "pointerSize": 131
+      },
+      "xetHash": "95057bef74a7acff2034123708bd3cad3234415cd1e65facd067e017a1a4dcb3",
+      "path": "preview/HSR0027-Body-006-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "915a800bed6ca33e9c6d3907ec39712e7b82c711",
+      "size": 496243,
+      "lfs": {
+        "oid": "0c5a397529b15df66f0834a5e2b0c52bb6bcc17ee5598da3910b8cbeb52583ee",
+        "size": 496243,
+        "pointerSize": 131
+      },
+      "xetHash": "fb80c178882af87a71b2610104356e9ff3755c839c5fc8228f7ae17b9582ef65",
+      "path": "preview/HSR0027-Body-015-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "08b39b36321e3b18220ea414cc3755355601b8a9",
+      "size": 605088,
+      "lfs": {
+        "oid": "eb134d72b1a0cfef0662a0fab1daccf5334f18e40d29bee70a4a2b7a5a5a21ec",
+        "size": 605088,
+        "pointerSize": 131
+      },
+      "xetHash": "352bc6303c0267cd9d303fd0a2b07725dcb4c957e192b12b1870e2c4f676fd25",
+      "path": "preview/HSR0027-Body-025-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "56aa4266a028b5fe4d0f196a71863af4261bf875",
+      "size": 577030,
+      "lfs": {
+        "oid": "2ea90542833d5e360d0c84c8f4ae3374432d7103367729d856ebdb81d16066a4",
+        "size": 577030,
+        "pointerSize": 131
+      },
+      "xetHash": "d81099d3a5d92841d4003216fbd7e9a4aa7cfcd176f0efd979eeca278a4713ec",
+      "path": "preview/HSR0027-Body-029-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "f5c14a3826fdf75f1b44f795690e1d6f2571f7e3",
+      "size": 581559,
+      "lfs": {
+        "oid": "feaf55189f81fac19375bf94d06fad65f39479fe645a24175090f2166ee145ed",
+        "size": 581559,
+        "pointerSize": 131
+      },
+      "xetHash": "bb74e4713ed3160f323b05c9d4055cbbeaf51bc6913c185f0263d5e4857c52b3",
+      "path": "preview/HSR0027-Body-038-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "855f4b3220e7ca34a5d11f3fff3e124e1c7efc6a",
+      "size": 595724,
+      "lfs": {
+        "oid": "84f2a7d6d4054b864700f1e987a7d5e3e88afa738bba5f051854f9308f924f83",
+        "size": 595724,
+        "pointerSize": 131
+      },
+      "xetHash": "a8e569650ac33438e534b9dd62cb87334fa1cb1e851f8bb4cd435f7958edf340",
+      "path": "preview/HSR0027-Body-039-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "584d40ca6da04d3dfec5cb6e735dd7654ca9b0a9",
+      "size": 497618,
+      "lfs": {
+        "oid": "dc7cf0561942928cece1ce5ad2ada6179d3b9f2411165d3b40c0f2610058fcd0",
+        "size": 497618,
+        "pointerSize": 131
+      },
+      "xetHash": "4eed9e93da13535dd5dac70e24832e02c73e2a8d70c77a86d5b5a2dda5bd87b9",
+      "path": "preview/HSR0027-Body-048-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "702a5e4a9cebea65e7d206b3589d80f6a3d1bc2c",
+      "size": 510717,
+      "lfs": {
+        "oid": "8b071d1c9558d966a7d4a0ad21df89fa751162136fa114be037581f76169f521",
+        "size": 510717,
+        "pointerSize": 131
+      },
+      "xetHash": "7b14b2aee3c85ac9d699da0bbc818f96c27d2f79e8601714ba7ff4e58a9625eb",
+      "path": "preview/HSR0027-Body-053-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "deb716892a21feecdb3ec39e4fcf8f8c2a9f7471",
+      "size": 634147,
+      "lfs": {
+        "oid": "1d616b960efc1804a0544c77ca01b3093d151e521af835213be4c90fc4134af6",
+        "size": 634147,
+        "pointerSize": 131
+      },
+      "xetHash": "b75cef191f25b03c4b07ee390559b01a422bdb3f604a71a450e804e5a4f10424",
+      "path": "preview/HSR0027-Body-068-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "c6d0c713b0753d1c1ef01235b09ab6efbfbeb0cc",
+      "size": 512541,
+      "lfs": {
+        "oid": "c29a1983162a758824974703d864333cc2188be8533e8e0d5bc013e6dea79a31",
+        "size": 512541,
+        "pointerSize": 131
+      },
+      "xetHash": "e0eea654e8d5b9125cbf214ca5441b22fa0ec6fcf8d195c3c71b109d88d02bfc",
+      "path": "preview/HSR0028-Body-010-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ca7e296eca49f62f3a7c024bd5b8b3e869a315d9",
+      "size": 532150,
+      "lfs": {
+        "oid": "62ea36635c4bba7075ab60c3728ce5204fe53aa89ad258d07093ccec1ae2d32e",
+        "size": 532150,
+        "pointerSize": 131
+      },
+      "xetHash": "55fb68b0d146fd322dc2f9009ea89d693b28c8e4dff0e2f3b4c8fb6231d78e01",
+      "path": "preview/HSR0028-Body-016-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "60a393222640d47b90c1f7b5ba4f0c8231d86d90",
+      "size": 540783,
+      "lfs": {
+        "oid": "d507d65e274901f587660631d3a24abfb8bb3bf049ac9f42730fed0f8648da60",
+        "size": 540783,
+        "pointerSize": 131
+      },
+      "xetHash": "5118c3579655ce4fd900965a7734498ed3dbe67e9e98705ed09e8332497bc2dd",
+      "path": "preview/HSR0028-Body-021-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "d23cba02b5ebf8e007e4229c2243cd87afbf4032",
+      "size": 502536,
+      "lfs": {
+        "oid": "726e34ba482fd3112a09f0160d212af6e8963839ee0fcd634f09f546b2fe46e7",
+        "size": 502536,
+        "pointerSize": 131
+      },
+      "xetHash": "dafe34def7745753b1125e3cf74c13fdba4e4cd427e62c22d794a3b6bf25c90f",
+      "path": "preview/HSR0028-Body-028-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "03a59a68b767bec0e156488acb50acad32621ee5",
+      "size": 566495,
+      "lfs": {
+        "oid": "d2d3edc77d98179f003e116ef02e2b1a79388277c4d4a610ff201417b603a0d9",
+        "size": 566495,
+        "pointerSize": 131
+      },
+      "xetHash": "6d1f8aca5bf38c6174a091c0b03577dc586035778dc0689a55cfc28d4958f00e",
+      "path": "preview/HSR0028-Body-052-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "77422ce2b94bc0b3a44f76054cc96efad0a9bd9f",
+      "size": 554950,
+      "lfs": {
+        "oid": "7f7b09999575adc8857dff15ccb4a44b1adc913e54642d72a5e498958a137a8d",
+        "size": 554950,
+        "pointerSize": 131
+      },
+      "xetHash": "d7f1d8f494afb23f3ed94a2a29c010aad561745431602fa6538fabd77cbcf5ff",
+      "path": "preview/HSR0028-Body-053-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "5e9285694bf05554c0d89fa0d10c229c5dc5d3fc",
+      "size": 570738,
+      "lfs": {
+        "oid": "017417afe31e544a043f2c5318fcbebedab588f0c217d1a20e3ad4f701da7ef3",
+        "size": 570738,
+        "pointerSize": 131
+      },
+      "xetHash": "5e61b723cbd52cb8f39d9b53f7c3d56ae9a33d43ab53662a74683478bd5cd977",
+      "path": "preview/HSR0028-Body-055-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "3b2e1472fd6a38ded367c540a3f89cfdf53b2bcd",
+      "size": 581063,
+      "lfs": {
+        "oid": "51998c869498de9c9a2607cbbd6371cd7bc38150101f32755daebcea80b98c8d",
+        "size": 581063,
+        "pointerSize": 131
+      },
+      "xetHash": "b6b2cddeb8b69cdf3fcb7cd7957fb16f6bc06bf99b06a0b996b335bc03170f4d",
+      "path": "preview/HSR0028-Body-058-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b5ea478eecb386f3042294df612d475bbf583a19",
+      "size": 571871,
+      "lfs": {
+        "oid": "aba7cbbd02baedee429a2339129a0b08cbe927bae1691a26cef746ac48476327",
+        "size": 571871,
+        "pointerSize": 131
+      },
+      "xetHash": "bddd5ae6b987b658af6156a4f8bc8cbf1c59281e09a8276537ad5494f4a5e136",
+      "path": "preview/HSR0028-Body-062-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "06bd07869ec17648eaa450cf288de9dc9e7d0966",
+      "size": 458758,
+      "lfs": {
+        "oid": "5c63656c5f478fefd2e017b6879d9ed74e8fa5656ed5d6cbb0515ec867df7eed",
+        "size": 458758,
+        "pointerSize": 131
+      },
+      "xetHash": "01d294cf1c92102a5ea6a5b03531a505e0f424ecae604f6cfe694f7b8e932d13",
+      "path": "preview/HSR0028-Body-093-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "edd891265742faf7fc8440b10a3a8017c4212b5d",
+      "size": 568277,
+      "lfs": {
+        "oid": "22e84380092fe7013393346e489fe9f985c6fa60a1040e2240674f2062a15404",
+        "size": 568277,
+        "pointerSize": 131
+      },
+      "xetHash": "e2bfca104b6dc43bacf72935ca4995cd71a8469c0652fb4ac99fbf18a311055d",
+      "path": "preview/HSR0040-Body-004-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "d432695360e258056f14125a85fad9d3348eb95b",
+      "size": 577331,
+      "lfs": {
+        "oid": "c5b0d7924bad241d1b77879c38aad625643eff64890dd0a8406ee9fb511843bb",
+        "size": 577331,
+        "pointerSize": 131
+      },
+      "xetHash": "dfa41e22dec8515807190788c568698ba56ef8e5208c0c67c75765353af843b1",
+      "path": "preview/HSR0040-Body-012-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "561c8841e3050d7ce3d20cf6a8397c9392307326",
+      "size": 701756,
+      "lfs": {
+        "oid": "13bfc0240366c70c04f67a0051d191b24170fefb3f447903b7446b8f2248c307",
+        "size": 701756,
+        "pointerSize": 131
+      },
+      "xetHash": "93b1dcda00ac325f526046533a32d1b9a0d0557eff905f954179ffd498df7a6e",
+      "path": "preview/HSR0040-Body-023-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "2281c194246698f8c42d4c1f5e83696f78b99d60",
+      "size": 744280,
+      "lfs": {
+        "oid": "130d7a087618036b7489f4aced62d77d28ad5a43aa9c3ee140a6565d8f0c7fff",
+        "size": 744280,
+        "pointerSize": 131
+      },
+      "xetHash": "42f0cc82163357eab3282ffea0d0a524f21236f94a7150b9cfea403f1b613959",
+      "path": "preview/HSR0040-Body-027-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "0db464ece44128183dc62d46c49708799b01a4e7",
+      "size": 724794,
+      "lfs": {
+        "oid": "878d22a7e34b9871b876dfc956854b7fc83fc5fed67ea34385da4de262732d8b",
+        "size": 724794,
+        "pointerSize": 131
+      },
+      "xetHash": "fbd5cad859349a8e84791433073c4b86e9177c0e50ccdaaaa0827cf21a4388e9",
+      "path": "preview/HSR0040-Body-031-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "f492ac61f58c697bc0a2ce60970a0a0b950dfe46",
+      "size": 696126,
+      "lfs": {
+        "oid": "9b82147e5176e127cbebf6f1835ee85688cffa5e4ed682bd9f527dce3a5e0738",
+        "size": 696126,
+        "pointerSize": 131
+      },
+      "xetHash": "dc4e599bb5adc1ecd3725bcc6f84db81ed0e73b1f4c0da128b2e193e89e9c97a",
+      "path": "preview/HSR0040-Body-032-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "dabdaf02f6a1c5ca937631f372dad206b9fe4d98",
+      "size": 764822,
+      "lfs": {
+        "oid": "61e425c005d88a328e445fba4450c3fca20dd92e892d7cfaea527425b2e1af4c",
+        "size": 764822,
+        "pointerSize": 131
+      },
+      "xetHash": "2896d6f4b00ecf91a9b515699d77ccb0ffb01101bbda0874936b6392de0e6b13",
+      "path": "preview/HSR0040-Body-037-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "78eda3832373c5d4074181e09fc809995ec56d84",
+      "size": 756209,
+      "lfs": {
+        "oid": "f74f38931d36f330ce17646fcecef2ce457db7bcd9dcb0027825d17f261acdd4",
+        "size": 756209,
+        "pointerSize": 131
+      },
+      "xetHash": "dbeb8ebf04e0ed16ab1488819d1ad5213f6ab6130529e75a6485d34ac39efe21",
+      "path": "preview/HSR0040-Body-039-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b5370edd83c55e8404e04dcc5fbf3a0d0433a601",
+      "size": 691796,
+      "lfs": {
+        "oid": "b7aa51a17ac99442468a487a8554ad919f0377dae9f8549c624bce85311edb44",
+        "size": 691796,
+        "pointerSize": 131
+      },
+      "xetHash": "60a2eba9051feff5fff62080c68fb606be876dc67368307b59dc2c09e34d2b86",
+      "path": "preview/HSR0040-Body-074-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "f33f76bbe9a1fc19ed70369d261e4e827f4f37ad",
+      "size": 692534,
+      "lfs": {
+        "oid": "5af5bed96695761d1d3b3b0d1a04467a32825baa55ddfd00f9f224a91ba4b8b4",
+        "size": 692534,
+        "pointerSize": 131
+      },
+      "xetHash": "4ad980e81f8ad6a916a8dd062a151aa48d1f00c47586f81f06cb222108e3b752",
+      "path": "preview/HSR0040-Body-086-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "51460a760d4d785ce1c83c014426a6bf900e5724",
+      "size": 480060,
+      "lfs": {
+        "oid": "7b12856f768477309c7683ceaf76fb27f59ac27688fb1ec64b844c962a51828f",
+        "size": 480060,
+        "pointerSize": 131
+      },
+      "xetHash": "bb0acc65dd17b94389a7e487c790ffb7a547f0cb950b234c6eaac3f375f3bf9d",
+      "path": "preview/HSR0042-Body-002-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "dc8011117b6238c63430b80767919d1b7bec6dbe",
+      "size": 477111,
+      "lfs": {
+        "oid": "8e24702d429ca3c4c54d72358faba56868a5d9706751c1fa3abd79866310245c",
+        "size": 477111,
+        "pointerSize": 131
+      },
+      "xetHash": "2efcdc0cd1f014f12e04d27c0c8cda52b33719ac7ea0ca284216d420ef158a68",
+      "path": "preview/HSR0042-Body-003-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "35271628eaa16eec9c0ead96b4f0b596e2a14f39",
+      "size": 481388,
+      "lfs": {
+        "oid": "a082610cde4f4aaaa4ff0bd14ecfcc16b837f07f6b463100f397da9166c46ebb",
+        "size": 481388,
+        "pointerSize": 131
+      },
+      "xetHash": "ecb43c03ea6916ec07077024852de181a2f6a73bf0d92350d9a879da987c70ff",
+      "path": "preview/HSR0042-Body-007-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b2c7b4f053a9857c49f93b3a8415e3f9231be2c1",
+      "size": 488665,
+      "lfs": {
+        "oid": "60f621c6df34a4378a4fdbe92fb01cb449e02523c57cc17ac19b265ea53f89fc",
+        "size": 488665,
+        "pointerSize": 131
+      },
+      "xetHash": "59f82f1e5e2c62104bd07a2f9e646b4cbce075c949d8b899201a7153d07ea0af",
+      "path": "preview/HSR0042-Body-008-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "afc1e661c2b0f34839e0b91558e38df10fa4bb70",
+      "size": 487730,
+      "lfs": {
+        "oid": "32f33143336b846175da76c5485cd5e1324992e924d1114ed4953e4a9da99a77",
+        "size": 487730,
+        "pointerSize": 131
+      },
+      "xetHash": "9168d93d5a3b87a286c35481a232f81fa0d1988db156f7572bf88c34931f244a",
+      "path": "preview/HSR0042-Body-010-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "cfe1d9239a4c7da41d0dfddf2d186990f6984ffa",
+      "size": 494143,
+      "lfs": {
+        "oid": "e1f8f833ec18264aaa74968afefb289561c3276a6cd5655f5d36eddf8602ba91",
+        "size": 494143,
+        "pointerSize": 131
+      },
+      "xetHash": "a17ac42a815e98aa3cf8e092b5a81c73e5ee111c296f6c0f4ea1537be0ded434",
+      "path": "preview/HSR0042-Body-011-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "df16fa54f028b359e5ade3af3acfa91b7977a686",
+      "size": 481225,
+      "lfs": {
+        "oid": "6bfd353734c717000c5366dfefc217b2e4cf680dd47b7d11948dc9105c6f3b0a",
+        "size": 481225,
+        "pointerSize": 131
+      },
+      "xetHash": "5ad55824f11e3ac51ed76202d91f8716d887c1273e616f7a4b4996252385a44a",
+      "path": "preview/HSR0042-Body-014-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ae3b6c9dca7eaaa76f10b5738653a9955cb3ff79",
+      "size": 440824,
+      "lfs": {
+        "oid": "f8837f37da2e3f1fc1f7fd3b49590e88b44cadd222a48b7d29d5f5de8d0e9fa3",
+        "size": 440824,
+        "pointerSize": 131
+      },
+      "xetHash": "d43bf313dc2924b053d31ba1be4deef5bb5cbf48653fe78b8e09af26b6e84efe",
+      "path": "preview/HSR0042-Body-018-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "8675dcd503c4cd7f71458e4efe04b6cda38ef7e9",
+      "size": 600123,
+      "lfs": {
+        "oid": "7ff73780476392e4e62a0b337fdac9a2a0a357a56956249c0a400697801197c8",
+        "size": 600123,
+        "pointerSize": 131
+      },
+      "xetHash": "f5ea4221826f2134d3442e9e896acc8eea45301023403f2e9669be6ebac0e092",
+      "path": "preview/HSR0042-Body-043-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "44a9d5236b64ac51fe0f43e9dc6aa16b26e37778",
+      "size": 483878,
+      "lfs": {
+        "oid": "1e167edc3833138574e4f98870f663ca89420a7c1160ca31010e091685cc2fe8",
+        "size": 483878,
+        "pointerSize": 131
+      },
+      "xetHash": "4394ae7c504c4d50de949bf6e235dd102f14833983908cdfdeee64a3ce93b15f",
+      "path": "preview/HSR0042-Body-045-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "aba918b53517e642d907e4dd0dc7389b98b95560",
+      "size": 535121,
+      "lfs": {
+        "oid": "736ba5744f0566facbdae3bcf64877c21e45e4284775104f283409f8d405718c",
+        "size": 535121,
+        "pointerSize": 131
+      },
+      "xetHash": "bf7076876fbf3a63a24027d4ea6a66d15eb80b460111224497d0c0ac32170145",
+      "path": "preview/HSR0081-Body-004-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "f6a7dc2801e0f20c7869fb9fc1f9291d8750a8de",
+      "size": 527833,
+      "lfs": {
+        "oid": "8f14844b0fd392ccaa96e0e0252c05194a8c708d12c176bd7b9e4d538a6c3b10",
+        "size": 527833,
+        "pointerSize": 131
+      },
+      "xetHash": "1e2ade0186619891d0ff9e6482065afb63a9a165f6757ae6dfb4fff43b3f25ec",
+      "path": "preview/HSR0081-Body-010-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "8f9d93dbf6bca091a3a7a39562c5c5d2c405ded2",
+      "size": 521106,
+      "lfs": {
+        "oid": "bc30af865427d846140461a7f5eff8516787b89447865bdd998ddda7b9ede040",
+        "size": 521106,
+        "pointerSize": 131
+      },
+      "xetHash": "02b0ff61d7ccdff557ef2af81840bdf0a1b157d3213257ff20b3db37ff18c605",
+      "path": "preview/HSR0081-Body-011-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "226149d4f12b15ec6341309dfd7731a4fc1196ef",
+      "size": 670677,
+      "lfs": {
+        "oid": "a8c6cfec132f3c1fa160d0edff54cbacfdccf1207572f6e024b7521f17d3141a",
+        "size": 670677,
+        "pointerSize": 131
+      },
+      "xetHash": "ca63da5e15762b77711ef006d2568bcf12438b2ea38fcfa0c5f67dcce66f213e",
+      "path": "preview/HSR0081-Body-014-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "80bc2312020ff43e715a1f62b1a7c95a076cf4b4",
+      "size": 688992,
+      "lfs": {
+        "oid": "b6201e9ebeac5810479a2667c8657727e73aed295509b12ac5c59a18f2db6811",
+        "size": 688992,
+        "pointerSize": 131
+      },
+      "xetHash": "3a249ae13f08bef6daf71d8d015d512a267cb1d57caa66571d91286a4e87e927",
+      "path": "preview/HSR0081-Body-020-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "72e57e4733124c4251847b76a5ed005a409ba239",
+      "size": 677880,
+      "lfs": {
+        "oid": "4b9e30affee6dccc606ba187162f5da44c3089ab33a680d82dfc239084a24aaa",
+        "size": 677880,
+        "pointerSize": 131
+      },
+      "xetHash": "b4d2928552a225e9b095b58078f713456013e4e33e9d9e45a969df73a0280397",
+      "path": "preview/HSR0081-Body-033-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "034d41671bbf76518b8c7c665ece3925ed2a52c5",
+      "size": 648307,
+      "lfs": {
+        "oid": "b90773c14fb163b2f296dae041fa344f5bdf05ee37ccdc66eee3537a145f7f6b",
+        "size": 648307,
+        "pointerSize": 131
+      },
+      "xetHash": "cd4764446525e40ae657d65d27c0a1e48974cc2de15b57584ee2860261465ee4",
+      "path": "preview/HSR0081-Body-034-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "dead1d1eec871f3512f22793fddc66c00b40f3d8",
+      "size": 569376,
+      "lfs": {
+        "oid": "73c876e25980064b35940c4ac25e2c59c78cd0ca8fb02517babb74f661f9a4a4",
+        "size": 569376,
+        "pointerSize": 131
+      },
+      "xetHash": "7fd3bce2dfc4a063376dc935433b0ab8a448910cd71fa378eab1b4ac3d3ed275",
+      "path": "preview/HSR0081-Body-050-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "8e74712aa9cd333917ea4c35f88e3043e650a927",
+      "size": 557980,
+      "lfs": {
+        "oid": "79b4db42ea4986272b3e7e20b1574a68a29edba1a67caf9d03e928418e54fc0f",
+        "size": 557980,
+        "pointerSize": 131
+      },
+      "xetHash": "92ec6428fa749fd7aef7fa7ba7724937b90dc520944ad72cc1e343c35c30aa4f",
+      "path": "preview/HSR0081-Body-054-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "df2f3919ebc16566045e972b0663bdaa41c60af8",
+      "size": 460107,
+      "lfs": {
+        "oid": "931a49b51d76c059380d721dd00edbc642767ce11f83e5f55486dde872713e18",
+        "size": 460107,
+        "pointerSize": 131
+      },
+      "xetHash": "b2a5ea729c3a4ed0875614e3a0c01f6c82867d5673cc55f9c6ff6d3ec1325193",
+      "path": "preview/HSR0081-Body-074-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "7ef3fbfe2f83a1b83ac7082483489965cac8a20f",
+      "size": 553919,
+      "lfs": {
+        "oid": "b736aaa6bf6b1980ae20046ad8c41390c8e64fbe9bda3ed21ac807281cce880b",
+        "size": 553919,
+        "pointerSize": 131
+      },
+      "xetHash": "7b96dd29a9f2a6196c0d559f9395d84f6e2d3b8389714683d7441b55f7060055",
+      "path": "preview/HSR0102-Body-019-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "7a3e9f41f98c7b3ae8eb8a6292714da0fb47a25d",
+      "size": 551163,
+      "lfs": {
+        "oid": "14b719288a5f1251d09f98b5ee895661c64a3c4ef3a1fa867e07f354711b854f",
+        "size": 551163,
+        "pointerSize": 131
+      },
+      "xetHash": "6de79fc34530574f04aaba45ccb26e57cec96dfaf67cd694737341e6423b331f",
+      "path": "preview/HSR0102-Body-020-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "a33a10515218704aefd39702e25fac7329114622",
+      "size": 568142,
+      "lfs": {
+        "oid": "ae203b1f8d29fc093d07bbcca9e57618cea55538733617c0da910c3b56e20a7b",
+        "size": 568142,
+        "pointerSize": 131
+      },
+      "xetHash": "6f8a83e88ce5b408944cb4d67077a171b7b6f3399a95fe7a780a66927441557f",
+      "path": "preview/HSR0102-Body-022-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "a2500c18b769adcf35086b372c37e7183cf1943f",
+      "size": 524854,
+      "lfs": {
+        "oid": "ccf2a0554bf09ae438d25f1dfabd01c1239f8a9e6a39d2a67020481653ceb1ad",
+        "size": 524854,
+        "pointerSize": 131
+      },
+      "xetHash": "ef53e4c94e1b00524e8756ecc4aaf2f1332c117b7e8d7f8ad25d343b2ccc2625",
+      "path": "preview/HSR0102-Body-034-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "3761b0f36115cc79c108ad242cd0059c79b37298",
+      "size": 542392,
+      "lfs": {
+        "oid": "b88e9d3cdebf2a12af1e3be486d1a3467d6d5156b4197e803c52da7667c1d0b5",
+        "size": 542392,
+        "pointerSize": 131
+      },
+      "xetHash": "9b9743d36ca00cceeeefc0782f36d544810127d2d62536ada3cb8182909d08a6",
+      "path": "preview/HSR0102-Body-040-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "fa4ad736a2a50c5ef414c56d8f146294957ce0da",
+      "size": 525720,
+      "lfs": {
+        "oid": "352955db4476f5a0e3990a688303306d8eba91f5346fbb428daefeb11c6202a8",
+        "size": 525720,
+        "pointerSize": 131
+      },
+      "xetHash": "24965f65e4a5fe388887fcf2d5979a36f0e0b6843dc343f77e1554f11b1a67a7",
+      "path": "preview/HSR0102-Body-042-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "35498946fe2f128a66fe60007064c30cfd6d8fa5",
+      "size": 519676,
+      "lfs": {
+        "oid": "7215c8424a619852545a0bb46d47f217db918284456c97c2321c0419f53604aa",
+        "size": 519676,
+        "pointerSize": 131
+      },
+      "xetHash": "8bd221fc24e1685c5894e358970b7a253ea0c8d9e7a0a298bf56fc1ec1da1240",
+      "path": "preview/HSR0102-Body-043-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "88ade772a8f2f56ca823cdbb4051c868ada02e51",
+      "size": 511081,
+      "lfs": {
+        "oid": "011df1e826631bfb9f858f2209e230003a103776cdd6d0d8544aea07eed55625",
+        "size": 511081,
+        "pointerSize": 131
+      },
+      "xetHash": "1673e7515f4b58852083362abddaf987e49681f3aa462a5e33860c0e6ca3269b",
+      "path": "preview/HSR0102-Body-048-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "aea53d587ad0d920cea201961379480c58330703",
+      "size": 491157,
+      "lfs": {
+        "oid": "003cf6b23969c199191529668154d9e2ebdcecb5fa8af86e63b99e089d5010c1",
+        "size": 491157,
+        "pointerSize": 131
+      },
+      "xetHash": "f7f96b51f48c8fff21cc2bcc352e84411a67d0f4f36f9669fd4f2ed8c248b219",
+      "path": "preview/HSR0102-Body-052-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "5d7add5f77a530ee8315590c852355d27daf7480",
+      "size": 449593,
+      "lfs": {
+        "oid": "22ca202a3cc767a1b855add9fded5014b5ba39eedb7f203890297af665957bc3",
+        "size": 449593,
+        "pointerSize": 131
+      },
+      "xetHash": "72de0078816b80c3157393aa7fa617138da29b680717f3e05e80817cf0be7d04",
+      "path": "preview/HSR0102-Body-073-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "527b39eab617b17958bd01623200b24a1bc12923",
+      "size": 435281,
+      "lfs": {
+        "oid": "7a3ca8cbd2f1ec9018b260b11f2110b29293b30c076920200d2e584092bef9be",
+        "size": 435281,
+        "pointerSize": 131
+      },
+      "xetHash": "f7a4e08483699a146b0f76536652e0a0f2a844e96c2d2bee47a57ea982cb8b27",
+      "path": "preview/HSR0112-Body-007-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "1d0376f4b813a9890859a90bf9241f7f6453feb9",
+      "size": 528595,
+      "lfs": {
+        "oid": "b40c0689c1d0b0694ebe8668065b813a72ca81c936a0f098dca9aeb0f89c1081",
+        "size": 528595,
+        "pointerSize": 131
+      },
+      "xetHash": "a13dbe049edeac97f9b478e97f97f0ca63e421b1f9be12aedf5a3093af28774f",
+      "path": "preview/HSR0112-Body-018-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ae1ce2764b7df82da24633b0c76c5d431aa9e5cb",
+      "size": 523770,
+      "lfs": {
+        "oid": "82beeaef76a1f8a8659573ebb20ee139ba80499b8a7ad1961b32aa9811f1f508",
+        "size": 523770,
+        "pointerSize": 131
+      },
+      "xetHash": "63525ebb57961df7564b27d0be6f9397f200e2217399e55824424366820be222",
+      "path": "preview/HSR0112-Body-023-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b33a1fa298ea5552a65ffdd266b5f07d2703f1f6",
+      "size": 581127,
+      "lfs": {
+        "oid": "a16f8da4c5bb052c6c1f39f77ba997f186e02ef5a88658c8e8823ff2990b2840",
+        "size": 581127,
+        "pointerSize": 131
+      },
+      "xetHash": "ec7af1fce5f25888e532f011a55706aea10e19ad02bdde7e85a7ba54cde5c63f",
+      "path": "preview/HSR0112-Body-036-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "c44f0ae57a14041689fb279f4f072225d17255ed",
+      "size": 574639,
+      "lfs": {
+        "oid": "40107bc59114fdf11c36078c59c94226ddf43e2b0017feb11b19156cfecab825",
+        "size": 574639,
+        "pointerSize": 131
+      },
+      "xetHash": "58ec81fe33eae15e98aded44a5d7742a36a208d0324685d2d08f9581600e3480",
+      "path": "preview/HSR0112-Body-044-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "612d1458c9d2b9ceb19c4cd17226b6da07bf7be3",
+      "size": 571212,
+      "lfs": {
+        "oid": "70769ea2ad36629010de65fed3951e748935cba3f8026ef346e1c027907fd2d9",
+        "size": 571212,
+        "pointerSize": 131
+      },
+      "xetHash": "67e079f84ec4c6bbe44f8b1203d04817791ad31e83a9c880cc6d740440abc967",
+      "path": "preview/HSR0112-Body-045-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "000c358cb4c47e2b026cc7e4d158f05772222796",
+      "size": 420981,
+      "lfs": {
+        "oid": "749e10a44c82132ea940f215abbd15e5fc133cdf400c34f81e4108aad6a62f6e",
+        "size": 420981,
+        "pointerSize": 131
+      },
+      "xetHash": "15c7a652d939da28c458d877f37638bb98a33283f2f01fc10dee7cb1b3bcb536",
+      "path": "preview/HSR0112-Body-062-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "99948a82de46bb0b404c357fda1c4b7aa000f583",
+      "size": 434823,
+      "lfs": {
+        "oid": "c78e07fc54df9ebe05bff92b7aa6af2b76b8f5e9cbbebfe4bed40cc34e5fb5a5",
+        "size": 434823,
+        "pointerSize": 131
+      },
+      "xetHash": "dfbd8b3bfbadb3a1d1ef1e2af0e85cab7c4ba3c774ab06911e04a48f69f88262",
+      "path": "preview/HSR0112-Body-065-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ff09005af0fcd793b3622d009994e80450b786be",
+      "size": 599350,
+      "lfs": {
+        "oid": "3065524f3f00a0606ad7046fe2112c3734b93c54a395f75aeb96f736dbf3e2e2",
+        "size": 599350,
+        "pointerSize": 131
+      },
+      "xetHash": "4a3b90fbfef8cd0c5e8619f85491a500a48e947798f240c135b1186e6c1f2a42",
+      "path": "preview/HSR0112-Body-074-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "fe77e8e2d05714b52d11218331de9d9e4890f3e6",
+      "size": 596885,
+      "lfs": {
+        "oid": "2dd6825d6533f667c8a87cde97a9fd0eb11fdc51408d919640ebb2d87e627b96",
+        "size": 596885,
+        "pointerSize": 131
+      },
+      "xetHash": "143bc01322d8f3c06d5a33748035192e98d7399e7c4ce192edf57faa37052e18",
+      "path": "preview/HSR0112-Body-078-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "3db04828eef63cc00432cbbe83233b1a3da06293",
+      "size": 386742,
+      "lfs": {
+        "oid": "8bb7421dc435ae583558292d310828feb49bcd819b12010674477bc1abb439fb",
+        "size": 386742,
+        "pointerSize": 131
+      },
+      "xetHash": "2c2f2d76b142f6a574ae4c3fcc8acb9667cf7f87cd0880677d9b7c0f11b49fae",
+      "path": "preview/HSR0161-Body-002-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "ddfa12c8f3f05f4fc26bbd4fce704ef0e5c693df",
+      "size": 405354,
+      "lfs": {
+        "oid": "9c4b37a3e9ec79c8c8cebd1a9a5f166630c7220c512b1bf3ae8a597000db0918",
+        "size": 405354,
+        "pointerSize": 131
+      },
+      "xetHash": "306e7e148c844b3b368becce11f5edf7ac7e3e991f137f03b8badc0e7fb230bf",
+      "path": "preview/HSR0161-Body-006-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "a89de324c5fe432f42fc3371fd54ad4b675c35a9",
+      "size": 396691,
+      "lfs": {
+        "oid": "71f8b850a00d1bd850d2bcbffcf0dc468414866d3b4e6ab4f629c5f083c57468",
+        "size": 396691,
+        "pointerSize": 131
+      },
+      "xetHash": "2c15eb1eeb1e53b6024f3767782bde332def7344c61b0cf823be3610ed7f2fa2",
+      "path": "preview/HSR0161-Body-007-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "922ea7430ebb871753d517222d5b5ec33053c2dd",
+      "size": 412000,
+      "lfs": {
+        "oid": "232a8e63cea4c14f560f79bcfb1d17ef8f8b1d92e022ed134d92269b4b6fcd72",
+        "size": 412000,
+        "pointerSize": 131
+      },
+      "xetHash": "859c36bcb13a185dcb7428a96b07cc01d484f3ca5bc24d311951f9eb8e47bda1",
+      "path": "preview/HSR0161-Body-009-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "92fcda8d1c9394fa320353b198b7a53ef4d4b466",
+      "size": 409616,
+      "lfs": {
+        "oid": "8402cf00e5716982a94c150525742031a5916a033a30d918385929fb5e3f51bc",
+        "size": 409616,
+        "pointerSize": 131
+      },
+      "xetHash": "57bd66b96e92cc417b32a193a25dc3fb4075f3c7f10045eeaa88795710c567d3",
+      "path": "preview/HSR0161-Body-010-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "b640e965cd4da21da05a5c59c6427951e60ab9df",
+      "size": 390924,
+      "lfs": {
+        "oid": "4605d32bff984322c39ebbf1c763c7bcbd15cbfff59a29922964871b6aa638ea",
+        "size": 390924,
+        "pointerSize": 131
+      },
+      "xetHash": "dcec9ed5b380a807e6d37fb544cd4c876a44c0b21a9ad032584f6b4ad276e583",
+      "path": "preview/HSR0161-Body-011-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "c42d19c937da65e36adbc23af87895be111e6d57",
+      "size": 396506,
+      "lfs": {
+        "oid": "693f34f805df418ea7885b30ecee5b3271d422e72bae2b3892ae98be362fe79f",
+        "size": 396506,
+        "pointerSize": 131
+      },
+      "xetHash": "68ad9c880c4922e62f83e1889e15e0a7a0be34b3a37dffbfcf448c513c61c4cf",
+      "path": "preview/HSR0161-Body-012-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "d33983078f284b0aa4537b8f9ddfb6be976cd5dd",
+      "size": 392351,
+      "lfs": {
+        "oid": "73c59beb16011dd91ed1df8300fcd00b31dcaeeedc1d721c22ab604c3fe312f8",
+        "size": 392351,
+        "pointerSize": 131
+      },
+      "xetHash": "fe21ecc62e4444adba7259ec23831e73514aec5a3cc1c258df75c554e6e3cbd7",
+      "path": "preview/HSR0161-Body-013-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "86a4a4b8d70c82da619cab804feb0703110a23a9",
+      "size": 391326,
+      "lfs": {
+        "oid": "771f959ba32de081a8fb93dd1f182d94e3530da937e7d24d4124f7af84dfc4ba",
+        "size": 391326,
+        "pointerSize": 131
+      },
+      "xetHash": "cab9e04ae371e56a08400638b8c3fa09186e9deb94712356bf52facffd6dde06",
+      "path": "preview/HSR0161-Body-014-Cover.jpg"
+    },
+    {
+      "type": "file",
+      "oid": "478c7d8b8c1100cb74681da5441cd7e40af97913",
+      "size": 596243,
+      "lfs": {
+        "oid": "ad6b065aa897347f72c65f1af9915b2daf2d8a054dd711e17d283a53e4323d5e",
+        "size": 596243,
+        "pointerSize": 131
+      },
+      "xetHash": "8d748d7bfb6491c4e9bc3ffc0408ab3fd9a26a6f9a4416e003d465cc137c768a",
+      "path": "preview/HSR0161-Body-015-Cover.jpg"
+    }
+  ],
+  "actually_downloaded_preview": {
+    "path": ".cache/scan-intake/HSR0015-Body-009-Cover.jpg",
+    "sha256": "516b3d9b02e5a2d556d59d126141f8167406169bfd068ff1da5e16f51748d296",
+    "bytes": 461837,
+    "canonical_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/preview/HSR0015-Body-009-Cover.jpg"
+  },
+  "source_ethics_license_read": "Official dataset README explicitly commercial use/modification/redistribution with CC BY4attribution/license/no additional restrictions; informed collection consent asserted by provider. No biometric/surveillance/medical use intended here. Native scene adoption requires actual individual source mesh/licence/visual tests."
+}

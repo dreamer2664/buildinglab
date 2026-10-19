@@ -1,0 +1,118 @@
+{
+  "component": "B07",
+  "glb_sha256": "406ab46738d397d9e3485d8fe168ef47cd252ebd066967cf519804d9558ce8f2",
+  "source_full_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "glb": ".cache/groomed-portable-components/GLB/B07.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 266,
+    "vertices_instance_sum": 116539,
+    "polygons_instance_sum": 105377,
+    "triangles_instance_sum": 204790,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      10.549999237060547,
+      -41.45000076293945,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      29.450000762939453,
+      -26.264999389648438,
+      16.950000762939453
+    ],
+    "floor_ids": [
+      "B07_L01",
+      "B07_L02",
+      "B07_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B07_L01_SALES",
+      "B07_L01_SERVICE_A",
+      "B07_L01_SERVICE_B",
+      "B07_L01_SERVICE_HALL",
+      "B07_L01_UPPER_ENTRY",
+      "B07_L01_WC",
+      "B07_L02_GUEST_HALL",
+      "B07_L02_SERVICE_A",
+      "B07_L02_SERVICE_B",
+      "B07_L02_SUITE_-1_ENSUITE",
+      "B07_L02_SUITE_-1_LOUNGE",
+      "B07_L02_SUITE_-1_SLEEP",
+      "B07_L02_SUITE_1_ENSUITE",
+      "B07_L02_SUITE_1_LOUNGE",
+      "B07_L02_SUITE_1_SLEEP",
+      "B07_L02_WC",
+      "B07_L03_GUEST_HALL",
+      "B07_L03_SERVICE_A",
+      "B07_L03_SERVICE_B",
+      "B07_L03_SUITE_-1_ENSUITE",
+      "B07_L03_SUITE_-1_LOUNGE",
+      "B07_L03_SUITE_-1_SLEEP",
+      "B07_L03_SUITE_1_ENSUITE",
+      "B07_L03_SUITE_1_LOUNGE",
+      "B07_L03_SUITE_1_SLEEP",
+      "B07_L03_WC",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "actual": {
+    "mesh_objects": 266,
+    "triangles_instance_sum": 204790,
+    "bounds_min": [
+      10.549999237060547,
+      -41.45000076293945,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      29.450000762939453,
+      -26.264999389648438,
+      16.950000762939453
+    ],
+    "floor_ids": [
+      "B07_L01",
+      "B07_L02",
+      "B07_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B07_L01_SALES",
+      "B07_L01_SERVICE_A",
+      "B07_L01_SERVICE_B",
+      "B07_L01_SERVICE_HALL",
+      "B07_L01_UPPER_ENTRY",
+      "B07_L01_WC",
+      "B07_L02_GUEST_HALL",
+      "B07_L02_SERVICE_A",
+      "B07_L02_SERVICE_B",
+      "B07_L02_SUITE_-1_ENSUITE",
+      "B07_L02_SUITE_-1_LOUNGE",
+      "B07_L02_SUITE_-1_SLEEP",
+      "B07_L02_SUITE_1_ENSUITE",
+      "B07_L02_SUITE_1_LOUNGE",
+      "B07_L02_SUITE_1_SLEEP",
+      "B07_L02_WC",
+      "B07_L03_GUEST_HALL",
+      "B07_L03_SERVICE_A",
+      "B07_L03_SERVICE_B",
+      "B07_L03_SUITE_-1_ENSUITE",
+      "B07_L03_SUITE_-1_LOUNGE",
+      "B07_L03_SUITE_-1_SLEEP",
+      "B07_L03_SUITE_1_ENSUITE",
+      "B07_L03_SUITE_1_LOUNGE",
+      "B07_L03_SUITE_1_SLEEP",
+      "B07_L03_WC",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [],
+  "image_count": 20,
+  "packed_images": 20,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

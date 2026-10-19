@@ -1,0 +1,462 @@
+{
+  "B01_L01_interior": {
+    "view_id": "B01_L01_interior",
+    "title": "MARKTGRUEN / B01_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L01_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "80e6c3aea78877951e02b88c414edf466f74b6b92dbace73ca0b22c9acc901dc",
+    "noisy_original_sha256": "55f811f0228212a4e976f0bf087a703900c11d220077c23f62679bb79e873ce5",
+    "noisy_original": ".cache/final-renders/B01_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "55f811f0228212a4e976f0bf087a703900c11d220077c23f62679bb79e873ce5",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 313.78,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L01_plan": {
+    "view_id": "B01_L01_plan",
+    "title": "MARKTGRUEN / B01_L01 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L01_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "7705752a43aa1fb2cdb3366e3ff16743f7aff37b16b7f89b160b20a571f01f40",
+    "noisy_original_sha256": "733e612958ecb17c728c299c67be04731f4d9088d123fb1805e63a8f5d2e5765",
+    "noisy_original": ".cache/final-renders/B01_L01_plan.noisy.png",
+    "original_before_denoise_sha256": "733e612958ecb17c728c299c67be04731f4d9088d123fb1805e63a8f5d2e5765",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "fbc6f0c44ad7e64515d0295c5ecb343e5d8e1cb41bd954321ec683d0c1f3b72e",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L01_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 65.42,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L01_cutaway": {
+    "view_id": "B01_L01_cutaway",
+    "title": "MARKTGRUEN / B01_L01 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L01_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "5ed1bb6a3b3198d1c4bf49082dda9400325081a74cbbb923c5b4bcdb1e8f1796",
+    "noisy_original_sha256": "d355b1833e858e30d6c4a08f06a6284df17f1d9dd86de94b7de1be677fe781e0",
+    "noisy_original": ".cache/final-renders/B01_L01_cutaway.noisy.png",
+    "original_before_denoise_sha256": "d355b1833e858e30d6c4a08f06a6284df17f1d9dd86de94b7de1be677fe781e0",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L01_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 59.71,
+    "visual_inspection": "PENDING"
+  },
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "5c01c8e0f688eaa14cae066dd7e51cca8e6e37c05eeddfa780e3e2d022de44d0",
+    "noisy_original_sha256": "ea6d5ef68ffd04c08c2582a9c790ba98139a9c500a227576175bdf29756bcd25",
+    "noisy_original": ".cache/final-renders/D02.noisy.png",
+    "original_before_denoise_sha256": "ea6d5ef68ffd04c08c2582a9c790ba98139a9c500a227576175bdf29756bcd25",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 104.77,
+    "visual_inspection": "PENDING"
+  },
+  "D08": {
+    "view_id": "D08",
+    "title": "P06 / face and fabric detail",
+    "kind": "people",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/D08.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "e1a5d194ef0744a2b1e28642cc265ee09f60bcadfd1cd829f1491c6dc86ab7a1",
+    "noisy_original_sha256": "23f8c47ddf6634f9d8af95007dcdb532664955cff6f1a25665d004807339c94d",
+    "noisy_original": ".cache/final-renders/D08.noisy.png",
+    "original_before_denoise_sha256": "23f8c47ddf6634f9d8af95007dcdb532664955cff6f1a25665d004807339c94d",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D08.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 77.37,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L02_plan": {
+    "view_id": "B01_L02_plan",
+    "title": "MARKTGRUEN / B01_L02 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L02_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "5317ea268cfaba721b6a08047c9ce83a2a36500317a06222fb095540dfab0db6",
+    "noisy_original_sha256": "09c80cd9204f7018a74a5e22f0cf76b5e1840babd37bea161bf452307a9edf4b",
+    "noisy_original": ".cache/final-renders/B01_L02_plan.noisy.png",
+    "original_before_denoise_sha256": "09c80cd9204f7018a74a5e22f0cf76b5e1840babd37bea161bf452307a9edf4b",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "8c8c5acab2d7ed9ed7ce157d7f460b7edb1fc1f00be798c2161f333a525a30a9",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L02_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 57.05,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L02_cutaway": {
+    "view_id": "B01_L02_cutaway",
+    "title": "MARKTGRUEN / B01_L02 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L02_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "1c5340b7d696ce1bf8d6a165faae3726e1afc25f485f097a2b6f98da1d68ddfe",
+    "noisy_original_sha256": "6851ede066472bd596da2cc1b160a35ded2f87872072fb5b32d3afb2c820b365",
+    "noisy_original": ".cache/final-renders/B01_L02_cutaway.noisy.png",
+    "original_before_denoise_sha256": "6851ede066472bd596da2cc1b160a35ded2f87872072fb5b32d3afb2c820b365",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L02_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 55.96,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L02_interior": {
+    "view_id": "B01_L02_interior",
+    "title": "MARKTGRUEN / B01_L02 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L02_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "86e776ca460d27b75d3d341c343798e8886fec281ac2ebb430df052044cbc6ec",
+    "noisy_original_sha256": "f0afbfb83ea28f17b94764169b0b1f1970724c671114f91b604c85985e596639",
+    "noisy_original": ".cache/final-renders/B01_L02_interior.noisy.png",
+    "original_before_denoise_sha256": "f0afbfb83ea28f17b94764169b0b1f1970724c671114f91b604c85985e596639",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L02_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 282.35,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L03_plan": {
+    "view_id": "B01_L03_plan",
+    "title": "MARKTGRUEN / B01_L03 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L03_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "515ee333ebe92fb8fe49e14fa059e8906f797b2b0e31650c4e9bfcbc877c798a",
+    "noisy_original_sha256": "6eb4759e545f6093fdeeabc56f4084b9aa177d4978ca0672e5ce83f2a24de13e",
+    "noisy_original": ".cache/final-renders/B01_L03_plan.noisy.png",
+    "original_before_denoise_sha256": "6eb4759e545f6093fdeeabc56f4084b9aa177d4978ca0672e5ce83f2a24de13e",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "c183cde4c23c7cf00897c47a48ae00b2f8d1232622d37ba5d2817fae6185bdfd",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L03_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 137.51,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L03_cutaway": {
+    "view_id": "B01_L03_cutaway",
+    "title": "MARKTGRUEN / B01_L03 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L03_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "2b406683c1f8a7db83a2cde5addb58469bcadfc3cda2e308979700dbc95b8779",
+    "noisy_original_sha256": "b7e49013c29da62d11ba5fb105ea68f8f0ccded0019d7d310a02599be9021f85",
+    "noisy_original": ".cache/final-renders/B01_L03_cutaway.noisy.png",
+    "original_before_denoise_sha256": "b7e49013c29da62d11ba5fb105ea68f8f0ccded0019d7d310a02599be9021f85",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L03_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 69.31,
+    "visual_inspection": "PENDING"
+  },
+  "B01_L03_interior": {
+    "view_id": "B01_L03_interior",
+    "title": "MARKTGRUEN / B01_L03 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B01_L03_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "1082b896f7e7c1bd95d115a6abd796071bdd2020643f6107faf61b9e629bf2ee",
+    "noisy_original_sha256": "65283ea440a03bca2fe1aedc52da3016d573e345efb22160b7c9d51e47e28a1f",
+    "noisy_original": ".cache/final-renders/B01_L03_interior.noisy.png",
+    "original_before_denoise_sha256": "65283ea440a03bca2fe1aedc52da3016d573e345efb22160b7c9d51e47e28a1f",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B01_L03_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 649.03,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L01_plan": {
+    "view_id": "B02_L01_plan",
+    "title": "KRUME & KORN / B02_L01 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L01_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "82c0ddc38f371d7d22868d4f9594dd39ee495e805e3c958b19989499ddd0d3a4",
+    "noisy_original_sha256": "4f043e0758b165d57a50d9825c26e9275565d098cf17b0508e3e25160d6e69e2",
+    "noisy_original": ".cache/final-renders/B02_L01_plan.noisy.png",
+    "original_before_denoise_sha256": "4f043e0758b165d57a50d9825c26e9275565d098cf17b0508e3e25160d6e69e2",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "0479749a4a10cb0d3bc20aeeaff856df019b4499758e2633458465a71dd1ca5a",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L01_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 164.96,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L01_cutaway": {
+    "view_id": "B02_L01_cutaway",
+    "title": "KRUME & KORN / B02_L01 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L01_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "dcfa3e124638dcb17689ddabe8c75381b900572a8d27b55d2796ef4409b45903",
+    "noisy_original_sha256": "99156f413bfdd624a96898d948334cf4473756d07c0e370349c16c1ad348e733",
+    "noisy_original": ".cache/final-renders/B02_L01_cutaway.noisy.png",
+    "original_before_denoise_sha256": "99156f413bfdd624a96898d948334cf4473756d07c0e370349c16c1ad348e733",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L01_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 180.05,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L01_interior": {
+    "view_id": "B02_L01_interior",
+    "title": "KRUME & KORN / B02_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L01_interior.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "b0bd225a5512def682225ef6ce334b7b461b2dbdc7b29a0b974588b121503e8b",
+    "noisy_original_sha256": "75b4640502e9e751e8002ba0f23c179753fb80bf981454f098ee069ece3c7f5a",
+    "noisy_original": ".cache/final-renders/B02_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "75b4640502e9e751e8002ba0f23c179753fb80bf981454f098ee069ece3c7f5a",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 603.08,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L02_plan": {
+    "view_id": "B02_L02_plan",
+    "title": "KRUME & KORN / B02_L02 / plan",
+    "kind": "plan",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L02_plan.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "7913b0c10c49eac4569896040e7b8169078089cbc96340ee84920a465efdba9d",
+    "noisy_original_sha256": "e2933afe45c47c777d4c8edb1623c48dd768204c190f1cccb023adcfa20b012b",
+    "noisy_original": ".cache/final-renders/B02_L02_plan.noisy.png",
+    "original_before_denoise_sha256": "e2933afe45c47c777d4c8edb1623c48dd768204c190f1cccb023adcfa20b012b",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": {
+      "type": "Technical room/floor/programme/metric-scale/actual-camera-north annotation, not generated geometry",
+      "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+      "annotation_source": "evidence/production/R11-plan-annotation-source.json",
+      "underlying_denoised_model_render_sha256": "13fdcd38df6e90cb67d763a63706c8835ce708ec78a0d1c51c6e6613b486b49f",
+      "actual_room_centres_labelled": 6,
+      "footprint_dimensions_m": [
+        18,
+        14
+      ],
+      "scale_bar_m": 5,
+      "font": "Pillow bundled default TrueType; no external font/network dependency"
+    },
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L02_plan.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 71.69,
+    "visual_inspection": "PENDING"
+  },
+  "B02_L02_cutaway": {
+    "view_id": "B02_L02_cutaway",
+    "title": "KRUME & KORN / B02_L02 / cutaway",
+    "kind": "cutaway",
+    "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+    "geometry_uv_pose_material_signature": "484aa5d5a9444a267b42b387b28bd1009fded04ab4ad9c67eeb867183d140d5b",
+    "image": ".cache/final-renders/B02_L02_cutaway.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "6e53c338c07140efa94271791f56237532ac44fd19567d3195054f9cdcabd2e0",
+    "noisy_original_sha256": "fd415ef0c8a8acb442e526cdfd810e72bc05f3f3a08d09ac79a8b4b8cb7207db",
+    "noisy_original": ".cache/final-renders/B02_L02_cutaway.noisy.png",
+    "original_before_denoise_sha256": "fd415ef0c8a8acb442e526cdfd810e72bc05f3f3a08d09ac79a8b4b8cb7207db",
+    "camera_exposure_bias_EV": 0.0,
+    "technical_annotation": null,
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/B02_L02_cutaway.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 59.9,
+    "visual_inspection": "PENDING"
+  }
+}

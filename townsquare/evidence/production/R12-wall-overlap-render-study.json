@@ -1,0 +1,269 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_cycle_gear",
+      "floor": "B11_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/wall-joint-diagnosis/cycle_gear.png",
+      "native_sha256": "47beeab4432b5be50585b4a502044d2c7033d47358bbc22b91e5e9ac6083fd97",
+      "image_sha256": "a165efb01553f63d18cb1aed5d761c8f33988b15f72ef1d1e4ec7bef4dda4ea9",
+      "dimensions": [
+        768,
+        576
+      ],
+      "samples": 8,
+      "actual_unsaved_wall_overlap_patch": [
+        {
+          "floor": "B01_L01",
+          "high_wall_object": "B01__B01_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B01_L02",
+          "high_wall_object": "B01__B01_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B01_L03",
+          "high_wall_object": "B01__B01_L03__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 7.989999771118164,
+          "actual_high_wall_bottom_before_world_z": 7.980000019073486,
+          "actual_overlap_removed_m": 0.009999752044677734,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 7.989999771118164
+        },
+        {
+          "floor": "B02_L01",
+          "high_wall_object": "B02__B02_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B02_L02",
+          "high_wall_object": "B02__B02_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B03_L01",
+          "high_wall_object": "B03__B03_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B03_L02",
+          "high_wall_object": "B03__B03_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 60,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B04_L01",
+          "high_wall_object": "B04__B04_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B04_L02",
+          "high_wall_object": "B04__B04_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B05_L01",
+          "high_wall_object": "B05__B05_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B05_L02",
+          "high_wall_object": "B05__B05_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B06_L01",
+          "high_wall_object": "B06__B06_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B06_L02",
+          "high_wall_object": "B06__B06_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 60,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B07_L01",
+          "high_wall_object": "B07__B07_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B07_L02",
+          "high_wall_object": "B07__B07_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 92,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B07_L03",
+          "high_wall_object": "B07__B07_L03__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 7.989999771118164,
+          "actual_high_wall_bottom_before_world_z": 7.980000019073486,
+          "actual_overlap_removed_m": 0.009999752044677734,
+          "vertices_moved": 92,
+          "actual_high_wall_bottom_after_world_z": 7.989999771118164
+        },
+        {
+          "floor": "B08_L01",
+          "high_wall_object": "B08__B08_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B08_L02",
+          "high_wall_object": "B08__B08_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B09_L01",
+          "high_wall_object": "B09__B09_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B09_L02",
+          "high_wall_object": "B09__B09_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B10_L01",
+          "high_wall_object": "B10__B10_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B10_L02",
+          "high_wall_object": "B10__B10_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 60,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B11_L01",
+          "high_wall_object": "B11__B11_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B11_L02",
+          "high_wall_object": "B11__B11_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        },
+        {
+          "floor": "B12_L01",
+          "high_wall_object": "B12__B12_L01__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 0.9900000095367432,
+          "actual_high_wall_bottom_before_world_z": 0.9800001382827759,
+          "actual_overlap_removed_m": 0.009999871253967285,
+          "vertices_moved": 52,
+          "actual_high_wall_bottom_after_world_z": 0.9900000095367432
+        },
+        {
+          "floor": "B12_L02",
+          "high_wall_object": "B12__B12_L02__COMMON__wall_high",
+          "actual_low_wall_top_world_z": 4.789999961853027,
+          "actual_high_wall_bottom_before_world_z": 4.779999732971191,
+          "actual_overlap_removed_m": 0.010000228881835938,
+          "vertices_moved": 56,
+          "actual_high_wall_bottom_after_world_z": 4.789999961853027
+        }
+      ],
+      "camera_position_world": [
+        -42.4,
+        -0.4500000476837159,
+        5.35
+      ],
+      "camera_target_world": [
+        -46.00000152587891,
+        1.0000000476837163,
+        4.85
+      ],
+      "lens_mm": 24,
+      "scope": "UNSAVED measured wall-overlap geometry correction study over recorded source; source native never resaved. See exact actual patch vertices/heights.",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Measured10mmcoplanar wall-low/high overlap removed in unsaved geometry; actual768x576same-camera original opened, previously obvious two sharp black wall streaks no longer visible. Source47native remains unchanged by this test. Must save correction and freshly reopen/test before final acceptance.",
+      "decision": "TARGETED_WALL_ARTIFACT_IMPROVEMENT_OBSERVED_NOT_FINAL"
+    }
+  ]
+}

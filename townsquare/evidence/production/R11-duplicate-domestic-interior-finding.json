@@ -1,0 +1,13 @@
+{
+  "status": "FIX_REQUIRED",
+  "observed_utc": "2026-10-17T18:31:22.569622+00:00",
+  "actual_individually_opened_views": [
+    "B01_L03_plan",
+    "B01_L03_cutaway",
+    "B02_L02_plan",
+    "B02_L02_cutaway"
+  ],
+  "finding": "Visible domestic partition/furniture arrangements duplicate between these two occupied floors despite different programme labels. Counts and mixed commercial programmes do not establish every interior is distinct.",
+  "next_action": "Stop producing further known-failing R11 home evidence; author genuine differentiated layouts/furnishing themes before new candidate. Preserve verified R11model/16rendered originals/inspection history; promising physical-hair study still unsaved/unadopted until full hairstyle/variants/rig/portable tests.",
+  "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1"
+}

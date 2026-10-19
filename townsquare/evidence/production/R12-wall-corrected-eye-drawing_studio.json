@@ -1,0 +1,38 @@
+{
+  "stage": "ACTUAL_SAVED_SOURCE_STUDY_IMAGES_NOT_FINAL",
+  "images": [
+    {
+      "id": "STUDY_drawing_studio",
+      "floor": "B04_L02",
+      "room": "SECOND_ROOM",
+      "image": "evidence/quality-studies/wall-corrected-eye-level/drawing_studio.png",
+      "native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+      "image_sha256": "de09dc00e3bd398aab51d633d35de928428d9de893f1c942f9c08aef4702c447",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "samples": 8,
+      "actual_unsaved_wall_overlap_patch": null,
+      "camera_position_world": [
+        45.300001525878905,
+        18.200000762939453,
+        5.25
+      ],
+      "camera_target_world": [
+        42.6,
+        18.200000762939453,
+        4.9
+      ],
+      "lens_mm": 24,
+      "scope": "Actual saved-source geometry/materials/lighting; only an unsaved additional study camera/preset. Not a final-resolution image or saved final camera.",
+      "inspection": "NOT YET OPENED",
+      "actual_original_opened_by_agent": true,
+      "opened_image_sha256": "de09dc00e3bd398aab51d633d35de928428d9de893f1c942f9c08aef4702c447",
+      "producer_observations": "Actually opened original1024x768: easel/canvas back at left and inward-facing filled reference case at right; doorway/centre approach visible, sharp wall streak absent. Storage-facing reverse study, not final2560 or whole-room/human realism acceptance."
+    }
+  ],
+  "inspection": "ACTUAL SINGLE ORIGINAL OPENED / scoped wall and furnishings regression, not final acceptance",
+  "fresh_process": "Separate actual Blender process per image; all3exit0, unlike parent47sequential3process EXIT137",
+  "camera_orientation_input": "SQUARE_STUDY_REVERSE=1"
+}

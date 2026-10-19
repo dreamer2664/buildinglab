@@ -1,0 +1,11 @@
+{
+  "image": "evidence/quality-studies/fibres-only-control/D08-tile18-physical-hair-prototype-fibres-only.png",
+  "image_sha256": "f489d92abbdae236112740344a51040098161fb7e93613899ed28f286f367b54",
+  "actual_dimensions": [
+    640,
+    800
+  ],
+  "actual_open": "functions.read_file",
+  "decision": "REJECTED_NOT_ADOPTED",
+  "observations": "Only32000fine curves without coarse mass leave transparent/sparse head coverage and visible skin. Not a usable hairstyle; no native/rig/export adoption. Coarse underlayer still needed unless replaced with an adequate physical volume/dense groom."
+}

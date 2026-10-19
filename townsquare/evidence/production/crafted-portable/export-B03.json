@@ -1,0 +1,59 @@
+{
+  "component": "B03",
+  "source_native_sha256": "b8ea5ed69e0af9436a6b9fa80be9409ec506ef4a233f10b4e2ddea4c02fd23fb",
+  "glb": ".cache/crafted-portable-components/GLB/B03.glb",
+  "glb_sha256": "2873bdcecb76086d0d8adb1dfc678e6c0260948119f691c2d8a01bdf429d8988",
+  "glb_bytes": 13800896,
+  "expected_geometry": {
+    "mesh_objects": 77,
+    "vertices_instance_sum": 95302,
+    "polygons_instance_sum": 81762,
+    "triangles_instance_sum": 168531,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      10.550000190734863,
+      25.607498168945312,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      29.450000762939453,
+      41.51499938964844,
+      11.789999961853027
+    ],
+    "floor_ids": [
+      "B03_L01",
+      "B03_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B03_L01_SALES",
+      "B03_L01_SERVICE_A",
+      "B03_L01_SERVICE_B",
+      "B03_L01_SERVICE_HALL",
+      "B03_L01_UPPER_ENTRY",
+      "B03_L01_WC",
+      "B03_L02_FRONT_A",
+      "B03_L02_FRONT_B",
+      "B03_L02_HALL",
+      "B03_L02_SERVICE_A",
+      "B03_L02_SERVICE_B",
+      "B03_L02_WC",
+      "COMMON",
+      "None"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

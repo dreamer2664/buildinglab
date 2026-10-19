@@ -1,0 +1,41 @@
+{
+  "stage": "Actual imported packed editable licensed scan native; image/render/adoption PENDING",
+  "pose_asset_id": "HSR0015-Body-009",
+  "source_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_archive_sha256": "9c1676967d005edf53a780585e2f238ef532265e482d887eb42d8d80b1f74d20",
+  "cleanup": {},
+  "lod": "LOD0",
+  "texture_actually_used_sha256": "48264f1818084821c775b312deadd8a833ac52504c3f36d89b78a0dcb77b84c7",
+  "texture_actually_used_path": ".cache/scan-intake/HSR0015-Body-009/extracted-LOD0/HSR0015-Body-009_LOD0-8192-bounded.png",
+  "source_obj_sha256": "7e890164be9ddc0fa4b5ed74538bba2831cbf2092d88e35279ab8de4f352a5e7",
+  "source_texture_sha256": "e28dc099813152fca253efc590d03a2fe9d27ed4a75fdec69053dede49c5d237",
+  "original_source_bounds": [
+    [
+      -0.2725239237794641,
+      -0.24285782967700975,
+      -0.0011850362001858607
+    ],
+    [
+      0.3245116976799779,
+      0.24861937300676862,
+      1.6859228941950475
+    ]
+  ],
+  "actual_origin_translation": [
+    0.025993886950256895,
+    0.0028807716648794335,
+    -0.0011850362001858607
+  ],
+  "mesh_vertices": 499929,
+  "mesh_polygons": 1000002,
+  "mesh_uv_layers": 1,
+  "packed_diffuse_dimensions": [
+    8192,
+    8192
+  ],
+  "native": ".cache/scan-intake/native/HSR0015-Body-009-LOD0-native-study.blend",
+  "native_sha256": "a5657193679079b1e724819283c189f42bf8abf8484e6e83e17117d2c4b9b4ac",
+  "native_bytes": 150058113,
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.\nActual changes: {}; texture used .cache/scan-intake/HSR0015-Body-009/extracted-LOD0/HSR0015-Body-009_LOD0-8192-bounded.png SHA256 48264f1818084821c775b312deadd8a833ac52504c3f36d89b78a0dcb77b84c7; source original remains unchanged.\n\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 9c1676967d005edf53a780585e2f238ef532265e482d887eb42d8d80b1f74d20.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "limitations": "Static real3Dphoto scan, not a rigged scan/automatic body animation. Source photo may contain captured shading; single rough dielectric approximate material, not separate scanned BRDF. No person identification inferred or required."
+}

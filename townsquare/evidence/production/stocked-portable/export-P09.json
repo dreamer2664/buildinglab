@@ -1,0 +1,83 @@
+{
+  "component": "P09",
+  "source_native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "glb": ".cache/stocked-portable-components/GLB/P09.glb",
+  "glb_sha256": "d079e73b562744bb9f5efd2ae203390e5211e4769af22f6a91641d8dd9bb26ab",
+  "glb_bytes": 16495840,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 224595,
+    "polygons_instance_sum": 449562,
+    "triangles_instance_sum": 449562,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -26.36373519897461,
+      -19.28904151916504,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      -4.635377407073975,
+      10.289090156555176,
+      1.7222827672958374
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      9,
+      21,
+      33
+    ]
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "portable_scan_cap_triangulation": [
+    {
+      "source_mesh": "SCAN / actual original LOD0 / HSR0015-Body-015",
+      "measured_duplicate_face_repair": {
+        "actual_mesh_validate_changed": false,
+        "source_vertices_faces_before": [
+          74865,
+          149341
+        ],
+        "actual_vertices_faces_after": [
+          74865,
+          149341
+        ],
+        "actual_source_triangles_before": 149854,
+        "actual_validated_triangles_after": 149854,
+        "actual_duplicate_faces_removed": 0,
+        "original_vertex_coordinates_exact_equality": true,
+        "unique_triangle_geometry_set_exact_equality": true,
+        "unique_triangle_geometry_signature_before_and_after": "57a11bf40386502f74bebd74776b6e603fa2d641ee9484c41a6fda31502d4d46",
+        "kept_textured_triangle_set_is_exact_source_subset": true,
+        "textured_triangle_set_counts": [
+          149854,
+          149854
+        ],
+        "method": "Actual Mesh.validate duplicateface repair BEFORE export expectation; glTF exporter invokes this same validation. No coordinate/UV approximation and no relaxed triangle gate. Native unchanged unless explicitly saved by a separate source-repair stage."
+      },
+      "actor_instances": 3,
+      "source_loop_triangles_before": 149854,
+      "actual_explicit_portable_triangles_after": 149854,
+      "surface_area_before_m2": 2.176175180718358,
+      "surface_area_after_m2": 2.1761751806009446,
+      "absolute_surface_area_delta_m2": 1.174131902814679e-10,
+      "all_original_vertex_positions_exactly_preserved": true,
+      "method": "ExplicitTriangulate modifier for nontriangle source cap faces, UV/materials/custom normals retained; native source untouched. Strict reimport triangle gate unchanged."
+    }
+  ],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

@@ -1,0 +1,71 @@
+{
+  "B03_L01_interior": {
+    "view_id": "B03_L01_interior",
+    "title": "KESSEL & KAKAO / B03_L01 / occupied interior",
+    "kind": "interior",
+    "source_native_sha256": "1a438deba0fe5b4892de3a4abc6f6f50b872e5851de883b7df7fca384d1d4288",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R4/B03_L01_interior.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "96d58277f181c22729d6bc2d5b15fedd0eb208429d421f2c4ff8bfce7119e05a",
+    "noisy_original_sha256": "97b2e6eb5ce03cb3784ca3dcf4d1e4ef9396998c6cd500b43d9920cf9d7dcc09",
+    "noisy_original": ".cache/pilot-R4/B03_L01_interior.noisy.png",
+    "original_before_denoise_sha256": "97b2e6eb5ce03cb3784ca3dcf4d1e4ef9396998c6cd500b43d9920cf9d7dcc09",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R4/B03_L01_interior.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 51.13,
+    "visual_inspection": "PENDING"
+  },
+  "D01": {
+    "view_id": "D01",
+    "title": "Studio asset inspection / P01 and P02",
+    "kind": "people",
+    "source_native_sha256": "8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3/D01.png",
+    "dimensions": [
+      1024,
+      576
+    ],
+    "final_sha256": "6d38fd660f0fb1cacf351c0ba31b61daf43a29f656c9d439d1f4c021f492512a",
+    "noisy_original_sha256": "682386c179dc6ab1ba858e77c3c982cd911db4576d8fc22145fbef9d68c19965",
+    "noisy_original": ".cache/pilot-R3/D01.noisy.png",
+    "original_before_denoise_sha256": "682386c179dc6ab1ba858e77c3c982cd911db4576d8fc22145fbef9d68c19965",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/D01.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 30.38,
+    "visual_inspection": "PENDING"
+  },
+  "H02": {
+    "view_id": "H02",
+    "title": "Christmas tree and winter market",
+    "kind": "town",
+    "source_native_sha256": "8c43a77eb79006e151014005ee24eaef048206d2b59e4d5bb62dac0e669390cb",
+    "geometry_uv_pose_material_signature": "58f49dc766a1bb36f2c7511335d3a8e7be228c131a5dee8d83466dea121ee5cb",
+    "image": ".cache/pilot-R3/H02.png",
+    "dimensions": [
+      1152,
+      648
+    ],
+    "final_sha256": "bf188a185cce0a1d2a72c0c8258c5d94e3f89c604305273622a1b9041df0a89f",
+    "noisy_original_sha256": "8d55fc2e0b2bd584ba64aad6f9cc2549e2a7f3234df2baf6c02302253a5c6d13",
+    "noisy_original": ".cache/pilot-R3/H02.noisy.png",
+    "original_before_denoise_sha256": "8d55fc2e0b2bd584ba64aad6f9cc2549e2a7f3234df2baf6c02302253a5c6d13",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/pilot-R3/H02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 95.71,
+    "visual_inspection": "PENDING"
+  }
+}

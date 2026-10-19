@@ -1,0 +1,9 @@
+{
+  "pose": "HSR0040-Body-012",
+  "original_OBJ_vertex_order_and_every_face_corner_index_match": true,
+  "actual_original_vertex_coordinate_max_error_m": 5.9601816149168485e-08,
+  "actual_original_UV_every_loop_max_error": 2.9800415024539006e-08,
+  "actual_vertices": 49958,
+  "actual_face_corners": 299964,
+  "result": "ORIGINAL_OBJ_GEOMETRY_UV_IMPORT_PASS; not a source-capture quality approval"
+}

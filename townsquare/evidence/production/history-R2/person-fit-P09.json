@@ -1,0 +1,143 @@
+{
+  "person": "P09",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P09.blend",
+  "corrected_rig_sha256": "41113678d57a2ac394731d917c7dbb8b2dabfd634a8d38efe5a088f3d341bb7c",
+  "anatomy_and_pose_signature_before": "6465d41a0e8a21512c51ed07d4c268e17005e7717e66ef1f490736164b9319cc",
+  "anatomy_and_pose_signature_after": "6465d41a0e8a21512c51ed07d4c268e17005e7717e66ef1f490736164b9319cc",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "P09_SCARF_TAIL",
+      "fix": "Replaced intersecting flat box tail with double-sided, gently folded textile surface, fitted13mm outside evaluated coat front per height row.",
+      "rows": 30,
+      "columns": 8,
+      "source_world_z_interval": [
+        1.0549817085266113,
+        1.4087762832641602
+      ]
+    },
+    {
+      "part": "P09_SCARF_FRINGE",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.001",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.002",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.003",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.004",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.005",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.006",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_SCARF_FRINGE.007",
+      "fix": "Aligned existing yarn fringe with corrected textile hem"
+    },
+    {
+      "part": "P09_KNITTED_BEANIE",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_BEANIE_RIB",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.001",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.002",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.003",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.004",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.005",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.006",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.007",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.008",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.009",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.010",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.011",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.012",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.013",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.014",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.015",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.016",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    },
+    {
+      "part": "P09_RIB.017",
+      "fix": "Fitted cap/rib12mm forward and18mm down in world metres; avoids perched silhouette"
+    }
+  ],
+  "static_vertices": 24377,
+  "static_faces": 22200,
+  "static_instances": [
+    "CROWD_09_P09",
+    "CROWD_21_P09",
+    "CROWD_33_P09"
+  ],
+  "sole_before_placement_m": -0.02379273809492588,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

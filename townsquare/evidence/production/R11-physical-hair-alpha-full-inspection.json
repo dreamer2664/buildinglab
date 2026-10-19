@@ -1,0 +1,10 @@
+{
+  "actual_image": "evidence/quality-studies/physical-hair-alpha-mask-full.png",
+  "sha256": "93ef96482b1922a1a1b7dd65aa1de626c900f53346c22d0d50ff7e9f9ce18972",
+  "actual_individual_open": true,
+  "observation": "Rounded/fine crown remains improved, but rear nape still shows short comb-like protrusions. Alpha source sampling did not visibly resolve the contour; no successful-fix claim. Source braid underlay geometry is a hypothesis only.",
+  "actual_alpha_masks_reported": 1,
+  "actual_emitted_curves": 32000,
+  "decision": "FIX_REQUIRED_NAPE_CONTOUR_NOT_ADOPTED",
+  "native_adoption": false
+}

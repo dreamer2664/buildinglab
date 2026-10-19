@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-10-17T23:09:05.576542+00:00",
+  "inspections": [
+    {
+      "image": "evidence/quality-studies/saved-groom-people/D03.png",
+      "image_sha256": "056f662c24ef872053386175c7ef02768c22781e3d87e2a4798730bff7ef0676",
+      "actually_opened": true,
+      "native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+      "observation": "Actual original opened: old grey hairstyles remain coarse/sculpted, generic smooth faces and repeated garment construction. No high-realism acceptance.",
+      "result": "REALISM_UNRESOLVED / UNPROMOTED"
+    },
+    {
+      "image": "evidence/quality-studies/saved-groom-people/D06.png",
+      "image_sha256": "b9c996678b99bb0ff0ee1bc54b076612e3b121bb094ae5cf668a43b6f581badc",
+      "actually_opened": true,
+      "native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+      "observation": "Actual original opened: finer new short groom is an improvement but generic smooth face/clothing and stylized caplike hair mass persist. No high-realism acceptance.",
+      "result": "REALISM_UNRESOLVED / UNPROMOTED"
+    },
+    {
+      "image": "evidence/quality-studies/saved-groom-people/D08-crop18.png",
+      "image_sha256": "3f6732d0dfc889032d9f53010b11e5bc764daf05716f24dfe08387aa38a07512",
+      "actually_opened": true,
+      "native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+      "observation": "Actual 640x800 original opened: finer smoother brown short strands, no earlier black floaters observed in this scoped crop, but caplike underlying mass, smooth stylized face and generic collar remain. Not a photorealism pass.",
+      "result": "REALISM_UNRESOLVED / UNPROMOTED"
+    }
+  ]
+}

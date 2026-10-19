@@ -1,0 +1,31 @@
+{
+  "pose_asset_id": "HSR0161-Body-006",
+  "view": "full",
+  "actual_opened_native_sha256": "8b367fccab3e74c881adb5af88b04a962a5abaf2b89aa7f63743a01804b73999",
+  "source_pinned_dataset_revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "source_zip_sha256": "a19a0f66a57f7225e5882ccdfa30dfd66358c7102b385c2e68061031760b73f6",
+  "actual_native_render_image": "evidence/quality-studies/licensed-scan-study/HSR0161-Body-006-clean-full.png",
+  "image_sha256": "83db9a18d55606e440bb2b41b874adb37ac4f8472368f1958f38907efa75c37c",
+  "dimensions": [
+    1280,
+    960
+  ],
+  "cycles_samples": 24,
+  "render_seconds": 38.75611529400021,
+  "camera": {
+    "position": [
+      -1.8675802626186815,
+      3.824092918695395,
+      1.9031532200018944
+    ],
+    "target": [
+      0,
+      0,
+      0.9248968919635374
+    ],
+    "lens_mm": 58
+  },
+  "method": "Real original licensed scan mesh/photoUV in Blender Cycles, physical neutral lights/ground and standard source-linear normal/albedo-guided OIDN. No model-image generation/retouch/sourcebeautyimage substitution. Native file untouched, study camera/ground unsaved.",
+  "source_attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.\nActual changes: {\"method\": \"Trim original captured ground/sole region below10mm, close cut edge loops, translate retained scan down10mm for metric ground contact. Original upper-body geometry/UV/photo unretouched.\", \"slice_plane_original_normalized_z_m\": 0.01, \"vertices_faces_before\": [49944, 100004], \"vertices_faces_after\": [49881, 99465], \"new_sole_cap_faces\": 3, \"actual_upper_body_vertex_count_conserved\": 48792, \"actual_upper_body_max_vertex_error_m_before_documented_origin_shift\": 0, \"actual_upper_body_topology_and_uv_exact_equality\": true}; texture used .cache/scan-intake/HSR0161-Body-006/extracted-LOD1/HSR0161-Body-006_LOD1-4096-bounded.png SHA256 cb765320153fc716054b3b5b2d7d28e76292aa51d9d48596967c34f5db27e138; source original remains unchanged.\n\nDataset pinned revision 9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a; source ZIP SHA256 a19a0f66a57f7225e5882ccdfa30dfd66358c7102b385c2e68061031760b73f6.\nSource mesh and photo diffuse mapped/packed without image generation, retouching or inferred identity. Source publisher asserts informed collection consent and commercial modification/redistribution under CC BY4.0. No biometric/medical/surveillance use. This is an UNPROMOTED native intake study, not final scene/rig/realism approval.\n",
+  "inspection": "PENDING / source preview and renderer success are not adoption/realism acceptance"
+}

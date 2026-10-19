@@ -1,0 +1,59 @@
+{
+  "stage": "ACTUAL_SAVED_NATIVE_DIFFERENTIATION_STUDY_NOT_PROMOTED",
+  "source_frozen_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "study_native": ".cache/differentiated-home-study/B02-differentiated-full-scene-STUDY.blend",
+  "study_native_sha256": "1ccd63f7ecc7a6d4ed876cf9d64e159ae605cddae7db285a882d56ed9e149cca",
+  "actual_changes": [
+    {
+      "floor": "B02_L02",
+      "actual_theme": "Baker guest bedroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "retained_detailed_furniture_objects_physically_rearranged": [
+        "B02__B02_L02__B02_L02_LIVING__furniture",
+        "B02__B02_L02__B02_L02_PRIMARY_BED__furniture"
+      ],
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    }
+  ],
+  "images": [
+    {
+      "id": "B02_L02_plan",
+      "path": ".cache/differentiated-home-study/B02_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "72e1b90105369b0c75f0ee150ac554919eaacb0f29442bf48178b6bd6fab68ca",
+      "post_external_OIDN_sha256": "78ae7412ce50562d19542c5046212794b8a6cf15e7e43b21a32da87a1db1056a",
+      "actual_individual_open": true
+    },
+    {
+      "id": "B02_L02_cutaway",
+      "path": ".cache/differentiated-home-study/B02_L02_cutaway.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "0fda6f98cea1fe9ba62fcfcb5a792a356e9310ffc700910b6501519045c78404",
+      "post_external_OIDN_sha256": "e6e0c2e107c69dfb439c09ed7fadcac8eacd52205c42c7db1b44989c54f71b06",
+      "actual_individual_open": true
+    },
+    {
+      "id": "B02_L02_interior",
+      "path": ".cache/differentiated-home-study/B02_L02_interior.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "raw_sha256": "501d6954d283f37561001d6ed8a8c7a62d5c6b89aface314586d4182a12e85bf",
+      "post_external_OIDN_sha256": "c09300f425ce89f2642a59f3c3c6e29cb4449a1dda1804340e1bc273b91237e4",
+      "actual_individual_open": true
+    }
+  ],
+  "inspection": "THREE_ACTUAL_PLAN_CUTAWAY_INTERIOR_IMAGES_INDIVIDUALLY_OPENED_UNPROMOTED_STUDY",
+  "observations": "Actual single guest bed/desk/bookcase, living/primary-bed180degree rearrangement and rebuilt red baker kitchen/island/bowls/pin/breakfast differ from rejected R11duplicate. No obvious visual collision in these views; not geometric-clearance certified. Interior foreground sofa back, sparse walls/dining, wavy glossy plaster/basic chairs still CG, not high-realism acceptance.",
+  "later_reinspection": "CRITICAL_REGRESSION_FOUND_IN_ALL_FLOOR_PLAN_REINSPECTION: rotated primary-bed headboard and guest bookcase obstruct actual door approach. Earlier no-obvious-collision observation was incomplete; prototype NOT accepted/promoted. Correct geometry and rerender/reinspect."
+}

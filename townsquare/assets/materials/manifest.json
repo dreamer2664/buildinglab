@@ -1,0 +1,35 @@
+[
+  {
+    "slot": "Diffuse",
+    "file": "assets/materials/cobblestone_01_diff_1k.jpg",
+    "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_01/cobblestone_01_diff_1k.jpg",
+    "source_page": "https://polyhaven.com/a/cobblestone_01",
+    "author": "Rob Tuytel / Poly Haven",
+    "license": "CC0-1.0",
+    "sha256": "aab330227974aadbc477b2022351112f5696fa7048d99dc776c2e6f23f4e0d2a",
+    "bytes": 487258,
+    "purpose": "1K initial feasibility proof; upgrade for final close views"
+  },
+  {
+    "slot": "nor_gl",
+    "file": "assets/materials/cobblestone_01_nor_gl_1k.jpg",
+    "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_01/cobblestone_01_nor_gl_1k.jpg",
+    "source_page": "https://polyhaven.com/a/cobblestone_01",
+    "author": "Rob Tuytel / Poly Haven",
+    "license": "CC0-1.0",
+    "sha256": "4b88ed092d4391506b4760f454996f633c171332b8a68557593d6e80627fc8c0",
+    "bytes": 543090,
+    "purpose": "1K initial feasibility proof; upgrade for final close views"
+  },
+  {
+    "slot": "Rough",
+    "file": "assets/materials/cobblestone_01_rough_1k.jpg",
+    "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_01/cobblestone_01_rough_1k.jpg",
+    "source_page": "https://polyhaven.com/a/cobblestone_01",
+    "author": "Rob Tuytel / Poly Haven",
+    "license": "CC0-1.0",
+    "sha256": "5c35086e7c8e4ea746967f20bedb67e730ac5332b3370d49befbdd3295354b80",
+    "bytes": 429061,
+    "purpose": "1K initial feasibility proof; upgrade for final close views"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "stage": "ACTUAL licensed source ZIP/CRC/member digest intake, not adoption/acceptance",
+  "dataset": "digitalrealitylab/HSRD-100",
+  "revision": "9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a",
+  "pose": "HSR0081-Body-004",
+  "lod": "LOD0",
+  "source_url": "https://huggingface.co/datasets/digitalrealitylab/HSRD-100/resolve/9cc5e9c138dd310dc88c95c80e5db0a3ecb7971a/data/HSR0081/HSR0081-Body-004/scans/HSR0081-Body-004-Scan-LOD0.zip",
+  "source_archive": ".cache/scan-intake/HSR0081-Body-004/HSR0081-Body-004-Scan-LOD0.zip",
+  "source_archive_bytes": 259880776,
+  "source_archive_sha256": "476e84b340589c4e54c2360a5dd5c2bc6391a816dccdf94352575408d41c4028",
+  "upstream_LFS_sha256_matched": true,
+  "license": "CC BY4.0",
+  "attribution": "Digital Reality Lab, HSRD-100 (2025), https://huggingface.co/datasets/digitalrealitylab/HSRD-100; https://creativecommons.org/licenses/by/4.0/; no endorsement. Changes: intake only, native origin normalization/lighting pending.",
+  "members": [
+    {
+      "member": "HSR0081-Body-004_LOD0.obj",
+      "path": ".cache/scan-intake/HSR0081-Body-004/extracted-LOD0/HSR0081-Body-004_LOD0.obj",
+      "bytes": 99830578,
+      "sha256": "75360b0bb2e8daa3416af9914d91534a332f336ad88f225460fa057d8635fb7b"
+    },
+    {
+      "member": "HSR0081-Body-004_LOD0_u0_v0_diffuse.png",
+      "path": ".cache/scan-intake/HSR0081-Body-004/extracted-LOD0/HSR0081-Body-004_LOD0_u0_v0_diffuse.png",
+      "bytes": 223532052,
+      "sha256": "a4e4216dcc5664873ef24c7e7ee7a6bad136709fdb8a73d678fc2793cf4c2707"
+    },
+    {
+      "member": "HSR0081-Body-004-Square.jpg",
+      "path": ".cache/scan-intake/HSR0081-Body-004/extracted-LOD0/HSR0081-Body-004-Square.jpg",
+      "bytes": 217972,
+      "sha256": "6c230735bcd70db56c95a8b1761dc0182f9ec8c9f456131d9f3bc38a97178e78"
+    },
+    {
+      "member": "pose_metadata.json",
+      "path": ".cache/scan-intake/HSR0081-Body-004/extracted-LOD0/pose_metadata.json",
+      "bytes": 898,
+      "sha256": "913887395a6de15d6abbf9fbeac4a63654872e081bb604c97bd0232bb0285dfd"
+    },
+    {
+      "member": "person_metadata.json",
+      "path": ".cache/scan-intake/HSR0081-Body-004/extracted-LOD0/person_metadata.json",
+      "bytes": 705,
+      "sha256": "01a7c4d014ebbd39d3140f6d926f8e473795e016c957a64ed733d1787ca07e60"
+    }
+  ]
+}

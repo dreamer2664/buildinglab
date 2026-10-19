@@ -1,0 +1,25 @@
+{
+  "person": "P02",
+  "original_rig_public_package": "Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+  "corrected_rig": ".cache/fixed-people/rigs/P02.blend",
+  "corrected_rig_sha256": "077b2913c95e8aae1f4d1dd7ae43792384954ab8b1a4af0e4a6849ec0cd562a1",
+  "anatomy_and_pose_signature_before": "7d596544f059a7e9182da4de1e0013cd50164e74d2928f4b491f25fe57413bd4",
+  "anatomy_and_pose_signature_after": "7d596544f059a7e9182da4de1e0013cd50164e74d2928f4b491f25fe57413bd4",
+  "anatomy_and_pose_conserved": true,
+  "fixes": [
+    {
+      "part": "optional scarf and fringe studies",
+      "fix": "Removed all optional scarf components from final outfit after actual close-ups rejected collar intersection and raised-wrap mouth occlusion. Original editable study meshes retained explicitly labelled, disabled for rendering; final town static meshes contain none of this rejected geometry. People keep actual licensed jacket, shirt, trousers, shoes, hair and fitted caps."
+    }
+  ],
+  "static_vertices": 19966,
+  "static_faces": 18646,
+  "static_instances": [
+    "CROWD_02_P02",
+    "CROWD_14_P02",
+    "CROWD_26_P02"
+  ],
+  "sole_before_placement_m": -0.016336962580680847,
+  "placed_sole_z_m": 0.006,
+  "visual_reinspection": "PENDING"
+}

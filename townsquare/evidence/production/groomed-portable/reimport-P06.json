@@ -1,0 +1,85 @@
+{
+  "component": "P06",
+  "glb_sha256": "a61e6382e0cf69f4433edc03adb3a51f6f37a4d779afb8d3e334690506dcebc2",
+  "source_full_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "glb": ".cache/groomed-portable-components/GLB/P06.glb",
+  "status": "PASS",
+  "fresh_factory_scene_imported_with_blender": "4.3.2",
+  "expected": {
+    "mesh_objects": 9,
+    "vertices_instance_sum": 794526,
+    "polygons_instance_sum": 1228608,
+    "triangles_instance_sum": 1282770,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -12.077966690063477,
+      -7.945058822631836,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      21.362947463989258,
+      18.216890335083008,
+      1.6229403018951416
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      6,
+      6,
+      6,
+      18,
+      18,
+      18,
+      30,
+      30,
+      30
+    ]
+  },
+  "actual": {
+    "mesh_objects": 9,
+    "triangles_instance_sum": 1282770,
+    "bounds_min": [
+      -12.077966690063477,
+      -7.945058822631836,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      21.362947463989258,
+      18.216890335083008,
+      1.6229403018951416
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      6,
+      6,
+      6,
+      18,
+      18,
+      18,
+      30,
+      30,
+      30
+    ]
+  },
+  "issues": [],
+  "mesh_objects_without_uv_plain_colour_allowed": [
+    "CROWD_30_HAIR_LOD_P06",
+    "CROWD_30_HAIR_ROOTS_P06",
+    "CROWD_18_HAIR_LOD_P06",
+    "CROWD_18_HAIR_ROOTS_P06",
+    "CROWD_06_HAIR_LOD_P06",
+    "CROWD_06_HAIR_ROOTS_P06"
+  ],
+  "image_count": 9,
+  "packed_images": 9,
+  "scope": "Actual clean glTF importer roundtrip: triangle-instance count, world bounds, floor/room/person metadata and textured UV presence. This does not assert identical Blender area-light/HDRI/procedural-shader rendering."
+}

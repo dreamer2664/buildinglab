@@ -1,0 +1,54 @@
+{
+  "component": "B12",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "glb": ".cache/final-components/GLB/B12.glb",
+  "glb_sha256": "a74e37c91d992666962048648e95d94d153645f77e15aa709c050b3cda3c5a84",
+  "glb_bytes": 15115212,
+  "expected_geometry": {
+    "mesh_objects": 65,
+    "vertices_instance_sum": 87619,
+    "polygons_instance_sum": 71551,
+    "triangles_instance_sum": 144898,
+    "bounds_min": [
+      -47.45000076293945,
+      9.550000190734863,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -31.607498168945312,
+      26.450000762939453,
+      11.789999961853027
+    ],
+    "floor_ids": [
+      "B12_L01",
+      "B12_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B12_L01_SALES",
+      "B12_L01_SERVICE_A",
+      "B12_L01_SERVICE_B",
+      "B12_L01_SERVICE_HALL",
+      "B12_L01_UPPER_ENTRY",
+      "B12_L01_WC",
+      "B12_L02_BATH",
+      "B12_L02_ENTRY_HALL",
+      "B12_L02_KITCHEN",
+      "B12_L02_LIVING",
+      "B12_L02_PRIMARY_BED",
+      "B12_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

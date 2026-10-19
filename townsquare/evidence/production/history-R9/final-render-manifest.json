@@ -1,0 +1,48 @@
+{
+  "D08": {
+    "view_id": "D08",
+    "title": "P06 / face and fabric detail",
+    "kind": "people",
+    "source_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
+    "geometry_uv_pose_material_signature": "5a278ffc969f0a88bb1d2e7686b51c43cc489ed96d6d0f2aee69eeba5c45e0a9",
+    "image": ".cache/final-renders/D08.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "7b31764a3874e0ac5a40efecda65eca569bf8175e6e40462992e19579ad46045",
+    "noisy_original_sha256": "ea54cea9b4946e3dc9ba74dae8a342abf159dfa5592ac861b3e0dd1990095cd3",
+    "noisy_original": ".cache/final-renders/D08.noisy.png",
+    "original_before_denoise_sha256": "ea54cea9b4946e3dc9ba74dae8a342abf159dfa5592ac861b3e0dd1990095cd3",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D08.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 97.38,
+    "visual_inspection": "PENDING"
+  },
+  "D02": {
+    "view_id": "D02",
+    "title": "Studio asset inspection / P03 and P04",
+    "kind": "people",
+    "source_native_sha256": "0d0aeaf84ed8792f33582969596685882740b005afc0458ccff1a78b0b46cebd",
+    "geometry_uv_pose_material_signature": "5a278ffc969f0a88bb1d2e7686b51c43cc489ed96d6d0f2aee69eeba5c45e0a9",
+    "image": ".cache/final-renders/D02.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "final_sha256": "ee8bf36263aa6933b080d05c6dc9593f5790c7ca1fc1d9d682fe8938a984c6e0",
+    "noisy_original_sha256": "d3dcbab997543b6c1d4e66a4f5ab532367e619074863561945d1d918b134a9b9",
+    "noisy_original": ".cache/final-renders/D02.noisy.png",
+    "original_before_denoise_sha256": "d3dcbab997543b6c1d4e66a4f5ab532367e619074863561945d1d918b134a9b9",
+    "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+    "render_reports": [
+      ".cache/final-renders/D02.render.json"
+    ],
+    "tile_assembly": null,
+    "elapsed_seconds": 108.94,
+    "visual_inspection": "PENDING"
+  }
+}

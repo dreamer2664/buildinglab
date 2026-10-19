@@ -1,0 +1,15 @@
+{
+  "asset": "PUBLIC",
+  "status": "PASS",
+  "actual_factory_reopen": true,
+  "path": ".cache/final-components/Native/PUBLIC.blend",
+  "sha256": "476e913b9c84a7b93b0d47b5fe4eb0f299dba87ff6631e9910edf9ace32fa5c7",
+  "blender_version": "4.3.2",
+  "mesh_objects": 26,
+  "armatures": 0,
+  "packed_images": 21,
+  "unpacked_file_images": [],
+  "metadata": {},
+  "issues": [],
+  "scope": "Actual saved subasset reopen/packed-image/geometry/editability/content consistency. No render-quality, animation-readiness or independent acceptance claim."
+}

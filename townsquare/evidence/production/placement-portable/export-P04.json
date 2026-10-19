@@ -1,0 +1,44 @@
+{
+  "component": "P04",
+  "source_native_sha256": "8cf939dc13f9b122270273259bcc2683c02bedd9d1544259b7fd36c1bab7088d",
+  "glb": ".cache/placement-portable-components/GLB/P04.glb",
+  "glb_sha256": "ae9e892db0eff00f5bb39c2d86a3c8304cb4c34667ce7b8308362edcd72fff31",
+  "glb_bytes": 4249168,
+  "expected_geometry": {
+    "mesh_objects": 3,
+    "vertices_instance_sum": 67341,
+    "polygons_instance_sum": 61848,
+    "triangles_instance_sum": 123672,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      2.6053261756896973,
+      -16.245874404907227,
+      0.006000000052154064
+    ],
+    "bounds_max": [
+      17.313106536865234,
+      19.299083709716797,
+      1.617527961730957
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      4,
+      16,
+      28
+    ]
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

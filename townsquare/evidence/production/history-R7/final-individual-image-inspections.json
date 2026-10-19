@@ -1,0 +1,85 @@
+{
+  "scope": "Manual producer original-image inspections after actual separate file opens; not independent acceptance or photographic-realism certification",
+  "inspections": {
+    "D02": {
+      "view_id": "D02",
+      "image": ".cache/final-renders/D02.png",
+      "image_sha256": "8b15d66290574f6847f66b9b4ada188870ae5c08a521d3f5be6f963fac17aae3",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual original2560x1440 separately opened. P03 detached vertical cap strokes are gone after all20 cap parts moved together; P03 hair terminates below hem smoothly, P04 green brim leaves eyes unobscured. Both scarf tails outside coat, hands/face visible, no source defect newly identified. Generic anatomical CG/physical inspection studio, not a claim of12unique scans or photographic realism. Compared actual R6D02 rejected original and R7D02 correction.",
+      "checked_utc": "2026-10-17T07:38:03.138441+00:00",
+      "independent_acceptance": false
+    },
+    "D01": {
+      "view_id": "D01",
+      "image": ".cache/final-renders/D01.png",
+      "image_sha256": "cf87500f2038b3536c4a76a687294a88b5adb64bfdee790f0b0d7606ecf25277",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original separately opened. P01/P02 face details, hair and scarf tails visible; cap/rib assembled silhouette has no protruding detached stitches, scarf stands in front of parka. Intentional bust/upper-body studio framing; eyes and hands anatomically credible CG. No new identified intersection; not claimed photographic or12unique scanned faces.",
+      "checked_utc": "2026-10-17T07:40:18.217215+00:00",
+      "independent_acceptance": false
+    },
+    "D03": {
+      "view_id": "D03",
+      "image": ".cache/final-renders/D03.png",
+      "image_sha256": "2f4365c3d773129187f652aa453717a6f76b0a676f0949287432a0dcb349588a",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original separately opened. P05 grey-haired man and P06 asymmetrical-haired woman: cap hem smooth with no earlier sawtooth spikes or detached rib lines, scarf outside coat, hands/face visible. Intentional asymmetrical hair occludes one eye; licensed generic CG, not photorealism certification.",
+      "checked_utc": "2026-10-17T07:40:18.315202+00:00",
+      "independent_acceptance": false
+    },
+    "D04": {
+      "view_id": "D04",
+      "image": ".cache/final-renders/D04.png",
+      "image_sha256": "fe836628d3e2552598f5605debe657a2725e9dc0dac9a998c59a2bbc68a95024",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original separately opened. P07 green parka/navy cap has coherent cap/rib silhouette and smooth under-hem hair, fitted scarf; P08 uncapped blonde hair intentionally occludes one eye. Hands, face detail and bag handle present; no visible clothing penetration newly identified. Physical isolated studio, not town integration or photographic-realism certification.",
+      "checked_utc": "2026-10-17T07:43:54.882243+00:00",
+      "independent_acceptance": false
+    },
+    "D05": {
+      "view_id": "D05",
+      "image": ".cache/final-renders/D05.png",
+      "image_sha256": "8acb43317b09113b9a143262104334abf7d582790193687873e95f510e11d11e",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "source_native_sha256": "d5ea619e187bb9aa204394f3b7ff09a7dc327ae0b2a0114e43ec3adf3243ab3b",
+      "actual_original_opened": true,
+      "method": "Separate single-file functions.read_file call on actual native-resolution PNG; this record is made manually afterward, not inferred from render completion/contact sheet.",
+      "decision": "PRODUCER_CHECKED",
+      "observed_findings": "Actual2560x1440 original separately opened. P09 lateral temple protrusion removed, all cap/rib elements together; P10 burgundy cap leaves eyes unobscured. Both textured anatomical CG figures/scarf drapes intact; no floating fringe or coat penetration identified at this view. This is12-variant CG inspection, not12unique scans.",
+      "checked_utc": "2026-10-17T07:43:54.964690+00:00",
+      "independent_acceptance": false
+    }
+  }
+}

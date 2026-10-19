@@ -1,0 +1,169 @@
+{
+  "glb": ".cache/groomed-portable-components/Winterlichtplatz-interior-study.glb",
+  "bytes": 175937196,
+  "sha256": "fb2f0d3864134d781e8c3e51e5b0ddb432e30a413b4beb5debe28c1fd9e19fad",
+  "components": [
+    {
+      "file": "B01.glb",
+      "bytes": 22510820,
+      "sha256": "9f4159d16db1a89a75e19d0ac3fda308ef722498ebd1a658ec8a1c21cc127c3e",
+      "binary_offset": 0
+    },
+    {
+      "file": "B02.glb",
+      "bytes": 13943748,
+      "sha256": "f4abeded45a4b53c3529d136e70df1e3636d761f90e97e324d8d41e739b93057",
+      "binary_offset": 21655240
+    },
+    {
+      "file": "B03.glb",
+      "bytes": 10339764,
+      "sha256": "fbd46a03a0ac23e01c414bfb4cb1b30a2f86a16a049ce6608f666970b6ea8740",
+      "binary_offset": 35179936
+    },
+    {
+      "file": "B04.glb",
+      "bytes": 16781040,
+      "sha256": "ca44b8beb399009f5b1e01bcc39f94758aaa9b95cd743d9cfeac3a3562295fc6",
+      "binary_offset": 45298916
+    },
+    {
+      "file": "B05.glb",
+      "bytes": 13036988,
+      "sha256": "cec33ecbad0061c9b68d8b8b9967a55d25303c1f311353974d15183a12d3a92b",
+      "binary_offset": 61823324
+    },
+    {
+      "file": "B06.glb",
+      "bytes": 6809800,
+      "sha256": "98a438b74efc093fbf59a4a6671f8d09dfac61842940a557eb9f23a41c0715f2",
+      "binary_offset": 74506732
+    },
+    {
+      "file": "B07.glb",
+      "bytes": 18202692,
+      "sha256": "406ab46738d397d9e3485d8fe168ef47cd252ebd066967cf519804d9558ce8f2",
+      "binary_offset": 81035404
+    },
+    {
+      "file": "B08.glb",
+      "bytes": 14508092,
+      "sha256": "a74a10e7bc92731a0b98b0f198158dc7405eb3dd93bb7e43d7cfaa2a699badd4",
+      "binary_offset": 98749080
+    },
+    {
+      "file": "B09.glb",
+      "bytes": 12470688,
+      "sha256": "14b78cbe35786538b5836e70db9a05f337e313d0a2d6af47f28f01f937cb47ef",
+      "binary_offset": 113009292
+    },
+    {
+      "file": "B10.glb",
+      "bytes": 8746700,
+      "sha256": "b7140a8386a2f5779563b9259fef6dfaf9dae9e3b03f9700a23be6904bd0dee5",
+      "binary_offset": 125211476
+    },
+    {
+      "file": "B11.glb",
+      "bytes": 12096560,
+      "sha256": "2327b53ee98b1da80534e12cd603b4a17cc47293584fe511a614f42b1a749230",
+      "binary_offset": 133736976
+    },
+    {
+      "file": "B12.glb",
+      "bytes": 16237676,
+      "sha256": "b6a781ccac9d84dca0cc491034daf132fa82eda5067e1d92e095783500d2bad1",
+      "binary_offset": 145573672
+    },
+    {
+      "file": "PUBLIC.glb",
+      "bytes": 19348668,
+      "sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8",
+      "binary_offset": 161501376
+    },
+    {
+      "file": "P01.glb",
+      "bytes": 4035180,
+      "sha256": "c2603c4f2a9a449994f46491199d1c3ab00996c3b58a817f4f9045db5112185d",
+      "binary_offset": 180734376
+    },
+    {
+      "file": "P02.glb",
+      "bytes": 3620024,
+      "sha256": "9caf76c586ed757e8c010f81b188a612504a7b0244e79e96e7b9bb463b60b4e0",
+      "binary_offset": 184754416
+    },
+    {
+      "file": "P03.glb",
+      "bytes": 3553888,
+      "sha256": "258f68c9041c4ab2a23516b56cdfdf6d86641b9269dd6d27f68361a920a73cce",
+      "binary_offset": 188361656
+    },
+    {
+      "file": "P04.glb",
+      "bytes": 4249168,
+      "sha256": "f1ba6a92bec6ac37203f4735fe0cdcac85c5cde08f81aa2ebee84b103d54acc1",
+      "binary_offset": 191902836
+    },
+    {
+      "file": "P05.glb",
+      "bytes": 3607420,
+      "sha256": "6665f88190cefef3e7930117b8be472d2f95b8f97de036efdb319994194ba378",
+      "binary_offset": 196136816
+    },
+    {
+      "file": "P06.glb",
+      "bytes": 13883836,
+      "sha256": "a61e6382e0cf69f4433edc03adb3a51f6f37a4d779afb8d3e334690506dcebc2",
+      "binary_offset": 199731496
+    },
+    {
+      "file": "P07.glb",
+      "bytes": 4047324,
+      "sha256": "e01ec89a5f5c30cde04feddfe9bf39625dfc483eb382acdaf9f02fbc5221d4ea",
+      "binary_offset": 213599000
+    },
+    {
+      "file": "P08.glb",
+      "bytes": 3621244,
+      "sha256": "a4657ebe5eb37ad3342f6460a91ceede6a88a1a3e9db5e2300579c6d20cbe204",
+      "binary_offset": 217631220
+    },
+    {
+      "file": "P09.glb",
+      "bytes": 3557564,
+      "sha256": "603eee33707b5294f01d0e238b470aae935d6402108c62a363cf9ad7122351c1",
+      "binary_offset": 221239708
+    },
+    {
+      "file": "P10.glb",
+      "bytes": 4234880,
+      "sha256": "d98115c611fd2ec04902002206d8949122fa5326de53d49a18d0530e5583db46",
+      "binary_offset": 224784524
+    },
+    {
+      "file": "P11.glb",
+      "bytes": 3610652,
+      "sha256": "892016996baac2f10d0d226723c13ab40e1c0695798e344131052294453e3a50",
+      "binary_offset": 229004232
+    },
+    {
+      "file": "P12.glb",
+      "bytes": 13883640,
+      "sha256": "701568bc2b1b9afc60de966e643993d006952f7421b9e3bdb8bd07191574d3af",
+      "binary_offset": 232602128
+    }
+  ],
+  "nodes": 2653,
+  "meshes": 2288,
+  "images": 101,
+  "extensions_used": [
+    "KHR_materials_anisotropy",
+    "KHR_materials_emissive_strength",
+    "KHR_materials_ior",
+    "KHR_materials_specular",
+    "KHR_materials_transmission"
+  ],
+  "merger": "Index/buffer remapping only; no geometry resampling/decimation/axis change",
+  "clean_reimport": "PENDING"
+}

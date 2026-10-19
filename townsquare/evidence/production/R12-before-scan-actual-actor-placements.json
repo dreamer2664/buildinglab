@@ -1,0 +1,2117 @@
+{
+  "source_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "actors": [
+    {
+      "name": "CROWD_01_P01",
+      "person_id": 1,
+      "variant": "P01",
+      "location": [
+        -3.0,
+        -9.0,
+        0.007891730405390263
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -3.351774215698242,
+          -9.254103660583496,
+          0.006000000052154064
+        ],
+        [
+          -2.5160365104675293,
+          -8.852264404296875,
+          1.7098586559295654
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09685426950454712,
+          -0.1805168092250824,
+          1.4520468711853027
+        ],
+        [
+          0.09670951217412949,
+          0.056060925126075745,
+          1.7019668817520142
+        ]
+      ],
+      "materials": [
+        "P01_ANATOMICAL_BASE.body",
+        "P01_ANATOMICAL_BASE.high-poly",
+        "P01_ANATOMICAL_BASE.eyebrow001",
+        "P01_ANATOMICAL_BASE.eyelashes01",
+        "P01_ANATOMICAL_BASE.teeth_base",
+        "P01_ANATOMICAL_BASE.tongue01",
+        "P01_ANATOMICAL_BASE.short01",
+        "P01_QUILTED_PARKA_AND_JEANS",
+        "P01_ANATOMICAL_BASE.shoes01",
+        "BagPaper",
+        "HandleLeather"
+      ]
+    },
+    {
+      "name": "CROWD_02_P02",
+      "person_id": 2,
+      "variant": "P02",
+      "location": [
+        -1.7999999523162842,
+        -8.5,
+        0.022336961701512337
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.4363323152065277
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -2.1545567512512207,
+          -8.761678695678711,
+          0.0059999991208314896
+        ],
+        [
+          -1.5705528259277344,
+          -8.36013126373291,
+          1.5842928886413574
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10514411330223083,
+          -0.14816218614578247,
+          1.311964988708496
+        ],
+        [
+          0.10514785349369049,
+          0.06999768316745758,
+          1.5619559288024902
+        ]
+      ],
+      "materials": [
+        "P02_ANATOMICAL_BASE.body",
+        "P02_ANATOMICAL_BASE.high-poly",
+        "P02_ANATOMICAL_BASE.eyebrow001",
+        "P02_ANATOMICAL_BASE.eyelashes01",
+        "P02_ANATOMICAL_BASE.teeth_base",
+        "P02_ANATOMICAL_BASE.tongue01",
+        "P02_ANATOMICAL_BASE.bob02",
+        "P02_QUILTED_PARKA_AND_JEANS",
+        "P02_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_03_P03",
+      "person_id": 3,
+      "variant": "P03",
+      "location": [
+        7.0,
+        -8.0,
+        0.0330333337187767
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0471975803375244
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          6.820995330810547,
+          -8.348516464233398,
+          0.006000000983476639
+        ],
+        [
+          7.365246295928955,
+          -7.694474220275879,
+          1.824565052986145
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10475268959999084,
+          -0.16143836081027985,
+          1.541630506515503
+        ],
+        [
+          0.10708261281251907,
+          0.10425516963005066,
+          1.7915316820144653
+        ]
+      ],
+      "materials": [
+        "P03_ANATOMICAL_BASE.body",
+        "P03_ANATOMICAL_BASE.high-poly",
+        "P03_ANATOMICAL_BASE.eyebrow001",
+        "P03_ANATOMICAL_BASE.eyelashes01",
+        "P03_ANATOMICAL_BASE.teeth_base",
+        "P03_ANATOMICAL_BASE.tongue01",
+        "P03_ANATOMICAL_BASE.afro01",
+        "P03_QUILTED_PARKA_AND_JEANS",
+        "P03_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_04_P04",
+      "person_id": 4,
+      "variant": "P04",
+      "location": [
+        8.199999809265137,
+        -7.599999904632568,
+        0.00251297396607697
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.6108652353286743
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          7.841529369354248,
+          -7.902190208435059,
+          0.006000000052154064
+        ],
+        [
+          8.587055206298828,
+          -7.428141117095947,
+          1.617527961730957
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10712704807519913,
+          -0.16238412261009216,
+          1.3650621175765991
+        ],
+        [
+          0.10666082799434662,
+          0.14587463438510895,
+          1.6150150299072266
+        ]
+      ],
+      "materials": [
+        "P04_ANATOMICAL_BASE.body",
+        "P04_ANATOMICAL_BASE.high-poly",
+        "P04_ANATOMICAL_BASE.eyebrow001",
+        "P04_ANATOMICAL_BASE.eyelashes01",
+        "P04_ANATOMICAL_BASE.teeth_base",
+        "P04_ANATOMICAL_BASE.tongue01",
+        "P04_ANATOMICAL_BASE.ponytail01",
+        "P04_QUILTED_PARKA_AND_JEANS",
+        "P04_ANATOMICAL_BASE.shoes01",
+        "BagPaper.001",
+        "HandleLeather.001"
+      ]
+    },
+    {
+      "name": "CROWD_05_P05",
+      "person_id": 5,
+      "variant": "P05",
+      "location": [
+        -13.0,
+        -8.0,
+        0.022379349917173386
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -13.270795822143555,
+          -8.327437400817871,
+          0.0059999991208314896
+        ],
+        [
+          -12.771899223327637,
+          -7.85664701461792,
+          1.6814731359481812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.15853706002235413,
+          -0.15223075449466705,
+          1.4091825485229492
+        ],
+        [
+          0.1585502177476883,
+          0.05471539869904518,
+          1.6590937376022339
+        ]
+      ],
+      "materials": [
+        "P05_ANATOMICAL_BASE.body",
+        "P05_ANATOMICAL_BASE.high-poly",
+        "P05_ANATOMICAL_BASE.eyebrow001",
+        "P05_ANATOMICAL_BASE.eyelashes01",
+        "P05_ANATOMICAL_BASE.teeth_base",
+        "P05_ANATOMICAL_BASE.tongue01",
+        "P05_ANATOMICAL_BASE.short02",
+        "P05_QUILTED_PARKA_AND_JEANS",
+        "P05_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_06_P06",
+      "person_id": 6,
+      "variant": "P06",
+      "location": [
+        -11.800000190734863,
+        -7.5,
+        0.029241526499390602
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.4363323152065277
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -11.999407768249512,
+          -7.921346187591553,
+          0.0059999991208314896
+        ],
+        [
+          -11.543290138244629,
+          -7.306283950805664,
+          1.6153215169906616
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.1442243605852127,
+          -0.1505516767501831,
+          1.3361433744430542
+        ],
+        [
+          0.1442355513572693,
+          0.06539203971624374,
+          1.5860799551010132
+        ]
+      ],
+      "materials": [
+        "P06_ANATOMICAL_BASE.body",
+        "P06_ANATOMICAL_BASE.high-poly",
+        "P06_ANATOMICAL_BASE.eyebrow001",
+        "P06_ANATOMICAL_BASE.eyelashes01",
+        "P06_ANATOMICAL_BASE.teeth_base",
+        "P06_ANATOMICAL_BASE.tongue01",
+        "P06_ANATOMICAL_BASE.braid01",
+        "P06_QUILTED_PARKA_AND_JEANS",
+        "P06_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_07_P07",
+      "person_id": 7,
+      "variant": "P07",
+      "location": [
+        12.0,
+        9.0,
+        0.012264174409210682
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        2.5307273864746094
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          11.592935562133789,
+          8.821907043457031,
+          0.006000000052154064
+        ],
+        [
+          12.423932075500488,
+          9.3690767288208,
+          1.7522486448287964
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09917236864566803,
+          -0.18382593989372253,
+          1.4901074171066284
+        ],
+        [
+          0.09869763255119324,
+          0.057931024581193924,
+          1.7399845123291016
+        ]
+      ],
+      "materials": [
+        "P07_ANATOMICAL_BASE.body",
+        "P07_ANATOMICAL_BASE.high-poly",
+        "P07_ANATOMICAL_BASE.eyebrow001",
+        "P07_ANATOMICAL_BASE.eyelashes01",
+        "P07_ANATOMICAL_BASE.teeth_base",
+        "P07_ANATOMICAL_BASE.tongue01",
+        "P07_ANATOMICAL_BASE.short01",
+        "P07_QUILTED_PARKA_AND_JEANS",
+        "P07_ANATOMICAL_BASE.shoes01",
+        "BagPaper.002",
+        "HandleLeather.002"
+      ]
+    },
+    {
+      "name": "CROWD_08_P08",
+      "person_id": 8,
+      "variant": "P08",
+      "location": [
+        13.199999809265137,
+        9.399999618530273,
+        0.016949735581874847
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.4906585216522217
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          12.933222770690918,
+          9.263164520263672,
+          0.006000000052154064
+        ],
+        [
+          13.411425590515137,
+          9.67502498626709,
+          1.5971513986587524
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10291256755590439,
+          -0.15007366240024567,
+          1.3302149772644043
+        ],
+        [
+          0.10296822339296341,
+          0.07118304073810577,
+          1.5802016258239746
+        ]
+      ],
+      "materials": [
+        "P08_ANATOMICAL_BASE.body",
+        "P08_ANATOMICAL_BASE.high-poly",
+        "P08_ANATOMICAL_BASE.eyebrow001",
+        "P08_ANATOMICAL_BASE.eyelashes01",
+        "P08_ANATOMICAL_BASE.teeth_base",
+        "P08_ANATOMICAL_BASE.tongue01",
+        "P08_ANATOMICAL_BASE.bob02",
+        "P08_QUILTED_PARKA_AND_JEANS",
+        "P08_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_09_P09",
+      "person_id": 9,
+      "variant": "P09",
+      "location": [
+        -13.0,
+        10.0,
+        0.02979273721575737
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -13.27015209197998,
+          9.761741638183594,
+          0.0059999991208314896
+        ],
+        [
+          -12.710636138916016,
+          10.159165382385254,
+          1.7256625890731812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.0958409309387207,
+          -0.15326249599456787,
+          1.4460527896881104
+        ],
+        [
+          0.10855495929718018,
+          0.09897129237651825,
+          1.69586980342865
+        ]
+      ],
+      "materials": [
+        "P09_ANATOMICAL_BASE.body",
+        "P09_ANATOMICAL_BASE.high-poly",
+        "P09_ANATOMICAL_BASE.eyebrow001",
+        "P09_ANATOMICAL_BASE.eyelashes01",
+        "P09_ANATOMICAL_BASE.teeth_base",
+        "P09_ANATOMICAL_BASE.tongue01",
+        "P09_ANATOMICAL_BASE.afro01",
+        "P09_QUILTED_PARKA_AND_JEANS",
+        "P09_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_10_P10",
+      "person_id": 10,
+      "variant": "P10",
+      "location": [
+        -11.800000190734863,
+        10.5,
+        0.0054456801153719425
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -12.142794609069824,
+          10.210671424865723,
+          0.006000000052154064
+        ],
+        [
+          -11.37557601928711,
+          10.642013549804688,
+          1.6299623250961304
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10780289769172668,
+          -0.16323556005954742,
+          1.37469482421875
+        ],
+        [
+          0.10734545439481735,
+          0.14643153548240662,
+          1.6245166063308716
+        ]
+      ],
+      "materials": [
+        "P10_ANATOMICAL_BASE.body",
+        "P10_ANATOMICAL_BASE.high-poly",
+        "P10_ANATOMICAL_BASE.eyebrow001",
+        "P10_ANATOMICAL_BASE.eyelashes01",
+        "P10_ANATOMICAL_BASE.teeth_base",
+        "P10_ANATOMICAL_BASE.tongue01",
+        "P10_ANATOMICAL_BASE.ponytail01",
+        "P10_QUILTED_PARKA_AND_JEANS",
+        "P10_ANATOMICAL_BASE.shoes01",
+        "BagPaper.003",
+        "HandleLeather.003"
+      ]
+    },
+    {
+      "name": "CROWD_11_P11",
+      "person_id": 11,
+      "variant": "P11",
+      "location": [
+        4.0,
+        3.0,
+        0.025688791647553444
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          3.7693519592285156,
+          2.5540688037872314,
+          0.0059999991208314896
+        ],
+        [
+          4.307680130004883,
+          3.2408833503723145,
+          1.751242756843567
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.13159051537513733,
+          -0.15779529511928558,
+          1.4757318496704102
+        ],
+        [
+          0.13159340620040894,
+          0.0529664121568203,
+          1.7255539894104004
+        ]
+      ],
+      "materials": [
+        "P11_ANATOMICAL_BASE.body",
+        "P11_ANATOMICAL_BASE.high-poly",
+        "P11_ANATOMICAL_BASE.eyebrow001",
+        "P11_ANATOMICAL_BASE.eyelashes01",
+        "P11_ANATOMICAL_BASE.teeth_base",
+        "P11_ANATOMICAL_BASE.tongue01",
+        "P11_ANATOMICAL_BASE.short02",
+        "P11_QUILTED_PARKA_AND_JEANS",
+        "P11_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_12_P12",
+      "person_id": 12,
+      "variant": "P12",
+      "location": [
+        5.199999809265137,
+        3.4000000953674316,
+        0.024293147027492523
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.6108652353286743
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          4.93150520324707,
+          3.136821746826172,
+          0.0059999991208314896
+        ],
+        [
+          5.386829376220703,
+          3.5518147945404053,
+          1.5814449787139893
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.16134080290794373,
+          -0.1479395478963852,
+          1.30731201171875
+        ],
+        [
+          0.16134509444236755,
+          0.06419213116168976,
+          1.5571517944335938
+        ]
+      ],
+      "materials": [
+        "P12_ANATOMICAL_BASE.body",
+        "P12_ANATOMICAL_BASE.high-poly",
+        "P12_ANATOMICAL_BASE.eyebrow001",
+        "P12_ANATOMICAL_BASE.eyelashes01",
+        "P12_ANATOMICAL_BASE.teeth_base",
+        "P12_ANATOMICAL_BASE.tongue01",
+        "P12_ANATOMICAL_BASE.braid01",
+        "P12_QUILTED_PARKA_AND_JEANS",
+        "P12_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_13_P01",
+      "person_id": 13,
+      "variant": "P01",
+      "location": [
+        -20.0,
+        19.0,
+        0.007891730405390263
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -20.351774215698242,
+          18.74589729309082,
+          0.006000000052154064
+        ],
+        [
+          -19.516036987304688,
+          19.147735595703125,
+          1.7098586559295654
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09685426950454712,
+          -0.1805168092250824,
+          1.4520468711853027
+        ],
+        [
+          0.09670951217412949,
+          0.056060925126075745,
+          1.7019668817520142
+        ]
+      ],
+      "materials": [
+        "P01_ANATOMICAL_BASE.body",
+        "P01_ANATOMICAL_BASE.high-poly",
+        "P01_ANATOMICAL_BASE.eyebrow001",
+        "P01_ANATOMICAL_BASE.eyelashes01",
+        "P01_ANATOMICAL_BASE.teeth_base",
+        "P01_ANATOMICAL_BASE.tongue01",
+        "P01_ANATOMICAL_BASE.short01",
+        "P01_QUILTED_PARKA_AND_JEANS",
+        "P01_ANATOMICAL_BASE.shoes01",
+        "BagPaper",
+        "HandleLeather"
+      ]
+    },
+    {
+      "name": "CROWD_14_P02",
+      "person_id": 14,
+      "variant": "P02",
+      "location": [
+        -16.0,
+        18.0,
+        0.022336961701512337
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.4363323152065277
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -16.354557037353516,
+          17.73832130432129,
+          0.0059999991208314896
+        ],
+        [
+          -15.770552635192871,
+          18.139867782592773,
+          1.5842928886413574
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10514411330223083,
+          -0.14816218614578247,
+          1.311964988708496
+        ],
+        [
+          0.10514785349369049,
+          0.06999768316745758,
+          1.5619559288024902
+        ]
+      ],
+      "materials": [
+        "P02_ANATOMICAL_BASE.body",
+        "P02_ANATOMICAL_BASE.high-poly",
+        "P02_ANATOMICAL_BASE.eyebrow001",
+        "P02_ANATOMICAL_BASE.eyelashes01",
+        "P02_ANATOMICAL_BASE.teeth_base",
+        "P02_ANATOMICAL_BASE.tongue01",
+        "P02_ANATOMICAL_BASE.bob02",
+        "P02_QUILTED_PARKA_AND_JEANS",
+        "P02_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_15_P03",
+      "person_id": 15,
+      "variant": "P03",
+      "location": [
+        -6.0,
+        18.0,
+        0.0330333337187767
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0471975803375244
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -6.179004669189453,
+          17.6514835357666,
+          0.006000000983476639
+        ],
+        [
+          -5.634753704071045,
+          18.305524826049805,
+          1.824565052986145
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10475268959999084,
+          -0.16143836081027985,
+          1.541630506515503
+        ],
+        [
+          0.10708261281251907,
+          0.10425516963005066,
+          1.7915316820144653
+        ]
+      ],
+      "materials": [
+        "P03_ANATOMICAL_BASE.body",
+        "P03_ANATOMICAL_BASE.high-poly",
+        "P03_ANATOMICAL_BASE.eyebrow001",
+        "P03_ANATOMICAL_BASE.eyelashes01",
+        "P03_ANATOMICAL_BASE.teeth_base",
+        "P03_ANATOMICAL_BASE.tongue01",
+        "P03_ANATOMICAL_BASE.afro01",
+        "P03_QUILTED_PARKA_AND_JEANS",
+        "P03_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_16_P04",
+      "person_id": 16,
+      "variant": "P04",
+      "location": [
+        3.0,
+        19.0,
+        0.00251297396607697
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.6108652353286743
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          2.6415293216705322,
+          18.69780921936035,
+          0.006000000052154064
+        ],
+        [
+          3.3870553970336914,
+          19.171859741210938,
+          1.617527961730957
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10712704807519913,
+          -0.16238412261009216,
+          1.3650621175765991
+        ],
+        [
+          0.10666082799434662,
+          0.14587463438510895,
+          1.6150150299072266
+        ]
+      ],
+      "materials": [
+        "P04_ANATOMICAL_BASE.body",
+        "P04_ANATOMICAL_BASE.high-poly",
+        "P04_ANATOMICAL_BASE.eyebrow001",
+        "P04_ANATOMICAL_BASE.eyelashes01",
+        "P04_ANATOMICAL_BASE.teeth_base",
+        "P04_ANATOMICAL_BASE.tongue01",
+        "P04_ANATOMICAL_BASE.ponytail01",
+        "P04_QUILTED_PARKA_AND_JEANS",
+        "P04_ANATOMICAL_BASE.shoes01",
+        "BagPaper.001",
+        "HandleLeather.001"
+      ]
+    },
+    {
+      "name": "CROWD_17_P05",
+      "person_id": 17,
+      "variant": "P05",
+      "location": [
+        14.0,
+        20.0,
+        0.022379349917173386
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          13.729204177856445,
+          19.672563552856445,
+          0.0059999991208314896
+        ],
+        [
+          14.228100776672363,
+          20.143352508544922,
+          1.6814731359481812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.15853706002235413,
+          -0.15223075449466705,
+          1.4091825485229492
+        ],
+        [
+          0.1585502177476883,
+          0.05471539869904518,
+          1.6590937376022339
+        ]
+      ],
+      "materials": [
+        "P05_ANATOMICAL_BASE.body",
+        "P05_ANATOMICAL_BASE.high-poly",
+        "P05_ANATOMICAL_BASE.eyebrow001",
+        "P05_ANATOMICAL_BASE.eyelashes01",
+        "P05_ANATOMICAL_BASE.teeth_base",
+        "P05_ANATOMICAL_BASE.tongue01",
+        "P05_ANATOMICAL_BASE.short02",
+        "P05_QUILTED_PARKA_AND_JEANS",
+        "P05_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_18_P06",
+      "person_id": 18,
+      "variant": "P06",
+      "location": [
+        21.0,
+        18.0,
+        0.029241526499390602
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.4363323152065277
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          20.80059242248535,
+          17.57865333557129,
+          0.0059999991208314896
+        ],
+        [
+          21.256710052490234,
+          18.193716049194336,
+          1.6153215169906616
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.1442243605852127,
+          -0.1505516767501831,
+          1.3361433744430542
+        ],
+        [
+          0.1442355513572693,
+          0.06539203971624374,
+          1.5860799551010132
+        ]
+      ],
+      "materials": [
+        "P06_ANATOMICAL_BASE.body",
+        "P06_ANATOMICAL_BASE.high-poly",
+        "P06_ANATOMICAL_BASE.eyebrow001",
+        "P06_ANATOMICAL_BASE.eyelashes01",
+        "P06_ANATOMICAL_BASE.teeth_base",
+        "P06_ANATOMICAL_BASE.tongue01",
+        "P06_ANATOMICAL_BASE.braid01",
+        "P06_QUILTED_PARKA_AND_JEANS",
+        "P06_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_19_P07",
+      "person_id": 19,
+      "variant": "P07",
+      "location": [
+        -22.0,
+        -19.0,
+        0.012264174409210682
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        2.5307273864746094
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -22.40706443786621,
+          -19.17809295654297,
+          0.006000000052154064
+        ],
+        [
+          -21.576066970825195,
+          -18.630924224853516,
+          1.7522486448287964
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09917236864566803,
+          -0.18382593989372253,
+          1.4901074171066284
+        ],
+        [
+          0.09869763255119324,
+          0.057931024581193924,
+          1.7399845123291016
+        ]
+      ],
+      "materials": [
+        "P07_ANATOMICAL_BASE.body",
+        "P07_ANATOMICAL_BASE.high-poly",
+        "P07_ANATOMICAL_BASE.eyebrow001",
+        "P07_ANATOMICAL_BASE.eyelashes01",
+        "P07_ANATOMICAL_BASE.teeth_base",
+        "P07_ANATOMICAL_BASE.tongue01",
+        "P07_ANATOMICAL_BASE.short01",
+        "P07_QUILTED_PARKA_AND_JEANS",
+        "P07_ANATOMICAL_BASE.shoes01",
+        "BagPaper.002",
+        "HandleLeather.002"
+      ]
+    },
+    {
+      "name": "CROWD_20_P08",
+      "person_id": 20,
+      "variant": "P08",
+      "location": [
+        -16.0,
+        -19.0,
+        0.016949735581874847
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.4906585216522217
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -16.26677703857422,
+          -19.1368350982666,
+          0.006000000052154064
+        ],
+        [
+          -15.78857421875,
+          -18.7249755859375,
+          1.5971513986587524
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10291256755590439,
+          -0.15007366240024567,
+          1.3302149772644043
+        ],
+        [
+          0.10296822339296341,
+          0.07118304073810577,
+          1.5802016258239746
+        ]
+      ],
+      "materials": [
+        "P08_ANATOMICAL_BASE.body",
+        "P08_ANATOMICAL_BASE.high-poly",
+        "P08_ANATOMICAL_BASE.eyebrow001",
+        "P08_ANATOMICAL_BASE.eyelashes01",
+        "P08_ANATOMICAL_BASE.teeth_base",
+        "P08_ANATOMICAL_BASE.tongue01",
+        "P08_ANATOMICAL_BASE.bob02",
+        "P08_QUILTED_PARKA_AND_JEANS",
+        "P08_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_21_P09",
+      "person_id": 21,
+      "variant": "P09",
+      "location": [
+        -5.0,
+        -19.0,
+        0.02979273721575737
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -5.2701520919799805,
+          -19.238258361816406,
+          0.0059999991208314896
+        ],
+        [
+          -4.710636138916016,
+          -18.840835571289062,
+          1.7256625890731812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.0958409309387207,
+          -0.15326249599456787,
+          1.4460527896881104
+        ],
+        [
+          0.10855495929718018,
+          0.09897129237651825,
+          1.69586980342865
+        ]
+      ],
+      "materials": [
+        "P09_ANATOMICAL_BASE.body",
+        "P09_ANATOMICAL_BASE.high-poly",
+        "P09_ANATOMICAL_BASE.eyebrow001",
+        "P09_ANATOMICAL_BASE.eyelashes01",
+        "P09_ANATOMICAL_BASE.teeth_base",
+        "P09_ANATOMICAL_BASE.tongue01",
+        "P09_ANATOMICAL_BASE.afro01",
+        "P09_QUILTED_PARKA_AND_JEANS",
+        "P09_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_22_P10",
+      "person_id": 22,
+      "variant": "P10",
+      "location": [
+        4.0,
+        -19.0,
+        0.0054456801153719425
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          3.657205581665039,
+          -19.28932762145996,
+          0.006000000052154064
+        ],
+        [
+          4.424424171447754,
+          -18.857986450195312,
+          1.6299623250961304
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10780289769172668,
+          -0.16323556005954742,
+          1.37469482421875
+        ],
+        [
+          0.10734545439481735,
+          0.14643153548240662,
+          1.6245166063308716
+        ]
+      ],
+      "materials": [
+        "P10_ANATOMICAL_BASE.body",
+        "P10_ANATOMICAL_BASE.high-poly",
+        "P10_ANATOMICAL_BASE.eyebrow001",
+        "P10_ANATOMICAL_BASE.eyelashes01",
+        "P10_ANATOMICAL_BASE.teeth_base",
+        "P10_ANATOMICAL_BASE.tongue01",
+        "P10_ANATOMICAL_BASE.ponytail01",
+        "P10_QUILTED_PARKA_AND_JEANS",
+        "P10_ANATOMICAL_BASE.shoes01",
+        "BagPaper.003",
+        "HandleLeather.003"
+      ]
+    },
+    {
+      "name": "CROWD_23_P11",
+      "person_id": 23,
+      "variant": "P11",
+      "location": [
+        12.0,
+        -20.0,
+        0.025688791647553444
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          11.769351959228516,
+          -20.44593048095703,
+          0.0059999991208314896
+        ],
+        [
+          12.307680130004883,
+          -19.759117126464844,
+          1.751242756843567
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.13159051537513733,
+          -0.15779529511928558,
+          1.4757318496704102
+        ],
+        [
+          0.13159340620040894,
+          0.0529664121568203,
+          1.7255539894104004
+        ]
+      ],
+      "materials": [
+        "P11_ANATOMICAL_BASE.body",
+        "P11_ANATOMICAL_BASE.high-poly",
+        "P11_ANATOMICAL_BASE.eyebrow001",
+        "P11_ANATOMICAL_BASE.eyelashes01",
+        "P11_ANATOMICAL_BASE.teeth_base",
+        "P11_ANATOMICAL_BASE.tongue01",
+        "P11_ANATOMICAL_BASE.short02",
+        "P11_QUILTED_PARKA_AND_JEANS",
+        "P11_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_24_P12",
+      "person_id": 24,
+      "variant": "P12",
+      "location": [
+        22.0,
+        -18.0,
+        0.024293147027492523
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.6108652353286743
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          21.731504440307617,
+          -18.2631778717041,
+          0.0059999991208314896
+        ],
+        [
+          22.186830520629883,
+          -17.84818458557129,
+          1.5814449787139893
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.16134080290794373,
+          -0.1479395478963852,
+          1.30731201171875
+        ],
+        [
+          0.16134509444236755,
+          0.06419213116168976,
+          1.5571517944335938
+        ]
+      ],
+      "materials": [
+        "P12_ANATOMICAL_BASE.body",
+        "P12_ANATOMICAL_BASE.high-poly",
+        "P12_ANATOMICAL_BASE.eyebrow001",
+        "P12_ANATOMICAL_BASE.eyelashes01",
+        "P12_ANATOMICAL_BASE.teeth_base",
+        "P12_ANATOMICAL_BASE.tongue01",
+        "P12_ANATOMICAL_BASE.braid01",
+        "P12_QUILTED_PARKA_AND_JEANS",
+        "P12_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_25_P01",
+      "person_id": 25,
+      "variant": "P01",
+      "location": [
+        -17.0,
+        -16.100000381469727,
+        0.007891730405390263
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -17.473617553710938,
+          -16.237045288085938,
+          0.006000000052154064
+        ],
+        [
+          -16.64568328857422,
+          -15.890752792358398,
+          1.7098586559295654
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09685426950454712,
+          -0.1805168092250824,
+          1.4520468711853027
+        ],
+        [
+          0.09670951217412949,
+          0.056060925126075745,
+          1.7019668817520142
+        ]
+      ],
+      "materials": [
+        "P01_ANATOMICAL_BASE.body",
+        "P01_ANATOMICAL_BASE.high-poly",
+        "P01_ANATOMICAL_BASE.eyebrow001",
+        "P01_ANATOMICAL_BASE.eyelashes01",
+        "P01_ANATOMICAL_BASE.teeth_base",
+        "P01_ANATOMICAL_BASE.tongue01",
+        "P01_ANATOMICAL_BASE.short01",
+        "P01_QUILTED_PARKA_AND_JEANS",
+        "P01_ANATOMICAL_BASE.shoes01",
+        "BagPaper",
+        "HandleLeather"
+      ]
+    },
+    {
+      "name": "CROWD_26_P02",
+      "person_id": 26,
+      "variant": "P02",
+      "location": [
+        -9.0,
+        -16.100000381469727,
+        0.022336961701512337
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -9.229172706604004,
+          -16.22759437561035,
+          0.0059999991208314896
+        ],
+        [
+          -8.749869346618652,
+          -15.731346130371094,
+          1.5842928886413574
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10514411330223083,
+          -0.14816218614578247,
+          1.311964988708496
+        ],
+        [
+          0.10514785349369049,
+          0.06999768316745758,
+          1.5619559288024902
+        ]
+      ],
+      "materials": [
+        "P02_ANATOMICAL_BASE.body",
+        "P02_ANATOMICAL_BASE.high-poly",
+        "P02_ANATOMICAL_BASE.eyebrow001",
+        "P02_ANATOMICAL_BASE.eyelashes01",
+        "P02_ANATOMICAL_BASE.teeth_base",
+        "P02_ANATOMICAL_BASE.tongue01",
+        "P02_ANATOMICAL_BASE.bob02",
+        "P02_QUILTED_PARKA_AND_JEANS",
+        "P02_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_27_P03",
+      "person_id": 27,
+      "variant": "P03",
+      "location": [
+        8.0,
+        -16.100000381469727,
+        0.0330333337187767
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          7.713397026062012,
+          -16.284982681274414,
+          0.006000000983476639
+        ],
+        [
+          8.275882720947266,
+          -15.699012756347656,
+          1.824565052986145
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10475268959999084,
+          -0.16143836081027985,
+          1.541630506515503
+        ],
+        [
+          0.10708261281251907,
+          0.10425516963005066,
+          1.7915316820144653
+        ]
+      ],
+      "materials": [
+        "P03_ANATOMICAL_BASE.body",
+        "P03_ANATOMICAL_BASE.high-poly",
+        "P03_ANATOMICAL_BASE.eyebrow001",
+        "P03_ANATOMICAL_BASE.eyelashes01",
+        "P03_ANATOMICAL_BASE.teeth_base",
+        "P03_ANATOMICAL_BASE.tongue01",
+        "P03_ANATOMICAL_BASE.afro01",
+        "P03_QUILTED_PARKA_AND_JEANS",
+        "P03_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_28_P04",
+      "person_id": 28,
+      "variant": "P04",
+      "location": [
+        17.0,
+        -16.100000381469727,
+        0.00251297396607697
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          16.5749568939209,
+          -16.245874404907227,
+          0.006000000052154064
+        ],
+        [
+          17.313106536865234,
+          -15.859068870544434,
+          1.617527961730957
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10712704807519913,
+          -0.16238412261009216,
+          1.3650621175765991
+        ],
+        [
+          0.10666082799434662,
+          0.14587463438510895,
+          1.6150150299072266
+        ]
+      ],
+      "materials": [
+        "P04_ANATOMICAL_BASE.body",
+        "P04_ANATOMICAL_BASE.high-poly",
+        "P04_ANATOMICAL_BASE.eyebrow001",
+        "P04_ANATOMICAL_BASE.eyelashes01",
+        "P04_ANATOMICAL_BASE.teeth_base",
+        "P04_ANATOMICAL_BASE.tongue01",
+        "P04_ANATOMICAL_BASE.ponytail01",
+        "P04_QUILTED_PARKA_AND_JEANS",
+        "P04_ANATOMICAL_BASE.shoes01",
+        "BagPaper.001",
+        "HandleLeather.001"
+      ]
+    },
+    {
+      "name": "CROWD_29_P05",
+      "person_id": 29,
+      "variant": "P05",
+      "location": [
+        -17.0,
+        16.100000381469727,
+        0.022379349917173386
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -17.263877868652344,
+          15.806779861450195,
+          0.0059999991208314896
+        ],
+        [
+          -16.745529174804688,
+          16.2333927154541,
+          1.6814731359481812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.15853706002235413,
+          -0.15223075449466705,
+          1.4091825485229492
+        ],
+        [
+          0.1585502177476883,
+          0.05471539869904518,
+          1.6590937376022339
+        ]
+      ],
+      "materials": [
+        "P05_ANATOMICAL_BASE.body",
+        "P05_ANATOMICAL_BASE.high-poly",
+        "P05_ANATOMICAL_BASE.eyebrow001",
+        "P05_ANATOMICAL_BASE.eyelashes01",
+        "P05_ANATOMICAL_BASE.teeth_base",
+        "P05_ANATOMICAL_BASE.tongue01",
+        "P05_ANATOMICAL_BASE.short02",
+        "P05_QUILTED_PARKA_AND_JEANS",
+        "P05_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_30_P06",
+      "person_id": 30,
+      "variant": "P06",
+      "location": [
+        -9.0,
+        16.100000381469727,
+        0.029241526499390602
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -9.243928909301758,
+          15.722678184509277,
+          0.0059999991208314896
+        ],
+        [
+          -8.775481224060059,
+          16.234619140625,
+          1.6153215169906616
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.1442243605852127,
+          -0.1505516767501831,
+          1.3361433744430542
+        ],
+        [
+          0.1442355513572693,
+          0.06539203971624374,
+          1.5860799551010132
+        ]
+      ],
+      "materials": [
+        "P06_ANATOMICAL_BASE.body",
+        "P06_ANATOMICAL_BASE.high-poly",
+        "P06_ANATOMICAL_BASE.eyebrow001",
+        "P06_ANATOMICAL_BASE.eyelashes01",
+        "P06_ANATOMICAL_BASE.teeth_base",
+        "P06_ANATOMICAL_BASE.tongue01",
+        "P06_ANATOMICAL_BASE.braid01",
+        "P06_QUILTED_PARKA_AND_JEANS",
+        "P06_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_31_P07",
+      "person_id": 31,
+      "variant": "P07",
+      "location": [
+        8.0,
+        16.100000381469727,
+        0.012264174409210682
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          7.652283191680908,
+          15.696805953979492,
+          0.006000000052154064
+        ],
+        [
+          8.484182357788086,
+          16.273488998413086,
+          1.7522486448287964
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.09917236864566803,
+          -0.18382593989372253,
+          1.4901074171066284
+        ],
+        [
+          0.09869763255119324,
+          0.057931024581193924,
+          1.7399845123291016
+        ]
+      ],
+      "materials": [
+        "P07_ANATOMICAL_BASE.body",
+        "P07_ANATOMICAL_BASE.high-poly",
+        "P07_ANATOMICAL_BASE.eyebrow001",
+        "P07_ANATOMICAL_BASE.eyelashes01",
+        "P07_ANATOMICAL_BASE.teeth_base",
+        "P07_ANATOMICAL_BASE.tongue01",
+        "P07_ANATOMICAL_BASE.short01",
+        "P07_QUILTED_PARKA_AND_JEANS",
+        "P07_ANATOMICAL_BASE.shoes01",
+        "BagPaper.002",
+        "HandleLeather.002"
+      ]
+    },
+    {
+      "name": "CROWD_32_P08",
+      "person_id": 32,
+      "variant": "P08",
+      "location": [
+        17.0,
+        16.100000381469727,
+        0.016949735581874847
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          16.764936447143555,
+          15.862346649169922,
+          0.006000000052154064
+        ],
+        [
+          17.235063552856445,
+          16.226762771606445,
+          1.5971513986587524
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10291256755590439,
+          -0.15007366240024567,
+          1.3302149772644043
+        ],
+        [
+          0.10296822339296341,
+          0.07118304073810577,
+          1.5802016258239746
+        ]
+      ],
+      "materials": [
+        "P08_ANATOMICAL_BASE.body",
+        "P08_ANATOMICAL_BASE.high-poly",
+        "P08_ANATOMICAL_BASE.eyebrow001",
+        "P08_ANATOMICAL_BASE.eyelashes01",
+        "P08_ANATOMICAL_BASE.teeth_base",
+        "P08_ANATOMICAL_BASE.tongue01",
+        "P08_ANATOMICAL_BASE.bob02",
+        "P08_QUILTED_PARKA_AND_JEANS",
+        "P08_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_33_P09",
+      "person_id": 33,
+      "variant": "P09",
+      "location": [
+        -26.0,
+        5.0,
+        0.02979273721575737
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.2617993950843811
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -26.270151138305664,
+          4.761742115020752,
+          0.0059999991208314896
+        ],
+        [
+          -25.710636138916016,
+          5.159164905548096,
+          1.7256625890731812
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.0958409309387207,
+          -0.15326249599456787,
+          1.4460527896881104
+        ],
+        [
+          0.10855495929718018,
+          0.09897129237651825,
+          1.69586980342865
+        ]
+      ],
+      "materials": [
+        "P09_ANATOMICAL_BASE.body",
+        "P09_ANATOMICAL_BASE.high-poly",
+        "P09_ANATOMICAL_BASE.eyebrow001",
+        "P09_ANATOMICAL_BASE.eyelashes01",
+        "P09_ANATOMICAL_BASE.teeth_base",
+        "P09_ANATOMICAL_BASE.tongue01",
+        "P09_ANATOMICAL_BASE.afro01",
+        "P09_QUILTED_PARKA_AND_JEANS",
+        "P09_ANATOMICAL_BASE.shoes03"
+      ]
+    },
+    {
+      "name": "CROWD_34_P10",
+      "person_id": 34,
+      "variant": "P10",
+      "location": [
+        26.0,
+        -10.0,
+        0.0054456801153719425
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          25.65720558166504,
+          -10.289328575134277,
+          0.006000000052154064
+        ],
+        [
+          26.424423217773438,
+          -9.857986450195312,
+          1.6299623250961304
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.10780289769172668,
+          -0.16323556005954742,
+          1.37469482421875
+        ],
+        [
+          0.10734545439481735,
+          0.14643153548240662,
+          1.6245166063308716
+        ]
+      ],
+      "materials": [
+        "P10_ANATOMICAL_BASE.body",
+        "P10_ANATOMICAL_BASE.high-poly",
+        "P10_ANATOMICAL_BASE.eyebrow001",
+        "P10_ANATOMICAL_BASE.eyelashes01",
+        "P10_ANATOMICAL_BASE.teeth_base",
+        "P10_ANATOMICAL_BASE.tongue01",
+        "P10_ANATOMICAL_BASE.ponytail01",
+        "P10_QUILTED_PARKA_AND_JEANS",
+        "P10_ANATOMICAL_BASE.shoes01",
+        "BagPaper.003",
+        "HandleLeather.003"
+      ]
+    },
+    {
+      "name": "CROWD_35_P11",
+      "person_id": 35,
+      "variant": "P11",
+      "location": [
+        -4.0,
+        22.0,
+        0.025688791647553444
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3490658402442932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -4.230648040771484,
+          21.55406951904297,
+          0.0059999991208314896
+        ],
+        [
+          -3.692319869995117,
+          22.240882873535156,
+          1.751242756843567
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.13159051537513733,
+          -0.15779529511928558,
+          1.4757318496704102
+        ],
+        [
+          0.13159340620040894,
+          0.0529664121568203,
+          1.7255539894104004
+        ]
+      ],
+      "materials": [
+        "P11_ANATOMICAL_BASE.body",
+        "P11_ANATOMICAL_BASE.high-poly",
+        "P11_ANATOMICAL_BASE.eyebrow001",
+        "P11_ANATOMICAL_BASE.eyelashes01",
+        "P11_ANATOMICAL_BASE.teeth_base",
+        "P11_ANATOMICAL_BASE.tongue01",
+        "P11_ANATOMICAL_BASE.short02",
+        "P11_QUILTED_PARKA_AND_JEANS",
+        "P11_ANATOMICAL_BASE.shoes02"
+      ]
+    },
+    {
+      "name": "CROWD_36_P12",
+      "person_id": 36,
+      "variant": "P12",
+      "location": [
+        20.0,
+        -23.0,
+        0.024293147027492523
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.6108652353286743
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          19.731504440307617,
+          -23.2631778717041,
+          0.0059999991208314896
+        ],
+        [
+          20.186830520629883,
+          -22.84818458557129,
+          1.5814449787139893
+        ]
+      ],
+      "actual_eye_materials": [],
+      "eye_vertex_count": 0,
+      "eye_local_centroid": null,
+      "head_local_bounds": [
+        [
+          -0.16134080290794373,
+          -0.1479395478963852,
+          1.30731201171875
+        ],
+        [
+          0.16134509444236755,
+          0.06419213116168976,
+          1.5571517944335938
+        ]
+      ],
+      "materials": [
+        "P12_ANATOMICAL_BASE.body",
+        "P12_ANATOMICAL_BASE.high-poly",
+        "P12_ANATOMICAL_BASE.eyebrow001",
+        "P12_ANATOMICAL_BASE.eyelashes01",
+        "P12_ANATOMICAL_BASE.teeth_base",
+        "P12_ANATOMICAL_BASE.tongue01",
+        "P12_ANATOMICAL_BASE.braid01",
+        "P12_QUILTED_PARKA_AND_JEANS",
+        "P12_ANATOMICAL_BASE.shoes03"
+      ]
+    }
+  ]
+}

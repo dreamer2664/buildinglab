@@ -1,0 +1,407 @@
+{
+  "stage": "ACTUAL_RENDERS_OF_CURRENT_EDITABLE_SOURCE - NOT INDEPENDENT ACCEPTANCE",
+  "source_full_native_sha256": "cba9993806b615cc421cfa3ac71d88d5cda2bb351f3626e2275cd07bcd975890",
+  "views": [
+    {
+      "view": "B01_exterior",
+      "title": "MARKTGRUEN / Neighbourhood supermarket exterior",
+      "image": "evidence/current-production/B01_exterior.png",
+      "bytes": 1778484,
+      "sha256": "c5e4c502c8844c14c823f1bd78574369200f3804310a578a84743575d14d7d08",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -4.702,
+        7.932,
+        4.359
+      ],
+      "target": [
+        -20.0,
+        33.739,
+        7.025
+      ],
+      "lens_mm": 21.54,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B02_exterior",
+      "title": "KRUME & KORN / Bakery exterior",
+      "image": "evidence/current-production/B02_exterior.png",
+      "bytes": 1853641,
+      "sha256": "29a9dd2362bd1b863c52e26ee17f556a4f4cefe3e646109cbbb6afcfdb59be41",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -6.237,
+        4.217,
+        3.504
+      ],
+      "target": [
+        0.0,
+        33.561,
+        5.6
+      ],
+      "lens_mm": 29.4,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B03_exterior",
+      "title": "KESSEL & KAKAO / Cafe exterior",
+      "image": "evidence/current-production/B03_exterior.png",
+      "bytes": 1759596,
+      "sha256": "e71890c5aa4aed162dd7011c504ee16b59d73a6ab758dc3c3c2c092b72c126aa",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        21.063,
+        14.591,
+        3.609
+      ],
+      "target": [
+        20.0,
+        33.561,
+        5.775
+      ],
+      "lens_mm": 15.13,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B04_exterior",
+      "title": "FABELHAUS / Bookshop exterior",
+      "image": "evidence/current-production/B04_exterior.png",
+      "bytes": 1731547,
+      "sha256": "faa1df7d57526bc2a62258e6e61c0743dc3e3536af20d4838823962b668e17bb",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -1.127,
+        -0.509,
+        3.399
+      ],
+      "target": [
+        39.89,
+        18.0,
+        5.425
+      ],
+      "lens_mm": 52.45,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B05_exterior",
+      "title": "TANNENGRUEN / Florist exterior",
+      "image": "evidence/current-production/B05_exterior.png",
+      "bytes": 1679908,
+      "sha256": "e08830a4619df0d1fcc6536ff0fc1d423fecb9a607e4a67b3cdd4c6241e83fbe",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -5.439,
+        0.0,
+        3.504
+      ],
+      "target": [
+        39.561,
+        0.0,
+        5.6
+      ],
+      "lens_mm": 55.51,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B06_exterior",
+      "title": "FADENWERK / Clothing and knitwear exterior",
+      "image": "evidence/current-production/B06_exterior.png",
+      "bytes": 1741624,
+      "sha256": "38755fc61455ad4795022a92465106ce4c8db34861e1d18d297fa3193a8f79c5",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -4.217,
+        -8.361,
+        3.609
+      ],
+      "target": [
+        39.739,
+        -18.0,
+        5.775
+      ],
+      "lens_mm": 51.27,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B07_exterior",
+      "title": "HAUS ABENDROT / Boutique hotel exterior",
+      "image": "evidence/current-production/B07_exterior.png",
+      "bytes": 1744501,
+      "sha256": "a2213876940705797e0de9b8e87cd2dd1b13a44c116810827bf8ae53fe6b337c",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        22.711,
+        11.028,
+        5.157
+      ],
+      "target": [
+        20.0,
+        -33.89,
+        8.355
+      ],
+      "lens_mm": 37.81,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B08_exterior",
+      "title": "LICHTSPIEL / Toy shop exterior",
+      "image": "evidence/current-production/B08_exterior.png",
+      "bytes": 1772008,
+      "sha256": "477aaa3e0ee4bac8a472244e58c0daeb8e7f30e49370d0afeac40ab4c105b361",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -7.693,
+        2.63,
+        3.504
+      ],
+      "target": [
+        0.0,
+        -33.561,
+        5.6
+      ],
+      "lens_mm": 39.94,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B09_exterior",
+      "title": "GOLDFADEN / Jewellery and craft exterior",
+      "image": "evidence/current-production/B09_exterior.png",
+      "bytes": 1761148,
+      "sha256": "a0cb2d4071fa0a73be3d21f925ee590ad281179269c749fdae483d41ad76d656",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -18.005,
+        9.215,
+        7.218
+      ],
+      "target": [
+        -20.0,
+        -33.739,
+        5.775
+      ],
+      "lens_mm": 51.33,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B10_exterior",
+      "title": "STERNBLICK / Pharmacy exterior",
+      "image": "evidence/current-production/B10_exterior.png",
+      "bytes": 1842603,
+      "sha256": "df865a006c566639397f38cd17f31c9313b6bfa63593d9cc4124ae1cce3834eb",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        -10.066,
+        3.898,
+        3.399
+      ],
+      "target": [
+        -39.89,
+        -18.0,
+        5.425
+      ],
+      "lens_mm": 38.58,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B11_exterior",
+      "title": "NORDRAD / Cycle shop exterior",
+      "image": "evidence/current-production/B11_exterior.png",
+      "bytes": 1898019,
+      "sha256": "6f8fc5098d4e6bafb59e61e4738c620589fbd01683273f1c9f2d2677719cf558",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        1.985,
+        16.857,
+        3.504
+      ],
+      "target": [
+        -39.739,
+        0.0,
+        5.6
+      ],
+      "lens_mm": 50.99,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "B12_exterior",
+      "title": "WINTERPOST / Stationery and parcel shop exterior",
+      "image": "evidence/current-production/B12_exterior.png",
+      "bytes": 1848407,
+      "sha256": "b4739a86ff53f386a92739c2ba4de9a86492701acc12bad9950980f4c56204ab",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 14,
+      "camera": [
+        1.398,
+        -0.636,
+        3.609
+      ],
+      "target": [
+        -39.561,
+        18.0,
+        5.775
+      ],
+      "lens_mm": 48.88,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "V01",
+      "title": "Whole village / elevated view 1",
+      "image": "evidence/current-production/V01.png",
+      "bytes": 1798618,
+      "sha256": "34e482c041b8d33459c4cb1659ab34c2422ee302282fc0cb5aaefd8ed23b0068",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "camera": [
+        77.819,
+        54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "V02",
+      "title": "Whole village / elevated view 2",
+      "image": "evidence/current-production/V02.png",
+      "bytes": 1816683,
+      "sha256": "ce1e2b387b4083db94f0218d7b3b02f36e8f3354b90f337dc7526807ec77f10e",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "camera": [
+        -51.622,
+        73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "V03",
+      "title": "Whole village / elevated view 3",
+      "image": "evidence/current-production/V03.png",
+      "bytes": 1826995,
+      "sha256": "358f3661a5353dd4f7d849c9bce1c10343a2eef5f776e36b525829009f3a773b",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "camera": [
+        -77.819,
+        -54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    },
+    {
+      "view": "V04",
+      "title": "Whole village / elevated view 4",
+      "image": "evidence/current-production/V04.png",
+      "bytes": 1774382,
+      "sha256": "08d01d2e93b0991922f3033ee0c53c3cfd562cdb4431cd656977f36b3aba500a",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "samples": 12,
+      "camera": [
+        51.622,
+        -73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "source_native_sha256": "435b44df07dc42585ecb512d384894e0c5fda642de14e5283199ea6c831be70c",
+      "inspection": "opened individually; see evidence/production/R14-gallery-inspections.json"
+    }
+  ],
+  "count": 16
+}

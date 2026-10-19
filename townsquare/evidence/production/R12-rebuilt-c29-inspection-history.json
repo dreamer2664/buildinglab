@@ -1,0 +1,1098 @@
+{
+  "stage": "ACTUAL_SAVED_RECONSTRUCTION_NOT_PROMOTED",
+  "base_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "native": ".cache/rebuilt-interiors/Winterlichtplatz-rebuilt-interiors-UNPROMOTED.blend",
+  "native_sha256": "c29eceffeb2371bf6cbb47e0046a9a4dcbda995cd5665ed048f6dc499ad9c6d8",
+  "native_bytes": 229415513,
+  "actual_finished_room_ids": 164,
+  "finished_rooms_without_furniture": [],
+  "actual_changes": [
+    {
+      "floor": "B02_L02",
+      "actual_theme": "Baker guest bedroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B02__B02_L02__B02_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.950000762939453,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660156,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246094,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B04_L02",
+      "actual_theme": "Illustrator drawing studio",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B04__B04_L02__B04_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.350000381469727,
+              -2.9499969482421875,
+              -4.7683715642676816e-08
+            ],
+            [
+              -1.8500003814697266,
+              -0.7843666076660154,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -4.700000762939453,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.5343704223632812,
+              -0.09999656677246072,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B05_L02",
+      "actual_theme": "Planted conservatory",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B08_L02",
+      "actual_theme": "Child bedroom and play",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B08__B08_L02__B08_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B09_L02",
+      "actual_theme": "Maker workroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B09__B09_L02__B09_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.850000381469727,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3500003814697266,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.200004577636719,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.0343704223632812,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B11_L02",
+      "actual_theme": "Cycle and outdoor gear room",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B12_L02",
+      "actual_theme": "Writer library and study",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -7.569999694824219,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -5.729999542236328,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -7.719999694824218,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -5.879999542236328,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -0.14999999999999947,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -1.9950008392333984,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -0.1550006866455078,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -3.215000839233398,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          -1.3750006866455076,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -1.2199999999999998,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L01__B03_L01_SALES__furniture",
+      "tag": "Original_cafe_complete_seating_column_away_from_bar",
+      "actual_vertices_rigidly_moved": 1104,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          3.5799999237060547,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          5.420000076293945,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.2799999237060549,
+          -5.310001373291016,
+          0.038267992436885834
+        ],
+        [
+          3.1200000762939455,
+          -1.6149978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -2.3,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03_L01__R3_ORIGINAL_FURNITURE",
+      "tag": "Additional_cafe_two_seat_columns_into_actual_intercolumn_aisles",
+      "actual_vertices_rigidly_moved": 3520,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          0.6750011444091797,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          1.5249996185302734,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.974998855590821,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          -4.125000381469727,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -5.65,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03_L01__R3_ORIGINAL_FURNITURE",
+      "tag": "Additional_cafe_two_seat_columns_into_actual_intercolumn_aisles",
+      "actual_vertices_rigidly_moved": 3520,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          3.575000762939453,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          4.424999237060547,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -0.4749992370605467,
+          -5.459999084472656,
+          0.03826797008514404
+        ],
+        [
+          0.37499923706054705,
+          -0.7399978637695312,
+          0.940000057220459
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        -4.05,
+        0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B03__B03_L02__B03_L02_FRONT_A__furniture",
+      "tag": "Reading_sofa_clear_of_hall_entry",
+      "actual_vertices_rigidly_moved": 1389,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -5.962499618530273,
+          -0.04300689697265625,
+          -4.7683715642676816e-08
+        ],
+        [
+          -3.5625,
+          1.0430030822753906,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -5.962499618530273,
+          -1.0930068969726563,
+          -4.7683715642676816e-08
+        ],
+        [
+          -3.5625,
+          -0.006996917724609419,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.05,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_SLEEP__furniture",
+      "tag": "Hotel_left_bed_rug_nightstands_clear_of_hall_entry",
+      "actual_vertices_rigidly_moved": 440,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -5.844999313354492,
+          -2.3499984741210946,
+          0.015999984741211115
+        ],
+        [
+          -2.905000686645508,
+          1.255001068115234,
+          1.2349998474121096
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -5.844999313354492,
+          -3.3499984741210946,
+          0.015999984741211115
+        ],
+        [
+          -2.905000686645508,
+          0.25500106811523393,
+          1.2349998474121096
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "floor": "B07_L03",
+      "room": "SUITE_-1_SLEEP",
+      "old_furniture_batches_actually_removed": 1,
+      "actual_replacement": "Two side-wall twin beds/shared bedside lamp/luggage wardrobe OR south-facing queen/luggage bench/side-wall wardrobe; each with work desk, seat, guest notebook and plant. Real fit-out difference; hall/salon door approaches to be individually checked."
+    },
+    {
+      "floor": "B07_L03",
+      "room": "SUITE_1_SLEEP",
+      "old_furniture_batches_actually_removed": 1,
+      "actual_replacement": "Two side-wall twin beds/shared bedside lamp/luggage wardrobe OR south-facing queen/luggage bench/side-wall wardrobe; each with work desk, seat, guest notebook and plant. Real fit-out difference; hall/salon door approaches to be individually checked."
+    },
+    {
+      "floor": "B01_L02",
+      "actual_addition": "Two3.1m steel carton racks with30closed taped/shipping-labelled cartons and original geometric barcodes; staff four-seat team table/purchase orders/physical wall schedule board. Door-side zones reserved."
+    },
+    {
+      "floor": "B06_L02",
+      "actual_addition": "Separate usable sewing bench with real3Dmachine chassis/curved arm/needle/presser/handwheel/spool/fabric and pattern table with real cutting-mat grid/paper/rule/ticks/scissor handles/blades. Not name-only atelier."
+    },
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_armchair_separated_from_existing_plant",
+      "actual_vertices_rigidly_moved": 4486,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -7.351309299468994,
+          -3.0999984741210933,
+          -4.7683715642676816e-08
+        ],
+        [
+          -6.148690700531006,
+          -2.0999984741210933,
+          1.2468568801879885
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -6.551309299468994,
+          -4.799998474121093,
+          -4.7683715642676816e-08
+        ],
+        [
+          -5.348690700531006,
+          -3.799998474121093,
+          1.2468568801879885
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0.8,
+        -1.7,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B05__B05_L02__B05_L02_LIVING__furniture",
+      "tag": "Florist_plant_moved_sideways_off_kitchen_door_approach",
+      "actual_vertices_rigidly_moved": 438,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          0.38946476578712447,
+          -3.2171554565429688,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -1.9831809997558594,
+          1.4673997879028322
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          0.38946476578712447,
+          -4.667155456542969,
+          -4.7683715642676816e-08
+        ],
+        [
+          1.6192537546157835,
+          -3.4331809997558596,
+          1.4673997879028322
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.45,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          -4.7683715642676816e-08
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422332763671877
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_-1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          -4.175001144409179,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          -1.7749996185302728,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L03__B07_L03_SUITE_1_LOUNGE__furniture",
+      "tag": "Hotel_salon_sofa_back_clear_of_bedroom_door",
+      "actual_vertices_rigidly_moved": 1387,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          1.774999618530274,
+          -5.39300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.30699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          1.774999618530274,
+          -5.99300537109375,
+          0.0
+        ],
+        [
+          4.175000190734864,
+          -4.90699348449707,
+          0.9422330856323242
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -0.6,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    },
+    {
+      "object": "B07__B07_L02__B07_L02_SUITE_1_SLEEP__furniture",
+      "tag": "Hotel_right_bed_rug_nightstands_north_approach",
+      "actual_vertices_rigidly_moved": 440,
+      "partial_mesh_faces": 0,
+      "before_local_bounds": [
+        [
+          2.905000686645508,
+          -2.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          1.255001068115235,
+          1.2349998474121096
+        ]
+      ],
+      "after_local_bounds": [
+        [
+          2.905000686645508,
+          -3.3499984741210933,
+          0.015999984741211115
+        ],
+        [
+          5.844999313354492,
+          0.25500106811523504,
+          1.2349998474121096
+        ]
+      ],
+      "angle_degrees": 0.0,
+      "local_delta_m": [
+        0,
+        -1.0,
+        0
+      ],
+      "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+    }
+  ],
+  "images": [
+    {
+      "id": "B01_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B01_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8e678c65171fed0d7fefa63c3b2fdf7799d2a90f4531961cbe9f128f775db38f",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Supermarket shelving, refrigerated perimeter and checkout are visible; broad aisles. Product/display density still looks sparse at this scale; not realism acceptance.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B01_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B01_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "93f7570621ee7123cacbd0b10efbcaacb863c53708a51f22efae4d32eb716a81",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Actual two carton-rack islands and team table visibly added; stock and purchasing are distinct. Main approaches appear open in this plan only.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B01_L03_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B01_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "064a33fa3dc2e1f895024ca9276683e014b2b7eb6aadf8deabb41e1f96f0b006",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Baseline two-bedroom loft retained, with two beds and original living/kitchen. No new whole-room turn introduced.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B02_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B02_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "9549fd40902d38a5ebbfd71bea14051f0b7ea5416fffd8fc7b93f6c7bd01e3dd",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Bread/pastry displays, prep equipment and customer seating visible. Retail floor remains sparse; eye-level material review required.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B02_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B02_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "9ebd3650de1f035a5f8591c908472f1df2f322171e829f7bb1a9b2055d441666",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Quarter-turned sofa/table, single guest bed/work desk and kitchen island visibly differ from baseline home. Bedroom approaches no longer blocked by the first-draft chest.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B03_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B03_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "a81d9353032a1d0a261ed830694d28458f741299a8d8abc6f26dfe4546e92813",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Ten cafe tables now distributed across five alternating columns/two rows, visibly clear of right service counter; no table/chair embedded in that counter in this image.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B03_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B03_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "af5467d12f323c24ee3e270ef1472cbdb721e80eca8a67809616bf8772236c88",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Reading sofa is now separated from hall doorway. Shelves and games tables retained. Reading lounge remains sparsely populated.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B04_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B04_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8f39856d5ce9c23a3aa1269f5829c4156221978af9e8742dad30bacf7497fdda",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Bookshop perimeter/interior shelving and central displays visible. Broad circulation; sparse merchandising needs eye-level realism review.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B04_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B04_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "9a1c08382034a4c0f3668e6bbcc5f7a5c74d7916d5754d8de5f4f857385fdb7c",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Drawing desk/easel present, entrance clear, but rotated reference case missing overhead: include in transform-placement correction.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B05_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B05_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8125859a0caad6668629e1456ab95d63f47c27cb4e56766b7298d206c0851402",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Six bouquet displays, workbench and checkout visible. Sales floor sparse; not a final material/realism judgment.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B05_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B05_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "2d3b281cdc82b6933ac7f7e943fd80db1943efce979ab10d388a1bb901e63c3b",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Actual original opened: armchair now separate from crown plant, kitchen approach plant moved aside, conservatory L-benches visible. However rotated side bench needs placement audit, not final acceptance.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B06_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B06_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "c9bc64fcec59950336c4b3eeef0ef9b3aa6a93e593778c39c4eea3197ad12ac6",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Garment rails, central folded display and checkout visible. Wide empty floor areas remain; not highly realistic merchandising yet.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B06_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B06_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "45aabb32591b8f1d35d3bf67656ee5e790813091d32404f109ab5246c6733956",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Actual sewing station at upper-left and cutting mat station at lower-left are visible alongside existing worktables/rails. Separate functional workstations now exist rather than name-only atelier.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B07_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B07_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "293f825660850efb2251bca67563e6634f3d31eefa154e76c90b22cec2d7d67f",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Reception counter, sofa and two angled chairs visible, with breakfast/service rooms behind. Large empty lobby portions remain.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B07_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B07_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "34bbe1c3b0ebf35df091c77a92bdccb4732921dd5957c22175fd497e8562d35e",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Actual original opened: both north bed approaches and both salon sofa-back approaches widened; no original entry blockage apparent at this scale.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B07_L03_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B07_L03_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "53b2df53eb99f4325ab090cc5f6e2488093de1c858fab7409c5e75ec183ad393",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Actual original opened: clear real twins/queen difference and both salon approaches now wider. New-image close-view furnishing/collision judgment still pending.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B08_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B08_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "6b9cf9d728c9a755947ff904d2f9029a0fe14257c7d979b65d4ea568a8b8df72",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Toy display island, perimeter storage and checkout visible; considerable empty merchandising floor remains.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B08_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B08_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "186867d2058be19a10c1c9421952394d473dc2740f18750c683e701a00a01b3b",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Child bed/desk present, but rotated toy chest not visible: actual native diagnostic proves chest at wrong worldXY/Z0. FIX_REQUIRED.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B09_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B09_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "5633656084fdc5202c023be885d7c19b8811ae3dcc173000c55dbbb6a3a55c03",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Three glazed display islands and consultation/service desk visible, no obvious plan obstruction; jewellery detail not legible at this resolution.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B09_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B09_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "a1167bbc1477d902f65d7e09264d39a90887e9277f2d35aa99fa6b598dfefd18",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Secondary room now has workbench instead of guest bed. Maker-tool detail not legible from this overhead original; follow-up close view required.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B10_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B10_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "8a17207d5eda6c5011699ef4d04436f724ca85d67b9aae8cdca384c745d1c205",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Pharmacy display bays, dispensary and consultation/service space visible. Consultation space is compact and needs close-view clearance verification.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B10_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B10_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "390d785ba17412cce6fa9751e4c799f80a05de70e1f8f0a43aa6c316e0c937c5",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Two distinct consultation spaces and staff pantry visible; door-side approaches appear open at this scale. Not clinical or accessibility certification.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B11_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B11_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "1888222c78fe87b4a275fa1f1ff22f387aaeb9ea4c91bc6889be8b486a90a220",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Six cycle silhouettes, service desk and checkout visible. Product equipment remains sparse at this resolution.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B11_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B11_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "bcfb40958d0e95b1debfc630a18c70755fce141b560ead76b346c136cb603896",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "FIX_REQUIRED: cycle/gear room shows only storage in overhead. Read-only actual native coordinate diagnostic establishes rotated bicycle tyres/service bench at Z0 and distant worldXY, not in L02 room. Numeric metadata coverage failed to detect this.",
+      "decision": "FIX_REQUIRED"
+    },
+    {
+      "id": "B12_L01_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B12_L01_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "e444552d59c7b82e8f00c3421aefb1d692461709e0b0924e98fab0b869758ac4",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "Stationery display islands, parcel lockers, shelving and service counter visible; materially sparse in plan.",
+      "decision": "PLAN_SCOPE_OBSERVED_NOT_FINAL_ACCEPTANCE"
+    },
+    {
+      "id": "B12_L02_plan",
+      "path": "evidence/quality-studies/rebuilt-plans/B12_L02_plan.png",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "samples": 8,
+      "sha256": "6bdbad16ac8c4241c2c9f8a865f1515615133fe77f53efe87ea3866dce259d53",
+      "inspection": "ACTUALLY_OPENED_ORIGINAL_WITH_READ_FILE",
+      "observations": "FIX_REQUIRED: library bookcases absent in overhead. Suspected same lazy transform issue as proved bicycle/service bench; actual source transform correction required.",
+      "decision": "FIX_REQUIRED"
+    }
+  ],
+  "inspection": "ALL26 fresh originals individually opened. REJECTED FOR ROTATED GENERATED PROP PLACEMENT: native read-only coordinates prove Z0/distantXY despite correct floor metadata. Known florist/hotel earlier overlaps improved, but no native promotion."
+}

@@ -1,0 +1,85 @@
+{
+  "views": [
+    {
+      "view": "V01",
+      "camera": [
+        77.819,
+        54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "projected_extent": [
+        0.047,
+        0.841,
+        0.035,
+        0.877
+      ]
+    },
+    {
+      "view": "V02",
+      "camera": [
+        -51.622,
+        73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "projected_extent": [
+        0.077,
+        0.87,
+        0.035,
+        0.866
+      ]
+    },
+    {
+      "view": "V03",
+      "camera": [
+        -77.819,
+        -54.49,
+        39.9
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 21.66,
+      "projected_extent": [
+        0.047,
+        0.841,
+        0.035,
+        0.877
+      ]
+    },
+    {
+      "view": "V04",
+      "camera": [
+        51.622,
+        -73.724,
+        37.8
+      ],
+      "target": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "lens_mm": 20.23,
+      "projected_extent": [
+        0.077,
+        0.87,
+        0.035,
+        0.866
+      ]
+    }
+  ],
+  "method": "vertical centring of the measured built envelope plus largest fitting lens"
+}

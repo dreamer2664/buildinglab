@@ -1,0 +1,55 @@
+{
+  "view": "D08",
+  "native_pixel_crop": {
+    "index": 18,
+    "pixels": [
+      1024,
+      1664,
+      384,
+      1184
+    ]
+  },
+  "full_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "actual_opened_derivative_sha256": "3706a6b317d7d9100434e42df62484081a192aa2e499de4d7bef6e79e63d6ccf",
+  "dimensions": [
+    640,
+    800
+  ],
+  "samples": 24,
+  "method": "UNSAVED actual3Dhair-fibre/cap-surface study (skin microbump only in first geometric-tube module) applied after frozen derivative load; source file never saved/changed. Actual native-pixel normal/albedo-guided OIDN crop, not final production adoption.",
+  "camera_exposure_EV": 0.4000000059604645,
+  "seconds": 29.640167894,
+  "image_sha256": "f489d92abbdae236112740344a51040098161fb7e93613899ed28f286f367b54",
+  "raw_paths": [
+    "D08-tile18-physical-hair-prototype-fibres-only-noisy-0001.png"
+  ],
+  "inspection": "PENDING / do not infer improved realism from renderer success",
+  "unsaved_hair_skin_prototype": [
+    {
+      "object": "CROWD_06_P06",
+      "actual_native_hair_curves": 32000,
+      "actual_curve_points": 320000,
+      "root_radius_metres": 4.5e-05,
+      "hair_mass_subdivision": 2,
+      "original_alpha_masks_respected": 1,
+      "actual_curly_fibre_variant": false,
+      "actual_braid_nape_surface_vertices_locally_smoothed": 0,
+      "actual_boundary_projection_stops": 0,
+      "method": "Actual hair curves with tapered radius and physical melanin absorption fibre BSDF over smoothed licensed hair mass, not geometric-tube/groove or new texture/image. UNSAVED study only; no native/model/archive mutation."
+    }
+  ],
+  "prototype_implementation_sha256": "652f6abed1c742b7ded19415bb2118e071d6e1fddb6f1fbab68a6deeaf3020b7",
+  "prototype_implementation_snapshot": "evidence/quality-studies/implementations/hair-652f6abed1c742b7ded19415bb2118e071d6e1fddb6f1fbab68a6deeaf3020b7.py",
+  "prototype_controls": {
+    "nape_smooth": "0",
+    "boundary_guard": "0",
+    "hide_fibres": "0",
+    "hide_mass": "1"
+  },
+  "actual_hidden_fibre_objects": 0,
+  "actual_hidden_mass_objects": 1,
+  "nominal_whole_frame_render_dimensions": [
+    2560,
+    1440
+  ]
+}

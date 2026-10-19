@@ -1,0 +1,27 @@
+{
+  "view_id": "B01_L01_interior",
+  "title": "MARKTGRUEN / B01_L01 / occupied interior",
+  "kind": "interior",
+  "source_native_sha256": "b6230a3e5d357503fd928abb16be3b89ec3ceb0ef536c86997b3701900518da9",
+  "geometry_uv_pose_material_signature": "6e2193b7cff34e58732b6ff9308e0c75e2bfa942b71fb2e371f150a200b041d8",
+  "image": ".cache/final-renders/B01_L01_interior.png",
+  "dimensions": [
+    2560,
+    1440
+  ],
+  "final_sha256": "445ef736df069d92cd62bdaaa90396ec755baf3d0ccb21b6e9272db32a5c5476",
+  "noisy_original_sha256": "b801f6a7897dcd62885341bdf2c717647f8589101d26772082e888cbd2e6e155",
+  "noisy_original": ".cache/final-renders/B01_L01_interior.noisy.png",
+  "original_before_denoise_sha256": "b801f6a7897dcd62885341bdf2c717647f8589101d26772082e888cbd2e6e155",
+  "postprocess": "Standard OIDN colour-only display-sRGB640px/48px-overlap tiles; no generative imagery",
+  "render_reports": [
+    ".cache/final-renders/B01_L01_interior.render.json"
+  ],
+  "tile_assembly": null,
+  "elapsed_seconds": 240.63,
+  "visual_inspection": "PENDING",
+  "actual_original_opened": true,
+  "decision": "REJECTED",
+  "observed_defect": "Actual final2560x1440 interior opened singly: severely underexposed, fixtures/products and branding not legible. Must calibrate camera exposure before full interior rollout; no final acceptance.",
+  "next_test": "Same frozen geometry/materials/lights/source; explicit +3EV camera exposure test, lower-resolution nonfinal pilot. Exposure is a disclosed per-frame render setting, not source-model geometry mutation."
+}

@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "scope": "A-stage shell inventory and portable packed-file dependencies ONLY",
+  "native": ".cache/published-square-A2.blend",
+  "native_sha256": "4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d",
+  "actual_buildings": 12,
+  "actual_floor_collections": 26,
+  "per_floor_mesh_counts": {
+    "B03_L02": 58,
+    "B10_L02": 58,
+    "B08_L01": 53,
+    "B04_L02": 58,
+    "B09_L01": 53,
+    "B03_L01": 53,
+    "B07_L03": 58,
+    "B07_L02": 58,
+    "B01_L02": 58,
+    "B02_L01": 53,
+    "B04_L01": 53,
+    "B12_L01": 53,
+    "B06_L02": 58,
+    "B10_L01": 53,
+    "B01_L03": 58,
+    "B12_L02": 58,
+    "B11_L02": 58,
+    "B09_L02": 58,
+    "B02_L02": 58,
+    "B01_L01": 53,
+    "B08_L02": 58,
+    "B11_L01": 53,
+    "B05_L01": 53,
+    "B05_L02": 58,
+    "B06_L01": 53,
+    "B07_L01": 53
+  },
+  "packed_images": 3,
+  "actual_tree_trunk_centres_xy": [
+    [
+      -23.924999237060547,
+      -15.0
+    ],
+    [
+      -23.924999237060547,
+      0.0
+    ],
+    [
+      -23.924999237060547,
+      15.0
+    ],
+    [
+      24.075000762939453,
+      -15.0
+    ],
+    [
+      -20.924999237060547,
+      10.0
+    ],
+    [
+      24.075000762939453,
+      15.0
+    ],
+    [
+      -15.925000667572021,
+      -23.0
+    ],
+    [
+      0.07500000298023224,
+      -23.0
+    ],
+    [
+      16.075000762939453,
+      -23.0
+    ],
+    [
+      -15.925000667572021,
+      23.0
+    ],
+    [
+      0.07500000298023224,
+      23.0
+    ],
+    [
+      16.075000762939453,
+      23.0
+    ]
+  ],
+  "trunks_inside_playground": [],
+  "missing_files": [],
+  "furnished_floor_count": 0,
+  "people_count": 0,
+  "final_realism": "NOT PASSED",
+  "independent_acceptance": "NOT ACCEPTED",
+  "errors": [],
+  "blender": "4.3.2"
+}

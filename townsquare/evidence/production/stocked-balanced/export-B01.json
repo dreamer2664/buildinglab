@@ -1,0 +1,67 @@
+{
+  "component": "B01",
+  "source_native_sha256": "53c32b17eaebb1c41adec52035bb6f9bf0380070d8f30ffb0a75cd9df9620731",
+  "glb": ".cache/stocked-portable-components/GLB/B01.glb",
+  "glb_sha256": "0d402ff93df57f2a78bb436ed452463594974b5b8292c23cb31bfdc8d0bce9eb",
+  "glb_bytes": 26028244,
+  "expected_geometry": {
+    "mesh_objects": 1196,
+    "vertices_instance_sum": 245324,
+    "polygons_instance_sum": 201598,
+    "triangles_instance_sum": 429439,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -29.450000762939453,
+      25.962501525878906,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -10.550000190734863,
+      41.51499938964844,
+      14.289999961853027
+    ],
+    "floor_ids": [
+      "B01_L01",
+      "B01_L02",
+      "B01_L03",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B01_L01_SALES",
+      "B01_L01_SERVICE_A",
+      "B01_L01_SERVICE_B",
+      "B01_L01_SERVICE_HALL",
+      "B01_L01_UPPER_ENTRY",
+      "B01_L01_WC",
+      "B01_L02_HALL",
+      "B01_L02_PURCHASING",
+      "B01_L02_SERVICE_A",
+      "B01_L02_SERVICE_B",
+      "B01_L02_WAREHOUSE",
+      "B01_L02_WC",
+      "B01_L03_BATH",
+      "B01_L03_ENTRY_HALL",
+      "B01_L03_KITCHEN",
+      "B01_L03_LIVING",
+      "B01_L03_PRIMARY_BED",
+      "B01_L03_SECOND_ROOM",
+      "COMMON",
+      "None"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": {
+    "licensed_scan_photos": 2048,
+    "other_maps": 512
+  },
+  "background_omissions": [],
+  "portable_scan_cap_triangulation": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static editable people: licensed photographic scan meshes are not rigged; original generic human rigs remain separate alternatives where documented",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Photographic scan maps resampled to2048px, other maps512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

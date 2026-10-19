@@ -1,0 +1,33 @@
+{
+  "stage": "two actual individually opened study originals; neither counts as final",
+  "images": [
+    {
+      "path": "renders/A0-overview.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "sha256": "1dbec20be1d57071e8a15ac7f818db7971e3467b9571a68135f5b74e66dd539a",
+      "native": "scene/square-A0.blend",
+      "native_sha256": "8998d6a28895c2e5c0d2cde60260c21707cf8aeb4e2b99ab248281a06b34dacc",
+      "opened_individually": true,
+      "camera": "CAM_A0_OVERVIEW",
+      "samples": 16,
+      "denoising": "none"
+    },
+    {
+      "path": "renders/A2-overview.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "sha256": "48e5ec50ea4c02b3d362ea1b3c1a53a35e34f5dab4cc10c9a955b918a4874c09",
+      "native": "scene/square-A2.blend",
+      "native_sha256": "4b09eedd70b3f7148b33197c00ee64e9f05a6c64ae9dfebd65e639beba50938d",
+      "opened_individually": true,
+      "camera": "CAM_A0_OVERVIEW",
+      "samples": 32,
+      "denoising": "separate tiled sRGB colour-only OIDN640tile48overlap"
+    }
+  ]
+}

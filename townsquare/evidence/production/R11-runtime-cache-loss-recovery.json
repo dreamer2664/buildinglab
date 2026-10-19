@@ -1,0 +1,56 @@
+{
+  "event": "Actual disposable runtime/cache loss between user turns; old jobs no longer running",
+  "recorded_utc": "2026-10-17T17:48:22.730939+00:00",
+  "before_loss_rendered_records": 22,
+  "public_checkpoint_restored_hash_verified_available_views": [
+    "B01_L01_interior",
+    "B01_L01_plan",
+    "B01_L01_cutaway",
+    "D02",
+    "D08",
+    "B01_L02_plan",
+    "B01_L02_cutaway",
+    "B01_L02_interior"
+  ],
+  "prior_records_currently_unavailable_and_queued_for_rerender": [
+    "B01_L03_plan",
+    "B01_L03_cutaway",
+    "B01_L03_interior",
+    "B02_L01_plan",
+    "B02_L01_cutaway",
+    "B02_L01_interior",
+    "B02_L02_plan",
+    "B02_L02_cutaway",
+    "B02_L02_interior",
+    "B03_L01_plan",
+    "B03_L01_cutaway",
+    "B03_L01_interior",
+    "B03_L02_plan",
+    "B03_L02_cutaway"
+  ],
+  "historical_manual_review_count": 13,
+  "historical_reviews_scope": "Genuine earlier individual openings retained as history. A prior review is valid for final available file only if its current SHA matches; not proof missing files survived.",
+  "recovery": "Actually ran tools/restore_current_delivery.py: master/derivative/12rigs/4component archives/8original-noisy-report records SHA/CRC/every-member checked. Runtime369MB also SHA checked and extracted. Exact112packed maps and smoke still pending.",
+  "guided_full_assembly_study": "Interrupted by cache loss; no completed full assembly or adoption claimed. Actual single crop was opened previously and durable receipt remains.",
+  "packed_photo_map_recovery": "ACTUALLY recovered112exact SHA byte streams from blank factory scene",
+  "current_exact_public_full_native_fresh_reopen": "PASS / R11-public-exact-native-reopen.json",
+  "current_exact_public_native_smoke": {
+    "image": ".cache/public-R11/exact-public-native-B01_L01_interior.png",
+    "sha256": "b3490750378880257e2e378dbc4f472f4ac2e03324c1dc27cd6a161e8c0fa486",
+    "dimensions": [
+      1152,
+      648
+    ],
+    "actual_original_opened_individually": true,
+    "observed_findings": "Current recovered packed-native supermarket actually singly opened after render/OIDN: populated product shelves/produce, original MARKTGRUEN sign, ceiling lights/windows/check-out geometry visible with readable exposure. Shiny/wavy plaster and simplified products remain CG. Tests actual clean-cache recovery/light/source availability, not final photographic acceptance."
+  },
+  "recovery_status": "ACTUAL_FULL_ARCHIVE_RUNTIME_MAP_NATIVE_REOPEN_SMOKE_AND_ORIGINAL_OPEN_EXECUTED_PASS; final92/independent/highrealism remain OPEN",
+  "initial_failed_map_command": "Opening fullnative then library-loading same file at scriptline5 caused SIGSEGV139; blank factory scene recovered112maps EXIT0. Script now guards already-open native path; guard compiled, blank path actually tested. No native resave/change.",
+  "current_public_glb_recovery": {
+    "exact_glb_sha256": "e6a43659e2e1911ca5f6fad5b9741e0bfaa1de0c40cd2f36e1596e716ce8a6c6",
+    "actual_fresh_clean_import": "PASS",
+    "three_actual_proof_renders": "D02/H02/B01_L01_interior,1280x720neutral proof lights",
+    "all_three_current_originals_individually_opened": true,
+    "scope": "No native-HDRI/area-light matching or photographic/independent acceptance"
+  }
+}

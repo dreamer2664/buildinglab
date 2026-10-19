@@ -1,0 +1,252 @@
+[
+  {
+    "package": "Buildings",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Buildings-4bf44a021c3d.zip",
+    "archive_bytes": 437436591,
+    "archive_sha256": "24f7d81d5db9c7da0ea612af15ab7fa5c5289799bca1c4d30a48092068de3fc4",
+    "crc": "PASS",
+    "all_manifest_members": "PASS",
+    "members": [
+      {
+        "name": "Buildings/B01.blend",
+        "bytes": 40739912,
+        "sha256": "9cae413257b3d5425db3d8d9d7bee3a244e1d6ffd349a13a960cc4f62e422efb"
+      },
+      {
+        "name": "Buildings/B02.blend",
+        "bytes": 39263916,
+        "sha256": "fb8a5c618e717131f2d3fce4ba6901cb27a3aec826feb554bf660fb7e01d8104"
+      },
+      {
+        "name": "Buildings/B03.blend",
+        "bytes": 27357556,
+        "sha256": "b24d1d23c22dd1daf2ed6ea01059e6c7b6433e4ac657b4a7a80ffd801883ed71"
+      },
+      {
+        "name": "Buildings/B04.blend",
+        "bytes": 40653804,
+        "sha256": "4f7932ab70cd9820fc7b9dc96aa9009b13fc625d6017ec37c07c493bdfd0f5ee"
+      },
+      {
+        "name": "Buildings/B05.blend",
+        "bytes": 39257604,
+        "sha256": "d0db4bdf1d3261ec82627e3f8107d100418eef76be738a13e64554c53c049ff1"
+      },
+      {
+        "name": "Buildings/B06.blend",
+        "bytes": 25632155,
+        "sha256": "07cdab64cc2a434d2db235d916077bbc17e6080de29bfcf1d12d0eb76facb26a"
+      },
+      {
+        "name": "Buildings/B07.blend",
+        "bytes": 40466755,
+        "sha256": "d927f90fd41abc6bf4b804139750ea73f06579b0cc0bfc9aec24e308db92b646"
+      },
+      {
+        "name": "Buildings/B08.blend",
+        "bytes": 39188850,
+        "sha256": "bf8f6a15c83669fb1481ba65135524563a572513d1155d73cb4afc057e2df8e0"
+      },
+      {
+        "name": "Buildings/B09.blend",
+        "bytes": 39162228,
+        "sha256": "5bfbedcd62d5c4d358b8d7c1503602625a77b22fecefb47ee3f036be8d63aa87"
+      },
+      {
+        "name": "Buildings/B10.blend",
+        "bytes": 26173133,
+        "sha256": "c0bbd6bef6c1194b2ff74a50b3b9370ed63fe9e25edca0e411548891e5c29578"
+      },
+      {
+        "name": "Buildings/B11.blend",
+        "bytes": 39063890,
+        "sha256": "6ad338e9cc3830cae60b851ab55db36ba6fb921fec8af41d73bd62a8c3587818"
+      },
+      {
+        "name": "Buildings/B12.blend",
+        "bytes": 40397247,
+        "sha256": "712b203ba5cd7232abc1f1e1351909550537e361dc16ddc7f472443692c0e502"
+      },
+      {
+        "name": "LICENSE.txt",
+        "bytes": 1058,
+        "sha256": "4874202d70c7b32966495533532f3938c8054cda17a8632535dcbdaf30916a21"
+      },
+      {
+        "name": "Licences-and-portability.md",
+        "bytes": 5847,
+        "sha256": "0d411a109a513b948b2f9358d74ee79e180fdbf95f590a198354e08324bdc35f"
+      },
+      {
+        "name": "Earlier-intake-notes.md",
+        "bytes": 1527,
+        "sha256": "599bbe222cb6a64ad9540b6a17f6fcfcc026d40542ee326127f9e770baa901c5"
+      },
+      {
+        "name": "provenance/production-intake.json",
+        "bytes": 34096,
+        "sha256": "3179fba2ecdaa4d7ecea07e6414c30bb6ccbca96a1644e48040a72c78995e4ce"
+      },
+      {
+        "name": "provenance/people-intake.json",
+        "bytes": 988,
+        "sha256": "98adfd103c2fa7ec1ba4c2f4c7cb8e90d1968eff7d8132de811df10c0b71073e"
+      },
+      {
+        "name": "provenance/people-source-files.json",
+        "bytes": 30763,
+        "sha256": "e5f0d013b94b334f09f77c501e44eb9212c7311d20c2b7856e5e2682a66c1552"
+      }
+    ]
+  },
+  {
+    "package": "People-rigs",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-People-rigs-4bf44a021c3d.zip",
+    "archive_bytes": 502164857,
+    "archive_sha256": "e73f6b6fd83d3d0e772bd6a0b94eddba50f04bd6428460eca5088a0dab34ff96",
+    "crc": "PASS",
+    "all_manifest_members": "PASS",
+    "members": [
+      {
+        "name": "People/P01.blend",
+        "bytes": 26819504,
+        "sha256": "973944ac339e0719804b2fc6aaafad8730dd99eca927a7efaa13b22a6504e120"
+      },
+      {
+        "name": "People/P02.blend",
+        "bytes": 42886459,
+        "sha256": "b187cfc0cdfc45b1527771d32e0572648306f19a18993216181fdd3ec3de93e1"
+      },
+      {
+        "name": "People/P03.blend",
+        "bytes": 43525378,
+        "sha256": "1b622416d6ede076c96e24f3e4050179cde22f463d56b53f661355f7ce71c093"
+      },
+      {
+        "name": "People/P04.blend",
+        "bytes": 45319260,
+        "sha256": "03a0570c3298b8f77c6bcb9feb7bcb09fe9033e5a93a188eb9746e3b4a8a7973"
+      },
+      {
+        "name": "People/P05.blend",
+        "bytes": 44495057,
+        "sha256": "8733f3809b8299d8aaa5469d4e2f6057715eccc6bad9d5e47cf6457108393573"
+      },
+      {
+        "name": "People/P06.blend",
+        "bytes": 41091990,
+        "sha256": "3c8f2d25818fc65f811cb4e0a463bb5131aee4831022ea2d22c37dbc59a0c533"
+      },
+      {
+        "name": "People/P07.blend",
+        "bytes": 41034996,
+        "sha256": "418d7153e2b7fed6dfecb7176d3039a5a10b886dda3bf88f86d2eb670bd6388f"
+      },
+      {
+        "name": "People/P08.blend",
+        "bytes": 43294159,
+        "sha256": "512d1b8b3b715a7e979d5fe6e05bad4924ba085935039ab0cd4299dc2cd6968f"
+      },
+      {
+        "name": "People/P09.blend",
+        "bytes": 43612365,
+        "sha256": "fcfe5772a29d0024d51b0462ceae2ae08da2a3f940fe077d8067c8ceee1fa04f"
+      },
+      {
+        "name": "People/P10.blend",
+        "bytes": 44843561,
+        "sha256": "08c9d7a97dc4a4b2d0d347fc2105e16e76f887e4734c8daf5b3e63ba9b7bddb1"
+      },
+      {
+        "name": "People/P11.blend",
+        "bytes": 43998322,
+        "sha256": "8b68a688b48a2e05d208c22e749a41b39bec31f65fcb59dc878c1a36dee01127"
+      },
+      {
+        "name": "People/P12.blend",
+        "bytes": 41126779,
+        "sha256": "64b9d787547cf62c18e22dda11014b52920d2cccebeb790b3f04eca55355b8c3"
+      },
+      {
+        "name": "provenance/variants.json",
+        "bytes": 37322,
+        "sha256": "6f5b3f3c0a25731f426020994a3a30b45266d7f530124b30fd6cfefbbaceea70"
+      },
+      {
+        "name": "LICENSE.txt",
+        "bytes": 1058,
+        "sha256": "4874202d70c7b32966495533532f3938c8054cda17a8632535dcbdaf30916a21"
+      },
+      {
+        "name": "Licences-and-portability.md",
+        "bytes": 5847,
+        "sha256": "0d411a109a513b948b2f9358d74ee79e180fdbf95f590a198354e08324bdc35f"
+      },
+      {
+        "name": "Earlier-intake-notes.md",
+        "bytes": 1527,
+        "sha256": "599bbe222cb6a64ad9540b6a17f6fcfcc026d40542ee326127f9e770baa901c5"
+      },
+      {
+        "name": "provenance/production-intake.json",
+        "bytes": 34096,
+        "sha256": "3179fba2ecdaa4d7ecea07e6414c30bb6ccbca96a1644e48040a72c78995e4ce"
+      },
+      {
+        "name": "provenance/people-intake.json",
+        "bytes": 988,
+        "sha256": "98adfd103c2fa7ec1ba4c2f4c7cb8e90d1968eff7d8132de811df10c0b71073e"
+      },
+      {
+        "name": "provenance/people-source-files.json",
+        "bytes": 30763,
+        "sha256": "e5f0d013b94b334f09f77c501e44eb9212c7311d20c2b7856e5e2682a66c1552"
+      }
+    ]
+  },
+  {
+    "package": "Public-realm",
+    "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/production-20261016-4bf44a021c3d/Winterlichtplatz-Public-realm-4bf44a021c3d.zip",
+    "archive_bytes": 50443138,
+    "archive_sha256": "3055ba4002a6713e060d6349c0738231a8cd3a0cfecae2c0d2a682a7e7344301",
+    "crc": "PASS",
+    "all_manifest_members": "PASS",
+    "members": [
+      {
+        "name": "Public-realm.blend",
+        "bytes": 50366435,
+        "sha256": "30e4f25a6123e9267979109456caea6bc51c6132848a4b3c215b3ae3c65e0124"
+      },
+      {
+        "name": "LICENSE.txt",
+        "bytes": 1058,
+        "sha256": "4874202d70c7b32966495533532f3938c8054cda17a8632535dcbdaf30916a21"
+      },
+      {
+        "name": "Licences-and-portability.md",
+        "bytes": 5847,
+        "sha256": "0d411a109a513b948b2f9358d74ee79e180fdbf95f590a198354e08324bdc35f"
+      },
+      {
+        "name": "Earlier-intake-notes.md",
+        "bytes": 1527,
+        "sha256": "599bbe222cb6a64ad9540b6a17f6fcfcc026d40542ee326127f9e770baa901c5"
+      },
+      {
+        "name": "provenance/production-intake.json",
+        "bytes": 34096,
+        "sha256": "3179fba2ecdaa4d7ecea07e6414c30bb6ccbca96a1644e48040a72c78995e4ce"
+      },
+      {
+        "name": "provenance/people-intake.json",
+        "bytes": 988,
+        "sha256": "98adfd103c2fa7ec1ba4c2f4c7cb8e90d1968eff7d8132de811df10c0b71073e"
+      },
+      {
+        "name": "provenance/people-source-files.json",
+        "bytes": 30763,
+        "sha256": "e5f0d013b94b334f09f77c501e44eb9212c7311d20c2b7856e5e2682a66c1552"
+      }
+    ]
+  }
+]

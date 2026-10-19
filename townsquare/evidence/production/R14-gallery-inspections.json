@@ -1,0 +1,218 @@
+{
+  "stage": "ACTUAL_INDIVIDUAL_INSPECTION_OF_OPENED_ORIGINALS",
+  "rows": {
+    "B05_exterior": {
+      "verdict": "FIX_REQUIRED",
+      "findings": [
+        {
+          "finding": "Mirrored lettering visible on the playground rubber surface (text reads backwards)",
+          "severity": "defect"
+        },
+        {
+          "finding": "Composition and ground-floor shopfront glazing read correctly; lamps and benches in front of the frontage"
+        },
+        {
+          "finding": "Swing frame silhouette is thin/oddly proportioned at this distance"
+        }
+      ]
+    },
+    "B03_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "KESSEL & KAKAO frontage, awning and glow read correctly; interior counters visible through glazing"
+        },
+        {
+          "finding": "Snow roof texture shows repeated tiling pattern at this scale"
+        },
+        {
+          "finding": "Bare tree silhouette is very thin/spindly compared with the reference winter trees"
+        }
+      ]
+    },
+    "B01_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "MARKTGRUEN frontage and store interior visible; market stalls in foreground with original HESSE MARONEN/LICHT & TANN branding"
+        },
+        {
+          "finding": "Two large out-of-focus light glows (lamp globes) intrude into frame edges"
+        },
+        {
+          "finding": "Building silhouette clean, roof snow and dormers read well"
+        }
+      ]
+    },
+    "B02_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "KRUME & KORN frontage with awning and interior visible; benches, tree and two scan people at human scale"
+        },
+        {
+          "finding": "Christmas decoration baubles float through the upper frame, some intersect the tree canopy"
+        }
+      ]
+    },
+    "B07_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "HAUS ABENDROT clock gable, shuttered upper floors and lit shopfront read correctly; market stalls and scan people at human scale"
+        },
+        {
+          "finding": "Gap between B07 and the neighbouring block on the right exposes a flat pale ground/backdrop edge instead of more town"
+        },
+        {
+          "finding": "Bare tree branches are visibly low-poly sticks against the elegant facade"
+        }
+      ]
+    },
+    "B06_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "FADENWERK shopfront shows real clothing rails and garments through the glazing; markets with staff figures read well"
+        },
+        {
+          "finding": "Flat bare ground visible in the gap at frame left where no neighbouring mass covers the horizon"
+        },
+        {
+          "finding": "Tree branch geometry is clearly polygonal at this distance"
+        }
+      ]
+    },
+    "B11_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "NORDRAD bike shop: bicycles visible inside the glazing, string lights, lamps, benches and scan people read at human scale"
+        },
+        {
+          "finding": "Bare trees now read as heavier trunks and are acceptable at this distance"
+        },
+        {
+          "finding": "Right edge has a dark vertical band (neighbouring building side wall) that reads slightly unlit"
+        }
+      ]
+    },
+    "B12_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "WINTERPOST frontage with post-office interior partitions visible; LICHT & TANN stall and staff figure right"
+        },
+        {
+          "finding": "Two of the bare trees in front of the facade have very similar silhouettes; reads as repetition"
+        },
+        {
+          "finding": "Dark charcoal flank of B11 blocks part of the left neighbour but does not obscure the target building"
+        }
+      ]
+    },
+    "B04_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "FABELHAUS bookshop with full shelves visible through glazing; KERAMIK stall, playground and benches read well"
+        },
+        {
+          "finding": "Same mirrored lettering on the playground surface (backwards text) as in B05 - recurring defect to fix"
+        },
+        {
+          "finding": "Stall roof at left edge is cut by the frame but does not cover the building"
+        }
+      ]
+    },
+    "V01": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "Whole 12-building square visible in one frame; snow roofs, lit shopfronts, market stalls, Christmas tree, benches and lamps all read"
+        },
+        {
+          "finding": "Surrounding ground shows hugely magnified cobblestone from the render-only ground extension; the square paving itself is right but the far terrain looks wrong at this scale"
+        },
+        {
+          "finding": "Building flanks facing away from the square are unbroken flat walls with no windows - acceptable for backs but noticeable from above"
+        }
+      ]
+    },
+    "V02": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "Re-rendered after replacing the magnified-cobble ground with a render-only snow field: the surrounding terrain now reads as snow, square paving keeps its real scale"
+        },
+        {
+          "finding": "Christmas tree, market row, lamps, benches and 12 building blocks read consistently in one frame"
+        }
+      ]
+    },
+    "B08_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "LICHTSPIEL gallery frontage, WINTERPUNSCH stall with staff figure, scan people at benches read at human scale"
+        },
+        {
+          "finding": "Interior of the gallery reads mostly empty from this angle (sparse display); shelf unit visible but the space feels bare compared with the other shops"
+        },
+        {
+          "finding": "Facade lettering partly hidden behind a tree branch"
+        }
+      ]
+    },
+    "B10_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "STERNBLICK optician-style frontage with shelves visible; lamps and benches in front read at human scale"
+        },
+        {
+          "finding": "No people in this frame so the square feels empty at this corner"
+        },
+        {
+          "finding": "Trees again very similar silhouettes, visible repetition"
+        }
+      ]
+    },
+    "V03": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "Third orbit angle shows the whole square, market row and Christmas tree; roofs and lit shopfronts read consistently"
+        },
+        {
+          "finding": "Far terrain now fades to a warm dark haze rather than showing magnified cobbles - acceptable"
+        },
+        {
+          "finding": "Backs of buildings remain plain flat walls, clearly unmodelled from this angle"
+        }
+      ]
+    },
+    "V04": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "Fourth orbit view: full square visible, lit shopfronts on two sides, market row and playground legible"
+        }
+      ]
+    },
+    "B09_exterior": {
+      "verdict": "PASS_WITH_NOTES",
+      "findings": [
+        {
+          "finding": "After the camera re-solve, GOLDFADEN frontage, KRUME/BACKSTUBE stall, lamps and a scan person now fill the frame; the market-stall roof no longer blocks the building"
+        },
+        {
+          "finding": "Repaired the earlier FIX_REQUIRED frame; original failure retained in the inspection record"
+        },
+        {
+          "finding": "Interior behind the glazing reads bare from this distance, and the bare trees are again nearly identical"
+        }
+      ]
+    }
+  }
+}

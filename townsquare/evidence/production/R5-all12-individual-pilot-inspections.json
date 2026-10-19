@@ -1,0 +1,59 @@
+{
+  "inspections": [
+    {
+      "view": "D01",
+      "image": ".cache/pilot-R5/D01.png",
+      "sha256": "4313917341a932db2f37457749f3b5a1334d1f4483616dea784d2a984655a349",
+      "actual_original_opened_separately": true,
+      "finding": "P01/P02 face/scarf good at study scale; generic CG not photorealism acceptance.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    },
+    {
+      "view": "D02",
+      "image": ".cache/pilot-R5/D02.png",
+      "sha256": "060789eea3dffaf35bf1ece234d877a4e630b11624bdd6f70c24b71892134a60",
+      "actual_original_opened_separately": true,
+      "finding": "P04 eyes now fully visible under raised green brim, but P03 still has hair protruding at left temple:25mm-inside-rim clip plane too high for wide hairstyle. Reject.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    },
+    {
+      "view": "D03",
+      "image": ".cache/pilot-R5/D03.png",
+      "sha256": "73706d474efe7b189237d32deeeee8be0c0e27073709f334a6dc12958f041139",
+      "actual_original_opened_separately": true,
+      "finding": "P06 previous sawtooth hair border corrected; P05 grey hair/face/scarf visible.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    },
+    {
+      "view": "D04",
+      "image": ".cache/pilot-R5/D04.png",
+      "sha256": "7b4103d7d2c90bc22ea8f71f6a147c9e5bdd07f420b7abb1354bb190b2d5d24d",
+      "actual_original_opened_separately": true,
+      "finding": "P07/P08 faces/scarves visible; no new large defect at study scale.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    },
+    {
+      "view": "D05",
+      "image": ".cache/pilot-R5/D05.png",
+      "sha256": "38cafbd59348290d7b73c989284f46f1c0272228aff06b5458fab86e6ac37a2f",
+      "actual_original_opened_separately": true,
+      "finding": "P10 eyes/brim clear; P09 hair protrudes beside left temple above rim. Reject.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    },
+    {
+      "view": "D06",
+      "image": ".cache/pilot-R5/D06.png",
+      "sha256": "e1e1db1bfbcf862424b24409593adbec1dacbbe3e853152809c0fd60e064ee39",
+      "actual_original_opened_separately": true,
+      "finding": "P11/P12 faces/scarf/hair/brim clear at study scale.",
+      "acceptance": "CANDIDATE_REJECTED: residual P03/P09 crown protrusion; R6 correction needed",
+      "final_resolution": false
+    }
+  ],
+  "fix_plan": "R6 exact world-z-linear weighted smooth mask threshold at0.5mm BELOW actual lowest cap part, plus actual evaluated hair max-z <= cut-plane regression per hair mesh. Avoid clamped narrow weight band that distorts interpolation; keep brow-fitted brim and conserved anatomy/pose."
+}

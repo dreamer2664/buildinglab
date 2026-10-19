@@ -1,0 +1,12 @@
+.cache/
+__pycache__/
+*.py[cod]
+*.blend
+*.blend1
+*.glb
+*.zip
+*.png
+*.jpg
+*.exr
+*.hdr
+*.log

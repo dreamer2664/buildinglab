@@ -1,0 +1,55 @@
+{
+  "component": "B04",
+  "source_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "glb": ".cache/groomed-portable-components/GLB/B04.glb",
+  "glb_sha256": "ca44b8beb399009f5b1e01bcc39f94758aaa9b95cd743d9cfeac3a3562295fc6",
+  "glb_bytes": 16781040,
+  "expected_geometry": {
+    "mesh_objects": 122,
+    "vertices_instance_sum": 92404,
+    "polygons_instance_sum": 76799,
+    "triangles_instance_sum": 153711,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      32.2650032043457,
+      9.550000190734863,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      47.45000076293945,
+      26.450000762939453,
+      11.09000015258789
+    ],
+    "floor_ids": [
+      "B04_L01",
+      "B04_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B04_L01_SALES",
+      "B04_L01_SERVICE_A",
+      "B04_L01_SERVICE_B",
+      "B04_L01_SERVICE_HALL",
+      "B04_L01_UPPER_ENTRY",
+      "B04_L01_WC",
+      "B04_L02_BATH",
+      "B04_L02_ENTRY_HALL",
+      "B04_L02_KITCHEN",
+      "B04_L02_LIVING",
+      "B04_L02_PRIMARY_BED",
+      "B04_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

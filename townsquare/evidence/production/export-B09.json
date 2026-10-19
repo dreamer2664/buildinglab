@@ -1,0 +1,54 @@
+{
+  "component": "B09",
+  "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "glb": ".cache/final-components/GLB/B09.glb",
+  "glb_sha256": "a6a06b5e1a0d1bca92dc18641243bd8560688c4181e6b15d4ceaffb9010f61df",
+  "glb_bytes": 11894196,
+  "expected_geometry": {
+    "mesh_objects": 65,
+    "vertices_instance_sum": 59103,
+    "polygons_instance_sum": 52666,
+    "triangles_instance_sum": 106302,
+    "bounds_min": [
+      -29.450000762939453,
+      -41.45000076293945,
+      -0.23999999463558197
+    ],
+    "bounds_max": [
+      -10.549999237060547,
+      -26.264999389648438,
+      11.789999961853027
+    ],
+    "floor_ids": [
+      "B09_L01",
+      "B09_L02",
+      "EXTERIOR",
+      "ROOF"
+    ],
+    "room_ids": [
+      "B09_L01_SALES",
+      "B09_L01_SERVICE_A",
+      "B09_L01_SERVICE_B",
+      "B09_L01_SERVICE_HALL",
+      "B09_L01_UPPER_ENTRY",
+      "B09_L01_WC",
+      "B09_L02_BATH",
+      "B09_L02_ENTRY_HALL",
+      "B09_L02_KITCHEN",
+      "B09_L02_LIVING",
+      "B09_L02_PRIMARY_BED",
+      "B09_L02_SECOND_ROOM",
+      "COMMON"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

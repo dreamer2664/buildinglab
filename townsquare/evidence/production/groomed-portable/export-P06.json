@@ -1,0 +1,50 @@
+{
+  "component": "P06",
+  "source_native_sha256": "55340889139dc89ac0ecaa2a6028ecc346ccd9778646d3f1331ade303b551d94",
+  "glb": ".cache/groomed-portable-components/GLB/P06.glb",
+  "glb_sha256": "a61e6382e0cf69f4433edc03adb3a51f6f37a4d779afb8d3e334690506dcebc2",
+  "glb_bytes": 13883836,
+  "expected_geometry": {
+    "mesh_objects": 9,
+    "vertices_instance_sum": 794526,
+    "polygons_instance_sum": 1228608,
+    "triangles_instance_sum": 1282770,
+    "geometry_measurement": "Actual evaluated depsgraph meshes, including rounded joinery/bevel modifiers, matching export_apply=True; not raw source face counts.",
+    "bounds_min": [
+      -12.077966690063477,
+      -7.945058822631836,
+      0.0059999991208314896
+    ],
+    "bounds_max": [
+      21.362947463989258,
+      18.216890335083008,
+      1.6229403018951416
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "None"
+    ],
+    "person_ids": [
+      6,
+      6,
+      6,
+      18,
+      18,
+      18,
+      30,
+      30,
+      30
+    ]
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [],
+  "scope": "All saved-source town component geometry; source SHA is provenance, not visual acceptance; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}

@@ -1,0 +1,38 @@
+{
+  "stage": "PUBLIC RENDERS + FULL EDITABLE NATIVE + PORTABLE MODEL / NOT INDEPENDENT ACCEPTANCE",
+  "release_tag": "townsquare/blender/r14-exteriors-20261019",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/townsquare/blender/r14-exteriors-20261019",
+  "source_native_sha256": "d101169695309b387d8150ecfcf07bf96741d96dbf0068d1460d1cc2b1181e3f",
+  "rendered_views": 16,
+  "assets": [
+    {
+      "asset": "Winterlichtplatz-Renders-r14-d10116969530.zip",
+      "bytes": 29690932,
+      "sha256": "fa9e96811b6b9ce6f06fed586afdb5ce94fe923990e96a010b4671a8e06674b6",
+      "crc": "PASS",
+      "entries": 24,
+      "every_listed_member_sha256": "PASS",
+      "browser_download_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/r14-exteriors-20261019/Winterlichtplatz-Renders-r14-d10116969530.zip"
+    },
+    {
+      "asset": "Winterlichtplatz-Full-3D-Editable-r14-d10116969530.zip",
+      "bytes": 616777731,
+      "sha256": "704904a2455db1e446c95ef742e2440f4f44a0a900678196e9103586bed27586",
+      "crc": "PASS",
+      "entries": 1060,
+      "every_listed_member_sha256": "PASS",
+      "browser_download_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/r14-exteriors-20261019/Winterlichtplatz-Full-3D-Editable-r14-d10116969530.zip"
+    },
+    {
+      "asset": "Winterlichtplatz-Portable-3D-r14-d10116969530.zip",
+      "bytes": 415110630,
+      "sha256": "4d5586273a7f5b85c34f848aafa809951161bc0d741d4238da9621684dc17c2a",
+      "crc": "PASS",
+      "entries": 40,
+      "every_listed_member_sha256": "PASS",
+      "browser_download_url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare/blender/r14-exteriors-20261019/Winterlichtplatz-Portable-3D-r14-d10116969530.zip"
+    }
+  ],
+  "actual_render_gallery_manifest": "evidence/production/R14-render-gallery-manifest.json",
+  "utc": "2026-10-19T15:32:02.675203+00:00"
+}

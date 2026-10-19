@@ -1,0 +1,213 @@
+{
+  "actual_changes": [
+    {
+      "floor": "B02_L02",
+      "actual_theme": "Baker guest bedroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B02__B02_L02__B02_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.950000762939453,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660156,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246094,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B04_L02",
+      "actual_theme": "Illustrator drawing studio",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B04__B04_L02__B04_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.350000381469727,
+              -2.9499969482421875,
+              -4.7683715642676816e-08
+            ],
+            [
+              -1.8500003814697266,
+              -0.7843666076660154,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -4.700000762939453,
+              -2.599996566772461,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.5343704223632812,
+              -0.09999656677246072,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B05_L02",
+      "actual_theme": "Planted conservatory",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B08_L02",
+      "actual_theme": "Child bedroom and play",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B08__B08_L02__B08_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.849999904632568,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3499999046325684,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.2000041007995605,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.034369945526123,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B09_L02",
+      "actual_theme": "Maker workroom",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [
+        {
+          "object": "B09__B09_L02__B09_L02_LIVING__furniture",
+          "tag": "Sofa_and_low_table_only_clear_central_quarter_turn",
+          "actual_vertices_rigidly_moved": 1485,
+          "partial_mesh_faces": 0,
+          "before_local_bounds": [
+            [
+              -4.850000381469727,
+              -2.9500007629394536,
+              -4.7683715642676816e-08
+            ],
+            [
+              -2.3500003814697266,
+              -0.7843666076660161,
+              0.9814931869506838
+            ]
+          ],
+          "after_local_bounds": [
+            [
+              -5.200004577636719,
+              -2.5999965667724614,
+              -4.7683715642676816e-08
+            ],
+            [
+              -3.0343704223632812,
+              -0.09999656677246138,
+              0.9814931869506838
+            ]
+          ],
+          "angle_degrees": -90.0,
+          "local_delta_m": [
+            0,
+            0,
+            0
+          ],
+          "scope": "Actual selected complete mesh faces; UV/material assignments retained, no whole-room turn or shell mutation. Clearance/visual reinspection still required."
+        }
+      ],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B11_L02",
+      "actual_theme": "Cycle and outdoor gear room",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    },
+    {
+      "floor": "B12_L02",
+      "actual_theme": "Writer library and study",
+      "secondary_room_old_furniture_objects_removed": 1,
+      "actual_scoped_sofa_low_table_edits": [],
+      "primary_bed_and_existing_armchair_retained_safe_original_orientation": true,
+      "changes": "Actual new functional room fit-out and layout, not relabel; bakery additionally receives fitted baking kitchen/island/ceramic bowls/rolling pin/breakfast. Shells,datum,stairs,room finish/ceiling kept. Conceptual, not certified."
+    }
+  ],
+  "stage": "INTERMEDIATE_NOT_PROMOTED_RENDER_REINSPECTION_PENDING"
+}

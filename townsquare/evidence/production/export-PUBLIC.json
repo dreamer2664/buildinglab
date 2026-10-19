@@ -1,0 +1,88 @@
+{
+  "component": "PUBLIC",
+  "source_native_sha256": "7fb9ce64d02030beac15b2adb8df32831e885acfabca51ca26a28a0f2d5a77b1",
+  "glb": ".cache/final-components/GLB/PUBLIC.glb",
+  "glb_sha256": "ce558557159bb6f115a6e58e62b8de6730a954c72c1dfb30f1ea95e12831e7a8",
+  "glb_bytes": 19348668,
+  "expected_geometry": {
+    "mesh_objects": 25,
+    "vertices_instance_sum": 194694,
+    "polygons_instance_sum": 149543,
+    "triangles_instance_sum": 290356,
+    "bounds_min": [
+      -56.0,
+      -50.0,
+      -0.7000000476837158
+    ],
+    "bounds_max": [
+      56.0,
+      50.0,
+      13.069999694824219
+    ],
+    "floor_ids": [
+      "PUBLIC"
+    ],
+    "room_ids": [
+      "CHRISTMAS_FIR",
+      "EXISTING_BENCHES_LAMPS",
+      "FESTOONS",
+      "LINDEN_01",
+      "LINDEN_02",
+      "LINDEN_03",
+      "LINDEN_04",
+      "LINDEN_05",
+      "LINDEN_06",
+      "LINDEN_07",
+      "LINDEN_08",
+      "LINDEN_09",
+      "LINDEN_10",
+      "LINDEN_11",
+      "LINDEN_12",
+      "MARKET_01",
+      "MARKET_02",
+      "MARKET_03",
+      "MARKET_04",
+      "MARKET_05",
+      "MARKET_06",
+      "MARKET_07",
+      "MARKET_08",
+      "PLAYGROUND"
+    ],
+    "person_ids": []
+  },
+  "texture_cap_px": 512,
+  "background_omissions": [
+    {
+      "object": "PUBLIC__PUBLIC__EXISTING_BENCHES_LAMPS__ground",
+      "action": "Cropped only legacy horizon component to112x100m, preserving original local UV metre density and z levels; all town architecture/plaza/people unchanged.",
+      "original_vertices": 8,
+      "original_bounds_min": [
+        -500.0,
+        -500.0,
+        -0.7000000476837158
+      ],
+      "original_bounds_max": [
+        500.0,
+        500.0,
+        -0.09999999403953552
+      ],
+      "portable_bounds_min": [
+        -56,
+        -50,
+        -0.7000000476837158
+      ],
+      "portable_bounds_max": [
+        56,
+        50,
+        -0.09999999403953552
+      ]
+    }
+  ],
+  "scope": "All final town component geometry; omit redundant auxiliary500m plane and crop only legacy1000m horizon to112x100m snow context; original64x52m plaza and all buildings/furniture unchanged. Static people, with separate full-resolution editable rigs",
+  "portability_limitations": [
+    "Blender area lights and photographic world are not faithfully represented by core glTF; punctual lights only where supported.",
+    "Procedural shader details fall back to portable Principled/PBR values where unsupported; native is authoritative for lighting/glass/colour management.",
+    "Source image maps resampled to512px for portable memory budget; original packed maps remain in full-resolution natives."
+  ],
+  "reimport": "PENDING"
+}
