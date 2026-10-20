@@ -76,17 +76,32 @@
  },
  "CAM_04_quay_from_water": {
   "file": "CAM_04_quay_from_water.png",
-  "key": "51ac29b8a49fcefbea4a6c5e1607922aa161acaaaa27b08c634afebbd2000678",
+  "key": "70b7706bb4f68ab22d2bed7c7eb084dfa45e20e8b3e5c86cad1d7f8aa1f4c797",
   "cached": false,
-  "seconds": 64.0,
-  "sha256": "6ddaf2f510c04f8eacd1dd2b422671cc423934d47127744736c11649f9f3e4f8",
-  "bytes": 714287,
+  "seconds": 154.8,
+  "sha256": "b766bd1609ee06678449c0de05aeb501cb7e94dba1afa4f9a01d8c169927122c",
+  "bytes": 708088,
   "px": [
    1024,
    576
   ],
-  "content": "4440a4ce49227189a2d5bf34",
-  "light": "9287bb55744112c6",
-  "native_sha256": "1846e4ef16555d98d4f2c7c582dfecc04ad837c5283377a112bc24476a8397cf"
+  "content": "312ab886efe69cc47bcafd6d",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+ },
+ "CAM_08_hull_bow": {
+  "file": "CAM_08_hull_bow.png",
+  "key": "6b9e18f07134b8145dcbf73415a614765e2e7a40d79708d1817e18e653382b08",
+  "cached": false,
+  "seconds": 189.7,
+  "sha256": "bbfe11a3fdaf55e7db9d5466da9ca01f0f8697911f03f1bd5fe5167f9e237fd3",
+  "bytes": 584250,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "940bcedcfeea4ac872dcba48",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "9fbf5d81c9674549e034de0bbbc44b4717edc581ded75046a736ec474c22ae75"
  }
 }

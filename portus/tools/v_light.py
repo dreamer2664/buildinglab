@@ -146,10 +146,12 @@ def histograms(args):
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", default=None)
     ap.add_argument("--images", default=None)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     if args.images:
         return histograms(args)
     if args.native:

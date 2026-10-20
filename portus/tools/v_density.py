@@ -36,9 +36,11 @@ MIN_TRIS = 40
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", required=True)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     import bpy
 
     checks = []
@@ -104,10 +106,18 @@ def main():
     for rid, row in sched.items():
         if row.get("apartment"):
             apt_rooms[row["apartment"]].append(rid)
-    undressed = [a for a, rids in apt_rooms.items() if any(len(props.get(r, [])) == 0 for r in rids)]
-    check("100 % of apartments dressed", not undressed,
-          f"{len(undressed)}/{len(apt_rooms)} undressed" if undressed else
-          f"{len(apt_rooms)} apartments, all rooms furnished")
+    # An apartment can only be dressed if it has been built. Stage B builds B05;
+    # the other 200 apartments have no rooms in the scene yet (D-201), so this
+    # check is scoped to apartments that exist and the coverage gap is printed.
+    built = {a for a, rids in apt_rooms.items()
+             if any(r in sched and any(o.name.startswith(f"ROOM_{r}_")
+                                       for o in bpy.data.objects) for r in rids)}
+    undressed = [a for a in built if any(len(props.get(r, [])) == 0 for r in apt_rooms[a])]
+    check("100 % of apartments dressed (of those built)", not undressed,
+          f"{len(undressed)}/{len(built)} undressed" if undressed else
+          f"{len(built)} apartments built, all rooms furnished")
+    check("all 208 apartments built", len(built) == len(apt_rooms),
+          f"{len(built)}/{len(apt_rooms)} built — Stage C open (D-201)")
 
     ok = all(c["ok"] for c in checks)
     ev = os.path.join(ROOT, "evidence", "validation")

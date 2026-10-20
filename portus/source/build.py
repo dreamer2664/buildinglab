@@ -516,6 +516,13 @@ def mass_building(spec, M, C, z):
 
 
 # ── B05 in full ────────────────────────────────────────────────────────────
+def _emit(parts, rect):
+    """Append only a box with three positive dimensions (zero-area guard)."""
+    if (abs(rect[3] - rect[0]) > 1e-4 and abs(rect[4] - rect[1]) > 1e-4
+            and abs(rect[5] - rect[2]) > 1e-4):
+        parts.append(rect)
+
+
 def wall_panel(name, x0, y0, x1, y1, z0, h, thick, side, mat, C, holes=()):
     """A wall panel with rectangular holes (door/window). Built as a set of boxes
     in the panel plane; holes are (u0, u1, v0, v1) in metres along the wall."""
@@ -526,32 +533,32 @@ def wall_panel(name, x0, y0, x1, y1, z0, h, thick, side, mat, C, holes=()):
         spans = [(0.0, length)]
         for (u0, u1, v0, v1) in holes:
             xa, xb = x0 + u0, x0 + u1
-            parts.append((xa, y, z0, xb, y + thick, z0 + v0))          # under
-            parts.append((xa, y, z0 + v1, xb, y + thick, z0 + h))      # over
+            _emit(parts, (xa, y, z0, xb, y + thick, z0 + v0))          # under
+            _emit(parts, (xa, y, z0 + v1, xb, y + thick, z0 + h))      # over
         # piers between holes
         hs = sorted([(u0, u1) for (u0, u1, v0, v1) in holes])
         cur = 0.0
         for (u0, u1) in hs:
             if u0 > cur:
-                parts.append((x0 + cur, y, z0, x0 + u0, y + thick, z0 + h))
+                _emit(parts, (x0 + cur, y, z0, x0 + u0, y + thick, z0 + h))
             cur = max(cur, u1)
         if cur < length:
-            parts.append((x0 + cur, y, z0, x0 + length, y + thick, z0 + h))
+            _emit(parts, (x0 + cur, y, z0, x0 + length, y + thick, z0 + h))
     else:
         x = x0 if side == "W" else x1 - thick
         length = y1 - y0
         for (u0, u1, v0, v1) in holes:
             ya, yb = y0 + u0, y0 + u1
-            parts.append((x, ya, z0, x + thick, yb, z0 + v0))
-            parts.append((x, ya, z0 + v1, x + thick, yb, z0 + h))
+            _emit(parts, (x, ya, z0, x + thick, yb, z0 + v0))
+            _emit(parts, (x, ya, z0 + v1, x + thick, yb, z0 + h))
         hs = sorted([(u0, u1) for (u0, u1, v0, v1) in holes])
         cur = 0.0
         for (u0, u1) in hs:
             if u0 > cur:
-                parts.append((x, y0 + cur, z0, x + thick, y0 + u0, z0 + h))
+                _emit(parts, (x, y0 + cur, z0, x + thick, y0 + u0, z0 + h))
             cur = max(cur, u1)
         if cur < length:
-            parts.append((x, y0 + cur, z0, x + thick, y0 + length, z0 + h))
+            _emit(parts, (x, y0 + cur, z0, x + thick, y0 + length, z0 + h))
     return geo.merged(name, parts, mat, C)
 
 
@@ -726,8 +733,8 @@ def build_room(r, spec, M, C):
                             wdw["sill"], wdw["sill"] + wdw["h"]))
     thick = 0.06
     for side in ("S", "N", "W", "E"):
-        wall_panel(f"ROOM_{rid}_lining_{side}", x0, y0, x0 + w, y0 + d, z, P.RES_CEILING,
-                   thick, side, M["plaster"], R, holes=holes[side])
+        wall_panel(f"ROOM_{rid}_lining_{side}", x0, y0, x0 + w, y0 + d, z,
+                   P.RES_CEILING - 0.02, thick, side, M["plaster"], R, holes=holes[side])
     # window: frame, glass, sill
     if wdw:
         _window_fit(f"ROOM_{rid}", wdw, z, M, R)
@@ -830,7 +837,7 @@ def _door_fit(prefix, door, z, M, C):
 
 
 def _room_lamp(prefix, x, y, z, M, C):
-    geo.cyl(f"{prefix}_lampcord", x, y, z - 0.35, 0.008, 0.35, M["iron"], C, seg=8)
+    geo.cyl(f"{prefix}_lampcord", x, y, z - 0.35, 0.012, 0.35, M["iron"], C, seg=14)
     geo.cyl(f"{prefix}_lampshade", x, y, z - 0.42, 0.20, 0.16, M["lamp_warm"], C, seg=14,
             r_top=0.07)
     li = bpy.data.lights.new(f"{prefix}_practical", "POINT")
@@ -862,16 +869,23 @@ def build_rail(M, sysd):
         geo.box(f"RAIL_{side}_head", x0 - 3.0, yy - 0.035, rail_z + 0.14, x1, yy + 0.035,
                 rail_z + 0.17, M["steel"], C)
     # catenary: masts, bracket, contact wire at 5.50 above rail head
+    wire_z = rail_z + 0.17 + 5.50
+    wx0, wx1 = x0 - 2, x0 + 18
     for i in range(3):
-        xx = x0 - 2 + i * 10.0
+        xx = wx0 + 0.08 + i * 10.0
         geo.box(f"MAST_{i}", xx - 0.12, y + 2.0, P.LAND_Z, xx + 0.12, y + 2.24, P.LAND_Z + 7.4,
                 M["steel_dark"], C)
         geo.box(f"BRACKET_{i}", xx - 0.06, y - 0.2, P.LAND_Z + 6.9, xx + 0.06, y + 2.1,
                 P.LAND_Z + 7.0, M["steel_dark"], C)
-    wire_z = rail_z + 0.17 + 5.50
-    geo.box("CATENARY_WIRE", x0 - 3.0, y - 0.012, wire_z - 0.012, x1, y + 0.012, wire_z + 0.012,
+
+    # the wire spans mast to mast (x0-2 .. x0+18) and each end is clamped to an
+    # anchor block, so no wire ends in the air (v_plant rule)
+    geo.box("CATENARY_WIRE", wx0, y - 0.012, wire_z - 0.012, wx1, y + 0.012, wire_z + 0.012,
             M["steel_dark"], C)
-    geo.box("CONTACT_WIRE_2", x0 - 3.0, y - 0.010, wire_z - 0.32, x1, y + 0.010, wire_z - 0.30,
+    for i, ax in enumerate((wx0 - 0.16, wx1)):
+        geo.box(f"CATENARY_ANCHOR_{i}", ax, y - 0.20, wire_z - 0.35, ax + 0.16, y + 0.20,
+                wire_z + 0.20, M["steel_dark"], C)
+    geo.box("CONTACT_WIRE_2", wx0, y - 0.010, wire_z - 0.32, wx1, y + 0.010, wire_z - 0.30,
             M["steel_dark"], C)
     # buffer stop at the end of the line
     bx, by = x0 - 3.4, y
@@ -923,7 +937,7 @@ def build_crane(M, sysd):
     geo.box("CRANE_COUNTERWEIGHT", cx - 8.4, cy - 1.0, z + 15.0, cx - 6.6, cy + 1.0, z + 17.4,
             M["concrete"], C)
     # machinery house, mast cap, tie bars
-    geo.box("CRANE_MACHINE_HOUSE", cx - 5.5, cy - 0.8, z + 16.2, cx - 2.0, cy + 0.8, z + 17.6,
+    geo.box("CRANE_MACHINERY_HOUSE", cx - 5.5, cy - 0.8, z + 16.2, cx - 2.0, cy + 0.8, z + 17.6,
             M["steel_dark"], C)
     geo.box("CRANE_MAST_CAP", cx - 1.0, cy - 1.0, z + 17.0, cx + 1.0, cy + 1.0, z + 18.4,
             M["crane_yellow"], C)
@@ -1001,12 +1015,16 @@ def build_ship(M, sysd):
     for yy in (y0, y1):
         geo.box("SHIP_RAIL", x0 + 1.0, yy - 0.03 if yy == y0 else yy - 0.03, deck + 1.0,
                 x1 - 6.0, yy + 0.03, deck + 1.06, M["paint_white"], C)
+    # pad eyes on the deck edge: a rope that ends in mid-air is a defect (v_plant)
+    for i, px in enumerate((x0 + 3.0, x0 + 30.0, x1 - 12.0, x1 - 4.0)):
+        geo.box(f"SHIP_PADEYE_{i+1}", px - 0.16, y1 - 0.34, deck + 0.05, px + 0.16, y1 + 0.02,
+                deck + 1.02, M["steel_dark"], C)
     # four mooring ropes in catenary to the bollards on the north quay
-    moor = [(x0 + 3.0, y1, 120.5 + 0.0, 114.0), (x0 + 30.0, y1, 118.0, 122.0 + 0.0),
-            (x1 - 12.0, y1, 118.0, 154.0), (x1 - 4.0, y0, 108.0, 216.0)]
+    moor = [(x0 + 3.0, y1, 120.5, 114.0), (x0 + 30.0, y1, 120.5, 138.0),
+            (x1 - 12.0, y1, 120.5, 178.0), (x1 - 4.0, y1, 120.5, 202.0)]
     for i, (sx, sy, by, bx) in enumerate(moor):
-        p0 = (sx, sy - 0.1, deck + 0.9)
-        p1 = (bx, by + 0.55, P.LAND_Z + 0.55)
+        p0 = (sx, sy - 0.16, deck + 0.88)
+        p1 = (bx, by, P.LAND_Z + 0.66)          # the bollard head itself
         sag = 0.22 + 0.10 * i
         geo.rope(f"MOORING_ROPE_{i+1}", p0, p1, sag, 0.045, M["rope"], C, n=20)
     log(f"coaster: 90 x 13.5 m, draft {draft:.2f} m, deck +{deck:.2f}, 4 ropes in catenary")
@@ -1066,7 +1084,7 @@ def build_people(M):
         ("DOCKER_01", 178.0, 126.0, P.LAND_Z, 0.4, "carrying", "cloth_olive"),
         ("DOCKER_02", 183.5, 124.0, P.LAND_Z, -0.7, "walking", "cloth_navy"),
         ("SAILOR_01", 141.0, 118.9, P.LAND_Z, 2.4, "pulling", "cloth_grey"),
-        ("CRANE_DRIVER", 190.0, 124.2, P.LAND_Z + 13.4, 0.0, "seated", "cloth_navy"),
+        ("CRANE_DRIVER", 189.1, 121.4, P.LAND_Z + 13.85, 0.0, "seated", "cloth_navy"),
         ("CLERK_01", 168.0, 130.0, P.LAND_Z, 1.2, "walking", "cloth_grey"),
         ("FISHER_01", 250.0, 34.0, P.LAND_Z, -1.1, "standing", "cloth_olive"),
     ]

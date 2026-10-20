@@ -101,9 +101,11 @@ def pairs(path):
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--pairs", default=None)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     if args.pairs:
         return pairs(args.pairs)
     return machine()

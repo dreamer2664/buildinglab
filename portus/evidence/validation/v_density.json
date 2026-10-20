@@ -1,0 +1,99 @@
+{
+ "validator": "v_density",
+ "native": "portus/source/PORTUS.blend",
+ "ok": false,
+ "checks": [
+  {
+   "name": "every room meets its class floor",
+   "ok": false,
+   "detail": "16 short: ['R00269 kitchen 66/90', 'R00272 bedroom 35/40', 'R00277 kitchen 62/90', 'R00279 bedroom 29/40', 'R00284 kitchen 63/90', 'R00287 living 66/70']"
+  },
+  {
+   "name": "no empty room",
+   "ok": true,
+   "detail": "all dressed"
+  },
+  {
+   "name": "no room is absurdly stuffed",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "name": "every prop is a separate object",
+   "ok": true,
+   "detail": "2484 props"
+  },
+  {
+   "name": "every prop has \u226540 triangles",
+   "ok": false,
+   "detail": "52 under: [('ROOM_R00265_lampcord', 28), ('ROOM_R00266_lampcord', 28), ('ROOM_R00267_lampcord', 28), ('ROOM_R00268_lampcord', 28), ('ROOM_R00269_lampcord', 28)]"
+  },
+  {
+   "name": "100 % of apartments dressed (of those built)",
+   "ok": true,
+   "detail": "8 apartments built, all rooms furnished"
+  },
+  {
+   "name": "all 208 apartments built",
+   "ok": false,
+   "detail": "8/208 built \u2014 Stage C open (D-201)"
+  }
+ ],
+ "per_kind": {
+  "bathroom": {
+   "rooms": 8,
+   "mean_props": 30.0,
+   "min_props": 30
+  },
+  "bedroom": {
+   "rooms": 8,
+   "mean_props": 33.1,
+   "min_props": 29
+  },
+  "entry": {
+   "rooms": 8,
+   "mean_props": 21.0,
+   "min_props": 21
+  },
+  "kitchen": {
+   "rooms": 8,
+   "mean_props": 66.0,
+   "min_props": 62
+  },
+  "living": {
+   "rooms": 8,
+   "mean_props": 71.2,
+   "min_props": 66
+  },
+  "sales": {
+   "rooms": 1,
+   "mean_props": 473.0,
+   "min_props": 473
+  },
+  "staff": {
+   "rooms": 1,
+   "mean_props": 16.0,
+   "min_props": 16
+  },
+  "stock": {
+   "rooms": 1,
+   "mean_props": 48.0,
+   "min_props": 48
+  },
+  "store": {
+   "rooms": 8,
+   "mean_props": 21.0,
+   "min_props": 21
+  },
+  "wc": {
+   "rooms": 1,
+   "mean_props": 8.0,
+   "min_props": 8
+  }
+ },
+ "fails": [
+  "every room meets its class floor",
+  "every prop has \u226540 triangles",
+  "all 208 apartments built"
+ ]
+}

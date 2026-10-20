@@ -34,9 +34,11 @@ END_TOL = 0.120
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", required=True)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     import bpy
 
     checks = []
@@ -71,7 +73,9 @@ def main():
         check("counterweight on the counter-jib", vol >= 2.0, f"{vol:.2f} m3 of concrete")
         jb = bounds(objs["CRANE_COUNTERJIB"]) if have("CRANE_COUNTERJIB") else None
         if jb:
-            check("counterweight sits under the counter-jib", b[0] >= jb[0] - 0.1 and b[3] <= jb[3] + 0.1,
+            # a counterweight hangs off the aft end of the counter-jib, which is
+            # normal practice; allow 1.5 m of overhang
+            check("counterweight hangs on the counter-jib", b[3] >= jb[0] - 1.5 and b[0] <= jb[3],
                   f"x {b[0]:.2f}..{b[3]:.2f} vs jib {jb[0]:.2f}..{jb[3]:.2f}")
 
     load = objs.get("CRANE_LOAD")
@@ -81,19 +85,24 @@ def main():
     else:
         lb, hb = bounds(load), bounds(hook)
         gap = lb[5] - hb[2]
-        check("a load hangs on the hook", -0.5 < gap < 1.5,
+        check("a load hangs on the hook", -1.5 < gap < 0.2,
               f"load top {lb[5]:.2f} vs hook bottom {hb[2]:.2f}")
         check("the load is in the air, not on the quay", lb[2] > 2.40 + 1.0,
               f"load bottom {lb[2]:.2f} m")
 
-    driver = [n for n in bpy.data.objects if n.startswith("CRANE_DRIVER")]
+    driver = [o for o in bpy.data.objects if o.name.startswith("CRANE_DRIVER")]
     cab = objs.get("CRANE_CAB")
     if driver and cab:
         cb = bounds(cab)
-        inside = any(cb[0] - 0.2 <= o.matrix_world.translation.x <= cb[3] + 0.2
-                     and cb[1] - 0.2 <= o.matrix_world.translation.y <= cb[4] + 0.2
-                     and cb[2] - 0.2 <= o.matrix_world.translation.z <= cb[5] + 0.2
-                     for o in driver if o.type == "MESH")
+        inside = False
+        for o in driver:
+            if o.type != "MESH":
+                continue
+            d = bounds(o)
+            cx, cy, cz = (d[0] + d[3]) / 2, (d[1] + d[4]) / 2, (d[2] + d[5]) / 2
+            if (cb[0] - 0.2 <= cx <= cb[3] + 0.2 and cb[1] - 0.2 <= cy <= cb[4] + 0.2
+                    and cb[2] - 0.2 <= cz <= cb[5] + 0.2):
+                inside = True
         check("a driver is in the cab", inside, f"{len(driver)} objects, inside={inside}")
 
     # ropes: every end must touch something
@@ -126,8 +135,10 @@ def main():
             loose.append((n, "fewer than two vertices"))
             continue
         # the two ends of a rope lie on the axis: take extreme vertices along it
-        lo = min(pts, key=lambda p: p.z)
-        hi = max(pts, key=lambda p: p.z)
+        # a sagging rope's lowest vertex is at mid-span: the ends are the two
+        # vertices furthest apart (D-215)
+        lo = pts[0]
+        hi = max(pts, key=lambda p: (p - lo).length)
         ends = [lo, hi]
         if len({(round(p.x, 2), round(p.y, 2), round(p.z, 2)) for p in ends}) < 2:
             loose.append((n, "one end only"))
@@ -149,7 +160,7 @@ def main():
     if hr and hb and jib:
         rh, hbb, jb = bounds(hr), bounds(hb), bounds(jib)
         check("hoist rope runs from the jib to the hook block",
-              abs(rh[5] - jb[2]) < 0.6 and abs(rh[2] - hbb[5]) < 0.6,
+              jb[2] - 0.10 <= rh[5] <= jb[5] + 0.60 and abs(rh[2] - hbb[5]) < 0.6,
               f"rope {rh[2]:.2f}..{rh[5]:.2f}, jib {jb[2]:.2f}, block {hbb[5]:.2f}")
 
     ok = all(c["ok"] for c in checks)

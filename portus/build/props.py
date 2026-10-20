@@ -44,12 +44,16 @@ def item(name, parts, mat, collection, bevel=0.008):
                 pass
     bm.normal_update()
     if bevel > 0:
+        # a 8 mm bevel on a 10 mm plate collapses it into zero-area faces.
+        # Cap the offset at a quarter of the thinnest dimension of the item.
+        thin = min(min(abs(p[3] - p[0]), abs(p[4] - p[1]), abs(p[5] - p[2])) for p in parts)
+        off = min(bevel, max(0.0008, thin * 0.25))
         geom = list(bm.edges)
         try:
-            bmesh.ops.bevel(bm, geom=geom, offset=bevel, segments=1,
+            bmesh.ops.bevel(bm, geom=geom, offset=off, segments=1,
                             affect="EDGES", clamp_overlap=True, profile=0.5)
         except TypeError:                       # older signature
-            bmesh.ops.bevel(bm, geom=geom, offset=bevel, segments=1, profile=0.5)
+            bmesh.ops.bevel(bm, geom=geom, offset=off, segments=1, profile=0.5)
     me = bpy.data.meshes.new(name)
     bm.to_mesh(me)
     bm.free()
@@ -437,6 +441,8 @@ def kitchen(room, palette, density=90):
         parts.append((x + 0.02, cy + 0.34, 1.57, x + 0.56, cy + 0.36, 2.23))
         parts.append((x + 0.24, cy + 0.36, 1.88, x + 0.34, cy + 0.39, 1.91))
     r.add("wallcab", parts, "timber", at=(0, 0))
+    r.surface(cx + 0.06, cy + 0.02, cx + run - 0.06, cy + 0.30, 1.55)     # tops of the wall cabinets
+    r.surface(cx + 0.05, cy + 0.05, cx + run - 0.05, cy + 0.58, 0.90)     # in the sink run, between items
     # fridge
     _p = r.place_against("E", 0.72, 0.70)
     fx, fy = (_p if _p else (None, None))
@@ -458,10 +464,10 @@ def kitchen(room, palette, density=90):
             mat=["glass_dirty", "ceramic", "brass"][k % 3])
     for k in range(4):
         p = [(0.0, 0.0, 0.0, 0.24, 0.24, 0.10), (0.02, 0.02, 0.10, 0.22, 0.22, 0.13)]
-        r.add("pan", p, "copper_pot", at=(cx + 1.75 + k * 0.14, cy + 0.14), z=r.z + 0.93)
+        r.add("pan", p, "copper_pot", at=(cx + 1.72 + k * 0.27, cy + 0.14), z=r.z + 0.93)
     for k in range(5):
         r.add("plate", [(0, 0, 0, 0.24, 0.24, 0.012), (0.03, 0.03, 0.012, 0.21, 0.21, 0.018)],
-              "ceramic", at=(cx + 0.4 + k * 0.16, cy + 0.30), z=r.z + 0.90)
+              "ceramic", at=(cx + 0.4 + k * 0.27, cy + 0.30), z=r.z + 0.90)
     # cutlery drawer pulled out, utensils in a jar, tea caddy, spice tins:
     # a working kitchen has more objects than surfaces, which is the point
     r.add("drawer", [(cx + 0.10, cy + 0.63, 0.55, cx + 0.60, cy + 0.98, 0.63),
@@ -475,7 +481,20 @@ def kitchen(room, palette, density=90):
     for k in range(4):
         r.add("teatowel", [(0, 0, 0, 0.22, 0.02, 0.30)], ["paper", "fabric_red"][k % 2],
               at=(cx + 2.45, cy + 0.05 + k * 0.03), z=r.z + 0.52)
-    _top_up(r, density, kinds=("jar", "crate", "book", "box"))
+    # pantry cupboard: carcass, four shelves, and the things on them
+    px, py = r.place_against("N", 1.10, 0.42)
+    if px is not None:
+        parts = [(0, 0, 0, 1.10, 0.42, 2.10), (1.10, 0.05, 0.05, 1.13, 0.37, 2.05)]
+        for k in range(4):
+            zk = 0.10 + k * 0.50
+            parts.append((0.03, 0.03, zk, 1.07, 0.39, zk + 0.03))
+            r.surface(px + 0.03, py + 0.33, px + 1.07, py + 0.69, zk + 0.03)
+        r.add("pantry", parts, "timber", at=(px, py))
+        for k in range(18):
+            r.add("tin", [(0, 0, 0, 0.10, 0.10, 0.13), (0.01, 0.01, 0.13, 0.09, 0.09, 0.15)],
+                  ["enamel", "brass", "paint_red", "paint_green"][k % 4],
+                  at=(px + 0.08 + (k % 6) * 0.16, py + 0.10), z=r.z + 0.13 + (k // 6) * 0.50)
+    _top_up(r, density, kinds=("jar", "crate", "book", "box", "tin"))
 
 
 def bedroom(room, palette, density=40):
@@ -521,7 +540,15 @@ def bedroom(room, palette, density=40):
     for k in range(2):
         r.add("picture", [(0.2 + k * 0.6, 0.035, 1.4, 0.62 + k * 0.6, 0.055, 1.85),
                           (0.24 + k * 0.6, 0.055, 1.44, 0.58 + k * 0.6, 0.06, 1.81)], "timber_dark")
-    _top_up(r, density, kinds=("book", "jar", "box"))
+    if wx is not None:
+        r.surface(wx + 0.02, wy + 0.02, wx + 0.58, wy + 1.68, 2.30)   # wardrobe top
+    for k in range(10):
+        r.add("shoe", [(0, 0, 0, 0.27, 0.11, 0.09), (0.02, 0.02, 0.09, 0.23, 0.10, 0.13)],
+              ["boot", "timber_dark", "fabric_grey"][k % 3], at=(0.10 + k * 0.30, r.d - 0.40))
+    for k in range(6):
+        r.add("folded", [(0, 0, 0, 0.30, 0.24, 0.07 * (k % 3 + 1))],
+              ["fabric_blue", "fabric_grey", "paper"][k % 3], at=(0.10 + k * 0.34, 0.20))
+    _top_up(r, density, kinds=("book", "jar", "box", "folded"))
 
 
 def bathroom(room, palette, density=28):
@@ -759,6 +786,10 @@ _CLUTTER = {
     "sack": lambda r, x, y, z: _sack(r, x, y),
     "tool": lambda r, x, y, z: r.add("tool", [(0, 0, 0, 0.24, 0.05, 0.03), (0.02, 0.01, 0.03, 0.08, 0.04, 0.10)],
                                      "steel", at=(x, y), z=z),
+    "tin": lambda r, x, y, z: r.add("tin", [(0, 0, 0, 0.09, 0.09, 0.12), (0.01, 0.01, 0.12, 0.08, 0.08, 0.14)],
+                                    ["enamel", "brass", "paint_red", "paint_green"][r.n % 4], at=(x, y), z=z),
+    "folded": lambda r, x, y, z: r.add("folded", [(0, 0, 0, 0.26, 0.20, 0.09), (0.01, 0.01, 0.09, 0.25, 0.19, 0.11)],
+                                       ["fabric_blue", "fabric_grey", "paper"][r.n % 3], at=(x, y), z=z),
     "basket": lambda r, x, y, z: r.add("basket", [(0, 0, 0, 0.28, 0.22, 0.14), (0.01, 0.01, 0.10, 0.27, 0.21, 0.15)],
                                       "timber_pale", at=(x, y), z=z),
     "produce": lambda r, x, y, z: r.add("produce", [(0, 0, 0, 0.10, 0.10, 0.10), (0.01, 0.01, 0.02, 0.09, 0.09, 0.09)],

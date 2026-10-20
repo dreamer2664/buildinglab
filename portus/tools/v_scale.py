@@ -206,11 +206,13 @@ def native_checks(path):
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", default=None)
     ap.add_argument("--design", default=DESIGN)
     ap.add_argument("--design-only", action="store_true")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     os.makedirs(EVID, exist_ok=True)
     if args.native:
         checks, fails = native_checks(args.native)

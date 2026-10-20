@@ -30,9 +30,11 @@ def tri_count(o):
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", required=True)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     import bpy
 
     checks = []

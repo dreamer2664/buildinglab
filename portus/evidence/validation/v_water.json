@@ -1,0 +1,83 @@
+{
+ "validator": "v_water",
+ "native": "portus/source/PORTUS.blend",
+ "ok": true,
+ "checks": [
+  {
+   "name": "water level +0.00 \u00b15 mm",
+   "ok": true,
+   "detail": "mean -0.00026 m over 11476 vertices"
+  },
+  {
+   "name": "surface swell within \u00b160 mm",
+   "ok": true,
+   "detail": "max deviation 32.0 mm"
+  },
+  {
+   "name": "water covers the basin",
+   "ok": true,
+   "detail": "x 110.0..290.0 y 30.0..120.0"
+  },
+  {
+   "name": "basin bed \u2265 5.5 m below water",
+   "ok": true,
+   "detail": "5.65 m"
+  },
+  {
+   "name": "8 dropped objects",
+   "ok": true,
+   "detail": "13 found"
+  },
+  {
+   "name": "every dropped object is under water",
+   "ok": true,
+   "detail": "13/13"
+  },
+  {
+   "name": "hull at design draft \u00b150 mm",
+   "ok": true,
+   "detail": "draft 4.200 m (design 4.20)"
+  },
+  {
+   "name": "hull freeboard above water",
+   "ok": true,
+   "detail": "deck 3.55 m above water"
+  },
+  {
+   "name": "hull is in the basin",
+   "ok": true,
+   "detail": "x 120.0..210.0 y 105.7..119.2"
+  },
+  {
+   "name": "4 mooring ropes",
+   "ok": true,
+   "detail": "4 found"
+  },
+  {
+   "name": "every rope sags \u2265 0.20 m",
+   "ok": true,
+   "detail": "sags [1.478, 1.479, 1.479, 1.499]"
+  },
+  {
+   "name": "every rope ends at a bollard on the quay",
+   "ok": true,
+   "detail": "4/4, worst end 0.04 m from a bollard head"
+  },
+  {
+   "name": "foam strips within 150 mm of a waterline contact",
+   "ok": true,
+   "detail": "104/104 strips"
+  },
+  {
+   "name": "ice plates present, all above the waterline",
+   "ok": true,
+   "detail": "30/30 above datum"
+  },
+  {
+   "name": "ice only at the north and west edges",
+   "ok": true,
+   "detail": "30/30 at shadowed edges"
+  }
+ ],
+ "fails": []
+}

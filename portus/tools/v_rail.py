@@ -34,9 +34,11 @@ N_STATIONS = 200
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", required=True)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     import bpy
 
     checks = []
@@ -98,10 +100,11 @@ def main():
             if not (b[1] <= min(rail_y) + 0.05 and b[4] >= max(rail_y) - 0.05):
                 miss += 1
         check("every sleeper carries both rails", miss == 0, f"{miss} sleepers short")
-        rail_top = max(nb[5], sb[5])
-        gap = max(abs(bounds(objs[n])[5] - rail_top) for n in sl[:5])
-        check("sleepers under the rail foot (no gap > 40 mm)", gap <= 0.04,
-              f"max gap {gap*1000:.1f} mm")
+        foots = [objs.get("RAIL_N_foot"), objs.get("RAIL_S_foot")]
+        foot_bottom = min(bounds(f)[2] for f in foots if f) if all(foots) else min(nb[2], sb[2])
+        gap = max(abs(bounds(objs[n])[5] - foot_bottom) for n in sl[:5])
+        check("sleepers sit under the rail foot (no gap > 40 mm)", gap <= 0.04,
+              f"max gap {gap*1000:.1f} mm (rail foot {foot_bottom:.3f})")
 
     # 5 contact wire
     cw = objs.get("CATENARY_WIRE")

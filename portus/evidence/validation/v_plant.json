@@ -1,0 +1,63 @@
+{
+ "validator": "v_plant",
+ "native": "portus/source/PORTUS.blend",
+ "ok": true,
+ "checks": [
+  {
+   "name": "crane structure complete",
+   "ok": true,
+   "detail": "all parts present"
+  },
+  {
+   "name": "crane cab is glazed",
+   "ok": true,
+   "detail": "2 panes"
+  },
+  {
+   "name": "counterweight on the counter-jib",
+   "ok": true,
+   "detail": "8.64 m3 of concrete"
+  },
+  {
+   "name": "counterweight hangs on the counter-jib",
+   "ok": true,
+   "detail": "x 181.60..183.40 vs jib 182.00..190.00"
+  },
+  {
+   "name": "a load hangs on the hook",
+   "ok": true,
+   "detail": "load top 7.70 vs hook bottom 8.48"
+  },
+  {
+   "name": "the load is in the air, not on the quay",
+   "ok": true,
+   "detail": "load bottom 6.90 m"
+  },
+  {
+   "name": "a driver is in the cab",
+   "ok": true,
+   "detail": "7 objects, inside=True"
+  },
+  {
+   "name": "ropes and slings exist",
+   "ok": true,
+   "detail": "11 objects"
+  },
+  {
+   "name": "every rope end meets a solid",
+   "ok": true,
+   "detail": "22 ends checked, 0 loose: []"
+  },
+  {
+   "name": "every rope has two distinct ends",
+   "ok": true,
+   "detail": "11/11"
+  },
+  {
+   "name": "hoist rope runs from the jib to the hook block",
+   "ok": true,
+   "detail": "rope 9.00..18.50, jib 17.80, block 9.22"
+  }
+ ],
+ "fails": []
+}

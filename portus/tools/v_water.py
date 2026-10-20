@@ -35,9 +35,11 @@ DRAFT_TOL = 0.050
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--native", required=True)
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     import bpy
     from mathutils import Vector
 
@@ -105,24 +107,26 @@ def main():
     # 7-8 ropes
     ropes = sorted(n for n in objs if n.startswith("MOORING_ROPE"))
     check("4 mooring ropes", len(ropes) == 4, f"{len(ropes)} found")
-    sags, ends_ok = [], 0
+    sags, ends_ok, worst_end = [], 0, 0.0
     bollards = [o for o in bpy.data.objects if o.name.startswith("BOLLARD_head")]
-    boll_pts = [(o.matrix_world.translation.x, o.matrix_world.translation.y) for o in bollards]
+    from mathutils import Vector
+    boll_pts = []
+    for o in bollards:
+        b = bounds(o)
+        boll_pts.append(Vector(((b[0] + b[3]) / 2, (b[1] + b[4]) / 2, (b[2] + b[5]) / 2)))
     for rn in ropes:
         o = objs[rn]
-        b = bounds(o)
-        zs = [(o.matrix_world @ v.co).z for v in o.data.vertices]
-        # sag = highest point minus lowest point, along the rope
-        sag = max(zs) - min(zs)
-        # the low point must sit between the two ends in plan
-        sags.append(round(sag, 3))
-        end_near_bollard = any(abs(px - b[0]) < 4.0 or abs(px - b[3]) < 4.0 for (px, py) in boll_pts)
-        # ends: one at ship, one on the quay side (y > basin north edge)
-        if b[4] > BASIN[3] - 0.5:
-            ends_ok += 1 if end_near_bollard else 0
+        pts = [o.matrix_world @ v.co for v in o.data.vertices]
+        sags.append(round(max(p.z for p in pts) - min(p.z for p in pts), 3))
+        # does the rope reach a bollard head? minimum distance over its vertices
+        # (a sagging rope's lowest vertex is mid-span, not an end — D-215)
+        d = min((p - b).length for p in pts for b in boll_pts) if boll_pts else 99.0
+        worst_end = max(worst_end, d)
+        if d <= 0.60:
+            ends_ok += 1
     check("every rope sags ≥ 0.20 m", all(s >= 0.20 for s in sags), f"sags {sags}")
     check("every rope ends at a bollard on the quay", ends_ok == len(ropes),
-          f"{ends_ok}/{len(ropes)}")
+          f"{ends_ok}/{len(ropes)}, worst end {worst_end:.2f} m from a bollard head")
 
     # 9 foam
     foam = [n for n in objs if n.startswith("FOAM_")]

@@ -37,10 +37,12 @@ def load(design):
 
 
 def main():
+    argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:]
+    argv_after_dash = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--design", default=DEFAULT_DESIGN)
     ap.add_argument("--quiet", action="store_true")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     prog, sysd, sched, apts = load(args.design)
     checks, fails = [], []

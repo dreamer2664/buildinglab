@@ -1,0 +1,37 @@
+{
+ "validator": "v_contact",
+ "native": "portus/source/PORTUS.blend",
+ "ok": false,
+ "checks": [
+  {
+   "name": "no furniture floats",
+   "ok": true,
+   "detail": "all supported"
+  },
+  {
+   "name": "no coplanar overlapping faces",
+   "ok": false,
+   "detail": "420: ['ROOM_R00269_plate_028 / ROOM_R00269_plate_029 share a z-plane', 'ROOM_R00269_plate_029 / ROOM_R00269_plate_030 share a z-plane', 'ROOM_R00269_plate_029 / ROOM_R00269_spice_043 share a z-plane']"
+  },
+  {
+   "name": "no zero-area faces",
+   "ok": true,
+   "detail": "0 faces, e.g. None"
+  },
+  {
+   "name": "no prop meshes interpenetrate",
+   "ok": false,
+   "detail": "1841 pairs: ['ROOM_R00265_counter_469 x ROOM_R00265_scales_471 depth 960.5 mm', 'ROOM_R00265_counter_469 x ROOM_R00265_till_470 depth 285.7 mm', 'ROOM_R00265_lampcord x ROOM_R00265_lampshade depth 79.9 mm']"
+  },
+  {
+   "name": "every mesh casts shadows",
+   "ok": true,
+   "detail": "0 disabled"
+  }
+ ],
+ "method": "exact triangle-level BVH overlap for interpenetration; bounding-box support test for floating (cannot separate a shelf from its carcass, stated as a limit)",
+ "fails": [
+  "no coplanar overlapping faces",
+  "no prop meshes interpenetrate"
+ ]
+}

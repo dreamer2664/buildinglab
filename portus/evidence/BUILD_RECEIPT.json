@@ -1,7 +1,7 @@
 {
- "built": "2026-10-19T23:31:51Z",
- "objects": 4913,
- "triangles": 1170056,
+ "built": "2026-10-19T23:45:05Z",
+ "objects": 5173,
+ "triangles": 1189892,
  "blend": "/home/user/buildinglab/portus/source/PORTUS.blend",
  "log": [
   "B05 schedule: 52 rooms joined, door/window recomputed from planlib",
@@ -27,5 +27,5 @@
  "blender": "4.5.3 LTS",
  "engine": "CYCLES CPU, OpenImageDenoise available",
  "rooms_b05": 52,
- "props_b05": 2265
+ "props_b05": 2519
 }

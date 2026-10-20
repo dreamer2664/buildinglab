@@ -1,0 +1,88 @@
+{
+ "validator": "v_rail",
+ "native": "portus/source/PORTUS.blend",
+ "ok": true,
+ "checks": [
+  {
+   "name": "gauge 1,435 \u00b12 mm at 200 stations",
+   "ok": true,
+   "detail": "worst deviation 0.00 mm over 200 stations"
+  },
+  {
+   "name": "rail head level along the length",
+   "ok": true,
+   "detail": "north head 3.000..3.030, south 3.000..3.030"
+  },
+  {
+   "name": "sleepers present",
+   "ok": true,
+   "detail": "34 found"
+  },
+  {
+   "name": "sleeper length 2,600 \u00b110 mm",
+   "ok": true,
+   "detail": "worst 0.0 mm"
+  },
+  {
+   "name": "sleeper pitch 600 \u00b110 mm",
+   "ok": true,
+   "detail": "worst 0.0 mm"
+  },
+  {
+   "name": "every sleeper carries both rails",
+   "ok": true,
+   "detail": "0 sleepers short"
+  },
+  {
+   "name": "sleepers sit under the rail foot (no gap > 40 mm)",
+   "ok": true,
+   "detail": "max gap 0.0 mm (rail foot 2.860)"
+  },
+  {
+   "name": "contact wire 5.50 \u00b10.02 m above rail head",
+   "ok": true,
+   "detail": "5.488 m"
+  },
+  {
+   "name": "catenary masts present",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "name": "masts stand clear of the loading gauge",
+   "ok": true,
+   "detail": "all masts north of the track"
+  },
+  {
+   "name": "buffer stop beam above rail head",
+   "ok": true,
+   "detail": "beam 3.410 vs rail 3.030"
+  },
+  {
+   "name": "buffer stop on the track centreline",
+   "ok": true,
+   "detail": "beam y 139.60..142.40"
+  },
+  {
+   "name": "ballast top between bed and sleeper top",
+   "ok": true,
+   "detail": "ballast top 2.720, sleeper 2.720..2.860"
+  },
+  {
+   "name": "crane rail span matches its declaration \u00b120 mm",
+   "ok": true,
+   "detail": "measured 2.400 m vs declared 2.400 m"
+  },
+  {
+   "name": "crane rails parallel (both run N-S)",
+   "ok": true,
+   "detail": "widths 0.120 / 0.120"
+  },
+  {
+   "name": "crane rails clear of the building row",
+   "ok": true,
+   "detail": "north ends at y 126.10 / 126.10"
+  }
+ ],
+ "fails": []
+}
