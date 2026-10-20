@@ -64,8 +64,20 @@ def main():
           f"{tris_in:,} in, {tris_out:,} out ({(tris_out-tris_in)/max(1,tris_in)*100:+.2f} %)")
     check("round trip keeps the materials", mats_out >= mats_in * 0.95,
           f"{mats_in} in, {mats_out} out")
-    check("round trip keeps the buildings", len([o for o in meshes2 if o.name.startswith("BLDG") or "_ENV" in o.name]) > 40,
-          f"{len(meshes2):,} meshes back")
+    # glTF does not preserve object names reliably, so identify buildings by
+    # footprint: a mesh spanning more than 8 m in plan is a block, not a prop.
+    def plan_span(o):
+        mw = o.matrix_world
+        vs = [mw @ v.co for v in o.data.vertices]
+        if not vs:
+            return 0.0
+        xs = [v.x for v in vs]
+        ys = [v.y for v in vs]
+        return min(max(xs) - min(xs), max(ys) - min(ys))
+
+    big = [o for o in meshes2 if plan_span(o) > 8.0]
+    check("round trip keeps the buildings", len(big) > 40,
+          f"{len(meshes2):,} meshes back, {len(big)} spanning >8 m in plan")
 
     ok = all(c["ok"] for c in checks)
     ev = os.path.join(ROOT, "evidence", "validation")

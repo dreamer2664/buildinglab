@@ -6,7 +6,7 @@
   {
    "name": "every room meets its class floor",
    "ok": false,
-   "detail": "16 short: ['R00269 kitchen 66/90', 'R00272 bedroom 35/40', 'R00277 kitchen 62/90', 'R00279 bedroom 29/40', 'R00284 kitchen 63/90', 'R00287 living 66/70']"
+   "detail": "15 short: ['R00269 kitchen 83/90', 'R00272 bedroom 35/40', 'R00277 kitchen 79/90', 'R00279 bedroom 29/40', 'R00284 kitchen 83/90', 'R00287 living 66/70']"
   },
   {
    "name": "no empty room",
@@ -21,12 +21,12 @@
   {
    "name": "every prop is a separate object",
    "ok": true,
-   "detail": "2484 props"
+   "detail": "2623 props"
   },
   {
    "name": "every prop has \u226540 triangles",
-   "ok": false,
-   "detail": "52 under: [('ROOM_R00265_lampcord', 28), ('ROOM_R00266_lampcord', 28), ('ROOM_R00267_lampcord', 28), ('ROOM_R00268_lampcord', 28), ('ROOM_R00269_lampcord', 28)]"
+   "ok": true,
+   "detail": "min 44 tris"
   },
   {
    "name": "100 % of apartments dressed (of those built)",
@@ -57,8 +57,8 @@
   },
   "kitchen": {
    "rooms": 8,
-   "mean_props": 66.0,
-   "min_props": 62
+   "mean_props": 83.4,
+   "min_props": 79
   },
   "living": {
    "rooms": 8,
@@ -93,7 +93,6 @@
  },
  "fails": [
   "every room meets its class floor",
-  "every prop has \u226540 triangles",
   "all 208 apartments built"
  ]
 }

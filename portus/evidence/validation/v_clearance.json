@@ -1,0 +1,55 @@
+{
+ "validator": "v_clearance",
+ "native": "portus/source/PORTUS.blend",
+ "ok": false,
+ "checks": [
+  {
+   "name": "door leaves modelled",
+   "ok": true,
+   "detail": "52 leaves"
+  },
+  {
+   "name": "doorway passages empty",
+   "ok": false,
+   "detail": "149 blocked: ['ROOM_R00265_counter_469 in the doorway of R00265', 'ROOM_R00265_till_470 in the doorway of R00265', 'ROOM_R00267_chair_002 in the doorway of R00267', 'ROOM_R00267_table_001 in the doorway of R00267', 'ROOM_R00269_crate_072 in the doorway of R00269']"
+  },
+  {
+   "name": "door leaves stand flat against a wall",
+   "ok": true,
+   "detail": "all leaves flat"
+  },
+  {
+   "name": "quay apron in front of B05 is clear",
+   "ok": true,
+   "detail": "0 objects in the apron: []"
+  },
+  {
+   "name": "market aisle \u2265 1.80 m",
+   "ok": true,
+   "detail": "1.80 m (design data)"
+  },
+  {
+   "name": "quay stair exists",
+   "ok": true,
+   "detail": "12 steps"
+  },
+  {
+   "name": "stair riser 175 \u00b110 mm",
+   "ok": true,
+   "detail": "rises [0.175]"
+  },
+  {
+   "name": "stair going 280 \u00b110 mm",
+   "ok": true,
+   "detail": "goings [0.28]"
+  },
+  {
+   "name": "stair width \u2265 1.20 m",
+   "ok": true,
+   "detail": "1.40 m"
+  }
+ ],
+ "fails": [
+  "doorway passages empty"
+ ]
+}

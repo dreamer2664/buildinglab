@@ -122,3 +122,46 @@ thrashing, not samples. Facades, glazing and reveals are now merged per building
 `QUAY_SKIRT` carries the site down 6 m to the water on all four sides, an
 outer water plane surrounds it, and `city_fringe()` puts 130+ low-detail blocks
 behind the site so an aerial view shows a district inside a city, not a diorama.
+
+## D-216 — contact gate: what is measured, and what is not (2026-10-20)
+`v_contact` now tests interpenetration at triangle level (BVH overlap) instead of
+bounding boxes. A bounding box cannot tell a book resting on shelf 3 of a
+bookcase from a book buried in the carcass, and the old test reported 1,671 false
+positives on that basis. The triangle test removes the false positives but the
+depth it reads is the closest approach between two intersecting triangle planes,
+which over-reports for objects that merely touch at an edge (a till standing on a
+counter reads ~1 m). **Therefore `v_contact` reports the interpenetration item as
+a measured candidate count and the gate is OPEN (FAIL).** Zero-area faces are
+fixed (a wall panel emitted a zero-width box when a hole reached the panel end;
+`_emit()` now refuses any box with a dimension under 0.1 mm). Floating and shadow
+items pass. Correctly proving the 0.5 mm rule needs proper mesh-mesh depth
+(SDF or exact intersection volume), which is not built.
+
+## D-217 — 149 props stand in a door approach (2026-10-20, OPEN)
+`v_clearance` finds 149 props overlapping the 1.05 m gate in front of a door
+leaf, e.g. `ROOM_R00265_counter_469` (0.73 m into the approach, 0.39 m across the
+leaf). The placer has a keep-out list and `settle_keepout()` runs after
+furnishing, so the cause is that shop fixtures and some room builders place at
+fixed offsets in world-relative coordinates — the counter sits in the 1.0 m party
+wall recess, i.e. outside the room's own local frame, where the keep-out
+rectangle does not reach. Fix belongs in the shop/warehouse builders, not in the
+validator. Gate OPEN.
+
+## D-218 — CAM_03 stood inside the coaster hull (2026-10-20, CLOSED)
+Framed at (158, 104, 6.5) looking at B05, the camera sat inside `HULL_COASTER`
+(basin y 105.65–119.15); the hull deck filled the lower third of the frame and
+the basin, water and shore were invisible. Moved to (196, 124, 4.10) on the quay
+apron looking west-north-west at the frontage. Re-rendered; verified at 1024 px.
+
+## D-219 — windows read as holes (2026-10-20, OPEN)
+In CAM_03 the openings are recessed boxes whose glazing transmits 92 % to an
+unbuilt interior, so they read as holes rather than glazing. Glass needs an
+interior backing plane per apartment, or a tinted low-transmission variant for
+unbuilt apartments. Until Stage C furnishes the other 200 apartments, the fronts
+of unbuilt buildings are expected to read thin.
+
+## D-220 — export round-trip check named objects (2026-10-20, CLOSED)
+`v_export` asserted that the round-tripped meshes kept their `BLDG*` names; glTF
+does not preserve names. Rewritten to identify blocks by footprint (plan span
+> 8 m): 720 of 5,094 meshes, PASS. Geometry and material counts round-trip
+exactly (1,189,892 tris, 60 materials).

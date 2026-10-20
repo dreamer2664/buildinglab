@@ -93,3 +93,11 @@ python3 portus/tools/v_light.py --images portus/renders/proofs
 - Nothing here is accepted. **Independent non-owner acceptance remains PENDING. No self-review/vote.**
 - No credential, environment path or unlicensed asset is in any committed file.
 - `townsquare/**`, `design/**`, `assets/**`, `evidence/**` are read-only to me; this work is `portus/**` and `agents/hippodamus/**`.
+
+## 2026-10-20 — Stage B close-out
+- `v_programme` PASS, `v_export` 5/5 PASS, `v_rail` 16/16 PASS, `v_water` 15/15 PASS,
+  `v_plant` 11/11 PASS, `v_clearance` 8/9 (D-217), `v_contact` 3/5 (D-216),
+  `v_density` 5/7 (class floors short in 15 rooms; 8/208 apartments built, D-201).
+- Build: 5,173 objects / 1,189,892 triangles / 2,519 props in B05.
+- Proofs re-rendered at 1024/32 after the fixes: CAM_01 56.4 s, CAM_03 66.3 s.
+- D-216…D-220 recorded. G2 (contact) and G3 (density) remain OPEN.

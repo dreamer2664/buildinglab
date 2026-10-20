@@ -326,7 +326,7 @@ def build_quay(M):
     # quay stair from the apron down to the water
     sx, sy = bx0 + 3.0, by1 - 0.9
     for k in range(12):
-        geo.box(f"QSTAIR_{k:02d}", sx, sy - k * 0.30, top - (k + 1) * 0.175, sx + 1.4, sy - k * 0.30 + 0.30,
+        geo.box(f"QSTAIR_{k:02d}", sx, sy - k * 0.28, top - (k + 1) * 0.175, sx + 1.4, sy - k * 0.28 + 0.28,
                 top - k * 0.175, M["stone"], C)
     log(f"quay: walls, coping, {len(ladder_x)} ladders, 14 fenders, {n} bollards, stair")
 
@@ -1144,7 +1144,7 @@ def build_light(M):
 CAMERAS = [
     ("01_district_aerial_sw", (60, 60, 95), (200, 170, 6)),
     ("02_district_aerial_ne", (360, 300, 90), (180, 120, 4)),
-    ("03_b05_frontage", (158.0, 104.0, 6.5), (176.0, 129.0, 8.0)),
+    ("03_b05_frontage", (196.0, 124.0, 4.10), (174.0, 130.0, 7.20)),
     ("04_quay_from_water", (140.0, 86.0, 3.0), (176.0, 126.0, 5.0)),
     ("05_waterline_b05", (152.0, 96.0, 1.25), (186.0, 119.0, 5.2)),
     ("06_crane", (172.0, 102.0, 5.0), (190.0, 120.0, 13.0)),

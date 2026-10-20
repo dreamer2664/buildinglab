@@ -1,0 +1,37 @@
+{
+ "validator": "v_export",
+ "native": "portus/source/PORTUS.blend",
+ "ok": true,
+ "checks": [
+  {
+   "name": "scene has geometry to export",
+   "ok": true,
+   "detail": "1,189,892 triangles, 5,094 meshes"
+  },
+  {
+   "name": "glb written",
+   "ok": true,
+   "detail": "63.8 MB"
+  },
+  {
+   "name": "round trip keeps the geometry",
+   "ok": true,
+   "detail": "1,189,892 in, 1,189,892 out (+0.00 %)"
+  },
+  {
+   "name": "round trip keeps the materials",
+   "ok": true,
+   "detail": "60 in, 60 out"
+  },
+  {
+   "name": "round trip keeps the buildings",
+   "ok": true,
+   "detail": "5,094 meshes back, 720 spanning >8 m in plan"
+  }
+ ],
+ "glb": {
+  "path": "/home/user/buildinglab/portus/exports/PORTUS.glb",
+  "bytes": 63810104
+ },
+ "fails": []
+}

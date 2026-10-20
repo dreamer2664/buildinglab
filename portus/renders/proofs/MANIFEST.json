@@ -1,33 +1,33 @@
 {
  "CAM_01_district_aerial_sw": {
   "file": "CAM_01_district_aerial_sw.png",
-  "key": "6669bf9d65904bb8259dcde0248345b472a4da47ce31ca77d1d67c873fb2d5e1",
+  "key": "f1583ea8a4f5903f404f553ea24df24e02ff58e4aee3a23e25426d4f0a6532de",
   "cached": false,
-  "seconds": 55.1,
-  "sha256": "7b43227b15f48e21c4f72635b7e71bac593813685b37b2f3112edb1f11235978",
-  "bytes": 782291,
+  "seconds": 56.4,
+  "sha256": "6c43995fd4d3e8fb89c13b4479452930a15938bc225e59796b934096eba5e487",
+  "bytes": 782133,
   "px": [
    1024,
    576
   ],
-  "content": "312ab886efe69cc47bcafd6d",
+  "content": "ba56119cce666f8c0afe5bc5",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+  "native_sha256": "c5f3a564d95685aae85d0dfc1e0182d20193d0fa8f3416b0bdaa64086dcb0e38"
  },
  "CAM_03_b05_frontage": {
   "file": "CAM_03_b05_frontage.png",
-  "key": "41a880ef9ebcae44e5a52edff06dc34c4e0c34db86016e208e1fa96e163d6896",
+  "key": "f869a1363bcd6c1220f7f69a098efe1b03d4f1483fcb90baf576b0da3e7ede97",
   "cached": false,
-  "seconds": 66.9,
-  "sha256": "af1671c3318f7bb373432d492f18c499c196d981e701c0f1a8622b593e63819b",
-  "bytes": 696775,
+  "seconds": 66.3,
+  "sha256": "5902ee5c6cdc8d750d24eaa3a7b28c2214dfd9063414704b2b0d892636fe34f2",
+  "bytes": 654045,
   "px": [
    1024,
    576
   ],
-  "content": "312ab886efe69cc47bcafd6d",
+  "content": "ba56119cce666f8c0afe5bc5",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+  "native_sha256": "d8babf52002cc1b48098383f1f3d09d7030b52cbc383449fc69a3710af244cf3"
  },
  "CAM_12_interior_living": {
   "file": "CAM_12_interior_living.png",

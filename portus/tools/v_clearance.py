@@ -88,16 +88,18 @@ def main():
         for (n, p) in props.get(rid, []):
             # a prop overlaps the passage if it overlaps the leaf's own footprint grown
             # inward by 1.05 m in the direction the leaf faces
+            # the passage is 0.90 m wide (the doorway) and 1.05 m deep either side
+            # the clear passage is the opening swept 1.05 m to each side, but only
+            # across the leaf's own width — not the whole wall it sits in
             if thin_y:
-                # leaf lies along x at some y; passage is the room side of it
                 lo, hi = b[1] - 1.05, b[4] + 1.05
-                if min(p[4], hi) - max(p[1], lo) > 0.10 and min(p[3], b[3]) - max(p[0], b[0]) > 0.10 \
-                        and p[2] < b[5] and p[5] > b[2]:
+                if min(p[4], hi) - max(p[1], lo) > 0.02 and min(p[3], b[3]) - max(p[0], b[0]) > 0.02 \
+                        and p[2] < 2.10 + b[2] and p[5] > b[2]:
                     blocked.append(f"{n} in the doorway of {rid}")
             else:
                 lo, hi = b[0] - 1.05, b[3] + 1.05
-                if min(p[3], hi) - max(p[0], lo) > 0.10 and min(p[4], b[4]) - max(p[1], b[1]) > 0.10 \
-                        and p[2] < b[5] and p[5] > b[2]:
+                if min(p[3], hi) - max(p[0], lo) > 0.02 and min(p[4], b[4]) - max(p[1], b[1]) > 0.02 \
+                        and p[2] < 2.10 + b[2] and p[5] > b[2]:
                     blocked.append(f"{n} in the doorway of {rid}")
     check("doorway passages empty", not blocked,
           f"{len(blocked)} blocked: {blocked[:5]}" if blocked else f"{len(doors)} doors clear")
@@ -127,7 +129,7 @@ def main():
     check("market aisle ≥ 1.80 m", aisle >= 1.80, f"{aisle:.2f} m (design data)")
 
     # 6 stair
-    steps = sorted(n for n in bpy.data.objects if n.startswith("QSTAIR_"))
+    steps = sorted(o.name for o in bpy.data.objects if o.name.startswith("QSTAIR_"))
     check("quay stair exists", len(steps) >= 10, f"{len(steps)} steps")
     if len(steps) >= 2:
         bs = [bounds(bpy.data.objects[n]) for n in steps]
