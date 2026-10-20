@@ -72,8 +72,8 @@ sc = bpy.context.scene
 sc.render.engine = "CYCLES"
 sc.cycles.device = "CPU"
 first_rx = vmap[view_ids[0]]["resolution"][0]
-sc.render.use_persistent_data = (tier == "proof" or first_rx < 3840)
-sc.cycles.use_auto_tile = (tier == "final" and first_rx >= 3840)
+sc.render.use_persistent_data = (tier == "proof")
+sc.cycles.use_auto_tile = (tier == "final")
 sc.cycles.tile_size = 1024
 sc.cycles.use_adaptive_sampling = True
 sc.cycles.adaptive_threshold = 0.09
@@ -129,12 +129,14 @@ set_scene_lighting_mood(sc, preset)
 if preset == "overcast":
     make_static_light("DYN_DAY_SUN", "SUN", 5.5, (1.0, 0.97, 0.91), (0.0, 0.0, 40.0), 0.1, (math.radians(54.0), math.radians(18.0), math.radians(38.0)))
     make_static_light("DYN_DAY_FILL", "AREA", 24000.0, (0.78, 0.87, 1.0), (0.0, 0.0, 28.0), 48.0)
+    make_static_light("DYN_DAY_FILL_D2", "AREA", 24000.0, (0.78, 0.87, 1.0), (88.0, 0.0, 28.0), 56.0)
 
 if is_master:
     target_bldg = first_v.get("building") or ""
     is_indoor_focus = first_cls in ("apartment_interior", "plan")
     is_cutaway = first_cls in ("plan", "building_section")
-    hide_trees = first_cls in ("building_exterior", "night_alternate", "building_section", "shopfront", "plan", "apartment_interior")
+    is_d2_view = view_ids[0].startswith(("hero_05", "hero_06", "hero_07", "hero_08", "park_", "ext_B13", "ext_B14", "ext_B15", "ext_B16", "ext_B17", "ext_B18", "ext_B19", "ext_B20"))
+    hide_trees = (first_cls in ("building_exterior", "night_alternate", "building_section", "shopfront", "plan", "apartment_interior")) and not is_d2_view
     for o in sc.objects:
         role = o.get("role", "")
         b_id = o.get("building_id")
@@ -143,11 +145,15 @@ if is_master:
         if role == "room_dressing":
             if is_indoor_focus or is_cutaway:
                 o.hide_render = True
+            elif is_d2_view:
+                o.hide_render = (b_id in ("B01", "B02", "B03", "B07", "B08", "B09", "B10", "B11", "B12")) or (not str(o.get("room_id", "")).endswith("shop_sales"))
             else:
                 o.hide_render = not str(o.get("room_id", "")).endswith("shop_sales")
         elif role == "building_shell":
             if is_indoor_focus or is_cutaway:
                 o.hide_render = True
+            elif is_d2_view and "hero_08_two_districts_aerial" not in view_ids:
+                o.hide_render = b_id in ("B01", "B02", "B03", "B07", "B08", "B09", "B10", "B11", "B12")
             else:
                 o.hide_render = False
         elif role == "floor_slab":
@@ -157,15 +163,23 @@ if is_master:
                 o.hide_render = False
             else:
                 o.hide_render = True
-        elif role in ("tree", "deciduous_tree") or "DECIDUOUS_TREE" in o.name:
-            o.hide_render = hide_trees
-        elif "SQUARE_" in o.name or "CHRISTMAS_TREE" in o.name or "STALL_" in o.name:
-            o.hide_render = is_indoor_focus or is_cutaway
+        elif role in ("tree", "deciduous_tree", "park_spruce") or "DECIDUOUS_TREE" in o.name or "PARK_TREES" in o.name:
+            if is_d2_view and "hero_08_two_districts_aerial" not in view_ids and o.name in (f"DECIDUOUS_TREE_{{i:02d}}" for i in range(1, 13)):
+                o.hide_render = True
+            else:
+                o.hide_render = hide_trees
+        elif "SQUARE_" in o.name or "CHRISTMAS_TREE" in o.name or "STALL_" in o.name or "PARK_" in o.name or "BOULEVARD_" in o.name or "CITY_" in o.name:
+            if is_d2_view and "hero_08_two_districts_aerial" not in view_ids and ("SQUARE_MARKET_STALLS" in o.name or "SQUARE_CHRISTMAS_TREE" in o.name):
+                o.hide_render = True
+            else:
+                o.hide_render = is_indoor_focus or is_cutaway
         elif role == "human":
             if is_indoor_focus or is_cutaway:
                 o.hide_render = True
-            elif first_cls in ("human_closeup", "terrain_detail", "shopfront"):
+            elif first_cls in ("human_closeup", "terrain_detail", "shopfront") and not is_d2_view:
                 o.hide_render = not bool(o.get("is_hero", False))
+            elif is_d2_view and "hero_08_two_districts_aerial" not in view_ids:
+                o.hide_render = (o.get("location_type") == "indoor") or (o.location.x < 32.0)
             else:
                 o.hide_render = (o.get("location_type") == "indoor")
         elif o.type == "LIGHT" and not o.name.startswith("DYN_"):
@@ -214,8 +228,8 @@ for idx_v, vid in enumerate(view_ids):
         cam.rotation_euler = direction.to_track_quat("-Z", "Y").to_euler()
     if "lens_mm" in v and cam.data.type == "PERSP":
         cam.data.lens = float(v["lens_mm"])
-    cam.data.clip_start = 4.8 if vcls in ("building_exterior", "night_alternate", "shopfront") else 0.05
-    cam.data.clip_end = 250.0
+    cam.data.clip_start = 1.2 if is_d2_view else (4.8 if vcls in ("building_exterior", "night_alternate", "shopfront") else 0.05)
+    cam.data.clip_end = 360.0
 
     if vcls == "plan" or vid == "slice_10_plan_B02_L02":
         if is_master:

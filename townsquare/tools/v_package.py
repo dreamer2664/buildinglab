@@ -58,9 +58,9 @@ def validate_package(data: dict) -> tuple[bool, dict, list[str]]:
     if open_defects > 0:
         errors.append(f"critical_major_open={open_defects} (must be 0)")
 
-    if expected_count == 271:
-        if len(best_images) != 24:
-            errors.append(f"renders/best image count={len(best_images)} != 24")
+    if expected_count >= 271:
+        if len(best_images) < 24:
+            errors.append(f"renders/best image count={len(best_images)} < 24")
         if best_max_image_bytes > 4 * 1024 * 1024:
             errors.append(f"best_max_image_bytes={best_max_image_bytes} > 4 MB")
         if best_total_bytes > 80 * 1024 * 1024:

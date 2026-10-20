@@ -70,7 +70,7 @@
       22.0
     ],
     "target": [
-      4.0,
+      18.0,
       6.0,
       2.0
     ]
@@ -5973,6 +5973,342 @@
       -8.0,
       10.0,
       4.5
+    ]
+  },
+  {
+    "id": "hero_05_lindenallee_tram_blue_hour",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 26.0,
+    "location": [
+      55.5,
+      19.3,
+      1.78
+    ],
+    "target": [
+      82.0,
+      21.5,
+      3.8
+    ]
+  },
+  {
+    "id": "hero_06_schlosspark_bridge_day",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "day",
+    "lens_mm": 26.0,
+    "location": [
+      89.5,
+      -6.4,
+      1.68
+    ],
+    "target": [
+      104.0,
+      0.8,
+      2.2
+    ]
+  },
+  {
+    "id": "hero_07_bandstand_pond_night",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "night",
+    "lens_mm": 26.0,
+    "location": [
+      57.5,
+      -5.2,
+      1.65
+    ],
+    "target": [
+      68.0,
+      1.5,
+      2.8
+    ]
+  },
+  {
+    "id": "hero_08_two_districts_aerial",
+    "class": "square_hero",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 22.0,
+    "location": [
+      46.0,
+      -48.0,
+      28.0
+    ],
+    "target": [
+      68.0,
+      8.0,
+      3.0
+    ]
+  },
+  {
+    "id": "ext_B13_kino_astoria",
+    "class": "building_exterior",
+    "building": "B13",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 24.0,
+    "location": [
+      63.5,
+      12.5,
+      1.7
+    ],
+    "target": [
+      66.0,
+      26.0,
+      6.8
+    ]
+  },
+  {
+    "id": "ext_B15_brauhaus_hirsch",
+    "class": "building_exterior",
+    "building": "B15",
+    "resolution": [
+      3840,
+      2160
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 24.0,
+    "location": [
+      107.0,
+      14.2,
+      1.7
+    ],
+    "target": [
+      109.0,
+      25.8,
+      7.2
+    ]
+  },
+  {
+    "id": "ext_B17_confiserie_koenig",
+    "class": "building_exterior",
+    "building": "B17",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "lens_mm": 26.0,
+    "location": [
+      125.0,
+      -1.8,
+      1.7
+    ],
+    "target": [
+      134.0,
+      0.0,
+      6.8
+    ]
+  },
+  {
+    "id": "ext_B20_markthalle_ost",
+    "class": "building_exterior",
+    "building": "B20",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 24.0,
+    "location": [
+      74.0,
+      -14.2,
+      1.7
+    ],
+    "target": [
+      74.0,
+      -25.8,
+      6.8
+    ]
+  },
+  {
+    "id": "park_01_stone_bridge_ducks",
+    "class": "terrain_detail",
+    "subject": "stone_bridge_ducks",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "lens_mm": 35.0,
+    "location": [
+      94.5,
+      -6.2,
+      1.45
+    ],
+    "target": [
+      104.0,
+      0.5,
+      0.95
+    ]
+  },
+  {
+    "id": "park_02_dogs_pathway_walk",
+    "class": "terrain_detail",
+    "subject": "dogs_pathway_walk",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "lens_mm": 35.0,
+    "location": [
+      75.8,
+      -0.85,
+      1.12
+    ],
+    "target": [
+      80.2,
+      0.05,
+      0.52
+    ]
+  },
+  {
+    "id": "park_03_horse_carriage_allee",
+    "class": "terrain_detail",
+    "subject": "horse_carriage_allee",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "lens_mm": 35.0,
+    "location": [
+      50.2,
+      -16.4,
+      1.48
+    ],
+    "target": [
+      56.5,
+      -18.8,
+      1.25
+    ]
+  },
+  {
+    "id": "park_04_tram_catenary_poles",
+    "class": "terrain_detail",
+    "subject": "tram_catenary_poles",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 32.0,
+    "location": [
+      64.2,
+      17.2,
+      1.62
+    ],
+    "target": [
+      74.0,
+      19.8,
+      2.35
+    ]
+  },
+  {
+    "id": "park_05_cars_phonebooth_crosswalk",
+    "class": "terrain_detail",
+    "subject": "cars_phonebooth_crosswalk",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "day",
+    "lens_mm": 32.0,
+    "location": [
+      82.0,
+      -16.2,
+      1.55
+    ],
+    "target": [
+      95.0,
+      -19.5,
+      1.25
+    ]
+  },
+  {
+    "id": "park_06_bandstand_winter_trees",
+    "class": "terrain_detail",
+    "subject": "bandstand_winter_trees",
+    "resolution": [
+      2560,
+      1440
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 28.0,
+    "location": [
+      58.2,
+      -4.2,
+      1.58
+    ],
+    "target": [
+      68.0,
+      1.5,
+      2.65
+    ]
+  },
+  {
+    "id": "int_B13_L02_A",
+    "class": "apartment_interior",
+    "building": "B13",
+    "floor": "L02",
+    "apartment": "B13_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 26.0,
+    "location": [
+      65.328,
+      27.102,
+      5.62
+    ],
+    "target": [
+      63.228,
+      29.305,
+      5.25
+    ]
+  },
+  {
+    "id": "int_B15_L02_A",
+    "class": "apartment_interior",
+    "building": "B15",
+    "floor": "L02",
+    "apartment": "B15_L02_A",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "lighting": "blue_hour",
+    "lens_mm": 26.0,
+    "location": [
+      108.288,
+      26.825,
+      5.62
+    ],
+    "target": [
+      106.063,
+      28.976,
+      5.25
     ]
   }
 ]

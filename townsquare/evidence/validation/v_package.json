@@ -1,10 +1,10 @@
 {
   "validator": "v_package",
-  "expected_views": 271,
-  "inspected_views": 271,
-  "unique_shas": 271,
-  "best_images_count": 24,
-  "best_total_bytes": 49627995,
+  "expected_views": 287,
+  "inspected_views": 287,
+  "unique_shas": 287,
+  "best_images_count": 40,
+  "best_total_bytes": 72672018,
   "errors": [],
   "status": "PASS"
 }

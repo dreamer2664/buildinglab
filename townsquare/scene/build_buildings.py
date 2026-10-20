@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Stage C — 12-Building Kit & Assembly Builder (`townsquare/scene/build_buildings.py`).
-Builds all 12 buildings (`B01`..`B12`, 67 floors, 110 apartments, 873 dressed rooms)
-using template-instanced room dressing (`TMPL_*`) and joined per-building shell/slab meshes
-so the entire 12-building town compiles in <15 seconds and fits comfortably in 1.9 GiB RAM.
+Stage C (Expanded) — 20-Building Two-Neighbourhood Kit & Assembly Builder (`townsquare/scene/build_buildings.py`).
+Builds all 20 buildings (`B01`..`B20`, 108 floors, 176 apartments, 1,400 dressed rooms) across:
+  - Neighbourhood 1: Winterlichtplatz (`B01`..`B12`)
+  - Neighbourhood 2: Schlosspark-Viertel & Lindenallee (`B13`..`B20`)
+Includes directional shopfront arcades (`south`, `north`, `west`, `east`), wrought-iron Juliet balconies,
+oriel bay windows, Art-Deco cinema marquee & vertical fin sign (`B13`), Alpine half-timber framing & copper
+turret (`B15`), industrial brick-and-iron loft pilasters (`B16`, `B18`), Belle-Époque patisserie trim (`B17`),
+classical portico (`B19`), and Victorian cast-iron & glass market hall canopy (`B20`).
 """
 from __future__ import annotations
 import math
@@ -14,6 +18,7 @@ from townsquare.kits.core import (
     ensure_collection,
     join_mesh_objects,
     spawn_bevel_box,
+    spawn_lathe,
 )
 from townsquare.kits.walls.builder import (
     build_exterior_facade_shell,
@@ -40,13 +45,428 @@ STUCCO_PALETTE = [
 ]
 
 
-def _facing_rot_z(facing: str) -> float:
-    return {
-        "south": 0.0,
-        "north": math.pi,
-        "west": -math.pi / 2.0,
-        "east": math.pi / 2.0,
-    }.get(facing, 0.0)
+def _add_directional_facade_features(
+    shell_objs: list[bpy.types.Object],
+    b: dict,
+    b_idx: int,
+    mats: dict[str, bpy.types.Material],
+    coll: bpy.types.Collection,
+) -> None:
+    """
+    Add street-facing shopfront arcades, awnings, signage, Juliet balconies, bay windows,
+    and bespoke architectural features oriented toward `b['facing']` ('south', 'north', 'west', 'east').
+    """
+    bid = b["id"]
+    cx, cy = b["center"]
+    bw, bd = b["width"], b["depth"]
+    facing = b.get("facing", "south")
+    style = b.get("facade_style", "")
+    total_h = b["total_height_m"]
+
+    # Local-to-world transform where local +U is along facade width (`span`), +V is outward normal from facade
+    if facing == "south":
+        span = bw
+        fx, fy = cx, cy - bd / 2.0
+        rot_z = 0.0
+        ux, uy = 1.0, 0.0
+        vx, vy = 0.0, -1.0
+    elif facing == "north":
+        span = bw
+        fx, fy = cx, cy + bd / 2.0
+        rot_z = math.pi
+        ux, uy = -1.0, 0.0
+        vx, vy = 0.0, 1.0
+    elif facing == "west":
+        span = bd
+        fx, fy = cx - bw / 2.0, cy
+        rot_z = -math.pi / 2.0
+        ux, uy = 0.0, 1.0
+        vx, vy = -1.0, 0.0
+    else:  # east
+        span = bd
+        fx, fy = cx + bw / 2.0, cy
+        rot_z = math.pi / 2.0
+        ux, uy = 0.0, -1.0
+        vx, vy = 1.0, 0.0
+
+    def fpos(u: float, v_out: float, z: float) -> tuple[float, float, float]:
+        return (fx + u * ux + v_out * vx, fy + u * uy + v_out * vy, z)
+
+    def fdims(w_u: float, d_v: float, h_z: float) -> tuple[float, float, float]:
+        return (w_u, d_v, h_z)
+
+    accent_mats = [
+        mats["Painted_Pine_Teal"],
+        mats["Painted_Metal_Burgundy"],
+        mats["Painted_Metal_Green"],
+        mats["Painted_Metal_Navy"],
+        mats["Walnut_Dark_Joinery"],
+    ]
+    m_fascia = accent_mats[b_idx % len(accent_mats)]
+    m_gold = mats["Gold_Sign_Leaf"]
+    m_iron = mats["Cast_Iron_Black"]
+    m_stone = mats["Limestone_Quoin_Ashlar"]
+    m_snow = mats["Snow_Fresh_Perch"]
+    m_copper = mats["Roof_Copper_Patina"]
+    m_emit = mats["Emitter_Festive_2400K"]
+    m_glow = mats["Window_Warm_Interior_Glow"]
+
+    # For North, West, East buildings (and B13..B20), add primary facing shopfront fascia, awning & guild sign
+    if facing != "south":
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_DirFascia",
+                fdims(span - 1.4, 0.22, 0.46),
+                fpos(0.0, 0.14, 3.32),
+                m_fascia,
+                coll,
+                rot_z=rot_z,
+                bevel=0.003,
+                building_id=bid,
+                role="shop_fascia",
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_DirSignPlaque",
+                fdims(min(5.2, span * 0.45), 0.06, 0.30),
+                fpos(0.0, 0.26, 3.32),
+                m_gold,
+                coll,
+                rot_z=rot_z,
+                bevel=0.002,
+                building_id=bid,
+                role="shop_sign",
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_DirAwning",
+                fdims(span - 1.8, 1.05, 0.14),
+                fpos(0.0, 0.56, 2.96),
+                mats["Fabric_Canvas_Awning" if b_idx % 2 == 0 else "Fabric_Wool_Rust"],
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+                role="shop_awning",
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_DirAwningSnow",
+                fdims(span - 1.9, 0.96, 0.038),
+                fpos(0.0, 0.56, 3.05),
+                m_snow,
+                coll,
+                rot_z=rot_z,
+                bevel=0.005,
+                building_id=bid,
+                role="snow_perch",
+            )
+        )
+
+    # Add upper-floor windows + warm glow on North-facing buildings (B07..B09, B19..B20)
+    if facing == "north":
+        n_bays = max(4, int(span // 3.4))
+        u0 = -span / 2.0 + 1.65
+        u_step = (span - 3.30) / max(1, n_bays - 1)
+        for fl in b["floors"]:
+            ffl = fl["ffl_m"]
+            is_ground = fl["use"] == "commercial"
+            win_z = ffl + (1.85 if is_ground else 1.70)
+            win_h = 2.15 if is_ground else 1.62
+            for b_i in range(n_bays):
+                u = u0 + b_i * u_step
+                if is_ground and b_i == n_bays // 2:
+                    shell_objs.extend(
+                        build_door_assembly(
+                            f"{bid}_NorthEntryDoor",
+                            fpos(u, 0.02, ffl),
+                            mats["Walnut_Dark_Joinery"],
+                            mats["Oak_Joinery_Warm"],
+                            mats["Aged_Brass"],
+                            coll,
+                            rot_z=rot_z,
+                        )
+                    )
+                    continue
+                shell_objs.extend(
+                    build_window_assembly(
+                        f"{bid}_{fl['floor']}_NWin_{b_i:02d}",
+                        fpos(u, 0.06, win_z),
+                        1.25,
+                        win_h,
+                        mats["Painted_Pine_Cream"],
+                        mats["Glass_Architectural_8mm"],
+                        m_stone,
+                        m_snow,
+                        coll,
+                        rot_z=rot_z,
+                        with_shutters=(not is_ground),
+                    )
+                )
+                shell_objs.append(
+                    spawn_bevel_box(
+                        f"{bid}_{fl['floor']}_NGlow_{b_i:02d}",
+                        fdims(1.18, 0.02, win_h - 0.12),
+                        fpos(u, 0.03, win_z),
+                        m_glow,
+                        coll,
+                        rot_z=rot_z,
+                        bevel=0.002,
+                        role="window_glow_backdrop",
+                    )
+                )
+
+    # Wrought-iron Juliet Balconies on L02 and L03 across all 20 buildings
+    for fl in b["floors"]:
+        if fl["level"] not in (2, 3):
+            continue
+        ffl = fl["ffl_m"]
+        for side_u in (-span * 0.28, span * 0.28):
+            # Stone balcony corbel slab + snow cap + wrought-iron railing
+            shell_objs.append(
+                spawn_bevel_box(
+                    f"{bid}_{fl['floor']}_BalcSlab_{side_u:+.1f}",
+                    fdims(1.68, 0.58, 0.11),
+                    fpos(side_u, 0.29, ffl + 0.04),
+                    m_stone,
+                    coll,
+                    rot_z=rot_z,
+                    bevel=0.003,
+                    building_id=bid,
+                )
+            )
+            shell_objs.append(
+                spawn_bevel_box(
+                    f"{bid}_{fl['floor']}_BalcRailTop_{side_u:+.1f}",
+                    fdims(1.66, 0.56, 0.04),
+                    fpos(side_u, 0.28, ffl + 0.98),
+                    m_iron,
+                    coll,
+                    rot_z=rot_z,
+                    bevel=0.002,
+                    building_id=bid,
+                )
+            )
+            shell_objs.append(
+                spawn_bevel_box(
+                    f"{bid}_{fl['floor']}_BalcSnow_{side_u:+.1f}",
+                    fdims(1.60, 0.08, 0.032),
+                    fpos(side_u, 0.54, ffl + 1.02),
+                    m_snow,
+                    coll,
+                    rot_z=rot_z,
+                    bevel=0.003,
+                    building_id=bid,
+                )
+            )
+            for b_p in range(-3, 4):
+                shell_objs.append(
+                    spawn_bevel_box(
+                        f"{bid}_{fl['floor']}_BalcBar_{side_u:+.1f}_{b_p}",
+                        fdims(0.028, 0.028, 0.88),
+                        fpos(side_u + b_p * 0.24, 0.54, ffl + 0.52),
+                        m_iron,
+                        coll,
+                        rot_z=rot_z,
+                        bevel=0.001,
+                        building_id=bid,
+                    )
+                )
+
+    # Bespoke architectural façade treatments by building style
+    if style == "art_deco_cinema_marquee":
+        # B13 Kino Astoria: cantilevered marquee canopy + glowing light strips + tall vertical fin sign
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_CinemaMarqueeCanopy",
+                fdims(7.8, 2.20, 0.58),
+                fpos(0.0, 1.10, 3.55),
+                mats["Painted_Metal_Burgundy"],
+                coll,
+                rot_z=rot_z,
+                bevel=0.005,
+                building_id=bid,
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_CinemaMarqueeLights",
+                fdims(7.6, 2.12, 0.34),
+                fpos(0.0, 1.12, 3.55),
+                m_emit,
+                coll,
+                rot_z=rot_z,
+                bevel=0.003,
+                building_id=bid,
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_CinemaMarqueeSnow",
+                fdims(7.6, 2.08, 0.045),
+                fpos(0.0, 1.10, 3.86),
+                m_snow,
+                coll,
+                rot_z=rot_z,
+                bevel=0.005,
+                building_id=bid,
+            )
+        )
+        # Vertical Art-Deco blade sign tower ("ASTORIA")
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_CinemaVerticalTower",
+                fdims(0.75, 1.25, 8.80),
+                fpos(0.0, 0.65, 9.20),
+                mats["Painted_Metal_Burgundy"],
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_CinemaVerticalNeon",
+                fdims(0.82, 1.10, 8.20),
+                fpos(0.0, 0.72, 9.20),
+                m_emit,
+                coll,
+                rot_z=rot_z,
+                bevel=0.003,
+                building_id=bid,
+            )
+        )
+
+    elif style in ("alpine_half_timber_tavern", "timber_framed_gable"):
+        # B03 & B15: Half-timbered Fachwerk framing + projecting polygonal copper turret bay
+        m_timber = mats["Timber_Half_Frame"]
+        for fl in b["floors"]:
+            if fl["use"] == "commercial":
+                continue
+            ffl = fl["ffl_m"]
+            shell_objs.append(
+                spawn_bevel_box(
+                    f"{bid}_{fl['floor']}_TimberBeam",
+                    fdims(span - 0.4, 0.08, 0.16),
+                    fpos(0.0, 0.05, ffl + 0.82),
+                    m_timber,
+                    coll,
+                    rot_z=rot_z,
+                    bevel=0.002,
+                    building_id=bid,
+                )
+            )
+            for t_i in range(-4, 5):
+                shell_objs.append(
+                    spawn_bevel_box(
+                        f"{bid}_{fl['floor']}_TimberPost_{t_i}",
+                        fdims(0.14, 0.08, 3.10),
+                        fpos(t_i * (span * 0.11), 0.05, ffl + 1.60),
+                        m_timber,
+                        coll,
+                        rot_z=rot_z,
+                        bevel=0.002,
+                        building_id=bid,
+                    )
+                )
+        # Central projecting oriel bay + copper spire roof
+        oriel_h = total_h - 4.20
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_OrielBay",
+                fdims(2.60, 0.95, oriel_h),
+                fpos(0.0, 0.48, 4.20 + oriel_h / 2.0),
+                mats["Plaster_Warm_Ochre"],
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+            )
+        )
+        shell_objs.append(
+            spawn_lathe(
+                f"{bid}_OrielCopperSpire",
+                [(0.0, 0.0), (1.55, 0.0), (1.20, 0.85), (0.35, 2.20), (0.0, 2.85)],
+                fpos(0.0, 0.55, total_h),
+                m_copper,
+                coll,
+                segments=12,
+                building_id=bid,
+            )
+        )
+
+    elif style in ("renaissance_arched_conservatory", "classical_cobalt_galerie", "grand_hotel_rusticated"):
+        # Projecting stone oriel bay + classical entrance columns
+        oriel_h = total_h - 4.20 - 3.20
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_StoneOrielBay",
+                fdims(3.10, 0.82, oriel_h),
+                fpos(0.0, 0.42, 4.20 + oriel_h / 2.0),
+                m_stone,
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+            )
+        )
+        for col_u in (-1.65, 1.65):
+            shell_objs.append(
+                spawn_lathe(
+                    f"{bid}_PorticoCol_{col_u:+.1f}",
+                    [(0.26, 0.0), (0.22, 0.35), (0.19, 3.60), (0.28, 3.95), (0.0, 4.00)],
+                    fpos(col_u, 0.45, 0.0),
+                    m_stone,
+                    coll,
+                    segments=14,
+                    building_id=bid,
+                )
+            )
+
+    elif style in ("victorian_iron_market_hall", "iron_conservatory_bay"):
+        # B10 & B20: Victorian cast-iron arcade colonnade + glazed canopy along the storefront
+        n_cols = 7
+        for c_i in range(n_cols):
+            cu = -span * 0.42 + c_i * (span * 0.84 / (n_cols - 1))
+            shell_objs.append(
+                spawn_lathe(
+                    f"{bid}_ArcadeIronCol_{c_i}",
+                    [(0.18, 0.0), (0.14, 0.4), (0.11, 3.4), (0.20, 3.75), (0.0, 3.80)],
+                    fpos(cu, 1.35, 0.0),
+                     mats["Painted_Metal_Green"],
+                    coll,
+                    segments=12,
+                    building_id=bid,
+                )
+            )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_MarketGlassCanopy",
+                fdims(span - 1.2, 1.65, 0.18),
+                fpos(0.0, 0.82, 3.82),
+                mats["Painted_Metal_Green"],
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+            )
+        )
+        shell_objs.append(
+            spawn_bevel_box(
+                f"{bid}_MarketCanopySnow",
+                fdims(span - 1.3, 1.50, 0.04),
+                fpos(0.0, 0.82, 3.93),
+                m_snow,
+                coll,
+                rot_z=rot_z,
+                bevel=0.004,
+                building_id=bid,
+            )
+        )
 
 
 def build_all_buildings(
@@ -100,7 +520,7 @@ def build_all_buildings(
             )
         )
 
-        # Shopfront arcade & signage on ground floor facing the square
+        # Shopfront arcade & signage on ground floor
         shell_objs.extend(
             build_shopfront_arcade(
                 bid=bid,
@@ -112,6 +532,9 @@ def build_all_buildings(
                 coll=b_col,
             )
         )
+
+        # Directional facade enhancements (balconies, bay windows, marquees, North/East/West shopfronts)
+        _add_directional_facade_features(shell_objs, b, b_idx, mats, b_col)
 
         # Warm glowing shopfront and upper-storey window backdrops + window assemblies
         facing = b.get("facing", "south")
@@ -149,7 +572,6 @@ def build_all_buildings(
                         with_shutters=(not is_ground),
                     )
                 )
-                # Warm illuminated interior backdrop plane behind the 8mm glass so exterior & night views glow
                 shell_objs.append(
                     spawn_bevel_box(
                         f"{bid}_{fl['floor']}_GlowBackdrop_{b_i:02d}",
@@ -162,10 +584,10 @@ def build_all_buildings(
                     )
                 )
 
-            # Also add illuminated window assemblies on the square-facing X side for East/West buildings (B04..B06, B10..B12)
             if facing in ("west", "east"):
-                side_x = (cx - bw / 2.0) if facing == "west" else (cx + bw / 2.0)
-                side_inset_x = side_x + (0.28 if facing == "west" else -0.28)
+                out_sign = -1.0 if facing == "west" else 1.0
+                side_x = (cx - bw / 2.0 + out_sign * 0.06) if facing == "west" else (cx + bw / 2.0 + out_sign * 0.06)
+                side_inset_x = side_x - out_sign * 0.03
                 n_side = max(3, int(bd // 3.4))
                 s_step = (bd - 3.0) / max(1, n_side - 1)
                 for s_i in range(n_side):
@@ -222,7 +644,7 @@ def build_all_buildings(
             building_id=bid,
         )
 
-        # Floors, slabs, stairs, and 873 rooms
+        # Floors, slabs, stairs, and 1,400 rooms
         for fl in b["floors"]:
             ffl = fl["ffl_m"]
             storey_h = fl["storey_height_m"]
@@ -230,7 +652,6 @@ def build_all_buildings(
             slab_t = fl["slab_thickness_m"]
             apartments_dressed += len(fl.get("apartments", []))
 
-            # Structural floor slab + finish parquet/tile top layer
             slab_objs.append(
                 spawn_bevel_box(
                     f"{fl['id']}_SLAB",
@@ -257,7 +678,6 @@ def build_all_buildings(
                 )
             )
 
-            # Palettes for apartments on this floor
             apt_pal = {a["side"]: a["palette"] for a in fl.get("apartments", [])}
             apt_seed = {a["side"]: a["seed"] for a in fl.get("apartments", [])}
 
@@ -274,7 +694,6 @@ def build_all_buildings(
                 rcy = cy + (ymin + ymax) / 2.0
 
                 if cache_key not in rm_cache:
-                    # Build canonical room template centered at origin (0, 0, 0)
                     rw, rd = xmax - xmin, ymax - ymin
                     tmpl_room = dict(r)
                     tmpl_room["id"] = f"TMPL_{rtype}_{pal_group}"
@@ -294,7 +713,6 @@ def build_all_buildings(
                         col_tmpls,
                     )
                     after_objs = [o for o in col_tmpls.objects if o not in before_objs]
-                    # Remove auto-created point lights inside template collection
                     tmpl_meshes = []
                     for o in after_objs:
                         if o.type == "MESH":
@@ -322,7 +740,6 @@ def build_all_buildings(
                 inst["interpenetration_m"] = 0.0
                 inst["facing_ok"] = True
 
-                # Shop sales warm interior light for shopfront/exterior views
                 if rtype == "shop_sales":
                     spawn_blender_light(
                         f"{rid}_WarmLight",

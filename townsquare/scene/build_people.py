@@ -163,12 +163,57 @@ def build_all_people(
         )
         outdoor_count += 1
 
-    # 3. Spawn 100 indoor people across the 12 buildings (enforcing Identity Law: unique identity per building)
+    # 2b. Spawn 52 additional outdoor people in District 2 (Schlosspark, Stone Bridge, Bandstand, Tram Stop, Lindenallee)
+    d2_outdoor_spots = [
+        # Dog walkers & strollers along main park East-West pathway (seen in park_02_dogs_pathway_walk)
+        (80.6, 0.75, 0.08, 0.10), (81.8, -0.65, 0.08, 2.95), (84.0, 0.55, 0.08, -0.35), (78.5, -0.55, 0.08, 0.25),
+        (72.0, 0.65, 0.08, 0.15), (89.5, -0.65, 0.08, 3.05), (93.0, 0.70, 0.08, 0.05), (115.0, -0.60, 0.08, 3.10),
+        # On & around the Arched Stone Footbridge over the Frozen Duck Pond (seen in park_01 & hero_06)
+        (102.5, 0.45, 1.16, -1.45), (103.8, -0.45, 1.22, -1.60), (105.2, 0.35, 1.15, 1.55),
+        (98.2, -2.4, 0.08, 0.85), (109.5, 2.8, 0.08, -2.20), (100.5, 4.8, 0.08, -1.25),
+        # Inside & around the Victorian Bandstand (seen in park_06 & hero_07)
+        (67.4, 1.2, 0.56, -0.85), (68.6, 1.8, 0.56, -2.10), (68.0, 0.6, 0.56, -1.57),
+        (63.5, -1.8, 0.08, 0.65), (65.2, -3.2, 0.08, 0.90), (71.5, -1.5, 0.08, 2.40),
+        # Tram Stop Shelter & North Lindenallee Sidewalk (seen in hero_05, park_04, ext_B13, ext_B15)
+        (72.8, 21.1, 0.14, -1.57), (74.2, 21.1, 0.14, -1.40), (75.5, 21.2, 0.14, -1.75),
+        (64.5, 23.6, 0.14, -1.57), (66.8, 23.8, 0.14, 0.20), (68.2, 23.5, 0.14, 3.05),
+        (85.5, 23.6, 0.14, -1.50), (88.5, 23.6, 0.14, 0.10), (107.5, 23.6, 0.14, -1.57),
+        (110.2, 23.8, 0.14, -1.45), (112.5, 23.5, 0.14, 3.10), (56.0, 23.5, 0.14, 0.05),
+        # South Lindenallee, Horse Carriage, Phone Booth & Markthalle Ost (seen in park_03, park_05, ext_B20)
+        (56.5, -21.8, 0.14, 1.57), (60.5, -22.5, 0.14, 1.45), (72.5, -23.4, 0.14, 1.57),
+        (75.5, -23.5, 0.14, 1.65), (87.5, -22.5, 0.14, 0.45), (90.5, -22.4, 0.14, 2.85),
+        (94.5, -22.6, 0.14, 1.57), (104.5, -23.5, 0.14, 1.57), (108.0, -23.5, 0.14, 0.0),
+        # East Park Promenade in front of B16..B18 (Confiserie König & Gutenberg)
+        (130.8, 17.5, 0.14, 3.14), (130.8, 1.2, 0.14, 3.00), (130.8, -1.2, 0.14, 3.25),
+        (130.8, -17.5, 0.14, 3.14), (124.5, 0.5, 0.08, 0.0), (124.5, -0.8, 0.08, 3.14),
+        # Crosswalks & Park North/South Axis
+        (50.0, 18.2, 0.02, 1.57), (88.0, 18.5, 0.02, -1.57), (85.0, 8.5, 0.08, -1.57),
+        (85.0, -8.5, 0.08, 1.57), (53.0, 0.5, 0.08, 0.0),
+    ]
+    for d2_i, (px, py, pz, pyaw) in enumerate(d2_outdoor_spots):
+        p_idx = (d2_i + 5) % 12
+        ident_num = (24 + d2_i) % 40 + 1
+        ident = f"ID_{ident_num:02d}"
+        identities_used.add(ident)
+        _spawn_scan_instance(
+            name=f"OUTDOOR_D2_PERSON_{d2_i+1:03d}_{ident}",
+            me=dec_meshes[p_idx],
+            identity_id=ident,
+            pose_id=HSRD_POSES[p_idx],
+            loc=(round(px, 3), round(py, 3), round(pz, 3)),
+            rot_z=pyaw,
+            coll=col_outdoor,
+            location_type="outdoor",
+            is_hero=False,
+        )
+        outdoor_count += 1
+
+    # 3. Spawn 168 indoor people across all 20 buildings (enforcing Identity Law: unique identity per building)
     indoor_count = 0
     for b_idx, b in enumerate(prog["buildings"]):
         bid = b["id"]
         cx, cy = b["center"]
-        target_in_bldg = 9 if b_idx < 4 else 8  # 4*9 + 8*8 = 36 + 64 = 100 indoor people
+        target_in_bldg = 9 if b_idx < 8 else 8  # 8*9 + 12*8 = 72 + 96 = 168 indoor people
         placed_in_bldg = 0
         used_in_bldg: set[str] = set()
 

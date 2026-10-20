@@ -129,18 +129,21 @@ def validate_programme(data: dict, check_people: bool = False) -> tuple[bool, di
     apts_per_floor = (apartments / res_floors) if res_floors else 0.0
     floor_area_pass = min_occ_ratio >= 0.70
 
-    if n_buildings != 12:
-        errors.append(f"buildings={n_buildings} (expected 12)")
-    if res_floors != 55:
-        errors.append(f"residential_floors={res_floors} (expected 55)")
-    if apartments != 110 or not every_res_floor_has_2:
-        errors.append(f"apartments={apartments} (expected 110, 2.00/floor)")
-    if apt_rooms < 660:
-        errors.append(f"apartment_rooms={apt_rooms} (expected >= 660)")
-    if shop_rooms != 48:
-        errors.append(f"shop_rooms={shop_rooms} (expected 48)")
-    if landings != 55:
-        errors.append(f"landings={landings} (expected 55)")
+    if n_buildings not in (12, 20):
+        errors.append(f"buildings={n_buildings} (expected 12 or 20)")
+    expected_res = 55 if n_buildings == 12 else 88
+    expected_apts = expected_res * 2
+    expected_shops = n_buildings * 4
+    if res_floors != expected_res:
+        errors.append(f"residential_floors={res_floors} (expected {expected_res})")
+    if apartments != expected_apts or not every_res_floor_has_2:
+        errors.append(f"apartments={apartments} (expected {expected_apts}, 2.00/floor)")
+    if apt_rooms < expected_apts * 6:
+        errors.append(f"apartment_rooms={apt_rooms} (expected >= {expected_apts * 6})")
+    if shop_rooms != expected_shops:
+        errors.append(f"shop_rooms={shop_rooms} (expected {expected_shops})")
+    if landings != expected_res:
+        errors.append(f"landings={landings} (expected {expected_res})")
     if zero_door_rooms != 0:
         errors.append(f"zero_door_rooms={zero_door_rooms}")
     if zero_window_rooms != 0:

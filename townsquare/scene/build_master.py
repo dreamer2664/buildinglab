@@ -32,6 +32,7 @@ from townsquare.kits.lighting.builder import (
 )
 from townsquare.scene.build_buildings import build_all_buildings
 from townsquare.scene.build_square import build_public_square
+from townsquare.scene.build_park_district import build_park_district
 from townsquare.scene.build_people import build_all_people
 
 PROG_PATH = ROOT / "townsquare/design/PROGRAMME.json"
@@ -68,7 +69,7 @@ def setup_all_cameras(views: list[dict], root_coll: bpy.types.Collection) -> int
             cdata.type = "PERSP"
             cdata.lens = float(v.get("lens_mm", 32.0 if vcls == "apartment_interior" else 28.0))
             cdata.clip_start = 4.8 if vcls in ("building_exterior", "night_alternate", "shopfront") else 0.05
-            cdata.clip_end = 250.0
+            cdata.clip_end = 360.0
         cobj = bpy.data.objects.new(f"CAM_{vid}", cdata)
         col_cam.objects.link(cobj)
         cobj.location = tuple(v["location"])
@@ -92,6 +93,8 @@ def main() -> int:
     mats = build_material_library()
     b_res = build_all_buildings(prog, mats, sc.collection)
     sq_res = build_public_square(prog, mats, sc.collection)
+    col_pub = ensure_collection("02_PUBLIC_REALM", sc.collection)
+    pk_res = build_park_district(prog, mats, col_pub)
     p_res = build_all_people(prog, mats, sc.collection)
     cam_cnt = setup_all_cameras(views, sc.collection)
 
@@ -115,6 +118,15 @@ def main() -> int:
         loc=(0.0, 0.0, 34.0),
         coll=col_light,
         size=44.0,
+    )
+    spawn_blender_light(
+        "SkyBounce_ParkFill",
+        "AREA",
+        energy=520.0,
+        kelvin=6800.0,
+        loc=(88.0, 0.0, 36.0),
+        coll=col_light,
+        size=52.0,
     )
     configure_world_and_color_management(sc, preset="blue_hour")
 

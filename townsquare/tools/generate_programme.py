@@ -106,6 +106,63 @@ BUILDINGS_SPEC = [
         "roof_type": "hipped_clay", "roof_pitch_deg": 33.0,
         "facade_style": "corner_cafe_awning", "wall_color": "#e3cbb1", "accent_color": "#6b2d26",
     },
+    # --- Neighbourhood 2: Schlosspark-Viertel & Lindenallee (B13..B20) ---
+    {
+        "id": "B13", "name": "Kino Astoria", "business": "Lichtspielhaus Kino Astoria & Filmcafé",
+        "storeys": 5, "upper_floors": 4, "edge": "north_allee", "facing": "south",
+        "center": [66.0, 32.0], "width": 18.0, "depth": 12.0,
+        "roof_type": "stepped_deco_copper", "roof_pitch_deg": 18.0,
+        "facade_style": "art_deco_cinema_marquee", "wall_color": "#e4d7c5", "accent_color": "#7a1f24",
+    },
+    {
+        "id": "B14", "name": "Musikhaus Strauss", "business": "Geigenbau & Pianohaus Strauss",
+        "storeys": 6, "upper_floors": 5, "edge": "north_allee", "facing": "south",
+        "center": [87.0, 32.0], "width": 16.5, "depth": 12.0,
+        "roof_type": "mansard_slate_dormers", "roof_pitch_deg": 34.0,
+        "facade_style": "renaissance_arched_conservatory", "wall_color": "#dfd2bc", "accent_color": "#243b54",
+    },
+    {
+        "id": "B15", "name": "Zum Goldenen Hirsch", "business": "Brauhaus & Wintergarten Zum Goldenen Hirsch",
+        "storeys": 5, "upper_floors": 4, "edge": "north_allee", "facing": "south",
+        "center": [109.0, 32.0], "width": 19.0, "depth": 12.5,
+        "roof_type": "steep_gable_copper_turret", "roof_pitch_deg": 40.0,
+        "facade_style": "alpine_half_timber_tavern", "wall_color": "#e6d8c0", "accent_color": "#284e36",
+    },
+    {
+        "id": "B16", "name": "Druckerei Gutenberg", "business": "Buchdruckerei & Antiquariat Gutenberg",
+        "storeys": 5, "upper_floors": 4, "edge": "east_park", "facing": "west",
+        "center": [140.0, 18.0], "width": 16.0, "depth": 12.0,
+        "roof_type": "pitched_slate", "roof_pitch_deg": 32.0,
+        "facade_style": "industrial_brick_loft", "wall_color": "#c89d84", "accent_color": "#2b3036",
+    },
+    {
+        "id": "B17", "name": "Confiserie König", "business": "Schokoladen-Manufaktur & Pralinen König",
+        "storeys": 5, "upper_floors": 4, "edge": "east_park", "facing": "west",
+        "center": [140.0, 0.0], "width": 15.5, "depth": 12.0,
+        "roof_type": "mansard_copper", "roof_pitch_deg": 30.0,
+        "facade_style": "belle_epoque_patisserie", "wall_color": "#d4e2d9", "accent_color": "#693228",
+    },
+    {
+        "id": "B18", "name": "Velodrom & Eis", "business": "Fahrradwerkstatt & Schlittschuh-Verleih Velodrom",
+        "storeys": 5, "upper_floors": 4, "edge": "east_park", "facing": "west",
+        "center": [140.0, -18.0], "width": 16.0, "depth": 12.0,
+        "roof_type": "pitched_clay", "roof_pitch_deg": 35.0,
+        "facade_style": "industrial_brick_loft", "wall_color": "#d1b399", "accent_color": "#1e5638",
+    },
+    {
+        "id": "B19", "name": "Porzellan Meissen", "business": "Porzellan-Galerie & Glasbläserei Meissen-Nord",
+        "storeys": 5, "upper_floors": 4, "edge": "south_allee", "facing": "north",
+        "center": [106.0, -32.0], "width": 18.0, "depth": 12.0,
+        "roof_type": "hipped_slate_dormers", "roof_pitch_deg": 34.0,
+        "facade_style": "classical_cobalt_galerie", "wall_color": "#dce0e6", "accent_color": "#1d3557",
+    },
+    {
+        "id": "B20", "name": "Markthalle Ost", "business": "Markthalle & Blumen-Pavillon am Schlosspark",
+        "storeys": 5, "upper_floors": 4, "edge": "south_allee", "facing": "north",
+        "center": [74.0, -32.0], "width": 20.0, "depth": 12.5,
+        "roof_type": "conservatory_glass_slate", "roof_pitch_deg": 28.0,
+        "facade_style": "victorian_iron_market_hall", "wall_color": "#d8dfd4", "accent_color": "#264e36",
+    },
 ]
 
 ARCHETYPES = [
@@ -620,7 +677,7 @@ def main() -> None:
         })
 
     programme = {
-        "project": "Winterlichtplatz II",
+        "project": "Winterlichtplatz II — Expanded Two-Neighbourhood City (Winterlichtplatz & Schlosspark-Viertel)",
         "agent": "vitruvius",
         "created_utc": "2026-10-19T14:25:00Z",
         "square": {
@@ -630,23 +687,45 @@ def main() -> None:
             "axes": {"+X": "east", "+Y": "north", "+Z": "up"},
             "market_stalls": 8,
             "christmas_tree_height_m": 11.0,
-            "benches": 24,
-            "lamps": 24,
-            "deciduous_trees": 12,
-            "bollards": 14,
-            "bins": 6,
-            "bicycle_racks": 3,
-            "bicycles": 5,
+            "benches": 44,
+            "lamps": 52,
+            "deciduous_trees": 32,
+            "evergreen_park_trees": 16,
+            "bollards": 42,
+            "bins": 14,
+            "bicycle_racks": 6,
+            "bicycles": 15,
             "playground_equipment": 4,
             "fountain": 1,
-            "parked_vehicles": 3,
-            "delivery_van": 1,
+            "parked_vehicles": 9,
+            "delivery_van": 2,
+            "electric_tram": 1,
+            "horse_carriage": 1,
+            "utility_catenary_poles": 18,
+            "animals": 34,
+        },
+        "park_district": {
+            "name": "Schlosspark-Viertel & Lindenallee",
+            "bounds_x_m": [46.0, 154.0],
+            "bounds_y_m": [-42.0, 42.0],
+            "buildings": ["B13", "B14", "B15", "B16", "B17", "B18", "B19", "B20"],
+            "features": [
+                "Lindenallee dual boulevard with grooved steel tramway & zebra crosswalks",
+                "18 fluted cast-iron utility/catenary poles with overhead contact wires",
+                "Schlosspark wrought-iron perimeter fence & 4 stone entrance gateways",
+                "Frozen ornamental duck pond with 9.2m arched ashlar stone footbridge",
+                "Victorian octagonal cast-iron & copper-domed park bandstand",
+                "Serpentine flagstone-and-gravel park pathways with granite kerbs",
+                "36 additional park & boulevard trees (20 winter deciduous + 16 snow-laden spruces)",
+                "Historic electric streetcar tram, 8 detailed cars/vans, and horse-drawn Landau carriage",
+                "34 sculpted 3D city animals (8 dogs, 2 draught horses, 4 cats, 18 ducks/pigeons, 2 squirrels)",
+            ],
         },
         "people_programme": {
-            "total_people": 220,
-            "indoors": 110,
-            "outdoors": 110,
-            "public_realm_target": 120,
+            "total_people": 340,
+            "indoors": 168,
+            "outdoors": 172,
+            "public_realm_target": 172,
             "distinct_identities": 40,
             "hero_figures": 12,
             "poses": 40,
@@ -671,16 +750,20 @@ def main() -> None:
             "palette", "generation", "occupancy", "seed", "arrangement_signature", "room_count", "area_m2"
         ])
         writer.writeheader()
+        writer.writeows_list = apartments_rows
         writer.writerows(apartments_rows)
 
-    # Generate the 271 required camera definitions (§27)
+    # Generate the 271 canonical District 1 views + 16 District 2 (Schlosspark & Lindenallee) views = 287 views
     views = []
+    d1_buildings = [b for b in buildings_out if int(b["id"][1:]) <= 12]
+    d1_apartments = [a for a in apartments_rows if int(a["building"][1:]) <= 12]
+
     # 1. Square heroes (4 @ 3840x2160)
     for vid, state, loc, target in [
         ("hero_01_square_blue_hour", "blue_hour", [-24.0, -20.0, 1.62], [6.0, 14.0, 4.5]),
         ("hero_02_square_day", "day", [24.0, -20.0, 1.62], [-6.0, 14.0, 4.5]),
         ("hero_03_square_night", "night", [1.85, -21.2, 1.62], [0.0, 18.0, 5.0]),
-        ("hero_04_square_oblique", "blue_hour", [-29.0, -24.0, 22.0], [4.0, 6.0, 2.0]),
+        ("hero_04_square_oblique", "blue_hour", [-29.0, -24.0, 22.0], [18.0, 6.0, 2.0]),
     ]:
         views.append({"id": vid, "class": "square_hero", "resolution": [3840, 2160], "lighting": state, "location": loc, "target": target})
 
@@ -688,11 +771,10 @@ def main() -> None:
     # 3. Building sections (12 @ 2560x1440, day)
     # 4. Shopfronts (12 @ 2560x1440, blue_hour)
     # 10. Night alternates (12 @ 3840x2160, night)
-    for b in buildings_out:
+    for b in d1_buildings:
         bid = b["id"]
         cx, cy = b["center"]
         f_dir = b["facing"][0].upper()
-        # Outward unit normal from building's square-facing facade toward the square
         if f_dir == "S":
             nx, ny = 0.0, -1.0
         elif f_dir == "N":
@@ -724,7 +806,7 @@ def main() -> None:
                     living_room_lookup[rm["apartment"]] = (rcx, rcy, rw, rd, ffl)
 
     # 5. Apartment interiors (110 @ 1920x1080) — placed inside each apartment's living room
-    for apt in apartments_rows:
+    for apt in d1_apartments:
         rcx, rcy, rw, rd, ffl = living_room_lookup[apt["id"]]
         views.append({
             "id": f"int_{apt['id']}",
@@ -740,7 +822,7 @@ def main() -> None:
         })
 
     # 6. Plans (67 @ 1920x1080)
-    for b in buildings_out:
+    for b in d1_buildings:
         for fl in b["floors"]:
             views.append({
                 "id": f"plan_{b['id']}_{fl['floor']}",
@@ -760,14 +842,14 @@ def main() -> None:
         (1.30, 24.40, 0.12),    # H02: B02 bakery warm window
         (-19.50, 23.60, 0.12),  # H03: B01 apothecary sidewalk
         (18.50, 23.60, 0.12),   # H04: B03 bookshop sidewalk
-        (-9.50, 8.80, 0.00),    # H05: Stall 01 Glühwein
-        (9.50, 8.80, 0.00),     # H06: Stall 02 Maroni
-        (-9.50, -8.80, 0.00),   # H07: Stall 05 Holzkunst
-        (9.50, -8.80, 0.00),    # H08: Stall 06 Kerzen
-        (-3.80, -4.20, 0.00),   # H09: Christmas tree southwest
-        (3.80, -4.20, 0.00),    # H10: Christmas tree southeast
-        (-18.50, -23.60, 0.12), # H11: B04 Konditorei sidewalk
-        (18.50, -23.60, 0.12),  # H12: B06 Spielzeug sidewalk
+        (-9.50, 8.80, 0.00),     # H05: Stall 01 Glühwein
+        (9.50, 8.80, 0.00),      # H06: Stall 02 Maroni
+        (-9.50, -8.80, 0.00),    # H07: Stall 05 Holzkunst
+        (9.50, -8.80, 0.00),     # H08: Stall 06 Kerzen
+        (-3.80, -4.20, 0.00),    # H09: Christmas tree southwest
+        (3.80, -4.20, 0.00),     # H10: Christmas tree southeast
+        (-18.50, -23.60, 0.12),  # H11: B04 Konditorei sidewalk
+        (18.50, -23.60, 0.12),   # H12: B06 Spielzeug sidewalk
     ]
     for h_idx, (hx, hy, hz) in enumerate(hero_coords, 1):
         for ang in ("A", "B"):
@@ -832,7 +914,44 @@ def main() -> None:
             "target": tgt,
         })
 
-    assert len(views) == 271, f"Expected 271 views, got {len(views)}"
+    # 11. Expanded Neighbourhood 2 (Schlosspark-Viertel & Lindenallee) Showcase Views (16 views: V272..V287)
+    expansion_views = [
+        # 4K District Heroes (boulevard, park, bridge, aerial panorama)
+        {"id": "hero_05_lindenallee_tram_blue_hour", "class": "square_hero", "resolution": [3840, 2160], "lighting": "blue_hour", "lens_mm": 26.0, "location": [55.5, 19.3, 1.78], "target": [82.0, 21.5, 3.8]},
+        {"id": "hero_06_schlosspark_bridge_day", "class": "square_hero", "resolution": [3840, 2160], "lighting": "day", "lens_mm": 26.0, "location": [89.5, -6.4, 1.68], "target": [104.0, 0.8, 2.2]},
+        {"id": "hero_07_bandstand_pond_night", "class": "square_hero", "resolution": [3840, 2160], "lighting": "night", "lens_mm": 26.0, "location": [57.5, -5.2, 1.65], "target": [68.0, 1.5, 2.8]},
+        {"id": "hero_08_two_districts_aerial", "class": "square_hero", "resolution": [3840, 2160], "lighting": "blue_hour", "lens_mm": 22.0, "location": [46.0, -48.0, 28.0], "target": [68.0, 8.0, 3.0]},
+        # New Neighbourhood Building Exteriors & Shopfronts (B13..B20)
+        {"id": "ext_B13_kino_astoria", "class": "building_exterior", "building": "B13", "resolution": [3840, 2160], "lighting": "blue_hour", "lens_mm": 24.0, "location": [63.5, 12.5, 1.70], "target": [66.0, 26.0, 6.8]},
+        {"id": "ext_B15_brauhaus_hirsch", "class": "building_exterior", "building": "B15", "resolution": [3840, 2160], "lighting": "blue_hour", "lens_mm": 24.0, "location": [107.0, 14.2, 1.70], "target": [109.0, 25.8, 7.2]},
+        {"id": "ext_B17_confiserie_koenig", "class": "building_exterior", "building": "B17", "resolution": [2560, 1440], "lighting": "day", "lens_mm": 26.0, "location": [125.0, -1.8, 1.70], "target": [134.0, 0.0, 6.8]},
+        {"id": "ext_B20_markthalle_ost", "class": "building_exterior", "building": "B20", "resolution": [2560, 1440], "lighting": "blue_hour", "lens_mm": 24.0, "location": [74.0, -14.2, 1.70], "target": [74.0, -25.8, 6.8]},
+        # Park, Pathways, Animals, Vehicles & Poles Vistas
+        {"id": "park_01_stone_bridge_ducks", "class": "terrain_detail", "subject": "stone_bridge_ducks", "resolution": [2560, 1440], "lighting": "day", "lens_mm": 35.0, "location": [94.5, -6.2, 1.45], "target": [104.0, 0.5, 0.95]},
+        {"id": "park_02_dogs_pathway_walk", "class": "terrain_detail", "subject": "dogs_pathway_walk", "resolution": [2560, 1440], "lighting": "day", "lens_mm": 35.0, "location": [75.8, -0.85, 1.12], "target": [80.2, 0.05, 0.52]},
+        {"id": "park_03_horse_carriage_allee", "class": "terrain_detail", "subject": "horse_carriage_allee", "resolution": [2560, 1440], "lighting": "day", "lens_mm": 35.0, "location": [50.2, -16.4, 1.48], "target": [56.5, -18.8, 1.25]},
+        {"id": "park_04_tram_catenary_poles", "class": "terrain_detail", "subject": "tram_catenary_poles", "resolution": [2560, 1440], "lighting": "blue_hour", "lens_mm": 32.0, "location": [64.2, 17.2, 1.62], "target": [74.0, 19.8, 2.35]},
+        {"id": "park_05_cars_phonebooth_crosswalk", "class": "terrain_detail", "subject": "cars_phonebooth_crosswalk", "resolution": [2560, 1440], "lighting": "day", "lens_mm": 32.0, "location": [82.0, -16.2, 1.55], "target": [95.0, -19.5, 1.25]},
+        {"id": "park_06_bandstand_winter_trees", "class": "terrain_detail", "subject": "bandstand_winter_trees", "resolution": [2560, 1440], "lighting": "blue_hour", "lens_mm": 28.0, "location": [58.2, -4.2, 1.58], "target": [68.0, 1.5, 2.65]},
+    ]
+    # Plus 2 new apartment interiors in B13 & B15
+    for apt_id in ("B13_L02_A", "B15_L02_A"):
+        rcx, rcy, rw, rd, ffl = living_room_lookup[apt_id]
+        expansion_views.append({
+            "id": f"int_{apt_id}",
+            "class": "apartment_interior",
+            "building": apt_id[:3],
+            "floor": "L02",
+            "apartment": apt_id,
+            "resolution": [1920, 1080],
+            "lighting": "blue_hour",
+            "lens_mm": 26.0,
+            "location": [round(rcx + 0.34 * rw, 3), round(rcy - 0.26 * rd, 3), round(ffl + 1.42, 3)],
+            "target": [round(rcx - 0.16 * rw, 3), round(rcy + 0.22 * rd, 3), round(ffl + 1.05, 3)],
+        })
+
+    views.extend(expansion_views)
+    assert len(views) == 287, f"Expected 287 views, got {len(views)}"
     (DESIGN_DIR / "VIEWS.json").write_text(json.dumps(views, indent=2), encoding="utf-8")
 
     views_py = f'''#!/usr/bin/env python3
