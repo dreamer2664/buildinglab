@@ -31,33 +31,33 @@
  },
  "CAM_12_interior_living": {
   "file": "CAM_12_interior_living.png",
-  "key": "8cb0112b6044d0b8bb7fcb995377f80ecc26f867f1b02bc018e12010589dbbc2",
+  "key": "237bcd8a8f49b0834ec0bc5253196dfb08faec1e9df6dbd114c1150a1242785f",
   "cached": false,
-  "seconds": 16.0,
-  "sha256": "7d874d77063cc1749d19230d6a17fd13a0e37617397863b88450cb33afafe942",
-  "bytes": 155518,
+  "seconds": 120.5,
+  "sha256": "7c84b3950a769c4bc44118c59d394f02e8263313fa90c53152459a86e666e0e7",
+  "bytes": 508230,
   "px": [
-   512,
-   288
+   1024,
+   576
   ],
-  "content": "f499426a8d710e91953fd011",
-  "light": "9287bb55744112c6",
-  "native_sha256": "b9f17b23e614605f871d917afada6688a6410d83f3d81de3cf4617505919a2cd"
+  "content": "ba56119cce666f8c0afe5bc5",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "6156cc1896d2fa3eb5511b74561f9be9e0deb5e460b05c5a74c9b49c9e79f17f"
  },
  "CAM_16_shop_floor": {
   "file": "CAM_16_shop_floor.png",
-  "key": "3dd7e8b5d8f2847bdad25af596d8f302565fd5cde2140782f6d1c11a3eb4f559",
+  "key": "127a0d88ab971e2bdf136a5cb108dd828ba179d6d84e9a78bb819f6860027896",
   "cached": false,
-  "seconds": 15.9,
-  "sha256": "6196275eeef64ba18902228039b5fd06dbea6fe3f9ed4bac1fe04b94ad087048",
-  "bytes": 135014,
+  "seconds": 127.1,
+  "sha256": "f7cdb57bf2e29ecf20fcb0729da454e6633563a37ff579f04434e201a5b6b51c",
+  "bytes": 489142,
   "px": [
-   512,
-   288
+   1024,
+   576
   ],
-  "content": "f499426a8d710e91953fd011",
-  "light": "9287bb55744112c6",
-  "native_sha256": "b9f17b23e614605f871d917afada6688a6410d83f3d81de3cf4617505919a2cd"
+  "content": "ba56119cce666f8c0afe5bc5",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "6156cc1896d2fa3eb5511b74561f9be9e0deb5e460b05c5a74c9b49c9e79f17f"
  },
  "CAM_02_district_aerial_ne": {
   "file": "CAM_02_district_aerial_ne.png",
