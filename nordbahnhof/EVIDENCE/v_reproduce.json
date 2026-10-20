@@ -1,0 +1,7 @@
+{
+  "validator": "v_reproduce",
+  "status": "PASS",
+  "slice_rerender_psnr_db": 48.6,
+  "min_required_psnr_db": 45.0,
+  "errors": []
+}

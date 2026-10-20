@@ -1,0 +1,38 @@
+[
+  {
+    "task": "t-20261016-0d4e",
+    "branch": "agent/blender/t-20261016-0d4e",
+    "number": 2,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QCYg",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/2",
+    "draft": false,
+    "verified_head_sha": "b18f996c95c4d489eb2fcaa8040ae58850cab0a1",
+    "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+    "publication_receipt_url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-verification-1b7150d6ce45.json",
+    "producer_ready_utc": "2026-10-16T18:37:16.446055+00:00"
+  },
+  {
+    "task": "t-20261016-61b0",
+    "branch": "agent/blender/t-20261016-61b0",
+    "number": 3,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QD6Q",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/3",
+    "draft": false,
+    "verified_head_sha": "9f0a16fcba9d0b7864378faa561d5934dfbad78c",
+    "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+    "publication_receipt_url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-verification-1b7150d6ce45.json",
+    "producer_ready_utc": "2026-10-16T18:37:18.962789+00:00"
+  },
+  {
+    "task": "t-20261016-58d8",
+    "branch": "agent/blender/t-20261016-58d8",
+    "number": 4,
+    "node_id": "PR_kwDOVL_hqc8AAAABI2QFBA",
+    "url": "https://github.com/dreamer2664/buildinglab/pull/4",
+    "draft": false,
+    "verified_head_sha": "330ed64be5e58fd302500c59487a1e393715abf1",
+    "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+    "publication_receipt_url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-verification-1b7150d6ce45.json",
+    "producer_ready_utc": "2026-10-16T18:37:20.961153+00:00"
+  }
+]

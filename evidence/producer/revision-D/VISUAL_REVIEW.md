@@ -1,0 +1,198 @@
+# Producer visual review — Casa dei Colori
+
+**work in progress. Independent acceptance: PENDING.**
+
+Current native SHA-256: `0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887`
+Explicit individually opened current-source originals: **18/29**. These are agent/producer observations, not an independent human-review certificate.
+
+## Real inspect → fix → inspect cycles
+
+Earlier checkpoint narratives are retained as originally logged. Their pending wording is superseded only by the current final observations/defect closures below.
+
+### A / preliminary native diagnostics
+- **evidence:** assets/interiors/visual-review.json and assets/exterior/visual-review.json
+- **actually opened:** two shell views and eight 1280x720 interior/floor diagnostics
+- **issues:** black bedroom camera inside wardrobe; blank-wall cafe; trim caps; bathroom/closet/open-leaf candidates; repeated typical-level views
+- **fix:** unobstructed bedroom eye; cafe sightline; butt-jointed reveals; rehinged/stowed leaves; mirrored beds/relocated bedside storage; redistributed saved view subjects
+- **reinspection:** B original 2560x1440 L03-detail and 3840x2160 L02-cutaway were individually opened; bedroom obstruction visibly closed. Diagnostic images are not counted as final evidence.
+
+### B / exact-size diagnostic feedback
+- **evidence:** evidence/producer/revision-B/ and renders/revision-B/
+- **actually opened:** L03-detail, L02-detail and L02-cutaway individually at original requested dimensions
+- **issues:** L02 bathroom framing still predominantly wall; technical floor cut showed ceiling discs after ceilings removed; full-building 4K exceeded memory before sampling
+- **fix:** saved HOME2C bathroom sightline; actual common-gallery light positions moved outside lift shaft; technical-only ceiling-cap hiding; evaluated-mesh consolidation without decimation preserving names/counts/coordinates; save/reload staging to avoid dependency-graph crash; persistent Main material IDs and palette guards
+- **reinspection:** C exact saved native a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17: exterior-day and L02-detail opened so far; remaining views still pending.
+
+### B2 / full-size preflight and circulation regression
+- **actually opened:** exterior-day, L02-detail, L01-detail, L02-plan individually at original final dimensions
+- **evidence:** evidence/producer/revision-B2/
+- **issues:** Reception leaf-dominated framing/ergonomics; corridor finish hides structural lift opening; cab/portal alignment; plan label/luminaire overlap
+- **fix:** Source shell/interior corrections, actual-geometry ray/level checks, adjusted reception camera and dimensioned label offsets
+- **reinspection:** Pending all 29 PNGs from newly rebuilt frozen native; previous source a322... invalidated.
+
+### B3/B4 to frozen C
+- **evidence:** evidence/producer/revision-B3/ and revision-B4/
+- **actually opened:** Original-size reception images and dimensioned L02 plan, individually
+- **issues:** Additional measured reception strips too narrow; black coplanar side slit on primary counter
+- **fix:** Metric west/north circulation guard, repositioned reception/staff side and core-door swing; butt-joined worktop
+- **reinspection:** Frozen C source 0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887; first L01-detail actually opened and clear of the prior slit/framing issue. Other 28 final inspections pending as rendering completes.
+
+## Defects and actual reinspection
+
+### A-eye-in-wardrobe — major / closed
+- **observation:** Actual preliminary L03_DETAIL image was black.
+- **fix:** Move saved camera to the unobstructed south-east aisle; revise intersecting furnishings/leaves.
+- **reinspection:** Actual B L03-detail opened and showed bed, wardrobe and room rather than black; C exact-source bedroom recheck still to be logged.
+
+### B-bath-framing — major / closed
+- **observation:** B L02-detail mostly showed blank wall/weak fixture coverage.
+- **fix:** Correct saved HOME2C eye-height camera.
+- **reinspection:** C L02-detail opened individually; basin/tap/mirror, WC and shower all legible. Exact current PNG hash in final_inspections.
+
+### B-floating-ceiling-discs — minor / closed
+- **fix:** Hide room-lighting mesh caps only in technical modes; keep actual illumination; move real CORE lights outside shaft.
+- **reinspection:** Exact frozen-source L02-plan and full-building cutaway individually opened; round room-lighting caps absent in technical modes, actual light-position symbols and native suspended pendants distinguished. Intact lighting retained.
+
+### B-full4K-memory — major / closed
+- **observation:** Unbatched full-building 4K failed before sampling.
+- **fix:** Two-stage evaluated-mesh consolidation, preserving original geometry and material IDs.
+- **reinspection:** Exact final 3840x2160 exterior-day completed and was actually opened; full six-storey geometry and furnishings behind glazing visible.
+
+### batch-material-persistence — major / closed
+- **observation:** First saved batched intermediate had no material slots. Prior weak name-comparison checks were insufficient; that intermediate/export was invalidated and never published.
+- **fix:** Bind copied meshes to Main materials by name, assert saved slots after reload, require actual named palette on native meshes and source export.
+- **reinspection:** Rebuilt native has 22 used materials; full-size exterior-day and L02-detail actually show cream/terracotta/teal/wood/porcelain/metal palettes. Numeric portable PBR fallback comparison being added before final export release.
+
+### B2-lift-floor-plug-and-cab-step — major / closed
+- **observation:** Actual common-core finish fills lift void; cab floor 100 mm above landing; sampled open portal obstructed by half-retracted leaves. New negative native test fails on this actual candidate.
+- **fix:** Split finish around lift, flush cab/sill, fully retract ground leaves and close upper leaf seams.
+- **reinspection:** New saved native: five actual upper-shaft samples have zero horizontal-floor hits; cab and landing tops both 0.04 m within tolerance; all sampled ground portal points clear. Native digest and coordinates in scene-validation.json. Final plans/technical views independently opened as they complete.
+
+### B2-reception-framing-and-layout — major / closed
+- **observation:** Actual preflight reception frame dominated by near entrance leaf; staff-chair direction/desk ergonomics poor.
+- **fix:** Recompose from south-west; articulated transaction ledge/lower staff top/knee space/monitor stand and correctly directed chair; taped labelled parcels.
+- **reinspection:** Exact new-native L01-detail actually opened; desk/mail/parcel geometry and unobstructed composition readable. Actual nominal bounding strips 1.18 m west / 1.08353 m north; no compliance claim.
+
+### B3-reception-bounding-strips — major / closed
+- **observation:** Measured prior saved native had only 0.58 m west and 0.58353 m north strips despite zero furnishing/open-leaf overlap candidates. Negative regression preserved.
+- **fix:** Shift reception east, tuck staff worktop/chair and swing core door into ample gallery.
+- **reinspection:** New native actual strips 1.18/1.08353 m; source full-size L01-detail opened. Not a swept navigation or code certificate.
+
+### B4-coplanar-counter-side — minor / closed
+- **observation:** Actual preflight 202d... L01-detail showed a black horizontal side slit at overlapping worktop/front body.
+- **fix:** Butt-join lower worktop at rear face of tall front and give a non-coplanar overhang.
+- **reinspection:** Actual final 0f849... L01-detail opened; black slit no longer visible.
+
+## Individually opened final images
+
+### renders/final/exterior-day.png
+- PNG SHA-256: `4cf634a599282cfb7216502952e6cd3e8f0cdcb94cc5038c310254c2d71b2499`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:06:06.360254+00:00.
+- Observation: Opened regenerated original 3840x2160 after runtime recovery, not inferred from prior inspection. Six occupied facade rows, real framed glazing/reveals, projected balcony slabs/guards, coloured trim, roof parapet/plant/overrun and furnished rooms behind glazing are visible. Entrance canopy, steps/ramp rails, service grilles, paving/benches and secondary trees read correctly. Primary building and roof are not clipped; deliberate secondary site-edge cropping only. No large missing facade patch or empty upper floor is apparent.
+- Known critical/major in this view: 0.
+
+### renders/final/exterior-dusk.png
+- PNG SHA-256: `3e9da1e3cd9d1f70bf4d4579c92df40a79e3eddb03ee761a4e622f03d4aa82c4`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:12:41.687647+00:00.
+- Observation: Opened regenerated original 3840x2160 after recovery. Opposite-corner dusk view is distinct from day; all six occupied rows and primary roof edge/building corners fit. Warm lighting reveals actual kitchens, seating/books and bedrooms behind framed glazing; balcony slabs and teal guards remain legible against darker cream/terracotta envelope. No major blank upper plate or missing facade patch is visible. Nearest secondary tree/paving edge is intentionally cropped; building itself is complete in frame. This is a fresh original-file inspection, not copied prior-runtime approval.
+- Known critical/major in this view: 0.
+
+### renders/final/all-levels-section.png
+- PNG SHA-256: `f9b275103ad378bcc22b0a3c0636fddc30b4fc089713ab0d4dabee03b546fb32`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:20:59.036644+00:00.
+- Observation: Reopened regenerated original 3840x2160 full-building cutaway after recovery. Six populated occupied slabs fit the frame, with ground cafe/reception/mail/bikes/waste and visible furnished living, kitchen, bedroom and bathroom geometry on every residential plate. Both stair lines connect the levels; top shared planted/seated area is distinct. This is a low-wall dollhouse view: facade/high partitions/ceilings are intentionally removed and art/pendants retain intact-model positions; no round ceiling-cap discs obscure rooms. Intact exteriors/native are enclosure references. No apparent missing occupied floor or major framing omission.
+- Known critical/major in this view: 0.
+
+### renders/final/L01-cutaway.png
+- PNG SHA-256: `d62f28fbc709a2e46bd4842fe5ca1ca6765e7b1ff23b2f2ed5581609866fe967`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:23:56.820113+00:00.
+- Observation: Freshly opened regenerated 3840x2160 ground-floor cutaway after recovery. Real cafe seating/prep appliances/counters, reception/mail/parcel equipment, bicycles, waste bins/cleaning shelf, neighbourhood seating/books/dining, WC/utility fittings and plant tanks/exchangers/pipes/duct/electrical panel are visible. Both complete stair/guard assemblies and static lift cab/core are present; plant header connections visibly reach equipment. Reception is no longer packed against the north/west approach. Main slab fits frame. High walls/ceiling are intentionally removed; overhead equipment/pendants remain at intact-model coordinates rather than being missing geometry.
+- Known critical/major in this view: 0.
+
+### renders/final/L02-cutaway.png
+- PNG SHA-256: `f9c15700b36bfaf83785399eb8171bd35fb3d26293a935787b3774c9aa834016`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:27:04.429824+00:00.
+- Observation: Reopened regenerated original 3840x2160 L02 cutaway. Actual A/B one-bedroom homes and south C two-bedroom home surround the core, with separate shared reading room. Four made beds with bedside/storage pieces, three kitchens with appliances/worktops/sinks, three glass-shower/WC/vanity bathrooms, living/media and dining groups are visible. Both stair/landing/guard groups and core shafts/approaches remain present. No empty occupied zone, intrusive ceiling cap or clipped slab is apparent. Intentional low-wall mode retains art and suspended fixtures at their intact-model heights.
+- Known critical/major in this view: 0.
+
+### renders/final/L03-cutaway.png
+- PNG SHA-256: `4b12aa3081866ed2161632a112e7ac5d0161a6da6b7d3921d978a5428ae51b1f`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:30:07.949233+00:00.
+- Observation: Reopened regenerated 3840x2160 original L03. Three populated homes, four made bedrooms, three fitted wet rooms and three kitchens are visible, with separate reading/lounge room. South family bedrooms have alternate bed/wardrobe orientation and a green lounge sofa versus L02; apartment partition proportions differ slightly. Both stairs/landings/guards and gallery benches/planting, lift/riser zones remain legible. Whole slab fits, with no room hidden by ceiling caps or empty upper-level placeholders. Technical high-wall/ceiling removal leaves art/pendants at their actual intact coordinates.
+- Known critical/major in this view: 0.
+
+### renders/final/L04-cutaway.png
+- PNG SHA-256: `53c6f52604fa11af67dcc351dfb4c3f8929d9049ee46b62a3f141f3889ae5bbf`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:33:13.622918+00:00.
+- Observation: Freshly opened regenerated original 3840x2160 L04 cutaway. Four bedrooms across three homes, three appliance-equipped kitchens, three fitted shower/WC/vanity bathrooms and separate reading/lounge/dining room are visible. South beds/wardrobes use even-floor orientation and terracotta sofa rather than L03 green/flipped arrangement. Both stair assemblies and gallery seating, lift/riser openings remain legible, without a missing occupied zone. Full slab fits the frame; high walls and ceilings are intentionally removed and native art/pendants retained.
+- Known critical/major in this view: 0.
+
+### renders/final/L05-cutaway.png
+- PNG SHA-256: `f1389b828f48649cb0c358fae28bce878caf4de8ffc0096d6041dd241a074f52`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:36:15.459091+00:00.
+- Observation: Opened regenerated original 3840x2160 L05 floor cutaway. Three complete homes, four bedrooms with beds/storage/bedside fixtures, three kitchens and three glazed-shower bathrooms are visible plus separate shared reading/lounge room. South family home uses green sofa and flipped bed/wardrobe placement, not the even-floor L04 arrangement. Both stairs/landings/guards, gallery furniture, lift/riser zones and slab are present and framed. No empty upper floor or intrusive round ceiling caps; removed high walls/ceilings explain retained elevated art/pendants.
+- Known critical/major in this view: 0.
+
+### renders/final/L06-cutaway.png
+- PNG SHA-256: `5ffd1fd4a3788fe147941574b180aba5d014c5813687c17667194cf7eb516d73`
+- Original dimensions: 3840 × 2160; opened individually: true; logged 2026-10-16T14:39:07.313138+00:00.
+- Observation: Opened regenerated original 3840x2160 L06 cutaway. Two penthouses have real fitted kitchens/living/dining, three bedrooms total, wardrobes/bedside pieces and two complete wet rooms; separate shared winter garden has planted edge, sofas/books/dining. Both stair openings have terminal guards, with no phantom upward flights/seventh occupied level. Downward flights belong to the hidden lower-level collection in this isolated-floor view; full-building section supplies continuity reference. Core/gallery and risers remain legible, whole slab fits, and no empty top-floor placeholder is apparent.
+- Known critical/major in this view: 0.
+
+### renders/final/L01-interior.png
+- PNG SHA-256: `92ed07ad2e28c347d1b2531cacd88c308e866d922b1e84264869a958446243ce`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T14:44:30.324089+00:00.
+- Observation: Opened original 2560x1440 cafe human-height render. Rounded upholstered timber-frame chairs, pedestal tables and actual cups are visible beside two deep framed glazed street openings; prep/counter doorway is visible at left, not the former blank-wall composition. Warm enclosing walls/ceiling and native pendant remain intact. Foreground chairs/table and top pendant are intentionally cropped for an interior composition. Small bright streak near the upper wall corner is a minor lighting/presentation artefact, not a large missing wall or room; no known critical/major omission in this view.
+- Known critical/major in this view: 0.
+
+### renders/final/L01-detail.png
+- PNG SHA-256: `e9556d76af272e8bc492ab9d0ae7a2e54cabab087fd3e4f80c328779d11ef08e`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T14:49:58.208078+00:00.
+- Observation: Opened regenerated original 2560x1440 reception/mail interior. Rounded white worktop, teal panelled counter/handles, staff side/chair/monitor, 16 detailed mailbox faces/slots/buttons and three parcel boxes are legible, with doors and cafe context beyond. Prior coplanar black side slit is absent at the corrected worktop junction; composition is no longer dominated by an open leaf. Foreground counter/parcel edge cropping is intentional. No known critical/major defect observed; native measured approach strips remain the quantitative circulation reference, not a code certificate.
+- Known critical/major in this view: 0.
+
+### renders/final/L02-interior.png
+- PNG SHA-256: `158631a7693b7dcaddaa669ad53eaf0a61e1b645a24eab26421162c0cb80842b`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T14:55:40.122879+00:00.
+- Observation: Opened original 2560x1440 Home 2A living/kitchen view. Shaped sofa/pillows, complete dining chairs/table/settings, pendant and actual glazed openings are legible. Kitchen has panelled drawers/handles, worktop/splashback, sink/tap, hob/oven/hood, dishwasher and refrigerator; doorway reaches the hall. Foreground sofa intentionally crops lower cabinets. Thin bright ceiling-edge line appears where isolated-floor ceiling finish meets facade; underlying upper structural slab is hidden by interior isolation, while intact native retains it. This is a disclosed minor presentation seam, not a missing primary room/furnishing or claimed engineering result.
+- Known critical/major in this view: 0.
+
+### renders/final/L02-detail.png
+- PNG SHA-256: `1e979b1f1e2807c8d459fc638c9e1e7aafc12df26407e24b882614a5c0616689`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T14:59:34.095316+00:00.
+- Observation: Opened original 2560x1440 Home2C bathroom. Corrected sightline clearly shows real basin/tap/vanity/mirror, WC bowl/cistern, glazed shower tray/head/rail, towel rail and two framed glazed openings, rather than the earlier wall-dominated view. Glass/reflections and porcelain/tile/teal palette remain present; foreground vanity is intentionally cropped. Thin isolated-ceiling finish lines remain a disclosed minor presentation limitation. No camera embedded in a fixture or known major missing primary bathroom function is apparent.
+- Known critical/major in this view: 0.
+
+### renders/final/L03-interior.png
+- PNG SHA-256: `a66648de1a3d2377b9d7f7929ab3a0496c2f7dbb51dc3e10926210c65eafd103`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:04:16.155149+00:00.
+- Observation: Opened original 2560x1440 Home3B living/kitchen photograph. Mirrored arrangement differs from Home2A: green upholstered sofa/pillows, dining set/place settings, hanging and ceiling fixtures, fitted kitchen with sink/tap, hob/oven/hood, dishwasher, cabinet handles/splashback and refrigerator. Two framed glazed openings and hall doorway read as real enclosure. Sofa intentionally masks some lower cabinets. Thin isolated-ceiling perimeter highlight is the already-disclosed minor presentation seam; no known major missing primary furnishing or blank-room framing.
+- Known critical/major in this view: 0.
+
+### renders/final/L03-detail.png
+- PNG SHA-256: `4138bfffa9ac4af5720551d149b6685d528ce7e5fa1abd92b06b8123a6ae9a54`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:09:23.767815+00:00.
+- Observation: Opened original 2560x1440 Home3C bedroom1. Former black/wardrobe-obstructed camera issue is visibly resolved: shaped mattress/duvet/pillows, upholstered headboard, timber bed frame, bedside lamps, panelled wardrobe/handles and open doorway are legible. Bedroom is an enclosed furnished room, not a proxy box. Bed and near lamp intentionally crop foreground edges; door/hall context remains visible, and camera is not inside the wardrobe. No known critical/major omission in this view.
+- Known critical/major in this view: 0.
+
+### renders/final/L04-interior.png
+- PNG SHA-256: `8c50a5cef7be2349c94d6ed662237388b97afc9d0702045c77b6d0576e51e8d2`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:14:21.285485+00:00.
+- Observation: Opened original 2560x1440 Home4C family living view. Composition differs from A/B examples: dining/settings and sculpted vase foreground, actual lounge sofa/pillows/rug/table, complete kitchen at rear and two tall balcony-glazed openings with guards/planting outside. Open interior leaf and top pendant intentionally crop frame edges, without blanking the main lounge/kitchen. Cabinet handles, hood, sink/tap, hob/pan and fridge are visible; lower appliances partly occluded by sofa. Disclosed thin isolated-ceiling highlight persists; no known major missing room function or embedded camera.
+- Known critical/major in this view: 0.
+
+### renders/final/L04-detail.png
+- PNG SHA-256: `e482137b68354b65bf5e9e1bccbc68f960a0c2fdf99db281fbb755b48f5bba41`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:19:12.834173+00:00.
+- Observation: Opened original 2560x1440 Home4C bedroom2. Actual upholstered headboard, shaped mattress/duvet/pillows/runner, timber base, two bedside lamps/storage pieces, wardrobe with panel/handle detail and open door are visible. Bed/wardrobe orientation differs from the opened odd-floor bedroom. Camera is not inside storage, doorway is legible, and near bedside/frame cropping is deliberate. No known critical/major missing primary bedroom furnishing; no code/accessibility conclusion is drawn from the perspective.
+- Known critical/major in this view: 0.
+
+### renders/final/L05-interior.png
+- PNG SHA-256: `dfd17643a46e8c89470d5371521cac3e0fb39a7438caee10495c06e749d2b213`
+- Original dimensions: 2560 × 1440; opened individually: true; logged 2026-10-16T15:24:01.570629+00:00.
+- Observation: Opened original 2560x1440 Home5A living/kitchen. This is the upper-level A typology, deliberately similar to the earlier A home rather than claimed as a wholly unique plan. Real sofa/pillows, dining settings/chairs, pendant/ceiling fixtures, framed glazing and complete fitted kitchen with sink/hob/oven/hood/dishwasher/fridge are present. Hall doorway remains visible and camera is not embedded in furniture. Foreground sofa crops lower cabinets; the known isolated-ceiling edge highlight remains minor/disclosed. No empty or proxy-only upper home is apparent.
+- Known critical/major in this view: 0.
+
+## Boundaries
+
+Mechanical render success, these producer records and mechanical validators are not non-owner acceptance. No self-review/vote has been cast. Engineering, local code, swept navigation, accessibility/fire/lift/structure/MEP approval are outside this conceptual visual model. Historical diagnostics and negative regressions are deliberately separate from the 29 final PNGs. Publication/upload/redownload/member verification must be recorded in the separate release receipt.

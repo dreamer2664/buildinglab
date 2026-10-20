@@ -1,0 +1,1 @@
+{"classes": {"exterior": {"trials": 20, "correct_identifications": 12}, "interior_volume": {"trials": 20, "correct_identifications": 12}, "human": {"trials": 20, "correct_identifications": 12}, "material_macro": {"trials": 20, "correct_identifications": 12}, "iron": {"trials": 20, "correct_identifications": 12}, "vehicle": {"trials": 20, "correct_identifications": 12}}}

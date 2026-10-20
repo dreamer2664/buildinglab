@@ -1,0 +1,121 @@
+{
+  "observer": "blender / producer agent; not independent reviewer",
+  "independent_acceptance": "pending",
+  "final_inspections": [
+    {
+      "image": "renders/final/exterior-day.png",
+      "sha256": "a8a3a8d19fbf32329858a7b5d9332360725e1403ab8bc21518045f7f45dbc0f1",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T12:04:43.211912+00:00",
+      "observations": "Opened the actual 3840x2160 final PNG. Six occupied rows, framed glazing/reveals, alternating projected balconies with rails and pots, roof/parapet/coping, roof plant, furnished rooms behind glazing, ground storefronts and canopy/ramped entrance are legible. Cream/terracotta/teal materials survive batching; no missing facade strip or obvious void/clip is visible. Neutral context and stylised trees are deliberate secondary presentation, not a photoreal city claim. The highest-memory whole-building 4K rendering now completes rather than failing during geometry sync.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L02-detail.png",
+      "sha256": "1e979b1f1e2807c8d459fc638c9e1e7aafc12df26407e24b882614a5c0616689",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T12:07:06.446672+00:00",
+      "observations": "Opened the actual 2560x1440 final PNG. Corrected human-height bathroom sightline now clearly contains the shaped basin and chrome tap/vanity/mirror, WC with tank and seat, shower tray/screens/riser/head, towel and daylit windows rather than the previous mostly blank wall. Fixture geometry and floor/wall junctions are readable; foreground basin cropping is an intentional close interior view, not absent geometry. No eye-camera obstruction or obvious furnishing/door intersection is visible.",
+      "known_critical_major": 0
+    },
+    {
+      "image": "renders/final/L01-detail.png",
+      "sha256": "2c03bb138d39f39c2d99dbb233950ebca08ceb1af52f4c5e2ae9bbc3e3189cc7",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T12:17:18.157770+00:00",
+      "observations": "Opened the actual 2560x1440 preflight PNG. Mailbox slots/locks, packages and partial reception counter/chair/monitor are present, but the entrance leaf dominates the near left third. Recompose from the south-west side. Source preflight also shows the chair facing away from the staff surface; revise desk as a transaction ledge/lower worktop with knee space and correctly directed staff chair. Add parcel tape/labels so the visible secondary boxes read as packages. Not accepted as a final evidence view.",
+      "known_critical_major": 1
+    },
+    {
+      "image": "renders/final/L02-plan.png",
+      "sha256": "4b0b00daff4a661881853027d662bdb8350a8626df61a8aeada990927bf03e05",
+      "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "opened_individually": true,
+      "method": "original final PNG opened with workspace image reader; targeted native-pixel crops where needed",
+      "logged_at": "2026-10-16T12:17:18.245987+00:00",
+      "observations": "Opened the actual 2560x1440 preflight plan PNG. Three fully furnished homes, distinct C two-bedroom layout, shared reading room, two stairs, lift/core/risers, doors and lighting symbols are legible, with 26x20 m dimensions/north/metric scale. Common-core text partly coincides with lighting points; shift below them and add room dimensions. Source inspection identifies the common-core finish re-sealing the lift slab opening; reject current native until actual upper-shaft ray checks pass and cab floor/portal are corrected.",
+      "known_critical_major": 1
+    }
+  ],
+  "defects": [
+    {
+      "id": "A-eye-in-wardrobe",
+      "severity": "major",
+      "status": "closed",
+      "observation": "Actual preliminary L03_DETAIL image was black.",
+      "fix": "Move saved camera to the unobstructed south-east aisle; revise intersecting furnishings/leaves.",
+      "reinspection": "Actual B L03-detail opened and showed bed, wardrobe and room rather than black; C exact-source bedroom recheck still to be logged."
+    },
+    {
+      "id": "B-bath-framing",
+      "severity": "major",
+      "status": "closed",
+      "observation": "B L02-detail mostly showed blank wall/weak fixture coverage.",
+      "fix": "Correct saved HOME2C eye-height camera.",
+      "reinspection": "C L02-detail opened individually; basin/tap/mirror, WC and shower all legible. Exact current PNG hash in final_inspections."
+    },
+    {
+      "id": "B-floating-ceiling-discs",
+      "severity": "minor",
+      "status": "awaiting C technical reinspection",
+      "fix": "Hide room-lighting mesh caps only in technical modes; keep actual illumination; move real CORE lights outside shaft.",
+      "reinspection": "Pending new floor cut/plan; do not infer visual closure from code."
+    },
+    {
+      "id": "B-full4K-memory",
+      "severity": "major",
+      "status": "closed",
+      "observation": "Unbatched full-building 4K failed before sampling.",
+      "fix": "Two-stage evaluated-mesh consolidation, preserving original geometry and material IDs.",
+      "reinspection": "Exact final 3840x2160 exterior-day completed and was actually opened; full six-storey geometry and furnishings behind glazing visible."
+    },
+    {
+      "id": "batch-material-persistence",
+      "severity": "major",
+      "status": "closed",
+      "observation": "First saved batched intermediate had no material slots. Prior weak name-comparison checks were insufficient; that intermediate/export was invalidated and never published.",
+      "fix": "Bind copied meshes to Main materials by name, assert saved slots after reload, require actual named palette on native meshes and source export.",
+      "reinspection": "Rebuilt native has 22 used materials; full-size exterior-day and L02-detail actually show cream/terracotta/teal/wood/porcelain/metal palettes. Numeric portable PBR fallback comparison being added before final export release."
+    }
+  ],
+  "cycles": [
+    {
+      "phase": "A / preliminary native diagnostics",
+      "evidence": "assets/interiors/visual-review.json and assets/exterior/visual-review.json",
+      "actually_opened": "two shell views and eight 1280x720 interior/floor diagnostics",
+      "issues": "black bedroom camera inside wardrobe; blank-wall cafe; trim caps; bathroom/closet/open-leaf candidates; repeated typical-level views",
+      "fix": "unobstructed bedroom eye; cafe sightline; butt-jointed reveals; rehinged/stowed leaves; mirrored beds/relocated bedside storage; redistributed saved view subjects",
+      "reinspection": "B original 2560x1440 L03-detail and 3840x2160 L02-cutaway were individually opened; bedroom obstruction visibly closed. Diagnostic images are not counted as final evidence."
+    },
+    {
+      "phase": "B / exact-size diagnostic feedback",
+      "evidence": "evidence/producer/revision-B/ and renders/revision-B/",
+      "actually_opened": "L03-detail, L02-detail and L02-cutaway individually at original requested dimensions",
+      "issues": "L02 bathroom framing still predominantly wall; technical floor cut showed ceiling discs after ceilings removed; full-building 4K exceeded memory before sampling",
+      "fix": "saved HOME2C bathroom sightline; actual common-gallery light positions moved outside lift shaft; technical-only ceiling-cap hiding; evaluated-mesh consolidation without decimation preserving names/counts/coordinates; save/reload staging to avoid dependency-graph crash; persistent Main material IDs and palette guards",
+      "reinspection": "C exact saved native a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17: exterior-day and L02-detail opened so far; remaining views still pending."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "L01-detail",
+  "camera": "CAM_L01_DETAIL",
+  "level": "L01",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    15.380000114440918,
+    4.400000095367432,
+    1.6200000047683716
+  ],
+  "camera_lens_mm": 18.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.7096366882324219,
+      -0.10073728859424591,
+      0.697329044342041,
+      15.380000114440918
+    ],
+    [
+      0.7045677900314331,
+      0.10146212577819824,
+      -0.7023458480834961,
+      4.400000095367432
+    ],
+    [
+      -7.44078505476864e-08,
+      0.9897259473800659,
+      0.1429774910211563,
+      1.6200000047683716
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.7096366882324219,
+      -0.10073728859424591,
+      0.697329044342041,
+      15.380000114440918
+    ],
+    [
+      0.7045677900314331,
+      0.10146212577819824,
+      -0.7023458480834961,
+      4.400000095367432
+    ],
+    [
+      -7.44078505476864e-08,
+      0.9897259473800659,
+      0.1429774910211563,
+      1.6200000047683716
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "render_visibility_revision": null,
+  "caption": "L01 / RECEPTION + MAIL",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "ec4d8e852343695c1cf07f4761f862adfd6777e8517cfd9e3dd04173b4af3ae2",
+  "render_completed_utc": "2026-10-16T18:00:22.661995+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

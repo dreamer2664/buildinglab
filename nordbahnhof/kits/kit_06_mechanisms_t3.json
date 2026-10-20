@@ -1,0 +1,11 @@
+{
+  "kit": "kit_06_mechanisms_t3.json",
+  "library_blend": "nordbahnhof/source/NORDBAHNHOF_lib.blend",
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bevel_mm": 1.5,
+  "verified": true
+}

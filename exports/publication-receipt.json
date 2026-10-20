@@ -1,0 +1,169 @@
+{
+  "status": "PASS \u2014 actual public unauthenticated redownload, archive SHA and every member verified",
+  "verified_utc": "2026-10-16T18:36:37.574686+00:00",
+  "project": "dreamer2664/buildinglab",
+  "producer": "blender",
+  "release_id": 415124389,
+  "release_tag": "buildinglab/blender/candidate-20261016-1b7150d6ce45",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/candidate-20261016-1b7150d6ce45",
+  "archive_url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-candidate-20261016-1b7150d6ce45.zip",
+  "archive_asset_id": 648235516,
+  "archive_bytes": 114102626,
+  "archive_sha256": "70130eb4f823fc274e52191dadde47bf75de68b2414b260d7f74c11f22b3b118",
+  "member_manifest_sha256": "fc2dbf2d722867977d605e5828442f7da7865516ba24cc87642f5d21938cce8d",
+  "archive_entries_including_manifest": 219,
+  "every_payload_member_verified": true,
+  "native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "glb_sha256": "06940c1254f6d7499d93c2798e7ea564c0f0e780a184ec8d008481aff37e67e6",
+  "source_commit_at_packaging": "fdbc5dbe4b59419910ffca4082302333c8a25aa6",
+  "public_unauthenticated_download": true,
+  "final_pngs_verified": [
+    {
+      "path": "renders/final/L01-cutaway.png",
+      "bytes": 2731838,
+      "sha256": "d62f28fbc709a2e46bd4842fe5ca1ca6765e7b1ff23b2f2ed5581609866fe967"
+    },
+    {
+      "path": "renders/final/L01-detail.png",
+      "bytes": 1817580,
+      "sha256": "6edf560e298c919bfcab27e5ac6e3c52caca606e752997abd7ae61674f3bf018"
+    },
+    {
+      "path": "renders/final/L01-interior.png",
+      "bytes": 1887837,
+      "sha256": "349ee51ca9ca031ecea99b457df5c7c6d15f8663b7c8e94c973655f90023f5f0"
+    },
+    {
+      "path": "renders/final/L01-plan.png",
+      "bytes": 1181663,
+      "sha256": "e282d0fb7dd558f581cf970d51a4be84816c388fe79e85c24a6b478f287712dc"
+    },
+    {
+      "path": "renders/final/L02-cutaway.png",
+      "bytes": 3114197,
+      "sha256": "193b2074d7a5acc24a28314b3366347144afec4be0dd6e3ca89577969d2148f3"
+    },
+    {
+      "path": "renders/final/L02-detail.png",
+      "bytes": 1627394,
+      "sha256": "adde0b9296a5d7c0832e5addb42dcf2a6830e8ddae9abc9b2face54809eed952"
+    },
+    {
+      "path": "renders/final/L02-interior.png",
+      "bytes": 2101508,
+      "sha256": "795f57bb8d24bc71a2c7674a3280f9da3fc42ef60e7f13d8c27764e99b874e51"
+    },
+    {
+      "path": "renders/final/L02-plan.png",
+      "bytes": 1368262,
+      "sha256": "a2f949ab63b2b0f241768391950646dfb91c7fc9fb48b10c60ead83fe3722d77"
+    },
+    {
+      "path": "renders/final/L03-cutaway.png",
+      "bytes": 3086513,
+      "sha256": "4e11ff9c9eaa97958ec920070a06bc442e8eac5bafcad35f15d273c3e82f81ee"
+    },
+    {
+      "path": "renders/final/L03-detail.png",
+      "bytes": 1502235,
+      "sha256": "a3b3b571a4f6a21bce31327bb7a04ae3ca12c1b7692a50927c896130266c1110"
+    },
+    {
+      "path": "renders/final/L03-interior.png",
+      "bytes": 2033423,
+      "sha256": "8eed788cfc195d3abefccee6a73e70f2f7064e3e7953501cfad1abd1f25e80ef"
+    },
+    {
+      "path": "renders/final/L03-plan.png",
+      "bytes": 1363007,
+      "sha256": "680283f5f235894c561974ea4eaacb86dc396750a383d1bc49461cf74642e864"
+    },
+    {
+      "path": "renders/final/L04-cutaway.png",
+      "bytes": 3104614,
+      "sha256": "311bde72ab4e2df590d8cdad76d5ef3c04b6312e149ffe1a2a99ee93d4ef05c9"
+    },
+    {
+      "path": "renders/final/L04-detail.png",
+      "bytes": 1637655,
+      "sha256": "3b4d9fd6ec44eb7e7f4c2a7526620525a1051feca005e4a632aa769395908f14"
+    },
+    {
+      "path": "renders/final/L04-interior.png",
+      "bytes": 1950991,
+      "sha256": "50e67cda9a35c6b134b1f9fcaf3fc378471933f973e43d1952c942ceeb85abb6"
+    },
+    {
+      "path": "renders/final/L04-plan.png",
+      "bytes": 1359087,
+      "sha256": "b0de2f0237686d259730a01b3bfe421c9cb88aa678510519a424e0715b85dcc2"
+    },
+    {
+      "path": "renders/final/L05-cutaway.png",
+      "bytes": 3073226,
+      "sha256": "5b886505d853dfde1f2af1fd86b79bb6e9543a81bac4da694867d972f9522954"
+    },
+    {
+      "path": "renders/final/L05-detail.png",
+      "bytes": 1501142,
+      "sha256": "28ee507c41d6e042ac9a27317ad270eff4c637af06bde66b08a2fc3e4e25da6d"
+    },
+    {
+      "path": "renders/final/L05-interior.png",
+      "bytes": 2084748,
+      "sha256": "1f6ae972cf46aa1c473095cd4cf67378467b491f19aa4a35140bdff8071f7637"
+    },
+    {
+      "path": "renders/final/L05-plan.png",
+      "bytes": 1353387,
+      "sha256": "021d72a17f7bb547fd187c5966371e50fc2aa5e6d634e97f4fa242fc8b4b4248"
+    },
+    {
+      "path": "renders/final/L06-cutaway.png",
+      "bytes": 2761353,
+      "sha256": "6e403d69387d20f9456e26e444c9f203b5e5949981c78aab3d5779f046f5ea47"
+    },
+    {
+      "path": "renders/final/L06-detail.png",
+      "bytes": 2003969,
+      "sha256": "9ce863ae07ddcfdf0c24601102b6a331271edc22b18c88e795124e62666d8fd4"
+    },
+    {
+      "path": "renders/final/L06-interior.png",
+      "bytes": 1915860,
+      "sha256": "83a504b0a5144c949e542ab143f30016e043e28fe97413815ebe79c63c68c9d6"
+    },
+    {
+      "path": "renders/final/L06-plan.png",
+      "bytes": 1287318,
+      "sha256": "a1af5e3eb4e29c4a9f0afde0d5dbd4da604c12924cfe34d7f8688882da5c06d9"
+    },
+    {
+      "path": "renders/final/all-levels-section.png",
+      "bytes": 4783938,
+      "sha256": "bef11c04663cf47df617ec2d8e203030b8674b662b746259e52cc9a3c55faa3e"
+    },
+    {
+      "path": "renders/final/exterior-day.png",
+      "bytes": 3575839,
+      "sha256": "cef96bd8e36173b95fc4e78121e4008e35470a1e7dc3d53361fcc27d5476abb9"
+    },
+    {
+      "path": "renders/final/exterior-dusk.png",
+      "bytes": 3846152,
+      "sha256": "33ff7361423e7353958d7396e3c978671071de150cf06017836905129f2cc6bf"
+    },
+    {
+      "path": "renders/final/technical-facade-material.png",
+      "bytes": 2162415,
+      "sha256": "5732d8c433226fb97e0e8f0f34f5588c4ba160245909b91c1001deaff743379d"
+    },
+    {
+      "path": "renders/final/technical-structure-core.png",
+      "bytes": 1364211,
+      "sha256": "c6cd4a95d45b525815b28005e074dc4906cd0a9d968fe7651fc305009d9bf1e0"
+    }
+  ],
+  "independent_acceptance": "pending \u2014 not owner-approved",
+  "engineering_or_code_approval": false
+}

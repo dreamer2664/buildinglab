@@ -1,0 +1,81 @@
+{
+  "id": "exterior-dusk",
+  "camera": "CAM_EXTERIOR_DUSK",
+  "mode": "intact",
+  "night": true,
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    -26.0,
+    -36.0,
+    20.0
+  ],
+  "camera_lens_mm": 38.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.8999999761581421,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "saved_camera_matrix_world": [
+    [
+      0.7556890249252319,
+      0.1084643229842186,
+      -0.6458866596221924,
+      -26.0
+    ],
+    [
+      -0.654930591583252,
+      0.12515108287334442,
+      -0.7452537417411804,
+      -36.0
+    ],
+    [
+      -2.302023993649982e-08,
+      0.9861909747123718,
+      0.16561190783977509,
+      20.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      0.7556890249252319,
+      0.1084643229842186,
+      -0.6458866596221924,
+      -26.0
+    ],
+    [
+      -0.654930591583252,
+      0.12515108287334442,
+      -0.7452537417411804,
+      -36.0
+    ],
+    [
+      -2.302023993649982e-08,
+      0.9861909747123718,
+      0.16561190783977509,
+      20.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": null,
+  "caption": "CASA DEI COLORI / DUSK",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "raw_sha256": "61711cef8f7b456d622b3caefc98739b431e0a8735f67d4847d38a8e76792a4e",
+  "render_completed_utc": "2026-10-16T16:11:43.746937+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

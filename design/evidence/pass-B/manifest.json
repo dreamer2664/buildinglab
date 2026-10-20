@@ -1,0 +1,86 @@
+[
+  {
+    "image": "design/evidence/pass-B/L01.png",
+    "camera": "CAM_L01_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "5de7cc6eceb689793087d0aa8fcb9f0fae1126170f0f3870d6d1f2110dbb7357",
+    "time_utc": "2026-10-16T09:23:10.223545+00:00",
+    "render_seconds": 38.32,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/L02.png",
+    "camera": "CAM_L02_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "ca2a5ce65c5865770674ed0092e5d84d2446468367b15171b4c25e6241304db9",
+    "time_utc": "2026-10-16T09:23:48.193606+00:00",
+    "render_seconds": 37.97,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/L03.png",
+    "camera": "CAM_L03_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "83f31bc900156a46a900d98fc3e6f507548834a6ee1136baf5cb5c5c80d81e17",
+    "time_utc": "2026-10-16T09:24:27.165104+00:00",
+    "render_seconds": 38.97,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/L04.png",
+    "camera": "CAM_L04_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "dbb5ff23bb06d77f8cae24fea008c46aec7c373b2fe61e57845d48a01b477807",
+    "time_utc": "2026-10-16T09:25:08.002568+00:00",
+    "render_seconds": 40.84,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/L05.png",
+    "camera": "CAM_L05_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "1c7e02837d577ea32fe59c3af2c20212b16d42f8c312b9af6c7050e44f04957a",
+    "time_utc": "2026-10-16T09:25:45.707950+00:00",
+    "render_seconds": 37.71,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/L06.png",
+    "camera": "CAM_L06_AXON",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "872624948e67bacb2967b86210d9f5ce789869634aac96466768e7606d0f8908",
+    "time_utc": "2026-10-16T09:26:21.770337+00:00",
+    "render_seconds": 36.06,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  },
+  {
+    "image": "design/evidence/pass-B/FULL_STACK.png",
+    "camera": "CAM_FULL_STACK",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "61db5f01c295a06ee2aeacb28ff8c88c466ef2cd162807e8a635b8d1e46a21e0",
+    "time_utc": "2026-10-16T09:27:28.827681+00:00",
+    "render_seconds": 67.06,
+    "review_result": "opened individually; schematic only; see visual-review.json",
+    "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+    "inspection_recorded_utc": "2026-10-16T09:28:23.166804+00:00"
+  }
+]

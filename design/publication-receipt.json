@@ -1,0 +1,17 @@
+{
+  "stage": "BLDG-1 schematic prerelease only; NOT final release",
+  "tag": "buildinglab/blender/blockout-20261016-f0a5ba82e97a",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/buildinglab/blender/blockout-20261016-f0a5ba82e97a",
+  "asset_url": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/blockout-20261016-f0a5ba82e97a/Casa-dei-Colori-BLDG1-blockout.zip",
+  "asset_bytes": 31707201,
+  "sha256": "f0a5ba82e97ad8629a057db8d05d6f899c0415ef9059551df377d764ba66df00",
+  "source_commit": "9a9014797ba3f9df16cc9d6c613471e569ad0c92",
+  "source_pr": "https://github.com/dreamer2664/buildinglab/pull/1",
+  "redownload_verified": true,
+  "verified_members": 48,
+  "download_sha256": "f0a5ba82e97ad8629a057db8d05d6f899c0415ef9059551df377d764ba66df00",
+  "published_native_reopen_audit": "PASS",
+  "published_native_test_render": "PASS; 800x600, 8 samples, individually opened; schematic only",
+  "published_native_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78",
+  "verified_utc": "2026-10-16T09:31:50.018785+00:00"
+}

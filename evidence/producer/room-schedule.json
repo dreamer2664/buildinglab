@@ -1,0 +1,1871 @@
+[
+  {
+    "id": "L01_CORE",
+    "level": "L01",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_CAFE",
+    "level": "L01",
+    "home": "",
+    "name": "Neighbourhood cafe",
+    "kind": "public",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      7.5,
+      7.2
+    ],
+    "area_m2": 49.553,
+    "furniture_batched_mesh_objects": 22,
+    "preserved_source_furniture_components": 180,
+    "dimensions_m": [
+      7.2,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_PREP",
+    "level": "L01",
+    "home": "",
+    "name": "Cafe prep / counter",
+    "kind": "kitchen",
+    "bounds_xy_m": [
+      7.7,
+      0.31765,
+      10.3,
+      3.91765
+    ],
+    "area_m2": 9.36,
+    "furniture_batched_mesh_objects": 6,
+    "preserved_source_furniture_components": 60,
+    "dimensions_m": [
+      2.6,
+      3.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_CAFE_PASS",
+    "level": "L01",
+    "home": "",
+    "name": "Cafe public passage",
+    "kind": "public",
+    "bounds_xy_m": [
+      7.7,
+      4.12941,
+      10.3,
+      7.2
+    ],
+    "area_m2": 7.984,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 8,
+    "dimensions_m": [
+      2.6,
+      3.07059
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_VESTIBULE",
+    "level": "L01",
+    "home": "",
+    "name": "Public vestibule",
+    "kind": "public",
+    "bounds_xy_m": [
+      10.5,
+      0.31765,
+      15.5,
+      2.96471
+    ],
+    "area_m2": 13.235,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 22,
+    "dimensions_m": [
+      5.0,
+      2.64706
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_LOBBY",
+    "level": "L01",
+    "home": "",
+    "name": "Reception / mail",
+    "kind": "public",
+    "bounds_xy_m": [
+      10.5,
+      3.17647,
+      15.5,
+      7.2
+    ],
+    "area_m2": 20.118,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 113,
+    "dimensions_m": [
+      5.0,
+      4.02353
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_BIKES",
+    "level": "L01",
+    "home": "",
+    "name": "Bicycle / storage",
+    "kind": "storage",
+    "bounds_xy_m": [
+      15.7,
+      0.31765,
+      20.5,
+      7.2
+    ],
+    "area_m2": 33.035,
+    "furniture_batched_mesh_objects": 2,
+    "preserved_source_furniture_components": 144,
+    "dimensions_m": [
+      4.8,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_WASTE",
+    "level": "L01",
+    "home": "",
+    "name": "Waste / service",
+    "kind": "service",
+    "bounds_xy_m": [
+      20.7,
+      0.31765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 34.412,
+    "furniture_batched_mesh_objects": 2,
+    "preserved_source_furniture_components": 24,
+    "dimensions_m": [
+      5.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_NEIGHBOUR",
+    "level": "L01",
+    "home": "",
+    "name": "Neighbourhood room",
+    "kind": "public",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      8.5,
+      19.68235
+    ],
+    "area_m2": 56.435,
+    "furniture_batched_mesh_objects": 8,
+    "preserved_source_furniture_components": 166,
+    "dimensions_m": [
+      8.2,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_WC",
+    "level": "L01",
+    "home": "",
+    "name": "Accessible public WC",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      8.7,
+      12.8,
+      11.7,
+      15.97647
+    ],
+    "area_m2": 9.529,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 13,
+    "dimensions_m": [
+      3.0,
+      3.17647
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_CLEANER",
+    "level": "L01",
+    "home": "",
+    "name": "Cleaner / supplies",
+    "kind": "storage",
+    "bounds_xy_m": [
+      8.7,
+      16.18824,
+      11.7,
+      19.68235
+    ],
+    "area_m2": 10.482,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 11,
+    "dimensions_m": [
+      3.0,
+      3.49411
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_PLANT",
+    "level": "L01",
+    "home": "",
+    "name": "Building plant",
+    "kind": "service",
+    "bounds_xy_m": [
+      11.9,
+      12.8,
+      18,
+      19.68235
+    ],
+    "area_m2": 41.982,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 38,
+    "dimensions_m": [
+      6.1,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L01_PARCEL",
+    "level": "L01",
+    "home": "",
+    "name": "Parcel / community store",
+    "kind": "storage",
+    "bounds_xy_m": [
+      18.2,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 51.618,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 52,
+    "dimensions_m": [
+      7.5,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_CORE",
+    "level": "L02",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2A_live",
+    "level": "L02",
+    "home": "2A",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      7.1000000000000005,
+      19.68235
+    ],
+    "area_m2": 46.8,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.8,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2A_hall",
+    "level": "L02",
+    "home": "2A",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      7.300000000000001,
+      12.8,
+      8.700000000000001,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2A_bath",
+    "level": "L02",
+    "home": "2A",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      8.900000000000002,
+      12.8,
+      12.9,
+      15.5
+    ],
+    "area_m2": 10.8,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.0,
+      2.7
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2A_bed",
+    "level": "L02",
+    "home": "2A",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      8.900000000000002,
+      15.71176,
+      12.9,
+      19.68235
+    ],
+    "area_m2": 15.882,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.0,
+      3.97059
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2B_live",
+    "level": "L02",
+    "home": "2B",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      18.9,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 46.8,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.8,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2B_hall",
+    "level": "L02",
+    "home": "2B",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      17.299999999999997,
+      12.8,
+      18.7,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2B_bath",
+    "level": "L02",
+    "home": "2B",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      13.1,
+      12.8,
+      17.099999999999998,
+      15.5
+    ],
+    "area_m2": 10.8,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.0,
+      2.7
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2B_bed",
+    "level": "L02",
+    "home": "2B",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      13.1,
+      15.71176,
+      17.099999999999998,
+      19.68235
+    ],
+    "area_m2": 15.882,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.0,
+      3.97059
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_live",
+    "level": "L02",
+    "home": "2C",
+    "name": "Living / dining / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      6.5,
+      0.31765,
+      15.1,
+      5.50588
+    ],
+    "area_m2": 44.619,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 200,
+    "dimensions_m": [
+      8.6,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_hall",
+    "level": "L02",
+    "home": "2C",
+    "name": "Entry gallery / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      6.5,
+      5.71765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 28.461,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      19.2,
+      1.48235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_bed1",
+    "level": "L02",
+    "home": "2C",
+    "name": "Bedroom 1",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      15.299999999999999,
+      0.31765,
+      18.628,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_bed2",
+    "level": "L02",
+    "home": "2C",
+    "name": "Bedroom 2",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      18.828,
+      0.31765,
+      22.156,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_store",
+    "level": "L02",
+    "home": "2C",
+    "name": "Wardrobe",
+    "kind": "storage",
+    "bounds_xy_m": [
+      22.356,
+      0.31765,
+      23.356,
+      5.50588
+    ],
+    "area_m2": 5.188,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 5,
+    "dimensions_m": [
+      1.0,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_2C_bath",
+    "level": "L02",
+    "home": "2C",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      23.556,
+      0.31765,
+      25.7,
+      5.50588
+    ],
+    "area_m2": 11.124,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      2.144,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L02_READING",
+    "level": "L02",
+    "home": "",
+    "name": "Shared reading room",
+    "kind": "garden",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      6.3,
+      7.2
+    ],
+    "area_m2": 41.294,
+    "furniture_batched_mesh_objects": 8,
+    "preserved_source_furniture_components": 166,
+    "dimensions_m": [
+      6.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_CORE",
+    "level": "L03",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3A_live",
+    "level": "L03",
+    "home": "3A",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      6.7,
+      19.68235
+    ],
+    "area_m2": 44.047,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3A_hall",
+    "level": "L03",
+    "home": "3A",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      6.9,
+      12.8,
+      8.3,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3A_bath",
+    "level": "L03",
+    "home": "3A",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      8.500000000000002,
+      12.8,
+      12.9,
+      15.76471
+    ],
+    "area_m2": 13.045,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.4,
+      2.96471
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3A_bed",
+    "level": "L03",
+    "home": "3A",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      8.500000000000002,
+      15.97647,
+      12.9,
+      19.68235
+    ],
+    "area_m2": 16.306,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.4,
+      3.70588
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3B_live",
+    "level": "L03",
+    "home": "3B",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      19.299999999999997,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 44.047,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3B_hall",
+    "level": "L03",
+    "home": "3B",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      17.7,
+      12.8,
+      19.099999999999998,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3B_bath",
+    "level": "L03",
+    "home": "3B",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      13.1,
+      12.8,
+      17.5,
+      15.76471
+    ],
+    "area_m2": 13.045,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.4,
+      2.96471
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3B_bed",
+    "level": "L03",
+    "home": "3B",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      13.1,
+      15.97647,
+      17.5,
+      19.68235
+    ],
+    "area_m2": 16.306,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.4,
+      3.70588
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_live",
+    "level": "L03",
+    "home": "3C",
+    "name": "Living / dining / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      6.5,
+      0.31765,
+      15.1,
+      5.50588
+    ],
+    "area_m2": 44.619,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 200,
+    "dimensions_m": [
+      8.6,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_hall",
+    "level": "L03",
+    "home": "3C",
+    "name": "Entry gallery / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      6.5,
+      5.71765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 28.461,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      19.2,
+      1.48235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_bed1",
+    "level": "L03",
+    "home": "3C",
+    "name": "Bedroom 1",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      15.299999999999999,
+      0.31765,
+      18.628,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_bed2",
+    "level": "L03",
+    "home": "3C",
+    "name": "Bedroom 2",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      18.828,
+      0.31765,
+      22.156,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_store",
+    "level": "L03",
+    "home": "3C",
+    "name": "Wardrobe",
+    "kind": "storage",
+    "bounds_xy_m": [
+      22.356,
+      0.31765,
+      23.356,
+      5.50588
+    ],
+    "area_m2": 5.188,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 5,
+    "dimensions_m": [
+      1.0,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_3C_bath",
+    "level": "L03",
+    "home": "3C",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      23.556,
+      0.31765,
+      25.7,
+      5.50588
+    ],
+    "area_m2": 11.124,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      2.144,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L03_READING",
+    "level": "L03",
+    "home": "",
+    "name": "Shared reading room",
+    "kind": "garden",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      6.3,
+      7.2
+    ],
+    "area_m2": 41.294,
+    "furniture_batched_mesh_objects": 8,
+    "preserved_source_furniture_components": 166,
+    "dimensions_m": [
+      6.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_CORE",
+    "level": "L04",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4A_live",
+    "level": "L04",
+    "home": "4A",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      6.9,
+      19.68235
+    ],
+    "area_m2": 45.424,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.6,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4A_hall",
+    "level": "L04",
+    "home": "4A",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      7.1000000000000005,
+      12.8,
+      8.500000000000002,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4A_bath",
+    "level": "L04",
+    "home": "4A",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      8.700000000000001,
+      12.8,
+      12.9,
+      15.5
+    ],
+    "area_m2": 11.34,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.2,
+      2.7
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4A_bed",
+    "level": "L04",
+    "home": "4A",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      8.700000000000001,
+      15.71176,
+      12.9,
+      19.68235
+    ],
+    "area_m2": 16.676,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.2,
+      3.97059
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4B_live",
+    "level": "L04",
+    "home": "4B",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      19.099999999999998,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 45.424,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.6,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4B_hall",
+    "level": "L04",
+    "home": "4B",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      17.5,
+      12.8,
+      18.9,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4B_bath",
+    "level": "L04",
+    "home": "4B",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      13.1,
+      12.8,
+      17.299999999999997,
+      15.5
+    ],
+    "area_m2": 11.34,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.2,
+      2.7
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4B_bed",
+    "level": "L04",
+    "home": "4B",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      13.1,
+      15.71176,
+      17.299999999999997,
+      19.68235
+    ],
+    "area_m2": 16.676,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.2,
+      3.97059
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_live",
+    "level": "L04",
+    "home": "4C",
+    "name": "Living / dining / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      6.5,
+      0.31765,
+      15.1,
+      5.50588
+    ],
+    "area_m2": 44.619,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 200,
+    "dimensions_m": [
+      8.6,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_hall",
+    "level": "L04",
+    "home": "4C",
+    "name": "Entry gallery / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      6.5,
+      5.71765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 28.461,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      19.2,
+      1.48235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_bed1",
+    "level": "L04",
+    "home": "4C",
+    "name": "Bedroom 1",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      15.299999999999999,
+      0.31765,
+      18.628,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_bed2",
+    "level": "L04",
+    "home": "4C",
+    "name": "Bedroom 2",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      18.828,
+      0.31765,
+      22.156,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_store",
+    "level": "L04",
+    "home": "4C",
+    "name": "Wardrobe",
+    "kind": "storage",
+    "bounds_xy_m": [
+      22.356,
+      0.31765,
+      23.356,
+      5.50588
+    ],
+    "area_m2": 5.188,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 5,
+    "dimensions_m": [
+      1.0,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_4C_bath",
+    "level": "L04",
+    "home": "4C",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      23.556,
+      0.31765,
+      25.7,
+      5.50588
+    ],
+    "area_m2": 11.124,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      2.144,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L04_READING",
+    "level": "L04",
+    "home": "",
+    "name": "Shared reading room",
+    "kind": "garden",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      6.3,
+      7.2
+    ],
+    "area_m2": 41.294,
+    "furniture_batched_mesh_objects": 8,
+    "preserved_source_furniture_components": 166,
+    "dimensions_m": [
+      6.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_CORE",
+    "level": "L05",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5A_live",
+    "level": "L05",
+    "home": "5A",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      7.1000000000000005,
+      19.68235
+    ],
+    "area_m2": 46.8,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.8,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5A_hall",
+    "level": "L05",
+    "home": "5A",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      7.300000000000001,
+      12.8,
+      8.700000000000001,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5A_bath",
+    "level": "L05",
+    "home": "5A",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      8.900000000000002,
+      12.8,
+      12.9,
+      15.76471
+    ],
+    "area_m2": 11.859,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.0,
+      2.96471
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5A_bed",
+    "level": "L05",
+    "home": "5A",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      8.900000000000002,
+      15.97647,
+      12.9,
+      19.68235
+    ],
+    "area_m2": 14.824,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.0,
+      3.70588
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5B_live",
+    "level": "L05",
+    "home": "5B",
+    "name": "Living / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      18.9,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 46.8,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      6.8,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5B_hall",
+    "level": "L05",
+    "home": "5B",
+    "name": "Entry / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      17.299999999999997,
+      12.8,
+      18.7,
+      19.68235
+    ],
+    "area_m2": 9.635,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.4,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5B_bath",
+    "level": "L05",
+    "home": "5B",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      13.1,
+      12.8,
+      17.099999999999998,
+      15.76471
+    ],
+    "area_m2": 11.859,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.0,
+      2.96471
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5B_bed",
+    "level": "L05",
+    "home": "5B",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      13.1,
+      15.97647,
+      17.099999999999998,
+      19.68235
+    ],
+    "area_m2": 14.824,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.0,
+      3.70588
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_live",
+    "level": "L05",
+    "home": "5C",
+    "name": "Living / dining / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      6.5,
+      0.31765,
+      15.1,
+      5.50588
+    ],
+    "area_m2": 44.619,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 200,
+    "dimensions_m": [
+      8.6,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_hall",
+    "level": "L05",
+    "home": "5C",
+    "name": "Entry gallery / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      6.5,
+      5.71765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 28.461,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      19.2,
+      1.48235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_bed1",
+    "level": "L05",
+    "home": "5C",
+    "name": "Bedroom 1",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      15.299999999999999,
+      0.31765,
+      18.628,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_bed2",
+    "level": "L05",
+    "home": "5C",
+    "name": "Bedroom 2",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      18.828,
+      0.31765,
+      22.156,
+      5.50588
+    ],
+    "area_m2": 17.266,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      3.328,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_store",
+    "level": "L05",
+    "home": "5C",
+    "name": "Wardrobe",
+    "kind": "storage",
+    "bounds_xy_m": [
+      22.356,
+      0.31765,
+      23.356,
+      5.50588
+    ],
+    "area_m2": 5.188,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 5,
+    "dimensions_m": [
+      1.0,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_5C_bath",
+    "level": "L05",
+    "home": "5C",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      23.556,
+      0.31765,
+      25.7,
+      5.50588
+    ],
+    "area_m2": 11.124,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      2.144,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L05_READING",
+    "level": "L05",
+    "home": "",
+    "name": "Shared reading room",
+    "kind": "garden",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      6.3,
+      7.2
+    ],
+    "area_m2": 41.294,
+    "furniture_batched_mesh_objects": 8,
+    "preserved_source_furniture_components": 166,
+    "dimensions_m": [
+      6.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_CORE",
+    "level": "L06",
+    "home": "",
+    "name": "Common corridor",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      4.7,
+      7.2,
+      21.3,
+      12.8
+    ],
+    "area_m2": 92.96,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      16.6,
+      5.6
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_live",
+    "level": "L06",
+    "home": "6A",
+    "name": "Living / dining / kitchen",
+    "kind": "living",
+    "bounds_xy_m": [
+      0.3,
+      0.31765,
+      11.100000000000001,
+      5.50588
+    ],
+    "area_m2": 56.033,
+    "furniture_batched_mesh_objects": 18,
+    "preserved_source_furniture_components": 218,
+    "dimensions_m": [
+      10.8,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_hall",
+    "level": "L06",
+    "home": "6A",
+    "name": "Entry gallery / storage",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      0.3,
+      5.71765,
+      25.7,
+      7.2
+    ],
+    "area_m2": 37.652,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      25.4,
+      1.48235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_bed1",
+    "level": "L06",
+    "home": "6A",
+    "name": "Bedroom 1",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      11.3,
+      0.31765,
+      15.908000000000001,
+      5.50588
+    ],
+    "area_m2": 23.907,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.608,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_bed2",
+    "level": "L06",
+    "home": "6A",
+    "name": "Bedroom 2",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      16.108,
+      0.31765,
+      20.716,
+      5.50588
+    ],
+    "area_m2": 23.907,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.608,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_store",
+    "level": "L06",
+    "home": "6A",
+    "name": "Wardrobe",
+    "kind": "storage",
+    "bounds_xy_m": [
+      20.916,
+      0.31765,
+      21.916,
+      5.50588
+    ],
+    "area_m2": 5.188,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 5,
+    "dimensions_m": [
+      1.0,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6A_bath",
+    "level": "L06",
+    "home": "6A",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      22.116,
+      0.31765,
+      25.7,
+      5.50588
+    ],
+    "area_m2": 18.595,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      3.584,
+      5.18823
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6B_bed",
+    "level": "L06",
+    "home": "6B",
+    "name": "Bedroom",
+    "kind": "bedroom",
+    "bounds_xy_m": [
+      10.5,
+      15.87059,
+      15.0,
+      19.68235
+    ],
+    "area_m2": 17.153,
+    "furniture_batched_mesh_objects": 5,
+    "preserved_source_furniture_components": 30,
+    "dimensions_m": [
+      4.5,
+      3.81176
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6B_bath",
+    "level": "L06",
+    "home": "6B",
+    "name": "Bathroom",
+    "kind": "bathroom",
+    "bounds_xy_m": [
+      10.5,
+      12.8,
+      15.0,
+      15.65882
+    ],
+    "area_m2": 12.865,
+    "furniture_batched_mesh_objects": 4,
+    "preserved_source_furniture_components": 34,
+    "dimensions_m": [
+      4.5,
+      2.85882
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6B_hall",
+    "level": "L06",
+    "home": "6B",
+    "name": "Entry / wardrobes",
+    "kind": "corridor",
+    "bounds_xy_m": [
+      15.2,
+      12.8,
+      16.8,
+      19.68235
+    ],
+    "area_m2": 11.012,
+    "furniture_batched_mesh_objects": 1,
+    "preserved_source_furniture_components": 1,
+    "dimensions_m": [
+      1.6,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_6B_live",
+    "level": "L06",
+    "home": "6B",
+    "name": "Living / kitchen / study",
+    "kind": "living",
+    "bounds_xy_m": [
+      17.0,
+      12.8,
+      25.7,
+      19.68235
+    ],
+    "area_m2": 59.876,
+    "furniture_batched_mesh_objects": 16,
+    "preserved_source_furniture_components": 201,
+    "dimensions_m": [
+      8.7,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  },
+  {
+    "id": "L06_WINTER_GARDEN",
+    "level": "L06",
+    "home": "",
+    "name": "Shared winter garden",
+    "kind": "garden",
+    "bounds_xy_m": [
+      0.3,
+      12.8,
+      10.3,
+      19.68235
+    ],
+    "area_m2": 68.823,
+    "furniture_batched_mesh_objects": 9,
+    "preserved_source_furniture_components": 229,
+    "dimensions_m": [
+      10.0,
+      6.88235
+    ],
+    "area_basis": "rectangular programme extent, not net lettable; common-core extent includes separately labelled shaft/risers"
+  }
+]

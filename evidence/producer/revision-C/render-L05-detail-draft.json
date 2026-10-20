@@ -1,0 +1,75 @@
+{
+  "id": "L05-detail",
+  "camera": "CAM_L05_DETAIL",
+  "level": "L05",
+  "mode": "interior",
+  "width": 2560,
+  "height": 1440,
+  "camera_location": [
+    16.5,
+    19.1200008392334,
+    15.020000457763672
+  ],
+  "camera_lens_mm": 22.0,
+  "camera_type": "PERSP",
+  "samples": 4,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.800000011920929,
+  "source": "scene/building-final.blend",
+  "render_percentage": 50,
+  "saved_camera_matrix_world": [
+    [
+      0.5809763669967651,
+      0.11847792565822601,
+      -0.8052511811256409,
+      13.75
+    ],
+    [
+      -0.8139204382896423,
+      0.08456956595182419,
+      -0.5747882723808289,
+      16.926469802856445
+    ],
+    [
+      2.3496362189234787e-08,
+      0.9893487691879272,
+      0.14556452631950378,
+      15.020000457763672
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_camera_matrix_world": [
+    [
+      -0.4935232698917389,
+      -0.21158167719841003,
+      0.8436041474342346,
+      16.5
+    ],
+    [
+      0.8697326183319092,
+      -0.12006042897701263,
+      0.47869688272476196,
+      19.1200008392334
+    ],
+    [
+      -8.001097562271298e-09,
+      0.9699580669403076,
+      0.2432720959186554,
+      15.020000457763672
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "render_only_camera_revision": "C-L05-bedroom-framing: render-only NE-aisle view towards bed/storage; source native NOT resaved."
+}

@@ -1,0 +1,1466 @@
+{
+  "wardrobe_door_face_checks": [
+    {
+      "room": "L02_2A_bed",
+      "actual_carcass_face_mean_y": 16.041759422847203,
+      "actual_panel_face_mean_y": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199988501412477
+    },
+    {
+      "room": "L02_2B_bed",
+      "actual_carcass_face_mean_y": 16.041759422847203,
+      "actual_panel_face_mean_y": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199988501412477
+    },
+    {
+      "room": "L03_3A_bed",
+      "actual_carcass_face_mean_y": 16.30647087097168,
+      "actual_panel_face_mean_y": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125
+    },
+    {
+      "room": "L03_3B_bed",
+      "actual_carcass_face_mean_y": 16.30647087097168,
+      "actual_panel_face_mean_y": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125
+    },
+    {
+      "room": "L04_4A_bed",
+      "actual_carcass_face_mean_y": 16.041759422847203,
+      "actual_panel_face_mean_y": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199988501412477
+    },
+    {
+      "room": "L04_4B_bed",
+      "actual_carcass_face_mean_y": 16.041759422847203,
+      "actual_panel_face_mean_y": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199988501412477
+    },
+    {
+      "room": "L05_5A_bed",
+      "actual_carcass_face_mean_y": 16.30647087097168,
+      "actual_panel_face_mean_y": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125
+    },
+    {
+      "room": "L05_5B_bed",
+      "actual_carcass_face_mean_y": 16.30647087097168,
+      "actual_panel_face_mean_y": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125
+    },
+    {
+      "room": "L06_6B_bed",
+      "actual_carcass_face_mean_y": 16.200589831994506,
+      "actual_panel_face_mean_y": 16.492589950561523,
+      "inward_panel_offset_m": 0.29200011856701735
+    }
+  ],
+  "ceiling_finish_edge_checks": [
+    {
+      "room": "L01_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_CAFE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_PREP",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_CAFE_PASS",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_VESTIBULE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_LOBBY",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_BIKES",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_WASTE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_NEIGHBOUR",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_WC",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_CLEANER",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_PLANT",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L01_PARCEL",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2A_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2A_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2A_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2A_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2B_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2B_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2B_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2B_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_bed1",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_bed2",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_store",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_2C_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L02_READING",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3A_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3A_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3A_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3A_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3B_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3B_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3B_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3B_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_bed1",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_bed2",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_store",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_3C_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L03_READING",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4A_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4A_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4A_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4A_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4B_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4B_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4B_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4B_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_bed1",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_bed2",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_store",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_4C_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L04_READING",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5A_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5A_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5A_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5A_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5B_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5B_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5B_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5B_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_bed1",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_bed2",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_store",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_5C_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L05_READING",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_CORE",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_RISER_W",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_RISER_E",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_bed1",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_bed2",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_store",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6A_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6B_bed",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6B_bath",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6B_hall",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_6B_live",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "room": "L06_WINTER_GARDEN",
+      "actual_corner_rays_hit_ceiling_finish": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "status": "PASS",
+  "scope": "mechanical native geometry/inventory only, not a visual or independent acceptance certificate",
+  "native_sha256": "1b7150d6ce4536d19058cc1088a2ac063c495c41925c65d1f74c28fe1c773f0f",
+  "blender": "4.3.2",
+  "objects": 1343,
+  "mesh_objects": 1146,
+  "actual_used_materials": [
+    "Black",
+    "Bronze",
+    "Concrete",
+    "Glass",
+    "Glow",
+    "Leaf",
+    "Limestone",
+    "Linen",
+    "Oak",
+    "OliveFabric",
+    "Paper",
+    "Paving",
+    "Plaster",
+    "Porcelain",
+    "Soil",
+    "Steel",
+    "Teal",
+    "Terracotta",
+    "Terrazzo",
+    "Tile",
+    "Upholstery",
+    "Walnut"
+  ],
+  "occupied_levels": [
+    {
+      "id": "L01",
+      "FFL_m": 0,
+      "storey_height_m": 3.8,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        -0.2199999988079071,
+        26.0,
+        20.0,
+        0.0
+      ]
+    },
+    {
+      "id": "L02",
+      "FFL_m": 3.8,
+      "storey_height_m": 3.2,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        3.580000162124634,
+        26.0,
+        20.0,
+        3.799999952316284
+      ]
+    },
+    {
+      "id": "L03",
+      "FFL_m": 7.0,
+      "storey_height_m": 3.2,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        6.779999732971191,
+        26.0,
+        20.0,
+        7.0
+      ]
+    },
+    {
+      "id": "L04",
+      "FFL_m": 10.2,
+      "storey_height_m": 3.2,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        9.980000495910645,
+        26.0,
+        20.0,
+        10.199999809265137
+      ]
+    },
+    {
+      "id": "L05",
+      "FFL_m": 13.400000000000002,
+      "storey_height_m": 3.2,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        13.180000305175781,
+        26.0,
+        20.0,
+        13.399999618530273
+      ]
+    },
+    {
+      "id": "L06",
+      "FFL_m": 16.6,
+      "storey_height_m": 3.2,
+      "slab_components": 1,
+      "actual_slab_bounds_m": [
+        0.0,
+        0.0,
+        16.3799991607666,
+        26.0,
+        20.0,
+        16.600000381469727
+      ]
+    }
+  ],
+  "homes": [
+    {
+      "home": "2A",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L02_2A_bath",
+        "L02_2A_bed",
+        "L02_2A_hall",
+        "L02_2A_live"
+      ]
+    },
+    {
+      "home": "2B",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L02_2B_bath",
+        "L02_2B_bed",
+        "L02_2B_hall",
+        "L02_2B_live"
+      ]
+    },
+    {
+      "home": "2C",
+      "editable_batched_meshes": 38,
+      "preserved_source_components": 312,
+      "rooms": [
+        "L02_2C_bath",
+        "L02_2C_bed1",
+        "L02_2C_bed2",
+        "L02_2C_hall",
+        "L02_2C_live",
+        "L02_2C_store"
+      ]
+    },
+    {
+      "home": "3A",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L03_3A_bath",
+        "L03_3A_bed",
+        "L03_3A_hall",
+        "L03_3A_live"
+      ]
+    },
+    {
+      "home": "3B",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L03_3B_bath",
+        "L03_3B_bed",
+        "L03_3B_hall",
+        "L03_3B_live"
+      ]
+    },
+    {
+      "home": "3C",
+      "editable_batched_meshes": 38,
+      "preserved_source_components": 312,
+      "rooms": [
+        "L03_3C_bath",
+        "L03_3C_bed1",
+        "L03_3C_bed2",
+        "L03_3C_hall",
+        "L03_3C_live",
+        "L03_3C_store"
+      ]
+    },
+    {
+      "home": "4A",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L04_4A_bath",
+        "L04_4A_bed",
+        "L04_4A_hall",
+        "L04_4A_live"
+      ]
+    },
+    {
+      "home": "4B",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L04_4B_bath",
+        "L04_4B_bed",
+        "L04_4B_hall",
+        "L04_4B_live"
+      ]
+    },
+    {
+      "home": "4C",
+      "editable_batched_meshes": 38,
+      "preserved_source_components": 312,
+      "rooms": [
+        "L04_4C_bath",
+        "L04_4C_bed1",
+        "L04_4C_bed2",
+        "L04_4C_hall",
+        "L04_4C_live",
+        "L04_4C_store"
+      ]
+    },
+    {
+      "home": "5A",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L05_5A_bath",
+        "L05_5A_bed",
+        "L05_5A_hall",
+        "L05_5A_live"
+      ]
+    },
+    {
+      "home": "5B",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L05_5B_bath",
+        "L05_5B_bed",
+        "L05_5B_hall",
+        "L05_5B_live"
+      ]
+    },
+    {
+      "home": "5C",
+      "editable_batched_meshes": 38,
+      "preserved_source_components": 312,
+      "rooms": [
+        "L05_5C_bath",
+        "L05_5C_bed1",
+        "L05_5C_bed2",
+        "L05_5C_hall",
+        "L05_5C_live",
+        "L05_5C_store"
+      ]
+    },
+    {
+      "home": "6A",
+      "editable_batched_meshes": 40,
+      "preserved_source_components": 330,
+      "rooms": [
+        "L06_6A_bath",
+        "L06_6A_bed1",
+        "L06_6A_bed2",
+        "L06_6A_hall",
+        "L06_6A_live",
+        "L06_6A_store"
+      ]
+    },
+    {
+      "home": "6B",
+      "editable_batched_meshes": 30,
+      "preserved_source_components": 274,
+      "rooms": [
+        "L06_6B_bath",
+        "L06_6B_bed",
+        "L06_6B_hall",
+        "L06_6B_live"
+      ]
+    }
+  ],
+  "required_L01_rooms": {
+    "CAFE": "cafe_seating",
+    "PREP": "kitchen",
+    "CAFE_PASS": "cafe_counter",
+    "LOBBY": "mail_parcel",
+    "VESTIBULE": "furnishing",
+    "BIKES": "bicycle",
+    "WASTE": "waste_bin",
+    "PLANT": "plant_equipment",
+    "PARCEL": "parcel_storage",
+    "WC": "accessible_public_toilet",
+    "CLEANER": "cleaning_equipment",
+    "NEIGHBOUR": "sofa"
+  },
+  "empty_required_rooms": [],
+  "two_routes_connections": [
+    {
+      "from": "L01",
+      "to": "L02",
+      "route": "A",
+      "actual_flight_top_m": 3.8399999141693115,
+      "next_finish_m": 3.84
+    },
+    {
+      "from": "L02",
+      "to": "L03",
+      "route": "A",
+      "actual_flight_top_m": 7.039999961853027,
+      "next_finish_m": 7.04
+    },
+    {
+      "from": "L03",
+      "to": "L04",
+      "route": "A",
+      "actual_flight_top_m": 10.239999771118164,
+      "next_finish_m": 10.239999999999998
+    },
+    {
+      "from": "L04",
+      "to": "L05",
+      "route": "A",
+      "actual_flight_top_m": 13.4399995803833,
+      "next_finish_m": 13.440000000000001
+    },
+    {
+      "from": "L05",
+      "to": "L06",
+      "route": "A",
+      "actual_flight_top_m": 16.639999389648438,
+      "next_finish_m": 16.64
+    },
+    {
+      "from": "L01",
+      "to": "L02",
+      "route": "B",
+      "actual_flight_top_m": 3.8399999141693115,
+      "next_finish_m": 3.84
+    },
+    {
+      "from": "L02",
+      "to": "L03",
+      "route": "B",
+      "actual_flight_top_m": 7.039999961853027,
+      "next_finish_m": 7.04
+    },
+    {
+      "from": "L03",
+      "to": "L04",
+      "route": "B",
+      "actual_flight_top_m": 10.239999771118164,
+      "next_finish_m": 10.239999999999998
+    },
+    {
+      "from": "L04",
+      "to": "L05",
+      "route": "B",
+      "actual_flight_top_m": 13.4399995803833,
+      "next_finish_m": 13.440000000000001
+    },
+    {
+      "from": "L05",
+      "to": "L06",
+      "route": "B",
+      "actual_flight_top_m": 16.639999389648438,
+      "next_finish_m": 16.64
+    }
+  ],
+  "actual_lift_geometry_checks": {
+    "scope": "actual geometric samples; not an engineering/code certificate",
+    "upper_shaft_samples": [
+      {
+        "level": "L02",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L03",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L04",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L05",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      },
+      {
+        "level": "L06",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "horizontal_floor_hits": []
+      }
+    ],
+    "shaft_ceiling_samples": [
+      {
+        "level": "L01",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      },
+      {
+        "level": "L02",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      },
+      {
+        "level": "L03",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      },
+      {
+        "level": "L04",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      },
+      {
+        "level": "L05",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      },
+      {
+        "level": "L06",
+        "shaft_sample_xy_m": [
+          13.0,
+          11.272725000000001
+        ],
+        "ceiling_hits": []
+      }
+    ],
+    "cab_floor_top_m": 0.039999961853027344,
+    "landing_top_m": 0.03999999538064003,
+    "ground_portal_samples": [
+      {
+        "x_m": 12.51,
+        "hits": []
+      },
+      {
+        "x_m": 12.76,
+        "hits": []
+      },
+      {
+        "x_m": 13,
+        "hits": []
+      },
+      {
+        "x_m": 13.24,
+        "hits": []
+      },
+      {
+        "x_m": 13.49,
+        "hits": []
+      }
+    ],
+    "errors": []
+  },
+  "reception_clearance": {
+    "scope": "nominal unobstructed bounding strips at west/north of reception furniture, not swept-path/code certification",
+    "west_strip_m": 1.1800003051757812,
+    "north_strip_m": 1.0835300445556637
+  },
+  "overall_height_m": 21.1200008392334,
+  "missing_external_files": [],
+  "errors": []
+}

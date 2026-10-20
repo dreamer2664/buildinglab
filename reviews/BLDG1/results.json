@@ -1,0 +1,49 @@
+{
+  "review_card": "t-20261016-64ce",
+  "target_card": "t-20261016-c577",
+  "reviewer": "vesta",
+  "reviewed_at_utc": "2026-10-16T17:45:26Z",
+  "result": "PASS_BLDG1_CHECKPOINT_ONLY",
+  "recommended_vote": "accept-inspected",
+  "not_final_building_acceptance": true,
+  "target": {
+    "repository": "dreamer2664/buildinglab",
+    "pr": 1,
+    "head": "8ca1ee431054907da2fd6a939d89ed64947d7d9b",
+    "branch": "agent/blender/t-20261016-c577"
+  },
+  "archive": {
+    "repository": "dreamer2664/storagecode",
+    "tag": "buildinglab/blender/blockout-20261016-f0a5ba82e97a",
+    "zip_bytes": 31707201,
+    "zip_sha256": "f0a5ba82e97ad8629a057db8d05d6f899c0415ef9059551df377d764ba66df00",
+    "manifest_members_verified": 48,
+    "manifest_members_total": 48,
+    "blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78"
+  },
+  "checks": [
+    {"command": "python3 tools/validate_design.py", "result": "PASS"},
+    {"command": "python3 tools/validate_design.py --geometry", "result": "PASS", "blender": "4.3.2", "source_blend_sha256": "96bd265d5347ca4e2473bb79d13673f2aeb7f39bab71a9fb2704db61c10edc78"},
+    {"command": "python3 design/test_design_validator.py", "result": "PASS", "passed": 7, "total": 7},
+    {"check": "Six plan PNGs opened individually", "result": "PASS", "dimensions": "1600x1240 each", "paths": ["design/plan-L01.png", "design/plan-L02.png", "design/plan-L03.png", "design/plan-L04.png", "design/plan-L05.png", "design/plan-L06.png"]},
+    {"check": "Seven Pass-B blockout views opened individually", "result": "PASS", "dimensions": "1600x1200 each", "paths": ["design/evidence/pass-B/L01.png", "design/evidence/pass-B/L02.png", "design/evidence/pass-B/L03.png", "design/evidence/pass-B/L04.png", "design/evidence/pass-B/L05.png", "design/evidence/pass-B/L06.png", "design/evidence/pass-B/FULL_STACK.png"]},
+    {"check": "Independent render from exact saved scene", "result": "PASS", "image": "evidence/independent-L01.png", "camera": "CAM_L01_AXON", "dimensions": "1600x1200", "sha256": "9b74e95827fac8f3a90303ea422c0472501fbb2c4a43a149c65cf8482dbcc85e"}
+  ],
+  "plans": [
+    {"level": "L01", "ffl_m": 0.0, "storey_m": 3.8, "homes": 0},
+    {"level": "L02", "ffl_m": 3.8, "storey_m": 3.2, "homes": 3},
+    {"level": "L03", "ffl_m": 7.0, "storey_m": 3.2, "homes": 3},
+    {"level": "L04", "ffl_m": 10.2, "storey_m": 3.2, "homes": 3},
+    {"level": "L05", "ffl_m": 13.4, "storey_m": 3.2, "homes": 3},
+    {"level": "L06", "ffl_m": 16.6, "storey_m": 3.2, "homes": 2}
+  ],
+  "nonblocking_open_findings": [
+    {"path": "design/evidence/pass-B/L01.png", "observation": "Dark strip at lower stair landing; producer recorded possible coplanar slab/landing shading; not independently resolved; carry into stair-detail work."},
+    {"path": "design/evidence/pass-B/L02.png through L06.png", "observation": "Isolated views omit the incoming flight from the previous floor; full-stack image shows stacked levels. Detailed landing and rail continuity remains schematic."},
+    {"path": "design/ASSET_LICENSES.md", "observation": "Built-in Bfont attribution remains to be cleared or replaced before final release."}
+  ],
+  "scope_limitations": [
+    "This ballot/review covers only the BLDG-1 plan/blockout checkpoint.",
+    "No furnished building, final shell/roof, GLB/export, final visual package, structural engineering or code compliance is accepted."
+  ]
+}

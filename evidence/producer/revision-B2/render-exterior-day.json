@@ -1,0 +1,27 @@
+{
+  "id": "exterior-day",
+  "camera": "CAM_EXTERIOR_DAY",
+  "mode": "intact",
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    44.0,
+    -46.0,
+    29.0
+  ],
+  "camera_lens_mm": 38.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "CASA DEI COLORI / DAY",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "a3221e7cd5c8a44d6505d1546d110aa993e70d8715387d43cb31e54e78540f17",
+  "raw_sha256": "8d8b9b3f987892d9e375bfd800b0d46f2091c78d0b08f4baafd04d5febf36491",
+  "render_completed_utc": "2026-10-16T12:01:14.515784+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

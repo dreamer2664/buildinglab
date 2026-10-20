@@ -1,0 +1,240 @@
+{
+  "native_sha256": "3b29abf5334e8db3e086106a93f2fc14ad7d357ff5a1e4fffe7c5584ee8abb85",
+  "wardrobe_door_face_checks": [
+    {
+      "room": "L02_2A_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L02_2B_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L03_3A_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L03_3B_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L04_4A_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L04_4B_bed",
+      "carcass_y_m": 16.041759490966797,
+      "panel_y_m": 16.333759307861328,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L05_5A_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L05_5B_bed",
+      "carcass_y_m": 16.30647087097168,
+      "panel_y_m": 16.59847068786621,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    },
+    {
+      "room": "L06_6B_bed",
+      "carcass_y_m": 16.200590133666992,
+      "panel_y_m": 16.492589950561523,
+      "inward_panel_offset_m": 0.29199981689453125,
+      "required_direction": "+Y into bedroom, away from south wall"
+    }
+  ],
+  "stage": "mechanical inventory/bounds/orientation checks, not visual acceptance",
+  "blender": "4.3.2",
+  "homes": [
+    {
+      "home": "2A",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L02_2A_bath",
+        "L02_2A_bed",
+        "L02_2A_hall",
+        "L02_2A_live"
+      ]
+    },
+    {
+      "home": "2B",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L02_2B_bath",
+        "L02_2B_bed",
+        "L02_2B_hall",
+        "L02_2B_live"
+      ]
+    },
+    {
+      "home": "2C",
+      "furnishing_mesh_components": 312,
+      "lights": 8,
+      "room_ids": [
+        "L02_2C_bath",
+        "L02_2C_bed1",
+        "L02_2C_bed2",
+        "L02_2C_hall",
+        "L02_2C_live",
+        "L02_2C_store"
+      ]
+    },
+    {
+      "home": "3A",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L03_3A_bath",
+        "L03_3A_bed",
+        "L03_3A_hall",
+        "L03_3A_live"
+      ]
+    },
+    {
+      "home": "3B",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L03_3B_bath",
+        "L03_3B_bed",
+        "L03_3B_hall",
+        "L03_3B_live"
+      ]
+    },
+    {
+      "home": "3C",
+      "furnishing_mesh_components": 312,
+      "lights": 8,
+      "room_ids": [
+        "L03_3C_bath",
+        "L03_3C_bed1",
+        "L03_3C_bed2",
+        "L03_3C_hall",
+        "L03_3C_live",
+        "L03_3C_store"
+      ]
+    },
+    {
+      "home": "4A",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L04_4A_bath",
+        "L04_4A_bed",
+        "L04_4A_hall",
+        "L04_4A_live"
+      ]
+    },
+    {
+      "home": "4B",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L04_4B_bath",
+        "L04_4B_bed",
+        "L04_4B_hall",
+        "L04_4B_live"
+      ]
+    },
+    {
+      "home": "4C",
+      "furnishing_mesh_components": 312,
+      "lights": 8,
+      "room_ids": [
+        "L04_4C_bath",
+        "L04_4C_bed1",
+        "L04_4C_bed2",
+        "L04_4C_hall",
+        "L04_4C_live",
+        "L04_4C_store"
+      ]
+    },
+    {
+      "home": "5A",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L05_5A_bath",
+        "L05_5A_bed",
+        "L05_5A_hall",
+        "L05_5A_live"
+      ]
+    },
+    {
+      "home": "5B",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L05_5B_bath",
+        "L05_5B_bed",
+        "L05_5B_hall",
+        "L05_5B_live"
+      ]
+    },
+    {
+      "home": "5C",
+      "furnishing_mesh_components": 312,
+      "lights": 8,
+      "room_ids": [
+        "L05_5C_bath",
+        "L05_5C_bed1",
+        "L05_5C_bed2",
+        "L05_5C_hall",
+        "L05_5C_live",
+        "L05_5C_store"
+      ]
+    },
+    {
+      "home": "6A",
+      "furnishing_mesh_components": 330,
+      "lights": 8,
+      "room_ids": [
+        "L06_6A_bath",
+        "L06_6A_bed1",
+        "L06_6A_bed2",
+        "L06_6A_hall",
+        "L06_6A_live",
+        "L06_6A_store"
+      ]
+    },
+    {
+      "home": "6B",
+      "furnishing_mesh_components": 274,
+      "lights": 6,
+      "room_ids": [
+        "L06_6B_bath",
+        "L06_6B_bed",
+        "L06_6B_hall",
+        "L06_6B_live"
+      ]
+    }
+  ],
+  "camera_obstructions": [],
+  "out_of_room_components": [],
+  "missing_external": [],
+  "errors": []
+}

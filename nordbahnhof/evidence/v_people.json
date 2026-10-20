@@ -1,0 +1,10 @@
+{
+  "validator": "v_people",
+  "status": "PASS",
+  "total_people": 400,
+  "passengers": 240,
+  "staff": 160,
+  "identities": 60,
+  "heroes": 20,
+  "errors": []
+}

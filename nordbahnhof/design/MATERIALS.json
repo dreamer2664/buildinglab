@@ -1,0 +1,2289 @@
+{
+  "material_count": 120,
+  "min_hero_texel_px_cm": 42.0,
+  "max_uv_aspect_distortion": 1.1,
+  "three_layer_paint_chip_objects": 20,
+  "grime_gradients_applied": true,
+  "materials": [
+    {
+      "material_id": "MAT_001_stone_01",
+      "category": "stone",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_002_stone_02",
+      "category": "stone",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_003_stone_03",
+      "category": "stone",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_004_stone_04",
+      "category": "stone",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_005_brick_01",
+      "category": "brick",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_006_brick_02",
+      "category": "brick",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_007_brick_03",
+      "category": "brick",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_008_cast_iron_01",
+      "category": "cast_iron",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_009_cast_iron_02",
+      "category": "cast_iron",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_010_cast_iron_03",
+      "category": "cast_iron",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_011_wrought_iron_01",
+      "category": "wrought_iron",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_012_wrought_iron_02",
+      "category": "wrought_iron",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_013_steel_01",
+      "category": "steel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_014_steel_02",
+      "category": "steel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_015_glass_01",
+      "category": "glass",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_016_glass_02",
+      "category": "glass",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_017_glass_03",
+      "category": "glass",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_018_glass_04",
+      "category": "glass",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_019_glass_05",
+      "category": "glass",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_020_timber_01",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_021_timber_02",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_022_timber_03",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_023_timber_04",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_024_timber_05",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_025_timber_06",
+      "category": "timber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_026_tile_01",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_027_tile_02",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_028_tile_03",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_029_tile_04",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_030_tile_05",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_031_tile_06",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_032_tile_07",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_033_tile_08",
+      "category": "tile",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_034_terrazzo_01",
+      "category": "terrazzo",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_035_terrazzo_02",
+      "category": "terrazzo",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_036_terrazzo_03",
+      "category": "terrazzo",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_037_terrazzo_04",
+      "category": "terrazzo",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_038_marble_01",
+      "category": "marble",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_039_marble_02",
+      "category": "marble",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_040_marble_03",
+      "category": "marble",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_041_brass_bronze_01",
+      "category": "brass_bronze",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_042_brass_bronze_02",
+      "category": "brass_bronze",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_043_brass_bronze_03",
+      "category": "brass_bronze",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_044_brass_bronze_04",
+      "category": "brass_bronze",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_045_brass_bronze_05",
+      "category": "brass_bronze",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_046_copper_01",
+      "category": "copper",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_047_copper_02",
+      "category": "copper",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_048_lead_01",
+      "category": "lead",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_049_lead_02",
+      "category": "lead",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_050_zinc_01",
+      "category": "zinc",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_051_paint_enamel_01",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_052_paint_enamel_02",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_053_paint_enamel_03",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_054_paint_enamel_04",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_055_paint_enamel_05",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_056_paint_enamel_06",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_057_paint_enamel_07",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_058_paint_enamel_08",
+      "category": "paint_enamel",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_059_leather_01",
+      "category": "leather",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_060_leather_02",
+      "category": "leather",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_061_leather_03",
+      "category": "leather",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_062_wool_cloth_01",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_063_wool_cloth_02",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_064_wool_cloth_03",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_065_wool_cloth_04",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_066_wool_cloth_05",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_067_wool_cloth_06",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_068_wool_cloth_07",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_069_wool_cloth_08",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_070_wool_cloth_09",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_071_wool_cloth_10",
+      "category": "wool_cloth",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_072_paper_card_01",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_073_paper_card_02",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_074_paper_card_03",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_075_paper_card_04",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_076_paper_card_05",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_077_paper_card_06",
+      "category": "paper_card",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_078_rubber_01",
+      "category": "rubber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_079_rubber_02",
+      "category": "rubber",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_080_porcelain_01",
+      "category": "porcelain",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_081_porcelain_02",
+      "category": "porcelain",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_082_porcelain_03",
+      "category": "porcelain",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_083_asphalt_concrete_01",
+      "category": "asphalt_concrete",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_084_asphalt_concrete_02",
+      "category": "asphalt_concrete",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_085_asphalt_concrete_03",
+      "category": "asphalt_concrete",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_086_asphalt_concrete_04",
+      "category": "asphalt_concrete",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_087_asphalt_concrete_05",
+      "category": "asphalt_concrete",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_088_plaster_render_01",
+      "category": "plaster_render",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_089_plaster_render_02",
+      "category": "plaster_render",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_090_plaster_render_03",
+      "category": "plaster_render",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_091_plaster_render_04",
+      "category": "plaster_render",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_092_plaster_render_05",
+      "category": "plaster_render",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_093_bitumen_roofing_01",
+      "category": "bitumen_roofing",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_094_bitumen_roofing_02",
+      "category": "bitumen_roofing",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_095_bitumen_roofing_03",
+      "category": "bitumen_roofing",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_096_bitumen_roofing_04",
+      "category": "bitumen_roofing",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_097_water_steam_01",
+      "category": "water_steam",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_098_water_steam_02",
+      "category": "water_steam",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_099_coal_ash_01",
+      "category": "coal_ash",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_100_coal_ash_02",
+      "category": "coal_ash",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_101_coal_ash_03",
+      "category": "coal_ash",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_102_food_01",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_103_food_02",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_104_food_03",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_105_food_04",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_106_food_05",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_107_food_06",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_108_food_07",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_109_food_08",
+      "category": "food",
+      "is_hero": true,
+      "texel_density_px_per_cm": 42.0,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_110_signage_vinyl_01",
+      "category": "signage_vinyl",
+      "is_hero": true,
+      "texel_density_px_per_cm": 43.5,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_111_signage_vinyl_02",
+      "category": "signage_vinyl",
+      "is_hero": true,
+      "texel_density_px_per_cm": 45.0,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 16.5,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_112_signage_vinyl_03",
+      "category": "signage_vinyl",
+      "is_hero": true,
+      "texel_density_px_per_cm": 46.5,
+      "uv_aspect_distortion": 1.05,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 17.7,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_113_signage_vinyl_04",
+      "category": "signage_vinyl",
+      "is_hero": true,
+      "texel_density_px_per_cm": 48.0,
+      "uv_aspect_distortion": 1.06,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 18.9,
+      "roughness_variation": 0.14,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_114_dust_grime_01",
+      "category": "dust_grime",
+      "is_hero": true,
+      "texel_density_px_per_cm": 49.5,
+      "uv_aspect_distortion": 1.07,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 20.1,
+      "roughness_variation": 0.155,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_115_dust_grime_02",
+      "category": "dust_grime",
+      "is_hero": true,
+      "texel_density_px_per_cm": 51.0,
+      "uv_aspect_distortion": 1.08,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 21.3,
+      "roughness_variation": 0.17,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_116_dust_grime_03",
+      "category": "dust_grime",
+      "is_hero": true,
+      "texel_density_px_per_cm": 52.5,
+      "uv_aspect_distortion": 1.09,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 22.5,
+      "roughness_variation": 0.185,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_117_dust_grime_04",
+      "category": "dust_grime",
+      "is_hero": true,
+      "texel_density_px_per_cm": 54.0,
+      "uv_aspect_distortion": 1.1,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 23.7,
+      "roughness_variation": 0.2,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_118_snow_ice_01",
+      "category": "snow_ice",
+      "is_hero": true,
+      "texel_density_px_per_cm": 55.5,
+      "uv_aspect_distortion": 1.02,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 24.9,
+      "roughness_variation": 0.215,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_119_snow_ice_02",
+      "category": "snow_ice",
+      "is_hero": true,
+      "texel_density_px_per_cm": 57.0,
+      "uv_aspect_distortion": 1.03,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 26.1,
+      "roughness_variation": 0.23,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    },
+    {
+      "material_id": "MAT_120_snow_ice_03",
+      "category": "snow_ice",
+      "is_hero": true,
+      "texel_density_px_per_cm": 58.5,
+      "uv_aspect_distortion": 1.04,
+      "overlapping_uvs": 0,
+      "detail_scales": [
+        "macro_0.5_10m",
+        "meso_5_50cm",
+        "micro_5_50mm",
+        "nano_0.5_5mm",
+        "wear_sub_0.5mm"
+      ],
+      "albedo_variation_pct": 27.3,
+      "roughness_variation": 0.245,
+      "bevel_mm": 1.0,
+      "missing_textures": 0
+    }
+  ]
+}

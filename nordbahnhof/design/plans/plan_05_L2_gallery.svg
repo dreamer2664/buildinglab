@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="3840" height="2160">
+  <rect width="1920" height="1080" fill="#0B1320"/>
+  <rect x="40" y="30" width="1840" height="1020" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="70" y="62" font-family="monospace" font-size="20" font-weight="bold" fill="#D4AF37">NORDBAHNHOF — LEVEL L2 — UPPER GALLERY & SHED MAINTENANCE WALKWAY (FFL +11.00 m / +14.00 m)</text>
+  <text x="70" y="84" font-family="monospace" font-size="13" fill="#A9CCE3">FOOTPRINT 240.00 m x 120.00 m (28,800 m2) · ORIGIN (0,0,0) AT SOUTH PORTICO CENTRELINE · +Y NORTH · ROOMS ON LEVEL: 10</text>
+  <rect x="120" y="80" width="1680" height="840" fill="#0F1B2D" stroke="#F4D03F" stroke-width="2"/>
+  <rect x="330" y="80" width="1260" height="588" fill="none" stroke="#5DADE2" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <rect x="1212.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1215.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_17 (48m2)</text>
+  <rect x="1478.0" y="234.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1481.0" y="245.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_18 (48m2)</text>
+  <rect x="148.0" y="178.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="151.0" y="189.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_19 (48m2)</text>
+  <rect x="414.0" y="178.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="417.0" y="189.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STF_20 (48m2)</text>
+  <rect x="841.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="844.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_05 (48m2)</text>
+  <rect x="1611.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1614.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_10 (48m2)</text>
+  <rect x="841.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="844.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_15 (48m2)</text>
+  <rect x="1611.0" y="654.0" width="56.0" height="42.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="1614.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">SLH_20 (48m2)</text>
+  <rect x="911.0" y="654.0" width="28.0" height="21.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="914.0" y="665.0" font-family="monospace" font-size="8.5" fill="#EAECEE">STC_05 (12m2)</text>
+  <rect x="330.0" y="80.0" width="1260.0" height="588.0" fill="#162238" fill-opacity="0.72" stroke="#7FB3D5" stroke-width="1.2"/>
+  <text x="333.0" y="91.0" font-family="monospace" font-size="8.5" fill="#EAECEE">ROOF_01 (15120m2)</text>
+  <g transform="translate(120, 965)">
+    <line x1="0" y1="0" x2="350" y2="0" stroke="#F4D03F" stroke-width="3"/>
+    <text x="0" y="20" font-family="monospace" font-size="12" fill="#F4D03F">0 m ———— 10 m ———— 25 m ———— 50 m (SCALE 1:200)</text>
+  </g>
+  <g transform="translate(1810, 960)">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <polygon points="0,-24 -8,10 0,3 8,10" fill="#D4AF37"/>
+    <text x="-18" y="44" font-family="monospace" font-size="13" font-weight="bold" fill="#D4AF37">N (+Y)</text>
+  </g>
+</svg>

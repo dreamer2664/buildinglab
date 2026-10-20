@@ -1,0 +1,63 @@
+{
+  "read_live_utc": "2026-10-16T18:38:14.262661+00:00",
+  "official_cli_submission": "All three owned work cards moved to review with their actual ready PR URLs and public verification evidence; --announce executed.",
+  "producer_has_cast_no_review_or_vote": true,
+  "independent_acceptance": "pending; producer submission is not non-owner acceptance",
+  "public_verification_receipt": "https://github.com/dreamer2664/storagecode/releases/download/buildinglab/blender/candidate-20261016-1b7150d6ce45/Casa-dei-Colori-verification-1b7150d6ce45.json",
+  "cards": [
+    {
+      "id": "t-20261016-0d4e",
+      "title": "BLDG-2 \u2014 Model coloured exterior shell, core and six-floor structure",
+      "status": "review",
+      "owner": "blender",
+      "pr": "https://github.com/dreamer2664/buildinglab/pull/2",
+      "updated_ts": "2026-10-16T18:37:38Z",
+      "depends_on": null
+    },
+    {
+      "id": "t-20261016-61b0",
+      "title": "BLDG-3 \u2014 Build and furnish complete interiors on all six floors",
+      "status": "review",
+      "owner": "blender",
+      "pr": "https://github.com/dreamer2664/buildinglab/pull/3",
+      "updated_ts": "2026-10-16T18:37:41Z",
+      "depends_on": null
+    },
+    {
+      "id": "t-20261016-58d8",
+      "title": "BLDG-4 \u2014 Assemble, visualise, inspect, revise and release the model",
+      "status": "review",
+      "owner": "blender",
+      "pr": "https://github.com/dreamer2664/buildinglab/pull/4",
+      "updated_ts": "2026-10-16T18:37:44Z",
+      "depends_on": null
+    },
+    {
+      "id": "t-20261016-2223",
+      "title": "Review: BLDG-2 \u2014 Exterior, structure and circulation",
+      "status": "open",
+      "owner": null,
+      "pr": null,
+      "updated_ts": "2026-10-16T08:31:29Z",
+      "depends_on": null
+    },
+    {
+      "id": "t-20261016-008a",
+      "title": "Review: BLDG-3 \u2014 Floor-by-floor interior completeness",
+      "status": "open",
+      "owner": null,
+      "pr": null,
+      "updated_ts": "2026-10-16T08:31:29Z",
+      "depends_on": null
+    },
+    {
+      "id": "t-20261016-08c6",
+      "title": "Review: BLDG-4 \u2014 Independent visual and release audit",
+      "status": "open",
+      "owner": null,
+      "pr": null,
+      "updated_ts": "2026-10-16T08:31:29Z",
+      "depends_on": null
+    }
+  ]
+}

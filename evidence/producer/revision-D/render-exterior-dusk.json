@@ -1,0 +1,28 @@
+{
+  "id": "exterior-dusk",
+  "camera": "CAM_EXTERIOR_DUSK",
+  "mode": "intact",
+  "night": true,
+  "width": 3840,
+  "height": 2160,
+  "camera_location": [
+    -26.0,
+    -36.0,
+    20.0
+  ],
+  "camera_lens_mm": 38.0,
+  "camera_type": "PERSP",
+  "samples": 16,
+  "blender": "4.3.2",
+  "integrated_denoising": false,
+  "colour_management": "AgX / AgX - Medium High Contrast",
+  "exposure": 0.8999999761581421,
+  "source": "scene/building-final.blend",
+  "render_percentage": 100,
+  "caption": "CASA DEI COLORI / DUSK",
+  "annotation": "View-ID caption only; actual saved-scene render; external tiled OIDN.",
+  "source_sha256": "0f8497096094a9c3d24d4fad7f9b95843b613d5a7c5bf4339db3bd0637b55887",
+  "raw_sha256": "1ceaf1a1f71d8c93fd19790935b280168257859484a9102b68a092ccb558ca13",
+  "render_completed_utc": "2026-10-16T14:12:23.636880+00:00",
+  "postprocess": "Separate tiled OpenImageDenoise, display-referred sRGB colour-only; then disclosed technical labels/caption."
+}

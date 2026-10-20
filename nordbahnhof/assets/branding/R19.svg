@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <rect x="4" y="4" width="632" height="192" rx="10" fill="#4A1C1C" stroke="#D9B382" stroke-width="4"/>
+  <rect x="14" y="14" width="612" height="172" rx="6" fill="none" stroke="#F7F3EB" stroke-width="1.5" stroke-dasharray="8 3"/>
+  <circle cx="96" cy="100" r="51" fill="none" stroke="#D9B382" stroke-width="3"/>
+  <polygon points="96,57 137,100 96,143 55,100" fill="#F7F3EB" fill-opacity="0.25" stroke="#D9B382" stroke-width="2"/>
+  <text x="96" y="107" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#D9B382">R19</text>
+  <text x="180" y="88" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#D9B382">Kompass Schokoladen</text>
+  <text x="180" y="126" font-family="monospace" font-size="15" fill="#F7F3EB">NORDBAHNHOF · CHOCOLATIER · EST. 1902</text>
+  <line x1="180" y1="142" x2="590" y2="142" stroke="#D9B382" stroke-width="2"/>
+</svg>
