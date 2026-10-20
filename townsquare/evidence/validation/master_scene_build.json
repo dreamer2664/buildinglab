@@ -1,13 +1,13 @@
 {
   "stage": "Stages C+D+E Master Assembly",
   "blend_path": "townsquare/scene/master.blend",
-  "blend_bytes": 37249010,
-  "blend_sha256": "79955d1f385cba5f2ba813299132b0d96a220f914f1a66d50aa8b6dae87cc0ca",
+  "blend_bytes": 29705668,
+  "blend_sha256": "719645dbf8687a42be4bc39a8cded5da87834fc8649ddb66300a1f8b4a57a8cc",
   "glb_path": "townsquare/scene/master.glb",
-  "glb_bytes": 84360448,
-  "glb_sha256": "74c421a791d04f8fd75910180fbc4a84bb55aaee3286d849dd41a4f5a8db793f",
+  "glb_bytes": 81237160,
+  "glb_sha256": "92dc9fa3a7e71d64455745a3f140f942251bd3d0bde8cb3f148f312d0871f463",
   "mesh_objects": 1132,
-  "total_triangles": 4536054,
+  "total_triangles": 4610766,
   "materials": 88,
   "textures_packed": 17,
   "cameras": 271,
@@ -897,7 +897,7 @@
     "lamps_built": 24,
     "trees_built": 12,
     "christmas_tree_height_m": 11.0,
-    "public_realm_props": 789
+    "public_realm_props": 2017
   },
   "people": {
     "total_people": 220,
@@ -906,5 +906,5 @@
     "hero_scans": 12,
     "distinct_identities": 40
   },
-  "elapsed_sec": 69.32
+  "elapsed_sec": 100.52
 }

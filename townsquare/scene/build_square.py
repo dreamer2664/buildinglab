@@ -319,40 +319,40 @@ def build_public_square(
         mats["Cobble_Granite_Grey"],
         mats["Cobble_Porphyry_Red"],
     ]
-    for ix in range(-22, 23, 2):
-        for iy in range(-18, 19, 2):
+    for ix in range(-22, 23):
+        for iy in range(-18, 19):
             cmat = cobble_mats[(ix * 3 + iy * 5) % len(cobble_mats)]
-            z_off = 0.008 + ((ix * 7 + iy * 13) % 4) * 0.0015
+            z_off = 0.010 + ((ix * 7 + iy * 13) % 4) * 0.0012
             terrain_objs.append(
                 spawn_bevel_box(
                     f"Sq_PaverCourse_{ix:+03d}_{iy:+03d}",
-                    (1.96, 1.96, 0.028),
+                    (1.438, 1.438, 0.028),
                     (ix * 1.45, iy * 1.45, z_off),
                     cmat,
                     col_sq,
-                    bevel=0.004,
+                    bevel=0.003,
                     role="cobblestone",
                 )
             )
-            if (ix + iy) % 3 == 0:
+            if (ix + iy) % 7 == 0:
                 terrain_objs.append(
                     spawn_bevel_box(
                         f"Sq_SnowPatch_{ix:+03d}_{iy:+03d}",
-                        (1.15, 0.85, 0.036),
-                        (ix * 1.45 + 0.25, iy * 1.45 - 0.20, 0.026),
+                        (1.10, 0.80, 0.028),
+                        (ix * 1.45 + 0.18, iy * 1.45 - 0.15, 0.024),
                         mats["Snow_Slush_Trampled" if (ix % 2 == 0) else "Snow_Fresh_Perch"],
                         col_sq,
                         rot_z=(ix * 0.3),
-                        bevel=0.005,
+                        bevel=0.004,
                         role="snow_bank",
                     )
                 )
-            if (ix * iy) % 5 == 0:
+            if (ix * 3 + iy * 5) % 11 == 0:
                 terrain_objs.append(
                     spawn_bevel_box(
                         f"Sq_WetPuddle_{ix:+03d}_{iy:+03d}",
-                        (1.25, 0.92, 0.012),
-                        (ix * 1.45 - 0.18, iy * 1.45 + 0.15, 0.020),
+                        (1.18, 0.88, 0.010),
+                        (ix * 1.45 - 0.12, iy * 1.45 + 0.12, 0.021),
                         mats["Puddle_Water_Film"],
                         col_sq,
                         rot_z=(iy * 0.2),
@@ -541,25 +541,25 @@ def build_public_square(
                 terrain_objs.append(lp)
         public_props += 6
 
-    # 5. 12 Deciduous Winter Trees (`DECIDUOUS_TREE_01..12`)
+    # 5. 12 Deciduous Winter Trees (`DECIDUOUS_TREE_01..12`) along outer sidewalk perimeter
     for t_idx in range(12):
-        ang = 2.0 * math.pi * t_idx / 12.0 + 0.26
-        tx = 25.0 * math.cos(ang)
-        ty = 20.0 * math.sin(ang)
+        ang = 2.0 * math.pi * t_idx / 12.0 + 0.14
+        tx = 28.5 * math.cos(ang)
+        ty = 22.8 * math.sin(ang)
         t_parts: list[bpy.types.Object] = [
             spawn_lathe(
                 f"Tree_{t_idx+1:02d}_Trunk",
-                [(0.26, 0.0), (0.21, 1.8), (0.16, 3.8), (0.06, 6.8)],
+                [(0.24, 0.0), (0.19, 1.8), (0.15, 3.6), (0.05, 6.6)],
                 (tx, ty, 0.0),
-                mats["Walnut_Dark_Joinery"],
+                mats["Bark_Deciduous_Winter"],
                 col_sq,
                 segments=16,
                 role="deciduous_tree",
             ),
             spawn_bevel_box(
                 f"Tree_{t_idx+1:02d}_PitGrate",
-                (1.40, 1.40, 0.03),
-                (tx, ty, 0.015),
+                (1.30, 1.30, 0.028),
+                (tx, ty, 0.014),
                 mats["Cast_Iron_Black"],
                 col_sq,
                 bevel=0.002,
@@ -567,30 +567,17 @@ def build_public_square(
             ),
         ]
         for b_i in range(6):
-            bang = b_i * (math.pi / 3.0)
-            bx = tx + 0.85 * math.cos(bang)
-            by = ty + 0.85 * math.sin(bang)
+            bang = b_i * (math.pi / 3.0) + 0.2
+            bx = tx + 0.55 * math.cos(bang)
+            by = ty + 0.55 * math.sin(bang)
             t_parts.append(
-                spawn_bevel_box(
+                spawn_lathe(
                     f"Tree_{t_idx+1:02d}_Bough_{b_i}",
-                    (0.14, 1.85, 0.14),
-                    (bx, by, 4.4 + (b_i % 3) * 0.55),
-                    mats["Walnut_Dark_Joinery"],
+                    [(0.07, 0.0), (0.05, 1.1), (0.02, 2.2)],
+                    (bx, by, 3.6 + (b_i % 3) * 0.45),
+                    mats["Bark_Deciduous_Winter"],
                     col_sq,
-                    rot_z=bang,
-                    bevel=0.003,
-                    role="deciduous_tree",
-                )
-            )
-            t_parts.append(
-                spawn_bevel_box(
-                    f"Tree_{t_idx+1:02d}_BoughSnow_{b_i}",
-                    (0.12, 1.75, 0.04),
-                    (bx, by, 4.49 + (b_i % 3) * 0.55),
-                    mats["Snow_Fresh_Perch"],
-                    col_sq,
-                    rot_z=bang,
-                    bevel=0.003,
+                    segments=10,
                     role="deciduous_tree",
                 )
             )

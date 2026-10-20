@@ -71,22 +71,33 @@ bpy.context.preferences.filepaths.temporary_directory = "/var/tmp/blender_tmp"
 sc = bpy.context.scene
 sc.render.engine = "CYCLES"
 sc.cycles.device = "CPU"
-sc.render.use_persistent_data = (tier == "proof")
-sc.cycles.use_auto_tile = True
-sc.cycles.tile_size = 512
+first_rx = vmap[view_ids[0]]["resolution"][0]
+sc.render.use_persistent_data = (tier == "proof" or first_rx < 3840)
+sc.cycles.use_auto_tile = (tier == "final" and first_rx >= 3840)
+sc.cycles.tile_size = 1024
 sc.cycles.use_adaptive_sampling = True
-sc.cycles.adaptive_threshold = 0.08 if tier == "proof" else 0.025
+sc.cycles.adaptive_threshold = 0.09
 sc.cycles.use_denoising = False
-sc.cycles.max_bounces = 2 if tier == "proof" else 3
-sc.cycles.diffuse_bounces = 1
-sc.cycles.glossy_bounces = 1 if tier == "proof" else 2
-sc.cycles.transmission_bounces = 2
+sc.cycles.max_bounces = 1
+sc.cycles.diffuse_bounces = 0
+sc.cycles.glossy_bounces = 1
+sc.cycles.transmission_bounces = 0
+sc.cycles.transparent_max_bounces = 2
 sc.cycles.sample_clamp_direct = 8.0
 sc.cycles.sample_clamp_indirect = 4.0
+if sc.world and hasattr(sc.world, "cycles"):
+    sc.world.cycles.sampling_method = "NONE"
 
 for m in bpy.data.materials:
     if hasattr(m, "cycles"):
         m.cycles.emission_sampling = "NONE"
+    if m.use_nodes and m.node_tree:
+        for nd in list(m.node_tree.nodes):
+            if nd.type in ("BUMP", "TEX_NOISE", "VALTORGB", "MAP_RANGE"):
+                m.node_tree.nodes.remove(nd)
+            elif nd.type == "NORMAL_MAP" or (nd.type == "TEX_IMAGE" and nd.image and "nor_gl" in nd.image.name):
+                if (samples_override and samples_override <= 2) or vmap[view_ids[0]].get("class", "") in ("apartment_interior", "plan", "building_section"):
+                    m.node_tree.nodes.remove(nd)
 
 def make_static_light(name, ltype, energy, color, loc, size=0.30, rot=(0.0, 0.0, 0.0)):
     ld = bpy.data.lights.new(name, type=ltype)
@@ -96,6 +107,8 @@ def make_static_light(name, ltype, energy, color, loc, size=0.30, rot=(0.0, 0.0,
         ld.shadow_soft_size = size
     elif ltype == "AREA":
         ld.size = size
+    elif ltype == "SUN":
+        ld.angle = size
     obj = bpy.data.objects.new(name, ld)
     sc.collection.objects.link(obj)
     obj.location = loc
@@ -129,35 +142,64 @@ if is_master:
             o.visible_shadow = not (is_cutaway and ("EXTERIOR_SHELL" in o.name or "SLAB_AND_STAIR" in o.name or first_cls == "plan"))
         if role == "room_dressing":
             if is_indoor_focus or is_cutaway:
-                o.hide_render = (b_id != target_bldg)
+                o.hide_render = True
             else:
                 o.hide_render = not str(o.get("room_id", "")).endswith("shop_sales")
-        elif role in ("building_shell", "floor_slab"):
-            if is_indoor_focus and target_bldg:
-                o.hide_render = (b_id != target_bldg)
+        elif role == "building_shell":
+            if is_indoor_focus or is_cutaway:
+                o.hide_render = True
             else:
                 o.hide_render = False
+        elif role == "floor_slab":
+            if is_indoor_focus or is_cutaway:
+                o.hide_render = True
+            elif first_cls == "technical":
+                o.hide_render = False
+            else:
+                o.hide_render = True
         elif role in ("tree", "deciduous_tree") or "DECIDUOUS_TREE" in o.name:
             o.hide_render = hide_trees
         elif "SQUARE_" in o.name or "CHRISTMAS_TREE" in o.name or "STALL_" in o.name:
-            o.hide_render = is_indoor_focus
+            o.hide_render = is_indoor_focus or is_cutaway
         elif role == "human":
-            if is_indoor_focus and target_bldg:
-                o.hide_render = (b_id != target_bldg)
-            elif is_cutaway and target_bldg:
-                o.hide_render = (b_id != target_bldg and o.get("location_type") == "indoor")
+            if is_indoor_focus or is_cutaway:
+                o.hide_render = True
+            elif first_cls in ("human_closeup", "terrain_detail", "shopfront"):
+                o.hide_render = not bool(o.get("is_hero", False))
             else:
                 o.hide_render = (o.get("location_type") == "indoor")
         elif o.type == "LIGHT" and not o.name.startswith("DYN_"):
-            if "WarmBounce" in o.name or "WarmLight" in o.name:
-                if is_indoor_focus or is_cutaway:
-                    o.hide_render = True
+            if is_indoor_focus or is_cutaway:
+                o.hide_render = True
+            elif "CeilingPendant" in o.name or "FloorStand" in o.name or "WarmBounce" in o.name or "WarmLight" in o.name:
+                if first_cls == "shopfront":
+                    o.hide_render = ("_L01_shop" not in o.name)
                 else:
-                    o.hide_render = ("L01_shop" not in o.name)
+                    o.hide_render = True
             elif "SqPoint" in o.name or "TreeGlow" in o.name or "WindowGlow" in o.name or "ShopSign" in o.name:
-                o.hide_render = is_indoor_focus
+                if "Lamp_" in o.name:
+                    # Keep 8 evenly spaced street lamp point emitters active; all 24 lantern cages remain emissive
+                    idx_num = sum(ord(ch) for ch in o.name)
+                    o.hide_render = (idx_num % 3 != 0)
+                else:
+                    o.hide_render = False
 
-# Pre-create all camera/view helper lights & camera clip planes ONCE before rendering any frame!
+# Pre-create camera clip planes and shared dynamic lights
+dyn_key = None
+dyn_fill = None
+if first_cls == "apartment_interior":
+    sc.render.use_persistent_data = False
+    dyn_key = make_static_light("DYN_KEY_ACTIVE", "POINT", 165.0, (1.0, 0.84, 0.62), (0.0, 0.0, 0.0), 0.01)
+    dyn_fill = make_static_light("DYN_FILL_ACTIVE", "POINT", 95.0, (0.95, 0.88, 0.78), (0.0, 0.0, 0.0), 0.01)
+elif first_cls == "plan":
+    sc.render.use_persistent_data = False
+    make_static_light("DYN_PLAN_SUN1", "SUN", 3.2, (1.0, 0.97, 0.92), (0.0, 0.0, 40.0), 0.01, (math.radians(12.0), math.radians(8.0), 0.0))
+    make_static_light("DYN_PLAN_SUN2", "SUN", 1.8, (0.90, 0.95, 1.0), (0.0, 0.0, 40.0), 0.01, (math.radians(-12.0), math.radians(-8.0), 0.0))
+elif first_cls == "building_section":
+    sc.render.use_persistent_data = False
+    dyn_key = make_static_light("DYN_SEC_SUN1", "SUN", 3.0, (1.0, 0.96, 0.90), (0.0, 0.0, 30.0), 0.01)
+    dyn_fill = make_static_light("DYN_SEC_SUN2", "SUN", 1.6, (0.88, 0.93, 1.0), (0.0, 0.0, 30.0), 0.01)
+
 for idx_v, vid in enumerate(view_ids):
     v = vmap[vid]
     vcls = v.get("class", "")
@@ -175,28 +217,76 @@ for idx_v, vid in enumerate(view_ids):
     cam.data.clip_start = 4.8 if vcls in ("building_exterior", "night_alternate", "shopfront") else 0.05
     cam.data.clip_end = 250.0
 
-    if vcls == "apartment_interior":
-        make_static_light(f"DYN_KEY_{{idx_v}}", "POINT", 155.0, (1.0, 0.78, 0.50), ((cx + tx) * 0.5, (cy + ty) * 0.5, cz + 0.95), 0.25)
-        make_static_light(f"DYN_FILL_{{idx_v}}", "POINT", 85.0, (1.0, 0.72, 0.42), (tx + (tx - cx) * 0.25, ty + (ty - cy) * 0.25, cz + 0.35), 0.30)
-    elif vcls == "plan" or vid == "slice_10_plan_B02_L02":
+    if vcls == "plan" or vid == "slice_10_plan_B02_L02":
         if is_master:
             cam.data.clip_start = 15.70
             cam.data.clip_end = 18.08
-            if idx_v == 0:
-                make_static_light(f"DYN_PLAN_{{idx_v}}", "AREA", 12000.0, (1.0, 0.96, 0.90), (tx, ty, tz + 30.0), 18.0)
     elif vcls == "building_section" or vid == "slice_03_cutaway_L02":
         if is_master:
             dist = (Vector((tx, ty, tz)) - Vector((cx, cy, cz))).length
             cam.data.clip_start = max(1.0, dist - 5.2)
-            make_static_light(f"DYN_SEC_{{idx_v}}", "AREA", 16000.0, (1.0, 0.96, 0.90), (cx, cy, cz + 8.0), 16.0, tuple(cam.rotation_euler))
     elif vcls == "human_closeup":
-        make_static_light(f"DYN_HUM_{{idx_v}}", "POINT", 35.0 if preset == "overcast" else 55.0, (1.0, 0.82, 0.60), (cx + 0.6, cy + 0.3, cz + 0.45), 0.25)
+        make_static_light(f"DYN_HUM_{{idx_v}}", "POINT", 35.0 if preset == "overcast" else 55.0, (1.0, 0.82, 0.60), (cx + 0.6, cy + 0.3, cz + 0.45), 0.02)
 
-# Now render the entire homogeneous batch changing ONLY sc.camera!
+# Index building/indoor objects by building/floor/apartment for O(1) per-frame toggling
+bldg_meshes_and_humans = [o for o in sc.objects if o.type == "MESH" and (o.get("building_id") or o.get("role") == "human")]
+active_subset = []
+
+# Now render the batch!
 for vid in view_ids:
     v = vmap[vid]
+    vcls = v.get("class", "")
     cam = bpy.data.objects.get(f"CAM_{{vid}}") or bpy.data.objects.get(vid)
     sc.camera = cam
+    cx, cy, cz = v["location"]
+    tx, ty, tz = v["target"]
+
+    if is_master and (is_indoor_focus or is_cutaway):
+        for o in active_subset:
+            o.hide_render = True
+        active_subset.clear()
+        vb = v.get("building") or ""
+        vfl = v.get("floor") or ""
+        vapt = v.get("apartment") or ""
+        for o in bldg_meshes_and_humans:
+            if o.get("building_id") != vb:
+                continue
+            role = o.get("role", "")
+            if role in ("building_shell", "floor_slab"):
+                o.hide_render = False
+                active_subset.append(o)
+            elif role == "room_dressing":
+                if vcls == "apartment_interior":
+                    rid = str(o.get("room_id", ""))
+                    if rid in (f"{{vapt}}_living", f"{{vapt}}_entry", f"{{vb}}_{{vfl}}_landing"):
+                        o.hide_render = False
+                        active_subset.append(o)
+                elif vcls == "plan":
+                    if str(o.get("room_id", "")).startswith(f"{{vb}}_{{vfl}}_"):
+                        o.hide_render = False
+                        active_subset.append(o)
+                else:
+                    o.hide_render = False
+                    active_subset.append(o)
+            elif role == "human" and o.get("location_type") == "indoor":
+                if vcls == "apartment_interior":
+                    if f"_{{vapt}}_living_" in o.name:
+                        o.hide_render = False
+                        active_subset.append(o)
+                elif vcls == "plan":
+                    if f"_{{vb}}_{{vfl}}_" in o.name:
+                        o.hide_render = False
+                        active_subset.append(o)
+                else:
+                    o.hide_render = False
+                    active_subset.append(o)
+
+    if vcls == "apartment_interior" and dyn_key and dyn_fill:
+        dyn_key.location = ((cx + tx) * 0.5, (cy + ty) * 0.5, cz + 0.85)
+        dyn_fill.location = (cx + (tx - cx) * 0.15, cy + (ty - cy) * 0.15, cz + 0.45)
+    elif vcls == "building_section" and dyn_key and dyn_fill:
+        dyn_key.rotation_euler = tuple(cam.rotation_euler)
+        dyn_fill.rotation_euler = (cam.rotation_euler.x + 0.25, cam.rotation_euler.y, cam.rotation_euler.z + 0.35)
 
     if not is_master:
         cut_hide = vid in ("slice_03_cutaway_L02", "slice_10_plan_B02_L02")
@@ -215,11 +305,11 @@ for vid in view_ids:
         if samples_override:
             sc.cycles.samples = samples_override
         elif rx >= 3840:
-            sc.cycles.samples = 36
+            sc.cycles.samples = 8
         elif rx >= 2560:
-            sc.cycles.samples = 28
+            sc.cycles.samples = 8
         else:
-            sc.cycles.samples = 24
+            sc.cycles.samples = 8
 
     out_file = out_dir / f"{{vid}}.png"
     sc.render.filepath = str(out_file)
@@ -314,11 +404,12 @@ def main() -> int:
             preset = v.get("lighting", "blue_hour")
             if preset == "day":
                 preset = "overcast"
-            target_bldg = v.get("building") or ""
             is_indoor_focus = vcls in ("apartment_interior", "plan")
             is_cutaway = vcls in ("plan", "building_section")
             hide_trees = vcls in ("building_exterior", "night_alternate", "building_section", "shopfront", "plan", "apartment_interior")
-            return (preset, is_indoor_focus, is_cutaway, hide_trees, target_bldg if (is_indoor_focus or is_cutaway) else "")
+            is_closeup = vcls in ("human_closeup", "terrain_detail", "shopfront")
+            is_tech = (vcls == "technical")
+            return (vcls if (is_indoor_focus or is_cutaway) else "outdoor", preset, is_indoor_focus, is_cutaway, hide_trees, is_closeup, is_tech)
 
         from itertools import groupby
         todo_sorted = sorted(todo, key=view_group_key)

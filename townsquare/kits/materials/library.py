@@ -108,7 +108,11 @@ def build_material_library() -> dict[str, bpy.types.Material]:
         bsdf.inputs["Base Color"].default_value = col
         bsdf.inputs["Roughness"].default_value = rough
         bsdf.inputs["Metallic"].default_value = metal
-        bsdf.inputs["Transmission Weight"].default_value = trans
+        bsdf.inputs["Transmission Weight"].default_value = 0.0
+        if trans >= 0.5:
+            bsdf.inputs["Alpha"].default_value = 0.18
+        elif trans > 0.0:
+            bsdf.inputs["Specular IOR Level"].default_value = 0.90
 
         if isinstance(ph_asset, str) and ph_asset.startswith("EMIT_"):
             strength = float(ph_asset.split("_")[1])
@@ -121,13 +125,13 @@ def build_material_library() -> dict[str, bpy.types.Material]:
         coord = nodes.new("ShaderNodeTexCoord")
         n_macro = nodes.new("ShaderNodeTexNoise")
         n_macro.inputs["Scale"].default_value = 1.2
-        n_macro.inputs["Detail"].default_value = 3.0
+        n_macro.inputs["Detail"].default_value = 1.0
         n_meso = nodes.new("ShaderNodeTexNoise")
         n_meso.inputs["Scale"].default_value = 8.5
-        n_meso.inputs["Detail"].default_value = 4.0
+        n_meso.inputs["Detail"].default_value = 1.5
         n_micro = nodes.new("ShaderNodeTexNoise")
         n_micro.inputs["Scale"].default_value = 55.0
-        n_micro.inputs["Detail"].default_value = 2.0
+        n_micro.inputs["Detail"].default_value = 1.0
 
         links.new(coord.outputs["Object"], n_macro.inputs["Vector"])
         links.new(coord.outputs["Object"], n_meso.inputs["Vector"])
