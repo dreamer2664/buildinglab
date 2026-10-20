@@ -1,0 +1,360 @@
+[
+  {
+    "asset": "rusty_painted_metal",
+    "map": "Diffuse",
+    "resolution": "1k",
+    "file": "rusty_painted_metal/rusty_painted_metal_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_painted_metal/rusty_painted_metal_diff_1k.jpg",
+    "bytes": 471866,
+    "sha256": "b086937b45c3628116a838363364a29bd3c5d2542cff906ec1d92d681ee80e15",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2200.000047683716,
+      2200.000047683716
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "rusty_painted_metal",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "rusty_painted_metal/rusty_painted_metal_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_painted_metal/rusty_painted_metal_rough_1k.jpg",
+    "bytes": 318766,
+    "sha256": "2d1c355c793c5886ef9dcecfc06da354e30218a84a9fe28de37741d2f2ed5aaa",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2200.000047683716,
+      2200.000047683716
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "rusty_painted_metal",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "rusty_painted_metal/rusty_painted_metal_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_painted_metal/rusty_painted_metal_nor_gl_1k.jpg",
+    "bytes": 484158,
+    "sha256": "f3372e2f60517df2d0e02c1472eb24071d95182d771c30b7ecd8e1b5142768bb",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "dimensions": [
+      2200.000047683716,
+      2200.000047683716
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "metal_plate",
+    "map": "Diffuse",
+    "resolution": "1k",
+    "file": "metal_plate/metal_plate_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_diff_1k.jpg",
+    "bytes": 692234,
+    "sha256": "c6b6739eac2c75ccc898e753d7833df24eafbdb9aa92fb6eabfb92abd1a680a5",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      500,
+      500
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "metal_plate",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "metal_plate/metal_plate_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_rough_1k.jpg",
+    "bytes": 775206,
+    "sha256": "756308485ce742a52831453c296452f48cf0adead7d85adfffd34c08dce23ec1",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      500,
+      500
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "metal_plate",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "metal_plate/metal_plate_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_nor_gl_1k.jpg",
+    "bytes": 770307,
+    "sha256": "994f851a84d52b51e97906021a1b7070ee6eac9a789fef041132268de47d8e6b",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "dimensions": [
+      500,
+      500
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "concrete_floor_worn_001",
+    "map": "Diffuse",
+    "resolution": "2k",
+    "file": "concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "bytes": 482906,
+    "sha256": "e29b45cdcd6d02fae3c087c456196ffa750779a9b62e7071aa3831dc322a0cc4",
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "dimensions": [
+      3000,
+      3000.000238418579
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "concrete_floor_worn_001",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.jpg",
+    "bytes": 181942,
+    "sha256": "069efe4ca018e0ef61fd8cc9964395ba8272284ae239da68d7f87988e2e9f488",
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "dimensions": [
+      3000,
+      3000.000238418579
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "concrete_floor_worn_001",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg",
+    "bytes": 110906,
+    "sha256": "523bd94a1be5dd2f11c2ae2b7d7c77445cf5bd9e41604db515a7c8364dcba067",
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "dimensions": [
+      3000,
+      3000.000238418579
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "brick_wall_001",
+    "map": "Diffuse",
+    "resolution": "1k",
+    "file": "brick_wall_001/brick_wall_001_diffuse_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_diffuse_1k.jpg",
+    "bytes": 574381,
+    "sha256": "6a1233ec0186703de830354d89f122991e61e67fb67e0846c7eaf6c5aefea902",
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "brick_wall_001",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "brick_wall_001/brick_wall_001_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_rough_1k.jpg",
+    "bytes": 211093,
+    "sha256": "a23342b02e6c5af106aaece16130aa9153a801cb1a84d5f3e0d06ce248677f38",
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "brick_wall_001",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "brick_wall_001/brick_wall_001_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_nor_gl_1k.jpg",
+    "bytes": 295279,
+    "sha256": "8afbe3919308b168a6b7235fe7b930f670cfffa1a34de39ee790d55c9d7bda09",
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "dimensions": [
+      3000,
+      3000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "gravel_floor",
+    "map": "Diffuse",
+    "resolution": "1k",
+    "file": "gravel_floor/gravel_floor_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_diff_1k.jpg",
+    "bytes": 1327302,
+    "sha256": "4e6ff82988506676cfd8a79ac3e2964af239764c0064d4566040167704c4838d",
+    "authors": {
+      "Jenelle van Heerden": "Processing",
+      "Matterfield": "Photography"
+    },
+    "dimensions": [
+      2250,
+      2250
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "gravel_floor",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "gravel_floor/gravel_floor_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_rough_1k.jpg",
+    "bytes": 697340,
+    "sha256": "acf3c8607bcf943ac9f9871e4f57961ce46ea0635232d78af68eebbbf5f62b4b",
+    "authors": {
+      "Jenelle van Heerden": "Processing",
+      "Matterfield": "Photography"
+    },
+    "dimensions": [
+      2250,
+      2250
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "gravel_floor",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "gravel_floor/gravel_floor_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_nor_gl_1k.jpg",
+    "bytes": 1538430,
+    "sha256": "a3544e4aa7612a0bf0ea4890093b60c9f360234855d389bb9d408d29b90a7131",
+    "authors": {
+      "Jenelle van Heerden": "Processing",
+      "Matterfield": "Photography"
+    },
+    "dimensions": [
+      2250,
+      2250
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "worn_concrete_floor",
+    "map": "Diffuse",
+    "resolution": "1k",
+    "file": "worn_concrete_floor/worn_concrete_floor_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_concrete_floor/worn_concrete_floor_diff_1k.jpg",
+    "bytes": 1037067,
+    "sha256": "a2f71e7433f8e1ec62760f636f1b38a8da6d14f19761be32f130614b0e6e8e0b",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "worn_concrete_floor",
+    "map": "Rough",
+    "resolution": "1k",
+    "file": "worn_concrete_floor/worn_concrete_floor_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_concrete_floor/worn_concrete_floor_rough_1k.jpg",
+    "bytes": 801511,
+    "sha256": "296146dbfa8af2bf65d514b8f74eb436252b8b283600472e71a41bec80e7c28f",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "worn_concrete_floor",
+    "map": "nor_gl",
+    "resolution": "1k",
+    "file": "worn_concrete_floor/worn_concrete_floor_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_concrete_floor/worn_concrete_floor_nor_gl_1k.jpg",
+    "bytes": 570814,
+    "sha256": "403e03f0a0475c981eb711cb72658d62d3c4ef8ebec0a35df7dd3b2471b83b0d",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "winter_evening",
+    "map": "HDRI",
+    "file": "winter_evening_2k.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/winter_evening_2k.hdr",
+    "bytes": 5890947,
+    "sha256": "54decf2722b54f3b84860ae7c2880e59da26e382d69f3e3d86b5a96d2d568c02",
+    "authors": {
+      "Sergej Majboroda": "All"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license"
+  },
+  {
+    "asset": "kloofendal_overcast_puresky",
+    "map": "HDRI",
+    "file": "kloofendal_overcast_puresky_2k.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kloofendal_overcast_puresky_2k.hdr",
+    "license": "CC0",
+    "authors": {
+      "Greg Zaal": "All"
+    },
+    "sha256": "312b1b04b7f10057a4f1418abc59d1166c8933cc93fc72051502edaf8d6b2fcd",
+    "source": "https://polyhaven.com/a/kloofendal_overcast_puresky"
+  }
+]

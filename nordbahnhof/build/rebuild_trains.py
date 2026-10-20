@@ -126,7 +126,25 @@ def batch_vehicle(kind,location):
         if mesh.users==0 and mesh not in keep:bpy.data.meshes.remove(mesh)
 def driving_wheel(x,y,z,r,side):
     yy=y+side*.82
-    ring('steel wheel tire',(x,yy,z),r-.055,.055,steel)
+    # Turned steel tyre: a conical tread and inner flange, not a torus.
+    key=('proper railway tyre',r,side)
+    if key not in cache:
+        profile=[(r-.105,-.125),(r+.012,-.125),(r+.028,-.115),(r+.028,-.108),(r+.016,-.104),(r,-.080),(r-.006,.020),(r-.014,.028),(r-.105,.028)]
+        N=96;M=len(profile);vv=[];ff=[]
+        for k in range(N):
+            a=k*math.tau/N
+            for rr,axial in profile:vv.append((rr*math.sin(a),side*axial,rr*math.cos(a)))
+        for k in range(N):
+            for j in range(M):
+                f=(k*M+j,((k+1)%N)*M+j,((k+1)%N)*M+(j+1)%M,k*M+(j+1)%M)
+                ff.append(f if side>0 else tuple(reversed(f)))
+        me=bpy.data.meshes.new('turned wheel tyre with flange');me.from_pydata(vv,[],ff);me.update()
+        for p in me.polygons:p.use_smooth=True
+        for e in me.edges:
+            a,c=e.vertices
+            if a%M==c%M:e.use_edge_sharp=True
+        cache[key]=me
+    obj('steel tyre and inner flange',cache[key],(x,yy,z),steel)
     ring('wheel inner rim',(x,yy,z),r-.13,.035,red)
     ring('wheel flange',(x,yy-side*.07,z),r-.012,.025,dark)
     cyl('wheel hub',(x,yy,z),.14,.22,red,'Y')

@@ -1,0 +1,270 @@
+{
+  "status": "source inventory, not full commission acceptance",
+  "source": "source/NORDBAHNHOF_REALISM.blend",
+  "source_sha256": "182e22187b06fd32b9df90e9dd3144fe4958afa78acdb8e8d06f65c43c0101c9",
+  "mesh_objects": 1658,
+  "polygons_in_mesh_datablocks": 1153550,
+  "vehicles": [
+    "TR01_V01",
+    "TR01_V02",
+    "TR01_V03",
+    "TR01_V04",
+    "TR01_V05",
+    "TR01_V06",
+    "TR02_V01",
+    "TR02_V02",
+    "TR02_V03",
+    "TR02_V04",
+    "TR02_V05",
+    "TR02_V06",
+    "TR03_V01",
+    "TR03_V02",
+    "TR03_V03",
+    "TR03_V04",
+    "TR03_V05",
+    "TR03_V06",
+    "TR04_V01",
+    "TR04_V02",
+    "TR04_V03",
+    "TR04_V04",
+    "TR04_V05",
+    "TR04_V06",
+    "TR05_V01",
+    "TR05_V02",
+    "TR05_V03",
+    "TR05_V04",
+    "TR05_V05",
+    "TR06_V01",
+    "TR06_V02",
+    "TR06_V03",
+    "TR06_V04",
+    "TR06_V05"
+  ],
+  "vehicle_count": 34,
+  "rake_count": 6,
+  "scan_objects": [
+    "SCAN_HERO_01",
+    "SCAN_HERO_02",
+    "SCAN_HERO_03",
+    "SCAN_HERO_04",
+    "SCAN_HERO_05",
+    "SCAN_HERO_06"
+  ],
+  "materials": 58,
+  "cameras": [
+    "REALVIEW_01_arrival_after_rain",
+    "REALVIEW_02_oil_steel_and_spokes",
+    "REALVIEW_03_winter_travellers",
+    "REALVIEW_04_glass_iron_and_distance",
+    "REALVIEW_05_coach_at_platform",
+    "REALVIEW_06_electric_and_contact_wire"
+  ],
+  "images": [
+    {
+      "name": "brick_wall_001_diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brick_wall_001_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brick_wall_001_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_diff_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.002",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.003",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.004",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.005",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "kloofendal_overcast_puresky_2k.hdr",
+      "size": [
+        2048,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "metal_plate_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "metal_plate_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "metal_plate_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "worn_concrete_floor_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "worn_concrete_floor_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "worn_concrete_floor_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "all_image_assets_packed": true,
+  "limitations": [
+    "Static railway-inspired geometry, not operationally validated mechanisms",
+    "Six modern scanned people, not a period crowd of 400",
+    "Full room/identity/validator/310-view commission remains incomplete"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "evs_cap": 15,
+  "type": 0,
+  "whitebalance": 5001,
+  "tags": [
+    "building",
+    "architecture",
+    "europe",
+    "pillar",
+    "snow",
+    "winter",
+    "lamp"
+  ],
+  "date_published": 1549321200,
+  "name": "Winter Evening",
+  "old_id": 347,
+  "categories": [
+    "outdoor",
+    "urban",
+    "night",
+    "overcast",
+    "medium contrast",
+    "artificial light"
+  ],
+  "date_taken": 1545939660,
+  "coords": [
+    50.9184928,
+    34.7982578
+  ],
+  "authors": {
+    "Sergej Majboroda": "All"
+  },
+  "sponsors": [
+    "10485422"
+  ],
+  "max_resolution": [
+    16500,
+    8250
+  ],
+  "files_hash": "ce41344f8bdc639526a17673cd6ba926925e4715",
+  "description": "Free 16K, unclipped HDRI of a snowy European courtyard at overcast winter night; medium contrast, warm orange and magenta lamps tint snow and architecture.",
+  "category_id": "530d8407-898c-5819-a7a8-85fe9a55b5a1",
+  "category": "Streets & Town/Squares & Plazas/Courtyards & Quads",
+  "attributes": {
+    "time_of_day": "night",
+    "weather": "overcast",
+    "light_type": "artificial",
+    "contrast": "medium",
+    "season": "winter",
+    "environment": "outdoor",
+    "sky_view": "obstructed"
+  },
+  "img_version": "b57a912f",
+  "download_count": 75755,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/winter_evening.png?width=256&height=256&format=webp&v=b57a912f"
+}

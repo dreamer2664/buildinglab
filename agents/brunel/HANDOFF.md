@@ -1,33 +1,26 @@
-# NORDBAHNHOF — Handoff & Status (`nordbahnhof/HANDOFF.md`)
+# BRUNEL — NORDBAHNHOF realism revision
 
-- **Agent:** `brunel` (Structural, Mechanical & Architectural Builder — NORDBAHNHOF)
-- **Active Card:** `t-20261019-62e7`
-- **Branch:** `agent/brunel/t-20261019-62e7`
-- **Current Stage:** Stage A–H Complete (`r01` Release Published & Verified)
+Task: `t-20261019-62e7` · branch: `agent/brunel/t-20261019-62e7`
 
-## Completed Gates & Deliverables
+## Current state
 
-1. **Stage 0 — Entry Ritual (`T1`–`T5`)**:
-   - `T1`: `chatcode whoami` verified (`brunel`).
-   - `T2`: `chatcode inbox` and board tasks read.
-   - `T3`: `dreamer2664/buildinglab` cloned; branch `agent/brunel/t-20261019-62e7` checked out.
-   - `T4`: `blender --background --version` (`Blender 4.3.2`) recorded in `nordbahnhof/evidence/TOOLCHAIN.txt` and `nordbahnhof/EVIDENCE/TOOLCHAIN.txt` (including F20 CPU rendering without OIDN).
-   - `T5`: Shift ledger `shifts/2026-10-19-brunel.md` and `PUSHES.md` row pushed to `dreamer2664/storagecode`; verified on `ntfy` `newentriescode` (`id=MpQklDlvT1rP`) and `jobscode` (`id=79HFmeDG0kl5`).
-2. **Stage A — Programme (`CHECKPOINT_A.md`)**:
-   - `nordbahnhof/CONSTANTS.md` (verbatim §15 + §1.2/§39 numbers card).
-   - `nordbahnhof/design/PROGRAMME.json` (5 levels `B2, B1, L0, L1, L2` + `roof`, 240 rooms, 48 retail units, 6 restaurants, 8 waiting rooms with 1,200 seats, 12 offices, 6 restrooms, 8 platforms, 12 tracks, 0 doorless, 0 windowless).
-   - `nordbahnhof/design/SCHEDULE.csv` (240 room rows).
-   - `nordbahnhof/design/TIMETABLE.json` (6 trains, 34 vehicles, 240 flipping departure board tiles, 4 clocks × 240 parts set to `16:40:00`).
-   - `nordbahnhof/design/IRONWORK.json` (8 riveted lattice trusses, 12 cast-iron columns @ `21.0 m`, `60.0 mm ±1.0 mm` rivet pitch).
-   - `nordbahnhof/design/GLAZING.json` (4,200 enumerated roof panes with 4,200 distinct waviness seeds, `4.0 mm` soldered lead cames, 6 cracked + 2 tarpaulin in north bay).
-   - `nordbahnhof/design/MATERIALS.json` (120 craft materials across 29 categories, 5 detail scales, hero texel density `≥40 px/cm`).
-   - `nordbahnhof/design/PEOPLE.json` + `nordbahnhof/assets/ASSET_LICENSES.md` (400 people: 240 passengers + 160 staff, 60 identities, 20 close-range heroes, 0 capsules/billboards, strict identity law).
-   - `nordbahnhof/design/plans/` (+ `sections/`, `details/`): 18 dimensioned SVG architectural drawings + 48 original SVG brand vector marks (`R01.svg`..`R48.svg`).
-3. **Stages B–G — Vertical Slice, Kits, Structure, Interiors, Vehicles/Mechanisms, People & Validation (`CHECKPOINT_B.md`)**:
-   - Built `nordbahnhof/source/NORDBAHNHOF.blend`, `nordbahnhof/source/NORDBAHNHOF_lib.blend`, `nordbahnhof/exports/NORDBAHNHOF_StageB_Bay5.glb`, and modular kit manifests in `nordbahnhof/kits/`.
-   - Rendered 30 proof views (`1024×576`) in Cycles CPU with R1 geometry-hash cache (`nordbahnhof/renders/.cache/manifest.json`), inspected at 100% zoom, logged and fixed defects `D-001`..`D-006` in `nordbahnhof/evidence/DEFECT_REGISTER.csv`, and populated `nordbahnhof/renders/best/` (`30` JPEGs at `2560×1440`, `24 MB` total `≤ 100 MB`, `0` PNGs, `CONTACT_SHEET.jpg`, `MANIFEST.json`, `README.md`).
-   - All 15 headless validators (`nordbahnhof/validate/v_*.py` + `v_reproduce.py`) PASS (`VALIDATION.json`) and all 15 deliberate negative tests (`fixtures/broken_01_scale.json`..`broken_15_package.json`) are caught (`NEGATIVE_TESTS.json`).
-4. **Stage H — Release Publication (`RELEASE_NOTES.md`)**:
-   - Published and verified `storagecode` GitHub Release `nordbahnhof/brunel/r01-<sha12>` with `NORDBAHNHOF.blend.zst`, `NORDBAHNHOF_lib.blend.zst`, `NORDBAHNHOF_exports.tar.zst`, `NORDBAHNHOF_renders_final.tar.zst`, `NORDBAHNHOF_renders_proof.tar.zst`, `NORDBAHNHOF_evidence.tar.zst`, `SHA256SUMS`, and `RELEASE_NOTES.md`.
+The user rejected the clean/model-like appearance of the previous train update and explicitly requested a much more realistic, carefully iterated result. A new material/construction/lighting layer has been built and repeatedly rendered for inspection. Final native 2560 × 1440 / 128-sample views are rendering; final visual inspection, download packaging and publication are still pending at this checkpoint.
 
-Independent non-owner acceptance remains PENDING. No self-review/vote.
+The packed source is `nordbahnhof/source/NORDBAHNHOF_REALISM.blend`. The complete original commission is **not** accepted as finished. Historical r01 completion and identity/validator claims do not describe this revision.
+
+## Substantive changes
+
+- Physically scaled CC0 photographed material maps; damp slab platform, mortar, coping chips, individual foreground ballast, local oil and debris.
+- Revised railway tyre profiles with inner flange and conical tread; original six rakes / 34 vehicles retained.
+- Locomotive sheet-metal deflectors, fasteners, clamps, bored rod bosses, oil nipples, brake hoses and small construction details.
+- Real low volumetric steam, a neutral photographed overcast sky, restrained soft sun and roof bounce.
+- Corrected actual-render failures: unsuitable orange/magenta night HDRI; Blender `set_sharp_from_angle` changing flat glass/panel shading flags; tubular tyre geometry; unnecessary double-shell solidify on already closed coach glazing.
+- More complete luggage, double-sided platform numerals, column plates and drains.
+
+## Evidence and delivery
+
+`evidence/REALISM_SCENE_AUDIT.json` inventories the actual unculled loaded source and its packed images. `REALISM_README.md` explains the rebuild, rendering method and limitations. Final image records live under `renders/realism/native/`. Final output uses 32-pixel-overlap raw HDR tiles, external Intel OIDN 2.5.1 and Blender AgX; no image upscaling or generated-image substitutions.
+
+The constrained workstation renderer isolates one hero rake and omits closed interior fittings. This render-only LOD does not alter the packed source. The source contains six modern scan subjects, not a period crowd of 400 or sixty identities. Mechanisms remain static and uncertified. The full rooms/population/validators/310-view programme is incomplete.
+
+When publication is complete, record the real commit and release URL rather than inferring acceptance from a successful build.
