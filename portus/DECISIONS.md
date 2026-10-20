@@ -165,3 +165,53 @@ of unbuilt buildings are expected to read thin.
 does not preserve names. Rewritten to identify blocks by footprint (plan span
 > 8 m): 720 of 5,094 meshes, PASS. Geometry and material counts round-trip
 exactly (1,189,892 tris, 60 materials).
+
+## D-221 — the detail library, and what it costs (2026-10-20)
+`portus/build/detail.py` replaces the four-box `facade_band` with real
+architectural elements: individual bricks in running bond, window openings with
+reveal returns, stone sills with drip and lintels, sash frames with meeting rails
+and glazing bars, panelled doors with fanlights, plinths, string courses, dentilled
+cornices, quoins, tiled roofs as oriented slabs with ridges and gutters, chimney
+stacks with pots, downpipes with brackets and hoppers, tie plates and air bricks.
+
+Every element is emitted as an axis-aligned rect and merged per building, so the
+object count stays flat (~5,400) while the triangle count carries the detail.
+
+**Measured cost, on this machine:**
+
+| build | triangles | renders? |
+|---|---|---|
+| original flat facades | 1.01 M | yes, 1024/32 in 69 s |
+| joinery + stone + tiled roofs | 2.00 M | yes |
+| + ground-storey brickwork, r=18 m | 2.40 M | yes, 1024/32 in 105 s |
+| + brickwork, r=35 m | 4.03 M | **OOM-killed** |
+| full brickwork everywhere | 9.11 M | **OOM-killed** |
+
+The render ceiling on this box is ~2.5 M triangles. That is a machine limit, not
+a design choice: the same 1024/32 frame that renders at 2.4 M is killed at 4.0 M.
+
+## D-222 — detail is placed by camera distance (2026-10-20)
+Individual bricks are spent only on buildings within `PORTUS_RADIUS` of a proof
+camera, and only on their ground storey. Everything else gets the material's
+procedural coursing, which costs nothing. This is a deliberate budget, and it is
+visible: a wall 60 m away has no individual bricks. Raising `PORTUS_DETAIL=3`
+builds full bricks everywhere and cannot be rendered on this machine.
+
+## D-223 — coursing must be brick-shaped, not a proud band (2026-10-20, CLOSED)
+The first version of `coursed_relief` drew one projecting horizontal band per
+course and emitted it into the stone material. On CAM_03 it read as white
+venetian blinds across the facade — a rendering artifact no amount of geometry
+would fix. Replaced with coarse running-bond brickwork in the wall material.
+
+## D-224 — OIDN denoising is the 1024 memory spike (2026-10-20)
+At 1024 px the render was killed at sample 17 of 32 with a flat memory profile
+before the spike. Isolating it: the same scene at 1024/32 completes in 73 s with
+`use_denoising = False`. OpenImageDenoise needs roughly 600 MB on top of the
+render, which this box does not have. Proofs at 1024 therefore render denoised-
+off for the moment; the noise is visible and is logged as a defect.
+
+## D-225 — party walls were being glazed (2026-10-20, CLOSED)
+Terraced houses had windows punched into the walls they share with their
+neighbours. `party_sides()` now detects shared faces by footprint adjacency
+(52 faces across the 48 buildings) and suppresses openings and dressings on them.
+This is both correct architecture and half the window geometry.

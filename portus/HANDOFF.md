@@ -101,3 +101,12 @@ python3 portus/tools/v_light.py --images portus/renders/proofs
 - Build: 5,173 objects / 1,189,892 triangles / 2,519 props in B05.
 - Proofs re-rendered at 1024/32 after the fixes: CAM_01 56.4 s, CAM_03 66.3 s.
 - D-216…D-220 recorded. G2 (contact) and G3 (density) remain OPEN.
+
+## 2026-10-20 — detail pass
+- New `portus/build/detail.py` (523 -> ~640 lines): masonry, openings, mouldings,
+  roof, ironwork. `details_facade()` in `build.py` replaces `facade_band`.
+- Build at `PORTUS_RADIUS=18`: 5,387 objects / 2,395,448 triangles.
+- Render: 1024/32 completes in 105 s **with OIDN disabled** (D-224).
+- Environment knobs: `PORTUS_DETAIL` (0 legacy flat, 1 detailed, 2 +more brick, 3 all),
+  `PORTUS_RADIUS` (m), `PORTUS_RELIEF`, `PORTUS_ROOF`, `PORTUS_NOSAVE`.
+- Known open: denoiser unavailable at 1024 within 1.9 GB; bricks absent beyond r=18.

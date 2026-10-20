@@ -31,7 +31,7 @@ ROOT = os.path.dirname(HERE)
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from build import geo, planlib as P, props  # noqa: E402
+from build import detail as D, geo, planlib as P, props  # noqa: E402
 
 OUT = os.path.join(HERE, "PORTUS.blend")
 LOG = []
@@ -145,10 +145,10 @@ def build_site(M):
     geo.box("SITE_GROUND_e", bx1, by0, z - t, x1, by1, z, M["paving"], C)
     # setts: bands within 18 m of the basin, merged per band so the object gate
     # is a gate on stones, not on draws (D-104: one object per stone OOM-killed)
-    def sett_band(name, ax0, ay0, ax1, ay1, budget=11000):
+    def sett_band(name, ax0, ay0, ax1, ay1, budget=2400):
         rng = random.Random(int(hashlib.sha256(name.encode()).hexdigest()[:8], 16))
         verts, faces = [], []
-        classes = [(0.090, 0.140), (0.105, 0.125), (0.120, 0.115)]
+        classes = [(0.170, 0.230), (0.190, 0.205), (0.210, 0.195)]
         y = ay0
         row = n = 0
         while y < ay1 - 0.05 and n < budget:
@@ -414,6 +414,164 @@ def facade_band(name, x0, y0, x1, y1, z0, z1, mat, C, side, module, win_w=1.10,
 
 
 
+# ── detailed facades ───────────────────────────────────────────────────────
+def _bcam_dist(spec):
+    """Distance from a building's centre to the nearest proof camera."""
+    cx = (spec["x0"] + spec["x1"]) / 2.0
+    cy = (spec["y0"] + spec["y1"]) / 2.0
+    if not CAMXY:
+        return 0.0
+    return min(math.hypot(cx - ax, cy - ay) for (ax, ay) in CAMXY)
+
+
+def party_sides(spec, specs, tol=0.30, min_overlap=1.0):
+    """Which faces are party walls shared with a terrace neighbour.
+
+    A terraced house has no windows on a party wall, and the shared wall is the
+    commonest place for a facade to look wrong. Detecting them also removes
+    roughly half the window geometry.
+    """
+    x0, y0, x1, y1 = spec["x0"], spec["y0"], spec["x1"], spec["y1"]
+    out = set()
+    for o in specs:
+        if o["id"] == spec["id"]:
+            continue
+        ox0, oy0, ox1, oy1 = o["x0"], o["y0"], o["x1"], o["y1"]
+        x_over = min(x1, ox1) - max(x0, ox0)
+        y_over = min(y1, oy1) - max(y0, oy0)
+        if abs(oy1 - y0) < tol and x_over > min_overlap:
+            out.add("S")
+        if abs(oy0 - y1) < tol and x_over > min_overlap:
+            out.add("N")
+        if abs(ox1 - x0) < tol and y_over > min_overlap:
+            out.add("W")
+        if abs(ox0 - x1) < tol and y_over > min_overlap:
+            out.add("E")
+    return out
+
+
+import os as _os
+DETAIL_LEVEL = int(_os.environ.get("PORTUS_DETAIL", "1"))
+PARTY = {}
+CAMXY = []
+PROOF_CAMS = []
+RELIEF = _os.environ.get("PORTUS_RELIEF", "1") == "1"
+RADIUS = float(_os.environ.get("PORTUS_RADIUS", "70"))
+ROOFTILE = _os.environ.get("PORTUS_ROOF", "1") == "1"
+_PIECES = dict(brick=0, stone=0, joinery=0, glass=0, metal=0, windows=0)
+
+
+def _pier_rects(side, plane, u0, u1, wins, v_lo, v_hi, d0, d1):
+    """Solid wall between and beside a run of openings at one height band."""
+    out = []
+    segs = [(u0, u1)]
+    for (a, b, c0, c1) in wins:
+        if not (c0 < v_hi and c1 > v_lo):
+            continue
+        nxt = []
+        for (s0, s1) in segs:
+            if a < s1 and b > s0:
+                if s0 < a:
+                    nxt.append((s0, min(a, s1)))
+                if s1 > b:
+                    nxt.append((max(b, s0), s1))
+            else:
+                nxt.append((s0, s1))
+        segs = nxt
+    for (a, b) in segs:
+        if b - a > 0.02:
+            out.append(D._rect(side, plane, a, b, v_lo, v_hi, d0, d1))
+    return out
+
+
+def detailed_facade(bid, spec, side, x0, y0, x1, y1, z0, z1, module, M, C, li,
+                    ground=False, top=False, cornice=True, party=False, near=True):
+    """One storey of a real facade.
+
+    Returns dict of lists: brick, stone, joinery, glass, metal, dark, roof.
+    The wall is a backing of structural boxes with a field of individual bricks
+    standing proud of it, so the mortar joints are genuine 10 mm shadow gaps.
+    """
+    wall_t = 0.45
+    plane = {"S": y0, "N": y1, "W": x0, "E": x1}[side]
+    u0, u1 = (x0, x1) if side in ("S", "N") else (y0, y1)
+    length = u1 - u0
+    n = max(1, int(length / module))
+    pitch = length / n
+    ww = min(1.10, pitch * 0.62)
+    sill, win_h = 0.85, 1.45
+    v_lo, v_hi = z0, z1
+    usable = (z1 - z0)
+    if usable < sill + win_h + 0.45:                    # low storey: smaller window
+        win_h = max(0.60, usable - sill - 0.45)
+    wins = []
+    if not party:
+        for i in range(n):
+            mid = u0 + pitch * (i + 0.5)
+            wins.append((mid - ww / 2, mid + ww / 2, z0 + sill, z0 + sill + win_h))
+
+    out = {k: [] for k in ("brick", "stone", "joinery", "glass", "metal", "dark")}
+    back_in, back_out = -wall_t, -0.10
+
+
+    # structural backing, punched around the openings
+    out["brick"] += _pier_rects(side, plane, u0, u1, wins, v_lo, z0 + sill, back_in, back_out)
+    out["brick"] += _pier_rects(side, plane, u0, u1, wins, z0 + sill + win_h, v_hi,
+                                back_in, back_out)
+    out["brick"] += _pier_rects(side, plane, u0, u1, wins, z0 + sill, z0 + sill + win_h,
+                                back_in, back_out)
+
+    # Masonry relief. Coursing is only laid on the SOLID bands (below the sills
+    # and above the heads). Relief across the window band fragments into one
+    # sliver per pier — 136,000 boxes for 0.3 % of the picture — so the piers
+    # keep the plain brick backing and the openings carry the detail instead.
+    z_sill, z_head = v_lo + sill, v_lo + sill + win_h
+    bands = [(v_lo, z_sill), (z_head, v_hi)] if wins else [(v_lo, v_hi)]
+    if DETAIL_LEVEL >= 3:
+        out["brick"] += D.brick_wall(side, plane, u0, u1, v_lo, v_hi, openings=wins, out=0.035)
+    elif DETAIL_LEVEL == 2 and ground:
+        cut = min(v_hi, v_lo + 3.2)
+        out["brick"] += D.brick_wall(side, plane, u0, u1, v_lo, cut, openings=wins, out=0.035)
+        for (ba, bb) in bands:
+            if bb > cut:
+                out["stone"] += D.coursed_relief(side, plane, u0, u1, max(ba, cut), bb)
+    elif RELIEF and near and ground:
+        # individual bricks where a lens at walking height resolves them;
+        # beyond that the material's coursing carries it (D-223)
+        cut = min(v_hi, v_lo + 3.3)
+        out["brick"] += D.brick_wall(side, plane, u0, u1, v_lo, cut, openings=wins,
+                                     out=0.030, brick_l=0.215, brick_h=0.075)
+
+    # ground floor: plinth, and a door in the middle bay
+    if ground:
+        out["stone"] += D.plinth(side, plane, u0, u1, v_lo)
+        mid = (u0 + u1) / 2
+        dm, dj, dg = D.door_opening(side, plane, mid - 0.62, mid + 0.62, v_lo,
+                                    v_lo + 2.55)
+        out["stone"] += dm
+        out["joinery"] += dj
+        out["glass"] += dg
+
+    # windows
+    for (a, b, c0, c1) in wins:
+        wm, wj, wg = D.window_opening(side, plane, a, b, c0, c1, stone="stone", bars=near)
+        out["stone"] += wm
+        out["joinery"] += wj
+        out["glass"] += wg
+
+    # dressings
+    out["stone"] += D.string_course(side, plane, u0, u1, v_hi - 0.20)
+    if cornice and top:
+        out["stone"] += D.cornice(side, plane, u0, u1, v_hi)
+    if near:
+        out["metal"] += D.air_bricks(side, plane, u0, u1, v_lo + 0.30, pitch=3.2)
+        out["metal"] += D.tie_plates(side, plane, u0, u1, v_lo + 1.90, pitch=4.2)
+    for k in ("brick", "stone", "joinery", "glass", "metal"):
+        _PIECES[k] += len(out[k])
+    _PIECES["windows"] += 0 if party else len(wins)
+    return out
+
+
 def city_fringe(M, C):
     """Low-detail blocks outside the site, deterministic, no interiors."""
     rng = random.Random(int(hashlib.sha256(b"portus-fringe").hexdigest()[:8], 16))
@@ -474,44 +632,104 @@ def mass_building(spec, M, C, z):
     geo.box(f"{bid}_CORE", x0 + 0.30, y0 + 0.30, P.LAND_Z, x1 - 0.30, y1 - 0.30,
             P.LAND_Z + H, M["stone"], C)
     # core massing: floor slabs and every facade band
-    wall_parts, glass_parts, reveal_parts = [], [], []
+    acc = {k: [] for k in ("brick", "stone", "joinery", "glass", "metal", "dark")}
+    n_storeys = len(spec["storeys"])
     for li, st in enumerate(spec["storeys"]):
         zz = ffls[li]
         geo.box(f"{bid}_SLAB_L{li+1}", x0, y0, zz - P.SLAB, x1, y1, zz, M["concrete"], C)
         for side in ("S", "N", "W", "E"):
-            wp, gp, rp = facade_band(f"{bid}_F{side}_L{li+1}", x0, y0, x1, y1, zz,
-                                     zz + st["h"], wall_mat, C, side,
-                                     max(1.2, spec["module"]), proud=0.003 * (li % 2))
-            wall_parts += wp
-            glass_parts += gp
-            reveal_parts += rp
-    if wall_parts:
-        geo.merged(f"{bid}_FACADES", wall_parts, wall_mat, C)
-        geo.merged(f"{bid}_GLAZING", glass_parts, M_GLASS, C)
-        geo.merged(f"{bid}_ROOMS_BEHIND", reveal_parts, M_DARK, C)
+            if DETAIL_LEVEL <= 0:                     # legacy flat path, for A/B tests
+                wp, gp, rp = facade_band(f"{bid}_F{side}_L{li+1}", x0, y0, x1, y1, zz,
+                                         zz + st["h"], wall_mat, C, side,
+                                         max(2.60, spec["module"]), proud=0.003 * (li % 2))
+                acc["brick"] += wp
+                acc["glass"] += gp
+                acc["dark"] += rp
+                continue
+            got = detailed_facade(bid, spec, side, x0, y0, x1, y1, zz,
+                                  zz + st["h"], max(2.60, spec["module"]), M, C, li,
+                                  ground=(li == 0), top=(li == n_storeys - 1),
+                                  party=(side in PARTY.get(bid, ())),
+                                  near=(_bcam_dist(spec) < RADIUS))
+            for k in acc:
+                acc[k] += got[k]
+    if acc["brick"]:
+        geo.merged(f"{bid}_FACADES", acc["brick"], wall_mat, C)
+        geo.merged(f"{bid}_STONE", acc["stone"], M["stone"], C)
+        geo.merged(f"{bid}_JOINERY", acc["joinery"], M["paint_white"], C)
+        geo.merged(f"{bid}_GLAZING", acc["glass"], M_GLASS, C)
+        geo.merged(f"{bid}_METAL", acc["metal"], M["iron"], C)
+        if acc["dark"]:
+            geo.merged(f"{bid}_ROOMS_BEHIND", acc["dark"], M_DARK, C)
     # roof
     top = ffls[-1] + spec["storeys"][-1]["h"]
     kind = spec["roof"]
+    along = "x" if (x1 - x0) >= (y1 - y0) else "y"
     geo.box(f"{bid}_PARAPET", x0 - 0.05, y0 - 0.05, top, x1 + 0.05, y1 + 0.05, top + 0.35,
             M["stone"], C)
+    roof_mat = M[spec["roof"]] if spec["roof"] in M else M["slate"]
     if kind in ("flat", "monitor"):
         geo.box(f"{bid}_ROOF", x0, y0, top, x1, y1, top + 0.25, M["asphalt"], C)
+        # rooftop plant: capped flues, water tank, parapet coping, gullies
+        acc2 = []
+        for k in range(3):
+            fx = x0 + 1.4 + k * 2.6
+            acc2.append((fx, y0 + 1.2, top + 0.25, fx + 0.42, y0 + 1.62, top + 1.15))
+        acc2.append((x1 - 3.4, y0 + 2.0, top + 0.25, x1 - 1.6, y0 + 3.4, top + 1.85))
+        acc2.append((x0 - 0.12, y0 - 0.12, top + 0.30, x1 + 0.12, y1 + 0.12, top + 0.42))
+        geo.merged(f"{bid}_ROOFPLANT", acc2, M["steel_dark"], C)
     elif kind == "glass":
         _gable_roof(f"{bid}_ROOF", x0, y0, x1, y1, top, min(25, spec["pitch"]), M["glass"], C,
-                    along="x" if (x1 - x0) >= (y1 - y0) else "y")
+                    along=along)
+        tv, tf, mv, mf = D.tiled_roof(x0, y0, x1, y1, top, min(25, spec["pitch"]), along,
+                                      tile_u=0.5, course=0.5)
+        if mv:
+            geo._new_obj(f"{bid}_ROOFMETAL", mv, mf, M["steel_dark"], C)
     elif kind == "mansard":
         geo.box(f"{bid}_MANSARD", x0, y0, top, x1, y1, top + 1.2, M["slate"], C)
-        _gable_roof(f"{bid}_ROOF", x0 + 1.0, y0 + 1.0, x1 - 1.0, y1 - 1.0, top + 1.2, 30,
-                    M["slate"], C, along="x" if (x1 - x0) >= (y1 - y0) else "y")
+        # dormers along the mansard face
+        acc2 = []
+        n_d = max(2, int((x1 - x0) / 3.2))
+        for k in range(n_d):
+            dx = x0 + (k + 0.5) * (x1 - x0) / n_d
+            acc2.append((dx - 0.42, y0 - 0.05, top + 0.12, dx + 0.42, y0 + 0.55, top + 1.10))
+        geo.merged(f"{bid}_DORMERS", acc2, M["slate"], C)
+        tv, tf, mv, mf = D.tiled_roof(x0 + 1.0, y0 + 1.0, x1 - 1.0, y1 - 1.0, top + 1.2, 30,
+                                      along)
+        if tv:
+            geo._new_obj(f"{bid}_ROOF", tv, tf, M["slate"], C)
+        if mv:
+            geo._new_obj(f"{bid}_ROOFMETAL", mv, mf, M["steel_dark"], C)
     elif kind == "shed":
         geo.box(f"{bid}_ROOF", x0, y0, top, x1, y1, top + 0.3, M["slate"], C)
+        acc2 = []
+        for k in range(max(2, int((x1 - x0) / 4.0))):
+            gx = x0 + 1.0 + k * 4.0
+            if gx < x1 - 0.5:
+                acc2.append((gx - 0.12, y0 + 1.0, top + 0.3, gx + 0.12, y0 + 1.24, top + 0.42))
+        geo.merged(f"{bid}_ROOFVENT", acc2, M["steel_dark"], C)
     else:
-        _gable_roof(f"{bid}_ROOF", x0, y0, x1, y1, top, spec["pitch"], M[spec["roof"]]
-                    if spec["roof"] in M else M["slate"], C,
-                    along="x" if (x1 - x0) >= (y1 - y0) else "y")
+        pitch = spec["pitch"]
+        if not ROOFTILE:
+            _gable_roof(f"{bid}_ROOF", x0, y0, x1, y1, top, pitch, roof_mat, C, along=along)
+            tv = tf = mv = mf = None
+        else:
+            tv, tf, mv, mf = D.tiled_roof(x0, y0, x1, y1, top, pitch, along)
+        if tv:
+            geo._new_obj(f"{bid}_ROOF", tv, tf, roof_mat, C)
+        if mv:
+            geo._new_obj(f"{bid}_ROOFMETAL", mv, mf, M["steel_dark"], C)
+        # lead flashings where the roof meets a party wall
+        acc2 = []
+        rise = math.tan(math.radians(pitch)) * min(x1 - x0, y1 - y0) / 2.0
+        for (a, b) in ((y0, y0 + 0.16), (y1 - 0.16, y1)):
+            acc2.append((x0, a, top - 0.02, x1, b, top + 0.05))
+        geo.merged(f"{bid}_FLASHING", acc2, M["steel_dark"], C)
     # chimney stack so roofs are not bare
-    geo.box(f"{bid}_CHIMNEY", (x0 + x1) / 2 + 1.0, y0 + 1.2, top + 0.2, (x0 + x1) / 2 + 1.9,
-            y0 + 1.9, top + 2.4, M["brick_dark"], C)
+    cxs = (x0 + x1) / 2 + 1.0
+    cms, cps = D.chimney_stack(cxs + 0.45, y0 + 1.55, top + 0.15, 2.1)
+    geo.merged(f"{bid}_CHIMNEY", cms, M["brick_dark"], C)
+    geo.merged(f"{bid}_CHIMNEYPOTS", cps, M["clay"], C)
     return H
 
 
@@ -1341,6 +1559,16 @@ def main():
     build_quay(M)
 
     C = geo.coll("BUILDINGS")
+    global PARTY, CAMXY
+    PARTY = {sp["id"]: party_sides(sp, specs) for sp in specs}
+    # proof camera plan positions, so facade detail can be spent where a lens
+    # actually resolves it (D-222)
+    global PROOF_CAMS
+    PROOF_CAMS = CAMERAS
+    CAMXY = [(c[1][0], c[1][1]) for c in CAMERAS if c[1] is not None]
+    log(f"party walls: {sum(len(v) for v in PARTY.values())} shared faces suppressed")
+    global _PIECES
+    _PIECES = dict(brick=0, stone=0, joinery=0, glass=0, metal=0, windows=0)
     for s in specs:
         if s["id"] == "B05":
             build_b05(s, M, b05_rooms, C)
@@ -1367,9 +1595,14 @@ def main():
     sc.cycles.transparent_max_bounces = 4
     sc.cycles.use_light_tree = True
     sc.render.filepath = os.path.join(ROOT, "renders", "proofs", "")
-    bpy.ops.wm.save_as_mainfile(filepath=OUT, compress=True)
+    log("PIECES " + ", ".join(f"{k}={v:,}" for k, v in _PIECES.items()))
     n_obj = len(bpy.data.objects)
     n_tri = sum(geo.tri_count(o) for o in bpy.data.objects if o.type == "MESH")
+    log(f"STATS objects {n_obj:,} triangles {n_tri:,} detail level {DETAIL_LEVEL}")
+    if _os.environ.get("PORTUS_NOSAVE"):
+        log("PORTUS_NOSAVE set — stopping before save")
+        return
+    bpy.ops.wm.save_as_mainfile(filepath=OUT, compress=True)
     receipt = dict(built=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), objects=n_obj,
                    triangles=n_tri, blend=OUT, log=LOG, blender=bpy.app.version_string,
                    engine=engine_note(),

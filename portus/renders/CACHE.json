@@ -32,5 +32,13 @@
  "1da8d85b6686b66bed6d51faeb380c4391c6b5d9baa11e9c405797fe94f16594": "/home/user/buildinglab/portus/renders/proofs/CAM_03_b05_frontage.png",
  "f869a1363bcd6c1220f7f69a098efe1b03d4f1483fcb90baf576b0da3e7ede97": "/home/user/buildinglab/portus/renders/proofs/CAM_03_b05_frontage.png",
  "237bcd8a8f49b0834ec0bc5253196dfb08faec1e9df6dbd114c1150a1242785f": "/home/user/portus-restore/portus/renders/proofs/CAM_12_interior_living.png",
+<<<<<<< HEAD
  "127a0d88ab971e2bdf136a5cb108dd828ba179d6d84e9a78bb819f6860027896": "/home/user/portus-restore/portus/renders/proofs/CAM_16_shop_floor.png"
+=======
+ "127a0d88ab971e2bdf136a5cb108dd828ba179d6d84e9a78bb819f6860027896": "/home/user/portus-restore/portus/renders/proofs/CAM_16_shop_floor.png",
+ "a473da66b6ba36d2be53ead1339b7b19b21a8ef4f4037e07f45e3da60476164f": "/home/user/portus-restore/portus/renders/proofs/CAM_01_district_aerial_sw.png",
+ "8c995ceab9d51c3930fc16d48b419b0842eaf0f81918881dd1b01653fd5f8990": "/home/user/portus-restore/portus/renders/proofs/CAM_01_district_aerial_sw.png",
+ "f008abb2312a6ad0998cec28316ec93df38bc610017c4a0c81be0caa92c4696f": "/home/user/portus-restore/portus/renders/proofs/CAM_01_district_aerial_sw.png",
+ "c69ef01b3d0c1f1bd4ffeb69784a6d391ea3cb7b5da46aac38eb0a0d3642085e": "/home/user/portus-restore/portus/renders/proofs/CAM_03_b05_frontage.png"
+>>>>>>> ca6fee8 (PORTUS: architectural detail library — brick masonry, joinery, mouldings, tiled roofs, ironwork (D-221..D-225))
 }

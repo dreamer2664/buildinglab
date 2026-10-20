@@ -136,9 +136,9 @@ def make_material(name):
     if name in ("brick", "brick_dark", "brick_yellow") and True:
         tex = nt.nodes.new("ShaderNodeTexBrick")
         tex.inputs["Scale"].default_value = 1.0
-        tex.inputs["Mortar Size"].default_value = 0.009
+        tex.inputs["Mortar Size"].default_value = 0.011
         tex.inputs["Brick Width"].default_value = 0.215
-        tex.inputs["Row Height"].default_value = 0.072
+        tex.inputs["Row Height"].default_value = 0.075
         tex.inputs["Color1"].default_value = (*col, 1.0)
         tex.inputs["Color2"].default_value = (*(c * 0.86 for c in col), 1.0)
         tex.inputs["Mortar"].default_value = (col[0] * 0.62, col[1] * 0.60, col[2] * 0.58, 1.0)
@@ -149,8 +149,8 @@ def make_material(name):
         nt.links.new(mapping.outputs["Vector"], tex.inputs["Vector"])
         nt.links.new(tex.outputs["Color"], bsdf.inputs["Base Color"])
         bump = nt.nodes.new("ShaderNodeBump")
-        bump.inputs["Strength"].default_value = 0.35
-        bump.inputs["Distance"].default_value = 0.008
+        bump.inputs["Strength"].default_value = 1.0
+        bump.inputs["Distance"].default_value = 0.016
         nt.links.new(tex.outputs["Fac"], bump.inputs["Height"])
         nt.links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
         return m
