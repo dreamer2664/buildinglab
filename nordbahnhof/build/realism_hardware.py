@@ -24,7 +24,7 @@ def add(ns):
   cyl('door hinge pivot',(-53.018,92.35,z),.025,.17,steel,'Z',20)
  # Smoke deflector's pressed hems, restrained exposed fasteners, access covers.
  for side in (-1,1):
-  y=93+side*1.14
+  y=93+side*1.151
   for x in (-53.28,-50.50):
    for z in (1.86,2.28,2.70,3.12):
     cyl('deflector fixing washer',(x,y+side*.008,z),.023,.008,under,'Y',16)

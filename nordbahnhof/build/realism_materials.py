@@ -52,7 +52,7 @@ def mixcolor(n,l,a,b,fac,blend='MIX'):
 def painted(name,base,asset='rusty_painted_metal',scale=1.5,rough=.40,exposed=False):
     m,n,l,bs=newmat(name);vec=worldvec(n,l,(1/scale,)*3)
     # A photographed surface is used for subtle colour/roughness variation, not pasted rust everywhere.
-    photo=texture(n,l,asset,'Diffuse',vec)
+    photo=noise(n,l,worldvec(n,l,(2,2,.35)),9,3) if exposed else texture(n,l,asset,'Diffuse',vec)
     luminosity=n.new('ShaderNodeRGBToBW');l.new(photo,luminosity.inputs[0])
     albedo=ramp(n,l,luminosity.outputs[0],[(.0,tuple(c*.55 for c in base)),(.85,tuple(c*1.20 for c in base))])
     pos=worldvec(n,l,(1,1,1));macro=noise(n,l,pos,1.2)
@@ -61,13 +61,15 @@ def painted(name,base,asset='rusty_painted_metal',scale=1.5,rough=.40,exposed=Fa
     dirtmask=ramp(n,l,streak,[(.52,(0,0,0)),(.79,(.45,.45,.45))])
     color=mixcolor(n,l,albedo,(.038,.027,.017),dirtmask)
     l.new(color,bs.inputs['Base Color'])
-    roughphoto=texture(n,l,asset,'Rough',vec)
+    roughphoto=noise(n,l,worldvec(n,l,(2,2,.35)),14,3) if exposed else texture(n,l,asset,'Rough',vec)
     roughout=ramp(n,l,roughphoto,[(.05,(max(.10,rough-.16),)*3),(.9,(min(.9,rough+.22),)*3)])
     l.new(roughout,bs.inputs['Roughness'])
     bs.inputs['Metallic'].default_value=.88 if exposed else .05
+    if exposed:bs.inputs['Anisotropic'].default_value=.25
     bs.inputs['Coat Weight'].default_value=0 if exposed else .12
     bs.inputs['Coat Roughness'].default_value=.28
-    normal=texture(n,l,asset,'nor_gl',vec);normalmap=n.new('ShaderNodeNormalMap');normalmap.inputs['Strength'].default_value=.12;l.new(normal,normalmap.inputs['Color'])
+    normalmap=n.new('ShaderNodeNormalMap');normalmap.inputs['Strength'].default_value=.12
+    if not exposed:l.new(texture(n,l,asset,'nor_gl',vec),normalmap.inputs['Color'])
     bump=n.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.12 if exposed else .20;bump.inputs['Distance'].default_value=.000035 if exposed else .00016;l.new(fine,bump.inputs['Height'])
     # Tangent-space box projection must not turn turned steel into corrugated chrome.
     if not exposed:l.new(normalmap.outputs[0],bump.inputs['Normal'])
@@ -120,7 +122,11 @@ def apply_materials():
     floor=masonry('REAL worn damp stone','concrete_floor_worn_001',3,True)
     brick=masonry('REAL coal-darkened brick','brick_wall_001',1.5)
     gravel=masonry('REAL track crushed rock','gravel_floor',3)
-    stone=masonry('REAL eroded limestone','worn_concrete_floor',3)
+    stone=masonry('REAL eroded limestone','concrete_floor_worn_001',3)
+    # Unpainted warm stone, never the peeling green paint of the rejected floor scan.
+    nt=stone.node_tree;bs=next(n for n in nt.nodes if n.type=='BSDF_PRINCIPLED');original=bs.inputs['Base Color'].links[0].from_socket
+    nt.links.new(mixcolor(nt.nodes,nt.links,original,(.34,.30,.23),.40),bs.inputs['Base Color'])
+    nt=gravel.node_tree;bs=next(n for n in nt.nodes if n.type=='BSDF_PRINCIPLED');original=bs.inputs['Base Color'].links[0].from_socket;bw=nt.nodes.new('ShaderNodeRGBToBW');nt.links.new(original,bw.inputs[0]);nt.links.new(mixcolor(nt.nodes,nt.links,bw.outputs[0],(.44,.46,.49),1,'MULTIPLY'),bs.inputs['Base Color'])
     window=glassmat('REAL 4mm imperfect glass')
     for old in ['MAT_Stone_GraniteCoping','Rebuild platform blue granite','MAT_Terrazzo_Concourse']:replacements[old]=floor
     for old in ['Rebuild soot brown brick']:replacements[old]=brick

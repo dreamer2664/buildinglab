@@ -32,7 +32,7 @@ for view in views:
    print(f'TILE_DONE view={view} tile={row},{col} samples=128 seconds={meta["seconds"]:.1f}',flush=True)
    del f,c,a
  name=records[0]['camera'];linear=OUT/(name+'.denoised.exr')
- OpenEXR.File({'compression':OpenEXR.ZIP_COMPRESSION},{k:full[:,:,i] for i,k in enumerate('RGB')}).write(str(linear))
+ OpenEXR.File({'compression':OpenEXR.ZIP_COMPRESSION},{k:full[:,:,i].copy() for i,k in enumerate('RGB')}).write(str(linear))
  run(['blender','-b','-t','2','--python',str(BUILD/'realism_agx.py'),'--',str(linear)],OUT/(name+'_agx.log'))
  jpg=OUT/(name+'.jpg');im=Image.open(jpg).convert('RGB');assert im.size==(2560,1440)
  rgb=np.asarray(im,dtype=np.float32)/255;lum=rgb@np.array([.2126,.7152,.0722],dtype=np.float32)

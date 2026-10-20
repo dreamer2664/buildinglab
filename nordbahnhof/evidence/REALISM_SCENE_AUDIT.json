@@ -1,7 +1,7 @@
 {
   "status": "source inventory, not full commission acceptance",
   "source": "source/NORDBAHNHOF_REALISM.blend",
-  "source_sha256": "182e22187b06fd32b9df90e9dd3144fe4958afa78acdb8e8d06f65c43c0101c9",
+  "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
   "mesh_objects": 1658,
   "polygons_in_mesh_datablocks": 1153550,
   "vehicles": [
@@ -189,30 +189,6 @@
       "packed": true
     },
     {
-      "name": "metal_plate_diff_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
-      "name": "metal_plate_nor_gl_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
-      "name": "metal_plate_rough_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
       "name": "rusty_painted_metal_diff_1k.jpg",
       "size": [
         1024,
@@ -230,30 +206,6 @@
     },
     {
       "name": "rusty_painted_metal_rough_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
-      "name": "worn_concrete_floor_diff_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
-      "name": "worn_concrete_floor_nor_gl_1k.jpg",
-      "size": [
-        1024,
-        1024
-      ],
-      "packed": true
-    },
-    {
-      "name": "worn_concrete_floor_rough_1k.jpg",
       "size": [
         1024,
         1024

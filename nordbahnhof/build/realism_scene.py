@@ -91,10 +91,10 @@ for j in range(8):
     me=bpy.data.meshes.new('oil stain');me.from_pydata(vs,[],[(0,k+1,(k+1)%N+1) for k in range(N)]);meshobj('oil stain',me,mat=oil)
 # Correct an obviously toy-like front with railway hardware, brackets, number/name plates and smoke deflectors.
 for side in (-1,1):
-    yy=93+side*1.12
+    yy=93+side*1.1515
     # Rolled smoke-deflector sheet with folded top and reinforcing flanges.
     vs=[(-53.4,yy,1.75),(-50.4,yy,1.75),(-50.4,yy,3.6),(-53.0,yy,3.6),(-53.4,yy,3.30),
-        (-53.4,yy+side*.035,1.75),(-50.4,yy+side*.035,1.75),(-50.4,yy+side*.035,3.6),(-53.0,yy+side*.035,3.6),(-53.4,yy+side*.035,3.30)]
+        (-53.4,yy+side*.0035,1.75),(-50.4,yy+side*.0035,1.75),(-50.4,yy+side*.0035,3.6),(-53.0,yy+side*.0035,3.6),(-53.4,yy+side*.0035,3.30)]
     fs=[(0,1,2,3,4),(9,8,7,6,5)]+[(i,(i+1)%5,(i+1)%5+5,i+5) for i in range(5)]
     me=bpy.data.meshes.new('rolled smoke deflector');me.from_pydata(vs,[],fs);ob=meshobj('smoke deflector',me,mat=black)
     for x in (-53.1,-51.8,-50.6):
@@ -199,7 +199,8 @@ for ob in bpy.data.objects:
         for li in p.loop_indices:
             co=ob.matrix_world@me.vertices[me.loops[li].vertex_index].co;uv.data[li].uv=(co[a],co[c])
 scene=bpy.context.scene;scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.view_settings.exposure=.1
-scene.cycles.use_denoising=False;scene.cycles.samples=64;scene.cycles.use_fast_gi=False;scene.cycles.max_bounces=6;scene.cycles.diffuse_bounces=3;scene.cycles.glossy_bounces=3;scene.cycles.transmission_bounces=8;scene.cycles.volume_bounces=1
+scene.use_nodes=False;scene.render.use_compositing=False
+scene.cycles.use_denoising=False;scene.cycles.samples=128;scene.cycles.use_fast_gi=False;scene.cycles.max_bounces=6;scene.cycles.diffuse_bounces=3;scene.cycles.glossy_bounces=3;scene.cycles.transmission_bounces=8;scene.cycles.volume_bounces=1
 scene.world.cycles.sampling_method='MANUAL';scene.world.cycles.sample_map_resolution=256
 scene.render.threads_mode='FIXED';scene.render.threads=2
 scene.cycles.use_light_tree=True;scene.cycles.sample_clamp_direct=0;scene.cycles.sample_clamp_indirect=10

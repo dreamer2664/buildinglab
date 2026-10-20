@@ -13,7 +13,7 @@ This is a substantive realism revision of the previous train update, **not a cla
 
 ### Surfaces and construction
 
-Physically scaled CC0 scanned colour, roughness and normal maps replace the uniform shader treatment across masonry, ballast, platforms and painted / bare metal. The foreground platform has 720 individually modelled slabs with restrained millimetre-scale height and alignment differences, recessed mortar, worn warning paint, separate coping blocks and occasional chipped corners. Dampness changes reflectance and colour in patches rather than coating everything in a uniform mirror finish.
+Physically scaled CC0 scanned colour, roughness and normal maps replace the uniform shader treatment across masonry, ballast, platforms and painted metal. The foreground platform has 720 individually modelled slabs with restrained millimetre-scale height and alignment differences, recessed mortar, worn warning paint, separate coping blocks and occasional chipped corners. Dampness changes reflectance and colour in patches rather than coating everything in a uniform mirror finish.
 
 Foreground ballast includes individual angular stones, not only a flat colour plane. There are local oil deposits, seated drain grates, sparse curled paper, weathered timber, bolted column access plates, and luggage with straps, lid seams, handles, corner guards and labels. Small edge paint losses are confined to exposed metalwork rather than distributed indiscriminately over functioning polished surfaces.
 
@@ -23,7 +23,7 @@ The previous circular-tube wheel tyres have been replaced by revolved steel prof
 
 ### Glass, shading and light
 
-An iterative render check exposed a Blender 4.3 shading issue: `Mesh.set_sharp_from_angle` also enables smooth shading on polygons. That had unintentionally rounded otherwise flat panes and box panels. The revised material pass preserves the authored flat/smooth face flags, then keeps cylinder caps and glass faces flat as appropriate. Tangent-space box-projected normal maps are not allowed to corrugate machined steel.
+An iterative render check exposed a Blender 4.3 shading issue: `Mesh.set_sharp_from_angle` also enables smooth shading on polygons. That had unintentionally rounded otherwise flat panes and box panels. The revised material pass preserves the authored flat/smooth face flags, then keeps cylinder caps and glass faces flat as appropriate. Tangent-space box-projected normal maps are not allowed to corrugate machined steel. Native-size inspection also exposed an inappropriate checker/tread-plate pattern on machined parts; those parts now use authored directional microscratches, subtle oxidation and anisotropic metal response rather than the tread-plate scan. The peeling-green floor scan was also rejected for unpainted coping/limestone in favour of neutral, warm-tinted mineral texture.
 
 Roof panes receive actual 4 mm thickness. The rolling-stock window meshes are already closed thin boxes, so they are not given a second solidify shell. Glass has restrained roughness and microvariation, with a transparent shadow branch for tractable light transport. It is not a spectral glass simulation.
 
@@ -33,7 +33,7 @@ Steam is an actual noise-modulated volume with a fading boundary, not a painted 
 
 ## Rendering method and honest limitations
 
-The final JPEGs are rendered at **2560 × 1440, 128 samples per pixel**, as four overlapping raw HDR border tiles per view. Tiles overlap by 32 pixels. Intel Open Image Denoise 2.5.1 runs in a separate CPU process on HDR colour, albedo and normal passes, with a 256 MB working-memory budget. The denoised tiles are cropped and assembled **in linear light without resizing**; Blender applies AgX, Medium High Contrast, exposure +0.1 once to the completed image.
+The final JPEGs are rendered at **2560 × 1440, 128 samples per pixel**, as four overlapping raw HDR border tiles per view. Native export uses contiguous channel buffers; a rejected first assembly revealed that interleaved NumPy channel views were not safe inputs to the EXR writer. Tiles overlap by 32 pixels. Intel Open Image Denoise 2.5.1 runs in a separate CPU process on HDR colour, albedo and normal passes, with a 256 MB working-memory budget. The denoised tiles are cropped and assembled **in linear light without resizing**; Blender applies AgX, Medium High Contrast, exposure +0.1 once to the completed image.
 
 This workstation has about 2 GB of RAM. Full scene rendering repeatedly exceeded that budget during scene/BVH or environment-importance-map allocation. The delivered source retains the complete scene, but the published camera renders use an explicit **render-only hero-rake LOD**: TR01 for views 1–5, TR04 for view 6; other rakes and closed interior fittings are omitted from those render processes. Structural and platform shadow casters remain. Human textures are reduced to 1024 pixels **in render memory only**; the source retains the original packed 2048-pixel textures. These are intentional memory compromises, not claims of full-station validation.
 
