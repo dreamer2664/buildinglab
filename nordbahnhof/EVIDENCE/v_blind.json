@@ -1,9 +1,0 @@
-{
-  "validator": "v_blind",
-  "status": "BLOCKED",
-  "classes": {},
-  "errors": [
-    "No actual recorded judge trials. Previous deterministic screening values were fabricated placeholders and are withdrawn."
-  ],
-  "note": "Record validation is not proof of independent judge identity."
-}

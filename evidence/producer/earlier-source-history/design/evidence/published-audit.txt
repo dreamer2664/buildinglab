@@ -1,5 +1,0 @@
-PASS — reopened measured schematic geometry: 6 levels, 14 proposed home mesh groups, 26 x 20 m slabs, dual stairs and per-floor cameras; no missing external assets. NOT final furnishings.
-Blender 4.3.2
-Read blend: "/home/user/.cache/buildinglab-redownload/scene/blockout.blend"
-
-Blender quit

@@ -1,0 +1,353 @@
+{
+  "status": "built; six native renders opened and inspected; not mechanical certification",
+  "vehicles": [
+    {
+      "id": "TR01_V01_STEAM",
+      "type": "inspired 4-6-2 steam locomotive",
+      "origin": [
+        -46,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 611
+    },
+    {
+      "id": "TR01_V02_TENDER",
+      "type": "eight-wheel coal/water tender",
+      "origin": [
+        -34,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 401
+    },
+    {
+      "id": "TR01_V03",
+      "type": "windowed passenger coach",
+      "origin": [
+        -17,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR01_V04",
+      "type": "windowed passenger coach",
+      "origin": [
+        7,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR01_V05",
+      "type": "windowed passenger coach",
+      "origin": [
+        31,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR01_V06",
+      "type": "windowed passenger coach",
+      "origin": [
+        55,
+        93,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V01",
+      "type": "windowed passenger coach",
+      "origin": [
+        -68,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V02",
+      "type": "windowed passenger coach",
+      "origin": [
+        -44,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V03",
+      "type": "windowed passenger coach",
+      "origin": [
+        -20,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V04",
+      "type": "windowed passenger coach",
+      "origin": [
+        4,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V05",
+      "type": "windowed passenger coach",
+      "origin": [
+        28,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR02_V06",
+      "type": "windowed passenger coach",
+      "origin": [
+        52,
+        40,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V01",
+      "type": "windowed passenger coach",
+      "origin": [
+        -68,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V02",
+      "type": "windowed passenger coach",
+      "origin": [
+        -44,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V03",
+      "type": "windowed passenger coach",
+      "origin": [
+        -20,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V04",
+      "type": "windowed passenger coach",
+      "origin": [
+        4,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V05",
+      "type": "windowed passenger coach",
+      "origin": [
+        28,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR03_V06",
+      "type": "windowed passenger coach",
+      "origin": [
+        52,
+        52,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR04_V01",
+      "type": "electric passenger car",
+      "origin": [
+        -68,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 503
+    },
+    {
+      "id": "TR04_V02",
+      "type": "electric passenger car",
+      "origin": [
+        -44,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR04_V03",
+      "type": "electric passenger car",
+      "origin": [
+        -20,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR04_V04",
+      "type": "electric passenger car",
+      "origin": [
+        4,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 481
+    },
+    {
+      "id": "TR04_V05",
+      "type": "electric passenger car",
+      "origin": [
+        28,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR04_V06",
+      "type": "electric passenger car",
+      "origin": [
+        52,
+        64,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR05_V01",
+      "type": "windowed passenger coach",
+      "origin": [
+        -68,
+        76,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR05_V02",
+      "type": "windowed passenger coach",
+      "origin": [
+        -44,
+        76,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR05_V03",
+      "type": "windowed passenger coach",
+      "origin": [
+        -20,
+        76,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR05_V04",
+      "type": "windowed passenger coach",
+      "origin": [
+        4,
+        76,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR05_V05",
+      "type": "windowed passenger coach",
+      "origin": [
+        28,
+        76,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR06_V01",
+      "type": "windowed passenger coach",
+      "origin": [
+        -68,
+        88,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR06_V02",
+      "type": "windowed passenger coach",
+      "origin": [
+        -44,
+        88,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR06_V03",
+      "type": "windowed passenger coach",
+      "origin": [
+        -20,
+        88,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR06_V04",
+      "type": "windowed passenger coach",
+      "origin": [
+        4,
+        88,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    },
+    {
+      "id": "TR06_V05",
+      "type": "windowed passenger coach",
+      "origin": [
+        28,
+        88,
+        0
+      ],
+      "authored_parts_before_batching": 467
+    }
+  ],
+  "vehicle_count": 34,
+  "train_count": 6,
+  "reference": "Historically inspired original procedural stock, not certified exact BR01 replica",
+  "limitations": [
+    "No operational animation/clearance certification",
+    "Modern scanned passengers are unchanged",
+    "Full station commission remains incomplete"
+  ]
+}

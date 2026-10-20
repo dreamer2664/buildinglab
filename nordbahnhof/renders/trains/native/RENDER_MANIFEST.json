@@ -1,0 +1,113 @@
+{
+  "status": "visually inspected update, not full commission acceptance",
+  "views": [
+    {
+      "file": "TRAINVIEW_01_steam_threequarter.jpg",
+      "camera": "TRAINVIEW_01_steam_threequarter",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 251.68,
+      "mean_luminance": 0.4488368034362793,
+      "blown_pct_actual": 0.006320529513888889,
+      "crushed_pct_actual": 3.194769965277778,
+      "sha256": "3353c11517ef4e5fc7efe5ba0af2b2970bb31c3dff5f2b0270816b2590bcfd0b",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": null,
+      "visual_notes": "Locomotive silhouette, open spoked wheels, rods and smokebox fasteners visible; finish still stylised."
+    },
+    {
+      "file": "TRAINVIEW_02_driving_wheels.jpg",
+      "camera": "TRAINVIEW_02_driving_wheels",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 249.83,
+      "mean_luminance": 0.32113024592399597,
+      "blown_pct_actual": 0.0,
+      "crushed_pct_actual": 11.819254557291666,
+      "sha256": "cb47df47116dc0559d0bf3d8a55e4ad0d9017cbc7b2ff3369933f5a3f9ceb842",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": null,
+      "visual_notes": "Spokes, counterweights and side rods visible; deep mechanical shadows remain dark."
+    },
+    {
+      "file": "TRAINVIEW_03_cab_tender.jpg",
+      "camera": "TRAINVIEW_03_cab_tender",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 290.15,
+      "mean_luminance": 0.2059493362903595,
+      "blown_pct_actual": 0.0,
+      "crushed_pct_actual": 6.272135416666667,
+      "sha256": "8e7cb3de0d6b19291b4bca219fbe3809f3caa72d2ef3319c119b0e877b9923eb",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": null,
+      "visual_notes": "Cab glazing and number plate visible without column obstruction; cab controls remain simplified."
+    },
+    {
+      "file": "TRAINVIEW_04_coach_platform.jpg",
+      "camera": "TRAINVIEW_04_coach_platform",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 281.27,
+      "mean_luminance": 0.5488477349281311,
+      "blown_pct_actual": 0.1542697482638889,
+      "crushed_pct_actual": 1.481011284722222,
+      "sha256": "916ceb1f3c27cb3c2164d88008f972201093da787965e9119892362240e547b7",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": null,
+      "visual_notes": "Continuous curved roof, framed windows, seat backs and door details visible."
+    },
+    {
+      "file": "TRAINVIEW_05_bogie_platform_cutaway.jpg",
+      "camera": "TRAINVIEW_05_bogie_platform_cutaway",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 252.74,
+      "mean_luminance": 0.3896942138671875,
+      "blown_pct_actual": 0.0,
+      "crushed_pct_actual": 5.621527777777778,
+      "sha256": "8f5849630512d8dd0f2f37b504fdd91011e33702be5de3bb42b3639ae5133a57",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": "High platform deck/furniture hidden to expose bogie",
+      "visual_notes": "Cutaway explicitly hides platform deck. Axle caps and brake parts visible; bogie frame remains simplified."
+    },
+    {
+      "file": "TRAINVIEW_06_electric_pantograph.jpg",
+      "camera": "TRAINVIEW_06_electric_pantograph",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 32,
+      "seconds": 267.41,
+      "mean_luminance": 0.29016923904418945,
+      "blown_pct_actual": 0.0,
+      "crushed_pct_actual": 1.2266981336805556,
+      "sha256": "0d1b19a07da7694dd44fcfd1011be955c47b5fafb38b174175fd3680f855be54",
+      "visual_inspection": "OPENED_AFTER_NATIVE_RENDER",
+      "native_render_method": "four native-pixel border tiles with 16px overlap, assembled without resizing",
+      "cutaway_note": null,
+      "visual_notes": "Diamond linkage corrected; shoe and contact wire modelled. Roof gear remains simplified."
+    }
+  ]
+}

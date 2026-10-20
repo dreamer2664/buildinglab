@@ -1,8 +1,0 @@
-{
-  "validator": "v_distinct",
-  "status": "PASS",
-  "unique_retail_signatures": 48,
-  "unique_fascias": 48,
-  "discrimination_pairs_passed": "10/10",
-  "errors": []
-}
