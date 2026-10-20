@@ -1,0 +1,48 @@
+{
+  "status": "INCOMPLETE",
+  "actual_scanned_people": 6,
+  "actual_subject_identities": 6,
+  "packed_photo_images": 6,
+  "people_required": 400,
+  "identities_required": 60,
+  "full_240_room_native_build": "NOT BUILT",
+  "blind_trials": "NOT PERFORMED",
+  "people": [
+    {
+      "name": "SCAN_HERO_01",
+      "subject": "HSR0015",
+      "vertices": 4995,
+      "sole_local_min_z": 0.0
+    },
+    {
+      "name": "SCAN_HERO_02",
+      "subject": "HSR0023",
+      "vertices": 4991,
+      "sole_local_min_z": 0.0
+    },
+    {
+      "name": "SCAN_HERO_03",
+      "subject": "HSR0027",
+      "vertices": 5000,
+      "sole_local_min_z": 0.0
+    },
+    {
+      "name": "SCAN_HERO_04",
+      "subject": "HSR0028",
+      "vertices": 5016,
+      "sole_local_min_z": 0.0
+    },
+    {
+      "name": "SCAN_HERO_05",
+      "subject": "HSR0040",
+      "vertices": 5002,
+      "sole_local_min_z": 0.0
+    },
+    {
+      "name": "SCAN_HERO_06",
+      "subject": "HSR0042",
+      "vertices": 5007,
+      "sole_local_min_z": 0.0
+    }
+  ]
+}

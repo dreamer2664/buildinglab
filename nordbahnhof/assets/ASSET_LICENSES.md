@@ -1,3 +1,7 @@
+# CURRENT REBUILD CORRECTION
+
+The historical ID_01..ID_60 listing below is a planned procedural identity schedule, not evidence of sixty completed human models. Current rebuild contains six HSRD-100 scanned identities, licensed CC BY 4.0; see scans/ATTRIBUTION.md and scans/PROVENANCE.json. MakeHuman prototype assets are CC0; see humans/PROVENANCE.json.
+
 # NORDBAHNHOF — Asset & Human Scan Licences (`ASSET_LICENSES.md`)
 
 Every geometry kit, material texture, and human identity in `nordbahnhof/**` is procedurally generated in Blender 4.3.2 Python or derived from CC0-1.0 public-domain specifications. Zero AI-generated images, zero capsules, zero billboards.

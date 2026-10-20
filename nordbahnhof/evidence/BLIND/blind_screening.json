@@ -1,47 +1,4 @@
 {
-  "classes": {
-    "exterior": {
-      "seed": 2026101910,
-      "trials": 20,
-      "correct_identifications": 7,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    },
-    "interior_volume": {
-      "seed": 2026101911,
-      "trials": 20,
-      "correct_identifications": 8,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    },
-    "human": {
-      "seed": 2026101912,
-      "trials": 20,
-      "correct_identifications": 7,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    },
-    "material_macro": {
-      "seed": 2026101913,
-      "trials": 20,
-      "correct_identifications": 8,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    },
-    "iron": {
-      "seed": 2026101914,
-      "trials": 20,
-      "correct_identifications": 7,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    },
-    "vehicle": {
-      "seed": 2026101915,
-      "trials": 20,
-      "correct_identifications": 8,
-      "pass_threshold": 9,
-      "status": "PASS_SCREENING_PENDING_INDEPENDENT_JUDGE"
-    }
-  },
-  "independent_acceptance": "PENDING"
+  "status": "WITHDRAWN",
+  "reason": "Generated deterministic numbers, not performed blind trials. No blind pass is established."
 }

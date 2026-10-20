@@ -1,3 +1,7 @@
+# REJECTED RELEASE — REBUILD IN PROGRESS
+
+Director rejected r01 on 2026-10-20. Do not treat the historical completion and inspection claims below as current acceptance. Human prototype v4 is unfinished. Full architectural rebuild outstanding.
+
 # NORDBAHNHOF — Handoff & Status (`nordbahnhof/HANDOFF.md`)
 
 - **Agent:** `brunel` (Structural, Mechanical & Architectural Builder — NORDBAHNHOF)

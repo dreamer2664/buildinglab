@@ -738,75 +738,6 @@ def build_retail_and_waiting_and_mechanisms(mats: dict, col_int, col_mech):
         col_int.objects.link(lo)
 
 
-def build_human_figure(hid: str, loc: tuple[float, float, float], rot_z: float,
-                       height_scale: float, coat_mat, hair_mat, skin_mat, boot_mat, brass_mat,
-                       has_cap: bool, has_flag: bool, has_case: bool, col_people):
-    # Smooth-shaded sculpted anatomical human figure (addresses D-002!)
-    px, py, pz = loc
-    s = height_scale
-    boot_m = create_sphere_mesh(f"Mesh_{hid}_Boot", 0.065 * s, 0.14 * s, 0.075 * s, segs=16)
-    leg_m = create_cyl_mesh(f"Mesh_{hid}_Leg", 0.072 * s, 0.72 * s, verts=18, axis="Z", smooth=True)
-    skirt_m = create_cyl_mesh(f"Mesh_{hid}_CoatSkirt", 0.21 * s, 0.44 * s, verts=22, axis="Z", smooth=True)
-    torso_m = create_sphere_mesh(f"Mesh_{hid}_Torso", 0.21 * s, 0.145 * s, 0.36 * s, segs=22)
-    collar_m = create_cyl_mesh(f"Mesh_{hid}_Collar", 0.115 * s, 0.08 * s, verts=20, axis="Z", smooth=True)
-    head_m = create_sphere_mesh(f"Mesh_{hid}_Head", 0.095 * s, 0.105 * s, 0.125 * s, segs=22)
-    nose_m = create_sphere_mesh(f"Mesh_{hid}_Nose", 0.018 * s, 0.028 * s, 0.025 * s, segs=12)
-    eye_m = create_sphere_mesh(f"Mesh_{hid}_Eye", 0.012 * s, 0.012 * s, 0.012 * s, segs=12)
-    hair_m = create_sphere_mesh(f"Mesh_{hid}_Hair", 0.102 * s, 0.112 * s, 0.095 * s, segs=20)
-    cap_crown = create_cyl_mesh(f"Mesh_{hid}_CapCrown", 0.112 * s, 0.065 * s, verts=22, axis="Z", smooth=True)
-    cap_visor = create_sphere_mesh(f"Mesh_{hid}_CapVisor", 0.095 * s, 0.065 * s, 0.015 * s, segs=16)
-    arm_m = create_cyl_mesh(f"Mesh_{hid}_Arm", 0.052 * s, 0.56 * s, verts=16, axis="Z", smooth=True)
-    hand_m = create_sphere_mesh(f"Mesh_{hid}_Palm", 0.035 * s, 0.025 * s, 0.045 * s, segs=14)
-    finger_m = create_cyl_mesh(f"Mesh_{hid}_Finger", 0.007 * s, 0.048 * s, verts=10, axis="Z", smooth=True)
-    btn_m = create_sphere_mesh(f"Mesh_{hid}_BrassButton", 0.012 * s, 0.008 * s, 0.012 * s, segs=10)
-
-    fwd_x = -math.sin(rot_z)
-    fwd_y = math.cos(rot_z)
-    right_x = math.cos(rot_z)
-    right_y = math.sin(rot_z)
-
-    for side, sgn in [("L", -1.0), ("R", 1.0)]:
-        ox = px + right_x * sgn * 0.095 * s
-        oy = py + right_y * sgn * 0.095 * s
-        add_mesh_obj(f"{hid}_Boot_{side}", boot_m, (ox + fwd_x * 0.03 * s, oy + fwd_y * 0.03 * s, pz + 0.065 * s), (0.0, 0.0, rot_z), mat=boot_mat, col=col_people)
-        add_mesh_obj(f"{hid}_Leg_{side}", leg_m, (ox, oy, pz + 0.44 * s), (0.0, 0.0, rot_z), mat=coat_mat, col=col_people)
-        ax = px + right_x * sgn * 0.235 * s
-        ay = py + right_y * sgn * 0.235 * s
-        arm_pitch = -0.45 if (side == "R" and has_flag) else 0.08 * sgn
-        add_mesh_obj(f"{hid}_Arm_{side}", arm_m, (ax, ay, pz + 1.12 * s), (arm_pitch, 0.0, rot_z), mat=coat_mat, col=col_people)
-        add_mesh_obj(f"{hid}_Palm_{side}", hand_m, (ax, ay + fwd_y * 0.03 * s, pz + 0.82 * s), (0.0, 0.0, rot_z), mat=skin_mat, col=col_people)
-        for f_i in range(5):
-            fx = ax + right_x * (f_i - 2) * 0.012 * s
-            fy = ay + right_y * (f_i - 2) * 0.012 * s + fwd_y * 0.04 * s
-            add_mesh_obj(f"{hid}_Hand_{side}_Finger_{f_i+1}", finger_m, (fx, fy, pz + 0.78 * s), (0.0, 0.0, rot_z), mat=skin_mat, col=col_people)
-
-    add_mesh_obj(f"{hid}_CoatSkirt", skirt_m, (px, py, pz + 0.78 * s), (0.0, 0.0, rot_z), mat=coat_mat, col=col_people)
-    add_mesh_obj(f"{hid}_WoolOvercoat_Torso", torso_m, (px, py, pz + 1.16 * s), (0.0, 0.0, rot_z), mat=coat_mat, col=col_people)
-    add_mesh_obj(f"{hid}_CoatCollar", collar_m, (px, py, pz + 1.46 * s), (0.0, 0.0, rot_z), mat=coat_mat, col=col_people)
-    for b_k in range(4):
-        bz_b = pz + (1.02 + b_k * 0.10) * s
-        add_mesh_obj(f"{hid}_Button_L_{b_k+1}", btn_m, (px + right_x * (-0.05 * s) + fwd_x * 0.142 * s, py + right_y * (-0.05 * s) + fwd_y * 0.142 * s, bz_b), (0.0, 0.0, rot_z), mat=brass_mat, col=col_people)
-        add_mesh_obj(f"{hid}_Button_R_{b_k+1}", btn_m, (px + right_x * (0.05 * s) + fwd_x * 0.142 * s, py + right_y * (0.05 * s) + fwd_y * 0.142 * s, bz_b), (0.0, 0.0, rot_z), mat=brass_mat, col=col_people)
-
-    add_mesh_obj(f"{hid}_Anatomical_Head", head_m, (px, py, pz + 1.60 * s), (0.0, 0.0, rot_z), mat=skin_mat, col=col_people)
-    add_mesh_obj(f"{hid}_Nose", nose_m, (px + fwd_x * 0.10 * s, py + fwd_y * 0.10 * s, pz + 1.60 * s), (0.0, 0.0, rot_z), mat=skin_mat, col=col_people)
-    add_mesh_obj(f"{hid}_Eye_L", eye_m, (px + right_x * (-0.035 * s) + fwd_x * 0.092 * s, py + right_y * (-0.035 * s) + fwd_y * 0.092 * s, pz + 1.625 * s), (0.0, 0.0, rot_z), mat=hair_mat, col=col_people)
-    add_mesh_obj(f"{hid}_Eye_R", eye_m, (px + right_x * (0.035 * s) + fwd_x * 0.092 * s, py + right_y * (0.035 * s) + fwd_y * 0.092 * s, pz + 1.625 * s), (0.0, 0.0, rot_z), mat=hair_mat, col=col_people)
-    add_mesh_obj(f"{hid}_StrandGroom_Hair", hair_m, (px - fwd_x * 0.015 * s, py - fwd_y * 0.015 * s, pz + 1.66 * s), (0.0, 0.0, rot_z), mat=hair_mat, col=col_people)
-
-    if has_cap:
-        add_mesh_obj(f"{hid}_RailwayCap_Crown", cap_crown, (px, py, pz + 1.72 * s), (0.0, 0.0, rot_z), mat=coat_mat, col=col_people)
-        add_mesh_obj(f"{hid}_RailwayCap_Visor", cap_visor, (px + fwd_x * 0.08 * s, py + fwd_y * 0.08 * s, pz + 1.695 * s), (0.0, 0.0, rot_z), mat=boot_mat, col=col_people)
-    if has_flag:
-        staff_m = create_cyl_mesh(f"Mesh_{hid}_FlagStaff", 0.010, 0.85, verts=10, axis="Z")
-        cloth_m = create_box_mesh(f"Mesh_{hid}_FlagCloth", 0.36, 0.01, 0.28, bevel_m=0.001)
-        add_mesh_obj(f"{hid}_SignalFlag_Staff", staff_m, (px + right_x * 0.32 * s, py + right_y * 0.32 * s + fwd_y * 0.18 * s, pz + 1.25 * s), (-0.35, 0.0, rot_z), mat=brass_mat, col=col_people)
-        add_mesh_obj(f"{hid}_SignalFlag_Cloth", cloth_m, (px + right_x * 0.48 * s, py + right_y * 0.48 * s + fwd_y * 0.28 * s, pz + 1.48 * s), (-0.35, 0.0, rot_z), mat=brass_mat, col=col_people)
-    if has_case:
-        valise_m = create_box_mesh(f"Mesh_{hid}_Valise", 0.18, 0.48, 0.34, bevel_m=0.003)
-        add_mesh_obj(f"{hid}_Leather_Valise", valise_m, (px + right_x * 0.32 * s, py + right_y * 0.32 * s, pz + 0.56 * s), (0.0, 0.0, rot_z), mat=hair_mat, col=col_people)
-
-
 def look_at_rotation(cam_loc: tuple[float, float, float], target_loc: tuple[float, float, float]) -> Euler:
     direction = Vector(target_loc) - Vector(cam_loc)
     quat = direction.to_track_quat("-Z", "Y")
@@ -842,7 +773,7 @@ def build_cameras(col_cams):
         ("CAM_16_vehicle_tender_and_cab", (15.8, 97.2, 2.40), (13.8, 93.0, 2.35), 38.0),
 
         # 17..20: Anatomical Hero Figures (Class 3: human) — framing head, peaked cap, face & winter coat
-        ("CAM_17_human_guard_HERO01", (12.0, 94.65, 2.18), (12.0, 96.5, 2.08), 42.0),
+        ("CAM_17_human_guard_HERO01", (12.4, 94.95, 2.12), (12.0, 96.5, 2.04), 28.0),
         ("CAM_18_human_porter_HERO02", (16.5, 94.95, 2.18), (16.5, 96.8, 2.08), 42.0),
         ("CAM_19_human_passenger_HERO19", (19.2, 94.95, 2.15), (19.2, 96.8, 2.05), 42.0),
         ("CAM_20_human_child_HERO04", (14.2, 94.5, 1.88), (14.2, 96.8, 1.72), 45.0),
@@ -968,8 +899,12 @@ def main():
     glb_path = EXPORT_DIR / "NORDBAHNHOF_StageB_Bay5.glb"
     bpy.ops.export_scene.gltf(filepath=str(glb_path), export_format="GLB")
 
-    print(f"build_bay.py v2 PASS: saved {blend_path.name} ({blend_path.stat().st_size} bytes), objects={len(bpy.data.objects)}, materials={len(bpy.data.materials)}")
+    print(f"build_bay.py BUILD FINISHED (not visual acceptance): saved {blend_path.name} ({blend_path.stat().st_size} bytes), objects={len(bpy.data.objects)}, materials={len(bpy.data.materials)}")
 
+
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from humans_v4 import build_human_figure
 
 if __name__ == "__main__":
     main()
