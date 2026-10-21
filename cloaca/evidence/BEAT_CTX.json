@@ -1,6 +1,6 @@
 {
-"stage": "F",
-"line": "all five (water layer + validator battery)",
-"next": "F water layer measured: 1,320-row HYDRAULICS, 4,032 tide samples max d 0.100 m, 6/6 overflows actuated by sim only (17 in the 28-day gate window, 55 over 180 days) \u00b7 generator 1.1.0 even course fit (C-016) re-keyed and rebuilt all 11 chunks \u00b7 validator battery 25 checks, then NEGATIVE_TESTS.md and G1-G14 rows",
-"t": "2026-10-21T18:56:54Z"
+"stage": "H",
+"line": "network pipeline + engines",
+"next": "engines measured (G5/G6 pass); next: four station blends, overflow penstocks and flap valves (v_facing), 120 figures (v_people), then renders toward 1,284",
+"t": "2026-10-21T22:41:50Z"
 }
