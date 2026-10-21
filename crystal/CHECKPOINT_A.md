@@ -1,4 +1,4 @@
-# CHECKPOINT_A — Stage A (Sources + Module) Complete
+# CHECKPOINT_A — Stage A (Sources + Module) Exit Verified (Continuing into Stage B)
 
 - **Agent:** `paxton`
 - **Project:** `CRYSTAL` (`buildinglab/crystal/**`)

@@ -31,8 +31,11 @@ def load_env(env_path: str = "/home/user/.private/paxton.env") -> None:
                 line = line.strip()
                 if not line or line.startswith("#") or "=" not in line:
                     continue
+                if line.startswith("export "):
+                    line = line[len("export "):].strip()
                 k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip())
+                v = v.strip().strip('"').strip("'")
+                os.environ.setdefault(k.strip(), v)
 
 
 def parse_iso_to_epoch(s: str) -> int:
@@ -86,27 +89,31 @@ def main() -> int:
 
     topic = os.environ.get("NTFY_TOPIC", "")
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
-    if not topic:
-        print("hb_reconcile: NTFY_TOPIC missing", file=sys.stderr)
-        return 1
 
     now_dt = datetime.datetime.now(datetime.timezone.utc)
     stamp = now_dt.strftime("%Y%m%dT%H%M%SZ")
     now_iso = now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     os.makedirs("evidence/HB_RECONCILE", exist_ok=True)
-    server_msgs = poll_server(server, topic)
-
-    snap_path = f"evidence/HB_RECONCILE/{stamp}.jsonl"
-    with open(snap_path, "w", encoding="utf-8") as fh:
-        for m in server_msgs:
-            fh.write(json.dumps({
-                "id": m.get("id"),
-                "time": m.get("time"),
-                "title": m.get("title"),
-                "priority": m.get("priority"),
-                "message": m.get("message"),
-            }, sort_keys=True) + "\n")
+    if topic:
+        server_msgs = poll_server(server, topic)
+        snap_path = f"evidence/HB_RECONCILE/{stamp}.jsonl"
+        with open(snap_path, "w", encoding="utf-8") as fh:
+            for m in server_msgs:
+                fh.write(json.dumps({
+                    "id": m.get("id"),
+                    "time": m.get("time"),
+                    "title": m.get("title"),
+                    "priority": m.get("priority"),
+                    "message": m.get("message"),
+                }, sort_keys=True) + "\n")
+    else:
+        snaps = sorted(f for f in os.listdir("evidence/HB_RECONCILE") if f.endswith(".jsonl"))
+        if not snaps:
+            print("hb_reconcile: NTFY_TOPIC missing and no snapshot found", file=sys.stderr)
+            return 1
+        snap_path = f"evidence/HB_RECONCILE/{snaps[-1]}"
+        server_msgs = read_jsonl(snap_path)
 
     local_rows = read_jsonl("evidence/HEARTBEATS.jsonl")
     expected_rows = read_jsonl("evidence/expected_ticks.jsonl")

@@ -1,4 +1,4 @@
-# CHECKPOINT_0 — Stage 0 Bootstrap Complete
+# CHECKPOINT_0 — Stage 0 Bootstrap Exit Verified (Continuing into Stage A)
 
 - **Agent:** `paxton`
 - **Project:** `CRYSTAL` (`buildinglab/crystal/**`, `buildinglab/agents/paxton/**`)

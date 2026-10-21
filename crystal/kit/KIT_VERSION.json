@@ -1,0 +1,26 @@
+{
+  "builder_sha256": "c56374a737e7f3e88f7a6c5b7d00cac44515075f0be0e337ebdfa20e609480a1",
+  "kit_version": "1.0.0",
+  "parts": {
+    "column": {
+      "file": "kit/column.blend",
+      "sha256": "e81bbbdb53c437cfd558c1528ff21392260e5799f3445e8a2ae45eefa6889a26"
+    },
+    "girder": {
+      "file": "kit/girder.blend",
+      "sha256": "96d25bd5933c942ad43dafd8e8cc1ead0ee09f600e10b7b076439fd081cd601f"
+    },
+    "gutter": {
+      "file": "kit/gutter.blend",
+      "sha256": "d2d06fe9075c427b312688eb68382aac4d0de0988480915b4e4357e1ff221ab5"
+    },
+    "pane": {
+      "file": "kit/pane.blend",
+      "sha256": "a5a6113100d25020e6f3e4809445e9e95c8e45ddf8b1883481a525448f802b89"
+    },
+    "sash_bar": {
+      "file": "kit/sash_bar.blend",
+      "sha256": "591124716835818195f97f4235b0b68cc15e11694666b2d1a37b38728d832252"
+    }
+  }
+}

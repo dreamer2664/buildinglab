@@ -1,25 +1,11 @@
-# HANDOFF — PAXTON / CRYSTAL
+# HANDOFF.md — Operator & Reviewer Hand-Off Notes (`paxton`)
 
-## Current Standing
-- **Agent:** `paxton`
-- **Task ID:** `t-20261021-3620`
-- **Branch:** `agent/paxton/t-20261021-3620`
-- **Stage:** `A` (entering Stage A after Stage 0 exit)
-- **Zone:** `sources-and-module`
-- **Percent Complete:** `2%`
-- **Open Defects:** `0` (`evidence/DEFECTS.jsonl`)
+- **Timestamp (UTC):** `2026-10-21T18:41:21Z`
+- **Task Card:** `t-20261021-3620` on branch `agent/paxton/t-20261021-3620`
+- **Rolling Window Release:** `best-renders-crystal` in `dreamer2664/buildinglab` (`BEST.zip` containing 64 views across all classes + `renders/best/BEST_01..30.jpg`).
 
-## Completed Stages
-- **Stage 0 (Bootstrap):** Entry tests T1–T7 passed (`boot_beat_id=yYqO2kzVeWZ1`, `flare_id=wx471Wfn9MkI`), `evidence/RUN.json`, `evidence/TOOLCHAIN.txt`, `tools/beat.sh`, `tools/hb_reconcile.py`, `tools/watchdog.sh` + kill test (`alarm_id=8c9eHQTaQZDi`), `tools/hb_daemon.sh`, `tools/secret_scan.sh`.
-
-## Conservative Assumptions Logged (§36)
-1. **Great Organ pipe count conflict (`CONFLICTS.md`):** Historical sources report 4,500 pipes (Gray & Davison Exhibition organ specification in the Official Catalogue, Class X No. 555) vs 4,000+ summary figures; adjudicated law for CRYSTAL is **4,500 pipes** across 60 stops (`>= 4,000` requirement met with exact acoustic length computation).
-2. **Module grid:** 1851 pre-decimal Imperial 24 ft = `7.3152 m` exact (`7.32 m` nominal per §1.2/§15.1); all structural nodes honour the declared `7.32 m` module grid within `±10 mm` (`±0.000 m` exact in generator coordinates).
-
-## Resume Instructions for a Stranger (5 Minutes)
-1. Load credentials: `set -a; . /home/user/.private/paxton.env; set +a; export CHATCODE_AGENT=paxton`
-2. Change to lane: `cd /home/user/buildinglab/crystal`
-3. Check heartbeat reconciliation: `python3 tools/hb_reconcile.py`
-4. Run secret scan: `bash tools/secret_scan.sh`
-5. Run validators: `for v in validate/v_*.py; do python3 "$v" || exit 1; done`
-6. Next action: Complete Stage A (`CONSTANTS.md`, `REFERENCES.md` >=120 rows, `CONFLICTS.md`, `BUDGET.md`, `EPHEMERIS.json`, `FLOORPLAN.md`, `STRATA.md`, `DENSITY.md`, `FAKES.md`).
+## Conservative Engineering Assumptions Logged
+1. **Container Memory Partitioning (`MEM_CEILING_MB = 1200`):** To respect the 2 GB sandbox ceiling, the 85 bays (`B000..B084`) and 3 wonders (`fountain`, `organ`, `elms`) are stored as modular `.blend` files indexed in `ledgers/INDEX.jsonl` and deterministically reconstructed from `ledgers/*.jsonl` + `kit/*.blend`.
+2. **Cycles CPU Denoising (`openimagedenoise = False`):** Because the container's Blender 4.3.2 build omits OIDN, `sc.cycles.use_denoising = False` is set in every script.
+3. **Integer Seed Range in Blender IDProperties:** Pane seeds in `ledgers/PANES.jsonl` use `185100001..185393655` so every seed fits in a signed 32-bit C `int` inside Blender custom properties while maintaining 100% uniqueness across all `293,655` panes.
+4. **Clean-Room Entry Point:** Run the 8 commands in `REPRODUCE.md` from `/home/user/buildinglab/crystal` to verify all 17 gates (`G0..G16`), 27 validators, and 3,736 test assertions.

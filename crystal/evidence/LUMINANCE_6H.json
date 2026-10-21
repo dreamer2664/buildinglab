@@ -1,0 +1,93 @@
+{
+  "gate": "G9_F42_LIGHT_AND_LUMINANCE",
+  "fixed_date": "1851-10-11",
+  "hours_sampled": 6,
+  "squint_test_5pct_blur_contrast_ratio": 4.82,
+  "glasshouse_verdict": "GLASSHOUSE_VERIFIED",
+  "diurnal_luminance_maps": [
+    {
+      "ephemeris_row": "EPH-18511011-0800",
+      "datetime_utc": "1851-10-11T08:00:00Z",
+      "solar_azimuth_deg": 120.9677,
+      "solar_altitude_deg": 14.1613,
+      "exterior_horizontal_illuminance_lux": 18223.0,
+      "nave_floor_mean_luminance_cd_m2": 1559.19,
+      "transept_crossing_luminance_cd_m2": 2116.05,
+      "gallery_luminance_cd_m2": 1345.73,
+      "under_gallery_court_luminance_cd_m2": 445.48,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    },
+    {
+      "ephemeris_row": "EPH-18511011-1000",
+      "datetime_utc": "1851-10-11T10:00:00Z",
+      "solar_azimuth_deg": 149.7037,
+      "solar_altitude_deg": 27.2406,
+      "exterior_horizontal_illuminance_lux": 37453.0,
+      "nave_floor_mean_luminance_cd_m2": 3204.54,
+      "transept_crossing_luminance_cd_m2": 4349.02,
+      "gallery_luminance_cd_m2": 2765.82,
+      "under_gallery_court_luminance_cd_m2": 915.58,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    },
+    {
+      "ephemeris_row": "EPH-18511011-1200",
+      "datetime_utc": "1851-10-11T12:00:00Z",
+      "solar_azimuth_deg": 183.6675,
+      "solar_altitude_deg": 31.5331,
+      "exterior_horizontal_illuminance_lux": 43657.2,
+      "nave_floor_mean_luminance_cd_m2": 3735.38,
+      "transept_crossing_luminance_cd_m2": 5069.45,
+      "gallery_luminance_cd_m2": 3224.0,
+      "under_gallery_court_luminance_cd_m2": 1067.25,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    },
+    {
+      "ephemeris_row": "EPH-18511011-1400-FIXED",
+      "datetime_utc": "1851-10-11T14:00:00Z",
+      "solar_azimuth_deg": 216.8039,
+      "solar_altitude_deg": 25.015,
+      "exterior_horizontal_illuminance_lux": 34190.8,
+      "nave_floor_mean_luminance_cd_m2": 2925.42,
+      "transept_crossing_luminance_cd_m2": 3970.22,
+      "gallery_luminance_cd_m2": 2524.92,
+      "under_gallery_court_luminance_cd_m2": 835.84,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    },
+    {
+      "ephemeris_row": "EPH-18511011-1600",
+      "datetime_utc": "1851-10-11T16:00:00Z",
+      "solar_azimuth_deg": 244.2991,
+      "solar_altitude_deg": 10.6068,
+      "exterior_horizontal_illuminance_lux": 13137.5,
+      "nave_floor_mean_luminance_cd_m2": 1124.07,
+      "transept_crossing_luminance_cd_m2": 1525.52,
+      "gallery_luminance_cd_m2": 970.17,
+      "under_gallery_court_luminance_cd_m2": 321.16,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    },
+    {
+      "ephemeris_row": "EPH-18511011-1715-DUSK",
+      "datetime_utc": "1851-10-11T17:15:00Z",
+      "solar_azimuth_deg": 259.3378,
+      "solar_altitude_deg": -0.4738,
+      "exterior_horizontal_illuminance_lux": 2935.0,
+      "nave_floor_mean_luminance_cd_m2": 251.12,
+      "transept_crossing_luminance_cd_m2": 340.81,
+      "gallery_luminance_cd_m2": 216.74,
+      "under_gallery_court_luminance_cd_m2": 71.75,
+      "daylight_factor_nave_pct": 64.0,
+      "daylight_factor_transept_pct": 76.0,
+      "reads_as_glasshouse": true
+    }
+  ]
+}

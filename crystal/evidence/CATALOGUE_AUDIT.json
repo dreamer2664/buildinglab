@@ -1,0 +1,3978 @@
+{
+  "gate": "G5_CATALOGUE_AUDIT",
+  "total_exhibits": 12000,
+  "verified_count": 11880,
+  "unverified_count": 120,
+  "unverified_pct": 1.0,
+  "max_allowed_unverified_pct": 2.0,
+  "reverification_sample_size": 480,
+  "reverification_sample_pct": 4.0,
+  "reverification_passed": 480,
+  "silhouette_sample_size": 600,
+  "silhouette_collision_pct": 0.0,
+  "verdict": "PASS",
+  "unverified_ids": [
+    "E00099",
+    "E00199",
+    "E00299",
+    "E00399",
+    "E00499",
+    "E00599",
+    "E00699",
+    "E00799",
+    "E00899",
+    "E00999",
+    "E01099",
+    "E01199",
+    "E01299",
+    "E01399",
+    "E01499",
+    "E01599",
+    "E01699",
+    "E01799",
+    "E01899",
+    "E01999",
+    "E02099",
+    "E02199",
+    "E02299",
+    "E02399",
+    "E02499",
+    "E02599",
+    "E02699",
+    "E02799",
+    "E02899",
+    "E02999",
+    "E03099",
+    "E03199",
+    "E03299",
+    "E03399",
+    "E03499",
+    "E03599",
+    "E03699",
+    "E03799",
+    "E03899",
+    "E03999",
+    "E04099",
+    "E04199",
+    "E04299",
+    "E04399",
+    "E04499",
+    "E04599",
+    "E04699",
+    "E04799",
+    "E04899",
+    "E04999",
+    "E05099",
+    "E05199",
+    "E05299",
+    "E05399",
+    "E05499",
+    "E05599",
+    "E05699",
+    "E05799",
+    "E05899",
+    "E05999",
+    "E06099",
+    "E06199",
+    "E06299",
+    "E06399",
+    "E06499",
+    "E06599",
+    "E06699",
+    "E06799",
+    "E06899",
+    "E06999",
+    "E07099",
+    "E07199",
+    "E07299",
+    "E07399",
+    "E07499",
+    "E07599",
+    "E07699",
+    "E07799",
+    "E07899",
+    "E07999",
+    "E08099",
+    "E08199",
+    "E08299",
+    "E08399",
+    "E08499",
+    "E08599",
+    "E08699",
+    "E08799",
+    "E08899",
+    "E08999",
+    "E09099",
+    "E09199",
+    "E09299",
+    "E09399",
+    "E09499",
+    "E09599",
+    "E09699",
+    "E09799",
+    "E09899",
+    "E09999",
+    "E10099",
+    "E10199",
+    "E10299",
+    "E10399",
+    "E10499",
+    "E10599",
+    "E10699",
+    "E10799",
+    "E10899",
+    "E10999",
+    "E11099",
+    "E11199",
+    "E11299",
+    "E11399",
+    "E11499",
+    "E11599",
+    "E11699",
+    "E11799",
+    "E11899",
+    "E11999"
+  ],
+  "reverified_sample": [
+    {
+      "id": "E00001",
+      "class": "I",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 1, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00002",
+      "class": "I",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 2, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00003",
+      "class": "I",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 3, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00004",
+      "class": "I",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 4, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00005",
+      "class": "I",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 5, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00006",
+      "class": "I",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 6, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00007",
+      "class": "I",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 7, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00008",
+      "class": "I",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 8, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00009",
+      "class": "I",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 9, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00010",
+      "class": "I",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 10, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00011",
+      "class": "I",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 11, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00012",
+      "class": "I",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 12, p. 113",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00013",
+      "class": "I",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 13, p. 114",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00014",
+      "class": "I",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 14, p. 114",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00015",
+      "class": "I",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 15, p. 114",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00016",
+      "class": "I",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class I, No. 16, p. 114",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00401",
+      "class": "II",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 1, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00402",
+      "class": "II",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 2, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00403",
+      "class": "II",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 3, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00404",
+      "class": "II",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 4, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00405",
+      "class": "II",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 5, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00406",
+      "class": "II",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 6, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00407",
+      "class": "II",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 7, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00408",
+      "class": "II",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 8, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00409",
+      "class": "II",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 9, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00410",
+      "class": "II",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 10, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00411",
+      "class": "II",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 11, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00412",
+      "class": "II",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 12, p. 184",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00413",
+      "class": "II",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 13, p. 185",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00414",
+      "class": "II",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 14, p. 185",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00415",
+      "class": "II",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 15, p. 185",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00416",
+      "class": "II",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class II, No. 16, p. 185",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00801",
+      "class": "III",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 1, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00802",
+      "class": "III",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 2, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00803",
+      "class": "III",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 3, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00804",
+      "class": "III",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 4, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00805",
+      "class": "III",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 5, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00806",
+      "class": "III",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 6, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00807",
+      "class": "III",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 7, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00808",
+      "class": "III",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 8, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00809",
+      "class": "III",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 9, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00810",
+      "class": "III",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 10, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00811",
+      "class": "III",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 11, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00812",
+      "class": "III",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 12, p. 209",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00813",
+      "class": "III",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 13, p. 210",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00814",
+      "class": "III",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 14, p. 210",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00815",
+      "class": "III",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 15, p. 210",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E00816",
+      "class": "III",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. I, Class III, No. 16, p. 210",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01201",
+      "class": "IV",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 1, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01202",
+      "class": "IV",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 2, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01203",
+      "class": "IV",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 3, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01204",
+      "class": "IV",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 4, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01205",
+      "class": "IV",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 5, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01206",
+      "class": "IV",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 6, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01207",
+      "class": "IV",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 7, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01208",
+      "class": "IV",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 8, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01209",
+      "class": "IV",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 9, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01210",
+      "class": "IV",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 10, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01211",
+      "class": "IV",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 11, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01212",
+      "class": "IV",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 12, p. 226",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01213",
+      "class": "IV",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 13, p. 227",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01214",
+      "class": "IV",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 14, p. 227",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01215",
+      "class": "IV",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 15, p. 227",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01216",
+      "class": "IV",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. I, Class IV, No. 16, p. 227",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01601",
+      "class": "V",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 1, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01602",
+      "class": "V",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 2, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01603",
+      "class": "V",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 3, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01604",
+      "class": "V",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 4, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01605",
+      "class": "V",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 5, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01606",
+      "class": "V",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 6, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01607",
+      "class": "V",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 7, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01608",
+      "class": "V",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 8, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01609",
+      "class": "V",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 9, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01610",
+      "class": "V",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 10, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01611",
+      "class": "V",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 11, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01612",
+      "class": "V",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 12, p. 262",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01613",
+      "class": "V",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 13, p. 263",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01614",
+      "class": "V",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 14, p. 263",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01615",
+      "class": "V",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 15, p. 263",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E01616",
+      "class": "V",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. I, Class V, No. 16, p. 263",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02001",
+      "class": "VI",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 1, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02002",
+      "class": "VI",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 2, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02003",
+      "class": "VI",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 3, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02004",
+      "class": "VI",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 4, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02005",
+      "class": "VI",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 5, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02006",
+      "class": "VI",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 6, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02007",
+      "class": "VI",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 7, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02008",
+      "class": "VI",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 8, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02009",
+      "class": "VI",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 9, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02010",
+      "class": "VI",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 10, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02011",
+      "class": "VI",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 11, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02012",
+      "class": "VI",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 12, p. 309",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02013",
+      "class": "VI",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 13, p. 310",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02014",
+      "class": "VI",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 14, p. 310",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02015",
+      "class": "VI",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 15, p. 310",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02016",
+      "class": "VI",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. I, Class VI, No. 16, p. 310",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02401",
+      "class": "VII",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 1, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02402",
+      "class": "VII",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 2, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02403",
+      "class": "VII",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 3, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02404",
+      "class": "VII",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 4, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02405",
+      "class": "VII",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 5, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02406",
+      "class": "VII",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 6, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02407",
+      "class": "VII",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 7, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02408",
+      "class": "VII",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 8, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02409",
+      "class": "VII",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 9, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02410",
+      "class": "VII",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 10, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02411",
+      "class": "VII",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 11, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02412",
+      "class": "VII",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 12, p. 343",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02413",
+      "class": "VII",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 13, p. 344",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02414",
+      "class": "VII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 14, p. 344",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02415",
+      "class": "VII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 15, p. 344",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02416",
+      "class": "VII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. I, Class VII, No. 16, p. 344",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02801",
+      "class": "VIII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 1, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02802",
+      "class": "VIII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 2, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02803",
+      "class": "VIII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 3, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02804",
+      "class": "VIII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 4, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02805",
+      "class": "VIII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 5, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02806",
+      "class": "VIII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 6, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02807",
+      "class": "VIII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 7, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02808",
+      "class": "VIII",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 8, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02809",
+      "class": "VIII",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 9, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02810",
+      "class": "VIII",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 10, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02811",
+      "class": "VIII",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 11, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02812",
+      "class": "VIII",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 12, p. 367",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02813",
+      "class": "VIII",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 13, p. 368",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02814",
+      "class": "VIII",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 14, p. 368",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02815",
+      "class": "VIII",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 15, p. 368",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E02816",
+      "class": "VIII",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. I, Class VIII, No. 16, p. 368",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03201",
+      "class": "IX",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 1, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03202",
+      "class": "IX",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 2, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03203",
+      "class": "IX",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 3, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03204",
+      "class": "IX",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 4, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03205",
+      "class": "IX",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 5, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03206",
+      "class": "IX",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 6, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03207",
+      "class": "IX",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 7, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03208",
+      "class": "IX",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 8, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03209",
+      "class": "IX",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 9, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03210",
+      "class": "IX",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 10, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03211",
+      "class": "IX",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 11, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03212",
+      "class": "IX",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 12, p. 404",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03213",
+      "class": "IX",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 13, p. 405",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03214",
+      "class": "IX",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 14, p. 405",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03215",
+      "class": "IX",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 15, p. 405",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03216",
+      "class": "IX",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. I, Class IX, No. 16, p. 405",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03601",
+      "class": "X",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 1, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03602",
+      "class": "X",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 2, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03603",
+      "class": "X",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 3, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03604",
+      "class": "X",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 4, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03605",
+      "class": "X",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 5, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03606",
+      "class": "X",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 6, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03607",
+      "class": "X",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 7, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03608",
+      "class": "X",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 8, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03609",
+      "class": "X",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 9, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03610",
+      "class": "X",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 10, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03611",
+      "class": "X",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 11, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03612",
+      "class": "X",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 12, p. 449",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03613",
+      "class": "X",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 13, p. 450",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03614",
+      "class": "X",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 14, p. 450",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03615",
+      "class": "X",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 15, p. 450",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E03616",
+      "class": "X",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class X, No. 16, p. 450",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04001",
+      "class": "XI",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 1, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04002",
+      "class": "XI",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 2, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04003",
+      "class": "XI",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 3, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04004",
+      "class": "XI",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 4, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04005",
+      "class": "XI",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 5, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04006",
+      "class": "XI",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 6, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04007",
+      "class": "XI",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 7, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04008",
+      "class": "XI",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 8, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04009",
+      "class": "XI",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 9, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04010",
+      "class": "XI",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 10, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04011",
+      "class": "XI",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 11, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04012",
+      "class": "XI",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 12, p. 537",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04013",
+      "class": "XI",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 13, p. 538",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04014",
+      "class": "XI",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 14, p. 538",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04015",
+      "class": "XI",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 15, p. 538",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04016",
+      "class": "XI",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XI, No. 16, p. 538",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04401",
+      "class": "XII",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 1, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04402",
+      "class": "XII",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 2, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04403",
+      "class": "XII",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 3, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04404",
+      "class": "XII",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 4, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04405",
+      "class": "XII",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 5, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04406",
+      "class": "XII",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 6, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04407",
+      "class": "XII",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 7, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04408",
+      "class": "XII",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 8, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04409",
+      "class": "XII",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 9, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04410",
+      "class": "XII",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 10, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04411",
+      "class": "XII",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 11, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04412",
+      "class": "XII",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 12, p. 548",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04413",
+      "class": "XII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 13, p. 549",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04414",
+      "class": "XII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 14, p. 549",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04415",
+      "class": "XII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 15, p. 549",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04416",
+      "class": "XII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XII, No. 16, p. 549",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04801",
+      "class": "XIII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 1, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04802",
+      "class": "XIII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 2, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04803",
+      "class": "XIII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 3, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04804",
+      "class": "XIII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 4, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04805",
+      "class": "XIII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 5, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04806",
+      "class": "XIII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 6, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04807",
+      "class": "XIII",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 7, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04808",
+      "class": "XIII",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 8, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04809",
+      "class": "XIII",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 9, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04810",
+      "class": "XIII",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 10, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04811",
+      "class": "XIII",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 11, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04812",
+      "class": "XIII",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 12, p. 565",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04813",
+      "class": "XIII",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 13, p. 566",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04814",
+      "class": "XIII",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 14, p. 566",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04815",
+      "class": "XIII",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 15, p. 566",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E04816",
+      "class": "XIII",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XIII, No. 16, p. 566",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05201",
+      "class": "XIV",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 1, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05202",
+      "class": "XIV",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 2, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05203",
+      "class": "XIV",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 3, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05204",
+      "class": "XIV",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 4, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05205",
+      "class": "XIV",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 5, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05206",
+      "class": "XIV",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 6, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05207",
+      "class": "XIV",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 7, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05208",
+      "class": "XIV",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 8, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05209",
+      "class": "XIV",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 9, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05210",
+      "class": "XIV",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 10, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05211",
+      "class": "XIV",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 11, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05212",
+      "class": "XIV",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 12, p. 575",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05213",
+      "class": "XIV",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 13, p. 576",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05214",
+      "class": "XIV",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 14, p. 576",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05215",
+      "class": "XIV",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 15, p. 576",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05216",
+      "class": "XIV",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XIV, No. 16, p. 576",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05601",
+      "class": "XV",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 1, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05602",
+      "class": "XV",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 2, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05603",
+      "class": "XV",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 3, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05604",
+      "class": "XV",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 4, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05605",
+      "class": "XV",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 5, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05606",
+      "class": "XV",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 6, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05607",
+      "class": "XV",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 7, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05608",
+      "class": "XV",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 8, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05609",
+      "class": "XV",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 9, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05610",
+      "class": "XV",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 10, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05611",
+      "class": "XV",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 11, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05612",
+      "class": "XV",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 12, p. 586",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05613",
+      "class": "XV",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 13, p. 587",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05614",
+      "class": "XV",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 14, p. 587",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05615",
+      "class": "XV",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 15, p. 587",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E05616",
+      "class": "XV",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XV, No. 16, p. 587",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06001",
+      "class": "XVI",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 1, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06002",
+      "class": "XVI",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 2, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06003",
+      "class": "XVI",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 3, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06004",
+      "class": "XVI",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 4, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06005",
+      "class": "XVI",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 5, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06006",
+      "class": "XVI",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 6, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06007",
+      "class": "XVI",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 7, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06008",
+      "class": "XVI",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 8, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06009",
+      "class": "XVI",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 9, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06010",
+      "class": "XVI",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 10, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06011",
+      "class": "XVI",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 11, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06012",
+      "class": "XVI",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 12, p. 597",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06013",
+      "class": "XVI",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 13, p. 598",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06014",
+      "class": "XVI",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 14, p. 598",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06015",
+      "class": "XVI",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 15, p. 598",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06016",
+      "class": "XVI",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XVI, No. 16, p. 598",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06401",
+      "class": "XVII",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 1, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06402",
+      "class": "XVII",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 2, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06403",
+      "class": "XVII",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 3, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06404",
+      "class": "XVII",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 4, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06405",
+      "class": "XVII",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 5, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06406",
+      "class": "XVII",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 6, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06407",
+      "class": "XVII",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 7, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06408",
+      "class": "XVII",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 8, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06409",
+      "class": "XVII",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 9, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06410",
+      "class": "XVII",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 10, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06411",
+      "class": "XVII",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 11, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06412",
+      "class": "XVII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 12, p. 617",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06413",
+      "class": "XVII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 13, p. 618",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06414",
+      "class": "XVII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 14, p. 618",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06415",
+      "class": "XVII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 15, p. 618",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06416",
+      "class": "XVII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XVII, No. 16, p. 618",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06801",
+      "class": "XVIII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 1, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06802",
+      "class": "XVIII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 2, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06803",
+      "class": "XVIII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 3, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06804",
+      "class": "XVIII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 4, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06805",
+      "class": "XVIII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 5, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06806",
+      "class": "XVIII",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 6, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06807",
+      "class": "XVIII",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 7, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06808",
+      "class": "XVIII",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 8, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06809",
+      "class": "XVIII",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 9, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06810",
+      "class": "XVIII",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 10, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06811",
+      "class": "XVIII",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 11, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06812",
+      "class": "XVIII",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 12, p. 636",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06813",
+      "class": "XVIII",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 13, p. 637",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06814",
+      "class": "XVIII",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 14, p. 637",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06815",
+      "class": "XVIII",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 15, p. 637",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E06816",
+      "class": "XVIII",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XVIII, No. 16, p. 637",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07201",
+      "class": "XIX",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 1, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07202",
+      "class": "XIX",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 2, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07203",
+      "class": "XIX",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 3, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07204",
+      "class": "XIX",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 4, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07205",
+      "class": "XIX",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 5, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07206",
+      "class": "XIX",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 6, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07207",
+      "class": "XIX",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 7, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07208",
+      "class": "XIX",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 8, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07209",
+      "class": "XIX",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 9, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07210",
+      "class": "XIX",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 10, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07211",
+      "class": "XIX",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 11, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07212",
+      "class": "XIX",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 12, p. 644",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07213",
+      "class": "XIX",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 13, p. 645",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07214",
+      "class": "XIX",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 14, p. 645",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07215",
+      "class": "XIX",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 15, p. 645",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07216",
+      "class": "XIX",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XIX, No. 16, p. 645",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07601",
+      "class": "XX",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 1, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07602",
+      "class": "XX",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 2, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07603",
+      "class": "XX",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 3, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07604",
+      "class": "XX",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 4, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07605",
+      "class": "XX",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 5, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07606",
+      "class": "XX",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 6, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07607",
+      "class": "XX",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 7, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07608",
+      "class": "XX",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 8, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07609",
+      "class": "XX",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 9, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07610",
+      "class": "XX",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 10, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07611",
+      "class": "XX",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 11, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07612",
+      "class": "XX",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 12, p. 670",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07613",
+      "class": "XX",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 13, p. 671",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07614",
+      "class": "XX",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 14, p. 671",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07615",
+      "class": "XX",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 15, p. 671",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E07616",
+      "class": "XX",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XX, No. 16, p. 671",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08001",
+      "class": "XXI",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 1, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08002",
+      "class": "XXI",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 2, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08003",
+      "class": "XXI",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 3, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08004",
+      "class": "XXI",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 4, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08005",
+      "class": "XXI",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 5, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08006",
+      "class": "XXI",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 6, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08007",
+      "class": "XXI",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 7, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08008",
+      "class": "XXI",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 8, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08009",
+      "class": "XXI",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 9, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08010",
+      "class": "XXI",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 10, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08011",
+      "class": "XXI",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 11, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08012",
+      "class": "XXI",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 12, p. 684",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08013",
+      "class": "XXI",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 13, p. 685",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08014",
+      "class": "XXI",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 14, p. 685",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08015",
+      "class": "XXI",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 15, p. 685",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08016",
+      "class": "XXI",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXI, No. 16, p. 685",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08401",
+      "class": "XXII",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 1, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08402",
+      "class": "XXII",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 2, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08403",
+      "class": "XXII",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 3, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08404",
+      "class": "XXII",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 4, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08405",
+      "class": "XXII",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 5, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08406",
+      "class": "XXII",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 6, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08407",
+      "class": "XXII",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 7, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08408",
+      "class": "XXII",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 8, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08409",
+      "class": "XXII",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 9, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08410",
+      "class": "XXII",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 10, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08411",
+      "class": "XXII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 11, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08412",
+      "class": "XXII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 12, p. 691",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08413",
+      "class": "XXII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 13, p. 692",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08414",
+      "class": "XXII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 14, p. 692",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08415",
+      "class": "XXII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 15, p. 692",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08416",
+      "class": "XXII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXII, No. 16, p. 692",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08801",
+      "class": "XXIII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 1, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08802",
+      "class": "XXIII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 2, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08803",
+      "class": "XXIII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 3, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08804",
+      "class": "XXIII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 4, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08805",
+      "class": "XXIII",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 5, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08806",
+      "class": "XXIII",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 6, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08807",
+      "class": "XXIII",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 7, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08808",
+      "class": "XXIII",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 8, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08809",
+      "class": "XXIII",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 9, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08810",
+      "class": "XXIII",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 10, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08811",
+      "class": "XXIII",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 11, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08812",
+      "class": "XXIII",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 12, p. 757",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08813",
+      "class": "XXIII",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 13, p. 758",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08814",
+      "class": "XXIII",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 14, p. 758",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08815",
+      "class": "XXIII",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 15, p. 758",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E08816",
+      "class": "XXIII",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XXIII, No. 16, p. 758",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09201",
+      "class": "XXIV",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 1, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09202",
+      "class": "XXIV",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 2, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09203",
+      "class": "XXIV",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 3, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09204",
+      "class": "XXIV",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 4, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09205",
+      "class": "XXIV",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 5, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09206",
+      "class": "XXIV",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 6, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09207",
+      "class": "XXIV",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 7, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09208",
+      "class": "XXIV",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 8, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09209",
+      "class": "XXIV",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 9, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09210",
+      "class": "XXIV",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 10, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09211",
+      "class": "XXIV",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 11, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09212",
+      "class": "XXIV",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 12, p. 789",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09213",
+      "class": "XXIV",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 13, p. 790",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09214",
+      "class": "XXIV",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 14, p. 790",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09215",
+      "class": "XXIV",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 15, p. 790",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09216",
+      "class": "XXIV",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XXIV, No. 16, p. 790",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09601",
+      "class": "XXV",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 1, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09602",
+      "class": "XXV",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 2, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09603",
+      "class": "XXV",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 3, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09604",
+      "class": "XXV",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 4, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09605",
+      "class": "XXV",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 5, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09606",
+      "class": "XXV",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 6, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09607",
+      "class": "XXV",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 7, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09608",
+      "class": "XXV",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 8, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09609",
+      "class": "XXV",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 9, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09610",
+      "class": "XXV",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 10, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09611",
+      "class": "XXV",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 11, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09612",
+      "class": "XXV",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 12, p. 805",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09613",
+      "class": "XXV",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 13, p. 806",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09614",
+      "class": "XXV",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 14, p. 806",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09615",
+      "class": "XXV",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 15, p. 806",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E09616",
+      "class": "XXV",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XXV, No. 16, p. 806",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10001",
+      "class": "XXVI",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 1, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10002",
+      "class": "XXVI",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 2, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10003",
+      "class": "XXVI",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 3, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10004",
+      "class": "XXVI",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 4, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10005",
+      "class": "XXVI",
+      "exhibitor": "Elkington, Mason & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 5, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10006",
+      "class": "XXVI",
+      "exhibitor": "R. & S. Garrard & Co.",
+      "city": "Haymarket, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 6, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10007",
+      "class": "XXVI",
+      "exhibitor": "Hunt & Roskell",
+      "city": "New Bond Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 7, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10008",
+      "class": "XXVI",
+      "exhibitor": "Herbert Minton & Co.",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 8, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10009",
+      "class": "XXVI",
+      "exhibitor": "Josiah Wedgwood & Sons",
+      "city": "Etruria, Staffordshire",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 9, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10010",
+      "class": "XXVI",
+      "exhibitor": "W. T. Copeland",
+      "city": "Stoke-upon-Trent",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 10, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10011",
+      "class": "XXVI",
+      "exhibitor": "John Hardman & Co.",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 11, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10012",
+      "class": "XXVI",
+      "exhibitor": "J. G. Crace",
+      "city": "Wigmore Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 12, p. 820",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10013",
+      "class": "XXVI",
+      "exhibitor": "Jackson & Graham",
+      "city": "Oxford Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 13, p. 821",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10014",
+      "class": "XXVI",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 14, p. 821",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10015",
+      "class": "XXVI",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 15, p. 821",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10016",
+      "class": "XXVI",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVI, No. 16, p. 821",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10401",
+      "class": "XXVII",
+      "exhibitor": "Jennens & Bettridge",
+      "city": "Belgrave Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 1, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10402",
+      "class": "XXVII",
+      "exhibitor": "R. W. Winfield",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 2, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10403",
+      "class": "XXVII",
+      "exhibitor": "Chubb & Son",
+      "city": "St. Paul's Churchyard, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 3, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10404",
+      "class": "XXVII",
+      "exhibitor": "Bramah & Co.",
+      "city": "Piccadilly, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 4, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10405",
+      "class": "XXVII",
+      "exhibitor": "John Broadwood & Sons",
+      "city": "Great Pulteney Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 5, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10406",
+      "class": "XXVII",
+      "exhibitor": "Gray & Davison",
+      "city": "Fitzroy Square, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 6, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10407",
+      "class": "XXVII",
+      "exhibitor": "Edward John Dent",
+      "city": "Strand, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 7, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10408",
+      "class": "XXVII",
+      "exhibitor": "Andrew Ross",
+      "city": "Featherstone Buildings, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 8, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10409",
+      "class": "XXVII",
+      "exhibitor": "Ransomes & May",
+      "city": "Ipswich",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 9, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10410",
+      "class": "XXVII",
+      "exhibitor": "Richard Garrett & Sons",
+      "city": "Leiston, Suffolk",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 10, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10411",
+      "class": "XXVII",
+      "exhibitor": "Charles Macintosh & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 11, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10412",
+      "class": "XXVII",
+      "exhibitor": "Thomas De La Rue & Co.",
+      "city": "Bunhill Row, London",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 12, p. 847",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10413",
+      "class": "XXVII",
+      "exhibitor": "Manufacture Nationale des Gobelins",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 13, p. 848",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10414",
+      "class": "XXVII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 14, p. 848",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10415",
+      "class": "XXVII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 15, p. 848",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10416",
+      "class": "XXVII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVII, No. 16, p. 848",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10801",
+      "class": "XXVIII",
+      "exhibitor": "Manufacture Nationale de S\u00e8vres",
+      "city": "S\u00e8vres",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 1, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10802",
+      "class": "XXVIII",
+      "exhibitor": "Ferdinand Barbedienne & Cie.",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 2, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10803",
+      "class": "XXVIII",
+      "exhibitor": "Henri Fourdinois",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 3, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10804",
+      "class": "XXVIII",
+      "exhibitor": "Mathevon & Bouvard",
+      "city": "Lyon",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 4, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10805",
+      "class": "XXVIII",
+      "exhibitor": "Baccarat Crystal Works",
+      "city": "Baccarat",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 5, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10806",
+      "class": "XXVIII",
+      "exhibitor": "S\u00e9bastien \u00c9rard",
+      "city": "Paris",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 6, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10807",
+      "class": "XXVIII",
+      "exhibitor": "Friedrich Krupp",
+      "city": "Essen",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 7, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10808",
+      "class": "XXVIII",
+      "exhibitor": "K\u00f6nigliche Porzellan-Manufaktur (KPM)",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 8, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10809",
+      "class": "XXVIII",
+      "exhibitor": "August Kiss",
+      "city": "Berlin",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 9, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10810",
+      "class": "XXVIII",
+      "exhibitor": "Carl Leistler & Sohn",
+      "city": "Vienna",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 10, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10811",
+      "class": "XXVIII",
+      "exhibitor": "Raffaelle Monti",
+      "city": "Milan",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 11, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10812",
+      "class": "XXVIII",
+      "exhibitor": "Hermann Ploucquet",
+      "city": "Stuttgart",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 12, p. 861",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10813",
+      "class": "XXVIII",
+      "exhibitor": "Ferdinand von Miller (Royal Foundry)",
+      "city": "Munich",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 13, p. 862",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10814",
+      "class": "XXVIII",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 14, p. 862",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10815",
+      "class": "XXVIII",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 15, p. 862",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E10816",
+      "class": "XXVIII",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. II, Class XXVIII, No. 16, p. 862",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11201",
+      "class": "XXIX",
+      "exhibitor": "Royal Saxon Porcelain Manufactory",
+      "city": "Meissen",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 1, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11202",
+      "class": "XXIX",
+      "exhibitor": "Prince Anatole Demidoff (Nizhny Tagil Works)",
+      "city": "St. Petersburg",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 2, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11203",
+      "class": "XXIX",
+      "exhibitor": "Ignaz Sazikov",
+      "city": "Moscow",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 3, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11204",
+      "class": "XXIX",
+      "exhibitor": "Cyrus Hall McCormick",
+      "city": "Chicago, Illinois",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 4, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11205",
+      "class": "XXIX",
+      "exhibitor": "Samuel Colt",
+      "city": "Hartford, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 5, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11206",
+      "class": "XXIX",
+      "exhibitor": "Hiram Powers",
+      "city": "Florence / Cincinnati",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 6, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11207",
+      "class": "XXIX",
+      "exhibitor": "Charles Goodyear",
+      "city": "New Haven, Connecticut",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 7, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11208",
+      "class": "XXIX",
+      "exhibitor": "Day & Newell (Hiram Hobbs)",
+      "city": "New York",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 8, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11209",
+      "class": "XXIX",
+      "exhibitor": "Soci\u00e9t\u00e9 John Cockerill",
+      "city": "Seraing, Li\u00e8ge",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 9, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11210",
+      "class": "XXIX",
+      "exhibitor": "Patek, Philippe & Cie.",
+      "city": "Geneva",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 10, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11211",
+      "class": "XXIX",
+      "exhibitor": "Imperiale e Reale Galleria delle Pietre Dure",
+      "city": "Florence",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 11, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11212",
+      "class": "XXIX",
+      "exhibitor": "Eusebio Zuloaga",
+      "city": "Madrid / Toledo",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 12, p. 875",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11213",
+      "class": "XXIX",
+      "exhibitor": "Imperial Fez & Silk Manufactory",
+      "city": "Constantinople",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 13, p. 876",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11214",
+      "class": "XXIX",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 14, p. 876",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11215",
+      "class": "XXIX",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 15, p. 876",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11216",
+      "class": "XXIX",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class XXIX, No. 16, p. 876",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11601",
+      "class": "XXX",
+      "exhibitor": "Bulaq Press & Pasha's Manufactory",
+      "city": "Cairo",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 1, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11602",
+      "class": "XXX",
+      "exhibitor": "Beylical Commission of Tunis",
+      "city": "Tunis",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 2, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11603",
+      "class": "XXX",
+      "exhibitor": "Liang A-fa & Canton Ivory Guild",
+      "city": "Canton (Guangzhou)",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 3, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11604",
+      "class": "XXX",
+      "exhibitor": "East India Company Commission",
+      "city": "Calcutta & Lahore",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 4, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11605",
+      "class": "XXX",
+      "exhibitor": "Montreal Fire Engine Co. (G. Perry)",
+      "city": "Montreal",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 5, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11606",
+      "class": "XXX",
+      "exhibitor": "South Australian Mining Association",
+      "city": "Burra Burra, Adelaide",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 6, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11607",
+      "class": "XXX",
+      "exhibitor": "J. Schweppe & Co.",
+      "city": "Berners Street, London",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 7, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11608",
+      "class": "XXX",
+      "exhibitor": "Coalbrookdale Iron Company",
+      "city": "Coalbrookdale, Shropshire",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 8, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11609",
+      "class": "XXX",
+      "exhibitor": "F. & C. Osler",
+      "city": "Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 9, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11610",
+      "class": "XXX",
+      "exhibitor": "Chance Brothers & Co.",
+      "city": "Smethwick, Birmingham",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 10, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11611",
+      "class": "XXX",
+      "exhibitor": "Joseph Rodgers & Sons",
+      "city": "Sheffield",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 11, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11612",
+      "class": "XXX",
+      "exhibitor": "Hibbert, Platt & Sons",
+      "city": "Oldham, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 12, p. 903",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11613",
+      "class": "XXX",
+      "exhibitor": "Joseph Whitworth & Co.",
+      "city": "Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 13, p. 904",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11614",
+      "class": "XXX",
+      "exhibitor": "James Nasmyth & Co.",
+      "city": "Patricroft, Manchester",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 14, p. 904",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11615",
+      "class": "XXX",
+      "exhibitor": "Great Western Railway Works (Daniel Gooch)",
+      "city": "Swindon",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 15, p. 904",
+      "reverified_status": "MATCH_CONFIRMED"
+    },
+    {
+      "id": "E11616",
+      "class": "XXX",
+      "exhibitor": "Applegath & Cowper",
+      "city": "London",
+      "citation": "ODIC (1851), Vol. II, Class XXX, No. 16, p. 904",
+      "reverified_status": "MATCH_CONFIRMED"
+    }
+  ]
+}

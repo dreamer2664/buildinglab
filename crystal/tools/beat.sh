@@ -83,13 +83,13 @@ else
   fi
 
   BAYS_DONE=0
-  [ -s ledgers/BAYS.jsonl ] && BAYS_DONE=$(grep -c '"status"[[:space:]]*:[[:space:]]*"built"' ledgers/BAYS.jsonl 2>/dev/null || wc -l < ledgers/BAYS.jsonl | tr -d ' ')
+  [ -s ledgers/BAYS.jsonl ] && BAYS_DONE=$(grep -c '"status"[[:space:]]*:[[:space:]]*"built"' ledgers/BAYS.jsonl 2>/dev/null || true)
   PANES=0
   [ -s ledgers/PANES.jsonl ] && PANES=$(wc -l < ledgers/PANES.jsonl | tr -d ' ')
   EXHIBITS=0
   [ -s ledgers/EXHIBITS.jsonl ] && EXHIBITS=$(wc -l < ledgers/EXHIBITS.jsonl | tr -d ' ')
   DEFECTS=0
-  [ -s evidence/DEFECTS.jsonl ] && DEFECTS=$(grep -c '"status"[[:space:]]*:[[:space:]]*"open"' evidence/DEFECTS.jsonl 2>/dev/null || echo 0)
+  [ -s evidence/DEFECTS.jsonl ] && DEFECTS=$(grep -c '"status"[[:space:]]*:[[:space:]]*"open"' evidence/DEFECTS.jsonl 2>/dev/null || true)
 
   NEXT="$(printf '%s' "$NEXT" | cut -c1-80)"
   [ -z "$TAGS" ] && TAGS="heartbeat,stage-${STAGE}"

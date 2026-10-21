@@ -1,0 +1,1811 @@
+{
+  "gate": "G3_G13_PANETEST",
+  "total_ledger_panes": 293655,
+  "sample_size": 100,
+  "unique_seeds_in_sample": 100,
+  "unique_ripple_profiles_in_sample": 100,
+  "repeating_ripples_found": 0,
+  "verdict": "PASS",
+  "sampled_panes": [
+    {
+      "id": "P001532",
+      "bay": "B000",
+      "cls": "roof",
+      "seed": 185101532,
+      "ripple_mm": 0.831,
+      "ior": 1.5186,
+      "vertex_wave_profile_mm": [
+        -0.44826,
+        -0.59426,
+        -0.63572,
+        0.11342,
+        1.04214,
+        0.80431
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P003209",
+      "bay": "B000",
+      "cls": "wall",
+      "seed": 185103209,
+      "ripple_mm": 0.329,
+      "ior": 1.521,
+      "vertex_wave_profile_mm": [
+        -0.2988,
+        0.09996,
+        0.42124,
+        0.25259,
+        -0.06128,
+        -0.16947
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P006939",
+      "bay": "B001",
+      "cls": "wall",
+      "seed": 185106939,
+      "ripple_mm": 0.702,
+      "ior": 1.5143,
+      "vertex_wave_profile_mm": [
+        -0.72039,
+        -0.84493,
+        -0.00146,
+        0.63475,
+        0.51571,
+        0.28558
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P008616",
+      "bay": "B002",
+      "cls": "roof",
+      "seed": 185108616,
+      "ripple_mm": 0.199,
+      "ior": 1.5167,
+      "vertex_wave_profile_mm": [
+        0.01656,
+        0.13219,
+        0.12937,
+        0.13307,
+        0.02756,
+        -0.20104
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P012346",
+      "bay": "B003",
+      "cls": "roof",
+      "seed": 185112346,
+      "ripple_mm": 0.572,
+      "ior": 1.522,
+      "vertex_wave_profile_mm": [
+        -0.67294,
+        -0.21029,
+        0.13618,
+        0.29569,
+        0.52837,
+        0.36857
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P014023",
+      "bay": "B003",
+      "cls": "wall",
+      "seed": 185114023,
+      "ripple_mm": 0.74,
+      "ior": 1.5124,
+      "vertex_wave_profile_mm": [
+        -0.03072,
+        0.39219,
+        0.85749,
+        0.44183,
+        -0.5876,
+        -0.86831
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P019430",
+      "bay": "B005",
+      "cls": "roof",
+      "seed": 185119430,
+      "ripple_mm": 0.61,
+      "ior": 1.5201,
+      "vertex_wave_profile_mm": [
+        0.29582,
+        0.79499,
+        0.38864,
+        -0.17187,
+        -0.33448,
+        -0.45294
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P024837",
+      "bay": "B006",
+      "cls": "wall",
+      "seed": 185124837,
+      "ripple_mm": 0.481,
+      "ior": 1.5158,
+      "vertex_wave_profile_mm": [
+        0.41209,
+        0.28298,
+        0.19009,
+        -0.1127,
+        -0.56355,
+        -0.46175
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P030244",
+      "bay": "B008",
+      "cls": "roof",
+      "seed": 185130244,
+      "ripple_mm": 0.352,
+      "ior": 1.5236,
+      "vertex_wave_profile_mm": [
+        0.25052,
+        0.35857,
+        0.05972,
+        -0.3916,
+        -0.3834,
+        -0.01981
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P035651",
+      "bay": "B009",
+      "cls": "panel",
+      "seed": 185135651,
+      "ripple_mm": 0.222,
+      "ior": 1.5193,
+      "vertex_wave_profile_mm": [
+        0.2876,
+        0.0651,
+        -0.13749,
+        -0.15184,
+        -0.14215,
+        -0.08566
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P041058",
+      "bay": "B011",
+      "cls": "roof",
+      "seed": 185141058,
+      "ripple_mm": 0.763,
+      "ior": 1.515,
+      "vertex_wave_profile_mm": [
+        0.42563,
+        0.07289,
+        -0.23647,
+        -0.76485,
+        -0.71039,
+        0.27861
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P046465",
+      "bay": "B012",
+      "cls": "panel",
+      "seed": 185146465,
+      "ripple_mm": 0.634,
+      "ior": 1.5227,
+      "vertex_wave_profile_mm": [
+        0.61517,
+        -0.00693,
+        -0.76443,
+        -0.62592,
+        0.0451,
+        0.34933
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P051872",
+      "bay": "B014",
+      "cls": "roof",
+      "seed": 185151872,
+      "ripple_mm": 0.504,
+      "ior": 1.5184,
+      "vertex_wave_profile_mm": [
+        0.06688,
+        -0.34526,
+        -0.34151,
+        -0.31237,
+        -0.14138,
+        0.39402
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P057279",
+      "bay": "B015",
+      "cls": "panel",
+      "seed": 185157279,
+      "ripple_mm": 0.375,
+      "ior": 1.5142,
+      "vertex_wave_profile_mm": [
+        0.01263,
+        -0.14911,
+        -0.3946,
+        -0.30368,
+        0.20392,
+        0.47126
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P062686",
+      "bay": "B017",
+      "cls": "roof",
+      "seed": 185162686,
+      "ripple_mm": 0.245,
+      "ior": 1.5219,
+      "vertex_wave_profile_mm": [
+        -0.04752,
+        -0.31212,
+        -0.2128,
+        0.04686,
+        0.14353,
+        0.16514
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P064363",
+      "bay": "B017",
+      "cls": "panel",
+      "seed": 185164363,
+      "ripple_mm": 0.413,
+      "ior": 1.5123,
+      "vertex_wave_profile_mm": [
+        -0.27987,
+        0.01547,
+        0.14776,
+        0.34189,
+        0.38387,
+        -0.06578
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P068093",
+      "bay": "B019",
+      "cls": "roof",
+      "seed": 185168093,
+      "ripple_mm": 0.786,
+      "ior": 1.5176,
+      "vertex_wave_profile_mm": [
+        -0.71097,
+        -0.63829,
+        -0.30316,
+        -0.05631,
+        0.53561,
+        0.96196
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P069770",
+      "bay": "B019",
+      "cls": "roof",
+      "seed": 185169770,
+      "ripple_mm": 0.284,
+      "ior": 1.52,
+      "vertex_wave_profile_mm": [
+        -0.243,
+        -0.04351,
+        0.31108,
+        0.32962,
+        0.00246,
+        -0.20112
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P073500",
+      "bay": "B020",
+      "cls": "roof",
+      "seed": 185173500,
+      "ripple_mm": 0.657,
+      "ior": 1.5133,
+      "vertex_wave_profile_mm": [
+        -0.31875,
+        -0.71237,
+        -0.44014,
+        0.46719,
+        0.8164,
+        0.29847
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P075177",
+      "bay": "B020",
+      "cls": "panel",
+      "seed": 185175177,
+      "ripple_mm": 0.824,
+      "ior": 1.5157,
+      "vertex_wave_profile_mm": [
+        -0.45182,
+        0.65523,
+        0.84948,
+        0.33919,
+        0.00502,
+        -0.3828
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P078907",
+      "bay": "B022",
+      "cls": "roof",
+      "seed": 185178907,
+      "ripple_mm": 0.527,
+      "ior": 1.521,
+      "vertex_wave_profile_mm": [
+        -0.65769,
+        -0.51214,
+        0.15551,
+        0.44819,
+        0.33347,
+        0.24124
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P080584",
+      "bay": "B022",
+      "cls": "roof",
+      "seed": 185180584,
+      "ripple_mm": 0.695,
+      "ior": 1.5234,
+      "vertex_wave_profile_mm": [
+        0.07807,
+        0.28912,
+        0.60855,
+        0.58594,
+        -0.23781,
+        -0.90792
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P084314",
+      "bay": "B023",
+      "cls": "roof",
+      "seed": 185184314,
+      "ripple_mm": 0.398,
+      "ior": 1.5168,
+      "vertex_wave_profile_mm": [
+        -0.30204,
+        -0.13163,
+        0.00451,
+        0.31373,
+        0.47393,
+        0.07619
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P085991",
+      "bay": "B024",
+      "cls": "roof",
+      "seed": 185185991,
+      "ripple_mm": 0.566,
+      "ior": 1.5191,
+      "vertex_wave_profile_mm": [
+        -0.05174,
+        0.56357,
+        0.68528,
+        0.00979,
+        -0.53423,
+        -0.43114
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P089721",
+      "bay": "B025",
+      "cls": "roof",
+      "seed": 185189721,
+      "ripple_mm": 0.268,
+      "ior": 1.5125,
+      "vertex_wave_profile_mm": [
+        -0.29395,
+        -0.13776,
+        0.23142,
+        0.32278,
+        0.08759,
+        -0.09
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P091398",
+      "bay": "B025",
+      "cls": "roof",
+      "seed": 185191398,
+      "ripple_mm": 0.436,
+      "ior": 1.5149,
+      "vertex_wave_profile_mm": [
+        0.39883,
+        0.42886,
+        0.1435,
+        -0.02469,
+        -0.24154,
+        -0.484
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P095128",
+      "bay": "B026",
+      "cls": "roof",
+      "seed": 185195128,
+      "ripple_mm": 0.809,
+      "ior": 1.5202,
+      "vertex_wave_profile_mm": [
+        -0.67294,
+        0.35517,
+        0.69758,
+        0.48406,
+        0.32834,
+        -0.15713
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P096805",
+      "bay": "B027",
+      "cls": "roof",
+      "seed": 185196805,
+      "ripple_mm": 0.307,
+      "ior": 1.5226,
+      "vertex_wave_profile_mm": [
+        0.22607,
+        0.18413,
+        0.1233,
+        -0.1527,
+        -0.40219,
+        -0.2025
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P100535",
+      "bay": "B028",
+      "cls": "roof",
+      "seed": 185200535,
+      "ripple_mm": 0.68,
+      "ior": 1.5159,
+      "vertex_wave_profile_mm": [
+        -0.18662,
+        0.06752,
+        0.60192,
+        0.77042,
+        0.00142,
+        -0.76693
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P102212",
+      "bay": "B028",
+      "cls": "roof",
+      "seed": 185202212,
+      "ripple_mm": 0.847,
+      "ior": 1.5183,
+      "vertex_wave_profile_mm": [
+        0.96507,
+        0.79709,
+        -0.35579,
+        -0.96346,
+        -0.53143,
+        -0.05322
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P105942",
+      "bay": "B029",
+      "cls": "roof",
+      "seed": 185205942,
+      "ripple_mm": 0.55,
+      "ior": 1.5236,
+      "vertex_wave_profile_mm": [
+        -0.25549,
+        0.44447,
+        0.7214,
+        0.19024,
+        -0.33069,
+        -0.37893
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P107619",
+      "bay": "B030",
+      "cls": "roof",
+      "seed": 185207619,
+      "ripple_mm": 0.718,
+      "ior": 1.514,
+      "vertex_wave_profile_mm": [
+        0.6266,
+        0.01275,
+        -0.25673,
+        -0.50657,
+        -0.68206,
+        -0.08711
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P111349",
+      "bay": "B031",
+      "cls": "roof",
+      "seed": 185211349,
+      "ripple_mm": 0.421,
+      "ior": 1.5193,
+      "vertex_wave_profile_mm": [
+        0.23996,
+        0.36207,
+        0.236,
+        0.14581,
+        -0.13581,
+        -0.50825
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P113026",
+      "bay": "B031",
+      "cls": "roof",
+      "seed": 185213026,
+      "ripple_mm": 0.589,
+      "ior": 1.5217,
+      "vertex_wave_profile_mm": [
+        0.33914,
+        0.18457,
+        -0.37645,
+        -0.77364,
+        -0.28738,
+        0.46063
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P116756",
+      "bay": "B032",
+      "cls": "roof",
+      "seed": 185216756,
+      "ripple_mm": 0.292,
+      "ior": 1.5151,
+      "vertex_wave_profile_mm": [
+        0.09217,
+        0.21945,
+        0.28704,
+        0.01411,
+        -0.34411,
+        -0.2994
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P118433",
+      "bay": "B033",
+      "cls": "roof",
+      "seed": 185218433,
+      "ripple_mm": 0.459,
+      "ior": 1.5174,
+      "vertex_wave_profile_mm": [
+        0.36801,
+        -0.26982,
+        -0.52199,
+        -0.24506,
+        0.00131,
+        0.16828
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P122163",
+      "bay": "B034",
+      "cls": "roof",
+      "seed": 185222163,
+      "ripple_mm": 0.832,
+      "ior": 1.5228,
+      "vertex_wave_profile_mm": [
+        0.90119,
+        0.96959,
+        -0.0523,
+        -0.73797,
+        -0.58507,
+        -0.35823
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P123840",
+      "bay": "B034",
+      "cls": "roof",
+      "seed": 185223840,
+      "ripple_mm": 0.33,
+      "ior": 1.5132,
+      "vertex_wave_profile_mm": [
+        -0.03955,
+        -0.20917,
+        -0.21505,
+        -0.23071,
+        -0.03275,
+        0.35246
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P127570",
+      "bay": "B035",
+      "cls": "roof",
+      "seed": 185227570,
+      "ripple_mm": 0.703,
+      "ior": 1.5185,
+      "vertex_wave_profile_mm": [
+        0.6289,
+        0.24696,
+        0.01392,
+        -0.42532,
+        -0.82807,
+        -0.33494
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P129247",
+      "bay": "B036",
+      "cls": "roof",
+      "seed": 185229247,
+      "ripple_mm": 0.2,
+      "ior": 1.5209,
+      "vertex_wave_profile_mm": [
+        0.04297,
+        -0.15463,
+        -0.25803,
+        -0.06152,
+        0.17741,
+        0.1785
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P132977",
+      "bay": "B037",
+      "cls": "roof",
+      "seed": 185232977,
+      "ripple_mm": 0.573,
+      "ior": 1.5142,
+      "vertex_wave_profile_mm": [
+        0.44034,
+        0.39891,
+        -0.21489,
+        -0.76218,
+        -0.43741,
+        0.23841
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P134654",
+      "bay": "B037",
+      "cls": "roof",
+      "seed": 185234654,
+      "ripple_mm": 0.741,
+      "ior": 1.5166,
+      "vertex_wave_profile_mm": [
+        -0.41287,
+        -0.95545,
+        -0.42763,
+        0.20479,
+        0.39133,
+        0.57571
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P138384",
+      "bay": "B037",
+      "cls": "wall",
+      "seed": 185238384,
+      "ripple_mm": 0.444,
+      "ior": 1.5219,
+      "vertex_wave_profile_mm": [
+        0.46934,
+        -0.10247,
+        -0.4099,
+        -0.29274,
+        -0.17035,
+        0.02231
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P140061",
+      "bay": "B038",
+      "cls": "roof",
+      "seed": 185240061,
+      "ripple_mm": 0.612,
+      "ior": 1.5123,
+      "vertex_wave_profile_mm": [
+        -0.40599,
+        -0.40121,
+        -0.40171,
+        0.02996,
+        0.71483,
+        0.65949
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P143791",
+      "bay": "B038",
+      "cls": "roof",
+      "seed": 185243791,
+      "ripple_mm": 0.315,
+      "ior": 1.5176,
+      "vertex_wave_profile_mm": [
+        0.06997,
+        -0.08577,
+        -0.18415,
+        -0.30611,
+        -0.14688,
+        0.27369
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P145468",
+      "bay": "B038",
+      "cls": "wall",
+      "seed": 185245468,
+      "ripple_mm": 0.482,
+      "ior": 1.52,
+      "vertex_wave_profile_mm": [
+        -0.43197,
+        -0.59779,
+        -0.0591,
+        0.46845,
+        0.40378,
+        0.15065
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P149198",
+      "bay": "B039",
+      "cls": "roof",
+      "seed": 185249198,
+      "ripple_mm": 0.185,
+      "ior": 1.5134,
+      "vertex_wave_profile_mm": [
+        0.11094,
+        -0.10049,
+        -0.24962,
+        -0.11267,
+        0.09826,
+        0.14056
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P150875",
+      "bay": "B039",
+      "cls": "roof",
+      "seed": 185250875,
+      "ripple_mm": 0.353,
+      "ior": 1.5157,
+      "vertex_wave_profile_mm": [
+        -0.44987,
+        -0.15604,
+        0.12539,
+        0.19809,
+        0.2807,
+        0.22354
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P154605",
+      "bay": "B040",
+      "cls": "roof",
+      "seed": 185254605,
+      "ripple_mm": 0.726,
+      "ior": 1.5211,
+      "vertex_wave_profile_mm": [
+        -0.15815,
+        -0.81872,
+        -0.53365,
+        -0.08293,
+        0.16588,
+        0.59557
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P156282",
+      "bay": "B040",
+      "cls": "roof",
+      "seed": 185256282,
+      "ripple_mm": 0.224,
+      "ior": 1.5235,
+      "vertex_wave_profile_mm": [
+        -0.14672,
+        -0.13458,
+        0.04517,
+        0.27903,
+        0.21321,
+        -0.07945
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P160012",
+      "bay": "B041",
+      "cls": "roof",
+      "seed": 185260012,
+      "ripple_mm": 0.597,
+      "ior": 1.5168,
+      "vertex_wave_profile_mm": [
+        -0.19521,
+        -0.38237,
+        -0.57391,
+        -0.18436,
+        0.60064,
+        0.71837
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P161689",
+      "bay": "B042",
+      "cls": "roof",
+      "seed": 185261689,
+      "ripple_mm": 0.764,
+      "ior": 1.5192,
+      "vertex_wave_profile_mm": [
+        -0.87665,
+        -0.13395,
+        0.82503,
+        0.76351,
+        0.11134,
+        -0.22564
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P165419",
+      "bay": "B043",
+      "cls": "roof",
+      "seed": 185265419,
+      "ripple_mm": 0.467,
+      "ior": 1.5125,
+      "vertex_wave_profile_mm": [
+        -0.32857,
+        -0.62621,
+        -0.20818,
+        0.29504,
+        0.35185,
+        0.27224
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P167096",
+      "bay": "B043",
+      "cls": "roof",
+      "seed": 185267096,
+      "ripple_mm": 0.635,
+      "ior": 1.5149,
+      "vertex_wave_profile_mm": [
+        -0.19321,
+        0.26966,
+        0.37502,
+        0.51006,
+        0.33176,
+        -0.42983
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P170826",
+      "bay": "B044",
+      "cls": "roof",
+      "seed": 185270826,
+      "ripple_mm": 0.338,
+      "ior": 1.5202,
+      "vertex_wave_profile_mm": [
+        -0.38988,
+        -0.21753,
+        -0.01485,
+        0.10118,
+        0.30014,
+        0.32876
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P172503",
+      "bay": "B045",
+      "cls": "roof",
+      "seed": 185272503,
+      "ripple_mm": 0.505,
+      "ior": 1.5226,
+      "vertex_wave_profile_mm": [
+        -0.26878,
+        0.17966,
+        0.65596,
+        0.40781,
+        -0.25402,
+        -0.46851
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P176233",
+      "bay": "B046",
+      "cls": "roof",
+      "seed": 185276233,
+      "ripple_mm": 0.208,
+      "ior": 1.5159,
+      "vertex_wave_profile_mm": [
+        -0.14393,
+        -0.19401,
+        -0.02941,
+        0.23363,
+        0.23238,
+        0.00163
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P177910",
+      "bay": "B046",
+      "cls": "roof",
+      "seed": 185277910,
+      "ripple_mm": 0.376,
+      "ior": 1.5183,
+      "vertex_wave_profile_mm": [
+        0.00499,
+        0.43759,
+        0.34156,
+        0.01675,
+        -0.13091,
+        -0.25814
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P181640",
+      "bay": "B047",
+      "cls": "roof",
+      "seed": 185281640,
+      "ripple_mm": 0.749,
+      "ior": 1.5237,
+      "vertex_wave_profile_mm": [
+        -0.97857,
+        -0.3848,
+        0.58351,
+        0.71816,
+        0.32703,
+        0.07591
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P183317",
+      "bay": "B048",
+      "cls": "roof",
+      "seed": 185283317,
+      "ripple_mm": 0.247,
+      "ior": 1.5141,
+      "vertex_wave_profile_mm": [
+        0.11968,
+        0.15225,
+        0.19758,
+        0.09812,
+        -0.20479,
+        -0.32417
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P187047",
+      "bay": "B049",
+      "cls": "roof",
+      "seed": 185287047,
+      "ripple_mm": 0.62,
+      "ior": 1.5194,
+      "vertex_wave_profile_mm": [
+        -0.33887,
+        0.01467,
+        0.22999,
+        0.585,
+        0.54357,
+        -0.23489
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P188724",
+      "bay": "B049",
+      "cls": "roof",
+      "seed": 185288724,
+      "ripple_mm": 0.787,
+      "ior": 1.5218,
+      "vertex_wave_profile_mm": [
+        0.40559,
+        0.88325,
+        0.48649,
+        -0.60736,
+        -0.95081,
+        -0.32071
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P192454",
+      "bay": "B050",
+      "cls": "roof",
+      "seed": 185292454,
+      "ripple_mm": 0.49,
+      "ior": 1.5151,
+      "vertex_wave_profile_mm": [
+        -0.33159,
+        -0.05337,
+        0.51216,
+        0.58617,
+        -0.00356,
+        -0.42994
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P194131",
+      "bay": "B051",
+      "cls": "roof",
+      "seed": 185294131,
+      "ripple_mm": 0.658,
+      "ior": 1.5175,
+      "vertex_wave_profile_mm": [
+        0.86558,
+        0.4418,
+        -0.20301,
+        -0.38495,
+        -0.46858,
+        -0.45709
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P197861",
+      "bay": "B052",
+      "cls": "roof",
+      "seed": 185297861,
+      "ripple_mm": 0.361,
+      "ior": 1.5228,
+      "vertex_wave_profile_mm": [
+        -0.12054,
+        0.32079,
+        0.33064,
+        0.13313,
+        0.01255,
+        -0.20619
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P199538",
+      "bay": "B052",
+      "cls": "roof",
+      "seed": 185299538,
+      "ripple_mm": 0.529,
+      "ior": 1.5132,
+      "vertex_wave_profile_mm": [
+        0.38177,
+        0.18548,
+        -0.00608,
+        -0.44675,
+        -0.62906,
+        -0.06104
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P203268",
+      "bay": "B053",
+      "cls": "roof",
+      "seed": 185303268,
+      "ripple_mm": 0.231,
+      "ior": 1.5185,
+      "vertex_wave_profile_mm": [
+        0.02044,
+        0.10224,
+        0.22754,
+        0.17573,
+        -0.12867,
+        -0.29997
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P204945",
+      "bay": "B054",
+      "cls": "roof",
+      "seed": 185304945,
+      "ripple_mm": 0.399,
+      "ior": 1.5209,
+      "vertex_wave_profile_mm": [
+        0.4497,
+        0.18116,
+        -0.36535,
+        -0.4633,
+        -0.11411,
+        0.12449
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P208675",
+      "bay": "B055",
+      "cls": "roof",
+      "seed": 185308675,
+      "ripple_mm": 0.772,
+      "ior": 1.5143,
+      "vertex_wave_profile_mm": [
+        0.02723,
+        0.88604,
+        0.84578,
+        -0.13733,
+        -0.70997,
+        -0.52152
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P210352",
+      "bay": "B055",
+      "cls": "roof",
+      "seed": 185310352,
+      "ripple_mm": 0.27,
+      "ior": 1.5167,
+      "vertex_wave_profile_mm": [
+        0.1429,
+        -0.10814,
+        -0.16412,
+        -0.19518,
+        -0.16618,
+        0.11045
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P214082",
+      "bay": "B056",
+      "cls": "roof",
+      "seed": 185314082,
+      "ripple_mm": 0.643,
+      "ior": 1.522,
+      "vertex_wave_profile_mm": [
+        0.7418,
+        0.52693,
+        0.04824,
+        -0.17728,
+        -0.47824,
+        -0.65294
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P215759",
+      "bay": "B057",
+      "cls": "roof",
+      "seed": 185315759,
+      "ripple_mm": 0.81,
+      "ior": 1.5124,
+      "vertex_wave_profile_mm": [
+        0.24095,
+        -0.08651,
+        -0.76209,
+        -0.9068,
+        0.06015,
+        0.91781
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P219489",
+      "bay": "B058",
+      "cls": "roof",
+      "seed": 185319489,
+      "ripple_mm": 0.513,
+      "ior": 1.5177,
+      "vertex_wave_profile_mm": [
+        0.34614,
+        0.33336,
+        0.19092,
+        -0.34978,
+        -0.683,
+        -0.23082
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P221166",
+      "bay": "B058",
+      "cls": "roof",
+      "seed": 185321166,
+      "ripple_mm": 0.681,
+      "ior": 1.5201,
+      "vertex_wave_profile_mm": [
+        0.18971,
+        -0.70825,
+        -0.74427,
+        -0.11284,
+        0.25118,
+        0.41182
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P224896",
+      "bay": "B059",
+      "cls": "roof",
+      "seed": 185324896,
+      "ripple_mm": 0.384,
+      "ior": 1.5134,
+      "vertex_wave_profile_mm": [
+        0.47773,
+        0.29941,
+        -0.22917,
+        -0.41035,
+        -0.20214,
+        -0.03524
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P226573",
+      "bay": "B060",
+      "cls": "roof",
+      "seed": 185326573,
+      "ripple_mm": 0.552,
+      "ior": 1.5158,
+      "vertex_wave_profile_mm": [
+        -0.32666,
+        -0.4531,
+        -0.31192,
+        -0.20269,
+        0.20428,
+        0.68746
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P230303",
+      "bay": "B061",
+      "cls": "roof",
+      "seed": 185330303,
+      "ripple_mm": 0.255,
+      "ior": 1.5211,
+      "vertex_wave_profile_mm": [
+        0.18369,
+        -0.0017,
+        -0.08538,
+        -0.2053,
+        -0.24429,
+        0.02163
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P231980",
+      "bay": "B061",
+      "cls": "roof",
+      "seed": 185331980,
+      "ripple_mm": 0.422,
+      "ior": 1.5235,
+      "vertex_wave_profile_mm": [
+        -0.08709,
+        -0.43167,
+        -0.43296,
+        0.11049,
+        0.49777,
+        0.30996
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P235710",
+      "bay": "B062",
+      "cls": "wall",
+      "seed": 185335710,
+      "ripple_mm": 0.795,
+      "ior": 1.5169,
+      "vertex_wave_profile_mm": [
+        0.50001,
+        0.20846,
+        -0.65313,
+        -1.03338,
+        -0.21597,
+        0.67072
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P237387",
+      "bay": "B063",
+      "cls": "roof",
+      "seed": 185337387,
+      "ripple_mm": 0.293,
+      "ior": 1.5192,
+      "vertex_wave_profile_mm": [
+        -0.2958,
+        -0.35727,
+        -0.03705,
+        0.19145,
+        0.19461,
+        0.19099
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P241117",
+      "bay": "B064",
+      "cls": "roof",
+      "seed": 185341117,
+      "ripple_mm": 0.666,
+      "ior": 1.5126,
+      "vertex_wave_profile_mm": [
+        0.41136,
+        -0.494,
+        -0.69659,
+        -0.29616,
+        -0.02006,
+        0.28515
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P242794",
+      "bay": "B064",
+      "cls": "roof",
+      "seed": 185342794,
+      "ripple_mm": 0.834,
+      "ior": 1.515,
+      "vertex_wave_profile_mm": [
+        -0.67158,
+        -0.44211,
+        -0.24577,
+        0.42015,
+        1.06274,
+        0.54156
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P246524",
+      "bay": "B065",
+      "cls": "wall",
+      "seed": 185346524,
+      "ripple_mm": 0.536,
+      "ior": 1.5203,
+      "vertex_wave_profile_mm": [
+        -0.1126,
+        -0.30964,
+        -0.36614,
+        -0.39675,
+        0.03142,
+        0.64615
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P248201",
+      "bay": "B066",
+      "cls": "roof",
+      "seed": 185348201,
+      "ripple_mm": 0.704,
+      "ior": 1.5227,
+      "vertex_wave_profile_mm": [
+        -0.76617,
+        -0.64074,
+        0.31203,
+        0.84606,
+        0.44442,
+        -0.03482
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P251931",
+      "bay": "B067",
+      "cls": "roof",
+      "seed": 185351931,
+      "ripple_mm": 0.407,
+      "ior": 1.516,
+      "vertex_wave_profile_mm": [
+        0.05781,
+        -0.38601,
+        -0.50533,
+        -0.03682,
+        0.37425,
+        0.31867
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P253608",
+      "bay": "B067",
+      "cls": "wall",
+      "seed": 185353608,
+      "ripple_mm": 0.575,
+      "ior": 1.5184,
+      "vertex_wave_profile_mm": [
+        -0.65037,
+        0.01576,
+        0.40434,
+        0.37854,
+        0.35983,
+        0.10154
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P257338",
+      "bay": "B068",
+      "cls": "wall",
+      "seed": 185357338,
+      "ripple_mm": 0.278,
+      "ior": 1.5237,
+      "vertex_wave_profile_mm": [
+        -0.20908,
+        -0.34101,
+        -0.11733,
+        0.07479,
+        0.14379,
+        0.24146
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P259015",
+      "bay": "B069",
+      "cls": "roof",
+      "seed": 185359015,
+      "ripple_mm": 0.445,
+      "ior": 1.5141,
+      "vertex_wave_profile_mm": [
+        -0.21889,
+        -0.09502,
+        0.28197,
+        0.56867,
+        0.21208,
+        -0.37324
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P262745",
+      "bay": "B070",
+      "cls": "roof",
+      "seed": 185362745,
+      "ripple_mm": 0.818,
+      "ior": 1.5194,
+      "vertex_wave_profile_mm": [
+        -0.49449,
+        -0.57021,
+        -0.55602,
+        0.18147,
+        1.04529,
+        0.74759
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P264422",
+      "bay": "B070",
+      "cls": "wall",
+      "seed": 185364422,
+      "ripple_mm": 0.316,
+      "ior": 1.5218,
+      "vertex_wave_profile_mm": [
+        -0.26128,
+        0.1234,
+        0.41409,
+        0.22687,
+        -0.08905,
+        -0.18412
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P268152",
+      "bay": "B071",
+      "cls": "wall",
+      "seed": 185368152,
+      "ripple_mm": 0.689,
+      "ior": 1.5151,
+      "vertex_wave_profile_mm": [
+        -0.7299,
+        -0.79769,
+        0.06183,
+        0.67216,
+        0.50233,
+        0.22471
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P269829",
+      "bay": "B072",
+      "cls": "roof",
+      "seed": 185369829,
+      "ripple_mm": 0.187,
+      "ior": 1.5175,
+      "vertex_wave_profile_mm": [
+        0.03281,
+        0.13832,
+        0.12118,
+        0.11042,
+        0.0088,
+        -0.19569
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P273559",
+      "bay": "B073",
+      "cls": "roof",
+      "seed": 185373559,
+      "ripple_mm": 0.56,
+      "ior": 1.5229,
+      "vertex_wave_profile_mm": [
+        -0.66217,
+        -0.16616,
+        0.18688,
+        0.31438,
+        0.49435,
+        0.30949
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P275236",
+      "bay": "B073",
+      "cls": "wall",
+      "seed": 185375236,
+      "ripple_mm": 0.727,
+      "ior": 1.5133,
+      "vertex_wave_profile_mm": [
+        0.03987,
+        0.4196,
+        0.81631,
+        0.36945,
+        -0.63334,
+        -0.85983
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P278966",
+      "bay": "B074",
+      "cls": "wall",
+      "seed": 185378966,
+      "ripple_mm": 0.43,
+      "ior": 1.5186,
+      "vertex_wave_profile_mm": [
+        -0.3031,
+        -0.25979,
+        0.16569,
+        0.5696,
+        0.33013,
+        -0.20829
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P280643",
+      "bay": "B075",
+      "cls": "roof",
+      "seed": 185380643,
+      "ripple_mm": 0.598,
+      "ior": 1.521,
+      "vertex_wave_profile_mm": [
+        0.33898,
+        0.79067,
+        0.3454,
+        -0.22604,
+        -0.36266,
+        -0.42802
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P284373",
+      "bay": "B076",
+      "cls": "roof",
+      "seed": 185384373,
+      "ripple_mm": 0.301,
+      "ior": 1.5143,
+      "vertex_wave_profile_mm": [
+        -0.33725,
+        0.01445,
+        0.34248,
+        0.25668,
+        0.02921,
+        -0.07926
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P286050",
+      "bay": "B076",
+      "cls": "wall",
+      "seed": 185386050,
+      "ripple_mm": 0.468,
+      "ior": 1.5167,
+      "vertex_wave_profile_mm": [
+        0.42303,
+        0.25748,
+        0.14091,
+        -0.14489,
+        -0.54874,
+        -0.41604
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P289780",
+      "bay": "B080",
+      "cls": "roof",
+      "seed": 185389780,
+      "ripple_mm": 0.841,
+      "ior": 1.522,
+      "vertex_wave_profile_mm": [
+        -0.1449,
+        0.32912,
+        0.5069,
+        0.74275,
+        0.34986,
+        -0.73231
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    },
+    {
+      "id": "P291457",
+      "bay": "B082",
+      "cls": "roof",
+      "seed": 185391457,
+      "ripple_mm": 0.339,
+      "ior": 1.5124,
+      "vertex_wave_profile_mm": [
+        0.2455,
+        0.32277,
+        0.02611,
+        -0.39465,
+        -0.36019,
+        0.01085
+      ],
+      "rebate_seating_mm": 16.0,
+      "putty_fillet": true
+    }
+  ]
+}
