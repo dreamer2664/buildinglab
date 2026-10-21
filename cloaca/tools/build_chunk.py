@@ -12,8 +12,10 @@ Every command that runs this file carries --python-exit-code 1 (F21).
 import argparse, hashlib, json, math, os, resource, sys, time
 
 def read_rows(path):
+    import gzip
     rows = []
-    with open(path) as f:
+    f = gzip.open(path, "rt") if path.endswith(".gz") else open(path)
+    with f:
         for ln in f:
             ln = ln.strip()
             if ln: rows.append(json.loads(ln))
@@ -85,6 +87,8 @@ def main():
 
     LANE = a.lane or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ledger = a.ledger or os.path.join(LANE, "ledgers", "BRICKS", f"{a.chunk}.jsonl")
+    if not os.path.exists(ledger) and os.path.exists(ledger + ".gz"):
+        ledger = ledger + ".gz"      # C-020: the gz is the master once the plain copy is pruned
     idxrow = None
     with open(os.path.join(LANE, "ledgers", "INDEX.jsonl")) as f:
         for ln in f:

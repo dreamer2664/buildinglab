@@ -1,0 +1,37 @@
+{
+ "bounds_m": [
+  [
+   -0.002,
+   -0.913,
+   -0.253
+  ],
+  [
+   99.992,
+   0.913,
+   2.945
+  ]
+ ],
+ "brick_objects": 72106,
+ "bricks_laid": 72106,
+ "build_s": 2.52,
+ "build_u_hash": "f720d95b920ab2c6fe8283a31ca44009a8e0bbe0482113aa6029bec60bf20dd9",
+ "census_hash": "980cee9c9ab2bf23c3770979b44f33285b365bc8544a54a60a57236661990087",
+ "census_s": 1.77,
+ "chunk": "S0846",
+ "faces": 432636,
+ "file_bytes": 59968268,
+ "invert_in_m": 33.552,
+ "invert_out_m": 33.455,
+ "key": "d70263f6f098807d884736791b687c0690d197efef94c35800929da00628bd7f",
+ "ledger_rows": 72106,
+ "ledger_u_hash": "f720d95b920ab2c6fe8283a31ca44009a8e0bbe0482113aa6029bec60bf20dd9",
+ "line": "S-high",
+ "objects": 24,
+ "peak_mb": 399.9,
+ "profile": "ovoid-675",
+ "proxy": false,
+ "sha256_blend": "0d533731089e167bbd8e71789728d1c665061d48bb34c2c41c1ba7fbe7ef68a2",
+ "t": "2026-10-21T23:00:51Z",
+ "u_hash_match": true,
+ "verts": 576848
+}
