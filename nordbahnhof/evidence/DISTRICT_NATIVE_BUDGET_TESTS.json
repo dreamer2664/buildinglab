@@ -1,0 +1,78 @@
+{
+  "source_sha256": "b001763ff29b0fccce6cc17d7752f1f5bb02794c9c2a9aaa679d8f152e065075",
+  "status": "Scratch2-sample camera-budget/dimension tests, not final renders or visual acceptance",
+  "failed_prior_test": "Roofscape exceeded2GBbefore shared distant-person geometry LOD; corrected and retested",
+  "tests": [
+    {
+      "camera": "DISTVIEW_06_roofscape",
+      "width": 2552,
+      "samples": 2,
+      "elapsed_seconds": 8.030082941055298,
+      "seconds": 8.030087232589722,
+      "raw_region": [
+        0,
+        670,
+        0,
+        750
+      ],
+      "destination": [
+        0,
+        638,
+        0,
+        718
+      ],
+      "status": "rendered, pending visual inspection",
+      "person_lod_meshes": 100,
+      "person_lod_faces_before_after": [
+        623984,
+        155951
+      ],
+      "render_only_culling": "Original train and interior fittings removed from render memory, not source.",
+      "scratch_test_not_final": true
+    },
+    {
+      "camera": "DISTVIEW_03_market_morning",
+      "width": 2552,
+      "samples": 2,
+      "elapsed_seconds": 8.059474468231201,
+      "seconds": 8.059480428695679,
+      "raw_region": [
+        0,
+        670,
+        0,
+        750
+      ],
+      "destination": [
+        0,
+        638,
+        0,
+        718
+      ],
+      "status": "rendered, pending visual inspection",
+      "render_only_culling": "Original train and interior fittings removed from render memory, not source.",
+      "scratch_test_not_final": true
+    },
+    {
+      "camera": "DISTVIEW_03_market_morning",
+      "width": 2552,
+      "samples": 2,
+      "elapsed_seconds": 8.407968997955322,
+      "seconds": 8.407975673675537,
+      "raw_region": [
+        606,
+        1308,
+        0,
+        750
+      ],
+      "destination": [
+        638,
+        1276,
+        0,
+        718
+      ],
+      "status": "rendered, pending visual inspection",
+      "render_only_culling": "Original train and interior fittings removed from render memory, not source.",
+      "scratch_test_not_final": true
+    }
+  ]
+}

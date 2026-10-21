@@ -28,6 +28,20 @@ for ob in list(bpy.data.objects):
  if not ob.name.startswith('DIST_PERSON_'):continue
  v=world_to_camera_view(scene,scene.camera,ob.location+Vector((0,0,.9)))
  if v.z<0 or v.x<-.1 or v.x>1.1 or v.y<-.1 or v.y>1.1:bpy.data.objects.remove(ob,do_unlink=True)
+# Shared photographic-person geometry LOD, keyed by nearest visible instance.
+# Keep close6k scans intact; distant full-body silhouettes do not need all face/finger triangles.
+person_groups=defaultdict(list);person_lod=[]
+for ob in bpy.data.objects:
+ if ob.name.startswith('DIST_PERSON_'):person_groups[ob.data].append(ob)
+for me,obs in person_groups.items():
+ distance=min((ob.location-scene.camera.location).length for ob in obs);ratio=.25 if distance>30 else .5 if distance>15 else 1.0
+ if ratio==1:continue
+ temp=bpy.data.objects.new('DIST_TEMP_PERSON_LOD',me.copy());scene.collection.objects.link(temp);bpy.context.view_layer.objects.active=temp;temp.select_set(True)
+ mod=temp.modifiers.new('Projected photographic crowd LOD','DECIMATE');mod.ratio=ratio;bpy.ops.object.modifier_apply(modifier=mod.name);low=temp.data
+ person_lod.append({'mesh':me.name,'nearest_metres':round(distance,2),'faces_before':len(me.polygons),'faces_after':len(low.polygons)})
+ for ob in obs:ob.data=low
+ bpy.data.objects.remove(temp,do_unlink=True)
+ if me.users==0:bpy.data.meshes.remove(me)
 # Clip only original station faces more than15m behind the camera; never edit the deliverable source.
 import bmesh
 forward=scene.camera.rotation_euler.to_matrix()@Vector((0,0,-1));origin=scene.camera.location
@@ -43,9 +57,20 @@ for ob in list(bpy.data.objects):
  if loose:bmesh.ops.delete(bm,geom=loose,context='VERTS')
  bm.to_mesh(ob.data);bm.free()
 bpy.data.orphans_purge(do_recursive=True)
+# Preserve close photographic faces while budgeting distant pose maps by projected importance.
+person_distance={}
+for ob in bpy.data.objects:
+ if not ob.name.startswith('DIST_PERSON_'):continue
+ distance=(ob.location-scene.camera.location).length
+ for slot in ob.material_slots:
+  if not slot.material or not slot.material.use_nodes:continue
+  for node in slot.material.node_tree.nodes:
+   if node.type=='TEX_IMAGE' and node.image:person_distance[node.image]=min(distance,person_distance.get(node.image,1e9))
 for im in bpy.data.images:
  if im.type=='IMAGE':
   limit=512 if a.proof else 1024
+  if im in person_distance:
+   distance=person_distance[im];preferred=1024 if distance<10 else 512 if distance<28 else 256;limit=min(limit,preferred)
   if im.size[0]>limit:
    im.scale(limit,round(im.size[1]*limit/im.size[0]));im.pack()
   im.buffers_free()
@@ -55,4 +80,4 @@ scene.cycles.samples=a.samples;scene.cycles.use_adaptive_sampling=False;scene.cy
 scene.world.cycles.sampling_method='MANUAL';scene.world.cycles.sample_map_resolution=256
 out=r/'renders/district';out.mkdir(parents=True,exist_ok=True);key=scene.camera.name+('_proof' if a.proof else '')
 scene.render.image_settings.file_format='JPEG';scene.render.image_settings.quality=95;scene.render.filepath=str(out/(key+'.jpg'));start=time.time();print('RENDER_START',key,flush=True);bpy.ops.render.render(write_still=True)
-(out/(key+'.json')).write_text(json.dumps({'camera':scene.camera.name,'width':a.res,'samples':a.samples,'elapsed_seconds':time.time()-start,'status':'rendered, pending visual inspection','render_only_culling':'Original train and interior fittings removed from render memory, not source.'},indent=2));print('RENDER_READY',key,flush=True)
+(out/(key+'.json')).write_text(json.dumps({'camera':scene.camera.name,'width':a.res,'samples':a.samples,'elapsed_seconds':time.time()-start,'status':'rendered, pending visual inspection','person_lod_meshes':len(person_lod),'person_lod_faces_before_after':[sum(x['faces_before'] for x in person_lod),sum(x['faces_after'] for x in person_lod)],'render_only_culling':'Original train and interior fittings removed from render memory, not source.'},indent=2));print('RENDER_READY',key,flush=True)

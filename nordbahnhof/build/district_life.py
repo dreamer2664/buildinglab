@@ -201,32 +201,35 @@ def crowds(d,p):
  rng=random.Random(491);masters=[]
  # Existing scans retain their UVs and packed photographic albedo.
  for ob in sorted(bpy.data.objects,key=lambda o:o.name):
-  if ob.name.startswith('SCAN_HERO_') and ob.type=='MESH':masters.append(ob)
+  if ob.name.startswith('SCAN_HERO_') and ob.type=='MESH':
+   ob['district_subject_id']=['HSR0015','HSR0023','HSR0027','HSR0028','HSR0040','HSR0042'][int(ob.name[-2:])-1];masters.append(ob)
  for folder in sorted((ROOT/'assets/district/scans').iterdir()):
   if not folder.is_dir():continue
   paths=list(folder.glob('*.obj'))
   if not paths:continue
-  before=set(bpy.data.objects);bpy.ops.wm.obj_import(filepath=str(paths[0]),forward_axis='Y',up_axis='Z');obs=[o for o in bpy.data.objects if o not in before and o.type=='MESH']
+  before=set(bpy.data.objects);bpy.ops.wm.obj_import(filepath=str(paths[0]),forward_axis='Y',up_axis='Z',use_split_objects=False,use_split_groups=False);obs=[o for o in bpy.data.objects if o not in before and o.type=='MESH']
   if not obs:continue
   ob=obs[0]
   for q in obs[1:]:bpy.data.objects.remove(q,do_unlink=True)
   # Normalize scanned geometry in object local space, independently of OBJ axis conventions.
   bpy.context.view_layer.objects.active=ob;ob.select_set(True);bpy.ops.object.transform_apply(location=False,rotation=True,scale=True);ob.select_set(False)
-  mn=Vector(tuple(min(v.co[i] for v in ob.data.vertices) for i in range(3)));mx=Vector(tuple(max(v.co[i] for v in ob.data.vertices) for i in range(3)));scale=1.75/max(.01,mx.z-mn.z)
+  mn=Vector(tuple(min(v.co[i] for v in ob.data.vertices) for i in range(3)));mx=Vector(tuple(max(v.co[i] for v in ob.data.vertices) for i in range(3)));height=mx.z-mn.z;scale=1.0 if .8<height<2.2 else 1.75/max(.01,height)
   for v in ob.data.vertices:v.co=(v.co-Vector(((mn.x+mx.x)/2,(mn.y+mx.y)/2,mn.z)))*scale
-  dec=ob.modifiers.new('Scan economical street LOD','DECIMATE');dec.ratio=min(1,8500/max(1,len(ob.data.polygons)));bpy.context.view_layer.objects.active=ob;bpy.ops.object.modifier_apply(modifier=dec.name)
+  dec=ob.modifiers.new('Scan economical street LOD','DECIMATE');dec.ratio=min(1,6000/max(1,len(ob.data.polygons)));bpy.context.view_layer.objects.active=ob;bpy.ops.object.modifier_apply(modifier=dec.name);ob.data.polygons.foreach_set('use_smooth',[True]*len(ob.data.polygons))
   texs=list(folder.glob('*.jpg'))+list(folder.glob('*.png'))
   if texs:
-   ma=bpy.data.materials.new('District scanned photographic person '+folder.name);ma.use_nodes=True;nt=ma.node_tree;bs=nt.nodes.get('Principled BSDF');bs.inputs['Roughness'].default_value=.8;im=bpy.data.images.load(str(texs[0]),check_existing=True);im.pack();tn=nt.nodes.new('ShaderNodeTexImage');tn.image=im;nt.links.new(tn.outputs[0],bs.inputs['Base Color']);ob.data.materials.clear();ob.data.materials.append(ma)
-  ob.name='DIST_SCAN_MASTER_'+folder.name;masters.append(ob)
+   ma=bpy.data.materials.new('District scanned photographic person '+folder.name);ma.use_nodes=True;nt=ma.node_tree;bs=nt.nodes.get('Principled BSDF');bs.inputs['Roughness'].default_value=.8;im=bpy.data.images.load(str(texs[0]),check_existing=True);im.pack();im.buffers_free();tn=nt.nodes.new('ShaderNodeTexImage');tn.image=im;nt.links.new(tn.outputs[0],bs.inputs['Base Color']);ob.data.materials.clear();ob.data.materials.append(ma)
+  ob.name='DIST_SCAN_MASTER_'+folder.name;ob['district_subject_id']=folder.name.split('-')[0];masters.append(ob)
  if not masters:raise RuntimeError('No photographic people; do not substitute primitive figures')
  # Independent local-ground normalization for existing source hero data, without editing source placements.
- normalized=[]
+ normalized=[];subjects=[]
  for i,ob in enumerate(masters):
-  me=ob.data.copy();coords=[ob.matrix_world.to_3x3()@v.co for v in me.vertices];mn=Vector(tuple(min(v[j] for v in coords) for j in range(3)));mx=Vector(tuple(max(v[j] for v in coords) for j in range(3)));s=1.75/(mx.z-mn.z)
+  me=ob.data.copy();coords=[ob.matrix_world.to_3x3()@v.co for v in me.vertices];mn=Vector(tuple(min(v[j] for v in coords) for j in range(3)));mx=Vector(tuple(max(v[j] for v in coords) for j in range(3)));s=1.0 if ob.name.startswith('DIST_SCAN_MASTER_') else 1.75/(mx.z-mn.z)
   for v,c in zip(me.vertices,coords):v.co=(c-Vector(((mn.x+mx.x)/2,(mn.y+mx.y)/2,mn.z)))*s
-  normalized.append(me)
-  if ob.name.startswith('DIST_SCAN_MASTER_'):bpy.data.objects.remove(ob,do_unlink=True)
+  normalized.append(me);subjects.append(ob.get('district_subject_id','unknown'))
+  if ob.name.startswith('DIST_SCAN_MASTER_'):
+   oldmesh=ob.data;bpy.data.objects.remove(ob,do_unlink=True)
+   if oldmesh.users==0:bpy.data.meshes.remove(oldmesh)
  pts=[]
  # Foot traffic follows routes, door queues, market aisle and tram stops. Minimum spacing prevents intersections.
  def add(x,y,z=.18,ang=None):
@@ -248,10 +251,20 @@ def crowds(d,p):
   y=rng.choice([rng.uniform(-97,-69),rng.uniform(-151,-123),rng.uniform(-200,-177)]);x=rng.choice([rng.uniform(-3.5,1.5),rng.uniform(18.5,23.5)]);add(x,y)
  for i in range(22):add(rng.uniform(19,39),-47+rng.uniform(-.7,.7))
  for i in range(14):add(rng.uniform(3,18),rng.uniform(30,36),.76,math.pi)
+ pose_used=[0]*len(normalized);assigned=[]
  for i,(x,y,z,a) in enumerate(pts):
-  ob=bpy.data.objects.new(f'DIST_PERSON_{i+1:04d}',normalized[i%len(normalized)]);d.col.objects.link(ob);ob.location=(x,y,z);ob.rotation_euler.z=a;h=rng.uniform(.95,1.055);ob.scale=(h,h,h)
+  # Prefer less-used poses, avoid identical poses nearby and strongly discourage the same subject at arm's length.
+  def score(k):
+   penalty=pose_used[k]*2+rng.random()
+   for ox,oy,ok in assigned:
+    ds=(x-ox)**2+(y-oy)**2
+    if ds<15**2 and ok==k:penalty+=1000
+    if ds<4.5**2 and subjects[ok]==subjects[k]:penalty+=100
+   return penalty
+  k=min(range(len(normalized)),key=score);pose_used[k]+=1;assigned.append((x,y,k))
+  ob=bpy.data.objects.new(f'DIST_PERSON_{i+1:04d}',normalized[k]);ob['scan_subject_id']=subjects[k];ob['scan_pose_mesh']=normalized[k].name;d.col.objects.link(ob);ob.location=(x,y,z);ob.rotation_euler.z=a;h=rng.uniform(.95,1.055);ob.scale=(h,h,h)
   if i%6==0:
    d.location(x,y,z,a);d.box('traveler leather luggage',(.46,.0,.22),(.42,.17,.40),p['wood']);d.ring('traveler luggage handle',(.46,0,.45),.06,.012,p['bronze'],'Y',N=12,M=4)
  d.location();d.count['photographic scanned people']=len(pts)
- d.records.append({'crowd_instances':len(pts),'scan_poses':len(normalized),'unique_scan_identities':10,'warning':'Repeated photographic scans; modern clothes, not certified historical costumes. No primitive body substitutes.'})
+ d.records.append({'crowd_instances':len(pts),'scan_poses':len(normalized),'unique_scan_identities':len(set(subjects)),'pose_placement_counts':pose_used,'warning':'Repeated photographic scans; modern clothes, not certified historical costumes. No primitive body substitutes.'})
  return len(pts)

@@ -5,7 +5,7 @@ from pathlib import Path
 import subprocess,sys,json,time,hashlib
 import numpy as np,OpenEXR
 from PIL import Image
-ROOT=Path(__file__).resolve().parents[1];BUILD=ROOT/'build';CACHE=ROOT/'renders/district/.cache';OUT=ROOT/'renders/district/native';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];BUILD=ROOT/'build';CACHE=ROOT/'renders/district/raw_tiles';OUT=ROOT/'renders/district/native';OUT.mkdir(parents=True,exist_ok=True)
 start=time.time();events=[]
 views=list(map(int,sys.argv[1].split(','))) if len(sys.argv)>1 else [1,2,3,4,5,6,7,8]
 def run(cmd,log):
@@ -15,7 +15,7 @@ def run(cmd,log):
 for view in views:
  full=np.zeros((1440,2560,3),np.float16);records=[];view_start=time.time()
  for row in range(2):
-  for col in range(2):
+  for col in range(4):
    tile=f'{row},{col}';raws=list(CACHE.glob(f'DISTVIEW_0{view}*_2560_{row}-{col}.exr'))
    raws=[p for p in raws if not p.name.endswith('.denoised.exr')]
    if not raws:
@@ -36,7 +36,7 @@ for view in views:
  run(['blender','-b','-t','2','--python',str(BUILD/'district_agx.py'),'--',str(linear)],OUT/(name+'_agx.log'))
  jpg=OUT/(name+'.jpg');im=Image.open(jpg).convert('RGB');assert im.size==(2560,1440)
  rgb=np.asarray(im,dtype=np.float32)/255;lum=rgb@np.array([.2126,.7152,.0722],dtype=np.float32)
- report={'file':jpg.name,'camera':name,'resolution':[2560,1440],'samples':320,'native_method':'4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.3','render_only_lod':'Render-only frustum/typographic/curtain/scan LOD; original rolling stock and closed interior fittings omitted. Full packed scene retained.','tiles':records,'cycles_render_seconds':sum(t['seconds'] for t in records),'invocation_wall_seconds':time.time()-view_start,'sha256':hashlib.sha256(jpg.read_bytes()).hexdigest(),'mean_luminance_actual':float(lum.mean()),'white_over_98pct_actual':float((lum>.98).mean()*100),'black_under_1_2pct_actual':float((lum<.012).mean()*100),'visual_inspection':'PENDING'}
+ report={'file':jpg.name,'camera':name,'resolution':[2560,1440],'samples':320,'native_method':'8 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.3','render_only_lod':'Render-only frustum/typographic/curtain/scan LOD; original rolling stock and closed interior fittings omitted. Full packed scene retained.','tiles':records,'cycles_render_seconds':sum(t['seconds'] for t in records),'invocation_wall_seconds':time.time()-view_start,'sha256':hashlib.sha256(jpg.read_bytes()).hexdigest(),'mean_luminance_actual':float(lum.mean()),'white_over_98pct_actual':float((lum>.98).mean()*100),'black_under_1_2pct_actual':float((lum<.012).mean()*100),'visual_inspection':'PENDING'}
  (OUT/(name+'.json')).write_text(json.dumps(report,indent=2));events.append(report)
  print(f'VIEW_DONE view={view} file={jpg.name} seconds={report["invocation_wall_seconds"]:.1f}',flush=True)
  del full,rgb,lum

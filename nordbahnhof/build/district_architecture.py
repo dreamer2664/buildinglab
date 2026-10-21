@@ -72,7 +72,7 @@ def shop(d,p,x,w,name,index):
  d.text('shop street number',str(12+index),(x-w*.43,.26,3.27),.14,p['black'])
 
 def building(d,p,index,x,y,width,depth,floors,rotation=0):
- d.zone=f'B{index:03d}';d.location(x,y,.18,rotation);rng=random.Random(2800+index);wall=p['plaster'][index%len(p['plaster'])];bay=width/max(3,round(width/3.2));cols=round(width/bay);height=4.2+floors*3.25
+ d.zone=f'B{index:03d}';d.location(x,y,.18,rotation);rng=random.Random(2800+index);wall=p['plaster'][index%len(p['plaster'])];bay=width/max(3,round(width/3.2));cols=round(width/bay);ww=min(1.52,bay*.50);height=4.2+floors*3.25
  # Side/back walls have real thickness; front windows are actual voids between spandrels.
  saved=d.transform.copy()
  for side in (-1,1):
@@ -97,9 +97,13 @@ def building(d,p,index,x,y,width,depth,floors,rotation=0):
   d.box('string course',(0,.13,z),(width+.20,.3,.17),p['stone'])
   if j==floors:break
   d.box('front sill spandrel',(0,-.15,z+.36),(width,.3,.72),wall);d.box('front window head spandrel',(0,-.15,z+3.03),(width,.3,.43),wall)
-  for k in range(cols+1):d.box('front masonry pier',(-width/2+k*bay,-.15,z+1.85),(.52,.30,2.25),wall)
+  for k in range(cols+1):
+   pw=bay-ww;px=-width/2+k*bay
+   if k==0:pw/=2;px+=pw/2
+   elif k==cols:pw/=2;px-=pw/2
+   d.box('front masonry pier',(px,-.15,z+1.85),(pw,.30,2.25),wall)
   for k in range(cols):
-   xx=-width/2+(k+.5)*bay;window(d,p,xx,z+1.84,bay-.68,2.07,index%4==1 and j<2,index%3==0 and j==0,rng.random()<.22)
+   xx=-width/2+(k+.5)*bay;window(d,p,xx,z+1.84,ww,2.07,index%4==1 and j<2,index%3==0 and j==0,rng.random()<.22)
  # Cornice is built up, not a single floating slab.
  for step,(extra,z,h) in enumerate([(.15,height+.08,.18),(.34,height+.23,.14),(.52,height+.36,.12)]):d.box('layered eaves cornice',(0,.02,z),(width+extra,.62,h),p['stone'])
  for k in range(int(width/.35)):d.box('cornice dentil',(-width/2+.18+k*.35,.27,height-.12),(.14,.28,.19),p['stone'])

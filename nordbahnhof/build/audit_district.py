@@ -3,7 +3,11 @@ import bpy,json,hashlib,re,time
 from pathlib import Path
 from mathutils import Vector
 r=Path(__file__).resolve().parents[1];s=bpy.context.scene
-src=Path(bpy.data.filepath);info={'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'source_bytes':src.stat().st_size,'objects':len(bpy.data.objects),'mesh_datablock_polygons':sum(len(m.polygons) for m in bpy.data.meshes),'district_people':len([o for o in bpy.data.objects if o.name.startswith('DIST_PERSON_')]),'building_zones':len({m.group(1) for o in bpy.data.objects if (m:=re.match(r'DIST_(B[0-9]+)_',o.name))}),'packed_images':[{'name':i.name,'size':list(i.size),'packed':bool(i.packed_file)} for i in bpy.data.images if i.type=='IMAGE'],'cameras':[o.name for o in bpy.data.objects if o.type=='CAMERA' and o.name.startswith('DISTVIEW_')],'legacy_insert_replacement':'Obstructing RET_/WAIT_ inserts removed in district revision; original prior source retained separately. All original 34 rolling-stock vehicles retained.'}
+src=Path(bpy.data.filepath);info={'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'source_bytes':src.stat().st_size,'objects':len(bpy.data.objects),'mesh_datablock_polygons':sum(len(m.polygons) for m in bpy.data.meshes),'district_people':len([o for o in bpy.data.objects if o.name.startswith('DIST_PERSON_')]),'building_zones':len({m.group(1) for o in bpy.data.objects if (m:=re.match(r'DIST_(B[0-9]+)_',o.name))}),'packed_images':[],'cameras':[o.name for o in bpy.data.objects if o.type=='CAMERA' and o.name.startswith('DISTVIEW_')],'legacy_insert_replacement':'Obstructing RET_/WAIT_ inserts removed in district revision; original prior source retained separately. All original 34 rolling-stock vehicles retained.'}
+for im in bpy.data.images:
+ if im.type=='IMAGE':
+  info['packed_images'].append({'name':im.name,'size':list(im.size),'packed':bool(im.packed_file)});im.buffers_free()
+info['district_unique_pose_meshes']=len({o.data.name for o in bpy.data.objects if o.name.startswith('DIST_PERSON_')});info['district_unique_subjects']=sorted({o.get('scan_subject_id','unknown') for o in bpy.data.objects if o.name.startswith('DIST_PERSON_')})
 vehicles=sorted({m.group(1) for o in bpy.data.objects if (m:=re.match(r'TRAIN_(TR[0-9]+_V[0-9]+)',o.name))});info['retained_vehicle_ids']=vehicles;info['retained_vehicle_count']=len(vehicles)
 # Temporarily exclude movable photographic people to test the architectural route.
 for o in bpy.data.objects:

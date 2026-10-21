@@ -8,7 +8,7 @@ Open `source/NORDBAHNHOF_DISTRICT.blend` in Blender 4.3.2 or later. The saved sc
 
 Eight authored cameras are named `DISTVIEW_01_…` through `DISTVIEW_08_…`: station square; exterior exit threshold; market; tram street; the neighborhood's central street; roofscape; café detail; and the view outward through the actual exit. Select a camera and set it active, then use the camera view. The project uses metres.
 
-The full scene is substantially heavier than a single camera render. Camera renders were made with a documented memory budget on a 2GB CPU workstation: off-frame building/figure detail, distant lettering/curtains and old railway interiors/rolling stock are omitted from render memory. Original station geometry more than15m behind the camera may be clipped for rendering. These are render-only operations: the saved source retains the district and all 34 original railway vehicles. No AI-generated illustration was substituted for a Blender render.
+The full scene is substantially heavier than a single camera render. The full licensed100-pose/10-person library is available; pose assignment discourages identical poses within15m and the same subject within4.5m, but cannot eliminate repetition. Camera renders were made with a documented memory budget on a 2GB CPU workstation: off-frame building/figure detail, distant lettering/curtains and old railway interiors/rolling stock are omitted from render memory. Original station geometry more than15m behind the camera may be clipped for rendering. These are render-only operations: the saved source retains the district and all 34 original railway vehicles. No AI-generated illustration was substituted for a Blender render.
 
 ## What was built
 
@@ -18,7 +18,7 @@ The full scene is substantially heavier than a single camera render. Camera rend
 - Pitched slate roofs, ridge flashing, dormers, chimney caps and pots; string courses, dentils, cornices, balconies, shutters and downpipes.
 - A station-square fountain and basin/ripples, newspaper kiosk, market stalls, produce crates, café tables/cups/coffee/newspapers, bentwood chairs, benches, lamps, bins, bollards, manholes, drains, bicycles and loaded delivery carts with spokes/tyres/hubs/straps/rivets.
 - A double tram street with1435 mm running gauge, flangeway grooves, contact wires/supports and two independently authored electric streetcars, including wheelsets, interior benches, glazing and pantographs. Static models, not certified operational vehicles.
-- About 500 placed photographic people. The exact source count is in `docs/DISTRICT_INVENTORY.json`. The scans represent **10 identities in 12 poses**, reused as linked instances. Clothing is modern and is not claimed to be period-certified. No primitive body substitutes were used for the new crowd.
+- About 500 placed photographic people. The exact source count is in `docs/DISTRICT_INVENTORY.json`. The scans represent **10 identities in 100 poses**, reused as linked instances. Clothing is modern and is not claimed to be period-certified. No primitive body substitutes were used for the new crowd.
 
 ## The exit is connected geometry
 
@@ -41,7 +41,7 @@ blender -b source/NORDBAHNHOF_DISTRICT.blend -t 2 --python build/render_district
 python build/render_district_final.py
 ```
 
-For shell execution, put a space between flags and values (for example `--view 1`, `--res 960`, `-t 2`). The final orchestrator uses four overlapping native border tiles per view, denoises their linear HDR data with Intel OIDN, assembles without image resizing and applies Blender's AgX view transform. `build/finish_realism.py` is the reused, corrected finishing utility. See final image JSONs for the actual resolution, sampling, durations, hashes and inspection state.
+For shell execution, put a space between flags and values (for example `--view 1`, `--res 960`, `-t 2`). The final orchestrator uses eight overlapping native border tiles per view, denoises their linear HDR data with Intel OIDN, assembles without image resizing and applies Blender's AgX view transform. `build/finish_realism.py` is the reused, corrected finishing utility. See final image JSONs for the actual resolution, sampling, durations, hashes and inspection state.
 
 ## Honest limits
 

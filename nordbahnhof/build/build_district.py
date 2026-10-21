@@ -11,6 +11,11 @@ print('STREETS',flush=True);streets(d,p);d.flush()
 print('EXIT',flush=True);exit_canopy(d,p);d.flush()
 print('BLOCKS',flush=True);blocks(d,p);d.flush()
 print('LIFE',flush=True);objects(d,p);d.flush()
+bpy.data.orphans_purge(do_recursive=True)
+import gc,ctypes
+gc.collect()
+try:ctypes.CDLL('libc.so.6').malloc_trim(0)
+except (OSError,AttributeError):pass
 print('CROWDS',flush=True);crowds(d,p);d.flush()
 scene=bpy.context.scene
 for ob in bpy.data.objects:
@@ -38,6 +43,7 @@ scene.camera=bpy.data.objects['DISTVIEW_01_station_square'];scene.render.engine=
 scene.cycles.samples=96;scene.cycles.use_denoising=False;scene.cycles.max_bounces=6;scene.cycles.diffuse_bounces=3;scene.cycles.glossy_bounces=3;scene.cycles.transmission_bounces=8;scene.cycles.use_light_tree=True
 scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.view_settings.exposure=.3;scene.use_nodes=False;scene.render.use_compositing=False
 scene['district_status']='WIP: original masonry district, exit, shops, tram street and repeated photographic human scans. Not a certified historic reconstruction.'
+bpy.data.orphans_purge(do_recursive=True)
 report={'generated_at_utc':__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),'build_seconds':time.time()-start,'component_counts':dict(d.count),'buildings_and_crowds':d.records,'scene_objects':len(bpy.data.objects),'scene_polygons_shared_once':sum(len(m.polygons) for m in bpy.data.meshes),'views':[v[0] for v in views]}
 (ROOT/'docs').mkdir(exist_ok=True);(ROOT/'docs/DISTRICT_INVENTORY.json').write_text(json.dumps(report,indent=2))
 bpy.context.preferences.filepaths.save_version=0
