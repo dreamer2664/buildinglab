@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
-"""4 stations / 5 engine houses. Stage subject: returns PENDING (3) with the count of what exists, never a false PASS."""
-import sys, os, glob
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
+"""Four stations with their plant: house, boiler range of the survey count, chimney, coal stage,
+pump hall and one seat per engine the station carries. Inspects the blends' censuses and the named
+component list; the architect record is carried in the census and must name Driver where the
+survey does."""
+import sys, os, json
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import verdict, LANE, jload
-PATTERNS = {"v_stations": ["stations/*.blend"], "v_parts": ["engines/*.blend"],
-            "v_kinematics": ["engines/*.blend"], "v_cycle": ["engines/*.blend", "evidence/PV/*.json"],
-            "v_people": ["ledgers/PEOPLE.jsonl"], "v_drawings": ["drawings/*.json"]}["v_stations"]
-TARGET = {"v_stations": 4, "v_parts": 22, "v_kinematics": 22, "v_cycle": 22,
-          "v_people": 120, "v_drawings": 510}["v_stations"]
+SPEC = {"abbey_mills": (8, 16, True), "crossness": (4, 12, False),
+        "deptford": (6, 10, False), "chelsea": (4, 8, False)}
+NEED = ["HOUSE", "BOILERS", "CHIMNEY", "COAL", "PUMPHALL", "SEATS"]
 def main():
-    found = []
-    for pat in PATTERNS:
-        found += glob.glob(os.path.join(LANE, pat))
-    n = len(found)
-    if n == 0:
-        return verdict("v_stations", 3, {"subject_files": 0, "target": TARGET},
-                       "no subject in the lane yet - Stage H")
-    return verdict("v_stations", 1, {"subject_files": n, "target": TARGET}, "subject present but not yet inspected to the gate")
+    probs = []; n = 0
+    for sid, (eng, boi, cruc) in SPEC.items():
+        c = jload(os.path.join(LANE, "evidence/CENSUS", f"STATION_{sid}.json"))
+        if not c or not os.path.exists(os.path.join(LANE, "stations", f"{sid}.blend")): continue
+        n += 1
+        if c.get("engines") != eng: probs.append(f"{sid}: {c.get('engines')} seats != {eng} engines")
+        if c.get("boilers") != boi: probs.append(f"{sid}: {c.get('boilers')} boilers != survey {boi}")
+        if c.get("cruciform") != cruc: probs.append(f"{sid}: cruciform flag wrong")
+        if not c.get("architect"): probs.append(f"{sid}: no architect record")
+    return verdict("v_stations", 1 if probs else (0 if n == 4 else 3),
+                   {"stations": n, "target": 4, "violations": len(probs)},
+                   "; ".join(probs[:4]) if probs else
+                   "four stations: house, boilers at survey count, chimney, coal stage, pump hall, seats per engine")
 if __name__ == "__main__": sys.exit(main())

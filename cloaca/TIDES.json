@@ -270,7 +270,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-900",
    "tidal_crest_m_cd": null,
-   "type": "capacity"
+   "type": "capacity",
+   "geometry": "overflows/OF-1.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 1.39
+   }
   },
   {
    "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
@@ -292,7 +303,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-900",
    "tidal_crest_m_cd": 6.181,
-   "type": "tidal"
+   "type": "tidal",
+   "geometry": "overflows/OF-2.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 1.2
+   }
   },
   {
    "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
@@ -314,7 +336,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-900",
    "tidal_crest_m_cd": 6.181,
-   "type": "tidal"
+   "type": "tidal",
+   "geometry": "overflows/OF-3.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 0.47
+   }
   },
   {
    "basis": "capacity: side weir at 0.75 x section height above the invert; spills when the sim storm discharge surcharges the section",
@@ -336,7 +369,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-900",
    "tidal_crest_m_cd": null,
-   "type": "capacity"
+   "type": "capacity",
+   "geometry": "overflows/OF-4.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 0.97
+   }
   },
   {
    "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
@@ -358,7 +402,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-900",
    "tidal_crest_m_cd": 6.181,
-   "type": "tidal"
+   "type": "tidal",
+   "geometry": "overflows/OF-5.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 0.51
+   }
   },
   {
    "basis": "capacity: side weir at 0.75 x section height above the invert; spills when the sim storm discharge surcharges the section",
@@ -380,7 +435,18 @@
    "mhws_local_m_cd": 7.346,
    "profile": "ovoid-1050",
    "tidal_crest_m_cd": null,
-   "type": "capacity"
+   "type": "capacity",
+   "geometry": "overflows/OF-6.blend",
+   "facing_checked": true,
+   "facing": {
+    "flow_axis": "+X",
+    "penstock_frame_normal": "+X",
+    "flap_hinge": "top",
+    "flap_opens": "downstream (+X)",
+    "weir_normal": "+X",
+    "checked_against": "INVERTS fall_m > 0 along +X for every chunk of the line",
+    "fall_m_per_km": 0.96
+   }
   }
  ],
  "propagation_basis": "progressive estuary wave: high water advances downstream at about 2 min/km (0.483 deg/km on M2); attenuation exponential in distance from the fitted reference gauge. The funnel amplification between Sheerness and London Bridge lies inside the fitted reference and is not extrapolated. Modelled law, basis stated; open item D-003.",
