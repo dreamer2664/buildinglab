@@ -1,1 +1,2 @@
 {"seq":0,"id":"yYqO2kzVeWZ1","server_time":1792603885,"local_time":"2026-10-21T17:31:25Z","body":"{\"seq\":0,\"ev\":\"boot\",\"t\":\"2026-10-21T17:31:25Z\"}"}
+{"seq":1,"id":"wEKZ1F1ckgo3","server_time":1792604304,"local_time":"2026-10-21T17:38:23Z","body":{"seq":1,"t":"2026-10-21T17:38:23Z","stage":"A","zone":"sources-and-module","pct":2,"commit":"6bdd608","bays_done":0,"panes":0,"exhibits":0,"defects_open":0,"next":"Stage 0 exit @6bdd608 -> Stage A CONSTANTS/REFERENCES/EPHEMERIS"}}

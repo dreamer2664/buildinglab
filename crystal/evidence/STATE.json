@@ -1,6 +1,1 @@
-{
-  "stage": "0",
-  "zone": "bootstrap",
-  "pct": 100,
-  "next": "Stage 0 exit -> Stage A CONSTANTS/REFERENCES/EPHEMERIS"
-}
+{"stage":"A","zone":"sources-and-module","pct":2,"next":"Stage 0 exit @6bdd608 -> Stage A CONSTANTS/REFERENCES/EPHEMERIS"}
