@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-21T18:45:46Z",
+  "at": "2026-10-21T18:50:03Z",
   "channel_tests": [
     "LOGOe7P3GyLI"
   ],
-  "coverage": 40.8,
-  "expected": 8,
+  "coverage": 44.1,
+  "expected": 9,
   "extra": [],
-  "found": 9,
+  "found": 10,
   "gaps": [
     {
       "from": 4,
@@ -14,10 +14,10 @@
       "to": 5
     }
   ],
-  "local": 9,
+  "local": 10,
   "missing": [],
-  "server_beats": 9,
-  "snapshot": "evidence/HB_RECONCILE/20261021T184546Z.jsonl",
+  "server_beats": 10,
+  "snapshot": "evidence/HB_RECONCILE/20261021T185003Z.jsonl",
   "verdict": "PASS",
   "watchdog_alarms": [
     "8c9eHQTaQZDi"
