@@ -36,7 +36,7 @@ def box_verts(x, y, z, r_deg, hx, hy, hz):
 # cube faces over the (-1,1)^3 corner order produced above, wound outward
 FACES = [(0,1,3,2),(4,6,7,5),(0,4,5,1),(1,5,7,3),(3,7,6,2),(2,6,4,0)]
 
-def colour(g, cond, zone):
+def colour(g, cond, zone, z_mm=None, depth_mm=None):
     """London stock brick: grey-yellow, drift +/-6% lightness, zone darkening (WEAR_SCHEDULE.md).
     Returns linear-ish RGBA 0..1. No brick leaves the stock family (G8)."""
     base = 0.42 + (g / 255.0 - 0.5) * 0.12
@@ -45,6 +45,12 @@ def colour(g, cond, zone):
     elif zone == "flow":  r *= 0.72; gg *= 0.72; b *= 0.68
     elif zone == "splash":r *= 0.86; gg *= 0.87; b *= 0.86
     elif zone == "crown": r *= 1.06; gg *= 1.06; b *= 1.05
+    # the wet line: brick below the flow depth is permanently wet and reads darker; the band just
+    # above it carries the splash stain. Both come from the chunk's HYDRAULICS row, so they are
+    # derived at lay time from the ledger (R5), not painted in at render time. D-014.
+    if z_mm is not None and depth_mm:
+        if z_mm <= depth_mm: r *= 0.80; gg *= 0.80; b *= 0.78
+        elif z_mm <= depth_mm + 60: r *= 0.72; gg *= 0.73; b *= 0.70
     if cond == 1: r += 0.16; gg += 0.15; b += 0.13          # lime bloom
     elif cond == 2: r *= 0.90; gg *= 0.88; b *= 0.85         # chipped arris
     elif cond == 3: r *= 0.80; gg *= 0.76; b *= 0.70         # repaired, different stock
@@ -105,6 +111,28 @@ def main():
     if scene.cycles is not None:
         scene.cycles.use_denoising = False      # Debian Blender has no OpenImageDenoise (SANDBOX trap 1)
 
+    # One stock material per scene; the per-brick colour lives in the corner attribute the ledger
+    # seeded, and the shader reads it from there. Without this binding the attribute is decorative
+    # and Cycles renders white plaster (D-012, found by looking at the first proof).
+    mat = bpy.data.materials.get("brick_stock") or bpy.data.materials.new("brick_stock")
+    mat.use_nodes = True
+    _nt = mat.node_tree
+    _attr = _nt.nodes.get("brick_attr") or _nt.nodes.new("ShaderNodeAttribute")
+    _attr.name = "brick_attr"; _attr.attribute_name = "brick"
+    _bsdf = _nt.nodes.get("Principled BSDF")
+    _nt.links.new(_attr.outputs["Color"], _bsdf.inputs["Base Color"])
+    _bsdf.inputs["Roughness"].default_value = 0.78
+    if "Specular IOR Level" in _bsdf.inputs: _bsdf.inputs["Specular IOR Level"].default_value = 0.22
+    _bsdf.inputs["Metallic"].default_value = 0.0
+
+    DEPTH_MM = None
+    hp = os.path.join(LANE, "ledgers/HYDRAULICS.jsonl")
+    if os.path.exists(hp):
+        with open(hp) as f:
+            for l in f:
+                rr = json.loads(l)
+                if rr["chunk"] == a.chunk: DEPTH_MM = int(round(rr["depth_m"] * 1000)); break
+
     bands = {}
     for r in rows:
         bands.setdefault((r["w"], r["c"] // 100), []).append(r)
@@ -119,7 +147,7 @@ def main():
             hz = (0.114 + dw / 10000.0) / 2.0            # radial  114 mm +/-2
             base = len(vs)
             vs.extend(box_verts(x, y, z, r["r"] / 100.0, hx, hy, hz))
-            col = colour(r["g"], r["k"], r["z_"])
+            col = colour(r["g"], r["k"], r["z_"], z_mm=r["z"], depth_mm=DEPTH_MM)
             for f in FACES:
                 fs.append(tuple(base + i for i in f)); cs.extend([col] * 4)
             ukeys.append((r["w"], r["c"], r["j"], r["u"])); built += 1
@@ -128,6 +156,7 @@ def main():
         attr = me.color_attributes.new("brick", type="FLOAT_COLOR", domain="CORNER")
         attr.data.foreach_set("color", [c for col in cs for c in col])
         me.update(); me.validate(verbose=False)
+        me.materials.append(mat)
         ob = bpy.data.objects.new(me.name, me)
         ob["cloaca_band"] = b; ob["cloaca_wythe"] = w; ob["cloaca_bricks"] = len(bands[(w, b)])
         scene.collection.objects.link(ob)
