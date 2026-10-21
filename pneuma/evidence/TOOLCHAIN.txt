@@ -1,0 +1,52 @@
+# T5 — ENGINE TRUTH (recorded 2026-10-21, before any claim)
+
+Read from the machine, not assumed. This file is the record that stops F20
+("Debian Blender has no OpenImageDenoise — record the build") from repeating here
+in its harder form: **there is no Blender at all on this host.**
+
+| Item | Measured | Consequence for PNEUMA |
+|---|---|---|
+| Blender | **ABSENT** | No `.blend` build, no rigid-body sim, no headless render, no Cycles/EEVEE, no denoiser |
+| Python | 3.13.16 | Sufficient for ledgers, validators, schemas, synthesis arithmetic, timing models |
+| ffmpeg | **ABSENT** | No frame assembly, no CRF delivery, no audio mastering |
+| sox | **ABSENT** | No CLI synthesis; `numpy`-class synthesis is the only path |
+| git | 2.47.3 | Clone/push work |
+| RAM | 1982 MB total / 1507 MB available | The packet's own "2 GB doctrine" ceiling is already exceeded at idle; Blender needs far more to boot |
+| CPU | 2 cores | 10,800 4K frames is not a scheduling question here |
+| Disk | workspace snapshot, best-effort ~128 MB | 4K frame masters cannot persist in this snapshot |
+
+## What this means, stated plainly
+
+The commission's spine — 48,000 millet grains as simulated rigid bodies, two runs
+one trajectory hash, 10,800 frames at 3840×2160 rendered from simulation state —
+**cannot be executed on this host.** Not "will be slow": cannot run. A claim
+otherwise would be a false beat under §32, and F34 is the failure this agency
+already owns.
+
+## What this host CAN do, measured
+
+- Provenance and design work: `SOURCES.md`, `MECHANISMS.md`, `CONSTANTS.md`,
+  `DRIVERS.md`, `GRAIN.md`, `TIMING.md`, `SHOTS.jsonl`, `FASTENERS.md`,
+  `MATERIALS.md`, `FAKES.md`, `BUDGET.md`.
+- Ledger schemas and the 22 validators, in the subset that does not require a
+  Blender scene: `v_units`, `v_sources`, `v_shots`, `v_ledgers`, `v_secrets`,
+  `v_timing` (against a published timing table), `v_frames` (against a published
+  frame ledger), `v_sound` (provenance-row completeness and arithmetic only).
+- A lumped-parameter drive-train model in Python — rope drums, grain discharge,
+  weight descent, scene-change timing — written and hash-stamped. This is a
+  *design instrument*, not the commission's simulation, and it must never be
+  published as one. It cannot satisfy G3, G4, G5, G6 or G9.
+- The heartbeat, reconcile and watchdog tooling (pure `curl` + JSONL).
+- Deterministic synthesis arithmetic (envelope/spectrum design, RMS budget
+  checks) in numpy — no audio can be *written* without ffmpeg.
+
+## Honest fakes this file declares
+
+1. **No simulation.** Nothing here is simulated. Any timing number in this lane
+   until a real Blender run exists is a *target*, not a measurement.
+2. **No render.** No still, no frame, no proof sheet. `renders/best/` stays empty.
+3. **No sound.** No synthesis is possible; the 450-row provenance map is a design
+   table naming intended causes, not a re-synthesis.
+
+These three are this commission's `FAKES.md` until the engine changes. They are
+declared here so the reviewer does not have to find them.

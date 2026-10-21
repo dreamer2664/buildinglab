@@ -1,0 +1,9 @@
+{
+  "stage": "0",
+  "shot": "-",
+  "pct": 8,
+  "next": "Stage 0 exit: lane pushed, watchdog live, bench running — then Stage A sources",
+  "card": "t-20261021-4804",
+  "priority": "low",
+  "note": "The beat payload is read from this file by tools/beatloop.sh. Edit this file to change what the beat claims; the beat never invents a stage."
+}

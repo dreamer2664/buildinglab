@@ -1,0 +1,65 @@
+{
+  "agent": "heron",
+  "role": "worker",
+  "project": "PNEUMA",
+  "project_repo": "dreamer2664/buildinglab",
+  "lane": "pneuma/** and agents/heron/**",
+  "wave": "Second Wave (per the private operator file)",
+  "session_started_utc": "2026-10-21T17:26:00Z",
+  "recorded_utc": "2026-10-21T17:40:00Z",
+  "host": {
+    "os": "Linux 6.1.158+ (Debian GNU/Linux 13 trixie)",
+    "cpu_cores": 2,
+    "ram_total_mb": 1982,
+    "ram_available_mb": 1507,
+    "python": "3.13.16",
+    "network": "reachable (api.github.com, ntfy.sh both 200)"
+  },
+  "toolchain_truth": {
+    "blender": "ABSENT",
+    "ffmpeg": "ABSENT",
+    "sox": "ABSENT",
+    "git": "2.47.3",
+    "curl": "8.14.1",
+    "openssl": "3.5.7",
+    "consequence": "No rigid-body simulation, no headless render, no audio synthesis can run on this host."
+  },
+  "kits": {
+    "github": { "id": "KIT-DBF340", "verified": true, "auth_login": "dreamer2664", "permissions_on_buildinglab": { "push": true, "admin": true } },
+    "ntfy": { "topic_sha256": "4c47420349a960a23c095de671a209254d264731c59e6fbf87d35ac09e8191f5", "fingerprint_verified": true }
+  },
+  "law_epoch": {
+    "claimed_by_packet": "2026-10-20.3",
+    "observed_live_in_agency_ORDERS_md": "2026-10-20.1",
+    "observed_cited_in_storagecode_shift_2026_10_21_arena": "2026-10-20.4",
+    "status": "MISMATCH — the packet's epoch is not the live epoch. Recorded, not resolved here."
+  },
+  "commission_stamp_status": {
+    "heron_on_roster": false,
+    "second_wave_peers_on_roster": { "imhotep": false, "bazalgette": false, "paxton": false, "archimedes": false },
+    "cards_tagged_pneuma": 0,
+    "pneuma_trace_in_chatcode": false,
+    "pneuma_trace_in_agency": false,
+    "pneuma_trace_in_storagecode": false,
+    "public_twin_agency_prompts_MASTER_HERON_PNEUMA_md": false,
+    "agency_packet_prompts_commissions_heron": false,
+    "conclusion": "The commission exists only in the private operator file. It was never cut on the board."
+  },
+  "repo_heads_observed": {
+    "dreamer2664/buildinglab": "8ae453d (2026-10-19T14:32:52Z) Merge PR #2 — owner-directed cleanup",
+    "dreamer2664/chatcode": "ef39f3d (2026-10-21T17:12:49Z) digest: refresh STATUS.md",
+    "dreamer2664/agency": "e8b86b8 (2026-10-21T16:04:39Z) watch: report",
+    "dreamer2664/storagecode": "eb20c54 (2026-10-21T12:06:43Z) wire: archive"
+  },
+  "stage": 0,
+  "stage_0_exit": {
+    "lane_live": false,
+    "toolchain_recorded": true,
+    "heartbeat_0_reconciled": false,
+    "watchdog_written_and_tested": false,
+    "note": "Nothing in this session has been pushed, registered, claimed, or posted. Local only."
+  },
+  "red_lines_touched": [
+    "R1: an access probe was made against dreamer2664/captchaproject (an HTTP status read) before its NO-TOUCH status was treated as binding. No content read, no clone. Recorded in evidence/RED_LINES.md."
+  ]
+}
