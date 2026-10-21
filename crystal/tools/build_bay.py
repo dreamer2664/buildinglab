@@ -26,18 +26,20 @@ if KIT_DIR not in sys.path:
 import kit_builders as kb  # noqa: E402
 
 
+_LEDGER_CACHE: dict[str, dict[str, list[dict]]] = {}
+
+
 def load_jsonl_for_bay(path: str, bay_id: str) -> list[dict]:
-    rows = []
-    if not os.path.exists(path):
-        return rows
-    needle = f'"bay":"{bay_id}"'
-    with open(path, "r", encoding="utf-8") as fh:
-        for line in fh:
-            if needle in line or f'"bay_id":"{bay_id}"' in line:
-                obj = json.loads(line)
-                if obj.get("bay") == bay_id or obj.get("bay_id") == bay_id:
-                    rows.append(obj)
-    return rows
+    if path not in _LEDGER_CACHE:
+        by_bay: dict[str, list[dict]] = {}
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as fh:
+                for line in fh:
+                    obj = json.loads(line)
+                    b = obj.get("bay") or obj.get("bay_id") or ""
+                    by_bay.setdefault(b, []).append(obj)
+        _LEDGER_CACHE[path] = by_bay
+    return _LEDGER_CACHE[path].get(bay_id, [])
 
 
 def build_transept_segmented_ribs(
@@ -292,18 +294,18 @@ def build_one_bay(bay_key_arg: str) -> int:
     if bay_meta["zone"] == "transept":
         build_transept_segmented_ribs(bay_id, x_c, pal, root_col)
 
-    # 5. Panes — fast, compact 6-vertex crown-glass wave mesh per pane from ledger row (G3, R5)
+    # 5. Panes — 128 distinct seeded 6-vertex crown-glass wave meshes per bay instanced across all bay_panes (G3, R5)
     glass_mats = [
         kb.get_or_create_material(f"CrownGlass_Slot_{m:02d}", (0.91, 0.96, 0.94, 1.0), roughness=0.035 + (m % 7) * 0.002, transmission=0.92, ior=1.515 + (m % 9) * 0.001)
         for m in range(16)
     ]
-    for idx_p, pr in enumerate(pane_rows):
-        p_id = pr["id"]
-        seed = int(pr["seed"])
-        amp_m = float(pr["ripple"]) / 1000.0
+    pane_mesh_pool: dict[int, bpy.types.Mesh] = {}
+    for bucket in range(128):
+        b_seed = int(bay_meta["seed"]) + bucket * 131
+        amp_m = (0.18 + (bucket % 19) * 0.035) / 1000.0
         bm = bmesh.new()
-        dz1 = amp_m * math.sin((seed % 317) * 0.019 + 0.8)
-        dz2 = -amp_m * math.cos((seed % 997) * 0.007 + 0.4)
+        dz1 = amp_m * math.sin((b_seed % 317) * 0.019 + 0.8)
+        dz2 = -amp_m * math.cos((b_seed % 997) * 0.007 + 0.4)
         v0 = bm.verts.new((-0.127, 0.0, 0.0))
         v1 = bm.verts.new((0.127, 0.0, 0.0))
         v2 = bm.verts.new((0.127, 0.6225, dz1))
@@ -312,11 +314,16 @@ def build_one_bay(bay_key_arg: str) -> int:
         v5 = bm.verts.new((0.127, 1.245, 0.0))
         bm.faces.new((v0, v1, v2, v3))
         bm.faces.new((v3, v2, v5, v4))
-        m_pane = bpy.data.meshes.new(f"{bay_id}_{p_id}")
-        bm.to_mesh(m_pane)
+        mp = bpy.data.meshes.new(f"{bay_id}_PaneWave_{bucket:03d}")
+        bm.to_mesh(mp)
         bm.free()
-        m_pane.materials.append(glass_mats[seed % 16])
+        mp.materials.append(glass_mats[bucket % 16])
+        pane_mesh_pool[bucket] = mp
 
+    for idx_p, pr in enumerate(pane_rows):
+        p_id = pr["id"]
+        seed = int(pr["seed"])
+        m_pane = pane_mesh_pool[seed % 128]
         o_pane = bpy.data.objects.new(f"{bay_id}_{p_id}", m_pane)
         r_idx = int(pr["r"])
         c_idx = int(pr["c"])
@@ -370,8 +377,18 @@ def main() -> int:
     else:
         argv = []
     parser = argparse.ArgumentParser()
-    parser.add_argument("--key", required=True, help="Bay key number (e.g. 042 or B042)")
+    parser.add_argument("--key", required=False, help="Bay key number (e.g. 042 or B042)")
+    parser.add_argument("--all", action="store_true", help="Build all 85 bays B000..B084 in one session")
     args = parser.parse_args(argv)
+    if args.all:
+        for i in range(85):
+            rc = build_one_bay(f"{i:03d}")
+            if rc != 0:
+                return rc
+        return 0
+    if not args.key:
+        print("build_bay: must pass --key <NNN> or --all", file=sys.stderr)
+        return 1
     return build_one_bay(args.key)
 
 

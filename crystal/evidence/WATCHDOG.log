@@ -5,3 +5,14 @@
 2026-10-21T17:48:09Z poll: newest beat 1m (67s) old (id=MOZVJDq1hXVC, beats=4)
 2026-10-21T17:51:09Z poll: newest beat 4m (247s) old (id=MOZVJDq1hXVC, beats=4)
 2026-10-21T17:54:09Z poll: newest beat 1m (61s) old (id=lHrjwfcnGtPs, beats=5)
+2026-10-21T18:52:00Z watchdog start pid=13710 silence_min=16m (960s) poll=180s
+2026-10-21T18:52:00Z poll: newest beat 2m (120s) old (id=c01RX17Ss6a2, beats=10)
+2026-10-21T19:24:11Z poll: newest beat 34m (2051s) old (id=c01RX17Ss6a2, beats=10)
+2026-10-21T19:24:11Z ALARM: no beat for 34m (2051s >= 960s) last_beat_id=c01RX17Ss6a2 expected_seq=10
+2026-10-21T19:24:11Z alarm posted id=m65ss445OePr
+2026-10-21T19:27:12Z poll: newest beat 37m (2232s) old (id=c01RX17Ss6a2, beats=10)
+2026-10-21T19:27:12Z STILL SILENT 37m (2232s) — alarm suppressed (cooldown 1800s)
+2026-10-21T19:30:12Z poll: newest beat 2m (122s) old (id=cx7nkzuAozVe, beats=11)
+2026-10-21T19:33:12Z poll: newest beat 5m (302s) old (id=cx7nkzuAozVe, beats=11)
+2026-10-21T19:36:13Z poll: newest beat 1m (61s) old (id=y351u26hfbrp, beats=12)
+2026-10-21T19:39:13Z poll: newest beat 4m (241s) old (id=y351u26hfbrp, beats=12)

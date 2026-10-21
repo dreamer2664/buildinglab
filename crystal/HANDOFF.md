@@ -1,6 +1,6 @@
 # HANDOFF.md — Operator & Reviewer Hand-Off Notes (`paxton`)
 
-- **Timestamp (UTC):** `2026-10-21T18:41:21Z`
+- **Timestamp (UTC):** `2026-10-21T19:39:29Z`
 - **Task Card:** `t-20261021-3620` on branch `agent/paxton/t-20261021-3620`
 - **Rolling Window Release:** `best-renders-crystal` in `dreamer2664/buildinglab` (`BEST.zip` containing 64 views across all classes + `renders/best/BEST_01..30.jpg`).
 
