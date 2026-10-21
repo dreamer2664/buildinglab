@@ -1,0 +1,8 @@
+# TOOLCHAIN — measured on the worker, 2026-10-21T17:56:28Z
+host: Linux 6.1.158+ x86_64 · cpus: 2 · ram: 1982 MB (no swap) · disk free: 19520 MB
+blender: Blender 4.3.2
+python:  Python 3.13.16
+ffmpeg:  ffmpeg version 7.1.5-0+deb13u1
+git:     git version 2.47.3
+cycles:  CPU only · OpenImageDenoise: 1 (Debian build: assume ABSENT -> use_denoising=False, SANDBOX.md trap 1)
+MEM_CEILING_MB=1200 (2GB doctrine) · parallelism cap: -P 2

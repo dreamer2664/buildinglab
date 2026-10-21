@@ -1,0 +1,13 @@
+chunks/*.blend
+chunks/*.blend1
+stations/*.blend
+engines/*.blend
+renders/proofs/
+renders/finals/
+build/
+__pycache__/
+*.pyc
+ledgers/BRICKS/*.jsonl
+!ledgers/BRICKS/S0042.jsonl
+evidence/.beat_err
+evidence/.state.last

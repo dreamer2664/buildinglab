@@ -1,0 +1,52 @@
+{
+ "N-high": {
+  "basis": "Hampstead Heath head via Highgate, Stoke Newington and Hackney Wick to Abbey Mills, then the Northern Outfall to the Beckton penstocks (R-008, R-010, R-027)",
+  "chunks": 300,
+  "declared_fall_m_per_km": 1.0,
+  "invert_end_m": 12.6,
+  "invert_start_m": 42.6,
+  "length_km": 30.0,
+  "realised_fall_m_per_km": 1.0,
+  "total_fall_m": 30.0
+ },
+ "N-low": {
+  "basis": "Pimlico and Chelsea head, carried in the Victoria Embankment to Abbey Mills where the low-level flows are lifted (R-008, R-025, R-099, R-101)",
+  "chunks": 220,
+  "declared_fall_m_per_km": 0.45,
+  "invert_end_m": 1.9,
+  "invert_start_m": 11.8,
+  "length_km": 22.0,
+  "realised_fall_m_per_km": 0.45,
+  "total_fall_m": 9.9
+ },
+ "N-mid": {
+  "basis": "Kensal Green head via Kilburn, Camden and Old Ford to Abbey Mills and the outfall (R-008, R-027)",
+  "chunks": 270,
+  "declared_fall_m_per_km": 0.9,
+  "invert_end_m": 12.1,
+  "invert_start_m": 36.4,
+  "length_km": 27.0,
+  "realised_fall_m_per_km": 0.9,
+  "total_fall_m": 24.3
+ },
+ "S-high": {
+  "basis": "Putney and Brixton heads via Camberwell and Deptford, then the Southern Outfall to Crossness (R-010, R-078, R-080)",
+  "chunks": 280,
+  "declared_fall_m_per_km": 1.05,
+  "invert_end_m": 9.8,
+  "invert_start_m": 39.2,
+  "length_km": 28.0,
+  "realised_fall_m_per_km": 1.05,
+  "total_fall_m": 29.4
+ },
+ "S-low": {
+  "basis": "Lambeth and Battersea head, carried in the Albert Embankment to Deptford and lifted there (R-025, R-100, R-102)",
+  "chunks": 250,
+  "declared_fall_m_per_km": 0.4,
+  "invert_end_m": -0.6,
+  "invert_start_m": 9.4,
+  "length_km": 25.0,
+  "realised_fall_m_per_km": 0.4,
+  "total_fall_m": 10.0
+ }
+}

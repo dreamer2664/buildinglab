@@ -1,0 +1,62 @@
+{
+ "agent": "bazalgette",
+ "branch": "agent/bazalgette/t-20261021-8511",
+ "commission": "CLOACA VICTORIA",
+ "halt_law": "3 lawful halts only (packet \u00a71.4); NO-STOP-001 \u00a72: session ends on COMPLETE or dead machine",
+ "heartbeat": {
+  "board_cadence_min": 15,
+  "daily_cap": 210,
+  "ntfy_cadence_min": 7,
+  "reconcile_h": 2,
+  "watchdog_min": 16
+ },
+ "lane": [
+  "cloaca/**",
+  "agents/bazalgette/**"
+ ],
+ "law_epoch": "2026-10-20.3",
+ "master_prompt_sha256": "ae3ca026702479282409f726555994f9a340ca264588d273ef2fce182500ee93",
+ "mem_ceiling_mb": 1200,
+ "orders": [
+  "NO_STOPPING_ORDER NO-STOP-001 (2026-10-21)"
+ ],
+ "parallelism": 2,
+ "repo": "dreamer2664/buildinglab",
+ "run_started": "2026-10-21T17:58:24Z",
+ "stage": "0",
+ "targets": {
+  "beam_stroke_m": 3.05,
+  "bricks": 61000000,
+  "budget_h": 1080,
+  "chunks": 1320,
+  "embankment_km": 3.6,
+  "engine_houses": 5,
+  "engines": 22,
+  "faces": 120,
+  "flywheel_tol_pct": 2,
+  "gates": 14,
+  "gauge_samples": 4032,
+  "gauges": 6,
+  "hydraulic_maps": 12,
+  "km": 132.0,
+  "lampposts": 312,
+  "navvies": 120,
+  "overflows": 6,
+  "parts_per_engine": 4200,
+  "profile_tiles": 158,
+  "sections": 340,
+  "stations": 4,
+  "strokes_per_min": 14,
+  "tide_days": 28,
+  "tide_tol_m": 0.15,
+  "validators": 24,
+  "views": 1284
+ },
+ "task": "t-20261021-8511",
+ "worker": {
+  "cpus": 2,
+  "disk_free_mb": 19520,
+  "ram_mb": 1982,
+  "swap_mb": 0
+ }
+}

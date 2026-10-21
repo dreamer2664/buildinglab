@@ -1,0 +1,263 @@
+{
+ "brick": {
+  "H_mm": 76,
+  "L_mm": 229,
+  "W_mm": 114,
+  "cites": [
+   "R-041",
+   "R-042"
+  ],
+  "joint_mm": 10
+ },
+ "cites": [
+  "R-012",
+  "R-013",
+  "R-014",
+  "R-015",
+  "R-022",
+  "R-142",
+  "C-002",
+  "C-012"
+ ],
+ "gauges": null,
+ "generator_version": "cloaca-gen/1.0.0",
+ "line_order": [
+  "N-high",
+  "N-mid",
+  "N-low",
+  "S-high",
+  "S-low"
+ ],
+ "lines": {
+  "N-high": {
+   "basis": "Hampstead Heath head via Highgate, Stoke Newington and Hackney Wick to Abbey Mills, then the Northern Outfall to the Beckton penstocks (R-008, R-010, R-027)",
+   "chunks": 300,
+   "declared_fall_m_per_km": 1.0,
+   "invert_end_m": 12.6,
+   "invert_start_m": 42.6,
+   "length_km": 30.0,
+   "realised_fall_m_per_km": 1.0,
+   "total_fall_m": 30.0
+  },
+  "N-low": {
+   "basis": "Pimlico and Chelsea head, carried in the Victoria Embankment to Abbey Mills where the low-level flows are lifted (R-008, R-025, R-099, R-101)",
+   "chunks": 220,
+   "declared_fall_m_per_km": 0.45,
+   "invert_end_m": 1.9,
+   "invert_start_m": 11.8,
+   "length_km": 22.0,
+   "realised_fall_m_per_km": 0.45,
+   "total_fall_m": 9.9
+  },
+  "N-mid": {
+   "basis": "Kensal Green head via Kilburn, Camden and Old Ford to Abbey Mills and the outfall (R-008, R-027)",
+   "chunks": 270,
+   "declared_fall_m_per_km": 0.9,
+   "invert_end_m": 12.1,
+   "invert_start_m": 36.4,
+   "length_km": 27.0,
+   "realised_fall_m_per_km": 0.9,
+   "total_fall_m": 24.3
+  },
+  "S-high": {
+   "basis": "Putney and Brixton heads via Camberwell and Deptford, then the Southern Outfall to Crossness (R-010, R-078, R-080)",
+   "chunks": 280,
+   "declared_fall_m_per_km": 1.05,
+   "invert_end_m": 9.8,
+   "invert_start_m": 39.2,
+   "length_km": 28.0,
+   "realised_fall_m_per_km": 1.05,
+   "total_fall_m": 29.4
+  },
+  "S-low": {
+   "basis": "Lambeth and Battersea head, carried in the Albert Embankment to Deptford and lifted there (R-025, R-100, R-102)",
+   "chunks": 250,
+   "declared_fall_m_per_km": 0.4,
+   "invert_end_m": -0.6,
+   "invert_start_m": 9.4,
+   "length_km": 25.0,
+   "realised_fall_m_per_km": 0.4,
+   "total_fall_m": 10.0
+  }
+ },
+ "master_seed": "cloaca-victoria-1858",
+ "overflows": [
+  {
+   "chunk": 120,
+   "cites": [
+    "R-025"
+   ],
+   "id": "OF-1",
+   "line": "N-high"
+  },
+  {
+   "chunk": 150,
+   "cites": [
+    "R-025"
+   ],
+   "id": "OF-2",
+   "line": "N-mid"
+  },
+  {
+   "chunk": 95,
+   "cites": [
+    "R-101"
+   ],
+   "id": "OF-3",
+   "line": "N-low"
+  },
+  {
+   "chunk": 140,
+   "cites": [
+    "R-025"
+   ],
+   "id": "OF-4",
+   "line": "S-high"
+  },
+  {
+   "chunk": 110,
+   "cites": [
+    "R-100"
+   ],
+   "id": "OF-5",
+   "line": "S-low"
+  },
+  {
+   "chunk": 230,
+   "cites": [
+    "R-078"
+   ],
+   "id": "OF-6",
+   "line": "S-high"
+  }
+ ],
+ "profiles": {
+  "circ-2700": {
+   "cites": [
+    "R-024",
+    "R-043"
+   ],
+   "d": 2.7,
+   "height_m": 2.7,
+   "kind": "circle",
+   "note": "circular bore where the record shows it (F39)",
+   "width_m": 2.7,
+   "wythes": 3
+  },
+  "circ-3400": {
+   "cites": [
+    "R-026",
+    "R-024",
+    "R-043"
+   ],
+   "d": 3.4,
+   "height_m": 3.4,
+   "kind": "circle",
+   "note": "outfall culvert, 11 ft (3.4 m) high (R-026)",
+   "width_m": 3.4,
+   "wythes": 3
+  },
+  "ovoid-1050": {
+   "cites": [
+    "R-022",
+    "R-027",
+    "R-043"
+   ],
+   "height_m": 4.2,
+   "kind": "ovoid",
+   "note": "lower reaches; northern high-level mains reaching 12 ft in height (R-027)",
+   "r": 1.05,
+   "width_m": 2.1,
+   "wythes": 3
+  },
+  "ovoid-675": {
+   "cites": [
+    "R-022",
+    "R-023",
+    "R-142",
+    "R-043"
+   ],
+   "height_m": 2.7,
+   "kind": "ovoid",
+   "note": "canonical egg, small end down; dry-weather flow rides the narrow invert (R-018)",
+   "r": 0.675,
+   "width_m": 1.35,
+   "wythes": 2
+  },
+  "ovoid-900": {
+   "cites": [
+    "R-022",
+    "R-026",
+    "R-043"
+   ],
+   "height_m": 3.6,
+   "kind": "ovoid",
+   "note": "mid-reach of the high and middle level lines; record gives mains up to 11 ft (3.4 m)",
+   "r": 0.9,
+   "width_m": 1.8,
+   "wythes": 3
+  },
+  "rect-2740": {
+   "cites": [
+    "R-024",
+    "R-104"
+   ],
+   "h": 2.74,
+   "height_m": 2.74,
+   "kind": "rect",
+   "note": "Abbey Mills inlet culverts, 3 x 9 ft x 9 ft brick-lined",
+   "w": 2.74,
+   "width_m": 2.74,
+   "wythes": 3
+  }
+ },
+ "ring": {
+  "adjudication": "C-006 closure brick per course",
+  "cites": [
+   "R-043"
+  ],
+  "wythe_mm": 114
+ },
+ "stations": {
+  "abbey_mills": {
+   "chunk": 219,
+   "cites": [
+    "R-083",
+    "R-084",
+    "R-085",
+    "R-096"
+   ],
+   "engines": 8,
+   "line": "N-low"
+  },
+  "chelsea": {
+   "chunk": 0,
+   "cites": [
+    "R-103",
+    "R-105"
+   ],
+   "engines": 4,
+   "line": "N-low"
+  },
+  "crossness": {
+   "chunk": 279,
+   "cites": [
+    "R-063",
+    "R-064",
+    "R-068",
+    "R-076"
+   ],
+   "engines": 4,
+   "line": "S-high"
+  },
+  "deptford": {
+   "chunk": 249,
+   "cites": [
+    "R-102",
+    "R-105"
+   ],
+   "engines": 6,
+   "line": "S-low"
+  }
+ }
+}
