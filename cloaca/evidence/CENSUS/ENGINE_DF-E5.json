@@ -1,0 +1,13 @@
+{
+ "build_s": 0.77,
+ "engine": "DF-E5",
+ "file_bytes": 24742728,
+ "graph_edges": 13,
+ "graph_nodes": 430,
+ "ledger_rows": 4208,
+ "match": true,
+ "part_objects": 4208,
+ "parts_hash": "42d49f72b5d8dd735611119716bb8f70ef9d8a049700ed407c1523ad93dc54d9",
+ "peak_mb": 517.7,
+ "t": "2026-10-21T22:30:55Z"
+}

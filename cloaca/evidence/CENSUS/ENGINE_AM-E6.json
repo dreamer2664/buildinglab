@@ -1,0 +1,13 @@
+{
+ "build_s": 0.55,
+ "engine": "AM-E6",
+ "file_bytes": 24731020,
+ "graph_edges": 13,
+ "graph_nodes": 401,
+ "ledger_rows": 4208,
+ "match": true,
+ "part_objects": 4208,
+ "parts_hash": "d3ca91d3976dcaa7627737373a09cb4dd4a6354120087dc05feba8254be0b022",
+ "peak_mb": 516.0,
+ "t": "2026-10-21T22:30:32Z"
+}

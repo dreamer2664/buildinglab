@@ -1,0 +1,13 @@
+{
+ "build_s": 0.93,
+ "engine": "CH-E3",
+ "file_bytes": 24707884,
+ "graph_edges": 13,
+ "graph_nodes": 380,
+ "ledger_rows": 4210,
+ "match": true,
+ "part_objects": 4210,
+ "parts_hash": "33b666951ff80e4ed275f03054795d070d20483badf46c14b6bb45f024e670fe",
+ "peak_mb": 514.7,
+ "t": "2026-10-21T22:31:06Z"
+}

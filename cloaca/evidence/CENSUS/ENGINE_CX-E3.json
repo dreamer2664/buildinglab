@@ -1,0 +1,13 @@
+{
+ "build_s": 0.66,
+ "engine": "CX-E3",
+ "file_bytes": 25372092,
+ "graph_edges": 13,
+ "graph_nodes": 496,
+ "ledger_rows": 4308,
+ "match": true,
+ "part_objects": 4308,
+ "parts_hash": "d5e2c3bdd116f9090166431436f8f06afafb7b6537c7f4249e78cb92f267a6e1",
+ "peak_mb": 524.3,
+ "t": "2026-10-21T22:30:41Z"
+}

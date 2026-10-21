@@ -1,0 +1,375 @@
+{
+ "engine": "CH-E3",
+ "class": "D",
+ "derived": true,
+ "t": "2026-10-21T22:32:38Z",
+ "boiler_bar": 1.72,
+ "back_bar": 0.14,
+ "cut_off": 0.55,
+ "bore_m": 0.965,
+ "stroke_m": 3.05,
+ "loop": [
+  {
+   "deg": 0,
+   "volume_m3": 1.12999,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 5,
+   "volume_m3": 1.12326,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 10,
+   "volume_m3": 1.10315,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 15,
+   "volume_m3": 1.06994,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 20,
+   "volume_m3": 1.02407,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 25,
+   "volume_m3": 0.96614,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 30,
+   "volume_m3": 0.89694,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 35,
+   "volume_m3": 0.81743,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 40,
+   "volume_m3": 0.72871,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 45,
+   "volume_m3": 0.63204,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 50,
+   "volume_m3": 0.52881,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 55,
+   "volume_m3": 0.4205,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 60,
+   "volume_m3": 0.30871,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 65,
+   "volume_m3": 0.19506,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 70,
+   "volume_m3": 0.08119,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 75,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 80,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 85,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 90,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 95,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 100,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 105,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 110,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 115,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 120,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 125,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 130,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 135,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 140,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 145,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 150,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 155,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 160,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 165,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 170,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 175,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 180,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 185,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 190,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 195,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 200,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 205,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 210,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 215,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 220,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 225,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 230,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 235,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 240,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 245,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 250,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 255,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 260,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 265,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 270,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 275,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 280,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 285,
+   "volume_m3": 0.01463,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 290,
+   "volume_m3": 0.08119,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 295,
+   "volume_m3": 0.19506,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 300,
+   "volume_m3": 0.30871,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 305,
+   "volume_m3": 0.4205,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 310,
+   "volume_m3": 0.52881,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 315,
+   "volume_m3": 0.63204,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 320,
+   "volume_m3": 0.72871,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 325,
+   "volume_m3": 0.81743,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 330,
+   "volume_m3": 0.89694,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 335,
+   "volume_m3": 0.96614,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 340,
+   "volume_m3": 1.02407,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 345,
+   "volume_m3": 1.06994,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 350,
+   "volume_m3": 1.10315,
+   "pressure_bar": 1.72
+  },
+  {
+   "deg": 355,
+   "volume_m3": 1.12326,
+   "pressure_bar": 1.72
+  }
+ ],
+ "work_per_cycle_J": 0.0,
+ "loop_closed": true
+}
