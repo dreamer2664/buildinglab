@@ -1,0 +1,7562 @@
+[
+{
+"id": "SI-S0000",
+"cls": "sewer_interior",
+"scene": "chunk:S0000",
+"recipe": "interior",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0005",
+"cls": "sewer_interior",
+"scene": "chunk:S0005",
+"recipe": "interior",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0011",
+"cls": "sewer_interior",
+"scene": "chunk:S0011",
+"recipe": "interior",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0016",
+"cls": "sewer_interior",
+"scene": "chunk:S0016",
+"recipe": "interior",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0021",
+"cls": "sewer_interior",
+"scene": "chunk:S0021",
+"recipe": "interior",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0026",
+"cls": "sewer_interior",
+"scene": "chunk:S0026",
+"recipe": "interior",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0031",
+"cls": "sewer_interior",
+"scene": "chunk:S0031",
+"recipe": "interior",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0036",
+"cls": "sewer_interior",
+"scene": "chunk:S0036",
+"recipe": "interior",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0041",
+"cls": "sewer_interior",
+"scene": "chunk:S0041",
+"recipe": "interior",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0046",
+"cls": "sewer_interior",
+"scene": "chunk:S0046",
+"recipe": "interior",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0051",
+"cls": "sewer_interior",
+"scene": "chunk:S0051",
+"recipe": "interior",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0056",
+"cls": "sewer_interior",
+"scene": "chunk:S0056",
+"recipe": "interior",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0061",
+"cls": "sewer_interior",
+"scene": "chunk:S0061",
+"recipe": "interior",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0066",
+"cls": "sewer_interior",
+"scene": "chunk:S0066",
+"recipe": "interior",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0071",
+"cls": "sewer_interior",
+"scene": "chunk:S0071",
+"recipe": "interior",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0076",
+"cls": "sewer_interior",
+"scene": "chunk:S0076",
+"recipe": "interior",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0081",
+"cls": "sewer_interior",
+"scene": "chunk:S0081",
+"recipe": "interior",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0086",
+"cls": "sewer_interior",
+"scene": "chunk:S0086",
+"recipe": "interior",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0091",
+"cls": "sewer_interior",
+"scene": "chunk:S0091",
+"recipe": "interior",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0096",
+"cls": "sewer_interior",
+"scene": "chunk:S0096",
+"recipe": "interior",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0101",
+"cls": "sewer_interior",
+"scene": "chunk:S0101",
+"recipe": "interior",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0106",
+"cls": "sewer_interior",
+"scene": "chunk:S0106",
+"recipe": "interior",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0111",
+"cls": "sewer_interior",
+"scene": "chunk:S0111",
+"recipe": "interior",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0116",
+"cls": "sewer_interior",
+"scene": "chunk:S0116",
+"recipe": "interior",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0121",
+"cls": "sewer_interior",
+"scene": "chunk:S0121",
+"recipe": "interior",
+"k": 24,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0126",
+"cls": "sewer_interior",
+"scene": "chunk:S0126",
+"recipe": "interior",
+"k": 25,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0131",
+"cls": "sewer_interior",
+"scene": "chunk:S0131",
+"recipe": "interior",
+"k": 26,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0136",
+"cls": "sewer_interior",
+"scene": "chunk:S0136",
+"recipe": "interior",
+"k": 27,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0141",
+"cls": "sewer_interior",
+"scene": "chunk:S0141",
+"recipe": "interior",
+"k": 28,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0146",
+"cls": "sewer_interior",
+"scene": "chunk:S0146",
+"recipe": "interior",
+"k": 29,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0151",
+"cls": "sewer_interior",
+"scene": "chunk:S0151",
+"recipe": "interior",
+"k": 30,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0156",
+"cls": "sewer_interior",
+"scene": "chunk:S0156",
+"recipe": "interior",
+"k": 31,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0161",
+"cls": "sewer_interior",
+"scene": "chunk:S0161",
+"recipe": "interior",
+"k": 32,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0166",
+"cls": "sewer_interior",
+"scene": "chunk:S0166",
+"recipe": "interior",
+"k": 33,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0171",
+"cls": "sewer_interior",
+"scene": "chunk:S0171",
+"recipe": "interior",
+"k": 34,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0176",
+"cls": "sewer_interior",
+"scene": "chunk:S0176",
+"recipe": "interior",
+"k": 35,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0181",
+"cls": "sewer_interior",
+"scene": "chunk:S0181",
+"recipe": "interior",
+"k": 36,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0186",
+"cls": "sewer_interior",
+"scene": "chunk:S0186",
+"recipe": "interior",
+"k": 37,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0191",
+"cls": "sewer_interior",
+"scene": "chunk:S0191",
+"recipe": "interior",
+"k": 38,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0196",
+"cls": "sewer_interior",
+"scene": "chunk:S0196",
+"recipe": "interior",
+"k": 39,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0201",
+"cls": "sewer_interior",
+"scene": "chunk:S0201",
+"recipe": "interior",
+"k": 40,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0206",
+"cls": "sewer_interior",
+"scene": "chunk:S0206",
+"recipe": "interior",
+"k": 41,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0211",
+"cls": "sewer_interior",
+"scene": "chunk:S0211",
+"recipe": "interior",
+"k": 42,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0216",
+"cls": "sewer_interior",
+"scene": "chunk:S0216",
+"recipe": "interior",
+"k": 43,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0221",
+"cls": "sewer_interior",
+"scene": "chunk:S0221",
+"recipe": "interior",
+"k": 44,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0226",
+"cls": "sewer_interior",
+"scene": "chunk:S0226",
+"recipe": "interior",
+"k": 45,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0231",
+"cls": "sewer_interior",
+"scene": "chunk:S0231",
+"recipe": "interior",
+"k": 46,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0236",
+"cls": "sewer_interior",
+"scene": "chunk:S0236",
+"recipe": "interior",
+"k": 47,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0241",
+"cls": "sewer_interior",
+"scene": "chunk:S0241",
+"recipe": "interior",
+"k": 48,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0246",
+"cls": "sewer_interior",
+"scene": "chunk:S0246",
+"recipe": "interior",
+"k": 49,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0251",
+"cls": "sewer_interior",
+"scene": "chunk:S0251",
+"recipe": "interior",
+"k": 50,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0256",
+"cls": "sewer_interior",
+"scene": "chunk:S0256",
+"recipe": "interior",
+"k": 51,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0261",
+"cls": "sewer_interior",
+"scene": "chunk:S0261",
+"recipe": "interior",
+"k": 52,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0266",
+"cls": "sewer_interior",
+"scene": "chunk:S0266",
+"recipe": "interior",
+"k": 53,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0271",
+"cls": "sewer_interior",
+"scene": "chunk:S0271",
+"recipe": "interior",
+"k": 54,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0276",
+"cls": "sewer_interior",
+"scene": "chunk:S0276",
+"recipe": "interior",
+"k": 55,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0281",
+"cls": "sewer_interior",
+"scene": "chunk:S0281",
+"recipe": "interior",
+"k": 56,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0286",
+"cls": "sewer_interior",
+"scene": "chunk:S0286",
+"recipe": "interior",
+"k": 57,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0291",
+"cls": "sewer_interior",
+"scene": "chunk:S0291",
+"recipe": "interior",
+"k": 58,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0296",
+"cls": "sewer_interior",
+"scene": "chunk:S0296",
+"recipe": "interior",
+"k": 59,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0301",
+"cls": "sewer_interior",
+"scene": "chunk:S0301",
+"recipe": "interior",
+"k": 60,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0306",
+"cls": "sewer_interior",
+"scene": "chunk:S0306",
+"recipe": "interior",
+"k": 61,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0311",
+"cls": "sewer_interior",
+"scene": "chunk:S0311",
+"recipe": "interior",
+"k": 62,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0316",
+"cls": "sewer_interior",
+"scene": "chunk:S0316",
+"recipe": "interior",
+"k": 63,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0321",
+"cls": "sewer_interior",
+"scene": "chunk:S0321",
+"recipe": "interior",
+"k": 64,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0326",
+"cls": "sewer_interior",
+"scene": "chunk:S0326",
+"recipe": "interior",
+"k": 65,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0331",
+"cls": "sewer_interior",
+"scene": "chunk:S0331",
+"recipe": "interior",
+"k": 66,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0336",
+"cls": "sewer_interior",
+"scene": "chunk:S0336",
+"recipe": "interior",
+"k": 67,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0341",
+"cls": "sewer_interior",
+"scene": "chunk:S0341",
+"recipe": "interior",
+"k": 68,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0346",
+"cls": "sewer_interior",
+"scene": "chunk:S0346",
+"recipe": "interior",
+"k": 69,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0351",
+"cls": "sewer_interior",
+"scene": "chunk:S0351",
+"recipe": "interior",
+"k": 70,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0356",
+"cls": "sewer_interior",
+"scene": "chunk:S0356",
+"recipe": "interior",
+"k": 71,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0361",
+"cls": "sewer_interior",
+"scene": "chunk:S0361",
+"recipe": "interior",
+"k": 72,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0366",
+"cls": "sewer_interior",
+"scene": "chunk:S0366",
+"recipe": "interior",
+"k": 73,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0371",
+"cls": "sewer_interior",
+"scene": "chunk:S0371",
+"recipe": "interior",
+"k": 74,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0376",
+"cls": "sewer_interior",
+"scene": "chunk:S0376",
+"recipe": "interior",
+"k": 75,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0381",
+"cls": "sewer_interior",
+"scene": "chunk:S0381",
+"recipe": "interior",
+"k": 76,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0386",
+"cls": "sewer_interior",
+"scene": "chunk:S0386",
+"recipe": "interior",
+"k": 77,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0391",
+"cls": "sewer_interior",
+"scene": "chunk:S0391",
+"recipe": "interior",
+"k": 78,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0396",
+"cls": "sewer_interior",
+"scene": "chunk:S0396",
+"recipe": "interior",
+"k": 79,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0401",
+"cls": "sewer_interior",
+"scene": "chunk:S0401",
+"recipe": "interior",
+"k": 80,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0406",
+"cls": "sewer_interior",
+"scene": "chunk:S0406",
+"recipe": "interior",
+"k": 81,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0411",
+"cls": "sewer_interior",
+"scene": "chunk:S0411",
+"recipe": "interior",
+"k": 82,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0416",
+"cls": "sewer_interior",
+"scene": "chunk:S0416",
+"recipe": "interior",
+"k": 83,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0421",
+"cls": "sewer_interior",
+"scene": "chunk:S0421",
+"recipe": "interior",
+"k": 84,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0426",
+"cls": "sewer_interior",
+"scene": "chunk:S0426",
+"recipe": "interior",
+"k": 85,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0431",
+"cls": "sewer_interior",
+"scene": "chunk:S0431",
+"recipe": "interior",
+"k": 86,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0436",
+"cls": "sewer_interior",
+"scene": "chunk:S0436",
+"recipe": "interior",
+"k": 87,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0441",
+"cls": "sewer_interior",
+"scene": "chunk:S0441",
+"recipe": "interior",
+"k": 88,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0446",
+"cls": "sewer_interior",
+"scene": "chunk:S0446",
+"recipe": "interior",
+"k": 89,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0451",
+"cls": "sewer_interior",
+"scene": "chunk:S0451",
+"recipe": "interior",
+"k": 90,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0456",
+"cls": "sewer_interior",
+"scene": "chunk:S0456",
+"recipe": "interior",
+"k": 91,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0461",
+"cls": "sewer_interior",
+"scene": "chunk:S0461",
+"recipe": "interior",
+"k": 92,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0466",
+"cls": "sewer_interior",
+"scene": "chunk:S0466",
+"recipe": "interior",
+"k": 93,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0471",
+"cls": "sewer_interior",
+"scene": "chunk:S0471",
+"recipe": "interior",
+"k": 94,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0476",
+"cls": "sewer_interior",
+"scene": "chunk:S0476",
+"recipe": "interior",
+"k": 95,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0481",
+"cls": "sewer_interior",
+"scene": "chunk:S0481",
+"recipe": "interior",
+"k": 96,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0486",
+"cls": "sewer_interior",
+"scene": "chunk:S0486",
+"recipe": "interior",
+"k": 97,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0491",
+"cls": "sewer_interior",
+"scene": "chunk:S0491",
+"recipe": "interior",
+"k": 98,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0496",
+"cls": "sewer_interior",
+"scene": "chunk:S0496",
+"recipe": "interior",
+"k": 99,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0501",
+"cls": "sewer_interior",
+"scene": "chunk:S0501",
+"recipe": "interior",
+"k": 100,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0506",
+"cls": "sewer_interior",
+"scene": "chunk:S0506",
+"recipe": "interior",
+"k": 101,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0511",
+"cls": "sewer_interior",
+"scene": "chunk:S0511",
+"recipe": "interior",
+"k": 102,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0516",
+"cls": "sewer_interior",
+"scene": "chunk:S0516",
+"recipe": "interior",
+"k": 103,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0521",
+"cls": "sewer_interior",
+"scene": "chunk:S0521",
+"recipe": "interior",
+"k": 104,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0526",
+"cls": "sewer_interior",
+"scene": "chunk:S0526",
+"recipe": "interior",
+"k": 105,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0531",
+"cls": "sewer_interior",
+"scene": "chunk:S0531",
+"recipe": "interior",
+"k": 106,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0536",
+"cls": "sewer_interior",
+"scene": "chunk:S0536",
+"recipe": "interior",
+"k": 107,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0541",
+"cls": "sewer_interior",
+"scene": "chunk:S0541",
+"recipe": "interior",
+"k": 108,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0546",
+"cls": "sewer_interior",
+"scene": "chunk:S0546",
+"recipe": "interior",
+"k": 109,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0551",
+"cls": "sewer_interior",
+"scene": "chunk:S0551",
+"recipe": "interior",
+"k": 110,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0556",
+"cls": "sewer_interior",
+"scene": "chunk:S0556",
+"recipe": "interior",
+"k": 111,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0561",
+"cls": "sewer_interior",
+"scene": "chunk:S0561",
+"recipe": "interior",
+"k": 112,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0566",
+"cls": "sewer_interior",
+"scene": "chunk:S0566",
+"recipe": "interior",
+"k": 113,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0571",
+"cls": "sewer_interior",
+"scene": "chunk:S0571",
+"recipe": "interior",
+"k": 114,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0576",
+"cls": "sewer_interior",
+"scene": "chunk:S0576",
+"recipe": "interior",
+"k": 115,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0581",
+"cls": "sewer_interior",
+"scene": "chunk:S0581",
+"recipe": "interior",
+"k": 116,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0586",
+"cls": "sewer_interior",
+"scene": "chunk:S0586",
+"recipe": "interior",
+"k": 117,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0591",
+"cls": "sewer_interior",
+"scene": "chunk:S0591",
+"recipe": "interior",
+"k": 118,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0596",
+"cls": "sewer_interior",
+"scene": "chunk:S0596",
+"recipe": "interior",
+"k": 119,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0601",
+"cls": "sewer_interior",
+"scene": "chunk:S0601",
+"recipe": "interior",
+"k": 120,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0606",
+"cls": "sewer_interior",
+"scene": "chunk:S0606",
+"recipe": "interior",
+"k": 121,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0611",
+"cls": "sewer_interior",
+"scene": "chunk:S0611",
+"recipe": "interior",
+"k": 122,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0616",
+"cls": "sewer_interior",
+"scene": "chunk:S0616",
+"recipe": "interior",
+"k": 123,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0621",
+"cls": "sewer_interior",
+"scene": "chunk:S0621",
+"recipe": "interior",
+"k": 124,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0626",
+"cls": "sewer_interior",
+"scene": "chunk:S0626",
+"recipe": "interior",
+"k": 125,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0631",
+"cls": "sewer_interior",
+"scene": "chunk:S0631",
+"recipe": "interior",
+"k": 126,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0636",
+"cls": "sewer_interior",
+"scene": "chunk:S0636",
+"recipe": "interior",
+"k": 127,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0641",
+"cls": "sewer_interior",
+"scene": "chunk:S0641",
+"recipe": "interior",
+"k": 128,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0646",
+"cls": "sewer_interior",
+"scene": "chunk:S0646",
+"recipe": "interior",
+"k": 129,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0651",
+"cls": "sewer_interior",
+"scene": "chunk:S0651",
+"recipe": "interior",
+"k": 130,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SI-S0656",
+"cls": "sewer_interior",
+"scene": "chunk:S0656",
+"recipe": "interior",
+"k": 131,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0000",
+"cls": "water_flow",
+"scene": "chunk:S0000",
+"recipe": "water",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0005",
+"cls": "water_flow",
+"scene": "chunk:S0005",
+"recipe": "water",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0011",
+"cls": "water_flow",
+"scene": "chunk:S0011",
+"recipe": "water",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0016",
+"cls": "water_flow",
+"scene": "chunk:S0016",
+"recipe": "water",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0021",
+"cls": "water_flow",
+"scene": "chunk:S0021",
+"recipe": "water",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0026",
+"cls": "water_flow",
+"scene": "chunk:S0026",
+"recipe": "water",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0031",
+"cls": "water_flow",
+"scene": "chunk:S0031",
+"recipe": "water",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0036",
+"cls": "water_flow",
+"scene": "chunk:S0036",
+"recipe": "water",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0041",
+"cls": "water_flow",
+"scene": "chunk:S0041",
+"recipe": "water",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0046",
+"cls": "water_flow",
+"scene": "chunk:S0046",
+"recipe": "water",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0051",
+"cls": "water_flow",
+"scene": "chunk:S0051",
+"recipe": "water",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0056",
+"cls": "water_flow",
+"scene": "chunk:S0056",
+"recipe": "water",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0061",
+"cls": "water_flow",
+"scene": "chunk:S0061",
+"recipe": "water",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0066",
+"cls": "water_flow",
+"scene": "chunk:S0066",
+"recipe": "water",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0071",
+"cls": "water_flow",
+"scene": "chunk:S0071",
+"recipe": "water",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0076",
+"cls": "water_flow",
+"scene": "chunk:S0076",
+"recipe": "water",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0081",
+"cls": "water_flow",
+"scene": "chunk:S0081",
+"recipe": "water",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0086",
+"cls": "water_flow",
+"scene": "chunk:S0086",
+"recipe": "water",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0091",
+"cls": "water_flow",
+"scene": "chunk:S0091",
+"recipe": "water",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0096",
+"cls": "water_flow",
+"scene": "chunk:S0096",
+"recipe": "water",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0101",
+"cls": "water_flow",
+"scene": "chunk:S0101",
+"recipe": "water",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0106",
+"cls": "water_flow",
+"scene": "chunk:S0106",
+"recipe": "water",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0111",
+"cls": "water_flow",
+"scene": "chunk:S0111",
+"recipe": "water",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0116",
+"cls": "water_flow",
+"scene": "chunk:S0116",
+"recipe": "water",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0121",
+"cls": "water_flow",
+"scene": "chunk:S0121",
+"recipe": "water",
+"k": 24,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0126",
+"cls": "water_flow",
+"scene": "chunk:S0126",
+"recipe": "water",
+"k": 25,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0131",
+"cls": "water_flow",
+"scene": "chunk:S0131",
+"recipe": "water",
+"k": 26,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0136",
+"cls": "water_flow",
+"scene": "chunk:S0136",
+"recipe": "water",
+"k": 27,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0141",
+"cls": "water_flow",
+"scene": "chunk:S0141",
+"recipe": "water",
+"k": 28,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0146",
+"cls": "water_flow",
+"scene": "chunk:S0146",
+"recipe": "water",
+"k": 29,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0151",
+"cls": "water_flow",
+"scene": "chunk:S0151",
+"recipe": "water",
+"k": 30,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0156",
+"cls": "water_flow",
+"scene": "chunk:S0156",
+"recipe": "water",
+"k": 31,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0161",
+"cls": "water_flow",
+"scene": "chunk:S0161",
+"recipe": "water",
+"k": 32,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0166",
+"cls": "water_flow",
+"scene": "chunk:S0166",
+"recipe": "water",
+"k": 33,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0171",
+"cls": "water_flow",
+"scene": "chunk:S0171",
+"recipe": "water",
+"k": 34,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0176",
+"cls": "water_flow",
+"scene": "chunk:S0176",
+"recipe": "water",
+"k": 35,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0181",
+"cls": "water_flow",
+"scene": "chunk:S0181",
+"recipe": "water",
+"k": 36,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0186",
+"cls": "water_flow",
+"scene": "chunk:S0186",
+"recipe": "water",
+"k": 37,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0191",
+"cls": "water_flow",
+"scene": "chunk:S0191",
+"recipe": "water",
+"k": 38,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0196",
+"cls": "water_flow",
+"scene": "chunk:S0196",
+"recipe": "water",
+"k": 39,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0201",
+"cls": "water_flow",
+"scene": "chunk:S0201",
+"recipe": "water",
+"k": 40,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0206",
+"cls": "water_flow",
+"scene": "chunk:S0206",
+"recipe": "water",
+"k": 41,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0211",
+"cls": "water_flow",
+"scene": "chunk:S0211",
+"recipe": "water",
+"k": 42,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0216",
+"cls": "water_flow",
+"scene": "chunk:S0216",
+"recipe": "water",
+"k": 43,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0221",
+"cls": "water_flow",
+"scene": "chunk:S0221",
+"recipe": "water",
+"k": 44,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0226",
+"cls": "water_flow",
+"scene": "chunk:S0226",
+"recipe": "water",
+"k": 45,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0231",
+"cls": "water_flow",
+"scene": "chunk:S0231",
+"recipe": "water",
+"k": 46,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "WF-S0236",
+"cls": "water_flow",
+"scene": "chunk:S0236",
+"recipe": "water",
+"k": 47,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0000",
+"cls": "brick_macro",
+"scene": "chunk:S0000",
+"recipe": "macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0005",
+"cls": "brick_macro",
+"scene": "chunk:S0005",
+"recipe": "macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0011",
+"cls": "brick_macro",
+"scene": "chunk:S0011",
+"recipe": "macro",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0016",
+"cls": "brick_macro",
+"scene": "chunk:S0016",
+"recipe": "macro",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0021",
+"cls": "brick_macro",
+"scene": "chunk:S0021",
+"recipe": "macro",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0026",
+"cls": "brick_macro",
+"scene": "chunk:S0026",
+"recipe": "macro",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0031",
+"cls": "brick_macro",
+"scene": "chunk:S0031",
+"recipe": "macro",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0036",
+"cls": "brick_macro",
+"scene": "chunk:S0036",
+"recipe": "macro",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0041",
+"cls": "brick_macro",
+"scene": "chunk:S0041",
+"recipe": "macro",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0046",
+"cls": "brick_macro",
+"scene": "chunk:S0046",
+"recipe": "macro",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0051",
+"cls": "brick_macro",
+"scene": "chunk:S0051",
+"recipe": "macro",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0056",
+"cls": "brick_macro",
+"scene": "chunk:S0056",
+"recipe": "macro",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0061",
+"cls": "brick_macro",
+"scene": "chunk:S0061",
+"recipe": "macro",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0066",
+"cls": "brick_macro",
+"scene": "chunk:S0066",
+"recipe": "macro",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0071",
+"cls": "brick_macro",
+"scene": "chunk:S0071",
+"recipe": "macro",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0076",
+"cls": "brick_macro",
+"scene": "chunk:S0076",
+"recipe": "macro",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0081",
+"cls": "brick_macro",
+"scene": "chunk:S0081",
+"recipe": "macro",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0086",
+"cls": "brick_macro",
+"scene": "chunk:S0086",
+"recipe": "macro",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0091",
+"cls": "brick_macro",
+"scene": "chunk:S0091",
+"recipe": "macro",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0096",
+"cls": "brick_macro",
+"scene": "chunk:S0096",
+"recipe": "macro",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0101",
+"cls": "brick_macro",
+"scene": "chunk:S0101",
+"recipe": "macro",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0106",
+"cls": "brick_macro",
+"scene": "chunk:S0106",
+"recipe": "macro",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0111",
+"cls": "brick_macro",
+"scene": "chunk:S0111",
+"recipe": "macro",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0116",
+"cls": "brick_macro",
+"scene": "chunk:S0116",
+"recipe": "macro",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0121",
+"cls": "brick_macro",
+"scene": "chunk:S0121",
+"recipe": "macro",
+"k": 24,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0126",
+"cls": "brick_macro",
+"scene": "chunk:S0126",
+"recipe": "macro",
+"k": 25,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0131",
+"cls": "brick_macro",
+"scene": "chunk:S0131",
+"recipe": "macro",
+"k": 26,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0136",
+"cls": "brick_macro",
+"scene": "chunk:S0136",
+"recipe": "macro",
+"k": 27,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0141",
+"cls": "brick_macro",
+"scene": "chunk:S0141",
+"recipe": "macro",
+"k": 28,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0146",
+"cls": "brick_macro",
+"scene": "chunk:S0146",
+"recipe": "macro",
+"k": 29,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0151",
+"cls": "brick_macro",
+"scene": "chunk:S0151",
+"recipe": "macro",
+"k": 30,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0156",
+"cls": "brick_macro",
+"scene": "chunk:S0156",
+"recipe": "macro",
+"k": 31,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0161",
+"cls": "brick_macro",
+"scene": "chunk:S0161",
+"recipe": "macro",
+"k": 32,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0166",
+"cls": "brick_macro",
+"scene": "chunk:S0166",
+"recipe": "macro",
+"k": 33,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0171",
+"cls": "brick_macro",
+"scene": "chunk:S0171",
+"recipe": "macro",
+"k": 34,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0176",
+"cls": "brick_macro",
+"scene": "chunk:S0176",
+"recipe": "macro",
+"k": 35,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0181",
+"cls": "brick_macro",
+"scene": "chunk:S0181",
+"recipe": "macro",
+"k": 36,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0186",
+"cls": "brick_macro",
+"scene": "chunk:S0186",
+"recipe": "macro",
+"k": 37,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0191",
+"cls": "brick_macro",
+"scene": "chunk:S0191",
+"recipe": "macro",
+"k": 38,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "BM-S0196",
+"cls": "brick_macro",
+"scene": "chunk:S0196",
+"recipe": "macro",
+"k": 39,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF1-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-1.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF2-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-2.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF3-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-3.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF4-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-4.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF5-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-5.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-0",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-1",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-2",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-3",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-4",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SO-OF6-5",
+"cls": "storm_overflow",
+"scene": "overflows/OF-6.blend",
+"recipe": "overflow",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E1-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E1.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E1-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E1.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E1-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E1.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E1-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E1.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E2-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E2.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E2-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E2.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E2-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E2.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E2-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E2.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E3-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E3.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E3-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E3.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E3-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E3.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E3-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E3.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E4-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E4.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E4-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E4.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E4-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E4.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E4-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E4.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E5-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E5.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E5-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E5.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E5-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E5.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E5-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E5.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E6-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E6.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E6-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E6.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E6-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E6.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E6-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E6.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E7-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E7.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E7-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E7.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E7-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E7.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E7-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E7.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E8-0",
+"cls": "engine_closeup",
+"scene": "engines/AM-E8.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E8-1",
+"cls": "engine_closeup",
+"scene": "engines/AM-E8.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E8-2",
+"cls": "engine_closeup",
+"scene": "engines/AM-E8.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-AM-E8-3",
+"cls": "engine_closeup",
+"scene": "engines/AM-E8.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E1-0",
+"cls": "engine_closeup",
+"scene": "engines/CX-E1.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E1-1",
+"cls": "engine_closeup",
+"scene": "engines/CX-E1.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E1-2",
+"cls": "engine_closeup",
+"scene": "engines/CX-E1.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E1-3",
+"cls": "engine_closeup",
+"scene": "engines/CX-E1.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E2-0",
+"cls": "engine_closeup",
+"scene": "engines/CX-E2.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E2-1",
+"cls": "engine_closeup",
+"scene": "engines/CX-E2.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E2-2",
+"cls": "engine_closeup",
+"scene": "engines/CX-E2.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E2-3",
+"cls": "engine_closeup",
+"scene": "engines/CX-E2.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E3-0",
+"cls": "engine_closeup",
+"scene": "engines/CX-E3.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E3-1",
+"cls": "engine_closeup",
+"scene": "engines/CX-E3.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E3-2",
+"cls": "engine_closeup",
+"scene": "engines/CX-E3.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E3-3",
+"cls": "engine_closeup",
+"scene": "engines/CX-E3.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E4-0",
+"cls": "engine_closeup",
+"scene": "engines/CX-E4.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E4-1",
+"cls": "engine_closeup",
+"scene": "engines/CX-E4.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E4-2",
+"cls": "engine_closeup",
+"scene": "engines/CX-E4.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CX-E4-3",
+"cls": "engine_closeup",
+"scene": "engines/CX-E4.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E1-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E1.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E1-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E1.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E1-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E1.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E1-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E1.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E2-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E2.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E2-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E2.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E2-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E2.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E2-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E2.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E3-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E3.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E3-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E3.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E3-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E3.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E3-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E3.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E4-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E4.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E4-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E4.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E4-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E4.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E4-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E4.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E5-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E5.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E5-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E5.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E5-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E5.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E5-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E5.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E6-0",
+"cls": "engine_closeup",
+"scene": "engines/DF-E6.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E6-1",
+"cls": "engine_closeup",
+"scene": "engines/DF-E6.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E6-2",
+"cls": "engine_closeup",
+"scene": "engines/DF-E6.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-DF-E6-3",
+"cls": "engine_closeup",
+"scene": "engines/DF-E6.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E1-0",
+"cls": "engine_closeup",
+"scene": "engines/CH-E1.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E1-1",
+"cls": "engine_closeup",
+"scene": "engines/CH-E1.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E1-2",
+"cls": "engine_closeup",
+"scene": "engines/CH-E1.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E1-3",
+"cls": "engine_closeup",
+"scene": "engines/CH-E1.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E2-0",
+"cls": "engine_closeup",
+"scene": "engines/CH-E2.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E2-1",
+"cls": "engine_closeup",
+"scene": "engines/CH-E2.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E2-2",
+"cls": "engine_closeup",
+"scene": "engines/CH-E2.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E2-3",
+"cls": "engine_closeup",
+"scene": "engines/CH-E2.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E3-0",
+"cls": "engine_closeup",
+"scene": "engines/CH-E3.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E3-1",
+"cls": "engine_closeup",
+"scene": "engines/CH-E3.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E3-2",
+"cls": "engine_closeup",
+"scene": "engines/CH-E3.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E3-3",
+"cls": "engine_closeup",
+"scene": "engines/CH-E3.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E4-0",
+"cls": "engine_closeup",
+"scene": "engines/CH-E4.blend",
+"recipe": "engine_closeup",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E4-1",
+"cls": "engine_closeup",
+"scene": "engines/CH-E4.blend",
+"recipe": "engine_closeup",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E4-2",
+"cls": "engine_closeup",
+"scene": "engines/CH-E4.blend",
+"recipe": "engine_closeup",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EC-CH-E4-3",
+"cls": "engine_closeup",
+"scene": "engines/CH-E4.blend",
+"recipe": "engine_closeup",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E1-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E1.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E1-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E1.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E1-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E1.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E2-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E2.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E2-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E2.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E2-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E2.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E3-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E3.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E3-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E3.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E3-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E3.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E4-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E4.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E4-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E4.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E4-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E4.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E5-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E5.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E5-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E5.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E5-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E5.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E6-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E6.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E6-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E6.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E6-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E6.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E7-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E7.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E7-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E7.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E7-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E7.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E8-0",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E8.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E8-1",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E8.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-AM-E8-2",
+"cls": "mechanism_detail",
+"scene": "engines/AM-E8.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E1-0",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E1.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E1-1",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E1.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E1-2",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E1.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E2-0",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E2.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E2-1",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E2.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E2-2",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E2.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E3-0",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E3.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E3-1",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E3.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E3-2",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E3.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E4-0",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E4.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E4-1",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E4.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CX-E4-2",
+"cls": "mechanism_detail",
+"scene": "engines/CX-E4.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E1-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E1.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E1-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E1.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E1-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E1.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E2-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E2.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E2-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E2.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E2-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E2.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E3-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E3.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E3-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E3.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E3-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E3.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E4-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E4.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E4-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E4.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E4-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E4.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E5-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E5.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E5-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E5.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E5-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E5.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E6-0",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E6.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E6-1",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E6.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-DF-E6-2",
+"cls": "mechanism_detail",
+"scene": "engines/DF-E6.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E1-0",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E1.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E1-1",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E1.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E1-2",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E1.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E2-0",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E2.blend",
+"recipe": "mechanism_detail",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E2-1",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E2.blend",
+"recipe": "mechanism_detail",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "MD-CH-E2-2",
+"cls": "mechanism_detail",
+"scene": "engines/CH-E2.blend",
+"recipe": "mechanism_detail",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E1-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E1.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E1-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E1.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E2-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E2.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E2-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E2.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E3-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E3.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E3-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E3.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E4-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E4.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E4-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E4.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E5-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E5.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E5-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E5.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E6-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E6.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E6-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E6.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E7-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E7.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E7-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E7.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E8-0",
+"cls": "iron_macro",
+"scene": "engines/AM-E8.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-AM-E8-1",
+"cls": "iron_macro",
+"scene": "engines/AM-E8.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E1-0",
+"cls": "iron_macro",
+"scene": "engines/CX-E1.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E1-1",
+"cls": "iron_macro",
+"scene": "engines/CX-E1.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E2-0",
+"cls": "iron_macro",
+"scene": "engines/CX-E2.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E2-1",
+"cls": "iron_macro",
+"scene": "engines/CX-E2.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E3-0",
+"cls": "iron_macro",
+"scene": "engines/CX-E3.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E3-1",
+"cls": "iron_macro",
+"scene": "engines/CX-E3.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E4-0",
+"cls": "iron_macro",
+"scene": "engines/CX-E4.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-CX-E4-1",
+"cls": "iron_macro",
+"scene": "engines/CX-E4.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E1-0",
+"cls": "iron_macro",
+"scene": "engines/DF-E1.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E1-1",
+"cls": "iron_macro",
+"scene": "engines/DF-E1.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E2-0",
+"cls": "iron_macro",
+"scene": "engines/DF-E2.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E2-1",
+"cls": "iron_macro",
+"scene": "engines/DF-E2.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E3-0",
+"cls": "iron_macro",
+"scene": "engines/DF-E3.blend",
+"recipe": "iron_macro",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "IM-DF-E3-1",
+"cls": "iron_macro",
+"scene": "engines/DF-E3.blend",
+"recipe": "iron_macro",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-abbey_mills-0",
+"cls": "station_hero",
+"scene": "stations/abbey_mills.blend",
+"recipe": "station_hero",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-abbey_mills-1",
+"cls": "station_hero",
+"scene": "stations/abbey_mills.blend",
+"recipe": "station_hero",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-abbey_mills-2",
+"cls": "station_hero",
+"scene": "stations/abbey_mills.blend",
+"recipe": "station_hero",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-abbey_mills-3",
+"cls": "station_hero",
+"scene": "stations/abbey_mills.blend",
+"recipe": "station_hero",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-0",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-1",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-2",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-3",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-4",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-5",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-6",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-7",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-8",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-abbey_mills-9",
+"cls": "engine_house",
+"scene": "stations/abbey_mills.blend",
+"recipe": "engine_house",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-crossness-0",
+"cls": "station_hero",
+"scene": "stations/crossness.blend",
+"recipe": "station_hero",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-crossness-1",
+"cls": "station_hero",
+"scene": "stations/crossness.blend",
+"recipe": "station_hero",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-crossness-2",
+"cls": "station_hero",
+"scene": "stations/crossness.blend",
+"recipe": "station_hero",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-crossness-3",
+"cls": "station_hero",
+"scene": "stations/crossness.blend",
+"recipe": "station_hero",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-0",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-1",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-2",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-3",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-4",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-5",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-6",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-7",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-8",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-crossness-9",
+"cls": "engine_house",
+"scene": "stations/crossness.blend",
+"recipe": "engine_house",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-deptford-0",
+"cls": "station_hero",
+"scene": "stations/deptford.blend",
+"recipe": "station_hero",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-deptford-1",
+"cls": "station_hero",
+"scene": "stations/deptford.blend",
+"recipe": "station_hero",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-deptford-2",
+"cls": "station_hero",
+"scene": "stations/deptford.blend",
+"recipe": "station_hero",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-deptford-3",
+"cls": "station_hero",
+"scene": "stations/deptford.blend",
+"recipe": "station_hero",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-0",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-1",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-2",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-3",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-4",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-5",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-6",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-7",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-8",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-deptford-9",
+"cls": "engine_house",
+"scene": "stations/deptford.blend",
+"recipe": "engine_house",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-chelsea-0",
+"cls": "station_hero",
+"scene": "stations/chelsea.blend",
+"recipe": "station_hero",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-chelsea-1",
+"cls": "station_hero",
+"scene": "stations/chelsea.blend",
+"recipe": "station_hero",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-chelsea-2",
+"cls": "station_hero",
+"scene": "stations/chelsea.blend",
+"recipe": "station_hero",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "SH-chelsea-3",
+"cls": "station_hero",
+"scene": "stations/chelsea.blend",
+"recipe": "station_hero",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-0",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-1",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-2",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-3",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-4",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-5",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-6",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-7",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-8",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EH-chelsea-9",
+"cls": "engine_house",
+"scene": "stations/chelsea.blend",
+"recipe": "engine_house",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-0",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-1",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-2",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-3",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-4",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-5",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-6",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-7",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-8",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-9",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-10",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-11",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-12",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-13",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-14",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-15",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-16",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-1-17",
+"cls": "construction_yard",
+"scene": "yards/yard-1.blend",
+"recipe": "construction_yard",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-0",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-1",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-2",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-3",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-4",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-5",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-6",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-1-7",
+"cls": "centring_arch",
+"scene": "yards/yard-1.blend",
+"recipe": "centring_arch",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-0",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-1",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-2",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-3",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-4",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-5",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-6",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-7",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-8",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-9",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-10",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-11",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-12",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-13",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-14",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-15",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-16",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-2-17",
+"cls": "construction_yard",
+"scene": "yards/yard-2.blend",
+"recipe": "construction_yard",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-0",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-1",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-2",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-3",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-4",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-5",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-6",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-2-7",
+"cls": "centring_arch",
+"scene": "yards/yard-2.blend",
+"recipe": "centring_arch",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-0",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-1",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-2",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-3",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-4",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-5",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-6",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-7",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-8",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-9",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-10",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-11",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-12",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-13",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-14",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-15",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-16",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CY-yard-3-17",
+"cls": "construction_yard",
+"scene": "yards/yard-3.blend",
+"recipe": "construction_yard",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-0",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-1",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-2",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-3",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-4",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-5",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-6",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard-3-7",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-0",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-1",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-2",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-3",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-4",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-5",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-6",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-7",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-8",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-9",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-10",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-11",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-12",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-13",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-14",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-15",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-16",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-17",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-18",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-19",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-20",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-21",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-22",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-victoria-23",
+"cls": "embankment_walk",
+"scene": "embankments/victoria.blend",
+"recipe": "embankment_walk",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-0",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-1",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-2",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-3",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-4",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-5",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-6",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-victoria-7",
+"cls": "lamppost",
+"scene": "embankments/victoria.blend",
+"recipe": "lamppost",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-0",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-1",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-2",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-3",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-4",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-5",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-6",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-7",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-8",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-9",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-10",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-11",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-12",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-13",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-14",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-15",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-16",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-17",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-18",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-19",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-20",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-21",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-22",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-albert-23",
+"cls": "embankment_walk",
+"scene": "embankments/albert.blend",
+"recipe": "embankment_walk",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-0",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-1",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-2",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-3",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-4",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-5",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-6",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-albert-7",
+"cls": "lamppost",
+"scene": "embankments/albert.blend",
+"recipe": "lamppost",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-0",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-1",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-2",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-3",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-4",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-5",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-6",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-7",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-8",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-9",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-10",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-11",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-12",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-13",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-14",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-15",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-16",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-17",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-18",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-19",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-20",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-21",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-22",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "EW-chelsea-23",
+"cls": "embankment_walk",
+"scene": "embankments/chelsea.blend",
+"recipe": "embankment_walk",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-0",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-1",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-2",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-3",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-4",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-5",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-6",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "LP-chelsea-7",
+"cls": "lamppost",
+"scene": "embankments/chelsea.blend",
+"recipe": "lamppost",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-000",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-001",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-002",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-003",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-004",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-005",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-006",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-007",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-008",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-009",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-010",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-011",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-012",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-013",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-014",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-015",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-016",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-017",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-018",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-019",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-020",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-021",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-022",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-023",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-024",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 24,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-025",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 25,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-026",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 26,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-027",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 27,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-028",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 28,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-029",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 29,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-030",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 30,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-031",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 31,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-032",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 32,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-033",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 33,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-034",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 34,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-035",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 35,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-036",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 36,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-037",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 37,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-038",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 38,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-039",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 39,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-040",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 40,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-041",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 41,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-042",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 42,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-043",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 43,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-044",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 44,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-045",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 45,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-046",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 46,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-047",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 47,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-048",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 48,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-049",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 49,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-050",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 50,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-051",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 51,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-052",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 52,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-053",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 53,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-054",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 54,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-055",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 55,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-056",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 56,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-057",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 57,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-058",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 58,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "PP-059",
+"cls": "people",
+"scene": "people/FIGURES.blend",
+"recipe": "people",
+"k": 59,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-000",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 0,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-001",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 1,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-002",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 2,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-003",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 3,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-004",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 4,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-005",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 5,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-006",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 6,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-007",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 7,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-008",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-009",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-010",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 10,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-011",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 11,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-012",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 12,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-013",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 13,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-014",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 14,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-015",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 15,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-016",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 16,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-017",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 17,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-018",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 18,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-019",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 19,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-020",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 20,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-021",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 21,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-022",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 22,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-023",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 23,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-024",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 24,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-025",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 25,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-026",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 26,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-027",
+"cls": "aerial",
+"scene": "stations/abbey_mills.blend",
+"recipe": "aerial",
+"k": 27,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-028",
+"cls": "aerial",
+"scene": "yards/yard-1.blend",
+"recipe": "aerial",
+"k": 28,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "AE-029",
+"cls": "aerial",
+"scene": "embankments/victoria.blend",
+"recipe": "aerial",
+"k": 29,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard3-8",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 8,
+"width": 1024,
+"height": 576,
+"samples": 16
+},
+{
+"id": "CA-yard3-9",
+"cls": "centring_arch",
+"scene": "yards/yard-3.blend",
+"recipe": "centring_arch",
+"k": 9,
+"width": 1024,
+"height": 576,
+"samples": 16
+}
+]
