@@ -1,0 +1,39 @@
+{
+  "status": "published assets verified by API size and SHA-256 digest where supplied",
+  "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/nordbahnhof/brunel/realism-a41c0ee",
+  "tag": "nordbahnhof/brunel/realism-a41c0ee",
+  "source_repo": "dreamer2664/buildinglab",
+  "source_commit": "a41c0ee0cb12660985f3ee4868dfbf0c2ee14d2c",
+  "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+  "assets": [
+    {
+      "name": "NORDBAHNHOF-realism-complete.zip",
+      "bytes": 97981256,
+      "sha256": "3058275c8e1acf9d15f55b043ca1b89e7d61d35af015bd2103faf1c463960531",
+      "server_digest": "sha256:3058275c8e1acf9d15f55b043ca1b89e7d61d35af015bd2103faf1c463960531",
+      "download": "https://github.com/dreamer2664/storagecode/releases/download/nordbahnhof/brunel/realism-a41c0ee/NORDBAHNHOF-realism-complete.zip"
+    },
+    {
+      "name": "NORDBAHNHOF-realism-renders.zip",
+      "bytes": 12671944,
+      "sha256": "6f68db2c8577425d6895e7db1c915ab9d6c46c517040bb7b9243ef717e609abf",
+      "server_digest": "sha256:6f68db2c8577425d6895e7db1c915ab9d6c46c517040bb7b9243ef717e609abf",
+      "download": "https://github.com/dreamer2664/storagecode/releases/download/nordbahnhof/brunel/realism-a41c0ee/NORDBAHNHOF-realism-renders.zip"
+    },
+    {
+      "name": "NORDBAHNHOF-realism-preview.jpg",
+      "bytes": 942568,
+      "sha256": "b9c400a47fdd5b9c1c44763666fcc123173822c22ca0d7d1fcfcf8e38cd54413",
+      "server_digest": "sha256:b9c400a47fdd5b9c1c44763666fcc123173822c22ca0d7d1fcfcf8e38cd54413",
+      "download": "https://github.com/dreamer2664/storagecode/releases/download/nordbahnhof/brunel/realism-a41c0ee/NORDBAHNHOF-realism-preview.jpg"
+    },
+    {
+      "name": "NORDBAHNHOF-realism-gallery.html",
+      "bytes": 7796969,
+      "sha256": "3191470246e1abc3feca5205f75f4bcc74cf60ef7132952dc8ab9a9773f36685",
+      "server_digest": "sha256:3191470246e1abc3feca5205f75f4bcc74cf60ef7132952dc8ab9a9773f36685",
+      "download": "https://github.com/dreamer2664/storagecode/releases/download/nordbahnhof/brunel/realism-a41c0ee/NORDBAHNHOF-realism-gallery.html"
+    }
+  ],
+  "full_commission": "incomplete WIP, static mechanisms"
+}

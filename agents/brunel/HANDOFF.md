@@ -4,7 +4,10 @@ Task: `t-20261019-62e7` · branch: `agent/brunel/t-20261019-62e7`
 
 ## Current state
 
-The user rejected the clean/model-like appearance of the previous train update and explicitly requested a much more realistic, carefully iterated result. A new material/construction/lighting layer has been built and repeatedly rendered for inspection. All six final native 2560 × 1440 / 128-sample views have rendered and were individually opened, including native-pixel detail crops. The packed source was reopened and checked. Complete ZIP (97,981,256 bytes), render ZIP (12,671,944 bytes), preview and offline gallery have been packaged and CRC/SHA verified. Desktop/mobile gallery interaction was checked in Chromium. Publication is the remaining step at this checkpoint.
+The user rejected the clean/model-like appearance of the previous train update and explicitly requested a much more realistic, carefully iterated result. A new material/construction/lighting layer has been built and repeatedly rendered for inspection. All six final native 2560 × 1440 / 128-sample views have rendered and were individually opened, including native-pixel detail crops. The packed source was reopened and checked. Complete ZIP (97,981,256 bytes), render ZIP (12,671,944 bytes), preview and offline gallery have been packaged and CRC/SHA verified. Desktop/mobile gallery interaction was checked in Chromium. Publication is complete. All four release assets were uploaded and their API byte counts and server SHA-256 digests matched the local files.
+
+Release: https://github.com/dreamer2664/storagecode/releases/tag/nordbahnhof/brunel/realism-a41c0ee
+Source/evidence commit: `a41c0ee0cb12660985f3ee4868dfbf0c2ee14d2c`. The full commission remains WIP; this release accepts only the inspected revision as a delivery, not the outstanding programme.
 
 The packed source is `nordbahnhof/source/NORDBAHNHOF_REALISM.blend`. The complete original commission is **not** accepted as finished. Historical r01 completion and identity/validator claims do not describe this revision.
 
