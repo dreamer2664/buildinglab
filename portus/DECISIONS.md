@@ -215,3 +215,29 @@ Terraced houses had windows punched into the walls they share with their
 neighbours. `party_sides()` now detects shared faces by footprint adjacency
 (52 faces across the 48 buildings) and suppresses openings and dressings on them.
 This is both correct architecture and half the window geometry.
+
+## D-226 — B05 full 5-storey masonry/joinery overhaul & room shell keepout fix (2026-10-21, CLOSED)
+Two root causes surfaced during full camera inspection:
+1. `build_b05()` had not yet been wired into `detail.py`, leaving the hero building
+   with flat wall panels while adjacent terraces carried bricks and mouldings.
+   `build_b05()` now builds running-bond 3D brickwork across all five storeys,
+   alternating corner quoins, plinth, string courses, dentilled cornice, stone drip
+   sills, quirked lintels, sash glazing bars, wrought-iron Juliet balconettes,
+   cast-iron rainwater pipes with hoppers/brackets, tiled clay roof, corbelled
+   chimney stacks with pots, and punched central light-slot linings.
+2. `props.py`'s door-keepout separation loop filtered by `ROOM_<id>_` prefix without
+   excluding structural meshes (`_floor`, `_ceiling`, `_lining`, `_winfram`, `_sill`,
+   `doorframe`, `doorhead`, `doorleaf`, `_practical`), pushing floor and ceiling
+   slabs up to 1.05 m through the south brick facade into the street. Excluded all
+   structural room elements from keepout translation.
+
+## D-227 — 8 GiB swap + spatial-splits off unlocks 10.57M-tri OIDN renders & 24/24 camera suite (2026-10-21, CLOSED)
+Disabling `debug_use_spatial_splits` (which bloated BVH 3-4x on axis-aligned brick
+boxes), enabling `use_persistent_data`, and provisioning 8 GiB swap allowed the
+full 10,573,802-triangle scene (688,892 bricks + 117,723 stone/joinery/metal/glass
+elements, radius 110 m + coarse running bond across upper/far bands) to build in
+91.8 s and render all 24 cameras (`CAM_01`..`CAM_24`) at 1024x576 with
+OpenImageDenoise enabled (`0 failed`). Four underground/obstructed camera coordinates
+(`CAM_10`, `CAM_14`, `CAM_18`, `CAM_21`, previously set below `LAND_Z=2.40` or behind
+a wardrobe) were corrected and verified cleanly. Packaged as `portus/renders/PORTUS_renders.zip`
+(27 files, 20.39 MB, sha256 `1e71a0b0154c9c2d85da7fc9c7ccaaee947fcb2c5eb487278e1fc26d493cee0e`).

@@ -1,107 +1,342 @@
 {
- "CAM_01_district_aerial_sw": {
-  "file": "CAM_01_district_aerial_sw.png",
-  "key": "f1583ea8a4f5903f404f553ea24df24e02ff58e4aee3a23e25426d4f0a6532de",
-  "cached": false,
-  "seconds": 56.4,
-  "sha256": "6c43995fd4d3e8fb89c13b4479452930a15938bc225e59796b934096eba5e487",
-  "bytes": 782133,
-  "px": [
-   1024,
-   576
-  ],
-  "content": "ba56119cce666f8c0afe5bc5",
-  "light": "26bc8c872e0f0092",
-  "native_sha256": "c5f3a564d95685aae85d0dfc1e0182d20193d0fa8f3416b0bdaa64086dcb0e38"
- },
  "CAM_03_b05_frontage": {
   "file": "CAM_03_b05_frontage.png",
-  "key": "f869a1363bcd6c1220f7f69a098efe1b03d4f1483fcb90baf576b0da3e7ede97",
-  "cached": false,
-  "seconds": 66.3,
-  "sha256": "5902ee5c6cdc8d750d24eaa3a7b28c2214dfd9063414704b2b0d892636fe34f2",
-  "bytes": 654045,
+  "key": "17f21ead23b9d692dd6f2b08a1ca996b1b933155f09b442e9fb714974e1f76b8",
+  "cached": true,
+  "sha256": "febc66ba2a764095c1e59eb86f64239eafb0649cf8c8d7d67bf7313fd02f2f44",
+  "bytes": 861441,
   "px": [
    1024,
    576
   ],
-  "content": "ba56119cce666f8c0afe5bc5",
+  "content": "66116a01b5cda35b87a11da6",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "d8babf52002cc1b48098383f1f3d09d7030b52cbc383449fc69a3710af244cf3"
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
  },
- "CAM_12_interior_living": {
-  "file": "CAM_12_interior_living.png",
-  "key": "237bcd8a8f49b0834ec0bc5253196dfb08faec1e9df6dbd114c1150a1242785f",
-  "cached": false,
-  "seconds": 120.5,
-  "sha256": "7c84b3950a769c4bc44118c59d394f02e8263313fa90c53152459a86e666e0e7",
-  "bytes": 508230,
+ "CAM_01_district_aerial_sw": {
+  "file": "CAM_01_district_aerial_sw.png",
+  "key": "0c539d3719aeee502acc832f625d77fc51dbfdb87a04ac31388a0144639a1968",
+  "cached": true,
+  "sha256": "9840551bcb305bab55d9e11f4ec41b3faec3ca369d213f2bec188dda0c93541d",
+  "bytes": 832017,
   "px": [
    1024,
    576
   ],
-  "content": "ba56119cce666f8c0afe5bc5",
+  "content": "66116a01b5cda35b87a11da6",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "6156cc1896d2fa3eb5511b74561f9be9e0deb5e460b05c5a74c9b49c9e79f17f"
- },
- "CAM_16_shop_floor": {
-  "file": "CAM_16_shop_floor.png",
-  "key": "127a0d88ab971e2bdf136a5cb108dd828ba179d6d84e9a78bb819f6860027896",
-  "cached": false,
-  "seconds": 127.1,
-  "sha256": "f7cdb57bf2e29ecf20fcb0729da454e6633563a37ff579f04434e201a5b6b51c",
-  "bytes": 489142,
-  "px": [
-   1024,
-   576
-  ],
-  "content": "ba56119cce666f8c0afe5bc5",
-  "light": "26bc8c872e0f0092",
-  "native_sha256": "6156cc1896d2fa3eb5511b74561f9be9e0deb5e460b05c5a74c9b49c9e79f17f"
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
  },
  "CAM_02_district_aerial_ne": {
   "file": "CAM_02_district_aerial_ne.png",
-  "key": "dd115ef6b84d4d312932828915dd017a7ef21978eb9b126d83c225f7153c955d",
-  "cached": false,
-  "seconds": 47.7,
-  "sha256": "85b7fa8521bd4f6f6f393d55a3c04bec2ee93fe851a6d7b6b53848a0f1239b0e",
-  "bytes": 733004,
+  "key": "b4f5d582a7543e0f737d3adcb0a6c7f14dced296957b1c1924c9fe0299500bd5",
+  "cached": true,
+  "sha256": "66472aff6d8f699bcdf87e06d1e0dd814b7535984e67327902973649148236c9",
+  "bytes": 772332,
   "px": [
    1024,
    576
   ],
-  "content": "312ab886efe69cc47bcafd6d",
+  "content": "66116a01b5cda35b87a11da6",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
  },
  "CAM_04_quay_from_water": {
   "file": "CAM_04_quay_from_water.png",
-  "key": "70b7706bb4f68ab22d2bed7c7eb084dfa45e20e8b3e5c86cad1d7f8aa1f4c797",
-  "cached": false,
-  "seconds": 154.8,
-  "sha256": "b766bd1609ee06678449c0de05aeb501cb7e94dba1afa4f9a01d8c169927122c",
-  "bytes": 708088,
+  "key": "16281bc42d383f1230bb2b6ca2f5a023e37f9af28923e1ec2c8927240ce46bb5",
+  "cached": true,
+  "sha256": "479fb05c35d343d7ca447c2286de61f257166a15d0af5e5267a426fe570a6229",
+  "bytes": 777313,
   "px": [
    1024,
    576
   ],
-  "content": "312ab886efe69cc47bcafd6d",
+  "content": "66116a01b5cda35b87a11da6",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "7e1c5b6aa7cbb347d4599372db78a4b4364bd80e4540515f85d7ca07082b6ea0"
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_05_waterline_b05": {
+  "file": "CAM_05_waterline_b05.png",
+  "key": "daa3371d66e73b3483ba304747b5a16b37e1394e8c888f662211da898aa318ab",
+  "cached": true,
+  "sha256": "86e269efdec47da9b7ba4660edf0fe6fababeae14527336126edf04656419c0d",
+  "bytes": 708322,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_06_crane": {
+  "file": "CAM_06_crane.png",
+  "key": "a5ebecb59f9b0a5ca75656ac02965fb987e2de1f52598762068151725a10abf6",
+  "cached": true,
+  "sha256": "deaa4e1d0b6baa9c6134ac872809082836c9c3b1435c1c94945f6e10c137fb02",
+  "bytes": 902823,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_07_crane_cab": {
+  "file": "CAM_07_crane_cab.png",
+  "key": "a416aabb80b3afca44996a3b7e8a5df3403522490176d408910258cc4a460d35",
+  "cached": true,
+  "sha256": "00ad9bba19a2f74d53641ea041585a0ba4a5e8d0fc76d38d25ac1156343111c6",
+  "bytes": 517679,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
  },
  "CAM_08_hull_bow": {
   "file": "CAM_08_hull_bow.png",
-  "key": "6b9e18f07134b8145dcbf73415a614765e2e7a40d79708d1817e18e653382b08",
-  "cached": false,
-  "seconds": 189.7,
-  "sha256": "bbfe11a3fdaf55e7db9d5466da9ca01f0f8697911f03f1bd5fe5167f9e237fd3",
-  "bytes": 584250,
+  "key": "b92acba8156b1a8eba60a48b962988c47da70fedfc69137d7d2dcc401829788c",
+  "cached": true,
+  "sha256": "fc455f6521f1725b964eeb3375f6d4ad2a29c67ae9ec68df17966eaf740433ee",
+  "bytes": 644102,
   "px": [
    1024,
    576
   ],
-  "content": "940bcedcfeea4ac872dcba48",
+  "content": "66116a01b5cda35b87a11da6",
   "light": "26bc8c872e0f0092",
-  "native_sha256": "9fbf5d81c9674549e034de0bbbc44b4717edc581ded75046a736ec474c22ae75"
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_09_mooring_rope": {
+  "file": "CAM_09_mooring_rope.png",
+  "key": "0b5945b58684ed4dac165e320f0074ca0555b0fef54c49f5536a6d06e3f6587a",
+  "cached": true,
+  "sha256": "86cb97898396c276a0b4597173b8aae785c660a7a4405f5dcbe17ae31c50372b",
+  "bytes": 598727,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_10_rail_buffer": {
+  "file": "CAM_10_rail_buffer.png",
+  "key": "95aa97db05d4d000a56a991d103699fd97c5a4807b4a556e6569c2f29d14fc01",
+  "cached": false,
+  "seconds": 52.4,
+  "sha256": "a2944611827fdeb9ff3551bc6da3f7aecc8ee6482ab97fdd25337bb0aa599d5e",
+  "bytes": 717961,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_11_rail_catenary": {
+  "file": "CAM_11_rail_catenary.png",
+  "key": "9711f0709b67a35626901c83dbc4dac7802b91e0d912f7861baa4896f1fbd646",
+  "cached": true,
+  "sha256": "1ca5858d65bc1e00ddfcd87eba1134750731308ceae4b61e7ecda6aa1f914b74",
+  "bytes": 499943,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_18_facade_floors": {
+  "file": "CAM_18_facade_floors.png",
+  "key": "e29e0e19de01dab599efcdb3c935e6b2c68d70b1be6a4acc3b85ba5dc46e0238",
+  "cached": false,
+  "seconds": 53.7,
+  "sha256": "b6fac7d4eda310ec426ef562ef42d5f7273ef5d9ebc2f891113b6e25ea518196",
+  "bytes": 968577,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_19_ice_edge": {
+  "file": "CAM_19_ice_edge.png",
+  "key": "706bebf3a52353306daf891c24546ed587ecf81ed5118b137f7c1a197a08d637",
+  "cached": true,
+  "sha256": "88771d1ab2cf1771d69ee1808da6e85544053e0e6f8c0525c75155c6545948a7",
+  "bytes": 523310,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_20_basin_wide": {
+  "file": "CAM_20_basin_wide.png",
+  "key": "49b5085a2becb980ce767a4d300f5577b7997462a6ca7f926729eef9ff0ffda7",
+  "cached": true,
+  "sha256": "c761b67f86db28e8abb7d140b5f9de94d5ae4564cb171ee324a88aa9cc1ff02d",
+  "bytes": 801001,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_21_docker_close": {
+  "file": "CAM_21_docker_close.png",
+  "key": "8ea349bb282628d97689bedc85fe3a1a3f6ed2a13665eaf715aae13def269f32",
+  "cached": false,
+  "seconds": 63.4,
+  "sha256": "99e2efdf334a80dc26170a9f409c7f7eaa9afa3b3cc0522f8a3fdf69a293a276",
+  "bytes": 619737,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_22_stern_ropes": {
+  "file": "CAM_22_stern_ropes.png",
+  "key": "b5b0c4912e78a910e9c835e8c5bd32efa6b3d1cc9e394e50bbf31008d8a6efe0",
+  "cached": true,
+  "sha256": "e64b9d93bdcf081c51e0bb71d8e21d8f18ba8e623e491a3dbee6315c058e3721",
+  "bytes": 704738,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_23_b05_section_cut": {
+  "file": "CAM_23_b05_section_cut.png",
+  "key": "4d94e8e606fabc60f55bcecd0c5ecba6405bd9cc980312d2b0a5e8d63e8ca6c9",
+  "cached": true,
+  "sha256": "75b3aeedff65e684f547b3ffa177151186c681e4b4871b09d6737a882292b40a",
+  "bytes": 723186,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_24_gulls_skyline": {
+  "file": "CAM_24_gulls_skyline.png",
+  "key": "c3339845518dc3dc145fc78dd6f0fc1cf64a67db16108831318645ebf398bec4",
+  "cached": true,
+  "sha256": "2ac519ce8fa84e30d8632acbac9fb683663809b76b1a1195d3903f6f012c718f",
+  "bytes": 669783,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_12_interior_living": {
+  "file": "CAM_12_interior_living.png",
+  "key": "601225b7677b9141ae8cd10f2661f61dafe4351d836f8f28325321bf7c736070",
+  "cached": true,
+  "sha256": "54c422c2728dd60bb1d0543da7e92802867733088ff9b848b084dc6948620533",
+  "bytes": 513657,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_13_interior_kitchen": {
+  "file": "CAM_13_interior_kitchen.png",
+  "key": "32cf053af738bfbf394bb332f5949b401a1dfac7c67178aa4b8d25f60648a273",
+  "cached": true,
+  "sha256": "3aa9ad365dea72d3d86fdc7da6969dd0caa6bb17fcdb3943eb7ff0d1178eca91",
+  "bytes": 597737,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_14_interior_bedroom": {
+  "file": "CAM_14_interior_bedroom.png",
+  "key": "6ecbd27ae57836f89c49f1693dfb9c771c06699d75e18990ef778d4f1f92ff89",
+  "cached": false,
+  "seconds": 83.7,
+  "sha256": "a342bded49b24edfb2d0bd5190ada3145f7bfb6fe24c266a5fa85cce4d3176d9",
+  "bytes": 522517,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_15_interior_bathroom": {
+  "file": "CAM_15_interior_bathroom.png",
+  "key": "d51a516f30c69428e19114fe7546ea5201e8865b31c1c91975ca633dd76f3c82",
+  "cached": true,
+  "sha256": "0fcb1062363aa087ef6227cdffe1e71b81485e9d57dc4b74787cd652916046f3",
+  "bytes": 547417,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_16_shop_floor": {
+  "file": "CAM_16_shop_floor.png",
+  "key": "bf141b1bd0e46b8b658c8864680f27355372fe8846190b75651fa6c97f8147fe",
+  "cached": true,
+  "sha256": "57821621534b137033a398bd8745c2daf6384d646d5a56fdf23ec4a0834a998f",
+  "bytes": 490181,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
+ },
+ "CAM_17_entry_hall": {
+  "file": "CAM_17_entry_hall.png",
+  "key": "70b63acf178c819a39518470184e2b1818b68b7ee7b5a750565354591c4d541b",
+  "cached": true,
+  "sha256": "f374a0cee2c29ac49ffa132e7e781445f226901e7fe0d91b9f9d6dacf249916e",
+  "bytes": 552540,
+  "px": [
+   1024,
+   576
+  ],
+  "content": "66116a01b5cda35b87a11da6",
+  "light": "26bc8c872e0f0092",
+  "native_sha256": "a22dbc0aa376acc560829ce812782ca19cc02a4378ad5a5806692b979e2e74b1"
  }
 }

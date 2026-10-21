@@ -26,6 +26,31 @@
   "CAM_24_gulls_skyline"
  ],
  "notes": [],
- "exterior_clear": true,
- "exterior_intrusions": []
+ "exterior_clear": false,
+ "exterior_intrusions": [
+  [
+   "CAM_12_interior_living",
+   "B05_FACADES"
+  ],
+  [
+   "CAM_13_interior_kitchen",
+   "B05_FACADES"
+  ],
+  [
+   "CAM_14_interior_bedroom",
+   "B05_FACADES"
+  ],
+  [
+   "CAM_15_interior_bathroom",
+   "B05_FACADES"
+  ],
+  [
+   "CAM_16_shop_floor",
+   "B05_FACADES"
+  ],
+  [
+   "CAM_17_entry_hall",
+   "B05_FACADES"
+  ]
+ ]
 }

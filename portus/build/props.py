@@ -230,6 +230,10 @@ class Room:
         for ob in bpy.data.objects:
             if ob.type != "MESH" or not ob.name.startswith(pref):
                 continue
+            if any(t in ob.name for t in ("_floor", "_ceiling", "_lining", "doorframe",
+                                          "doorhead", "doorleaf", "_sill", "_winfram",
+                                          "_glass", "_practical")):
+                continue
             b = geo.world_bounds(ob)
             lx0, ly0, lx1, ly1 = b[0] - self.x0, b[1] - self.y0, b[3] - self.x0, b[4] - self.y0
             for k in self.keepout:

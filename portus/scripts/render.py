@@ -145,7 +145,8 @@ def main():
     sc.cycles.adaptive_threshold = 0.02
     sc.render.threads_mode = "FIXED"
     sc.render.threads = 2
-    sc.cycles.debug_use_spatial_splits = True
+    sc.cycles.debug_use_spatial_splits = False
+    sc.render.use_persistent_data = True
 
     done = skipped = 0
     failed = []

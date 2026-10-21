@@ -456,7 +456,7 @@ PARTY = {}
 CAMXY = []
 PROOF_CAMS = []
 RELIEF = _os.environ.get("PORTUS_RELIEF", "1") == "1"
-RADIUS = float(_os.environ.get("PORTUS_RADIUS", "70"))
+RADIUS = float(_os.environ.get("PORTUS_RADIUS", "110"))
 ROOFTILE = _os.environ.get("PORTUS_ROOF", "1") == "1"
 _PIECES = dict(brick=0, stone=0, joinery=0, glass=0, metal=0, windows=0)
 
@@ -535,12 +535,20 @@ def detailed_facade(bid, spec, side, x0, y0, x1, y1, z0, z1, module, M, C, li,
         for (ba, bb) in bands:
             if bb > cut:
                 out["stone"] += D.coursed_relief(side, plane, u0, u1, max(ba, cut), bb)
-    elif RELIEF and near and ground:
-        # individual bricks where a lens at walking height resolves them;
-        # beyond that the material's coursing carries it (D-223)
-        cut = min(v_hi, v_lo + 3.3)
-        out["brick"] += D.brick_wall(side, plane, u0, u1, v_lo, cut, openings=wins,
-                                     out=0.030, brick_l=0.215, brick_h=0.075)
+    elif RELIEF:
+        if near and ground:
+            cut = min(v_hi, v_lo + 3.3)
+            out["brick"] += D.brick_wall(side, plane, u0, u1, v_lo, cut, openings=wins,
+                                         out=0.030, brick_l=0.215, brick_h=0.075)
+            for (ba, bb) in bands:
+                if bb > cut + 0.08:
+                    out["brick"] += D.coursed_relief(side, plane, u0, u1, max(ba, cut), bb,
+                                                     proud=0.022, brick_l=0.46, brick_h=0.15)
+        else:
+            for (ba, bb) in bands:
+                if bb - ba > 0.08:
+                    out["brick"] += D.coursed_relief(side, plane, u0, u1, ba, bb,
+                                                     proud=0.022, brick_l=0.66, brick_h=0.22)
 
     # ground floor: plinth, and a door in the middle bay
     if ground:
@@ -559,10 +567,14 @@ def detailed_facade(bid, spec, side, x0, y0, x1, y1, z0, z1, module, M, C, li,
         out["joinery"] += wj
         out["glass"] += wg
 
-    # dressings
-    out["stone"] += D.string_course(side, plane, u0, u1, v_hi - 0.20)
-    if cornice and top:
-        out["stone"] += D.cornice(side, plane, u0, u1, v_hi)
+    # dressings: quoins on exposed faces, string courses, cornice, rainwater pipe
+    if not party:
+        out["stone"] += D.quoins(side, plane, u0, v_lo, v_hi, 1) + D.quoins(side, plane, u1, v_lo, v_hi, -1)
+        out["stone"] += D.string_course(side, plane, u0, u1, v_hi - 0.20)
+        if cornice and top:
+            out["stone"] += D.cornice(side, plane, u0, u1, v_hi)
+        if near and side == spec.get("front", "S"):
+            out["metal"] += D.downpipe(side, plane, u0 + 0.42, v_lo + (0.25 if ground else 0.0), v_hi)
     if near:
         out["metal"] += D.air_bricks(side, plane, u0, u1, v_lo + 0.30, pitch=3.2)
         out["metal"] += D.tie_plates(side, plane, u0, u1, v_lo + 1.90, pitch=4.2)
@@ -822,60 +834,151 @@ def glaze_envelope(spec, M, C, holes_by_level, ffls):
 
 
 def build_b05(spec, M, rooms, C):
-    """Shop + 4 residential floors, every counted room built and dressed."""
+    """Shop + 4 residential floors, every counted room built and dressed,
+    plus full exterior masonry, joinery, stone dressings, tiled roof and ironwork."""
     x0, y0, x1, y1 = spec["x0"], spec["y0"], spec["x1"], spec["y1"]
     bid = spec["id"]
     wt = P.EXT_WALL.get(spec["wall"], 0.45)
+    wall_mat = M[spec["wall"] if spec["wall"] in M else "brick"]
     ffls = P.floor_levels(spec)
-    # envelope: punched where the rooms' own windows are
+    to_xy, width, depth = P._u_v_axes(spec)
+    mid = width / 2.0
+    sl0, sl1 = mid - P.SLOT_W / 2.0, mid + P.SLOT_W / 2.0
+
+    # Separate true outer-envelope windows from central light-slot windows
     holes_by_level = {}
+    slot_holes = {}
     for r in rooms:
         w = r["window"]
         if not w:
             continue
         li = _level_of(r)
-        holes_by_level.setdefault((li, _side_of(r, spec, w)), []).append(
-            _hole_along_wall(r, spec, w))
+        side = _side_of(r, spec, w)
+        if side in ("W", "E") and (x0 + 2.0 < w["x"] < x1 - 2.0):
+            # Window faces the central lightwell shaft, not the party wall
+            slot_side = "W" if abs(w["x"] - (x0 + sl0)) < abs(w["x"] - (x0 + sl1)) else "E"
+            u_slot = w["y"] - (y0 + wt)
+            slot_holes.setdefault((li, slot_side), []).append(
+                (max(0.0, u_slot), min(depth - 2 * wt, u_slot + w["w"]), w["sill"], w["sill"] + w["h"])
+            )
+            continue
+        holes_by_level.setdefault((li, side), []).append(_hole_along_wall(r, spec, w))
+
+    acc = {k: [] for k in ("brick", "stone", "joinery", "glass", "metal")}
+    n_storeys = len(spec["storeys"])
+    b05_party = PARTY.get(bid, set())
+
     for li, st in enumerate(spec["storeys"]):
         zz = ffls[li]
+        v_lo, v_hi = zz, zz + st["h"]
         for side in ("S", "N", "W", "E"):
-            hs = holes_by_level.get((li, side), [])
-            hs = [h for h in hs if h[3] <= st["h"]]
+            hs = [h for h in holes_by_level.get((li, side), []) if h[3] <= st["h"]]
             wall_panel(f"{bid}_ENV{side}_L{li+1}", x0, y0, x1, y1, zz,
-                       st["h"], wt, side,
-                       M[spec["wall"] if spec["wall"] in M else "brick"], C,
-                       holes=hs)
+                       st["h"], wt, side, wall_mat, C, holes=hs)
+            if DETAIL_LEVEL <= 0 or side in b05_party:
+                continue
+            plane = {"S": y0, "N": y1, "W": x0, "E": x1}[side]
+            u0_face, u1_face = (x0, x1) if side in ("S", "N") else (y0, y1)
+            base_u = x0 if side in ("S", "N") else y0
+            world_wins = [(base_u + a, base_u + b, zz + c0, zz + c1) for (a, b, c0, c1) in hs]
+
+            # Add shopfront doors & display windows on ground floor front facade
+            extra_openings = list(world_wins)
+            if li == 0 and side == "S":
+                for du in (x0 + 3.4, x0 + width - 3.4):
+                    dm, dj, dg = D.door_opening(side, plane, du - 0.68, du + 0.68, v_lo, v_lo + 2.75)
+                    acc["stone"] += dm
+                    acc["joinery"] += dj
+                    acc["glass"] += dg
+                    extra_openings.append((du - 0.76, du + 0.76, v_lo, v_lo + 3.05))
+                for wu in (x0 + 7.475,):
+                    wm, wj, wg = D.window_opening(side, plane, wu - 1.15, wu + 1.15,
+                                                  v_lo + 0.75, v_lo + 2.75, stone="stone", bars=True)
+                    acc["stone"] += wm
+                    acc["joinery"] += wj
+                    acc["glass"] += wg
+                    extra_openings.append((wu - 1.25, wu + 1.25, v_lo + 0.65, v_lo + 3.05))
+
+            # Full running-bond 3D brickwork across all storeys of hero building B05
+            acc["brick"] += D.brick_wall(side, plane, u0_face, u1_face, v_lo, v_hi,
+                                         openings=extra_openings, out=0.032,
+                                         brick_l=0.215, brick_h=0.075)
+            if li == 0:
+                acc["stone"] += D.plinth(side, plane, u0_face, u1_face, v_lo)
+            acc["stone"] += D.quoins(side, plane, u0_face, v_lo, v_hi, 1) + D.quoins(side, plane, u1_face, v_lo, v_hi, -1)
+            acc["stone"] += D.string_course(side, plane, u0_face, u1_face, v_hi - 0.20)
+            if li == n_storeys - 1:
+                acc["stone"] += D.cornice(side, plane, u0_face, u1_face, v_hi)
+
+            # Dress every room window with full stone sill, quirked lintel, reveal & sash bars
+            for (wa, wb, wc0, wc1) in world_wins:
+                wm, wj, wg = D.window_opening(side, plane, wa, wb, wc0, wc1,
+                                              reveal=0.26, stone="stone", bars=True)
+                acc["stone"] += wm
+                acc["joinery"] += wj
+                acc["glass"] += wg
+
+            # Wrought-iron Juliet balconettes under outer upper windows + rainwater pipes & ties
+            if side == "S" and li >= 1:
+                for (wa, wb, wc0, wc1) in world_wins:
+                    bs_st, bs_mt = D.balconette(side, plane, wa - 0.14, wb + 0.14, wc0 - 0.12, depth=0.48, rail_h=0.92)
+                    acc["stone"] += bs_st
+                    acc["metal"] += bs_mt
+            if side == "S":
+                for dpx in (x0 + 0.55, x1 - 0.55):
+                    acc["metal"] += D.downpipe(side, plane, dpx, v_lo + (0.25 if li == 0 else 0.0), v_hi)
+                acc["metal"] += D.tie_plates(side, plane, u0_face, u1_face, v_lo + 2.35, pitch=3.0)
+                acc["metal"] += D.air_bricks(side, plane, u0_face, u1_face, v_lo + 0.32, pitch=2.5)
+
         geo.box(f"{bid}_SLAB_L{li+1}", x0 + wt, y0 + wt, zz - P.SLAB, x1 - wt, y1 - wt, zz,
                 M["concrete"], C)
-        log(f"  B05 envelope, level {li+1}: {len(holes_by_level.get((li,'S'),[])) + len(holes_by_level.get((li,'N'),[])) + len(holes_by_level.get((li,'W'),[])) + len(holes_by_level.get((li,'E'),[]))} openings")
-    # light slot linings: the slot runs the full depth at the mid-point of the
-    # frontage; without a lining it renders as a void (D-213)
-    to_xy, width, depth = P._u_v_axes(spec)
-    wt0 = P.EXT_WALL.get(spec["wall"], 0.45)
-    mid = width / 2.0
-    sl0, sl1 = mid - P.SLOT_W / 2.0, mid + P.SLOT_W / 2.0
+        log(f"  B05 envelope, level {li+1}: {len(holes_by_level.get((li,'S'),[])) + len(holes_by_level.get((li,'N'),[]))} ext openings")
+
+    if DETAIL_LEVEL > 0 and acc["brick"]:
+        geo.merged(f"{bid}_FACADES", acc["brick"], wall_mat, C)
+        geo.merged(f"{bid}_STONE", acc["stone"], M["stone"], C)
+        geo.merged(f"{bid}_JOINERY", acc["joinery"], M["paint_white"], C)
+        geo.merged(f"{bid}_GLAZING", acc["glass"], M_GLASS, C)
+        geo.merged(f"{bid}_METAL", acc["metal"], M["iron"], C)
+
+    # Light-slot linings with punched window openings so lightwell rooms receive real sky light
     for li, st in enumerate(spec["storeys"]):
         zz = ffls[li]
         if li == 0:
-            continue                       # ground floor is solid across the slot
-        for name, (u0, u1) in (("W", (sl0 - 0.06, sl0)), ("E", (sl1, sl1 + 0.06))):
-            ax0, ay0 = to_xy(u0, wt0)
-            ax1, ay1 = to_xy(u1, depth - wt0)
-            geo.box(f"{bid}_SLOTLINING_{name}_L{li+1}", min(ax0, ax1), min(ay0, ay1),
-                    zz, max(ax0, ax1), max(ay0, ay1), zz + st["h"], M["plaster_cool"], C)
-        # a slot floor at every level so the shaft is not a bottomless pit
-        ax0, ay0 = to_xy(sl0, wt0)
-        ax1, ay1 = to_xy(sl1, depth - wt0)
+            continue
+        for name, (u0, u1), pside in (("W", (sl0 - 0.06, sl0), "W"), ("E", (sl1, sl1 + 0.06), "E")):
+            ax0, ay0 = to_xy(u0, wt)
+            ax1, ay1 = to_xy(u1, depth - wt)
+            wall_panel(f"{bid}_SLOTLINING_{name}_L{li+1}",
+                       min(ax0, ax1), min(ay0, ay1), max(ax0, ax1), max(ay0, ay1),
+                       zz, st["h"], 0.06, pside, M["plaster_cool"], C,
+                       holes=slot_holes.get((li, name), []))
+        ax0, ay0 = to_xy(sl0, wt)
+        ax1, ay1 = to_xy(sl1, depth - wt)
         geo.box(f"{bid}_SLOTFLOOR_L{li+1}", min(ax0, ax1), min(ay0, ay1), zz - 0.05,
                 max(ax0, ax1), max(ay0, ay1), zz, M["concrete"], C)
+
     n_glazed = glaze_envelope(spec, M, C, holes_by_level, ffls)
     log(f"B05: {n_glazed} windows glazed in the envelope")
-    # roof
+
+    # Tiled clay roof with ridge, eaves gutters and two corbelled brick chimney stacks
     top = ffls[-1] + spec["storeys"][-1]["h"]
-    _gable_roof(f"{bid}_ROOF", x0 - 0.3, y0 - 0.3, x1 + 0.3, y1 + 0.3, top, 34, M["clay"], C)
+    if DETAIL_LEVEL > 0 and ROOFTILE:
+        tv, tf, mv, mf = D.tiled_roof(x0 - 0.25, y0 - 0.25, x1 + 0.25, y1 + 0.25, top, 34, "x")
+        if tv:
+            geo._new_obj(f"{bid}_ROOF", tv, tf, M["clay"], C)
+        if mv:
+            geo._new_obj(f"{bid}_ROOFMETAL", mv, mf, M["steel_dark"], C)
+        for cx in (x0 + 1.8, x1 - 1.8):
+            cms, cps = D.chimney_stack(cx, y0 + 2.2, top + 0.2, 2.5)
+            geo.merged(f"{bid}_CHIMNEY_{int(cx)}", cms, M["brick_dark"], C)
+            geo.merged(f"{bid}_CHIMNEYPOTS_{int(cx)}", cps, M["clay"], C)
+    else:
+        _gable_roof(f"{bid}_ROOF", x0 - 0.3, y0 - 0.3, x1 + 0.3, y1 + 0.3, top, 34, M["clay"], C)
     geo.box(f"{bid}_CORNICE", x0 - 0.12, y0 - 0.12, top - 0.10, x1 + 0.12, y1 + 0.12, top + 0.14,
             M["stone"], C)
-    # interiors
+
+    # Interiors
     n_rooms = 0
     for r in rooms:
         build_room(r, spec, M, C)
@@ -887,7 +990,6 @@ def build_b05(spec, M, rooms, C):
             log(f"  {rid}: {n} out, e.g. {ex}")
     else:
         log("invariant: every prop sits inside its own room")
-
 
 def _level_of(r):
     return int(r["level"]) - 1
@@ -919,8 +1021,13 @@ def build_room(r, spec, M, C):
     """Floor, ceiling, four linings with openings, door leaf, window, furniture."""
     R = geo.coll("ROOMS")
     z = r["level_z"]
-    w, d = r["w"], r["d"]
-    x0, y0 = r["x0"], r["y0"]
+    wt = P.EXT_WALL.get(spec["wall"], 0.45)
+    rx0 = max(r["x0"], spec["x0"] + wt)
+    ry0 = max(r["y0"], spec["y0"] + wt)
+    rx1 = min(r["x0"] + r["w"], spec["x1"] - wt)
+    ry1 = min(r["y0"] + r["d"], spec["y1"] - wt)
+    x0, y0 = rx0, ry0
+    w, d = max(1.2, rx1 - rx0), max(1.2, ry1 - ry0)
     rid = r["id"]
     is_shop = r["kind"] == "shop_room"
     floor_mat = M["tile"] if is_shop else M["wood_floor"]
@@ -1369,18 +1476,18 @@ CAMERAS = [
     ("07_crane_cab", (188.4, 124.2, 21.4), (188.0, 108.0, 6.0)),
     ("08_hull_bow", (216.0, 100.0, 3.4), (204.0, 111.0, 2.4)),
     ("09_mooring_rope", (160.5, 123.2, 3.4), (150.0, 119.6, 1.6)),
-    ("10_rail_buffer", (316.0, 141.0, 2.0), (300.0, 145.0, 1.2)),
+    ("10_rail_buffer", (316.0, 141.0, 4.35), (300.0, 145.0, 3.55)),
     ("11_rail_catenary", (306.0, 148.0, 3.0), (306.0, 145.0, 6.4)),
     ("12_interior_living", None, None),
     ("13_interior_kitchen", None, None),
-    ("14_interior_bedroom", None, None),
+    ("14_interior_bedroom", (173.95, 138.95, 8.42), (171.55, 136.45, 7.55)),
     ("15_interior_bathroom", None, None),
     ("16_shop_floor", None, None),
     ("17_entry_hall", None, None),
-    ("18_facade_floors", (168.0, 126.2, 1.8), (176.0, 129.0, 14.0)),
+    ("18_facade_floors", (168.0, 123.6, 4.20), (177.2, 128.0, 13.50)),
     ("19_ice_edge", (116.0, 114.0, 1.8), (126.0, 118.6, 0.1)),
     ("20_basin_wide", (200.0, 34.0, 6.0), (200.0, 100.0, 3.0)),
-    ("21_docker_close", (180.0, 126.0, 1.55), (178.0, 124.6, 1.35)),
+    ("21_docker_close", (180.2, 127.0, 3.95), (178.0, 126.0, 3.55)),
     ("22_stern_ropes", (243.0, 121.8, 3.6), (228.0, 119.0, 2.6)),
     ("23_b05_section_cut", (177.0, 122.0, 12.0), (177.0, 135.0, 9.0)),
     ("24_gulls_skyline", (120.0, 60.0, 3.0), (200.0, 160.0, 40.0)),

@@ -110,3 +110,12 @@ python3 portus/tools/v_light.py --images portus/renders/proofs
 - Environment knobs: `PORTUS_DETAIL` (0 legacy flat, 1 detailed, 2 +more brick, 3 all),
   `PORTUS_RADIUS` (m), `PORTUS_RELIEF`, `PORTUS_ROOF`, `PORTUS_NOSAVE`.
 - Known open: denoiser unavailable at 1024 within 1.9 GB; bricks absent beyond r=18.
+
+## 2026-10-21 — full 24-camera 10.57M-tri denoised proof suite & renders archive
+- Scene: `5,327` objects, `10,573,802` triangles (`688,892` 3D bricks, `62,474` stone,
+  `34,002` joinery, `9,138` ironwork, `4,711` glazing, `2,519` props in `B05`).
+- Closed `D-224` (OIDN enabled across all 24 views), `D-226` (`B05` 5-storey masonry +
+  `props.py` room-shell keepout bug), and `D-227` (`CAM_10/14/18/21` lens fixes).
+- Rendered `24/24` cameras at `1024x576` (`content 66116a01b5cda35b87a11da6`) and
+  archived all 24 PNGs + overview contact sheet + before/after sheet + `MANIFEST.json`
+  at `portus/renders/PORTUS_renders.zip` (`20.39 MB`).
