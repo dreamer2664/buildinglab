@@ -7,16 +7,16 @@
     {
       "asset": "master.blend",
       "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.blend",
-      "bytes": 48436163,
-      "sha256": "3a661a4c12f02d93bf1c1ea1bd99c94a64ece30c149bd669dd138e709700bd89",
+      "bytes": 57523288,
+      "sha256": "2a369754cf4c965f215b1a5c849488bdba3cbe05ab416fa459a0028745525536",
       "anonymous_http_status": 200,
       "anonymous_sha256_match": true
     },
     {
       "asset": "master.glb",
       "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.glb",
-      "bytes": 135808260,
-      "sha256": "fa561d625f6f8d5eb2b5165613fb32b1eed5e870df85520457c0b27d86b6d25b",
+      "bytes": 137508380,
+      "sha256": "de669fad5e75f69a83528eb037a5a403d6cf3050495755b650acd2be3e4b844d",
       "anonymous_http_status": 200,
       "anonymous_sha256_match": true
     },
@@ -37,5 +37,8 @@
       "anonymous_sha256_match": true
     }
   ],
-  "status": "PASS"
+  "status": "PASS",
+  "playable_rigged": true,
+  "rigged_humans": 340,
+  "hinged_doors": 62
 }

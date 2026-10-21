@@ -34,6 +34,7 @@ from townsquare.scene.build_buildings import build_all_buildings
 from townsquare.scene.build_square import build_public_square
 from townsquare.scene.build_park_district import build_park_district
 from townsquare.scene.build_people import build_all_people
+from townsquare.scene.make_playable import apply_playable_upgrade
 
 PROG_PATH = ROOT / "townsquare/design/PROGRAMME.json"
 VIEWS_PATH = ROOT / "townsquare/design/VIEWS.json"
@@ -96,6 +97,7 @@ def main() -> int:
     col_pub = ensure_collection("02_PUBLIC_REALM", sc.collection)
     pk_res = build_park_district(prog, mats, col_pub)
     p_res = build_all_people(prog, mats, sc.collection)
+    playable_res = apply_playable_upgrade(sc)
     cam_cnt = setup_all_cameras(views, sc.collection)
 
     # Master lighting rig + AgX world

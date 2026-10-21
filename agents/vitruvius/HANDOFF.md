@@ -44,10 +44,10 @@
 ## 3. Published Binary Artifacts & Anonymous Round-Trip Verification (§29)
 
 ### Stage C–G Master Release: [`townsquare-stage-g-20261020`](https://github.com/dreamer2664/storagecode/releases/tag/townsquare-stage-g-20261020)
-- **`master.blend`:** `48,436,163` B · SHA-256 `3a661a4c12f02d93bf1c1ea1bd99c94a64ece30c149bd669dd138e709700bd89`
+- **`master.blend`:** `57,523,288` B · SHA-256 `2a369754cf4c965f215b1a5c849488bdba3cbe05ab416fa459a0028745525536`
   - URL: `https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.blend`
   - Anonymous HTTP 200 & round-trip SHA-256 match: **PASS**
-- **`master.glb`:** `135,808,260` B · SHA-256 `fa561d625f6f8d5eb2b5165613fb32b1eed5e870df85520457c0b27d86b6d25b`
+- **`master.glb`:** `137,508,380` B · SHA-256 `de669fad5e75f69a83528eb037a5a403d6cf3050495755b650acd2be3e4b844d`
   - URL: `https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.glb`
   - Anonymous HTTP 200 & round-trip SHA-256 match: **PASS**
 - **`master_renders_proofs.tar.gz` (`287` proof PNGs):** `367,586,527` B · SHA-256 `24ac7979892fdee282c75b98305608c0626a76451ab9131a0d769b02639d7455`
