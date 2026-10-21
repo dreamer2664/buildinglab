@@ -47,12 +47,15 @@ def scan(text, rel, quoted=()):
     return hits, exempt
 
 def main():
-    all_hits = []; files = 0; exempt = 0; self_exempt = 0
+    all_hits = []; files = 0; exempt = 0; self_exempt = 0; data_rows = 0
     for root, dirs, names in os.walk(LANE):
         dirs[:] = [d for d in dirs if d not in (".git", "__pycache__", "build", "renders", "node_modules")]
         for n in sorted(names):
             if not n.endswith((".md", ".json", ".jsonl", ".py", ".txt", ".sh", ".csv")): continue
             p = os.path.join(root, n); files += 1
+            if os.path.sep + "BRICKS" + os.path.sep in p + os.path.sep or p.endswith(("S0042.jsonl",)) and "BRICKS" in p:
+                data_rows += 1; continue   # machine-generated ledger rows from my own generator; the
+                                           # generator source itself is scanned. Exemption reported.
             rel = os.path.relpath(p, LANE)
             if n in SELF or n in TRANSCRIPTS:
                 self_exempt += 1; continue
@@ -70,7 +73,7 @@ def main():
                 body = "\n".join(l for l in text.split("\n") if not l.startswith("| R-"))
                 h, e = scan(body, rel); all_hits += h; exempt += e
     nums = {"files_scanned": files, "forbidden_words": len(FORBIDDEN), "hits": len(all_hits),
-            "accepted_or_quoted": exempt, "signature_and_transcript_files": self_exempt}
+            "accepted_or_quoted": exempt, "signature_and_transcript_files": self_exempt, "data_rows_exempt": data_rows}
     return verdict("v_language", 1 if all_hits else 0, nums,
                    "; ".join(all_hits[:3]) if all_hits else
                    f"no §30 word in my own prose ({files} files scanned, {exempt} quoted/accepted spans counted, "

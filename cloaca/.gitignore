@@ -11,3 +11,5 @@ ledgers/BRICKS/*.jsonl
 !ledgers/BRICKS/S0042.jsonl
 evidence/.beat_err
 evidence/.state.last
+drawings/png/
+drawings/svg/

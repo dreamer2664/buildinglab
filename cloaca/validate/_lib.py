@@ -35,5 +35,5 @@ def verdict(name, code, numbers, note=""):
 
 def index(): return list(jsonl(os.path.join(LED, "INDEX.jsonl")))
 def inverts(): return list(jsonl(os.path.join(LED, "INVERTS.jsonl")))
-def built(): return [r for r in index() if r.get("state") in ("built", "built-defect")]
+def built(): return [r for r in index() if r.get("state") in ("built", "built-defect", "built-pruned")]
 def census(c): return jload(os.path.join(EV, "CENSUS", f"{c}.json"))

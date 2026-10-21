@@ -19,6 +19,10 @@ def main():
     inrows = set(ids)
     orph += [f for f in onfile - inrows]
     for r in rows:
+        if r.get("state") == "built-pruned":
+            if not os.path.exists(os.path.join(LANE, "evidence/CENSUS", r["chunk"] + ".json")):
+                probs.append(f"{r['chunk']} pruned but its census record is missing (C-018)")
+            continue
         if r.get("state") in ("built", "built-defect"):
             if not r.get("sha256"): probs.append(f"{r['chunk']} built without sha256")
             if not r.get("census"): probs.append(f"{r['chunk']} built without a measured census")

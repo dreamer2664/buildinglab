@@ -45,6 +45,7 @@ PY
     pc=$(printf 'S%04d' "$p")
     if [ -f "chunks/$pc.blend" ] && [ -f "evidence/CENSUS/$pc.json" ] && grep -q "\"chunk\": \"$pc\".*\"state\": \"built\"" ledgers/INDEX.jsonl; then
       rm -f "chunks/$pc.blend" "chunks/$pc.blend1"
+      python3 tools/mark_pruned.py "$pc" >/dev/null 2>&1
     fi
   fi
   next=$((next+1)); done_count=$((done_count+1))

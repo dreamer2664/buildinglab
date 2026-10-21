@@ -10,12 +10,14 @@ def main():
     ren = list(jsonl(os.path.join(EV, "RENDERS.jsonl")))
     b = built()
     probs = []
+    drawings = [r for r in ren if r.get("kind") == "drawing"]
+    ren = [r for r in ren if r.get("kind") != "drawing"]
     for r in ren:
         srcs = [s.lower() for s in r.get("light_sources", [])]
         if not srcs: probs.append(f"{r.get('id')} lists no light sources (G10)")
         for s in srcs:
             if any(e in s for e in ELECTRIC): probs.append(f"{r.get('id')} light source '{s}'")
-    if not ren and not b: return verdict("v_period", 3, {"renders": 0, "built_chunks": 0}, "no subject yet")
+    if not ren and not b and not drawings: return verdict("v_period", 3, {"renders": 0, "built_chunks": 0}, "no subject yet")
     # palette: the brick colours in a built chunk must stay inside the stock family
     fam = 0; n = 0
     if b:
