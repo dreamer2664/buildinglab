@@ -798,3 +798,7 @@
 {"build_rc": 0, "build_s": 1.59, "census": 72106, "chunk": "S0809", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 400.7, "t": "2026-10-21T22:55:44Z", "u_hash_match": true, "wall_s": 5}
 {"build_rc": 0, "build_s": 1.53, "census": 72106, "chunk": "S0810", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 399.3, "t": "2026-10-21T22:55:50Z", "u_hash_match": true, "wall_s": 6}
 {"build_rc": 0, "build_s": 1.68, "census": 72106, "chunk": "S0811", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 403.4, "t": "2026-10-21T22:55:56Z", "u_hash_match": true, "wall_s": 6}
+{"build_rc": 0, "build_s": 2.34, "census": 72106, "chunk": "S0812", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 400.4, "t": "2026-10-21T22:56:14Z", "u_hash_match": true, "wall_s": 7}
+{"build_rc": 0, "build_s": 2.95, "census": 72106, "chunk": "S0813", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 400.1, "t": "2026-10-21T22:56:23Z", "u_hash_match": true, "wall_s": 9}
+{"build_rc": 0, "build_s": 1.97, "census": 72106, "chunk": "S0814", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 399.4, "t": "2026-10-21T22:56:32Z", "u_hash_match": true, "wall_s": 9}
+{"build_rc": 0, "build_s": 2.31, "census": 72106, "chunk": "S0815", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 401.2, "t": "2026-10-21T22:56:40Z", "u_hash_match": true, "wall_s": 8}
