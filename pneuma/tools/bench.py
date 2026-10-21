@@ -83,7 +83,7 @@ def render_scene(engine: str, x: int, y: int, samples: int | None = None):
 def bench() -> dict:
     res = {"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "grain": [], "render": []}
     print("=== grain scaling (120 frames baked) ===")
-    for n in (250, 500, 1000, 2000):
+    for n in (250, 500, 1000):  # 2000 was dropped: this host has 1982 MB total RAM
         sc = grains_scene(n)
         t0 = time.time()
         bpy.ops.ptcache.bake_all(bake=True)
@@ -99,19 +99,19 @@ def bench() -> dict:
               f"RSS {r} MB · extrapolated {per_frame*COMMISSION_FRAMES/3600:8.1f} h for 10,800 frames")
 
     print("\n=== render scaling ===")
-    for engine, samples in (("BLENDER_EEVEE_NEXT", None), ("CYCLES", 16)):
+    for engine, samples, res in (("BLENDER_EEVEE_NEXT", None, (3840, 2160)), ("CYCLES", 16, (1920, 1080))):
         try:
-            sc = render_scene(engine, 3840, 2160, samples)
+            sc = render_scene(engine, res[0], res[1], samples)
             t0 = time.time()
             bpy.ops.render.render(write_still=False)
             dt = time.time() - t0
             res["render"].append({
-                "engine": engine, "res": "3840x2160", "samples": samples,
+                "engine": engine, "res": f"{res[0]}x{res[1]}", "samples": samples,
                 "s_per_frame": round(dt, 2),
-                "hours_for_10800_frames": round(dt * COMMISSION_FRAMES / 3600, 1),
+                "hours_for_10800_frames_at_this_res": round(dt * COMMISSION_FRAMES / 3600, 1),
                 "rss_mb": rss_mb(),
             })
-            print(f"  {engine:<20} 3840x2160 samples={samples} · {dt:6.1f}s/frame · "
+            print(f"  {engine:<20} {res[0]}x{res[1]} samples={samples} · {dt:6.1f}s/frame · "
                   f"RSS {rss_mb()} MB · extrapolated {dt*COMMISSION_FRAMES/3600:8.1f} h for 10,800 frames")
         except Exception as e:
             res["render"].append({"engine": engine, "error": str(e)})

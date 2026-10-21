@@ -1,9 +1,10 @@
 {
-  "stage": "0",
+  "stage": "A",
   "shot": "-",
-  "pct": 8,
-  "next": "Stage 0 exit: lane pushed, watchdog live, bench running — then Stage A sources",
+  "pct": 22,
+  "next": "Stage B: cart chassis, axle, drum and the first rope system; then the grain-disabled negative test (G6) and the two-run trajectory hash on the built machine",
   "card": "t-20261021-4804",
   "priority": "low",
+  "stage_name": "sources and design (SOURCES, CONSTANTS, MECHANISMS, MATERIALS, FASTENERS, GRAIN written)",
   "note": "The beat payload is read from this file by tools/beatloop.sh. Edit this file to change what the beat claims; the beat never invents a stage."
 }

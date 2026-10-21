@@ -1,0 +1,23 @@
+{
+  "t": "2026-10-21T18:54:21Z",
+  "named_parts": 3039,
+  "census": {
+    "AXLE": 3,
+    "CHASSIS": 5,
+    "DRUM": 4,
+    "FLOOR": 1,
+    "GRAIN": 3000,
+    "HOPPER": 6,
+    "WHEEL": 20
+  },
+  "materials": {
+    "OAK": 33,
+    "IRON": 3,
+    "BRONZE": 3,
+    "MILLET": 3000
+  },
+  "distinct_materials": 4,
+  "problems": [],
+  "notes": [],
+  "verdict": "PASS"
+}

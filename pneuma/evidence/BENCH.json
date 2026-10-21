@@ -1,0 +1,47 @@
+{
+  "t": "2026-10-21T19:18:27Z",
+  "provenance": "measured on this host; the tools/bench.py sweep was OOM-killed before it wrote, so this file carries the measurements that landed individually",
+  "grain": [
+    {
+      "grains": 200,
+      "frames": 240,
+      "bake_s": 2.1,
+      "s_per_frame": 0.00875,
+      "rss_mb": 309,
+      "note": "tools/engine_probe.py --determinism; trajectory hash reproduced across 2 runs",
+      "extrapolated_48000_if_linear_s": 22680.0
+    }
+  ],
+  "render": [
+    {
+      "engine": "CYCLES",
+      "res": "960x540",
+      "samples": 64,
+      "s_per_frame": 33.2,
+      "rss_mb": null,
+      "source": "isolated test on a near-empty scene"
+    },
+    {
+      "engine": "CYCLES",
+      "res": "2560x1440",
+      "samples": 48,
+      "s_per_frame": 480.0,
+      "rss_mb": 431,
+      "source": "measured live from the window render campaign (8 views, ~8 min each)",
+      "extrapolated_4K_s_per_frame": 1080.0
+    },
+    {
+      "engine": "BLENDER_WORKBENCH",
+      "res": "1920x1080",
+      "samples": null,
+      "s_per_frame": 4.08,
+      "source": "isolated test; the engineering-drawing path"
+    }
+  ],
+  "verdict": {
+    "simulation": "possibly reachable \u2014 200 grains/240 fr in 2.1 s; linear extrapolation to 48,000 grains over 10,800 frames is ~6.3 h per pass. RAM, not time, is the binding constraint: 309 MB at 200 grains does not scale to 48,000 within a 1982 MB host.",
+    "render_4K": "NOT reachable \u2014 ~18 min per 4K frame measured-by-extrapolation; 10,800 frames is ~3,240 single-core hours (~68 days on 2 cores), and the machine is far heavier than the scene that gave the 33 s baseline.",
+    "eevee": "cannot render \u2014 no EGL/GPU context in this sandbox",
+    "oidn": "absent \u2014 this Debian build ships Cycles without OpenImageDenoise (F20)"
+  }
+}
