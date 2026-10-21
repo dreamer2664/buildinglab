@@ -124,3 +124,27 @@ RECONCILE at 2026-10-21T18:50:03Z
      HB-GAP seq 4 -> 5 : 50m 13s
   coverage         44.1% (span 4715s)
   VERDICT          PASS
+RECONCILE at 2026-10-21T19:40:59Z
+  local beats      13
+  expected ticks   12
+  server agent bts 13 (plus 1 channel-test, 2 watchdog-alarm)
+  FOUND            13
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        2
+     HB-GAP seq 4 -> 5 : 50m 13s
+     HB-GAP seq 9 -> 10 : 38m 10s
+  coverage         42.0% (span 7772s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T19:41:00Z
+  local beats      13
+  expected ticks   12
+  server agent bts 13 (plus 1 channel-test, 2 watchdog-alarm)
+  FOUND            13
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        2
+     HB-GAP seq 4 -> 5 : 50m 13s
+     HB-GAP seq 9 -> 10 : 38m 10s
+  coverage         42.0% (span 7772s)
+  VERDICT          PASS
