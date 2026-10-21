@@ -1,5 +1,301 @@
 {
  "engine": "DF-E2",
- "t": "2026-10-21T22:32:38Z",
- "within_2pct": false
+ "t": "2026-10-21T22:35:38Z",
+ "flywheel_diameter_m": 6.4,
+ "rim_mass_kg": 91000.0,
+ "inertia_kg_m2": 885248.0,
+ "samples": [
+  {
+   "deg": 0,
+   "omega_rad_per_s": 0.733038
+  },
+  {
+   "deg": 5,
+   "omega_rad_per_s": 0.733132
+  },
+  {
+   "deg": 10,
+   "omega_rad_per_s": 0.733318
+  },
+  {
+   "deg": 15,
+   "omega_rad_per_s": 0.733594
+  },
+  {
+   "deg": 20,
+   "omega_rad_per_s": 0.733957
+  },
+  {
+   "deg": 25,
+   "omega_rad_per_s": 0.734401
+  },
+  {
+   "deg": 30,
+   "omega_rad_per_s": 0.73492
+  },
+  {
+   "deg": 35,
+   "omega_rad_per_s": 0.735507
+  },
+  {
+   "deg": 40,
+   "omega_rad_per_s": 0.736155
+  },
+  {
+   "deg": 45,
+   "omega_rad_per_s": 0.736853
+  },
+  {
+   "deg": 50,
+   "omega_rad_per_s": 0.737592
+  },
+  {
+   "deg": 55,
+   "omega_rad_per_s": 0.73836
+  },
+  {
+   "deg": 60,
+   "omega_rad_per_s": 0.739147
+  },
+  {
+   "deg": 65,
+   "omega_rad_per_s": 0.739942
+  },
+  {
+   "deg": 70,
+   "omega_rad_per_s": 0.738832
+  },
+  {
+   "deg": 75,
+   "omega_rad_per_s": 0.736721
+  },
+  {
+   "deg": 80,
+   "omega_rad_per_s": 0.734677
+  },
+  {
+   "deg": 85,
+   "omega_rad_per_s": 0.732723
+  },
+  {
+   "deg": 90,
+   "omega_rad_per_s": 0.730878
+  },
+  {
+   "deg": 95,
+   "omega_rad_per_s": 0.729156
+  },
+  {
+   "deg": 100,
+   "omega_rad_per_s": 0.727566
+  },
+  {
+   "deg": 105,
+   "omega_rad_per_s": 0.726112
+  },
+  {
+   "deg": 110,
+   "omega_rad_per_s": 0.724795
+  },
+  {
+   "deg": 115,
+   "omega_rad_per_s": 0.723612
+  },
+  {
+   "deg": 120,
+   "omega_rad_per_s": 0.722558
+  },
+  {
+   "deg": 125,
+   "omega_rad_per_s": 0.721627
+  },
+  {
+   "deg": 130,
+   "omega_rad_per_s": 0.72081
+  },
+  {
+   "deg": 135,
+   "omega_rad_per_s": 0.7201
+  },
+  {
+   "deg": 140,
+   "omega_rad_per_s": 0.719489
+  },
+  {
+   "deg": 145,
+   "omega_rad_per_s": 0.718971
+  },
+  {
+   "deg": 150,
+   "omega_rad_per_s": 0.718538
+  },
+  {
+   "deg": 155,
+   "omega_rad_per_s": 0.718186
+  },
+  {
+   "deg": 160,
+   "omega_rad_per_s": 0.71791
+  },
+  {
+   "deg": 165,
+   "omega_rad_per_s": 0.717707
+  },
+  {
+   "deg": 170,
+   "omega_rad_per_s": 0.717572
+  },
+  {
+   "deg": 175,
+   "omega_rad_per_s": 0.717505
+  },
+  {
+   "deg": 180,
+   "omega_rad_per_s": 0.717505
+  },
+  {
+   "deg": 185,
+   "omega_rad_per_s": 0.71753
+  },
+  {
+   "deg": 190,
+   "omega_rad_per_s": 0.717579
+  },
+  {
+   "deg": 195,
+   "omega_rad_per_s": 0.717654
+  },
+  {
+   "deg": 200,
+   "omega_rad_per_s": 0.717756
+  },
+  {
+   "deg": 205,
+   "omega_rad_per_s": 0.717885
+  },
+  {
+   "deg": 210,
+   "omega_rad_per_s": 0.718044
+  },
+  {
+   "deg": 215,
+   "omega_rad_per_s": 0.718235
+  },
+  {
+   "deg": 220,
+   "omega_rad_per_s": 0.718459
+  },
+  {
+   "deg": 225,
+   "omega_rad_per_s": 0.71872
+  },
+  {
+   "deg": 230,
+   "omega_rad_per_s": 0.71902
+  },
+  {
+   "deg": 235,
+   "omega_rad_per_s": 0.719363
+  },
+  {
+   "deg": 240,
+   "omega_rad_per_s": 0.71975
+  },
+  {
+   "deg": 245,
+   "omega_rad_per_s": 0.720185
+  },
+  {
+   "deg": 250,
+   "omega_rad_per_s": 0.720669
+  },
+  {
+   "deg": 255,
+   "omega_rad_per_s": 0.721203
+  },
+  {
+   "deg": 260,
+   "omega_rad_per_s": 0.721788
+  },
+  {
+   "deg": 265,
+   "omega_rad_per_s": 0.722421
+  },
+  {
+   "deg": 270,
+   "omega_rad_per_s": 0.723099
+  },
+  {
+   "deg": 275,
+   "omega_rad_per_s": 0.723817
+  },
+  {
+   "deg": 280,
+   "omega_rad_per_s": 0.724568
+  },
+  {
+   "deg": 285,
+   "omega_rad_per_s": 0.725344
+  },
+  {
+   "deg": 290,
+   "omega_rad_per_s": 0.726135
+  },
+  {
+   "deg": 295,
+   "omega_rad_per_s": 0.726929
+  },
+  {
+   "deg": 300,
+   "omega_rad_per_s": 0.727716
+  },
+  {
+   "deg": 305,
+   "omega_rad_per_s": 0.728485
+  },
+  {
+   "deg": 310,
+   "omega_rad_per_s": 0.729224
+  },
+  {
+   "deg": 315,
+   "omega_rad_per_s": 0.729922
+  },
+  {
+   "deg": 320,
+   "omega_rad_per_s": 0.730569
+  },
+  {
+   "deg": 325,
+   "omega_rad_per_s": 0.731157
+  },
+  {
+   "deg": 330,
+   "omega_rad_per_s": 0.731676
+  },
+  {
+   "deg": 335,
+   "omega_rad_per_s": 0.73212
+  },
+  {
+   "deg": 340,
+   "omega_rad_per_s": 0.732482
+  },
+  {
+   "deg": 345,
+   "omega_rad_per_s": 0.732758
+  },
+  {
+   "deg": 350,
+   "omega_rad_per_s": 0.732945
+  },
+  {
+   "deg": 355,
+   "omega_rad_per_s": 0.733038
+  }
+ ],
+ "mean_rpm": 6.9367,
+ "max_deviation_pct": 1.8625,
+ "sample_step_deg": 5,
+ "within_2pct": true
 }

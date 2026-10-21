@@ -2,7 +2,7 @@
  "engine": "CX-E1",
  "class": "A",
  "derived": true,
- "t": "2026-10-21T22:32:38Z",
+ "t": "2026-10-21T22:35:38Z",
  "boiler_bar": 1.72,
  "back_bar": 0.14,
  "cut_off": 0.55,
@@ -72,127 +72,127 @@
   {
    "deg": 60,
    "volume_m3": 0.49261,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.684
   },
   {
    "deg": 65,
    "volume_m3": 0.31127,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.5907
   },
   {
    "deg": 70,
    "volume_m3": 0.12956,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.507
   },
   {
    "deg": 75,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 80,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 85,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 90,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 95,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 100,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 105,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 110,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 115,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 120,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 125,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 130,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 135,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 140,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 145,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 150,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 155,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 160,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 165,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 170,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 175,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 180,
    "volume_m3": 0.02334,
-   "pressure_bar": 1.72
+   "pressure_bar": 1.462
   },
   {
    "deg": 185,
@@ -370,6 +370,6 @@
    "pressure_bar": 1.72
   }
  ],
- "work_per_cycle_J": 0.0,
+ "work_per_cycle_J": 1070934.2,
  "loop_closed": true
 }
