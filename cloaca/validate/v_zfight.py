@@ -27,7 +27,6 @@ def main():
             cs = sorted(byc[k], key=lambda x: x["j"])
             for p, q in zip(cs, cs[1:]):
                 pairs += 1
-                gap = (q["x"] - p["x"]) if False else None
                 # separation along the ring: arc positions differ by the module; the modelled gap
                 # is the joint, so compare the circumferential centre distance against the brick length
                 d = math.hypot(q["y"] - p["y"], q["z"] - p["z"]) * 1000.0

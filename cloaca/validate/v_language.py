@@ -16,7 +16,8 @@ FORBIDDEN = ["photorealistic", "perfect", "flawless", "masterpiece", "museum-qua
 SELF = ("v_language.py", "v_period.py", "v_light.py", "REFERENCES.md")
 # machine transcripts: a verdict log quoting a hit, and a reference register quoting a source,
 # are records of words appearing elsewhere, not my own prose. Named here and counted in the verdict.
-TRANSCRIPTS = ("VALIDATORS.jsonl", "VALIDATORS_HISTORY.jsonl", "HEARTBEATS.jsonl", "WINDOW.jsonl")
+TRANSCRIPTS = ("VALIDATORS.jsonl", "VALIDATORS_HISTORY.jsonl", "NEGATIVE_TESTS.jsonl",
+               "HEARTBEATS.jsonl", "WINDOW.jsonl", "GATES.jsonl")
 QUOTE = "\u00bb"   # » : a validator wraps any excerpt it copies in these, so transcripts stay scannable
 ALLOWED_CONTEXT = ("FINAL_", "finals", "final render class")
 

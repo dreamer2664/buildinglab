@@ -1,0 +1,50 @@
+{
+ "generated": "2026-10-21T19:10:59Z",
+ "clause": "G13 clean-room reproduction (self-rehearsal; a stranger's run is the one that counts)",
+ "runs": [
+  {
+   "chunk": "S0042",
+   "t": "2026-10-21T19:10:59Z",
+   "generator_version": "cloaca-gen/1.1.0",
+   "clean_room": "/tmp/cloaca_cleanroom",
+   "blender_exit": 0,
+   "key_from_index": "09b21a16c668e62435db16b06c86a02fae2f2ef281753e0180a5432962c20138",
+   "bricks_predicted": 72106,
+   "rebuilt_brick_objects": 72106,
+   "rebuilt_census_hash": "4ce73287e3188624784f5999f2c1c2e67ba4aaa7dedc65dcf845e3f41a65cd88",
+   "index_census_hash": "4ce73287e3188624784f5999f2c1c2e67ba4aaa7dedc65dcf845e3f41a65cd88",
+   "rebuilt_u_hash": "7712cd4f11ed4aa4ef7b77dc1d96af18efcf89058fc2c6dc6e994894627ebd34",
+   "index_u_hash": "7712cd4f11ed4aa4ef7b77dc1d96af18efcf89058fc2c6dc6e994894627ebd34",
+   "u_hash_match": true,
+   "census_hash_matches": true,
+   "u_hash_matches": true,
+   "census_equals_ledger": true,
+   "rebuilt_blend_sha256": "4160e05aaf268eeac8c5dff05cc35aedab2c84d4aca24787b194f7e1f754ac2c",
+   "rebuilt_peak_mb": 404.1,
+   "rebuilt_build_s": 1.38,
+   "verdict": "PASS"
+  },
+  {
+   "chunk": "S0000",
+   "t": "2026-10-21T19:11:04Z",
+   "generator_version": "cloaca-gen/1.1.0",
+   "clean_room": "/tmp/cloaca_cleanroom",
+   "blender_exit": 0,
+   "key_from_index": "2d6cc74b1266f2242dcb275bf09702620ba4d3d5344f96f02b7d04ea3bdf5afa",
+   "bricks_predicted": 72106,
+   "rebuilt_brick_objects": 72106,
+   "rebuilt_census_hash": "66665070bd69002ec990bb599986784bbacdc5bfa9bf2c2d24008bbd4b931ebb",
+   "index_census_hash": "66665070bd69002ec990bb599986784bbacdc5bfa9bf2c2d24008bbd4b931ebb",
+   "rebuilt_u_hash": "5ffaff50b22f4b61d29fd53f7c2b03c3f274f08ec743ce505f9eba8e28eb649f",
+   "index_u_hash": "5ffaff50b22f4b61d29fd53f7c2b03c3f274f08ec743ce505f9eba8e28eb649f",
+   "u_hash_match": true,
+   "census_hash_matches": true,
+   "u_hash_matches": true,
+   "census_equals_ledger": true,
+   "rebuilt_blend_sha256": "3c884eed61587c54348dae016c819e5fdea2c9b127903b44f2fdef06ba929993",
+   "rebuilt_peak_mb": 400.6,
+   "rebuilt_build_s": 1.57,
+   "verdict": "PASS"
+  }
+ ]
+}
