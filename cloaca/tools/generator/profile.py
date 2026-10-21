@@ -60,8 +60,15 @@ def course_geometry(kind, wythes, pid=None, prof=None, **kw):
             "axial_module_m": BRICK["H"] + JOINT} # 86 mm
 
 def chunk_census(chunk_len_m, kind, wythes, pid=None, prof=None, **kw):
+    """Course fitting (C-016): 100 m is not an integer multiple of the 86 mm nominal module, so
+    the ganger sets the gauge - the number of courses is the nearest integer and the module is
+    chunk_len / courses. The joint moves by a few hundredths of a millimetre, the bond stays
+    continuous across the join, and the chainage stays exactly 100 m per chunk."""
     g = course_geometry(kind, wythes, pid=pid, prof=prof, **kw)
-    courses = int(math.floor(chunk_len_m / g["axial_module_m"]))
+    courses = int(round(chunk_len_m / g["axial_module_m"]))
+    module = chunk_len_m / courses
+    g = dict(g); g["axial_module_m"] = module
+    g["axial_joint_mm"] = round((module - BRICK["H"]) * 1000.0, 4)
     per_course = g["bricks_per_course"] * wythes
     return {"courses": courses, "bricks_per_course_all_wythes": per_course,
             "census": courses * per_course, **g}

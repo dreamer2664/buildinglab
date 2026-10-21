@@ -1,4 +1,6 @@
 {
+ "axial_joint_mm": 9.9845,
+ "axial_module_mm": 85.9845,
  "bands": {
   "band_00": 6200,
   "band_01": 6200,
@@ -11,68 +13,68 @@
   "band_08": 6200,
   "band_09": 6200,
   "band_10": 6200,
-  "band_11": 3844
+  "band_11": 3906
  },
  "bounds_mm": {
   "x": [
    36,
-   99886
+   99954
   ],
   "y": [
    -848,
-   848
+   847
   ],
   "z": [
-   -173,
-   2866
+   -171,
+   2872
   ]
  },
  "bricks_per_course": 31,
- "census": 72044,
+ "census": 72106,
  "chunk": "S0008",
  "closure_gap_mm": 177.5,
  "condition_histogram": {
-  "0": 64840,
-  "1": 3947,
-  "2": 694,
-  "3": 924,
-  "4": 1014,
+  "0": 62031,
+  "1": 2461,
+  "2": 1175,
+  "3": 4770,
+  "4": 1149,
   "5": 0,
-  "6": 415,
-  "7": 210
+  "6": 393,
+  "7": 127
  },
- "courses": 1162,
+ "courses": 1163,
  "density": 1.0,
  "deviation_set": {
-  "bloom_density": 1.2565,
-  "bond_offset_mm": 119,
+  "bloom_density": 0.7785,
+  "bond_offset_mm": 60,
   "chunk": "S0008",
-  "colour_drift": 0.0594,
-  "grit_seed": 1457708252,
-  "key": "389ffb0be843ee4f327d6f77ad9e5f3d64c23379d89bac6097f24e4b114caa7d",
-  "repair_clusters": 1,
-  "sediment_mm": 35,
+  "colour_drift": -0.0541,
+  "grit_seed": 1662277548,
+  "key": "a469df73316b101f40744a622504a292252e02675643a385bae8bc9acb43ab46",
+  "repair_clusters": 5,
+  "sediment_mm": 42,
   "settlement_zone": [
-   233,
-   139
+   93,
+   171
   ],
-  "soot_bands": 2,
-  "stain_density": 0.7263,
-  "tide_mark_m": 0.303,
-  "tool_scar_bias": 0.05
+  "soot_bands": 0,
+  "stain_density": 0.8649,
+  "tide_mark_m": 1.016,
+  "tool_scar_bias": 0.1
  },
  "inner_perimeter_mm": 6631,
- "key": "389ffb0be843ee4f327d6f77ad9e5f3d64c23379d89bac6097f24e4b114caa7d",
+ "key": "a469df73316b101f40744a622504a292252e02675643a385bae8bc9acb43ab46",
  "mid_perimeter_mm": 7348,
- "predicted_census": 72044,
+ "predicted_census": 72106,
  "profile": "ovoid-675",
- "u_hash": "07a2044dd9e686409ec2e68b7d80a6d11f5f9d21c9cb3a222f69ff984c061db9",
+ "u_hash": "e811f4fa84d50cf57dc5b6a07a1411027313d78dd4b1c5cba74ec9a1c3c6fa81",
  "wythes": 2,
  "zone_histogram": {
-  "crown": 30212,
-  "flow": 4336,
-  "invert": 15218,
-  "splash": 9496,
-  "wall": 12782
+  "crown": 29656,
+  "flow": 4543,
+  "invert": 14641,
+  "splash": 9892,
+  "wall": 13374
  }
 }

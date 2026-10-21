@@ -10,7 +10,7 @@ import hashlib, json, math, os, random, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lines import PROFILES
 from section import point_at, perimeter
-from profile import BRICK, JOINT
+from profile import BRICK, JOINT, chunk_census
 
 LANE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 LED  = os.path.join(LANE, "ledgers")
@@ -84,7 +84,10 @@ def lay(chunk, out=None, density=1.0, dwf_depth=0.28):
     pmid = offset_perimeter(pid, p, ring_thk / 2.0)
     n_full = int(math.floor(pmid / MOD_C)); gap = pmid - n_full * MOD_C
     per_course = n_full + 1                                  # + closure brick (C-006)
-    n_courses = int(math.floor(100.0 / MOD_A))
+    fit = chunk_census(100.0, p["kind"], wythes, pid=pid, prof=p,
+                       **({"r": p["r"]} if p["kind"] == "ovoid" else {"d": p["d"]} if p["kind"] == "circle"
+                          else {"h": p["h"], "w": p["w"]}))
+    n_courses = fit["courses"]; MOD_A = fit["axial_module_m"]     # gauge set for an even fit (C-016)
     total = n_courses * per_course * wythes
     assert total == courses, f"census recomputation disagrees with INDEX for {chunk}: {total} vs {courses}"
     # ---- proxy density (R2): thin the courses, never the deviations ----
@@ -133,6 +136,7 @@ def lay(chunk, out=None, density=1.0, dwf_depth=0.28):
     meta = {"chunk": chunk, "key": row["key"], "profile": pid, "wythes": wythes,
             "courses": n_courses, "bricks_per_course": per_course, "closure_gap_mm": round(gap * 1000, 1),
             "mid_perimeter_mm": int(round(pmid * 1000)), "inner_perimeter_mm": int(round(per_in * 1000)),
+            "axial_module_mm": round(MOD_A * 1000, 4), "axial_joint_mm": fit["axial_joint_mm"],
             "census": len(rows), "predicted_census": total, "density": density,
             "u_hash": u_hash,
             "bounds_mm": {"x": [min(xs), max(xs)], "y": [min(ys), max(ys)], "z": [min(zs), max(zs)]},
@@ -147,8 +151,17 @@ def lay(chunk, out=None, density=1.0, dwf_depth=0.28):
     os.makedirs(os.path.join(EV, "CENSUS"), exist_ok=True)
     tag = "" if density >= 1.0 else "_PROXY"
     json.dump(meta, open(os.path.join(EV, "CENSUS", f"{chunk}{tag}_LEDGER.json"), "w"), indent=1, sort_keys=True)
-    with open(os.path.join(LED, "DEVIATIONS.jsonl"), "a") as f:
-        f.write(json.dumps(dev, sort_keys=True) + "\n")
+    # DEVIATIONS is a derived table, not a history: one row per chunk, upserted. Appending a
+    # second row for the same chunk made v_distinct read a re-lay as a twin (D-009).
+    dp = os.path.join(LED, "DEVIATIONS.jsonl")
+    rows = {}
+    if os.path.exists(dp):
+        for ln in open(dp):
+            if ln.strip():
+                r = json.loads(ln); rows[r["chunk"]] = r
+    rows[chunk] = dev
+    with open(dp, "w") as f:
+        for k in sorted(rows): f.write(json.dumps(rows[k], sort_keys=True) + "\n")
     return meta
 
 if __name__ == "__main__":

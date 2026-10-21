@@ -5,7 +5,7 @@ Line lengths: the record gives 82 miles = 132 km for the intercepting network bu
 give it line by line; the allocation below is a modelled allocation, its basis stated per line
 and adjudicated in CONFLICTS.md C-012. Profiles per segment cite REFERENCES.md rows (G2, F39).
 """
-GEN_VERSION = "cloaca-gen/1.0.0"
+GEN_VERSION = "cloaca-gen/1.1.0"
 MASTER_SEED = "cloaca-victoria-1858"
 
 # profile families. wythes = radial brick widths (114 mm each): 2 -> 228 mm (9 in), 3 -> 342 mm.

@@ -1,0 +1,461 @@
+{
+ "Z0_m_above_chart_datum": 3.6553,
+ "calibration_points": [
+  {
+   "h": 2.3,
+   "kind": "low",
+   "src": "R-113",
+   "t": "2026-10-21T02:35:00Z"
+  },
+  {
+   "h": 5.3,
+   "kind": "high",
+   "src": "R-113",
+   "t": "2026-10-21T09:04:00Z"
+  },
+  {
+   "h": 1.7,
+   "kind": "low",
+   "src": "R-113",
+   "t": "2026-10-21T15:46:00Z"
+  },
+  {
+   "h": 5.6,
+   "kind": "high",
+   "src": "R-113",
+   "t": "2026-10-21T21:56:00Z"
+  },
+  {
+   "h": 3.4,
+   "kind": "sample",
+   "src": "R-113",
+   "t": "2026-10-21T18:30:00Z"
+  },
+  {
+   "h": null,
+   "kind": "low",
+   "src": "R-113 (time only)",
+   "t": "2026-10-22T04:13:00Z"
+  }
+ ],
+ "cites": [
+  "R-108",
+  "R-109",
+  "R-110",
+  "R-111",
+  "R-112",
+  "R-113",
+  "R-114",
+  "R-115",
+  "R-116",
+  "R-118",
+  "R-078",
+  "R-092",
+  "R-079"
+ ],
+ "constituents": {
+  "K1": {
+   "doodson": [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "equilibrium_amplitude_m": 0.1414,
+   "fitted_amplitude_m": 0.1236,
+   "fitted_phase_deg": 285.0,
+   "nodal_law": "K1",
+   "speed_deg_per_hour": 15.0410686
+  },
+  "M2": {
+   "doodson": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "equilibrium_amplitude_m": 0.2424,
+   "fitted_amplitude_m": 2.376,
+   "fitted_phase_deg": 15.0,
+   "nodal_law": "M2",
+   "speed_deg_per_hour": 28.9841042
+  },
+  "N2": {
+   "doodson": [
+    2,
+    -1,
+    0,
+    1,
+    0
+   ],
+   "equilibrium_amplitude_m": 0.046,
+   "fitted_amplitude_m": 0.4549,
+   "fitted_phase_deg": -10.0,
+   "nodal_law": "M2",
+   "speed_deg_per_hour": 28.4397196
+  },
+  "O1": {
+   "doodson": [
+    1,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "equilibrium_amplitude_m": 0.1003,
+   "fitted_amplitude_m": 0.0784,
+   "fitted_phase_deg": 265.0,
+   "nodal_law": "O1",
+   "speed_deg_per_hour": 13.9430356
+  },
+  "S2": {
+   "doodson": [
+    2,
+    2,
+    -2,
+    0,
+    0
+   ],
+   "equilibrium_amplitude_m": 0.1129,
+   "fitted_amplitude_m": 0.86,
+   "fitted_phase_deg": 15.0,
+   "nodal_law": "S2",
+   "speed_deg_per_hour": 30.0
+  }
+ },
+ "datum_link": {
+  "N-high": {
+   "cites": [
+    "R-010",
+    "R-118"
+   ],
+   "lift_m": null,
+   "outfall": "Beckton penstocks",
+   "terminal_invert_m_cd": 2.35
+  },
+  "N-low": {
+   "cites": [
+    "R-092",
+    "R-025"
+   ],
+   "lift_m": 11.0,
+   "outfall": "Abbey Mills",
+   "terminal_invert_m_cd": 1.05
+  },
+  "N-mid": {
+   "cites": [
+    "R-092",
+    "R-008"
+   ],
+   "lift_m": 11.0,
+   "outfall": "Abbey Mills (merged)",
+   "terminal_invert_m_cd": 1.2
+  },
+  "S-high": {
+   "cites": [
+    "R-078",
+    "R-073"
+   ],
+   "lift_m": 10.5,
+   "outfall": "Crossness penstocks",
+   "terminal_invert_m_cd": 2.2
+  },
+  "S-low": {
+   "cites": [
+    "R-102",
+    "R-025"
+   ],
+   "lift_m": 9.5,
+   "outfall": "Deptford",
+   "terminal_invert_m_cd": 0.95
+  }
+ },
+ "fitted_from": {
+  "accessed": "2026-10-21",
+  "cites": [
+   "R-113"
+  ],
+  "max_abs_residual_m": 0.0288,
+  "n_levels": 5,
+  "rms_m": 0.0244,
+  "source": "published predicted levels, UKHO/ADMIRALTY EasyTide via BBC Weather tide tables for London Bridge (Tower Pier)",
+  "status": "provisional - see D-003 / C-008"
+ },
+ "gauges": [
+  {
+   "cites": [
+    "R-112",
+    "R-113"
+   ],
+   "id": "G1",
+   "km_from_london_bridge": 0.0,
+   "lat": 51.50688,
+   "lon": -0.07737,
+   "name": "London Bridge (Tower Pier)",
+   "pla_code": "0113"
+  },
+  {
+   "cites": [
+    "R-117"
+   ],
+   "id": "G2",
+   "km_from_london_bridge": 0.53,
+   "name": "Tower Pier",
+   "pla_code": "0113b"
+  },
+  {
+   "cites": [
+    "R-117"
+   ],
+   "id": "G3",
+   "km_from_london_bridge": 6.6,
+   "name": "Greenwich"
+  },
+  {
+   "cites": [
+    "R-078",
+    "R-117"
+   ],
+   "id": "G4",
+   "km_from_london_bridge": 21.0,
+   "name": "Erith / Crossness approach"
+  },
+  {
+   "cites": [
+    "R-010",
+    "R-117"
+   ],
+   "id": "G5",
+   "km_from_london_bridge": 17.0,
+   "name": "Barking Creek / Beckton approach"
+  },
+  {
+   "cites": [
+    "R-117"
+   ],
+   "id": "G6",
+   "km_from_london_bridge": -10.0,
+   "name": "Putney"
+  }
+ ],
+ "nodal_factors": {
+  "K1": "f = 1.006 + 0.115 cos N, u = -8.9 sin N",
+  "M2/N2": "f = 1.000 - 0.037 cos N, u = -2.1 sin N",
+  "O1": "f = 1.009 + 0.187 cos N, u = 10.8 sin N",
+  "S2": "f = 1, u = 0",
+  "cites": [
+   "R-111"
+  ]
+ },
+ "overflows": [
+  {
+   "basis": "capacity: side weir at 0.75 x section height above the invert; spills when the sim storm discharge surcharges the section",
+   "chunk": "S0120",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 2.7,
+   "crest_m_cd": 23.097,
+   "dwf_m3_per_s": 1.1839,
+   "id": "OF-1",
+   "invert_m_cd": 20.397,
+   "line": "N-high",
+   "line_chunk_index": 120,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  },
+  {
+   "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
+   "chunk": "S0450",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 2.7,
+   "crest_m_cd": 14.787,
+   "dwf_m3_per_s": 0.9866,
+   "id": "OF-2",
+   "invert_m_cd": 12.087,
+   "line": "N-mid",
+   "line_chunk_index": 150,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  {
+   "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
+   "chunk": "S0665",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 2.7,
+   "crest_m_cd": 9.441,
+   "dwf_m3_per_s": 0.5919,
+   "id": "OF-3",
+   "invert_m_cd": 6.741,
+   "line": "N-low",
+   "line_chunk_index": 95,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  {
+   "basis": "capacity: side weir at 0.75 x section height above the invert; spills when the sim storm discharge surcharges the section",
+   "chunk": "S0930",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 2.7,
+   "crest_m_cd": 19.66,
+   "dwf_m3_per_s": 0.5262,
+   "id": "OF-4",
+   "invert_m_cd": 16.96,
+   "line": "S-high",
+   "line_chunk_index": 140,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  },
+  {
+   "basis": "tidal: relief weir crest at Z0 + A(M2) + 0.15 m CD, i.e. between MHWN and MHWS, so it is reachable by a spring tide; spills only when the sim tide passes the crest AND the sim storm runoff is at least 2x DWF (C-013)",
+   "chunk": "S1180",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 2.7,
+   "crest_m_cd": 9.419,
+   "dwf_m3_per_s": 0.3946,
+   "id": "OF-5",
+   "invert_m_cd": 6.719,
+   "line": "S-low",
+   "line_chunk_index": 110,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  {
+   "basis": "capacity: side weir at 0.75 x section height above the invert; spills when the sim storm discharge surcharges the section",
+   "chunk": "S1020",
+   "cites": [
+    "R-016",
+    "R-078",
+    "R-092",
+    "R-025"
+   ],
+   "crest_above_invert_m": 3.15,
+   "crest_m_cd": 10.426,
+   "dwf_m3_per_s": 0.5262,
+   "id": "OF-6",
+   "invert_m_cd": 7.276,
+   "line": "S-high",
+   "line_chunk_index": 230,
+   "mhwn_local_m_cd": 5.171,
+   "mhws_local_m_cd": 7.346,
+   "profile": "ovoid-1050",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  }
+ ],
+ "propagation_basis": "progressive estuary wave: high water advances downstream at about 2 min/km (0.483 deg/km on M2); attenuation exponential in distance from the fitted reference gauge. The funnel amplification between Sheerness and London Bridge lies inside the fitted reference and is not extrapolated. Modelled law, basis stated; open item D-003.",
+ "propagation_law": {
+  "K1": {
+   "atten_per_km": 0.003,
+   "phase_deg_per_km": -0.25
+  },
+  "M2": {
+   "atten_per_km": 0.006,
+   "phase_deg_per_km": -0.483
+  },
+  "N2": {
+   "atten_per_km": 0.006,
+   "phase_deg_per_km": -0.474
+  },
+  "O1": {
+   "atten_per_km": 0.003,
+   "phase_deg_per_km": -0.232
+  },
+  "S2": {
+   "atten_per_km": 0.0072,
+   "phase_deg_per_km": -0.5
+  }
+ },
+ "reference_gauge": {
+  "cites": [
+   "R-112"
+  ],
+  "lat": 51.50688,
+  "lon": -0.07737,
+  "name": "London Bridge (Tower Pier)",
+  "pla_code": "0113"
+ },
+ "sim_window": {
+  "days": 28,
+  "gauges": 6,
+  "hours_per_gauge": 672,
+  "samples_total": 4032,
+  "start": "1865-04-04T00:00:00Z"
+ },
+ "speed_check": {
+  "K1": {
+   "computed": 15.0410686,
+   "delta": 0.0,
+   "published": 15.0410686
+  },
+  "M2": {
+   "computed": 28.9841042,
+   "delta": 0.0,
+   "published": 28.9841042
+  },
+  "N2": {
+   "computed": 28.4397295,
+   "delta": 9.9e-06,
+   "published": 28.4397196
+  },
+  "O1": {
+   "computed": 13.9430356,
+   "delta": 0.0,
+   "published": 13.9430356
+  },
+  "S2": {
+   "computed": 30.0,
+   "delta": 0.0,
+   "published": 30.0
+  }
+ },
+ "storm_runoff": {
+  "model": "seeded rain-day series, one day in ~5, peak runoff multiplier 1.4-3.2"
+ },
+ "surge": {
+  "clip_m": 0.1,
+  "model": "AR(1), rho=0.86, hourly",
+  "note": "bounded so that the +/-0.15 m gate can fail; the sim carries weather, the harmonic does not",
+  "sigma_m": 0.04
+ }
+}

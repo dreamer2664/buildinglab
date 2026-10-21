@@ -20,7 +20,7 @@
   "C-012"
  ],
  "gauges": null,
- "generator_version": "cloaca-gen/1.0.0",
+ "generator_version": "cloaca-gen/1.1.0",
  "line_order": [
   "N-high",
   "N-mid",

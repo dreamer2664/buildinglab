@@ -1,0 +1,54 @@
+{
+ "fit_max_abs_residual_m": 0.0288,
+ "fit_rms_m": 0.0244,
+ "generated": "2026-10-21T18:43:50Z",
+ "max_abs_delta_m": 0.1,
+ "per_gauge": {
+  "G1": {
+   "max_abs_delta_m": 0.1,
+   "name": "London Bridge (Tower Pier)",
+   "samples": 672,
+   "within_0p15": true
+  },
+  "G2": {
+   "max_abs_delta_m": 0.1,
+   "name": "Tower Pier",
+   "samples": 672,
+   "within_0p15": true
+  },
+  "G3": {
+   "max_abs_delta_m": 0.1,
+   "name": "Greenwich",
+   "samples": 672,
+   "within_0p15": true
+  },
+  "G4": {
+   "max_abs_delta_m": 0.1,
+   "name": "Erith / Crossness approach",
+   "samples": 672,
+   "within_0p15": true
+  },
+  "G5": {
+   "max_abs_delta_m": 0.1,
+   "name": "Barking Creek / Beckton approach",
+   "samples": 672,
+   "within_0p15": true
+  },
+  "G6": {
+   "max_abs_delta_m": 0.1,
+   "name": "Putney",
+   "samples": 672,
+   "within_0p15": true
+  }
+ },
+ "samples": 4032,
+ "tolerance_m": 0.15,
+ "verdict": "PASS",
+ "window": {
+  "days": 28,
+  "gauges": 6,
+  "hours_per_gauge": 672,
+  "samples_total": 4032,
+  "start": "1865-04-04T00:00:00Z"
+ }
+}

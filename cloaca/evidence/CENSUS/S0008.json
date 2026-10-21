@@ -3,35 +3,35 @@
   [
    -0.002,
    -0.912,
-   -0.252
+   -0.244
   ],
   [
-   99.924,
-   0.913,
-   2.945
+   99.992,
+   0.91,
+   2.937
   ]
  ],
- "brick_objects": 72044,
- "bricks_laid": 72044,
- "build_s": 1.4,
- "build_u_hash": "07a2044dd9e686409ec2e68b7d80a6d11f5f9d21c9cb3a222f69ff984c061db9",
- "census_hash": "fad70b98bc4664f81e1d3c95e7739a8b5ace4eadafd007189ba70d7c817a3655",
- "census_s": 1.13,
+ "brick_objects": 72106,
+ "bricks_laid": 72106,
+ "build_s": 1.45,
+ "build_u_hash": "e811f4fa84d50cf57dc5b6a07a1411027313d78dd4b1c5cba74ec9a1c3c6fa81",
+ "census_hash": "b6bf0f9deeb7a4a7c98626f42d2a1a6051f4fb35d242005fe231678749aaa7ff",
+ "census_s": 1.18,
  "chunk": "S0008",
- "faces": 432264,
- "file_bytes": 59888660,
+ "faces": 432636,
+ "file_bytes": 59939756,
  "invert_in_m": 41.825,
  "invert_out_m": 41.758,
- "key": "389ffb0be843ee4f327d6f77ad9e5f3d64c23379d89bac6097f24e4b114caa7d",
- "ledger_rows": 72044,
- "ledger_u_hash": "07a2044dd9e686409ec2e68b7d80a6d11f5f9d21c9cb3a222f69ff984c061db9",
+ "key": "a469df73316b101f40744a622504a292252e02675643a385bae8bc9acb43ab46",
+ "ledger_rows": 72106,
+ "ledger_u_hash": "e811f4fa84d50cf57dc5b6a07a1411027313d78dd4b1c5cba74ec9a1c3c6fa81",
  "line": "N-high",
  "objects": 24,
- "peak_mb": 402.0,
+ "peak_mb": 400.1,
  "profile": "ovoid-675",
  "proxy": false,
- "sha256_blend": "bde2344771cc436581b86545d7798ae450d5605aa3f67ba83e16d6f32b9c15bf",
- "t": "2026-10-21T18:21:36Z",
+ "sha256_blend": "0b97f5f2d3ec0904da5fdcc1a242f3ab151f65f380cf609373a760cdabc4f9b9",
+ "t": "2026-10-21T18:51:25Z",
  "u_hash_match": true,
- "verts": 576352
+ "verts": 576848
 }

@@ -1,0 +1,145 @@
+{
+ "per_overflow": {
+  "OF-1": {
+   "actuations": 2,
+   "chunk": "S0120",
+   "crest_m_cd": 23.097,
+   "invert_m_cd": 20.397,
+   "line": "N-high",
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  },
+  "OF-2": {
+   "actuations": 4,
+   "chunk": "S0450",
+   "crest_m_cd": 14.787,
+   "invert_m_cd": 12.087,
+   "line": "N-mid",
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  "OF-3": {
+   "actuations": 4,
+   "chunk": "S0665",
+   "crest_m_cd": 9.441,
+   "invert_m_cd": 6.741,
+   "line": "N-low",
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  "OF-4": {
+   "actuations": 2,
+   "chunk": "S0930",
+   "crest_m_cd": 19.66,
+   "invert_m_cd": 16.96,
+   "line": "S-high",
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  },
+  "OF-5": {
+   "actuations": 4,
+   "chunk": "S1180",
+   "crest_m_cd": 9.419,
+   "invert_m_cd": 6.719,
+   "line": "S-low",
+   "profile": "ovoid-900",
+   "tidal_crest_m_cd": 6.181,
+   "type": "tidal"
+  },
+  "OF-6": {
+   "actuations": 1,
+   "chunk": "S1020",
+   "crest_m_cd": 10.426,
+   "invert_m_cd": 7.276,
+   "line": "S-high",
+   "profile": "ovoid-1050",
+   "tidal_crest_m_cd": null,
+   "type": "capacity"
+  }
+ },
+ "storm_days": [
+  {
+   "amp_x_dwf": 4.67,
+   "day": 1,
+   "major": false,
+   "peak_hour": 4.38
+  },
+  {
+   "amp_x_dwf": 4.02,
+   "day": 4,
+   "major": false,
+   "peak_hour": 3.08
+  },
+  {
+   "amp_x_dwf": 3.91,
+   "day": 6,
+   "major": false,
+   "peak_hour": 15.36
+  },
+  {
+   "amp_x_dwf": 3.21,
+   "day": 8,
+   "major": false,
+   "peak_hour": 17.92
+  },
+  {
+   "amp_x_dwf": 22.46,
+   "day": 13,
+   "major": true,
+   "peak_hour": 19.01
+  },
+  {
+   "amp_x_dwf": 2.06,
+   "day": 19,
+   "major": false,
+   "peak_hour": 4.31
+  },
+  {
+   "amp_x_dwf": 3.08,
+   "day": 20,
+   "major": false,
+   "peak_hour": 18.2
+  },
+  {
+   "amp_x_dwf": 4.13,
+   "day": 21,
+   "major": false,
+   "peak_hour": 8.71
+  },
+  {
+   "amp_x_dwf": 2.2,
+   "day": 22,
+   "major": false,
+   "peak_hour": 17.28
+  },
+  {
+   "amp_x_dwf": 2.83,
+   "day": 24,
+   "major": false,
+   "peak_hour": 15.9
+  },
+  {
+   "amp_x_dwf": 3.55,
+   "day": 25,
+   "major": false,
+   "peak_hour": 3.05
+  },
+  {
+   "amp_x_dwf": 18.24,
+   "day": 26,
+   "major": true,
+   "peak_hour": 5.69
+  },
+  {
+   "amp_x_dwf": 2.94,
+   "day": 27,
+   "major": false,
+   "peak_hour": 9.71
+  }
+ ],
+ "window_days": 28
+}

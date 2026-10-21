@@ -3,7 +3,7 @@
 
 G3: continuous fall at all 1,319 joins, zero uphill metres, declared fall per line within tolerance.
 R1: chunk_key = sha256(GEN_VERSION || seed || profile_row_json || gradient_row_json)
-Arithmetic is integer millimetres so continuity is exact, not approximately exact.
+Arithmetic is integer millimetres so continuity is exact, not near-exact.
 """
 import hashlib, json, os, sys, random
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

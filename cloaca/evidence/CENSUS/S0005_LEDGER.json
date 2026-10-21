@@ -1,4 +1,6 @@
 {
+ "axial_joint_mm": 9.9845,
+ "axial_module_mm": 85.9845,
  "bands": {
   "band_00": 6200,
   "band_01": 6200,
@@ -11,12 +13,12 @@
   "band_08": 6200,
   "band_09": 6200,
   "band_10": 6200,
-  "band_11": 3844
+  "band_11": 3906
  },
  "bounds_mm": {
   "x": [
    36,
-   99886
+   99954
   ],
   "y": [
    -848,
@@ -28,51 +30,51 @@
   ]
  },
  "bricks_per_course": 31,
- "census": 72044,
+ "census": 72106,
  "chunk": "S0005",
  "closure_gap_mm": 177.5,
  "condition_histogram": {
-  "0": 65748,
-  "1": 2872,
-  "2": 1218,
-  "3": 554,
-  "4": 1175,
-  "5": 26,
-  "6": 316,
-  "7": 135
+  "0": 62497,
+  "1": 4016,
+  "2": 628,
+  "3": 3453,
+  "4": 827,
+  "5": 0,
+  "6": 465,
+  "7": 220
  },
- "courses": 1162,
+ "courses": 1163,
  "density": 1.0,
  "deviation_set": {
-  "bloom_density": 0.9137,
+  "bloom_density": 1.2824,
   "bond_offset_mm": 0,
   "chunk": "S0005",
-  "colour_drift": -0.0049,
-  "grit_seed": 234157494,
-  "key": "386a85fd19c18a0c0a6ba8eea22a20ed8e414c4b59c8218e9b6078bece255d72",
-  "repair_clusters": 1,
-  "sediment_mm": 20,
+  "colour_drift": -0.0366,
+  "grit_seed": 1210413552,
+  "key": "a46bf1f09ed1bda36d56f66ff32725dc87647a1cf0157d93a808f8ede29ad88d",
+  "repair_clusters": 6,
+  "sediment_mm": 31,
   "settlement_zone": [
-   164,
-   174
+   265,
+   70
   ],
-  "soot_bands": 2,
-  "stain_density": 0.9394,
-  "tide_mark_m": 0.586,
-  "tool_scar_bias": 0.174
+  "soot_bands": 3,
+  "stain_density": 0.6485,
+  "tide_mark_m": 0.982,
+  "tool_scar_bias": 0.171
  },
  "inner_perimeter_mm": 6631,
- "key": "386a85fd19c18a0c0a6ba8eea22a20ed8e414c4b59c8218e9b6078bece255d72",
+ "key": "a46bf1f09ed1bda36d56f66ff32725dc87647a1cf0157d93a808f8ede29ad88d",
  "mid_perimeter_mm": 7348,
- "predicted_census": 72044,
+ "predicted_census": 72106,
  "profile": "ovoid-675",
- "u_hash": "e6a96ca733b75431d9e4292db1a30060ee99bcad5d713b6146fa8aa4d28075a0",
+ "u_hash": "784bc51e000e9347ef616a7be3cecd3df4cb6849f86c131e4e74f15a6c353486",
  "wythes": 2,
  "zone_histogram": {
-  "crown": 30212,
-  "flow": 4207,
-  "invert": 14100,
-  "splash": 10743,
-  "wall": 12782
+  "crown": 30238,
+  "flow": 4217,
+  "invert": 14105,
+  "splash": 10752,
+  "wall": 12794
  }
 }
