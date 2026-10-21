@@ -1,0 +1,10 @@
+2026-10-21T17:35:57Z watchdog start pid=4462 silence_min=16m (960s) poll=180s
+2026-10-21T17:35:57Z poll: newest beat 4m (272s) old (id=yYqO2kzVeWZ1, beats=1)
+Started hb_daemon pid=4486; killing it to simulate dead beat process (§20)
+2026-10-21T17:35:58Z watchdog start pid=4496 silence_min=16m (5s) poll=180s
+2026-10-21T17:35:58Z poll: newest beat 4m (273s) old (id=yYqO2kzVeWZ1, beats=1)
+2026-10-21T17:35:58Z ALARM: no beat for 4m (273s >= 5s) last_beat_id=yYqO2kzVeWZ1 expected_seq=1
+2026-10-21T17:35:59Z alarm posted id=8c9eHQTaQZDi
+2026-10-21T17:35:59Z watchdog start pid=4529 silence_min=16m (5s) poll=180s
+2026-10-21T17:35:59Z poll: newest beat 4m (274s) old (id=yYqO2kzVeWZ1, beats=1)
+2026-10-21T17:35:59Z STILL SILENT 4m (274s) — alarm suppressed (cooldown 1800s)

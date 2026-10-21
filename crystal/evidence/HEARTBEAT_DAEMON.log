@@ -1,0 +1,10 @@
+2026-10-21T17:35:57Z hb_daemon start pid=4486 beat=3600s task=t-20261021-3620
+2026-10-21T17:39:07Z hb_daemon start pid=4937 beat=420s task=t-20261021-3620
+2026-10-21T17:46:07Z beat seq~2 rc=0 beat seq=2 id=0TsBPExfA5B0 server_time=1792604767
+2026-10-21T17:53:08Z beat seq~4 rc=0 jq: invalid JSON text passed to --argjson
+Use jq --help for help with command-line options,
+or see the jq manpage, or online docs  at https://jqlang.github.io/jq
+jq: invalid JSON text passed to --argjson
+Use jq --help for help with command-line options,
+or see the jq manpage, or online docs  at https://jqlang.github.io/jq
+beat seq=4 id=lHrjwfcnGtPs server_time=1792605188

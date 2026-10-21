@@ -1,0 +1,126 @@
+RECONCILE at 2026-10-21T17:35:57Z
+  local beats      1
+  expected ticks   1
+  server agent bts 1 (plus 1 channel-test, 0 watchdog-alarm)
+  FOUND            1
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        0
+  coverage         100.0% (span 0s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T17:35:59Z
+  local beats      1
+  expected ticks   1
+  server agent bts 1 (plus 1 channel-test, 0 watchdog-alarm)
+  FOUND            1
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        0
+  coverage         100.0% (span 0s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T17:38:21Z
+  local beats      1
+  expected ticks   1
+  server agent bts 1 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            1
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        0
+  coverage         100.0% (span 0s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:42:22Z
+  local beats      4
+  expected ticks   5
+  server agent bts 1 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            1
+  MISSING          3 [1, 2, 3]
+  EXTRA            0
+  GAPS >12m        0
+  coverage         95.4% (span 937s)
+  VERDICT          FAIL — 3 local beats missing on server
+RECONCILE at 2026-10-21T18:43:21Z
+  local beats      4
+  expected ticks   5
+  server agent bts 5 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            4
+  MISSING          0
+  EXTRA            1 ['lHrjwfcnGtPs']
+  GAPS >12m        0
+  coverage         95.4% (span 937s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:43:40Z
+  local beats      5
+  expected ticks   6
+  server agent bts 6 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            5
+  MISSING          0
+  EXTRA            1 ['2nuNCmuLVEL7']
+  GAPS >12m        0
+  coverage         96.7% (span 1303s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:44:02Z
+  local beats      6
+  expected ticks   7
+  server agent bts 7 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            6
+  MISSING          0
+  EXTRA            1 ['uM2JgZitzbWr']
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         38.9% (span 4316s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:45:34Z
+  local beats      8
+  expected ticks   8
+  server agent bts 8 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            7
+  MISSING          1 [7]
+  EXTRA            1 ['CqYB66jjG3vF']
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         40.8% (span 4449s)
+  VERDICT          FAIL — 1 local beats missing on server
+RECONCILE at 2026-10-21T18:45:45Z
+  local beats      8
+  expected ticks   8
+  server agent bts 9 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            8
+  MISSING          0
+  EXTRA            1 ['CqYB66jjG3vF']
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         40.8% (span 4449s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:45:46Z
+  local beats      9
+  expected ticks   8
+  server agent bts 9 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            9
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         40.8% (span 4449s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:50:02Z
+  local beats      10
+  expected ticks   9
+  server agent bts 10 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            10
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         44.1% (span 4715s)
+  VERDICT          PASS
+RECONCILE at 2026-10-21T18:50:03Z
+  local beats      10
+  expected ticks   9
+  server agent bts 10 (plus 1 channel-test, 1 watchdog-alarm)
+  FOUND            10
+  MISSING          0
+  EXTRA            0
+  GAPS >12m        1
+     HB-GAP seq 4 -> 5 : 50m 13s
+  coverage         44.1% (span 4715s)
+  VERDICT          PASS
