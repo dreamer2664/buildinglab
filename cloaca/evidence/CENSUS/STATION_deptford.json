@@ -1,0 +1,10 @@
+{
+ "architect": "Bazalgette and Driver, Say's Court lift station",
+ "boilers": 10,
+ "cruciform": false,
+ "engines": 6,
+ "objects": 42,
+ "peak_mb": 261.2,
+ "station": "deptford",
+ "t": "2026-10-21T22:43:54Z"
+}

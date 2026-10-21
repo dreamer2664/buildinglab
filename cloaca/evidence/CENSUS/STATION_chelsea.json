@@ -1,0 +1,10 @@
+{
+ "architect": "Grosvenor low-level lift, Driver",
+ "boilers": 8,
+ "cruciform": false,
+ "engines": 4,
+ "objects": 34,
+ "peak_mb": 274.0,
+ "station": "chelsea",
+ "t": "2026-10-21T22:43:55Z"
+}
