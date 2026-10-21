@@ -29,7 +29,7 @@ from bpy_extras.object_utils import world_to_camera_view
 from mathutils import Vector
 culled=[]
 for ob in list(bpy.data.objects):
- if ob.type!='MESH' or not ob.name.startswith(('TRAIN_','RET_','WAIT_','BOARD_','BARRIER_')):continue
+ if ob.type not in ('MESH','FONT') or not ob.name.startswith(('TRAIN_','RET_','WAIT_','BOARD_','BARRIER_')):continue
  vv=[world_to_camera_view(scene,cam,ob.matrix_world@Vector(q)) for q in ob.bound_box]
  outside=(ob.name.startswith(('RET_','WAIT_','BOARD_','BARRIER_')) or (ob.name.startswith('TRAIN_') and not ob.name.startswith('TRAIN_TR04_' if a.view==6 else 'TRAIN_TR01_')) or all(v.z<0 for v in vv) or all(v.x<-.25 for v in vv) or all(v.x>1.25 for v in vv) or all(v.y<-.25 for v in vv) or all(v.y>1.25 for v in vv))
  if outside:culled.append(ob.name);bpy.data.objects.remove(ob,do_unlink=True)
@@ -56,5 +56,5 @@ out=r/'renders/realism/.cache';out.mkdir(parents=True,exist_ok=True)
 key=cam.name+'_'+str(a.res)+'_'+a.tile.replace(',','-')
 scene.render.image_settings.file_format='OPEN_EXR_MULTILAYER';scene.render.image_settings.color_depth='16';scene.render.image_settings.exr_codec='ZIP';scene.render.filepath=str(out/(key+'.exr'))
 start=time.time();bpy.ops.render.render(write_still=True)
-meta={'key':key,'camera':cam.name,'view':a.view,'resolution':[W,H],'samples':a.samples,'seconds':time.time()-start,'raw_region':[A,B,C,D],'destination':[x0,x1,y0,y1],'exposure':scene.view_settings.exposure,'look':scene.view_settings.look,'status':'raw rendered, not visually inspected'}
+meta={'key':key,'camera':cam.name,'view':a.view,'resolution':[W,H],'samples':a.samples,'source_sha256':json.loads(audit.read_text())['source_sha256'],'render_lod_culled_count':len(culled),'seconds':time.time()-start,'raw_region':[A,B,C,D],'destination':[x0,x1,y0,y1],'exposure':scene.view_settings.exposure,'look':scene.view_settings.look,'status':'raw rendered, not visually inspected'}
 (out/(key+'.json')).write_text(json.dumps(meta,indent=2));print('RAW_READY',key,flush=True)

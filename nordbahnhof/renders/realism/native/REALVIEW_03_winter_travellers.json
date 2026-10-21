@@ -1,0 +1,134 @@
+{
+  "file": "REALVIEW_03_winter_travellers.jpg",
+  "camera": "REALVIEW_03_winter_travellers",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "samples": 128,
+  "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+  "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+  "tiles": [
+    {
+      "key": "REALVIEW_03_winter_travellers_2560_0-0",
+      "camera": "REALVIEW_03_winter_travellers",
+      "view": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1122,
+      "seconds": 452.2699816226959,
+      "raw_region": [
+        0,
+        1312,
+        0,
+        752
+      ],
+      "destination": [
+        0,
+        1280,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_03_winter_travellers_2560_0-1",
+      "camera": "REALVIEW_03_winter_travellers",
+      "view": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1122,
+      "seconds": 458.1496407985687,
+      "raw_region": [
+        1248,
+        2560,
+        0,
+        752
+      ],
+      "destination": [
+        1280,
+        2560,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_03_winter_travellers_2560_1-0",
+      "camera": "REALVIEW_03_winter_travellers",
+      "view": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1122,
+      "seconds": 525.5363276004791,
+      "raw_region": [
+        0,
+        1312,
+        688,
+        1440
+      ],
+      "destination": [
+        0,
+        1280,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_03_winter_travellers_2560_1-1",
+      "camera": "REALVIEW_03_winter_travellers",
+      "view": 3,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1122,
+      "seconds": 432.22152185440063,
+      "raw_region": [
+        1248,
+        2560,
+        688,
+        1440
+      ],
+      "destination": [
+        1280,
+        2560,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    }
+  ],
+  "cycles_render_seconds": 1868.1774718761444,
+  "invocation_wall_seconds": 2.4598236083984375,
+  "sha256": "cd27adc457a7bbde59c6f1208163758ee9382196270c87ab897041b216211e86",
+  "mean_luminance_actual": 0.24883416295051575,
+  "white_over_98pct_actual": 5.425347222222222e-05,
+  "black_under_1_2pct_actual": 8.105902777777779,
+  "visual_inspection": "Opened and visually reviewed at native resolution",
+  "inspection_time_utc": "2026-10-21T01:24:41.661595+00:00",
+  "inspection_notes": "Scanned winter-clothing folds and human silhouettes, luggage handles/straps/corner guards, flat cab glazing, worn boiler paint, clamp hardware and tyre faces inspected. The cropped candid composition is intentional; these are modern scans, not an authored period crowd. No visible tile discontinuity or EXR corruption."
+}

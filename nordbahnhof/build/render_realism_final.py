@@ -36,9 +36,9 @@ for view in views:
  run(['blender','-b','-t','2','--python',str(BUILD/'realism_agx.py'),'--',str(linear)],OUT/(name+'_agx.log'))
  jpg=OUT/(name+'.jpg');im=Image.open(jpg).convert('RGB');assert im.size==(2560,1440)
  rgb=np.asarray(im,dtype=np.float32)/255;lum=rgb@np.array([.2126,.7152,.0722],dtype=np.float32)
- report={'file':jpg.name,'camera':name,'resolution':[2560,1440],'samples':128,'native_method':'4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1','render_only_lod':'Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.','tiles':records,'seconds':time.time()-view_start,'sha256':hashlib.sha256(jpg.read_bytes()).hexdigest(),'mean_luminance_actual':float(lum.mean()),'white_over_98pct_actual':float((lum>.98).mean()*100),'black_under_1_2pct_actual':float((lum<.012).mean()*100),'visual_inspection':'PENDING'}
+ report={'file':jpg.name,'camera':name,'resolution':[2560,1440],'samples':128,'native_method':'4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1','render_only_lod':'Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.','tiles':records,'cycles_render_seconds':sum(t['seconds'] for t in records),'invocation_wall_seconds':time.time()-view_start,'sha256':hashlib.sha256(jpg.read_bytes()).hexdigest(),'mean_luminance_actual':float(lum.mean()),'white_over_98pct_actual':float((lum>.98).mean()*100),'black_under_1_2pct_actual':float((lum<.012).mean()*100),'visual_inspection':'PENDING'}
  (OUT/(name+'.json')).write_text(json.dumps(report,indent=2));events.append(report)
- print(f'VIEW_DONE view={view} file={jpg.name} seconds={report["seconds"]:.1f}',flush=True)
+ print(f'VIEW_DONE view={view} file={jpg.name} seconds={report["invocation_wall_seconds"]:.1f}',flush=True)
  del full,rgb,lum
 (OUT/'RENDER_MANIFEST.json').write_text(json.dumps({'status':'rendered; not acceptance','duration_seconds':time.time()-start,'views':events},indent=2))
 print('ALL_RENDERS_READY',flush=True)

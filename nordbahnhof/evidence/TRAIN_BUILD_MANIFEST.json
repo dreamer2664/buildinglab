@@ -1,5 +1,5 @@
 {
-  "status": "built; six native renders opened and inspected; not mechanical certification",
+  "status": "built, requires visual inspection",
   "vehicles": [
     {
       "id": "TR01_V01_STEAM",

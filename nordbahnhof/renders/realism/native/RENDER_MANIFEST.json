@@ -1,0 +1,811 @@
+{
+  "status": "six native final images visually opened; full commission incomplete",
+  "views": [
+    {
+      "file": "REALVIEW_01_arrival_after_rain.jpg",
+      "camera": "REALVIEW_01_arrival_after_rain",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_01_arrival_after_rain_2560_0-0",
+          "camera": "REALVIEW_01_arrival_after_rain",
+          "view": 1,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 599.3633151054382,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_01_arrival_after_rain_2560_0-1",
+          "camera": "REALVIEW_01_arrival_after_rain",
+          "view": 1,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 597.4291059970856,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_01_arrival_after_rain_2560_1-0",
+          "camera": "REALVIEW_01_arrival_after_rain",
+          "view": 1,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 450.79271507263184,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_01_arrival_after_rain_2560_1-1",
+          "camera": "REALVIEW_01_arrival_after_rain",
+          "view": 1,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 495.3925516605377,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "sha256": "59ee21f76a3733c003377cd3a2eb9d11b0e50c608a849165afd9885a0152583c",
+      "mean_luminance_actual": 0.3786376714706421,
+      "white_over_98pct_actual": 0.07082790798611112,
+      "black_under_1_2pct_actual": 2.8942328559027777,
+      "visual_inspection": "Opened and visually reviewed at native resolution after final material/LOD/export corrections",
+      "invocation_wall_seconds": 2.9202229976654053,
+      "cycles_render_seconds": 2142.9776878356934,
+      "inspection_time_utc": "2026-10-21T00:19:04.597421+00:00",
+      "inspection_notes": "Correct contiguous RGB assembly; no visible quadrant seam or checker/tread-plate contamination on buffer faces; damp slab ground, steel/paint distinction, hardware, scanned travellers and low steam checked. Still a static WIP scene, not indistinguishable-from-photography or full commissioning acceptance."
+    },
+    {
+      "file": "REALVIEW_02_oil_steel_and_spokes.jpg",
+      "camera": "REALVIEW_02_oil_steel_and_spokes",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_02_oil_steel_and_spokes_2560_0-0",
+          "camera": "REALVIEW_02_oil_steel_and_spokes",
+          "view": 2,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1134,
+          "seconds": 473.39724373817444,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_02_oil_steel_and_spokes_2560_0-1",
+          "camera": "REALVIEW_02_oil_steel_and_spokes",
+          "view": 2,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1134,
+          "seconds": 475.55243039131165,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_02_oil_steel_and_spokes_2560_1-0",
+          "camera": "REALVIEW_02_oil_steel_and_spokes",
+          "view": 2,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1134,
+          "seconds": 479.89658284187317,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_02_oil_steel_and_spokes_2560_1-1",
+          "camera": "REALVIEW_02_oil_steel_and_spokes",
+          "view": 2,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1134,
+          "seconds": 492.6578869819641,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "cycles_render_seconds": 1921.5041439533234,
+      "invocation_wall_seconds": 2.389460563659668,
+      "sha256": "5ccaa57cd15b27d9f150f9c97eee59a095dd39196b32d29473f0956a3a106b69",
+      "mean_luminance_actual": 0.19959242641925812,
+      "white_over_98pct_actual": 0.00013563368055555556,
+      "black_under_1_2pct_actual": 19.697645399305554,
+      "visual_inspection": "Opened and visually reviewed at native resolution",
+      "inspection_time_utc": "2026-10-21T00:52:21.193148+00:00",
+      "inspection_notes": "Tread/flange profile, flat metal faces, machined-rod bosses/oil nipple, edge paint losses, stone coping and worn warning line checked. No checker/tread-plate contamination or visible central tile seam. Mechanism geometry remains simplified and static; no operational acceptance."
+    },
+    {
+      "file": "REALVIEW_03_winter_travellers.jpg",
+      "camera": "REALVIEW_03_winter_travellers",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_03_winter_travellers_2560_0-0",
+          "camera": "REALVIEW_03_winter_travellers",
+          "view": 3,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1122,
+          "seconds": 452.2699816226959,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_03_winter_travellers_2560_0-1",
+          "camera": "REALVIEW_03_winter_travellers",
+          "view": 3,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1122,
+          "seconds": 458.1496407985687,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_03_winter_travellers_2560_1-0",
+          "camera": "REALVIEW_03_winter_travellers",
+          "view": 3,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1122,
+          "seconds": 525.5363276004791,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_03_winter_travellers_2560_1-1",
+          "camera": "REALVIEW_03_winter_travellers",
+          "view": 3,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1122,
+          "seconds": 432.22152185440063,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "cycles_render_seconds": 1868.1774718761444,
+      "invocation_wall_seconds": 2.4598236083984375,
+      "sha256": "cd27adc457a7bbde59c6f1208163758ee9382196270c87ab897041b216211e86",
+      "mean_luminance_actual": 0.24883416295051575,
+      "white_over_98pct_actual": 5.425347222222222e-05,
+      "black_under_1_2pct_actual": 8.105902777777779,
+      "visual_inspection": "Opened and visually reviewed at native resolution",
+      "inspection_time_utc": "2026-10-21T01:24:41.661595+00:00",
+      "inspection_notes": "Scanned winter-clothing folds and human silhouettes, luggage handles/straps/corner guards, flat cab glazing, worn boiler paint, clamp hardware and tyre faces inspected. The cropped candid composition is intentional; these are modern scans, not an authored period crowd. No visible tile discontinuity or EXR corruption."
+    },
+    {
+      "file": "REALVIEW_04_glass_iron_and_distance.jpg",
+      "camera": "REALVIEW_04_glass_iron_and_distance",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_04_glass_iron_and_distance_2560_0-0",
+          "camera": "REALVIEW_04_glass_iron_and_distance",
+          "view": 4,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 485.9787607192993,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_04_glass_iron_and_distance_2560_0-1",
+          "camera": "REALVIEW_04_glass_iron_and_distance",
+          "view": 4,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 494.70495223999023,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_04_glass_iron_and_distance_2560_1-0",
+          "camera": "REALVIEW_04_glass_iron_and_distance",
+          "view": 4,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 450.3303253650665,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_04_glass_iron_and_distance_2560_1-1",
+          "camera": "REALVIEW_04_glass_iron_and_distance",
+          "view": 4,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1073,
+          "seconds": 499.9177074432373,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "cycles_render_seconds": 1930.9317457675934,
+      "invocation_wall_seconds": 2.3896398544311523,
+      "sha256": "a72455060baf39e745c786cefa9e54133a4b99c2d389c9cb53f3cefaf360f841",
+      "mean_luminance_actual": 0.4480264484882355,
+      "white_over_98pct_actual": 0.019341362847222224,
+      "black_under_1_2pct_actual": 1.132568359375,
+      "visual_inspection": "Opened and visually reviewed at native resolution",
+      "inspection_time_utc": "2026-10-21T01:59:00.064210+00:00",
+      "inspection_notes": "Wide canopy/platform composition, wet slab reflections, bench placement, mortar/coping/ballast, hero rake and scanned travellers inspected. No floating labels from omitted rakes and no visible centre-tile discontinuity. Large-scale roof/building geometry remains stylised and the full station programme is incomplete."
+    },
+    {
+      "file": "REALVIEW_05_coach_at_platform.jpg",
+      "camera": "REALVIEW_05_coach_at_platform",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_05_coach_at_platform_2560_0-0",
+          "camera": "REALVIEW_05_coach_at_platform",
+          "view": 5,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1095,
+          "seconds": 479.4583020210266,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_05_coach_at_platform_2560_0-1",
+          "camera": "REALVIEW_05_coach_at_platform",
+          "view": 5,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1095,
+          "seconds": 482.8571066856384,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_05_coach_at_platform_2560_1-0",
+          "camera": "REALVIEW_05_coach_at_platform",
+          "view": 5,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1095,
+          "seconds": 385.770117521286,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_05_coach_at_platform_2560_1-1",
+          "camera": "REALVIEW_05_coach_at_platform",
+          "view": 5,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1095,
+          "seconds": 714.8518483638763,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "cycles_render_seconds": 2062.9373745918274,
+      "invocation_wall_seconds": 2.5622196197509766,
+      "sha256": "258a581145f2fc115ca7a3bf78df5909946700c614992dea85def4b61f312744",
+      "mean_luminance_actual": 0.4215388596057892,
+      "white_over_98pct_actual": 0.39716254340277773,
+      "black_under_1_2pct_actual": 1.888970269097222,
+      "visual_inspection": "Opened and visually reviewed at native resolution",
+      "inspection_time_utc": "2026-10-21T02:35:51.374715+00:00",
+      "inspection_notes": "Coach painted-panel roughness, flat window/reflection behaviour, metal trim, operator lettering, wet slab floor and platform-lamp reflection inspected. No foil-like bulging panes, obvious floating omitted-rake text, RGB corruption or visible quadrant seam. Interiors remain simplified and glazing uses the documented shadow approximation."
+    },
+    {
+      "file": "REALVIEW_06_electric_and_contact_wire.jpg",
+      "camera": "REALVIEW_06_electric_and_contact_wire",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+      "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+      "tiles": [
+        {
+          "key": "REALVIEW_06_electric_and_contact_wire_2560_0-0",
+          "camera": "REALVIEW_06_electric_and_contact_wire",
+          "view": 6,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1041,
+          "seconds": 542.5575067996979,
+          "raw_region": [
+            0,
+            1312,
+            0,
+            752
+          ],
+          "destination": [
+            0,
+            1280,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_06_electric_and_contact_wire_2560_0-1",
+          "camera": "REALVIEW_06_electric_and_contact_wire",
+          "view": 6,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1041,
+          "seconds": 643.6256363391876,
+          "raw_region": [
+            1248,
+            2560,
+            0,
+            752
+          ],
+          "destination": [
+            1280,
+            2560,
+            0,
+            720
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_06_electric_and_contact_wire_2560_1-0",
+          "camera": "REALVIEW_06_electric_and_contact_wire",
+          "view": 6,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1041,
+          "seconds": 463.4303665161133,
+          "raw_region": [
+            0,
+            1312,
+            688,
+            1440
+          ],
+          "destination": [
+            0,
+            1280,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        },
+        {
+          "key": "REALVIEW_06_electric_and_contact_wire_2560_1-1",
+          "camera": "REALVIEW_06_electric_and_contact_wire",
+          "view": 6,
+          "resolution": [
+            2560,
+            1440
+          ],
+          "samples": 128,
+          "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+          "render_lod_culled_count": 1041,
+          "seconds": 515.7485964298248,
+          "raw_region": [
+            1248,
+            2560,
+            688,
+            1440
+          ],
+          "destination": [
+            1280,
+            2560,
+            720,
+            1440
+          ],
+          "exposure": 0.10000000149011612,
+          "look": "AgX - Medium High Contrast",
+          "status": "raw rendered, not visually inspected"
+        }
+      ],
+      "cycles_render_seconds": 2165.3621060848236,
+      "invocation_wall_seconds": 2.447049140930176,
+      "sha256": "a827a53b86d79a1a5e86587f2f152d647dbd4327515097f855bac08d7ae79f21",
+      "mean_luminance_actual": 0.3441312611103058,
+      "white_over_98pct_actual": 0.0,
+      "black_under_1_2pct_actual": 2.106580946180556,
+      "visual_inspection": "Opened and visually reviewed at native resolution",
+      "inspection_time_utc": "2026-10-21T03:14:00.735560+00:00",
+      "inspection_notes": "Electric livery and lettering, flat pane/reflection behaviour, weathered metal trim and pantograph silhouette/contact-wire context inspected. No visible RGB corruption, checker-pattern contamination or centre-tile discontinuity. Pantograph/roof mechanics remain simplified static geometry, not certified equipment."
+    }
+  ],
+  "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+  "cycles_render_seconds_total": 12091.890530109406
+}

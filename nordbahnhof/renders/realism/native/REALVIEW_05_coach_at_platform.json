@@ -1,0 +1,134 @@
+{
+  "file": "REALVIEW_05_coach_at_platform.jpg",
+  "camera": "REALVIEW_05_coach_at_platform",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "samples": 128,
+  "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+  "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+  "tiles": [
+    {
+      "key": "REALVIEW_05_coach_at_platform_2560_0-0",
+      "camera": "REALVIEW_05_coach_at_platform",
+      "view": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1095,
+      "seconds": 479.4583020210266,
+      "raw_region": [
+        0,
+        1312,
+        0,
+        752
+      ],
+      "destination": [
+        0,
+        1280,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_05_coach_at_platform_2560_0-1",
+      "camera": "REALVIEW_05_coach_at_platform",
+      "view": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1095,
+      "seconds": 482.8571066856384,
+      "raw_region": [
+        1248,
+        2560,
+        0,
+        752
+      ],
+      "destination": [
+        1280,
+        2560,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_05_coach_at_platform_2560_1-0",
+      "camera": "REALVIEW_05_coach_at_platform",
+      "view": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1095,
+      "seconds": 385.770117521286,
+      "raw_region": [
+        0,
+        1312,
+        688,
+        1440
+      ],
+      "destination": [
+        0,
+        1280,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_05_coach_at_platform_2560_1-1",
+      "camera": "REALVIEW_05_coach_at_platform",
+      "view": 5,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1095,
+      "seconds": 714.8518483638763,
+      "raw_region": [
+        1248,
+        2560,
+        688,
+        1440
+      ],
+      "destination": [
+        1280,
+        2560,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    }
+  ],
+  "cycles_render_seconds": 2062.9373745918274,
+  "invocation_wall_seconds": 2.5622196197509766,
+  "sha256": "258a581145f2fc115ca7a3bf78df5909946700c614992dea85def4b61f312744",
+  "mean_luminance_actual": 0.4215388596057892,
+  "white_over_98pct_actual": 0.39716254340277773,
+  "black_under_1_2pct_actual": 1.888970269097222,
+  "visual_inspection": "Opened and visually reviewed at native resolution",
+  "inspection_time_utc": "2026-10-21T02:35:51.374715+00:00",
+  "inspection_notes": "Coach painted-panel roughness, flat window/reflection behaviour, metal trim, operator lettering, wet slab floor and platform-lamp reflection inspected. No foil-like bulging panes, obvious floating omitted-rake text, RGB corruption or visible quadrant seam. Interiors remain simplified and glazing uses the documented shadow approximation."
+}

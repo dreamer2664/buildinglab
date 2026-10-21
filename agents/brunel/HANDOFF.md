@@ -4,7 +4,7 @@ Task: `t-20261019-62e7` · branch: `agent/brunel/t-20261019-62e7`
 
 ## Current state
 
-The user rejected the clean/model-like appearance of the previous train update and explicitly requested a much more realistic, carefully iterated result. A new material/construction/lighting layer has been built and repeatedly rendered for inspection. Final native 2560 × 1440 / 128-sample views are rendering; final visual inspection, download packaging and publication are still pending at this checkpoint.
+The user rejected the clean/model-like appearance of the previous train update and explicitly requested a much more realistic, carefully iterated result. A new material/construction/lighting layer has been built and repeatedly rendered for inspection. All six final native 2560 × 1440 / 128-sample views have rendered and were individually opened, including native-pixel detail crops. The packed source was reopened and checked. Complete ZIP (97,981,256 bytes), render ZIP (12,671,944 bytes), preview and offline gallery have been packaged and CRC/SHA verified. Desktop/mobile gallery interaction was checked in Chromium. Publication is the remaining step at this checkpoint.
 
 The packed source is `nordbahnhof/source/NORDBAHNHOF_REALISM.blend`. The complete original commission is **not** accepted as finished. Historical r01 completion and identity/validator claims do not describe this revision.
 

@@ -1,0 +1,134 @@
+{
+  "file": "REALVIEW_06_electric_and_contact_wire.jpg",
+  "camera": "REALVIEW_06_electric_and_contact_wire",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "samples": 128,
+  "native_method": "4 raw HDR border tiles, 32px overlap; external Intel OIDN 2.5.1 high quality; assembled in linear light without resizing; Blender AgX Medium High Contrast, exposure +0.1",
+  "render_only_lod": "Hero rake only (TR04 for electric view, otherwise TR01); closed interior fittings omitted; structure and platform shadow casters retained. Full packed source is unculled.",
+  "tiles": [
+    {
+      "key": "REALVIEW_06_electric_and_contact_wire_2560_0-0",
+      "camera": "REALVIEW_06_electric_and_contact_wire",
+      "view": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1041,
+      "seconds": 542.5575067996979,
+      "raw_region": [
+        0,
+        1312,
+        0,
+        752
+      ],
+      "destination": [
+        0,
+        1280,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_06_electric_and_contact_wire_2560_0-1",
+      "camera": "REALVIEW_06_electric_and_contact_wire",
+      "view": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1041,
+      "seconds": 643.6256363391876,
+      "raw_region": [
+        1248,
+        2560,
+        0,
+        752
+      ],
+      "destination": [
+        1280,
+        2560,
+        0,
+        720
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_06_electric_and_contact_wire_2560_1-0",
+      "camera": "REALVIEW_06_electric_and_contact_wire",
+      "view": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1041,
+      "seconds": 463.4303665161133,
+      "raw_region": [
+        0,
+        1312,
+        688,
+        1440
+      ],
+      "destination": [
+        0,
+        1280,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    },
+    {
+      "key": "REALVIEW_06_electric_and_contact_wire_2560_1-1",
+      "camera": "REALVIEW_06_electric_and_contact_wire",
+      "view": 6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "samples": 128,
+      "source_sha256": "488369a5a4a97f5e0b0da73ba3c80af5e396b607331188a835c1e6b6e3ce9c62",
+      "render_lod_culled_count": 1041,
+      "seconds": 515.7485964298248,
+      "raw_region": [
+        1248,
+        2560,
+        688,
+        1440
+      ],
+      "destination": [
+        1280,
+        2560,
+        720,
+        1440
+      ],
+      "exposure": 0.10000000149011612,
+      "look": "AgX - Medium High Contrast",
+      "status": "raw rendered, not visually inspected"
+    }
+  ],
+  "cycles_render_seconds": 2165.3621060848236,
+  "invocation_wall_seconds": 2.447049140930176,
+  "sha256": "a827a53b86d79a1a5e86587f2f152d647dbd4327515097f855bac08d7ae79f21",
+  "mean_luminance_actual": 0.3441312611103058,
+  "white_over_98pct_actual": 0.0,
+  "black_under_1_2pct_actual": 2.106580946180556,
+  "visual_inspection": "Opened and visually reviewed at native resolution",
+  "inspection_time_utc": "2026-10-21T03:14:00.735560+00:00",
+  "inspection_notes": "Electric livery and lettering, flat pane/reflection behaviour, weathered metal trim and pantograph silhouette/contact-wire context inspected. No visible RGB corruption, checker-pattern contamination or centre-tile discontinuity. Pantograph/roof mechanics remain simplified static geometry, not certified equipment."
+}
