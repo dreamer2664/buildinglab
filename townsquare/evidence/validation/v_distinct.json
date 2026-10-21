@@ -1,0 +1,11 @@
+{
+  "validator": "v_distinct",
+  "apartments_checked": 176,
+  "unique_signatures": 176,
+  "archetypes": 8,
+  "palettes": 6,
+  "generations": 4,
+  "occupancies": 4,
+  "errors": [],
+  "status": "PASS"
+}

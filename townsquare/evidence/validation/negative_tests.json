@@ -1,0 +1,118 @@
+{
+  "tests": [
+    {
+      "test": "N1_v_scale",
+      "script": "v_scale.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: B01_L02 residential storey 3.6m outside 3.20\u00b10.05m",
+        "ERROR: human_height_m=2.1 outside 1.75\u00b10.10m"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N2_v_programme",
+      "script": "v_programme.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: B01_L02 has 1 apartments (expected 2)",
+        "ERROR: apartments=175 (expected 176, 2.00/floor)",
+        "ERROR: zero_window_rooms=1"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N3_v_contact",
+      "script": "v_contact.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: max_float_m=0.0150m > 0.002m (2 mm limit)",
+        "ERROR: max_interpenetration_m=0.0040m > 0.001m (1 mm limit)",
+        "ERROR: coplanar_pairs=2 (must be 0, F4)"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N4_v_clearance",
+      "script": "v_clearance.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: blocked_door_swings=2 (90 deg arc must be clear, F5)",
+        "ERROR: min_dwelling_path_m=0.42m < 0.60m"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N5_v_density",
+      "script": "v_density.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: Room B02_L02_A_living (living) has 12 props < 45"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N6_v_distinct",
+      "script": "v_distinct.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: Duplicate identity ID_01 in room B01_L02_A_entry (F16)",
+        "ERROR: Duplicate identity ID_01 in building B01 (F16)",
+        "ERROR: Duplicate or empty arrangement_signature on B02_L02_A: 9eae6eaff97359c664c281d7df6365e10dbb90dac1742e489daff5f284a2a0e5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N7_v_light",
+      "script": "v_light.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: min_sources_per_room=1 < 2",
+        "ERROR: min_emitter_clear_rays_of_8=2 < 6 (F7 buried emitter)",
+        "ERROR: max_blown_ratio=0.0350 >= 0.01 (1% limit)"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N8_v_export",
+      "script": "v_export.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: Triangle parity mismatch: expected=449760, actual=449751 (F15 unwaived)",
+        "ERROR: Material parity mismatch: expected=22, actual=0 (F11)"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N9_v_package",
+      "script": "v_package.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: inspection record count=2 != 271",
+        "ERROR: Empty observation on view v1",
+        "ERROR: Duplicate or missing sha256 on view v2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "N10_v_blind",
+      "script": "v_blind.py",
+      "positive_rc": 0,
+      "negative_rc": 1,
+      "negative_stderr": [
+        "ERROR: Class interior failed blind test: 8/10 (>= 7/10 means distinguishable from photo)"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

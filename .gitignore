@@ -27,3 +27,4 @@ renders/tmp/
 # local Blender/user state
 .blender/
 .blender*
+renders/final/*.png

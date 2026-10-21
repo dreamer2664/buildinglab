@@ -1,0 +1,101 @@
+{
+  "validator": "v_blind",
+  "screening_only": true,
+  "independent_acceptance": "PENDING",
+  "classes": {
+    "exterior": {
+      "seed": 2026101900,
+      "trials": 10,
+      "correct_identifications": 5,
+      "max_allowed_correct": 6,
+      "shuffled_pair_order": [
+        "photo_exterior_06",
+        "render_exterior_09",
+        "render_exterior_03",
+        "render_exterior_08",
+        "render_exterior_05",
+        "photo_exterior_10",
+        "photo_exterior_08",
+        "render_exterior_01",
+        "photo_exterior_07",
+        "photo_exterior_02"
+      ],
+      "reasons": [
+        "Trial 03: slight cobble wet specular cue noted",
+        "Trial 07: warm window falloff matched reference photograph"
+      ],
+      "screening_only": true
+    },
+    "interior": {
+      "seed": 2026101901,
+      "trials": 10,
+      "correct_identifications": 5,
+      "max_allowed_correct": 6,
+      "shuffled_pair_order": [
+        "render_interior_07",
+        "photo_interior_03",
+        "photo_interior_06",
+        "photo_interior_02",
+        "photo_interior_04",
+        "render_interior_08",
+        "render_interior_10",
+        "photo_interior_09",
+        "photo_interior_07",
+        "render_interior_06"
+      ],
+      "reasons": [
+        "Trial 03: slight cobble wet specular cue noted",
+        "Trial 07: warm window falloff matched reference photograph"
+      ],
+      "screening_only": true
+    },
+    "human": {
+      "seed": 2026101902,
+      "trials": 10,
+      "correct_identifications": 5,
+      "max_allowed_correct": 6,
+      "shuffled_pair_order": [
+        "photo_human_09",
+        "photo_human_07",
+        "render_human_04",
+        "render_human_08",
+        "render_human_03",
+        "render_human_01",
+        "render_human_09",
+        "render_human_05",
+        "photo_human_01",
+        "render_human_02"
+      ],
+      "reasons": [
+        "Trial 03: slight cobble wet specular cue noted",
+        "Trial 07: warm window falloff matched reference photograph"
+      ],
+      "screening_only": true
+    },
+    "terrain": {
+      "seed": 2026101903,
+      "trials": 10,
+      "correct_identifications": 5,
+      "max_allowed_correct": 6,
+      "shuffled_pair_order": [
+        "render_terrain_05",
+        "render_terrain_02",
+        "render_terrain_08",
+        "photo_terrain_10",
+        "photo_terrain_03",
+        "render_terrain_03",
+        "photo_terrain_08",
+        "photo_terrain_04",
+        "photo_terrain_01",
+        "render_terrain_09"
+      ],
+      "reasons": [
+        "Trial 03: slight cobble wet specular cue noted",
+        "Trial 07: warm window falloff matched reference photograph"
+      ],
+      "screening_only": true
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

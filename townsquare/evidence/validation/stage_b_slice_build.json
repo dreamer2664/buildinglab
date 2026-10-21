@@ -1,0 +1,230 @@
+{
+  "blend_path": "/home/user/buildinglab/townsquare/scene/slice_B02_L02.blend",
+  "blend_sha256": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+  "native_sha256": "2bee4a4161c436e42f22395df2e283bad74601a744e166b388fea3e7773db749",
+  "mesh_objects": 3466,
+  "total_triangles": 227944,
+  "apt_A_props": 228,
+  "apt_B_props": 228,
+  "shop_props": 93,
+  "cameras": 12,
+  "lights": 63,
+  "slice_views": [
+    {
+      "id": "slice_01_ext_blue_hour",
+      "lighting": "blue_hour",
+      "location": [
+        -1.7,
+        4.0,
+        2.3
+      ],
+      "target": [
+        -0.5,
+        26.0,
+        7.2
+      ],
+      "resolution": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "id": "slice_02_ext_day",
+      "lighting": "overcast",
+      "location": [
+        1.3,
+        4.0,
+        2.3
+      ],
+      "target": [
+        -0.5,
+        26.0,
+        7.2
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_03_cutaway_L02",
+      "lighting": "overcast",
+      "location": [
+        -9.0,
+        18.5,
+        16.2
+      ],
+      "target": [
+        -0.5,
+        32.0,
+        5.300000000000001
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_04_int_B02_L02_A",
+      "lighting": "blue_hour",
+      "location": [
+        -1.05,
+        26.65,
+        5.62
+      ],
+      "target": [
+        -3.05,
+        29.15,
+        5.12
+      ],
+      "resolution": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "id": "slice_05_int_B02_L02_B",
+      "lighting": "blue_hour",
+      "location": [
+        7.05,
+        26.65,
+        5.62
+      ],
+      "target": [
+        5.05,
+        29.1,
+        5.12
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_06_shop_bakery",
+      "lighting": "blue_hour",
+      "location": [
+        -4.6,
+        27.1,
+        1.52
+      ],
+      "target": [
+        -0.2,
+        30.1,
+        1.05
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_07_human_daylight_close",
+      "lighting": "overcast",
+      "location": [
+        -1.7,
+        22.55,
+        1.48
+      ],
+      "target": [
+        -1.7,
+        23.85,
+        1.4
+      ],
+      "resolution": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "id": "slice_08_human_bakery_warm",
+      "lighting": "blue_hour",
+      "location": [
+        0.8799999999999999,
+        23.6,
+        1.6
+      ],
+      "target": [
+        1.1,
+        25.05,
+        1.56
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_09_terrain_cobbles_slush",
+      "lighting": "blue_hour",
+      "location": [
+        -2.1,
+        22.55,
+        0.72
+      ],
+      "target": [
+        -0.3,
+        23.85,
+        0.04
+      ],
+      "resolution": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "id": "slice_10_plan_B02_L02",
+      "lighting": "overcast",
+      "location": [
+        -0.5,
+        32.0,
+        22.2
+      ],
+      "target": [
+        -0.5,
+        32.0,
+        4.7
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_11_technical_facade",
+      "lighting": "overcast",
+      "location": [
+        -0.5,
+        4.0,
+        9.5
+      ],
+      "target": [
+        -0.5,
+        26.0,
+        9.5
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    },
+    {
+      "id": "slice_12_ext_night",
+      "lighting": "night",
+      "location": [
+        -1.7,
+        4.0,
+        2.3
+      ],
+      "target": [
+        -0.5,
+        26.0,
+        7.2
+      ],
+      "resolution": [
+        2560,
+        1440
+      ]
+    }
+  ]
+}

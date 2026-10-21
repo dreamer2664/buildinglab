@@ -1,0 +1,44 @@
+{
+  "release_tag": "townsquare-stage-g-20261020",
+  "repository": "dreamer2664/storagecode",
+  "expanded_city_views": 287,
+  "expanded_buildings": 20,
+  "assets": [
+    {
+      "asset": "master.blend",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.blend",
+      "bytes": 57523288,
+      "sha256": "2a369754cf4c965f215b1a5c849488bdba3cbe05ab416fa459a0028745525536",
+      "anonymous_http_status": 200,
+      "anonymous_sha256_match": true
+    },
+    {
+      "asset": "master.glb",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master.glb",
+      "bytes": 137508380,
+      "sha256": "de669fad5e75f69a83528eb037a5a403d6cf3050495755b650acd2be3e4b844d",
+      "anonymous_http_status": 200,
+      "anonymous_sha256_match": true
+    },
+    {
+      "asset": "master_renders_proofs.tar.gz",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master_renders_proofs.tar.gz",
+      "bytes": 367586527,
+      "sha256": "24ac7979892fdee282c75b98305608c0626a76451ab9131a0d769b02639d7455",
+      "anonymous_http_status": 200,
+      "anonymous_sha256_match": true
+    },
+    {
+      "asset": "master_renders_final.tar.gz",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/townsquare-stage-g-20261020/master_renders_final.tar.gz",
+      "bytes": 2110891862,
+      "sha256": "20b3e948cc91254509a877d6b11529ff0e5caa3cdf1c7f85a576950dca5b90f6",
+      "anonymous_http_status": 200,
+      "anonymous_sha256_match": true
+    }
+  ],
+  "status": "PASS",
+  "playable_rigged": true,
+  "rigged_humans": 340,
+  "hinged_doors": 62
+}

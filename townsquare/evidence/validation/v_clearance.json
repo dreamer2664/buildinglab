@@ -1,0 +1,14 @@
+{
+  "validator": "v_clearance",
+  "blocked_door_swings": 0,
+  "min_dwelling_path_m": 0.85,
+  "min_public_path_m": 1.2,
+  "min_market_aisle_m": 2.2,
+  "stair_riser_m": 0.17,
+  "stair_tread_m": 0.28,
+  "stair_headroom_m": 2.25,
+  "handrail_height_m": 0.9,
+  "handrail_both_sides": true,
+  "errors": [],
+  "status": "PASS"
+}
