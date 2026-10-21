@@ -1,0 +1,153 @@
+{
+  "project": "CRYSTAL",
+  "site": "Hyde Park, London (Crystal Palace 1851)",
+  "coordinates": {
+    "latitude_deg": 51.5,
+    "longitude_deg": -0.13,
+    "coordinate_frame": "+X=East, +Y=North, +Z=Up"
+  },
+  "fixed_scene_date": "1851-10-11T14:00:00Z",
+  "fixed_scene_row": {
+    "row_id": "EPH-18511011-1400-FIXED",
+    "datetime_utc": "1851-10-11T14:00:00Z",
+    "julian_date": 2397407.083333,
+    "latitude_deg": 51.5,
+    "longitude_deg": -0.13,
+    "solar_declination_deg": -6.9358,
+    "equation_of_time_min": 13.134,
+    "local_hour_angle_deg": 33.1536,
+    "azimuth_deg": 216.8039,
+    "altitude_deg": 25.015,
+    "tolerance_deg": 1.0,
+    "sun_vector_enu": [
+      -0.542883,
+      -0.725583,
+      0.422855
+    ],
+    "shadow_azimuth_deg": 36.8039,
+    "shadow_length_per_m_height": 2.143
+  },
+  "diurnal_series": [
+    {
+      "row_id": "EPH-18511011-0800",
+      "datetime_utc": "1851-10-11T08:00:00Z",
+      "julian_date": 2397406.833333,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.8411,
+      "equation_of_time_min": 13.07,
+      "local_hour_angle_deg": -56.8626,
+      "azimuth_deg": 120.9677,
+      "altitude_deg": 14.1613,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        0.8314,
+        -0.498918,
+        0.244653
+      ],
+      "shadow_azimuth_deg": 300.9677,
+      "shadow_length_per_m_height": 3.9632
+    },
+    {
+      "row_id": "EPH-18511011-1000",
+      "datetime_utc": "1851-10-11T10:00:00Z",
+      "julian_date": 2397406.916667,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.8727,
+      "equation_of_time_min": 13.091,
+      "local_hour_angle_deg": -26.8572,
+      "azimuth_deg": 149.7037,
+      "altitude_deg": 27.2406,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        0.448522,
+        -0.767668,
+        0.457727
+      ],
+      "shadow_azimuth_deg": 329.7037,
+      "shadow_length_per_m_height": 1.9424
+    },
+    {
+      "row_id": "EPH-18511011-1200",
+      "datetime_utc": "1851-10-11T12:00:00Z",
+      "julian_date": 2397407.0,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.9042,
+      "equation_of_time_min": 13.113,
+      "local_hour_angle_deg": 3.1482,
+      "azimuth_deg": 183.6675,
+      "altitude_deg": 31.5331,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        -0.054521,
+        -0.850593,
+        0.52299
+      ],
+      "shadow_azimuth_deg": 3.6675,
+      "shadow_length_per_m_height": 1.6297
+    },
+    {
+      "row_id": "EPH-18511011-1400-FIXED",
+      "datetime_utc": "1851-10-11T14:00:00Z",
+      "julian_date": 2397407.083333,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.9358,
+      "equation_of_time_min": 13.134,
+      "local_hour_angle_deg": 33.1536,
+      "azimuth_deg": 216.8039,
+      "altitude_deg": 25.015,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        -0.542883,
+        -0.725583,
+        0.422855
+      ],
+      "shadow_azimuth_deg": 36.8039,
+      "shadow_length_per_m_height": 2.143
+    },
+    {
+      "row_id": "EPH-18511011-1600",
+      "datetime_utc": "1851-10-11T16:00:00Z",
+      "julian_date": 2397407.166667,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.9673,
+      "equation_of_time_min": 13.156,
+      "local_hour_angle_deg": 63.159,
+      "azimuth_deg": 244.2991,
+      "altitude_deg": 10.6068,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        -0.885674,
+        -0.426264,
+        0.184068
+      ],
+      "shadow_azimuth_deg": 64.2991,
+      "shadow_length_per_m_height": 5.34
+    },
+    {
+      "row_id": "EPH-18511011-1715-DUSK",
+      "datetime_utc": "1851-10-11T17:15:00Z",
+      "julian_date": 2397407.21875,
+      "latitude_deg": 51.5,
+      "longitude_deg": -0.13,
+      "solar_declination_deg": -6.987,
+      "equation_of_time_min": 13.169,
+      "local_hour_angle_deg": 81.9123,
+      "azimuth_deg": 259.3378,
+      "altitude_deg": -0.4738,
+      "tolerance_deg": 1.0,
+      "sun_vector_enu": [
+        -0.982702,
+        -0.185011,
+        -0.008269
+      ],
+      "shadow_azimuth_deg": 79.3378,
+      "shadow_length_per_m_height": null
+    }
+  ],
+  "algorithm": "NOAA / Meeus Astronomical Algorithms (J2000.0 julian century T with equation of center, nutation, obliquity, equation of time)"
+}

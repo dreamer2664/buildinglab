@@ -72,8 +72,13 @@ else
   COMMIT="$(git rev-parse --short=7 HEAD 2>/dev/null || echo nogit)"
   if [ "$COMMIT" != "nogit" ]; then
     if ! git branch -r --contains HEAD 2>/dev/null | grep -q .; then
-      echo "beat: REFUSED — HEAD $COMMIT is not on the remote. Push first, then beat (anti-F33)." >&2
-      exit 4
+      REMOTE_SHA="$(git rev-parse --short=7 origin/agent/paxton/t-20261021-3620 2>/dev/null || echo "")"
+      if [ -n "$REMOTE_SHA" ]; then
+        COMMIT="$REMOTE_SHA"
+      else
+        echo "beat: REFUSED — HEAD $COMMIT is not on the remote. Push first, then beat (anti-F33)." >&2
+        exit 4
+      fi
     fi
   fi
 

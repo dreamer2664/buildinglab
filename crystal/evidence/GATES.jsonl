@@ -1,1 +1,2 @@
 {"stage":"0","gate":"STAGE_0_EXIT","ts":"2026-10-21T17:36:30Z","status":"PASS","metrics":{"boot_beat_id":"yYqO2kzVeWZ1","flare_id":"wx471Wfn9MkI","reconcile_found":1,"reconcile_missing":0,"watchdog_alarm_id":"8c9eHQTaQZDi","secret_scan":"CLEAN"}}
+{"stage":"A","gate":"STAGE_A_EXIT","ts":"2026-10-21T17:47:00Z","status":"PASS","metrics":{"references_rows":125,"conflicts_adjudicated":5,"organ_pipes_law":4500,"ephemeris_azimuth_deg":216.8039,"ephemeris_altitude_deg":25.015,"module_m":7.32,"classes_mapped":30,"courts_mapped":33,"strata_count":12}}
