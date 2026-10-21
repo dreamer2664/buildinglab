@@ -1,0 +1,6 @@
+{
+  "stage": "0",
+  "zone": "bootstrap",
+  "pct": 100,
+  "next": "Stage 0 exit -> Stage A CONSTANTS/REFERENCES/EPHEMERIS"
+}

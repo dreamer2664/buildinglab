@@ -1,0 +1,3 @@
+{"id": "LOGOe7P3GyLI", "message": "{\"seq\":0,\"ev\":\"channel-test\",\"agent\":\"paxton\",\"project\":\"CRYSTAL\",\"t\":\"2026-10-21T17:22:18Z\",\"from\":\"the Director\",\"note\":\"if this lands on the phone, the channel is live and the subscription is correct\"}", "priority": 4, "time": 1792603338, "title": "PAXTON \u00b7 CRYSTAL \u2014 channel test"}
+{"id": "yYqO2kzVeWZ1", "message": "{\"seq\":0,\"ev\":\"boot\",\"t\":\"2026-10-21T17:31:25Z\"}", "priority": 4, "time": 1792603885, "title": "PAXTON \u2014 online"}
+{"id": "8c9eHQTaQZDi", "message": "no beat for 4 min (273s); last id yYqO2kzVeWZ1; expected seq 1", "priority": 5, "time": 1792604159, "title": "PAXTON SILENT"}

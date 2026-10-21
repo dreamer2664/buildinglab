@@ -1,0 +1,23 @@
+{
+  "agent": "paxton",
+  "branch": "agent/paxton/t-20261021-3620",
+  "commission_sha256": "6b3da734477a9e81823c9408954b0c66e92118d00e3844d2f3bfaa9b8485889b",
+  "decisions": [
+    "Lane restricted strictly to buildinglab/crystal/** and buildinglab/agents/paxton/** per Part I §3.",
+    "ntfy topic stored only as sha256 fingerprint in repo; raw topic resides only in /home/user/.private/paxton.env (mode 0600).",
+    "Debian 13 Blender 4.3.2 lacks OpenImageDenoise; sc.cycles.use_denoising = False enforced across all Cycles renders (F20).",
+    "2 GB RAM doctrine enforced: all bay builds and renders run headless in isolated processes under 1,200 MB ceiling with --python-exit-code 1 (F21).",
+    "Heartbeat tooling adapted from daedalus (underworks/tools/{beat.sh,watchdog.sh,hb_daemon.sh}) and ported to Python for clean-room zero-dependency reconciliation (Appendix A)."
+  ],
+  "epoch": "2026-10-20.3",
+  "kit_id": "KIT-DBF340",
+  "lane": "crystal/**",
+  "project": "CRYSTAL",
+  "repo": "dreamer2664/buildinglab",
+  "run_id": "paxton-crystal-20261021",
+  "scene_datetime_utc": "1851-10-11T14:00:00Z",
+  "sha256_ntfy_topic": "e26a854eafdfa0efd63af6f2fbefdb70a54c6161bfc9766433be47e0d247e38c",
+  "started_at": "2026-10-21T17:31:25Z",
+  "task_id": "t-20261021-3620",
+  "wave": "second-wave-2026-10-21"
+}

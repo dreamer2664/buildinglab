@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T17:38:21Z",
+  "channel_tests": [
+    "LOGOe7P3GyLI"
+  ],
+  "coverage": 100.0,
+  "expected": 1,
+  "extra": [],
+  "found": 1,
+  "gaps": [],
+  "local": 1,
+  "missing": [],
+  "server_beats": 1,
+  "snapshot": "evidence/HB_RECONCILE/20261021T173821Z.jsonl",
+  "verdict": "PASS",
+  "watchdog_alarms": [
+    "8c9eHQTaQZDi"
+  ]
+}

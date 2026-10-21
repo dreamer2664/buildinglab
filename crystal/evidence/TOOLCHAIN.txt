@@ -1,0 +1,8 @@
+blender: Blender 4.3.2; ram: 1G (1982MB total, 1515MB avail, swap: 0MB)
+python: Python 3.13.16
+ffmpeg: ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
+kernel: Linux 6.1.158+ x86_64
+cpu_cores: 2
+mem_ceiling_mb: 1200 (2GB doctrine per agency/SANDBOX.md)
+cycles_available: True; openimagedenoise: False; use_denoising_rule: sc.cycles.use_denoising = False
+rigidbody_solver: True; cloth_solver: True; cycles_devices: CPU

@@ -1,0 +1,14 @@
+{
+  "agent": "paxton",
+  "role": "worker",
+  "project": "CRYSTAL",
+  "repo": "dreamer2664/buildinglab",
+  "lane": ["crystal/**", "agents/paxton/**"],
+  "task_id": "t-20261021-3620",
+  "branch": "agent/paxton/t-20261021-3620",
+  "epoch": "2026-10-20.3",
+  "commission_sha256": "6b3da734477a9e81823c9408954b0c66e92118d00e3844d2f3bfaa9b8485889b",
+  "boot_beat_id": "yYqO2kzVeWZ1",
+  "entry_flare_id": "wx471Wfn9MkI",
+  "joined_at": "2026-10-21T17:30:59Z"
+}
