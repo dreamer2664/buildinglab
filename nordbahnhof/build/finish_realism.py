@@ -12,5 +12,5 @@ exe=Path.home()/'.cache/oidn/oidn-2.5.1.x86_64.linux/bin/oidnDenoise';out=P.with
 subprocess.run([str(exe),'--hdr',str(P.with_suffix('.color.pfm')),'--alb',str(P.with_suffix('.albedo.pfm')),'--nrm',str(P.with_suffix('.normal.pfm')),'--threads','2','--maxmem','256','--quality','high','-o',str(out)],check=True)
 with open(out,'rb') as o:
  assert o.readline().strip()==b'PF';w,h=map(int,o.readline().split());scale=float(o.readline());a=np.frombuffer(o.read(),dtype='<f4' if scale<0 else '>f4').reshape(h,w,3);a=np.flipud(a).copy()
-q=P.with_suffix('.denoised.exr');OpenEXR.File({'compression':OpenEXR.ZIP_COMPRESSION},{k:a[:,:,i].astype(np.float16) for i,k in enumerate('RGB')}).write(str(q))
+q=P.with_suffix('.denoised.exr');OpenEXR.File({'compression':OpenEXR.ZIP_COMPRESSION},{k:a[:,:,i].astype(np.float16).copy() for i,k in enumerate('RGB')}).write(str(q))
 print(q)

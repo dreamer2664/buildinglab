@@ -1,0 +1,104 @@
+[
+  {
+    "asset": "cobblestone_square",
+    "map": "diff",
+    "file": "cobblestone_square_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_square/cobblestone_square_diff_1k.jpg",
+    "sha256": "cd86b70654034629c7f93bd50f49d2e822af16181f378a6ddea788c3cc829999",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "cobblestone_square",
+    "map": "rough",
+    "file": "cobblestone_square_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_square/cobblestone_square_rough_1k.jpg",
+    "sha256": "09ab5a3b2f50f9643e46c530e45b20bc88ff69f43753019f8c2f1607d1f6c8ce",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "cobblestone_square",
+    "map": "nor_gl",
+    "file": "cobblestone_square_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_square/cobblestone_square_nor_gl_1k.jpg",
+    "sha256": "9e5ea468118f30b96d9e7aa3c494e81efabe91a17723ead9db1a7cc9e72323e6",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "roof_slates_02",
+    "map": "diff",
+    "file": "roof_slates_02_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_02/roof_slates_02_diff_1k.jpg",
+    "sha256": "de3d2729ab385c5f7dd7106d3b435c737f6d2c3ea8883cea37de53cec2a34867",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "roof_slates_02",
+    "map": "rough",
+    "file": "roof_slates_02_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_02/roof_slates_02_rough_1k.jpg",
+    "sha256": "737f95fdbb09e49670cbce09a78fe75c18bbaed597524db832f0227df0dce2cd",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "roof_slates_02",
+    "map": "nor_gl",
+    "file": "roof_slates_02_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_02/roof_slates_02_nor_gl_1k.jpg",
+    "sha256": "32be0c0ba1565856156a315dc98a773d72f1a03415930657b8a8ad62bf60c1bf",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    }
+  },
+  {
+    "asset": "floor_pavement",
+    "map": "diff",
+    "file": "floor_pavement_diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_pavement/floor_pavement_diff_1k.jpg",
+    "sha256": "dffb9e799cfd6e648c4ed526f1ddf3009789a9af2b62f26d272307aeff5dc950",
+    "license": "CC0-1.0",
+    "authors": {
+      "Dario Barresi": "processing",
+      "Charlotte Baglioni": "photography"
+    }
+  },
+  {
+    "asset": "floor_pavement",
+    "map": "rough",
+    "file": "floor_pavement_rough.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_pavement/floor_pavement_rough_1k.jpg",
+    "sha256": "e939acc480ef917d40efac3ded29d2bc2c53ed82cb9f08cb665bc5a8be3a1493",
+    "license": "CC0-1.0",
+    "authors": {
+      "Dario Barresi": "processing",
+      "Charlotte Baglioni": "photography"
+    }
+  },
+  {
+    "asset": "floor_pavement",
+    "map": "nor_gl",
+    "file": "floor_pavement_nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_pavement/floor_pavement_nor_gl_1k.jpg",
+    "sha256": "2570d2502679e4295416cfb39aa58f546ed17e022a086314f6496cb889937b09",
+    "license": "CC0-1.0",
+    "authors": {
+      "Dario Barresi": "processing",
+      "Charlotte Baglioni": "photography"
+    }
+  }
+]

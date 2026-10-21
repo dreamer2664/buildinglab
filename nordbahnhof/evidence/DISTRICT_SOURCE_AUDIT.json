@@ -1,0 +1,611 @@
+{
+  "source_sha256": "c5d8bbd457a2f0161f0570ba3df409fc0178c6bb09731bac49dd63dd90e23602",
+  "source_bytes": 75825339,
+  "objects": 4272,
+  "mesh_datablock_polygons": 2284772,
+  "district_people": 497,
+  "building_zones": 76,
+  "packed_images": [
+    {
+      "name": "brick_wall_001_diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brick_wall_001_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brick_wall_001_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_square_diff.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_square_nor_gl.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobblestone_square_rough.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_diff_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "concrete_floor_worn_001_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.002",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.003",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.004",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.005",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.006",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.007",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.008",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.009",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.010",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "diffuse.jpg.011",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "floor_pavement_diff.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "floor_pavement_nor_gl.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "floor_pavement_rough.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "gravel_floor_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "kloofendal_overcast_puresky_2k.hdr",
+      "size": [
+        2048,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "roof_slates_02_diff.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "roof_slates_02_nor_gl.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "roof_slates_02_rough.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_diff_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_nor_gl_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rusty_painted_metal_rough_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "cameras": [
+    "DISTVIEW_01_station_square",
+    "DISTVIEW_02_exit_threshold",
+    "DISTVIEW_03_market_morning",
+    "DISTVIEW_04_cafe_and_tram",
+    "DISTVIEW_05_neighborhood_street",
+    "DISTVIEW_06_roofscape",
+    "DISTVIEW_07_cafe_detail",
+    "DISTVIEW_08_exit_to_city"
+  ],
+  "legacy_insert_replacement": "Obstructing RET_/WAIT_ inserts removed in district revision; original prior source retained separately. All original 34 rolling-stock vehicles retained.",
+  "retained_vehicle_ids": [
+    "TR01_V01",
+    "TR01_V02",
+    "TR01_V03",
+    "TR01_V04",
+    "TR01_V05",
+    "TR01_V06",
+    "TR02_V01",
+    "TR02_V02",
+    "TR02_V03",
+    "TR02_V04",
+    "TR02_V05",
+    "TR02_V06",
+    "TR03_V01",
+    "TR03_V02",
+    "TR03_V03",
+    "TR03_V04",
+    "TR03_V05",
+    "TR03_V06",
+    "TR04_V01",
+    "TR04_V02",
+    "TR04_V03",
+    "TR04_V04",
+    "TR04_V05",
+    "TR04_V06",
+    "TR05_V01",
+    "TR05_V02",
+    "TR05_V03",
+    "TR05_V04",
+    "TR05_V05",
+    "TR06_V01",
+    "TR06_V02",
+    "TR06_V03",
+    "TR06_V04",
+    "TR06_V05"
+  ],
+  "retained_vehicle_count": 34,
+  "walk_surface_spot_checks": [
+    {
+      "xy": [
+        10.5,
+        24
+      ],
+      "surface_object": "DIST_EXIT_District stone",
+      "surface_z": 0.3250000476837158
+    },
+    {
+      "xy": [
+        10.5,
+        27
+      ],
+      "surface_object": "DIST_EXIT_District worn pedestrian paving",
+      "surface_z": 0.7599999904632568
+    },
+    {
+      "xy": [
+        10.5,
+        32
+      ],
+      "surface_object": "DIST_EXIT_District worn pedestrian paving",
+      "surface_z": 0.7599999904632568
+    },
+    {
+      "xy": [
+        10.5,
+        36
+      ],
+      "surface_object": "DIST_EXIT_District worn pedestrian paving",
+      "surface_z": 0.7599999904632568
+    },
+    {
+      "xy": [
+        19.4,
+        36
+      ],
+      "surface_object": "DIST_EXIT_District worn pedestrian paving",
+      "surface_z": 0.7599999904632568
+    },
+    {
+      "xy": [
+        26.4,
+        36
+      ],
+      "surface_object": "DIST_EXIT_District worn pedestrian paving",
+      "surface_z": 0.3875000476837158
+    },
+    {
+      "xy": [
+        33.4,
+        36
+      ],
+      "surface_object": "CONC_01_Terrazzo_Floor",
+      "surface_z": 4.470348358154297e-08
+    },
+    {
+      "xy": [
+        35,
+        36
+      ],
+      "surface_object": "CONC_01_Terrazzo_Floor",
+      "surface_z": 4.470348358154297e-08
+    }
+  ],
+  "architectural_route_head_height_spot_checks": [
+    {
+      "label": "threshold",
+      "start": [
+        10.5,
+        23.0,
+        2.0999999046325684
+      ],
+      "end": [
+        10.5,
+        37.0,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "hit_location": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse turn",
+      "start": [
+        10.5,
+        36.0,
+        2.0999999046325684
+      ],
+      "end": [
+        34.0,
+        36.0,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "hit_location": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.149999618530273,
+        23.0,
+        1.350000023841858
+      ],
+      "end": [
+        10.149999618530273,
+        37.0,
+        1.350000023841858
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.850000381469727,
+        23.0,
+        1.350000023841858
+      ],
+      "end": [
+        10.850000381469727,
+        37.0,
+        1.350000023841858
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        35.650001525878906,
+        1.350000023841858
+      ],
+      "end": [
+        34.0,
+        35.650001525878906,
+        1.350000023841858
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        36.349998474121094,
+        1.350000023841858
+      ],
+      "end": [
+        34.0,
+        36.349998474121094,
+        1.350000023841858
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.149999618530273,
+        23.0,
+        2.0999999046325684
+      ],
+      "end": [
+        10.149999618530273,
+        37.0,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.850000381469727,
+        23.0,
+        2.0999999046325684
+      ],
+      "end": [
+        10.850000381469727,
+        37.0,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        35.650001525878906,
+        2.0999999046325684
+      ],
+      "end": [
+        34.0,
+        35.650001525878906,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        36.349998474121094,
+        2.0999999046325684
+      ],
+      "end": [
+        34.0,
+        36.349998474121094,
+        2.0999999046325684
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.149999618530273,
+        23.0,
+        2.6500000953674316
+      ],
+      "end": [
+        10.149999618530273,
+        37.0,
+        2.6500000953674316
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "threshold lateral probe",
+      "start": [
+        10.850000381469727,
+        23.0,
+        2.6500000953674316
+      ],
+      "end": [
+        10.850000381469727,
+        37.0,
+        2.6500000953674316
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        35.650001525878906,
+        2.6500000953674316
+      ],
+      "end": [
+        34.0,
+        35.650001525878906,
+        2.6500000953674316
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    },
+    {
+      "label": "concourse lateral probe",
+      "start": [
+        10.5,
+        36.349998474121094,
+        2.6500000953674316
+      ],
+      "end": [
+        34.0,
+        36.349998474121094,
+        2.6500000953674316
+      ],
+      "static_hit": null,
+      "clear_at_probe_height": true
+    }
+  ],
+  "not_certification": "These centerline and lateral rays do not certify full-body clearance, accessibility, railway operation, structural loads or all rooms. The side ramp stays south ofY38.5; existing first rake atY40 is preserved."
+}

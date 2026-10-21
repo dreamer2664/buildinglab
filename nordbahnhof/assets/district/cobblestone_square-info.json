@@ -1,0 +1,48 @@
+{
+  "scale": "1",
+  "type": 1,
+  "tags": [
+    "cobblestone",
+    "mud",
+    "moss",
+    "smooth"
+  ],
+  "date_published": 1529359200,
+  "name": "Cobblestone Square",
+  "old_id": 90,
+  "authors": {
+    "Rob Tuytel": "All"
+  },
+  "dimensions": [
+    1000,
+    1000
+  ],
+  "categories": [
+    "floor",
+    "outdoor",
+    "man made",
+    "dirty",
+    "cobblestone"
+  ],
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "files_hash": "74c13bc8bb403beac42187ed50abc2435162c2f6",
+  "description": "Free 8K texture of weathered square cobblestones with muddy joints, scattered moss, worn smooth tops and gritty dirt-filled crevices.",
+  "category_id": "5aa99c3f-7783-51e3-90d1-2c496368ad24",
+  "attributes": {
+    "surface_use": "paving",
+    "condition": [
+      "weathered",
+      "mossy",
+      "worn"
+    ],
+    "origin": "man_made",
+    "setting": "outdoor"
+  },
+  "category": "Stone/Cobblestone & Paving/Cut Setts & Pavers",
+  "img_version": "5e5a007d",
+  "download_count": 24006,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/cobblestone_square.png?width=256&height=256&format=webp&v=5e5a007d"
+}

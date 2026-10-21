@@ -1,0 +1,1273 @@
+{
+  "generated_at_utc": "2026-10-21T07:17:26.033723+00:00",
+  "build_seconds": 28.019565105438232,
+  "component_counts": {
+    "district subgrade": 1,
+    "station forecourt": 1,
+    "cobbled boulevard": 3,
+    "cobbled cross street": 3,
+    "street sidewalk": 6,
+    "kerb stone": 1068,
+    "cross avenue sidewalk": 6,
+    "cross avenue kerbstone": 94,
+    "individual foreground sett": 3240,
+    "tram rail head": 4,
+    "tram rail groove": 4,
+    "tram contact wire": 2,
+    "tram support mast": 16,
+    "tram wire crossarm": 16,
+    "plaza drainage channel": 9,
+    "exit landing masonry foundation": 1,
+    "exit vestibule landing": 1,
+    "interior raised floor foundation": 1,
+    "raised concourse exit route": 1,
+    "interior concourse connection ramp": 1,
+    "interior ramp masonry foundation": 1,
+    "interior ramp baluster": 10,
+    "interior ramp handrail": 2,
+    "exit hall rear wall": 1,
+    "exit hall oak dado": 1,
+    "exit hall west wall": 1,
+    "exit hall coffered ceiling": 1,
+    "hall rear stone pilaster": 9,
+    "hall ceiling beam": 9,
+    "hall pendant stem": 5,
+    "hall opal pendant": 5,
+    "hall bench seat": 2,
+    "hall bench back": 2,
+    "hall bench foot": 4,
+    "hall wayfinding board": 1,
+    "lettered signs": 733,
+    "exit stair": 4,
+    "accessible side ramp": 1,
+    "exterior ramp masonry foundation": 1,
+    "ramp rail upright": 8,
+    "ramp handrail": 2,
+    "exit jamb": 2,
+    "canopy column": 4,
+    "canopy column plinth": 4,
+    "canopy holding bolt": 24,
+    "exit letter board": 1,
+    "curved canopy rib": 96,
+    "canopy longitudinal glazing bar": 25,
+    "canopy glass pane": 72,
+    "open door rail": 12,
+    "open glass door": 6,
+    "open door stile": 12,
+    "entrance rusticated pier": 2,
+    "pier rustication reveal": 28,
+    "pier base": 2,
+    "pier capital": 2,
+    "entrance engaged column": 2,
+    "column classical moulding": 8,
+    "central clock tympanum": 1,
+    "entrance name frieze": 1,
+    "entrance entablature": 3,
+    "entrance cornice dentil": 26,
+    "entrance triangular pediment": 1,
+    "pediment sloping cornice": 2,
+    "station clock ivory dial": 1,
+    "station clock bronze bezel": 1,
+    "clock minute tick": 60,
+    "station clock hand": 2,
+    "clock pivot": 1,
+    "side elevation ground wall": 141,
+    "side elevation sill wall": 600,
+    "side elevation head wall": 600,
+    "side elevation wall pier": 1800,
+    "window room back": 3000,
+    "window room floor": 3000,
+    "window glass": 3000,
+    "window outer jamb": 6000,
+    "window header sill": 6000,
+    "sash vertical": 9000,
+    "sash horizontal": 9000,
+    "folded linen curtain": 6000,
+    "shop parquet": 261,
+    "shop back wall": 261,
+    "shop party wall": 522,
+    "shop fascia": 261,
+    "shop pilaster": 522,
+    "door frame": 522,
+    "door glass": 261,
+    "door kick panel": 261,
+    "door brass handle": 261,
+    "shop window": 261,
+    "shop window rail": 522,
+    "shop mullion": 522,
+    "display shelf": 783,
+    "loaf in shop": 3087,
+    "warm shop ceiling panel": 261,
+    "striped canvas awning": 2088,
+    "awning hanging valance": 2088,
+    "awning iron stay": 348,
+    "book spine": 2400,
+    "rear party wall": 76,
+    "ground plinth": 76,
+    "floor plate": 376,
+    "string course": 376,
+    "front sill spandrel": 300,
+    "front window head spandrel": 300,
+    "front masonry pier": 2100,
+    "stone balcony slab": 156,
+    "balcony corbel": 312,
+    "balcony iron spindle": 2028,
+    "balcony top rail": 156,
+    "balcony return spindle": 1560,
+    "lit room shade": 440,
+    "room table": 440,
+    "room chair back": 440,
+    "layered eaves cornice": 228,
+    "cornice dentil": 4330,
+    "slate pitched roof": 76,
+    "gable masonry": 152,
+    "ridge flashing": 76,
+    "eaves gutter": 76,
+    "rainwater downpipe": 152,
+    "downpipe retaining collar": 752,
+    "chimney brick shaft": 152,
+    "chimney cap": 152,
+    "terracotta chimney pot": 304,
+    "chimney pot lip": 304,
+    "dormer cheek": 228,
+    "dormer glazing": 228,
+    "dormer frame": 684,
+    "dormer cap": 228,
+    "apothecary bottle": 2955,
+    "bottle stopper": 2955,
+    "hinged shutter stile": 456,
+    "shutter louvre": 5472,
+    "display flower pot": 1089,
+    "flower leaves": 1089,
+    "clockmaker brass case": 936,
+    "clockmaker ivory dial": 936,
+    "display clock hand": 936,
+    "tailor textile bolt": 936,
+    "greengrocer produce": 936,
+    "ironmonger tool handle": 936,
+    "ironmonger hammer head": 936,
+    "fountain stepped basin": 3,
+    "fountain basin floor": 1,
+    "fountain water surface": 1,
+    "fountain carved pedestal": 3,
+    "fountain upper bowl": 1,
+    "fountain upper water": 1,
+    "fountain central column": 1,
+    "fountain carved pinecone": 1,
+    "falling fountain stream": 84,
+    "fountain water ripple": 9,
+    "kiosk corner post": 8,
+    "kiosk lower panel": 8,
+    "kiosk glass pane": 8,
+    "kiosk copper roof": 8,
+    "newspaper bundle": 48,
+    "kiosk eaves": 1,
+    "delivery cart iron tyre": 6,
+    "delivery cart wooden felloe": 6,
+    "delivery cart wheel hub": 6,
+    "delivery cart oak spoke": 84,
+    "delivery cart leaf spring": 6,
+    "delivery cart pull handle": 6,
+    "delivery cart axle": 3,
+    "delivery cart bed plank": 27,
+    "delivery cart sideboard": 18,
+    "delivery cart upright": 12,
+    "cart iron rivet": 36,
+    "delivery wooden parcel crate": 9,
+    "crate slat gap": 27,
+    "crate steel strap": 18,
+    "fallen autumn leaf": 240,
+    "streetlamp base": 50,
+    "fluted lamp mast": 50,
+    "lamp mast collar": 150,
+    "lantern bottom": 50,
+    "lantern iron frame": 300,
+    "lantern frosted light": 50,
+    "lantern roof": 50,
+    "lamp finial": 50,
+    "park bench leg": 32,
+    "bench seat slat": 32,
+    "bench back slat": 24,
+    "bench back support": 16,
+    "tree grate": 16,
+    "tree grate slot": 112,
+    "street tree trunk": 16,
+    "tree branch": 144,
+    "individual tree foliage": 19440,
+    "market awning post": 36,
+    "market canopy cloth": 108,
+    "market trestle counter": 9,
+    "market trestle leg": 18,
+    "produce crate slat": 144,
+    "crate end": 72,
+    "market fruit": 540,
+    "marble cafe table": 20,
+    "table iron pedestal": 20,
+    "table splayed foot": 60,
+    "porcelain saucer": 40,
+    "coffee cup": 40,
+    "coffee surface": 40,
+    "cup handle": 40,
+    "folded cafe newspaper": 20,
+    "newspaper printed column": 480,
+    "cafe chair leg": 240,
+    "cane chair seat": 60,
+    "bentwood chair hoop": 840,
+    "chair back stile": 120,
+    "bicycle pneumatic tyre": 28,
+    "bicycle wheel rim": 28,
+    "bicycle spoke": 448,
+    "bicycle diamond frame": 84,
+    "bicycle handlebar stem": 14,
+    "bicycle handlebar": 14,
+    "leather bicycle saddle": 14,
+    "saddle stem": 14,
+    "tram axle": 4,
+    "tram steel wheel": 8,
+    "tram underframe": 2,
+    "tram wooden floor": 2,
+    "tram lower side": 4,
+    "tram waist rail": 4,
+    "tram window stile": 28,
+    "tram glass window": 24,
+    "tram upper side rail": 4,
+    "tram platform step": 8,
+    "tram boarding grab": 8,
+    "tram passenger bench": 20,
+    "tram bench back": 20,
+    "tram cab front": 4,
+    "tram front glass": 4,
+    "tram cab window frame": 12,
+    "tram headlight housing": 4,
+    "tram headlight lens": 4,
+    "tram destination board": 4,
+    "tram roof": 2,
+    "tram clerestory": 2,
+    "tram clerestory roof": 2,
+    "tram pantograph diamond": 16,
+    "tram contact strip": 2,
+    "forecourt bollard": 19,
+    "bollard rounded cap": 19,
+    "street litter bin": 5,
+    "bin lip": 5,
+    "cast manhole": 3,
+    "manhole rib": 18,
+    "leather travel suitcase": 12,
+    "suitcase handle": 12,
+    "handcart bed": 1,
+    "handcart wheel": 2,
+    "handcart handles": 2,
+    "cart parcel": 4,
+    "traveler leather luggage": 83,
+    "traveler luggage handle": 83,
+    "photographic scanned people": 497
+  },
+  "buildings_and_crowds": [
+    {
+      "id": 0,
+      "origin": [
+        -15,
+        -67
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 1,
+      "origin": [
+        -37,
+        -67
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 2,
+      "origin": [
+        -59,
+        -67
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 3,
+      "origin": [
+        -81,
+        -67
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 4,
+      "origin": [
+        -103,
+        -67
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 5,
+      "origin": [
+        -125,
+        -67
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 6,
+      "origin": [
+        -147,
+        -67
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 7,
+      "origin": [
+        36,
+        -67
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 8,
+      "origin": [
+        58,
+        -67
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 9,
+      "origin": [
+        80,
+        -67
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 10,
+      "origin": [
+        102,
+        -67
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 11,
+      "origin": [
+        124,
+        -67
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 12,
+      "origin": [
+        146,
+        -67
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 13,
+      "origin": [
+        168,
+        -67
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 14,
+      "origin": [
+        -15,
+        -101
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 15,
+      "origin": [
+        -37,
+        -101
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 16,
+      "origin": [
+        -59,
+        -101
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 17,
+      "origin": [
+        -81,
+        -101
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 18,
+      "origin": [
+        -103,
+        -101
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 19,
+      "origin": [
+        -125,
+        -101
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 20,
+      "origin": [
+        -147,
+        -101
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 21,
+      "origin": [
+        36,
+        -101
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 22,
+      "origin": [
+        58,
+        -101
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 23,
+      "origin": [
+        80,
+        -101
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 24,
+      "origin": [
+        102,
+        -101
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 25,
+      "origin": [
+        124,
+        -101
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 26,
+      "origin": [
+        146,
+        -101
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 27,
+      "origin": [
+        168,
+        -101
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 28,
+      "origin": [
+        -15,
+        -121
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 29,
+      "origin": [
+        -37,
+        -121
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 30,
+      "origin": [
+        -59,
+        -121
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 31,
+      "origin": [
+        -81,
+        -121
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 32,
+      "origin": [
+        -103,
+        -121
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 33,
+      "origin": [
+        -125,
+        -121
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 34,
+      "origin": [
+        -147,
+        -121
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 35,
+      "origin": [
+        36,
+        -121
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 36,
+      "origin": [
+        58,
+        -121
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 37,
+      "origin": [
+        80,
+        -121
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 38,
+      "origin": [
+        102,
+        -121
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 39,
+      "origin": [
+        124,
+        -121
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 40,
+      "origin": [
+        146,
+        -121
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 41,
+      "origin": [
+        168,
+        -121
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 42,
+      "origin": [
+        -15,
+        -155
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 43,
+      "origin": [
+        -37,
+        -155
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 44,
+      "origin": [
+        -59,
+        -155
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 45,
+      "origin": [
+        -81,
+        -155
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 46,
+      "origin": [
+        -103,
+        -155
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 47,
+      "origin": [
+        -125,
+        -155
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 48,
+      "origin": [
+        -147,
+        -155
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 49,
+      "origin": [
+        36,
+        -155
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 50,
+      "origin": [
+        58,
+        -155
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 51,
+      "origin": [
+        80,
+        -155
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 52,
+      "origin": [
+        102,
+        -155
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 53,
+      "origin": [
+        124,
+        -155
+      ],
+      "width": 20.7,
+      "depth": 16,
+      "upper_floors": 5,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 54,
+      "origin": [
+        146,
+        -155
+      ],
+      "width": 19.5,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 55,
+      "origin": [
+        168,
+        -155
+      ],
+      "width": 20.1,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 3.141592653589793,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 56,
+      "origin": [
+        -15,
+        -175
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 57,
+      "origin": [
+        -37,
+        -175
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 58,
+      "origin": [
+        -59,
+        -175
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 59,
+      "origin": [
+        -81,
+        -175
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 60,
+      "origin": [
+        -103,
+        -175
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 61,
+      "origin": [
+        -125,
+        -175
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 62,
+      "origin": [
+        -147,
+        -175
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 63,
+      "origin": [
+        36,
+        -175
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 64,
+      "origin": [
+        58,
+        -175
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 65,
+      "origin": [
+        80,
+        -175
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 66,
+      "origin": [
+        102,
+        -175
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 67,
+      "origin": [
+        124,
+        -175
+      ],
+      "width": 20.1,
+      "depth": 18,
+      "upper_floors": 4,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 68,
+      "origin": [
+        146,
+        -175
+      ],
+      "width": 20.7,
+      "depth": 18,
+      "upper_floors": 5,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 69,
+      "origin": [
+        168,
+        -175
+      ],
+      "width": 19.5,
+      "depth": 18,
+      "upper_floors": 3,
+      "rotation": 0,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 70,
+      "origin": [
+        -89,
+        -22
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": -1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 71,
+      "origin": [
+        -89,
+        1
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": -1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 72,
+      "origin": [
+        -89,
+        24
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": -1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 73,
+      "origin": [
+        89,
+        -22
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 74,
+      "origin": [
+        89,
+        1
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 3,
+      "rotation": 1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "id": 75,
+      "origin": [
+        89,
+        24
+      ],
+      "width": 20,
+      "depth": 16,
+      "upper_floors": 4,
+      "rotation": 1.5707963267948966,
+      "shop_count": 3,
+      "type": "original masonry street building with open front reveals and shallow furnished window rooms"
+    },
+    {
+      "crowd_instances": 497,
+      "scan_poses": 12,
+      "unique_scan_identities": 10,
+      "warning": "Repeated photographic scans; modern clothes, not certified historical costumes. No primitive body substitutes."
+    }
+  ],
+  "scene_objects": 4272,
+  "scene_polygons_shared_once": 2336543,
+  "views": [
+    "01_station_square",
+    "02_exit_threshold",
+    "03_market_morning",
+    "04_cafe_and_tram",
+    "05_neighborhood_street",
+    "06_roofscape",
+    "07_cafe_detail",
+    "08_exit_to_city"
+  ]
+}
