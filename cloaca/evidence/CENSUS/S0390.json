@@ -1,0 +1,37 @@
+{
+ "bounds_m": [
+  [
+   -0.002,
+   -1.249,
+   -0.356
+  ],
+  [
+   99.992,
+   1.25,
+   3.951
+  ]
+ ],
+ "brick_objects": 146538,
+ "bricks_laid": 146538,
+ "build_s": 5.17,
+ "build_u_hash": "778492d0f3d47761afc323f5f8e9d8e631bd9e4f842a4f5a304054d0f27bc005",
+ "census_hash": "c2eef9ec88eea818e0e25507018a8bba97516d376775e0f9041b08a99f566ecd",
+ "census_s": 3.32,
+ "chunk": "S0390",
+ "faces": 879228,
+ "file_bytes": 121363396,
+ "invert_in_m": 28.413,
+ "invert_out_m": 28.324,
+ "key": "bdd56687a5039b0828d204df982a50385e3dd858e5a5e308a203f65b2d8e9ba5",
+ "ledger_rows": 146538,
+ "ledger_u_hash": "778492d0f3d47761afc323f5f8e9d8e631bd9e4f842a4f5a304054d0f27bc005",
+ "line": "N-mid",
+ "objects": 36,
+ "peak_mb": 542.7,
+ "profile": "ovoid-900",
+ "proxy": false,
+ "sha256_blend": "d27fbf465bbc7d01b8fbd22e610b25158a7b61f08d97db25ce1446036ecd3741",
+ "t": "2026-10-21T21:19:01Z",
+ "u_hash_match": true,
+ "verts": 1172304
+}
