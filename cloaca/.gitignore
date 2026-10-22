@@ -17,3 +17,5 @@ evidence/.shard_cache.json
 people/scans/
 people/scan_lib/
 people/FIGURES.blend
+stations/scans/
+stations/scan_lib_build/

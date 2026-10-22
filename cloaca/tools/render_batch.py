@@ -107,9 +107,20 @@ elif kind in ("station_hero", "engine_house"):
         world(0.05); prims.append(sun())
         look_at((70, -60, 26), (0, 0, 8), 35)
     else:
-        world(0.004)
-        cam((0, 0, 6), (80, 0, -90), 24)
-        for x in (-14, 0, 14): prims.append(lamp((x, 2, 7), 220.0))
+        # interior: look down the hall axis so the scanned colonnade, arcade and trusses
+        # read; gas lamps in two rows at gallery level, warm and strong enough to carry
+        world(0.02)
+        wx = None
+        for o in bpy.context.scene.objects:
+            if "/HOUSE/WALL-W-001" in o.name:
+                wx = o.location.x if abs(o.location.x) > 1 else min((o.matrix_world @ v.co).x for v in o.data.vertices)
+        if wx is None: wx = -18.0
+        x0 = wx + 4.0
+        look_at((x0, -4.5, 2.6), (x0 + 40, -1.0, 6.5), 28)
+        for i in range(8):
+            lx = x0 + 3 + i * 5.0
+            prims.append(lamp((lx, 3.0, 8.5), 1200.0))
+            prims.append(lamp((lx, -3.0, 8.5), 1200.0))
 elif kind in ("construction_yard", "centring_arch"):
     world(0.05); prims.append(sun())
     if kind == "construction_yard":

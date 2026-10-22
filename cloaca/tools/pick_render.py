@@ -10,5 +10,5 @@ for l in open("evidence/RENDERS.jsonl"):
     if l: reg.add(json.loads(l)["id"])
 for s in json.load(open("evidence/RENDER_SCHEDULE.json")):
     if s["id"] in reg: continue
-    if skip and s["scene"].startswith("chunk:"): continue
+    if skip and (s["scene"].startswith("chunk:") or s["scene"].startswith("people/")): continue
     print(json.dumps(s)); break
