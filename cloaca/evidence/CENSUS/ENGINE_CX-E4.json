@@ -1,5 +1,5 @@
 {
- "build_s": 0.45,
+ "build_s": 1.13,
  "engine": "CX-E4",
  "file_bytes": 25372092,
  "graph_edges": 13,
@@ -8,6 +8,6 @@
  "match": true,
  "part_objects": 4308,
  "parts_hash": "de93303f3882b835cd76ed6a01716e98a9081390f1806f508236c27d70ea644d",
- "peak_mb": 529.1,
- "t": "2026-10-22T05:31:26Z"
+ "peak_mb": 518.3,
+ "t": "2026-10-22T11:52:38Z"
 }

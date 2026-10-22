@@ -1,10 +1,10 @@
 {
  "centring_arches": 6,
  "objects": 137,
- "peak_mb": 295.8,
+ "peak_mb": 300.4,
  "provenance": "stations/scan_lib_build/arch_godown-warehouse... (CC0, innerscene; REFERENCES R-159ff)",
  "scan_tris": 1440,
  "scans": 1,
- "t": "2026-10-22T07:53:57Z",
+ "t": "2026-10-22T11:51:17Z",
  "yard": "yard-1"
 }

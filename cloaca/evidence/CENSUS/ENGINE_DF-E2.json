@@ -1,5 +1,5 @@
 {
- "build_s": 0.41,
+ "build_s": 1.13,
  "engine": "DF-E2",
  "file_bytes": 24742728,
  "graph_edges": 13,
@@ -8,6 +8,6 @@
  "match": true,
  "part_objects": 4208,
  "parts_hash": "f4271dc644933590c01ee3e2ec5f6b8bf9b32d2b6840aea9d86365831954a297",
- "peak_mb": 525.8,
- "t": "2026-10-22T05:31:33Z"
+ "peak_mb": 509.0,
+ "t": "2026-10-22T11:52:48Z"
 }

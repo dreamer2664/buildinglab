@@ -2,10 +2,10 @@
  "lampposts": 104,
  "length_m": 1200.0,
  "objects": 264,
- "peak_mb": 422.2,
+ "peak_mb": 414.1,
  "provenance": "stations/scan_lib_build arch_cornice-run + arch_pilaster (CC0, innerscene; REFERENCES R-151ff)",
  "reach": "chelsea",
  "scan_tris": 1504,
  "scans": 51,
- "t": "2026-10-22T08:01:29Z"
+ "t": "2026-10-22T11:51:30Z"
 }

@@ -84,7 +84,9 @@ final_tris = sum(len(p.vertices) - 2 for p in body.data.polygons)
 # write out the scanned brick/stone maps so wall materials can reuse them
 tex_files = []
 for img in bpy.data.images:
-    if img.has_data and img.size[0] >= 512:
+    # NEVER gate on has_data here: glTF images report no data until loaded, but size and
+    # save() work straight off the packed buffer (lesson re-learned in RECOVERY 4)
+    if img.size[0] >= 512:
         low = (img.name or "").lower()
         if any(t in low for t in ("diff", "base", "col", "nor", "bump", "rough")) or len(tex_files) < 4:
             p = os.path.join(LIB, f"tex_{SCAN}_{len(tex_files)}.png")

@@ -2,10 +2,10 @@
  "lampposts": 104,
  "length_m": 1200.0,
  "objects": 264,
- "peak_mb": 417.9,
+ "peak_mb": 431.4,
  "provenance": "stations/scan_lib_build arch_cornice-run + arch_pilaster (CC0, innerscene; REFERENCES R-151ff)",
  "reach": "victoria",
  "scan_tris": 1504,
  "scans": 51,
- "t": "2026-10-22T08:01:23Z"
+ "t": "2026-10-22T11:51:24Z"
 }

@@ -1,5 +1,5 @@
 {
- "build_s": 0.4,
+ "build_s": 0.82,
  "engine": "CH-E4",
  "file_bytes": 24707884,
  "graph_edges": 13,
@@ -8,6 +8,6 @@
  "match": true,
  "part_objects": 4210,
  "parts_hash": "e274a74f092e49caa9649175b6c070f2ff802900c78c14b8ecfcfafee76dae47",
- "peak_mb": 521.2,
- "t": "2026-10-22T05:31:11Z"
+ "peak_mb": 516.9,
+ "t": "2026-10-22T11:53:10Z"
 }
