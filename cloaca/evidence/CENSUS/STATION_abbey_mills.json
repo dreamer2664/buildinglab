@@ -4,7 +4,7 @@
  "cruciform": true,
  "engines": 8,
  "objects": 166,
- "peak_mb": 333.6,
+ "peak_mb": 329.6,
  "provenance": "open-source CC0 architectural scans per evidence/BUILD_SCAN_SOURCES.jsonl",
  "scan_parts": 9,
  "scans": [
@@ -19,6 +19,6 @@
   "arch_window-surround-original-exterior-model"
  ],
  "station": "abbey_mills",
- "t": "2026-10-22T07:16:34Z",
+ "t": "2026-10-22T07:19:04Z",
  "tris": 182212
 }
