@@ -1181,3 +1181,7 @@
 {"build_rc": 0, "build_s": 7.38, "census": 146538, "chunk": "S1197", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 539.2, "t": "2026-10-22T07:38:18Z", "u_hash_match": true, "wall_s": 22}
 {"build_rc": 0, "build_s": 3.89, "census": 146538, "chunk": "S1198", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 545.6, "t": "2026-10-22T07:38:33Z", "u_hash_match": true, "wall_s": 15}
 {"build_rc": 0, "build_s": 5.21, "census": 146538, "chunk": "S1199", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 544.3, "t": "2026-10-22T07:38:48Z", "u_hash_match": true, "wall_s": 15}
+{"build_rc": 0, "build_s": 5.1, "census": 146538, "chunk": "S1200", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 535.1, "t": "2026-10-22T07:39:17Z", "u_hash_match": true, "wall_s": 14}
+{"build_rc": 0, "build_s": 5.59, "census": 146538, "chunk": "S1201", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 541.3, "t": "2026-10-22T07:39:33Z", "u_hash_match": true, "wall_s": 15}
+{"build_rc": 0, "build_s": 3.84, "census": 146538, "chunk": "S1202", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 546.0, "t": "2026-10-22T07:39:44Z", "u_hash_match": true, "wall_s": 11}
+{"build_rc": 0, "build_s": 2.94, "census": 146538, "chunk": "S1203", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 542.9, "t": "2026-10-22T07:39:53Z", "u_hash_match": true, "wall_s": 9}
