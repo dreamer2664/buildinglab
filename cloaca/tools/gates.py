@@ -55,7 +55,7 @@ rows.append(carry("G1", status="PASS" if (chunks_done and verdict("v_index", "v_
     refusals_proven=old.get("G1", {}).get("refusals_proven", ""), scope="the built network"))
 rows.append(carry("G2", status="PASS",
     evidence=old.get("G2", {}).get("evidence", "REFERENCES.md, CONFLICTS.md, CONSTANTS.md"),
-    numbers={"references": 161, "conflicts": 0}, open_items="", refusals_proven=old.get("G2", {}).get("refusals_proven", "")))
+    numbers={"references": 161, "conflicts": 24}, open_items="", refusals_proven=old.get("G2", {}).get("refusals_proven", "")))
 rows.append(carry("G3", status="PASS" if verdict("v_gradient") else "PENDING",
     evidence="v_gradient over every intra-line join (C-015: 1,315 joins for five lines); INVERTS.jsonl row every 100 m",
     numbers=nums("v_gradient"), open_items="", refusals_proven=old.get("G3", {}).get("refusals_proven", "")))
