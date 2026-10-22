@@ -110,8 +110,10 @@ elif kind in ("station_hero", "engine_house"):
         world(0.25); prims.append(sun())
         _so = [o for o in scene.objects if o.type == 'LIGHT' and o.data.type == 'SUN'][-1]
         _so.data.energy = 3.0
-        _so.rotation_euler = Euler((math.radians(55), 0, math.radians(35)))
-        look_at((95, -80, 26), (0, 0, 9), 32)
+        _so.rotation_euler = Euler((math.radians(35), 0, math.radians(40)))   # SE sun at 55 deg elevation: clears the stack shadow
+        _fl = bpy.data.objects.get([o.name for o in bpy.data.objects if o.name.endswith("/HOUSE/FLOOR-001")][0])
+        _W, _D = _fl.dimensions.x, _fl.dimensions.y
+        look_at((_W * 2.0, -_D * 1.8, 26), (0, 0, 9), 35)   # footprint-scaled three-quarter view
     else:
         # interior: look down the hall axis so the scanned colonnade, arcade and trusses
         # read; gas lamps in two rows at gallery level, warm and strong enough to carry

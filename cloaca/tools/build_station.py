@@ -82,6 +82,7 @@ BRICK = brick_material()
 STONE = mat("portland_stone", (0.55, 0.53, 0.47))
 IRON = mat("cast_iron", (0.06, 0.06, 0.065), 0.6, 0.8)
 TIMB = mat("timber", (0.21, 0.14, 0.07))
+SLATE = mat("slate_roof", (0.10, 0.11, 0.14), 0.5)   # Welsh slate, period roof covering
 BRASS = mat("gilt_capital", (0.52, 0.40, 0.16), 0.4, 0.9)
 GLASS = mat("crown_glass", (0.62, 0.68, 0.66), 0.15)
 if "Transmission Weight" in GLASS.node_tree.nodes["Principled BSDF"].inputs:
@@ -193,7 +194,7 @@ box(f"{SID}/HOUSE/WALL-N-001", 0, D / 2, H / 2, W / 2, 0.6, H / 2, BRICK)
 box(f"{SID}/HOUSE/WALL-S-001", 0, -D / 2, H / 2, W / 2, 0.6, H / 2, BRICK)
 box(f"{SID}/HOUSE/WALL-E-001", W / 2, 0, H / 2, 0.6, D / 2, H / 2, BRICK)
 box(f"{SID}/HOUSE/WALL-W-001", -W / 2, 0, H / 2, 0.6, D / 2, H / 2, BRICK)
-box(f"{SID}/HOUSE/ROOF-001", 0, 0, H + 0.5, W / 2 + 0.6, D / 2 + 0.6, 0.35, TIMB)
+box(f"{SID}/HOUSE/ROOF-001", 0, 0, H + 0.5, W / 2 + 0.6, D / 2 + 0.6, 0.35, SLATE)
 # scanned cornice and string-course runs along the four eaves and at first-floor level
 for tag, y, ln in (("N", D / 2 + 0.62, W), ("S", -D / 2 - 0.62, W)):
     c = place(t_corn, f"{SID}/HOUSE/CORNICE-{tag}", -ln / 2, y, H - 0.4)
