@@ -73,6 +73,9 @@ def water(depth):
 
 prims = []; hrow = None
 kind = ITEM["recipe"]
+BLIND = kind.startswith("blind_")
+BLIND_CLS = kind[6:] if BLIND else ""
+if BLIND: kind = ITEM["base_recipe"]
 if kind in ("interior", "water", "macro"):
     chunk = ITEM["scene"][6:]
     h = hyd(chunk); depth = h.get("depth_m", 0.8)
@@ -147,6 +150,41 @@ elif kind == "people":
 elif kind == "aerial":
     world(0.06); prims.append(sun())
     look_at((ITEM["k"] * 30 - 200, 40, 90), (ITEM["k"] * 30 - 200, 0, 0), 30)
+if BLIND:
+    # control arm for the G12 blind battery: break exactly ONE packet law, visibly, so an
+    # independent runner can tell control from compliance. The break is journaled in the row.
+    if BLIND_CLS == "light":
+        li = bpy.data.lights.new("BL", type="POINT"); li.energy = 900.0; li.color = (1.0, 1.0, 1.0)
+        li.shadow_soft_size = 0.06
+        ob = bpy.data.objects.new("BL", li); scene.collection.objects.link(ob); ob.location = (0.0, 0.0, 7.0)
+        prims.append({"primitive": "POINT", "power_w": 900.0, "at_m": [0.0, 0.0, 7.0],
+                      "represents": "electric lamp (blind control: period light law broken)"})
+    elif BLIND_CLS == "palette":
+        m = bpy.data.materials.get("scanned_brick")
+        if m:
+            for n in m.node_tree.nodes:
+                if n.type == "MIX" and getattr(n, "data_type", "") == "RGBA":
+                    n.inputs[7].default_value = (0.55, 0.56, 0.58, 1)   # concrete grey, not stock brick
+    elif BLIND_CLS == "bond":
+        m = bpy.data.materials.get("scanned_brick")
+        if m:
+            for n in m.node_tree.nodes:
+                if n.type == "TEX_BRICK":
+                    n.inputs["Offset"].default_value = 0.0; n.offset_frequency = 1   # stack bond: not English bond
+    elif BLIND_CLS == "glazing":
+        for m in bpy.data.materials:
+            if "glass" in m.name.lower() or "GLASS" in m.name:
+                b = m.node_tree.nodes.get("Principled BSDF")
+                if b: b.inputs["Base Color"].default_value = (0.10, 0.35, 0.65, 1)  # modern blue float glass
+    elif BLIND_CLS == "tide":
+        for o in bpy.data.objects:
+            if "WATER" in o.name.upper(): o.location.z += 1.5   # water line off the harmonic gauge
+    elif BLIND_CLS == "dress":
+        keys = ("shirt", "trouser", "jacket", "cap", "boot", "cloth", "dress", "waist")
+        for m in bpy.data.materials:
+            if any(k in m.name.lower() for k in keys):
+                b = m.node_tree.nodes.get("Principled BSDF")
+                if b: b.inputs["Base Color"].default_value = (0.90, 0.35, 0.02, 1)  # hi-vis: not 1860s dress
 t0 = time.time()
 out = os.path.join(LANE, "renders/proofs", ITEM["id"] + "_1024.png")
 os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -161,6 +199,8 @@ row = {"id": ITEM["id"], "class": ITEM.get("class", ITEM.get("cls")), "kind": "p
        "sha256": hashlib.sha256(open(out, "rb").read()).hexdigest(), "bytes": os.path.getsize(out),
        "render_s": round(dt, 2), "peak_mb": round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024.0, 1),
        "upscaled": False, "t": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+if BLIND:
+    row["blind_class"] = BLIND_CLS; row["blind_arm"] = "control"
 reg = os.path.join(LANE, "evidence/RENDERS.jsonl")
 old = []
 if os.path.exists(reg):
