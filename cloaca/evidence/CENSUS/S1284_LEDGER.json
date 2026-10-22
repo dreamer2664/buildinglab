@@ -1,0 +1,80 @@
+{
+ "axial_joint_mm": 9.9845,
+ "axial_module_mm": 85.9845,
+ "bands": {
+  "band_00": 15000,
+  "band_01": 15000,
+  "band_02": 15000,
+  "band_03": 15000,
+  "band_04": 15000,
+  "band_05": 15000,
+  "band_06": 15000,
+  "band_07": 15000,
+  "band_08": 15000,
+  "band_09": 15000,
+  "band_10": 15000,
+  "band_11": 9450
+ },
+ "bounds_mm": {
+  "x": [
+   36,
+   99954
+  ],
+  "y": [
+   -1657,
+   1657
+  ],
+  "z": [
+   -287,
+   3027
+  ]
+ },
+ "bricks_per_course": 50,
+ "census": 174450,
+ "chunk": "S1284",
+ "closure_gap_mm": 210.2,
+ "condition_histogram": {
+  "0": 140718,
+  "1": 6115,
+  "2": 5093,
+  "3": 13739,
+  "4": 7478,
+  "5": 702,
+  "6": 182,
+  "7": 423
+ },
+ "courses": 1163,
+ "density": 1.0,
+ "deviation_set": {
+  "bloom_density": 0.9406,
+  "bond_offset_mm": 180,
+  "chunk": "S1284",
+  "colour_drift": 0.0445,
+  "grit_seed": 570339076,
+  "key": "e753e973cf333f811b82f82cdc4ac114e594296ba931f8ca3cbf5fc9a5358c63",
+  "repair_clusters": 6,
+  "sediment_mm": 13,
+  "settlement_zone": [
+   812,
+   110
+  ],
+  "soot_bands": 0,
+  "stain_density": 1.391,
+  "tide_mark_m": 0.888,
+  "tool_scar_bias": 0.258
+ },
+ "inner_perimeter_mm": 10960,
+ "key": "e753e973cf333f811b82f82cdc4ac114e594296ba931f8ca3cbf5fc9a5358c63",
+ "mid_perimeter_mm": 11921,
+ "predicted_census": 174450,
+ "profile": "rect-2740",
+ "u_hash": "d7c120b1e681b8a4c5c00825bddd9bca19b5e53db4032edb8ab30a3d314a7909",
+ "wythes": 3,
+ "zone_histogram": {
+  "crown": 78501,
+  "flow": 3489,
+  "invert": 59313,
+  "splash": 12213,
+  "wall": 20934
+ }
+}

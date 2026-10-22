@@ -138,12 +138,23 @@ elif kind in ("construction_yard", "centring_arch"):
     else:
         look_at((ITEM["k"] * 4 - 26, 9, 3.4), (ITEM["k"] * 12 - 30, 0, 0.8), 32)
 elif kind == "embankment_walk":
-    world(0.045); prims.append(sun("low daylight over the river"))
+    world(0.08, (0.30, 0.34, 0.42)); prims.append(sun("low daylight over the river"))
+    _so = [o for o in scene.objects if o.type == 'LIGHT' and o.data.type == 'SUN'][-1]
+    _so.data.energy = 0.35                     # dusk: the gas, not the sun, carries the walk
     x = ITEM["k"] * 50 - 550
+    for i in range(104):                       # gas flames in the lanterns beside the camera
+        xi = -600.0 + 6 + i * (1200.0 - 12) / 103
+        if abs(xi - x) < 80:
+            prims.append(lamp((xi, -3.35, 6.6), 150.0))
     look_at((x, 2, 5.4), (x + 60, -3, 5.0), 32)
 elif kind == "lamppost":
-    world(0.035); prims.append(sun("evening daylight"))
+    world(0.06, (0.30, 0.34, 0.42)); prims.append(sun("evening daylight"))
+    _so = [o for o in scene.objects if o.type == 'LIGHT' and o.data.type == 'SUN'][-1]
+    _so.data.energy = 0.30
     x = ITEM["k"] * 100 - 500
+    _st = (1200.0 - 12) / 103
+    _xi = -600.0 + 6 + round((x + 600.0 - 6) / _st) * _st   # snap to the nearest actual post
+    prims.append(lamp((_xi, -3.35, 6.6), 150.0))   # the subject lantern's own gas flame
     look_at((x + 3, -1.4, 4.6), (x, -3.6, 6.4), 50)
 elif kind == "people":
     world(0.05); prims.append(sun())
