@@ -137,7 +137,7 @@ os.makedirs(os.path.dirname(out), exist_ok=True)
 scene.render.filepath = out
 bpy.ops.render.render(write_still=True)
 dt = time.time() - t0
-row = {"id": ITEM["id"], "class": ITEM["class"], "kind": "proof", "width": ITEM["width"],
+row = {"id": ITEM["id"], "class": ITEM.get("class", ITEM.get("cls")), "kind": "proof", "width": ITEM["width"],
        "height": ITEM["height"], "samples": scene.cycles.samples, "engine": "CYCLES CPU",
        "denoising": False, "scene": ITEM["scene"], "recipe": kind,
        "light_sources": sorted({p["represents"] for p in prims}), "primitives": prims,
