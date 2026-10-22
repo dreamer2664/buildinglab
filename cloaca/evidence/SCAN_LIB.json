@@ -1,0 +1,557 @@
+{
+ "inn_abstract-white-man-3d-person-standing": {
+  "bg": {
+   "bytes": 213184,
+   "file": "people/scan_lib/inn_abstract-white-man-3d-person-standing_bg.glb",
+   "sha256": "5dc4555321d42456e1d66b444d09679ecb02993d2ae3e18b8365d9ad30d2c9ae",
+   "tris": 7999
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 1398348,
+   "file": "people/scan_lib/inn_abstract-white-man-3d-person-standing_hero.glb",
+   "sha256": "f360676a42170da57f9482a851089c501f2cba72aec0bfa9d159b251e04428c8",
+   "tris": 59999
+  },
+  "imported_tris": 109551,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "abstract_man_standing white"
+   }
+  ],
+  "scan_id": "inn_abstract-white-man-3d-person-standing",
+  "source_file": "inn_abstract-white-man-3d-person-standing.glb",
+  "source_sha256": "65ff369872db35703f486fe5db0ae2d5ff6ee82ce78f51563b1c48f5b5a018e1",
+  "t": "2026-10-22T06:24:11Z"
+ },
+ "inn_abstract-white-man-3d-person-walking": {
+  "bg": {
+   "bytes": 213376,
+   "file": "people/scan_lib/inn_abstract-white-man-3d-person-walking_bg.glb",
+   "sha256": "34f0e8e21fad1405f74a2efdb5f23b83f9842ae89f60cf3e321a0f64b001d1de",
+   "tris": 8000
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 1398216,
+   "file": "people/scan_lib/inn_abstract-white-man-3d-person-walking_hero.glb",
+   "sha256": "93eaff970c6c13a6c8a48491dd2420aa4e74a323daf26c0417c70a927330fd94",
+   "tris": 59999
+  },
+  "imported_tris": 109594,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "abstract_man_walking white"
+   }
+  ],
+  "scan_id": "inn_abstract-white-man-3d-person-walking",
+  "source_file": "inn_abstract-white-man-3d-person-walking.glb",
+  "source_sha256": "6b2e615f1fbf288aba8a7ce60bc900c4a0c73d28260cebedf3a5a1e0aea4bacf",
+  "t": "2026-10-22T06:24:14Z"
+ },
+ "inn_abstract-white-woman-3d-person-standing": {
+  "bg": {
+   "bytes": 220744,
+   "file": "people/scan_lib/inn_abstract-white-woman-3d-person-standing_bg.glb",
+   "sha256": "525ac67bbb6506215c57488f9253f005c6daaba3a8286a3f247ebec9d0ae2f71",
+   "tris": 8000
+  },
+  "class": "female",
+  "height_m": 1.64,
+  "hero": {
+   "bytes": 1420760,
+   "file": "people/scan_lib/inn_abstract-white-woman-3d-person-standing_hero.glb",
+   "sha256": "c630bc30c80598c80cb6df76e810ab624fc8a72538855e393564750b487896d2",
+   "tris": 60000
+  },
+  "imported_tris": 100574,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "abstract_woman_standing white"
+   }
+  ],
+  "scan_id": "inn_abstract-white-woman-3d-person-standing",
+  "source_file": "inn_abstract-white-woman-3d-person-standing.glb",
+  "source_sha256": "b8e06b0ca9e2396560d5a0e9a17d0c8692fda5731c27b053e691e3f2837baa44",
+  "t": "2026-10-22T06:24:17Z"
+ },
+ "inn_abstract-white-woman-3d-person-walking": {
+  "bg": {
+   "bytes": 221668,
+   "file": "people/scan_lib/inn_abstract-white-woman-3d-person-walking_bg.glb",
+   "sha256": "99fd20fbafcd25a164a0141e6e4e66528a4a4f83a0b434e31f8e51996dd02fff",
+   "tris": 8000
+  },
+  "class": "female",
+  "height_m": 1.64,
+  "hero": {
+   "bytes": 1421484,
+   "file": "people/scan_lib/inn_abstract-white-woman-3d-person-walking_hero.glb",
+   "sha256": "ffb58069fd526decd4d5a5dec9774d58a3d8a00870810e75e6b1025a88ad38c2",
+   "tris": 59999
+  },
+  "imported_tris": 100648,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "abstract_woman_walking white"
+   }
+  ],
+  "scan_id": "inn_abstract-white-woman-3d-person-walking",
+  "source_file": "inn_abstract-white-woman-3d-person-walking.glb",
+  "source_sha256": "782a34de0c221646b93ebae22281f5011a69db6aceab461b84a756cb53a87179",
+  "t": "2026-10-22T06:24:20Z"
+ },
+ "inn_amara-3d-person-standing-office": {
+  "bg": {
+   "bytes": 14313652,
+   "file": "people/scan_lib/inn_amara-3d-person-standing-office_bg.glb",
+   "sha256": "0a84b11f9967b868b4df8fc0e8b7b3af2fa391c9607d2ebc376e0c50bc4329d4",
+   "tris": 8000
+  },
+  "class": "female",
+  "height_m": 1.64,
+  "hero": {
+   "bytes": 15542064,
+   "file": "people/scan_lib/inn_amara-3d-person-standing-office_hero.glb",
+   "sha256": "614ac2a72b51b3da7d0be1d2b232749c562cf423399940d737fe25cd75bce1dc",
+   "tris": 59998
+  },
+  "imported_tris": 114066,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "woman eyebrow010"
+   },
+   {
+    "kind": "hair",
+    "material": "woman eyelashes02"
+   },
+   {
+    "kind": "eye",
+    "material": "woman eyes"
+   },
+   {
+    "kind": "cloth",
+    "material": "woman female_elegantsuit01"
+   },
+   {
+    "kind": "hair",
+    "material": "woman hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "woman shoes03"
+   },
+   {
+    "kind": "skin",
+    "material": "woman skin"
+   },
+   {
+    "kind": "eye",
+    "material": "woman teeth_base"
+   }
+  ],
+  "scan_id": "inn_amara-3d-person-standing-office",
+  "source_file": "inn_amara-3d-person-standing-office.glb",
+  "source_sha256": "c701cd61776945d6ca5b15c3046eaf7aea78e602a0a780a865808c9892ac8e5e",
+  "t": "2026-10-22T06:24:24Z"
+ },
+ "inn_daniel-3d-person-standing-casual": {
+  "bg": {
+   "bytes": 24543192,
+   "file": "people/scan_lib/inn_daniel-3d-person-standing-casual_bg.glb",
+   "sha256": "be4a6925eff9edbbe690f32c90b7d7dbc38a470d9768b6935dd3cf03b699a483",
+   "tris": 8000
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 25768684,
+   "file": "people/scan_lib/inn_daniel-3d-person-standing-casual_hero.glb",
+   "sha256": "718b1551efebc4b7143b004646612fae663221b82b986ebfd31db0959328d4d6",
+   "tris": 59998
+  },
+  "imported_tris": 111196,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "man eyebrow001"
+   },
+   {
+    "kind": "hair",
+    "material": "man eyelashes01"
+   },
+   {
+    "kind": "eye",
+    "material": "man eyes"
+   },
+   {
+    "kind": "hair",
+    "material": "man hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "man male_casualsuit05"
+   },
+   {
+    "kind": "cloth",
+    "material": "man shoes01"
+   },
+   {
+    "kind": "skin",
+    "material": "man skin"
+   },
+   {
+    "kind": "skin",
+    "material": "man skin.001"
+   },
+   {
+    "kind": "eye",
+    "material": "man teeth_base"
+   }
+  ],
+  "scan_id": "inn_daniel-3d-person-standing-casual",
+  "source_file": "inn_daniel-3d-person-standing-casual.glb",
+  "source_sha256": "2986187e12da82899ce869292ed90db332a5800e151b7da6d543004bedbfb04f",
+  "t": "2026-10-22T06:24:27Z"
+ },
+ "inn_female-base-mesh-3d-person-rigged-a-pose": {
+  "bg": {
+   "bytes": 202360,
+   "file": "people/scan_lib/inn_female-base-mesh-3d-person-rigged-a-pose_bg.glb",
+   "sha256": "7f6288e0b9094a3918b48d3d53da2c1d56efce94bc6b3e877653615f94d63db7",
+   "tris": 7999
+  },
+  "class": "female",
+  "height_m": 1.64,
+  "hero": {
+   "bytes": 1382448,
+   "file": "people/scan_lib/inn_female-base-mesh-3d-person-rigged-a-pose_hero.glb",
+   "sha256": "d472eb80c992a49d3568faa625f7fbd00797a48779dab29d078d31626d0c7fbc",
+   "tris": 59999
+  },
+  "imported_tris": 105411,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "base_female clay"
+   }
+  ],
+  "scan_id": "inn_female-base-mesh-3d-person-rigged-a-pose",
+  "source_file": "inn_female-base-mesh-3d-person-rigged-a-pose.glb",
+  "source_sha256": "a571a5872a5f9d75c013ce6d88b3484436cf2109bf133fbc31e42c41f52389f1",
+  "t": "2026-10-22T06:24:30Z"
+ },
+ "inn_jordan-3d-person-athlete": {
+  "bg": {
+   "bytes": 13122328,
+   "file": "people/scan_lib/inn_jordan-3d-person-athlete_bg.glb",
+   "sha256": "96b85526d9f4f671e35e5c9694e760512559654f45185390800e5830b6652366",
+   "tris": 8000
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 14339332,
+   "file": "people/scan_lib/inn_jordan-3d-person-athlete_hero.glb",
+   "sha256": "f76ef474924b0ff03c71026c403073d4eb6fd007881bc98e86c71c0e0f2551b5",
+   "tris": 60000
+  },
+  "imported_tris": 111874,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "athlete eyebrow010"
+   },
+   {
+    "kind": "hair",
+    "material": "athlete eyelashes02"
+   },
+   {
+    "kind": "eye",
+    "material": "athlete eyes"
+   },
+   {
+    "kind": "cloth",
+    "material": "athlete female_sportsuit01"
+   },
+   {
+    "kind": "hair",
+    "material": "athlete hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "athlete shoes05"
+   },
+   {
+    "kind": "skin",
+    "material": "athlete skin"
+   },
+   {
+    "kind": "eye",
+    "material": "athlete teeth_base"
+   }
+  ],
+  "scan_id": "inn_jordan-3d-person-athlete",
+  "source_file": "inn_jordan-3d-person-athlete.glb",
+  "source_sha256": "a4f9919aee21ad0ad7097cb8311f7555ea8ef731e93c38808bfe5042a5f5b170",
+  "t": "2026-10-22T06:24:34Z"
+ },
+ "inn_leo-3d-person-child-standing": {
+  "bg": {
+   "bytes": 18010484,
+   "file": "people/scan_lib/inn_leo-3d-person-child-standing_bg.glb",
+   "sha256": "2f7be836b053016120dbc85babec483e6a1d093b88aa1e40954fa1c74df41183",
+   "tris": 7999
+  },
+  "class": "child",
+  "height_m": 1.25,
+  "hero": {
+   "bytes": 19231220,
+   "file": "people/scan_lib/inn_leo-3d-person-child-standing_hero.glb",
+   "sha256": "de3af4862dd2d0d873193711b2ddeb43b302e8b398f27a35b835b0dbad06266d",
+   "tris": 59999
+  },
+  "imported_tris": 102642,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "boy eyebrow001"
+   },
+   {
+    "kind": "hair",
+    "material": "boy eyelashes01"
+   },
+   {
+    "kind": "eye",
+    "material": "boy eyes"
+   },
+   {
+    "kind": "hair",
+    "material": "boy hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "boy male_casualsuit03"
+   },
+   {
+    "kind": "cloth",
+    "material": "boy shoes05"
+   },
+   {
+    "kind": "skin",
+    "material": "boy skin"
+   },
+   {
+    "kind": "eye",
+    "material": "boy teeth_base"
+   }
+  ],
+  "scan_id": "inn_leo-3d-person-child-standing",
+  "source_file": "inn_leo-3d-person-child-standing.glb",
+  "source_sha256": "0fbfb6c59d8282b300f29552a7e30b5f7979feb20f3daa910926adfeeb775470",
+  "t": "2026-10-22T06:24:37Z"
+ },
+ "inn_male-base-mesh-3d-person-rigged-a-pose": {
+  "bg": {
+   "bytes": 203128,
+   "file": "people/scan_lib/inn_male-base-mesh-3d-person-rigged-a-pose_bg.glb",
+   "sha256": "7274dd2e4ff0c6f69b107575dfa75b630fdc2fe74cd39561bb7c334cf2cae362",
+   "tris": 8000
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 1380844,
+   "file": "people/scan_lib/inn_male-base-mesh-3d-person-rigged-a-pose_hero.glb",
+   "sha256": "418997868611ef135ec1eb6b643c044d88e314341810b04b5b5cd1e03d7c4358",
+   "tris": 59999
+  },
+  "imported_tris": 106423,
+  "materials": [
+   {
+    "kind": "cloth",
+    "material": "base_male clay"
+   }
+  ],
+  "scan_id": "inn_male-base-mesh-3d-person-rigged-a-pose",
+  "source_file": "inn_male-base-mesh-3d-person-rigged-a-pose.glb",
+  "source_sha256": "d15a07e2b4cf1d08a3b91cb212a9a06a91438077f05a3f2a62f45351e8a71eb8",
+  "t": "2026-10-22T06:24:40Z"
+ },
+ "inn_maya-3d-person-child-standing": {
+  "bg": {
+   "bytes": 16923156,
+   "file": "people/scan_lib/inn_maya-3d-person-child-standing_bg.glb",
+   "sha256": "10f9b5deb370dc2f12b8325458d39a5bd9a4019217bff6a7cb008bed7989860a",
+   "tris": 7999
+  },
+  "class": "child",
+  "height_m": 1.25,
+  "hero": {
+   "bytes": 18141580,
+   "file": "people/scan_lib/inn_maya-3d-person-child-standing_hero.glb",
+   "sha256": "d50346d367acc2db20fd73e4acfffae846efd0d0f5d1edd390535bcb2d83bc0f",
+   "tris": 60000
+  },
+  "imported_tris": 120006,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "girl eyebrow010"
+   },
+   {
+    "kind": "hair",
+    "material": "girl eyelashes02"
+   },
+   {
+    "kind": "eye",
+    "material": "girl eyes"
+   },
+   {
+    "kind": "hair",
+    "material": "girl hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "girl male_casualsuit06"
+   },
+   {
+    "kind": "cloth",
+    "material": "girl shoes05"
+   },
+   {
+    "kind": "skin",
+    "material": "girl skin"
+   },
+   {
+    "kind": "eye",
+    "material": "girl teeth_base"
+   }
+  ],
+  "scan_id": "inn_maya-3d-person-child-standing",
+  "source_file": "inn_maya-3d-person-child-standing.glb",
+  "source_sha256": "86616920f6d52fa4a553de446f6448fcf298c53e53b537ec11834850646af7b5",
+  "t": "2026-10-22T06:24:43Z"
+ },
+ "inn_mei-3d-person-receptionist": {
+  "bg": {
+   "bytes": 13351972,
+   "file": "people/scan_lib/inn_mei-3d-person-receptionist_bg.glb",
+   "sha256": "5fc6ee47ccd4675c815328dee780e50b392ed3a3ed00a84759f842fee1777129",
+   "tris": 7999
+  },
+  "class": "female",
+  "height_m": 1.64,
+  "hero": {
+   "bytes": 14580724,
+   "file": "people/scan_lib/inn_mei-3d-person-receptionist_hero.glb",
+   "sha256": "476c669e8acf5e2a93e74472d13cbf547a24b93a6235babdc8c522f772aa8f7f",
+   "tris": 59999
+  },
+  "imported_tris": 112860,
+  "materials": [
+   {
+    "kind": "hair",
+    "material": "receptionist eyebrow010"
+   },
+   {
+    "kind": "hair",
+    "material": "receptionist eyelashes02"
+   },
+   {
+    "kind": "eye",
+    "material": "receptionist eyes"
+   },
+   {
+    "kind": "cloth",
+    "material": "receptionist female_elegantsuit01"
+   },
+   {
+    "kind": "hair",
+    "material": "receptionist hair"
+   },
+   {
+    "kind": "cloth",
+    "material": "receptionist shoes03"
+   },
+   {
+    "kind": "skin",
+    "material": "receptionist skin"
+   },
+   {
+    "kind": "eye",
+    "material": "receptionist teeth_base"
+   }
+  ],
+  "scan_id": "inn_mei-3d-person-receptionist",
+  "source_file": "inn_mei-3d-person-receptionist.glb",
+  "source_sha256": "04c4ec59f5704db616bd9955405ea8774e61e32ceb3973d13a75f9db14a50c3e",
+  "t": "2026-10-22T06:24:47Z"
+ },
+ "inn_walking-adult": {
+  "bg": {
+   "bytes": 20964356,
+   "file": "people/scan_lib/inn_walking-adult_bg.glb",
+   "sha256": "d29686357b03cb5fa3154c11edf3cec2b6e4b1cc6664c1bd321f2a16de731dea",
+   "tris": 7999
+  },
+  "class": "male",
+  "height_m": 1.72,
+  "hero": {
+   "bytes": 22183684,
+   "file": "people/scan_lib/inn_walking-adult_hero.glb",
+   "sha256": "7a7838e2abefafd966a1531008e27e4d663034ec2ed2b2544f4eca57352ae779",
+   "tris": 60000
+  },
+  "imported_tris": 87564,
+  "materials": [
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.bob01"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.body"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.eyebrow006"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.eyelashes01"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.female_casualsuit01"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.low-poly"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.shoes05"
+   },
+   {
+    "kind": "skin",
+    "material": "Riley | anatomical body.teeth_base"
+   },
+   {
+    "kind": "cloth",
+    "material": "Riley | teal cotton T-shirt"
+   }
+  ],
+  "scan_id": "inn_walking-adult",
+  "source_file": "inn_walking-adult.glb",
+  "source_sha256": "e47dc68189db9d6e1dd2b7b0fe242382fd663406d9f7dd09e101534731e4b7a2",
+  "t": "2026-10-22T06:24:50Z"
+ }
+}
