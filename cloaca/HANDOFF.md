@@ -80,3 +80,42 @@ rotation on suspected exposure. Rotation is the Director's call, not mine: it is
 the final report, once, and not acted on unilaterally. No credential is written into any lane file;
 `validate/v_secrets.py` scans every commit for credential shapes and its negative test proves it
 catches one.
+
+## Addendum 2026-10-22T05:51Z — sandbox restart, recovery, and what it changed
+
+The station restarted the sandbox at a turn boundary. The working tree came back from a
+capped snapshot: every uncommitted binary was gone (chunk, engine, station, yard,
+embankment and people blends, drawing rasters, proof pngs, build logs), installed packages
+(blender, rsvg-convert, ffmpeg) were gone, and the local .git had rolled back to a
+pre-cloaca commit. R3 decided the outcome: everything committed and pushed survived,
+including the pipeline's own batch pushes to S0861.
+
+Recovery order, as executed (this is the standing procedure, C-022):
+1. beats first — beatloop and watchdog relaunched before anything else;
+2. git fetch + reset to the remote head (45a8787), branch reattached, credential helper
+   repointed at /home/user/.private/git-credentials (a global helper that expanded
+   the token variable at call time was sending an empty password to pushes — D-017 records
+   the token-in-config slip made and unmade during this);
+3. packages reinstalled (apt: blender, librsvg2-bin, ffmpeg);
+4. ignored artifacts regenerated from committed tools: 510 drawing sheets + rasters at
+   class pixels, 28 tide charts, 22 engines built and animated, 4 stations, 6 overflows,
+   3 yards, 3 embankment reaches, 120 figures;
+5. loops relaunched from their state files: compress_shards, pipeline (resumed at S0862),
+   render loop (resumed at 546 registered views);
+6. battery re-run: 24 PASS · 1 PENDING (v_renders) · 0 FAIL; GATES refreshed by the new
+   tools/gates.py.
+
+Losses that mattered and their fixes:
+- build/raster.sh existed only as a heredoc in a dead shell — tools/make_raster_sh.sh now
+  carries its content committed, and the raster path bug it hid (pngs landing beside the
+  svgs, HM class at the wrong pixel size) is fixed in the committed copy;
+- tools/state.py was gz-blind: with plain shards pruned it reported a 72,106-brick census
+  against a 117 M-brick mesh — the beats would have been false (§32). It now counts gz
+  masters with a stat-validated cache, compares census to ledger per settled chunk instead
+  of in raw totals (a mid-batch race is reported as racing, never as a mismatch), and gauges
+  pct against the C-001 predicted 175,101,280 rather than the 61 M floor, which no longer
+  reports >100 % while chunks remain unplaced;
+- the GATES one-off was replaced by tools/gates.py, rerunnable after any battery.
+
+Standing conclusion: the working tree is a cache. Only pushes survive. Any artifact that
+cannot be pushed must be regenerable from something that was.
