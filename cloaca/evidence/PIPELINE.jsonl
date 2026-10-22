@@ -1197,3 +1197,12 @@
 {"build_rc": 0, "build_s": 5.29, "census": 146538, "chunk": "S1213", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 540.1, "t": "2026-10-22T07:42:14Z", "u_hash_match": true, "wall_s": 18}
 {"build_rc": 0, "build_s": 3.17, "census": 146538, "chunk": "S1214", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 541.0, "t": "2026-10-22T07:42:25Z", "u_hash_match": true, "wall_s": 11}
 {"build_rc": 0, "build_s": 3.2, "census": 146538, "chunk": "S1215", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 546.9, "t": "2026-10-22T07:42:34Z", "u_hash_match": true, "wall_s": 9}
+{"build_rc": 0, "build_s": 4.89, "census": 146538, "chunk": "S1216", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 534.5, "t": "2026-10-22T07:42:49Z", "u_hash_match": true, "wall_s": 15}
+{"build_rc": 0, "build_s": 6.65, "census": 146538, "chunk": "S1217", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 544.4, "t": "2026-10-22T07:43:06Z", "u_hash_match": true, "wall_s": 17}
+{"build_rc": 0, "build_s": 5.0, "census": 146538, "chunk": "S1218", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 541.3, "t": "2026-10-22T07:43:22Z", "u_hash_match": true, "wall_s": 16}
+{"build_rc": 0, "build_s": 2.85, "census": 146538, "chunk": "S1219", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 546.5, "t": "2026-10-22T07:43:31Z", "u_hash_match": true, "wall_s": 9}
+{"build_rc": 0, "build_s": 4.5, "census": 146538, "chunk": "S1220", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 537.0, "t": "2026-10-22T07:43:45Z", "u_hash_match": true, "wall_s": 14}
+{"build_rc": 0, "build_s": 5.97, "census": 146538, "chunk": "S1221", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 545.4, "t": "2026-10-22T07:44:04Z", "u_hash_match": true, "wall_s": 19}
+{"build_rc": 0, "build_s": 4.39, "census": 146538, "chunk": "S1222", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 544.7, "t": "2026-10-22T07:44:22Z", "u_hash_match": true, "wall_s": 18}
+{"build_rc": 0, "build_s": 2.7, "census": 146538, "chunk": "S1223", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 544.3, "t": "2026-10-22T07:44:31Z", "u_hash_match": true, "wall_s": 9}
+{"build_rc": 0, "build_s": 4.02, "census": 146538, "chunk": "S1224", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 530.6, "t": "2026-10-22T07:44:44Z", "u_hash_match": true, "wall_s": 13}
