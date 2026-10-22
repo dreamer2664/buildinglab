@@ -38,8 +38,27 @@ def reset_scene() -> bpy.types.Collection:
     return sc.collection
 
 
+def append_scan_to_wonder(col: bpy.types.Collection, scan_id: str, name: str, loc: tuple[float, float, float], height: float, rot_z: float = 0.0) -> None:
+    ready_dir = os.path.join(CRYSTAL_DIR, "build", "scans", "ready")
+    bp = os.path.join(ready_dir, f"{scan_id}.blend")
+    if not os.path.exists(bp):
+        return
+    with bpy.data.libraries.load(bp, link=False) as (df, dt):
+        dt.objects = list(df.objects)
+    for o in dt.objects:
+        if o and o.type == "MESH":
+            o.name = name
+            o.location = loc
+            o.scale = (height, height, height)
+            o.rotation_euler = (0.0, 0.0, rot_z)
+            o["scan_id"] = scan_id
+            col.objects.link(o)
+
+
 def build_fountain(wonders_dir: str) -> dict:
     col = reset_scene()
+    append_scan_to_wonder(col, "wonder_tiered_fountain", "Osler_Crystal_Fountain_Scan_Core", (0.0, 0.0, 0.0), 8.23)
+    append_scan_to_wonder(col, "wonder_victorian_fountain", "Osler_Crystal_Fountain_Pedestal_Scan", (0.0, 0.0, 0.35), 4.60)
     flint_mat = kb.get_or_create_material("Osler_Cut_Flint_Glass", (0.94, 0.97, 0.99, 1.0), metallic=0.0, roughness=0.015, transmission=0.96, ior=1.575)
     water_mat = kb.get_or_create_material("Chelsea_Basin_Water", (0.82, 0.92, 0.95, 1.0), metallic=0.0, roughness=0.04, transmission=0.88, ior=1.333)
     rod_mat = kb.get_or_create_material("Osler_Concealed_Iron_Armature", (0.25, 0.27, 0.30, 1.0), metallic=0.88, roughness=0.30)
@@ -95,6 +114,8 @@ def build_fountain(wonders_dir: str) -> dict:
 
 def build_organ(wonders_dir: str) -> dict:
     col = reset_scene()
+    append_scan_to_wonder(col, "arch_gothic_window_tracery", "Gray_Davison_Gothic_Organ_Case_Scan", (0.0, 51.8, 7.32), 7.80)
+    append_scan_to_wonder(col, "exh_grand_piano", "Organ_Loft_Erard_Grand_Piano_Scan", (-2.2, 49.5, 7.32), 1.45, 0.4)
     pipes = co.generate_organ_schedule()
     gilt_mat = kb.get_or_create_material("Organ_Gilt_Pipe_Metal", (0.86, 0.71, 0.24, 1.0), metallic=0.92, roughness=0.20)
     spotted_mat = kb.get_or_create_material("Organ_Spotted_TinLead", (0.72, 0.74, 0.77, 1.0), metallic=0.88, roughness=0.28)
@@ -147,6 +168,9 @@ def build_organ(wonders_dir: str) -> dict:
 
 def build_elms(wonders_dir: str) -> dict:
     col = reset_scene()
+    append_scan_to_wonder(col, "elm_tree_scan_01", "ELM_CENTER_Photogrammetry_Scan", (0.0, -14.2, 0.0), 27.5, 0.2)
+    append_scan_to_wonder(col, "elm_tree_scan_02", "ELM_NORTH_Photogrammetry_Scan", (0.0, 28.5, 0.0), 26.2, 1.1)
+    append_scan_to_wonder(col, "ph_jacaranda_tree", "ELM_SOUTH_Photogrammetry_Scan", (0.0, -42.0, 0.0), 25.4, 2.3)
     bark_mat = kb.get_or_create_material("HydePark_Elm_Bark", (0.24, 0.19, 0.14, 1.0), metallic=0.0, roughness=0.86)
     leaf_mats = [
         kb.get_or_create_material("Elm_Foliage_North_Oct", (0.21, 0.39, 0.16, 1.0), metallic=0.0, roughness=0.62),

@@ -20,5 +20,6 @@
 | Erection Film (`3840 × 2160`) | `2,880` unique frames, rate `±20%` | `2,880` unique frames, `+1.28%` rate delta | `film/SHOTS.jsonl`, `ledgers/RATES.jsonl` | `v_erection.py`, `v_frames.py` |
 | Walk & Class Views | `2,471` (`1,851` walk + `620` class) | `2,471` (`0.3048 m` walk step, `≥60%` cov) | `evidence/RENDERS.jsonl`, `ledgers/WALK_STATIONS.jsonl` | `v_walk.py`, `v_renders.py` |
 | Engineering Drawings | `48` sheets at `3840 × 2160` | `48` (`drawings/SHEET_01..48.svg`) | `drawings/SHEET_*.svg` | `v_drawings.py` |
+| Open-Source 3D Scans & PBR Library | Director Override (`100+` scans) | `146` downloaded / `122` normalized `.blend` assets (`M01..M30` 1-to-1) | `evidence/OPEN_SCANS_LIBRARY.json`, `tools/render_cycles_views.py` | `v_renders.py` |
 | Validators & Negative Tests | `26+` validators refused once | `27` validators (`27/27` PASS & `27/27` REFUSE) | `validate/v_*.py`, `evidence/NEGATIVE_TESTS.md` | All `v_*.py` |
 | Automated Test Assertions | `≥ 2,400` assertions across 5 suites | `3,736` assertions across 5 suites | `tests/{unit,geometry,catalogue,crowd_light,soak}.py` | All `tests/*.py` |

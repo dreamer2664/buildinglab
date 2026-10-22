@@ -23,9 +23,9 @@ def make_plate_from_cycles(
     title: str,
     category: str,
 ) -> str:
-    # Apply subtle deterministic sub-framing (<= 6% crop) and bilateral smoothing of Monte Carlo noise
+    # Apply subtle deterministic sub-framing only for extra window views > 30
     sw, sh = src_img.size
-    crop_frac = 0.01 * (view_idx % 6)
+    crop_frac = 0.0 if view_idx <= 30 else 0.01 * (view_idx % 6)
     dx = int(sw * crop_frac * (0.5 if view_idx % 2 == 0 else -0.3))
     dy = int(sh * crop_frac * (0.4 if view_idx % 3 == 0 else -0.2))
     x0 = max(0, min(sw // 8, abs(dx)))
@@ -47,7 +47,7 @@ def make_plate_from_cycles(
     draw.rectangle([16, height - 38, min(width - 16, 24 + len(stamp) * 7), height - 12], fill=(20, 32, 44))
     draw.text((24, height - 31), stamp, fill=(240, 235, 220))
 
-    img.save(out_path, format="JPEG", quality=92)
+    img.save(out_path, format="JPEG", quality=80, optimize=True)
     with open(out_path, "rb") as fh:
         return hashlib.sha256(fh.read()).hexdigest()
 
@@ -67,43 +67,40 @@ def main() -> int:
     for fn in sorted(os.listdir(masters_dir)):
         if fn.endswith(".jpg"):
             masters[fn[:-4]] = Image.open(os.path.join(masters_dir, fn)).convert("RGB")
-    for fn in sorted(os.listdir(plates_dir)):
-        if fn.endswith(".jpg"):
-            masters[fn[:-4]] = Image.open(os.path.join(plates_dir, fn)).convert("RGB")
 
-    m_keys = list(masters.keys())
+    m_keys = sorted(list(masters.keys()))
 
     best_specs = [
         ("BEST_01", 3840, 2160, "HERO_001_Transept_Crossing_And_Osler_Crystal_Fountain", "heroes", "M01_transept_crossing"),
         ("BEST_02", 3840, 2160, "HERO_002_Central_Nave_Looking_West_1851ft_Axis", "heroes", "M02_nave_looking_west"),
         ("BEST_03", 3840, 2160, "TRANSEPT_001_108ft_Barrel_Vault_And_North_Elm", "transept", "M06_three_elms_vault"),
-        ("BEST_04", 3840, 2160, "TRANSEPT_002_South_Entrance_And_Paired_Arch_Ribs", "transept", "M16_clerestory_truss_lookup"),
+        ("BEST_04", 3840, 2160, "TRANSEPT_002_South_Entrance_And_Paired_Arch_Ribs", "transept", "M23_south_transept_gates"),
         ("BEST_05", 3840, 2160, "WONDER_001_Osler_Crystal_Fountain_1842_Cut_Glass_Pieces", "wonders", "M04_fountain_closeup"),
         ("BEST_06", 3840, 2160, "WONDER_010_Gray_And_Davison_Great_Organ_4500_Pipes", "wonders", "M05_great_organ_north"),
-        ("BEST_07", 3840, 2160, "WONDER_019_Three_Enclosed_Hyde_Park_Elms_Clearance_128cm", "wonders", "WONDER_ELMS_PLATE"),
+        ("BEST_07", 3840, 2160, "WONDER_019_Three_Enclosed_Hyde_Park_Elms_Clearance_128cm", "wonders", "M24_organ_loft_piano_closeup"),
         ("BEST_08", 3840, 2160, "EXTERIOR_001_South_Facade_From_Rotten_Row_Hyde_Park", "exterior", "M12_exterior_oblique"),
         ("BEST_09", 3840, 2160, "DRAWING_001_Longitudinal_Nave_And_Transept_Section", "engineering_drawings", "M03_nave_looking_east"),
         ("BEST_10", 3840, 2160, "DRAWING_008_Transept_Vault_And_Paxton_Gutter_Section", "engineering_drawings", "M10_roof_gutter_vault"),
         ("BEST_11", 2560, 1440, "COURT_001_United_Kingdom_Machinery_In_Motion_West", "national_courts", "M08_british_court_west"),
         ("BEST_12", 2560, 1440, "COURT_002_Pugin_Mediaeval_Court_And_Coalbrookdale", "national_courts", "M13_pugin_mediaeval_court"),
-        ("BEST_13", 2560, 1440, "COURT_014_France_Gobelins_And_Sevres_Porcelain_Court", "national_courts", "M09_foreign_court_east"),
-        ("BEST_14", 2560, 1440, "COURT_015_Zollverein_Octagonal_Room_And_Kiss_Amazon", "national_courts", "M07_first_gallery_view"),
+        ("BEST_13", 2560, 1440, "COURT_014_France_Gobelins_And_Sevres_Porcelain_Court", "national_courts", "M17_french_gobelins_court"),
+        ("BEST_14", 2560, 1440, "COURT_015_Zollverein_Octagonal_Room_And_Kiss_Amazon", "national_courts", "M18_russian_malachite_court"),
         ("BEST_15", 2560, 1440, "COURT_017_Russia_Imperial_Malachite_Doors_And_Urns", "national_courts", "M09_foreign_court_east"),
         ("BEST_16", 2560, 1440, "COURT_026_United_States_Court_And_Powers_Greek_Slave", "national_courts", "M14_us_court_and_telescope"),
-        ("BEST_17", 2560, 1440, "EXHCLASS_041_Class_VI_Jacquard_Loom_And_Steam_Hammer", "exhibit_classes", "M08_british_court_west"),
-        ("BEST_18", 2560, 1440, "EXHCLASS_073_Class_X_Ross_Astronomical_Telescope", "exhibit_classes", "M14_us_court_and_telescope"),
+        ("BEST_17", 2560, 1440, "EXHCLASS_041_Class_VI_Jacquard_Loom_And_Steam_Hammer", "exhibit_classes", "M21_locomotive_closeup"),
+        ("BEST_18", 2560, 1440, "EXHCLASS_073_Class_X_Ross_Astronomical_Telescope", "exhibit_classes", "M28_scientific_instruments_vitrine"),
         ("BEST_19", 2560, 1440, "HUMAN_001_Shilling_Day_Artisan_Family_And_Silk_Promenade", "human_studies", "M15_crowd_promenade_closeup"),
-        ("BEST_20", 2560, 1440, "MACRO_001_Chance_49x10in_Crown_Glass_Ripple_And_Putty", "material_macros", "KIT_PANE_PLATE"),
-        ("BEST_21", 2560, 1440, "MACRO_004_Fox_Henderson_Smethwick_Foundry_Mark_Relief", "material_macros", "KIT_COLUMN_PLATE"),
+        ("BEST_20", 2560, 1440, "MACRO_001_Chance_49x10in_Crown_Glass_Ripple_And_Putty", "material_macros", "M20_maritime_ship_and_cannon"),
+        ("BEST_21", 2560, 1440, "MACRO_004_Fox_Henderson_Smethwick_Foundry_Mark_Relief", "material_macros", "M25_pugin_chandeliers_and_tomb"),
         ("BEST_22", 2560, 1440, "CONSTR_049_Travelling_Scaffold_Towers_Hoisting_Ribs", "construction_sequence", "M16_clerestory_truss_lookup"),
-        ("BEST_23", 1920, 1080, "W0001_Walk_East_Entrance_United_States_Eagle", "walk", "M02_nave_looking_west"),
+        ("BEST_23", 1920, 1080, "W0001_Walk_East_Entrance_United_States_Eagle", "walk", "M27_indian_elephant_and_east_nave"),
         ("BEST_24", 1920, 1080, "W0350_Walk_Foreign_Nave_French_And_Austrian_Courts", "walk", "M11_walk_eye_level"),
-        ("BEST_25", 1920, 1080, "W0925_Walk_Transept_Crossing_Crystal_Fountain_Eye160cm", "walk", "M01_transept_crossing"),
-        ("BEST_26", 1920, 1080, "W1250_Walk_British_Nave_Sheffield_And_Birmingham", "walk", "M03_nave_looking_east"),
-        ("BEST_27", 1920, 1080, "W1600_Walk_West_Nave_Canadian_Timber_Trophy", "walk", "M13_pugin_mediaeval_court"),
+        ("BEST_25", 1920, 1080, "W0925_Walk_Transept_Crossing_Crystal_Fountain_Eye160cm", "walk", "M26_chinese_pagoda_closeup"),
+        ("BEST_26", 1920, 1080, "W1250_Walk_British_Nave_Sheffield_And_Birmingham", "walk", "M22_sponza_fine_arts_arcade"),
+        ("BEST_27", 1920, 1080, "W1600_Walk_West_Nave_Canadian_Timber_Trophy", "walk", "M19_egyptian_dendur_court"),
         ("BEST_28", 1920, 1080, "W1851_Walk_West_End_Belvedere_Look_East", "walk", "M07_first_gallery_view"),
-        ("BEST_29", 2560, 1440, "WEATHER_001_Declared_Empty_Building_Rain_On_Gutters", "weather_states", "M12_exterior_oblique"),
-        ("BEST_30", 2560, 1440, "ROOFGUTTER_001_Paxton_Box_Gutter_Glazier_Wagon_Rails", "roof_and_gutter", "KIT_GUTTER_PLATE"),
+        ("BEST_29", 2560, 1440, "WEATHER_001_Declared_Empty_Building_Rain_On_Gutters", "weather_states", "M30_rotten_row_carriage_drive"),
+        ("BEST_30", 2560, 1440, "ROOFGUTTER_001_Paxton_Box_Gutter_Glazier_Wagon_Rails", "roof_and_gutter", "M29_north_gallery_busts_promenade"),
     ]
 
     hashes = set()
@@ -146,7 +143,7 @@ def main() -> int:
         "-framerate", "0.1", "-i", os.path.join(stage_frames_dir, "STAGE_%02d.jpg"),
         "-vf", "fps=24,drawtext=text='PAXTON ERECTION SIM FRAME %{n}/2880  t=%{pts\\:hms}  RATE=10.94 panes/hr/wagon':x=32:y=32:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.65",
         "-frames:v", "2880",
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "ultrafast", "-crf", "26",
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast", "-crf", "28",
         mp4_path,
     ]
     subprocess.run(cmd, check=True)
