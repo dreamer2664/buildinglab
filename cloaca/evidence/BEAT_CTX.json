@@ -1,6 +1,6 @@
 {
+"line": "network pipeline + proof renders",
+"next": "sandbox restarted 05:2xZ: recovered from remote 45a8787, artifacts regenerated, loops relaunched (D-016/C-022). Now: chunks S0862->S1320, renders 546->1284, then G-stage refresh + blind test",
 "stage": "H",
-"line": "network pipeline + engines",
-"next": "engines measured (G5/G6 pass); next: four station blends, overflow penstocks and flap valves (v_facing), 120 figures (v_people), then renders toward 1,284",
-"t": "2026-10-21T22:41:50Z"
+"t": "2026-10-22T05:45:12Z"
 }

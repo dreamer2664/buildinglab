@@ -13,3 +13,4 @@ evidence/.beat_err
 evidence/.state.last
 drawings/png/
 drawings/svg/
+evidence/.shard_cache.json
