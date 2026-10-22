@@ -162,3 +162,4 @@ Provenance class per row:
 **Row count: 149** (gate floor is 120 — PASS).
 
 Sources are named per row. Where two rows disagree the disagreement is carried into `CONFLICTS.md` with an adjudication, not resolved by preference.
+| R-150 | Innerscene 3D library (innerscene.com/tools/library, tag people) | 13 CC0 realistic human figures for the 120 navvies (C-023) | CC0 1.0; built from MakeHuman/MPFB CC0 assets; poses CC BY 4.0 Ian Mason 100STYLE | 2026-10-22T06:47:28Z |
