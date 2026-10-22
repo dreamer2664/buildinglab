@@ -104,8 +104,11 @@ elif kind in ("engine_closeup", "mechanism_detail", "iron_macro"):
     prims.append(lamp((c.x + 1.0, c.y - 1.0, c.z + 1.6), 90.0))
 elif kind in ("station_hero", "engine_house"):
     if kind == "station_hero":
-        world(0.05); prims.append(sun())
-        look_at((70, -60, 26), (0, 0, 8), 35)
+        world(0.25); prims.append(sun())
+        _so = [o for o in scene.objects if o.type == 'LIGHT' and o.data.type == 'SUN'][-1]
+        _so.data.energy = 3.0
+        _so.rotation_euler = Euler((math.radians(55), 0, math.radians(35)))
+        look_at((95, -80, 26), (0, 0, 9), 32)
     else:
         # interior: look down the hall axis so the scanned colonnade, arcade and trusses
         # read; gas lamps in two rows at gallery level, warm and strong enough to carry
@@ -119,8 +122,8 @@ elif kind in ("station_hero", "engine_house"):
         look_at((x0, -4.5, 2.6), (x0 + 40, -1.0, 6.5), 28)
         for i in range(8):
             lx = x0 + 3 + i * 5.0
-            prims.append(lamp((lx, 3.0, 8.5), 1200.0))
-            prims.append(lamp((lx, -3.0, 8.5), 1200.0))
+            prims.append(lamp((lx, 3.0, 8.5), 700.0))
+            prims.append(lamp((lx, -3.0, 8.5), 700.0))
 elif kind in ("construction_yard", "centring_arch"):
     world(0.05); prims.append(sun())
     if kind == "construction_yard":

@@ -56,9 +56,26 @@ def brick_material():
     mixn = nt.nodes.new("ShaderNodeMix"); mixn.data_type = "RGBA"; mixn.blend_type = "MULTIPLY"
     # RGBA sockets of ShaderNodeMix are inputs 6/7 and output 2; named lookup hits floats
     mixn.inputs[0].default_value = 1.0
-    mixn.inputs[7].default_value = (0.42, 0.20, 0.15, 1)
+    mixn.inputs[7].default_value = (0.36, 0.18, 0.14, 1)   # desaturated stock brick
     nt.links.new(ti.outputs["Color"], mixn.inputs[6])
-    nt.links.new(mixn.outputs[2], b.inputs["Base Color"])
+    # scanned grain alone reads flat at hall scale: lay brick courses over it (230 x 75 mm
+    # with a 12 mm mortar) and bump the mortar joints so raking lamp light catches them
+    brk = nt.nodes.new("ShaderNodeTexBrick")
+    brk.inputs["Color1"].default_value = (0.36, 0.17, 0.12, 1)
+    brk.inputs["Color2"].default_value = (0.30, 0.14, 0.10, 1)
+    brk.inputs["Mortar"].default_value = (0.35, 0.33, 0.30, 1)
+    brk.inputs["Mortar Size"].default_value = 0.02
+    brk.inputs["Brick Width"].default_value = 0.23
+    brk.inputs["Row Height"].default_value = 0.075
+    nt.links.new(tc.outputs["Object"], brk.inputs["Vector"])   # true 230 mm courses, not x12
+    mix2 = nt.nodes.new("ShaderNodeMix"); mix2.data_type = "RGBA"; mix2.blend_type = "MULTIPLY"
+    mix2.inputs[0].default_value = 0.55
+    nt.links.new(mixn.outputs[2], mix2.inputs[6])
+    nt.links.new(brk.outputs["Color"], mix2.inputs[7])
+    nt.links.new(mix2.outputs[2], b.inputs["Base Color"])
+    bmp = nt.nodes.new("ShaderNodeBump"); bmp.inputs["Strength"].default_value = 0.5
+    nt.links.new(brk.outputs["Fac"], bmp.inputs["Height"])
+    nt.links.new(bmp.outputs["Normal"], b.inputs["Normal"])
     b.inputs["Roughness"].default_value = 0.88
     return mm
 BRICK = brick_material()
@@ -72,11 +89,11 @@ if "Transmission Weight" in GLASS.node_tree.nodes["Principled BSDF"].inputs:
 # quarry tiles: procedural checker + grime noise (no scanned tile in the obtained set - recorded)
 TILE = mat("quarry_tile", (0.30, 0.16, 0.12), 0.6)
 nt = TILE.node_tree; b = nt.nodes["Principled BSDF"]
-ck = nt.nodes.new("ShaderNodeTexChecker"); ck.inputs["Scale"].default_value = 2.2
+ck = nt.nodes.new("ShaderNodeTexChecker"); ck.inputs["Scale"].default_value = 1.2
 tcq = nt.nodes.new("ShaderNodeTexCoord")
-nt.links.new(tcq.outputs["Object"], ck.inputs["Vector"])   # object space: 0.45 m tiles, not bbox
-ck.inputs["Color1"].default_value = (0.30, 0.16, 0.12, 1)
-ck.inputs["Color2"].default_value = (0.24, 0.13, 0.10, 1)
+nt.links.new(tcq.outputs["Object"], ck.inputs["Vector"])   # object space: 0.8 m stone flags
+ck.inputs["Color1"].default_value = (0.32, 0.30, 0.27, 1)
+ck.inputs["Color2"].default_value = (0.26, 0.24, 0.21, 1)
 nz = nt.nodes.new("ShaderNodeTexNoise"); nz.inputs["Scale"].default_value = 14.0
 mix = nt.nodes.new("ShaderNodeMix"); mix.data_type = "RGBA"; mix.inputs[0].default_value = 0.25
 nt.links.new(ck.outputs["Color"], mix.inputs[6])

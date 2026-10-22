@@ -1,1 +1,3 @@
 {"count": 1, "ids": ["PP-000"], "prefix": "PP", "reason": "figures rebuilt from open-source scans (C-023); proofs must show the scanned bodies, not the procedural boxes", "t": "2026-10-22T06:47:57Z"}
+{"count": 1, "ids": ["SH-abbey_mills-0"], "prefix": "SH", "reason": "station v3 materials + hero lighting; proofs EH/SH acceptable", "t": "2026-10-22T07:23:35Z"}
+{"count": 1, "ids": ["EH-abbey_mills-0"], "prefix": "EH", "reason": "station v3 materials; interior proof acceptable", "t": "2026-10-22T07:23:35Z"}
