@@ -2,3 +2,4 @@
 {"count": 1, "ids": ["SH-abbey_mills-0"], "prefix": "SH", "reason": "station v3 materials + hero lighting; proofs EH/SH acceptable", "t": "2026-10-22T07:23:35Z"}
 {"count": 1, "ids": ["EH-abbey_mills-0"], "prefix": "EH", "reason": "station v3 materials; interior proof acceptable", "t": "2026-10-22T07:23:35Z"}
 {"count": 3, "ids": ["SH-chelsea-0", "SH-crossness-0", "SH-abbey_mills-0"], "prefix": "SH", "reason": "hero sun elevation fix; loop re-renders all 16 with final recipe", "t": "2026-10-22T07:46:39Z"}
+{"count": 1, "ids": ["CY-yard-1-0"], "prefix": "CY", "reason": "yard v2: scanned godown store, ground strips, centring rotation fix", "t": "2026-10-22T07:54:59Z"}
