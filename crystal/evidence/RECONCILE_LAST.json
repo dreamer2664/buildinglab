@@ -1,28 +1,23 @@
 {
-  "at": "2026-10-21T19:41:00Z",
+  "at": "2026-10-22T08:27:48Z",
   "channel_tests": [
     "LOGOe7P3GyLI"
   ],
-  "coverage": 42.0,
-  "expected": 12,
+  "coverage": 89.5,
+  "expected": 30,
   "extra": [],
-  "found": 13,
+  "found": 31,
   "gaps": [
     {
-      "from": 4,
-      "secs": 3013,
-      "to": 5
-    },
-    {
-      "from": 9,
-      "secs": 2290,
-      "to": 10
+      "from": 16,
+      "secs": 1443,
+      "to": 17
     }
   ],
-  "local": 13,
+  "local": 31,
   "missing": [],
-  "server_beats": 13,
-  "snapshot": "evidence/HB_RECONCILE/20261021T194100Z.jsonl",
+  "server_beats": 30,
+  "snapshot": "evidence/HB_RECONCILE/20261022T082748Z.jsonl",
   "verdict": "PASS",
   "watchdog_alarms": [
     "8c9eHQTaQZDi",

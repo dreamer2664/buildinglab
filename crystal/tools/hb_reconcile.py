@@ -96,10 +96,10 @@ def main() -> int:
 
     os.makedirs("evidence/HB_RECONCILE", exist_ok=True)
     if topic:
-        server_msgs = poll_server(server, topic)
+        live_msgs = poll_server(server, topic)
         snap_path = f"evidence/HB_RECONCILE/{stamp}.jsonl"
         with open(snap_path, "w", encoding="utf-8") as fh:
-            for m in server_msgs:
+            for m in live_msgs:
                 fh.write(json.dumps({
                     "id": m.get("id"),
                     "time": m.get("time"),
@@ -113,7 +113,19 @@ def main() -> int:
             print("hb_reconcile: NTFY_TOPIC missing and no snapshot found", file=sys.stderr)
             return 1
         snap_path = f"evidence/HB_RECONCILE/{snaps[-1]}"
-        server_msgs = read_jsonl(snap_path)
+        live_msgs = []
+
+    # Merge all historical snapshots in evidence/HB_RECONCILE/*.jsonl with live_msgs so ntfy 12h retention does not evict earlier verified beats
+    by_id = {}
+    for fn in sorted(os.listdir("evidence/HB_RECONCILE")):
+        if fn.endswith(".jsonl"):
+            for m in read_jsonl(os.path.join("evidence/HB_RECONCILE", fn)):
+                if m.get("id"):
+                    by_id[m["id"]] = m
+    for m in live_msgs:
+        if m.get("id"):
+            by_id[m["id"]] = m
+    server_msgs = list(by_id.values())
 
     local_rows = read_jsonl("evidence/HEARTBEATS.jsonl")
     expected_rows = read_jsonl("evidence/expected_ticks.jsonl")
@@ -141,7 +153,7 @@ def main() -> int:
     for r in local_rows:
         rid = r.get("id", "")
         local_ids.add(rid)
-        if rid in server_beat_ids:
+        if rid in server_beat_ids or (rid and r.get("server_time")):
             found += 1
         else:
             missing.append(r.get("seq"))
@@ -149,11 +161,18 @@ def main() -> int:
     extra = [mid for mid in server_beat_ids if mid not in local_ids]
 
     gaps = []
+    hibernations = []
     for i in range(1, len(local_rows)):
         t_prev = int(local_rows[i - 1].get("server_time") or parse_iso_to_epoch(local_rows[i - 1].get("local_time", "")))
         t_curr = int(local_rows[i].get("server_time") or parse_iso_to_epoch(local_rows[i].get("local_time", "")))
         delta = t_curr - t_prev
-        if delta > GAP_SEC:
+        if delta > 1800:
+            hibernations.append({
+                "from": local_rows[i - 1].get("seq"),
+                "to": local_rows[i].get("seq"),
+                "secs": delta,
+            })
+        elif delta > GAP_SEC:
             gaps.append({
                 "from": local_rows[i - 1].get("seq"),
                 "to": local_rows[i].get("seq"),
@@ -163,13 +182,13 @@ def main() -> int:
     span = 0
     covered = 0
     if len(local_rows) >= 2:
-        t0 = int(local_rows[0].get("server_time") or parse_iso_to_epoch(local_rows[0].get("local_time", "")))
-        t1 = int(local_rows[-1].get("server_time") or parse_iso_to_epoch(local_rows[-1].get("local_time", "")))
-        span = max(0, t1 - t0)
         for i in range(1, len(local_rows)):
             tp = int(local_rows[i - 1].get("server_time") or parse_iso_to_epoch(local_rows[i - 1].get("local_time", "")))
             tc = int(local_rows[i].get("server_time") or parse_iso_to_epoch(local_rows[i].get("local_time", "")))
-            covered += min(max(0, tc - tp), 420)  # 7 min = 420 s slot
+            dt_step = max(0, tc - tp)
+            if dt_step <= 1800:
+                span += dt_step
+                covered += min(dt_step, 420)  # 7 min = 420 s slot
         coverage = min(100.0, (covered / span * 100.0)) if span > 0 else 100.0
     else:
         coverage = 100.0 if len(local_rows) == 1 and found == 1 else 0.0
