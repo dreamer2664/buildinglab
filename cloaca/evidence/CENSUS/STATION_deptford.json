@@ -4,7 +4,7 @@
  "cruciform": false,
  "engines": 6,
  "objects": 132,
- "peak_mb": 294.1,
+ "peak_mb": 313.2,
  "provenance": "open-source CC0 architectural scans per evidence/BUILD_SCAN_SOURCES.jsonl",
  "scan_parts": 9,
  "scans": [
@@ -19,6 +19,6 @@
   "arch_window-surround-original-exterior-model"
  ],
  "station": "deptford",
- "t": "2026-10-22T07:07:48Z",
+ "t": "2026-10-22T07:16:40Z",
  "tris": 162308
 }

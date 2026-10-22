@@ -1,3 +1,5 @@
 {"a": "2026-10-21T21:11:44+00:00", "b": "2026-10-21T21:24:14+00:00", "gap_min": 12.5, "expected_beats_missed": 0, "code": "HB-GAP"}
 {"a": "2026-10-21T21:24:14+00:00", "b": "2026-10-21T21:37:59+00:00", "gap_min": 13.8, "expected_beats_missed": 0, "code": "HB-GAP"}
 {"a": "2026-10-21T21:37:59+00:00", "b": "2026-10-21T21:52:34+00:00", "gap_min": 14.6, "expected_beats_missed": 1, "code": "HB-GAP"}
+{"a": "2026-10-21T22:59:24+00:00", "b": "2026-10-22T05:25:01+00:00", "gap_min": 385.6, "expected_beats_missed": 54, "code": "HB-GAP"}
+{"a": "2026-10-22T05:49:07+00:00", "b": "2026-10-22T06:31:49+00:00", "gap_min": 42.7, "expected_beats_missed": 5, "code": "HB-GAP"}

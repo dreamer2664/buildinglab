@@ -4,7 +4,7 @@
  "cruciform": false,
  "engines": 4,
  "objects": 109,
- "peak_mb": 313.9,
+ "peak_mb": 321.5,
  "provenance": "open-source CC0 architectural scans per evidence/BUILD_SCAN_SOURCES.jsonl",
  "scan_parts": 9,
  "scans": [
@@ -19,6 +19,6 @@
   "arch_window-surround-original-exterior-model"
  ],
  "station": "chelsea",
- "t": "2026-10-22T07:07:51Z",
+ "t": "2026-10-22T07:16:42Z",
  "tris": 142696
 }
