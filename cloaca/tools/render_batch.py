@@ -119,7 +119,9 @@ elif kind in ("station_hero", "engine_house"):
                 wx = o.location.x if abs(o.location.x) > 1 else min((o.matrix_world @ v.co).x for v in o.data.vertices)
         if wx is None: wx = -18.0
         x0 = wx + 4.0
-        look_at((x0, -4.5, 2.6), (x0 + 40, -1.0, 6.5), 28)
+        fl = bpy.data.objects.get([o.name for o in bpy.data.objects if o.name.endswith("/HOUSE/FLOOR-001")][0])
+        D = fl.dimensions.y
+        look_at((x0, -D / 2 + 4.2, 7.4), (x0 + 45, 0.0, 4.0), 30)   # gallery height, inboard of capitals
         for i in range(8):
             lx = x0 + 3 + i * 5.0
             prims.append(lamp((lx, 3.0, 8.5), 700.0))
