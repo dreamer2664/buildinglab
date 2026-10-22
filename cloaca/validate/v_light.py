@@ -11,6 +11,8 @@ def main():
     bad = []
     drawings = [r for r in ren if r.get("kind") == "drawing"]
     ren = [r for r in ren if r.get("kind") != "drawing"]   # a sheet carries no lamps; counted, not lit
+    blind = [r for r in ren if r.get("blind_arm") == "control"]
+    ren = [r for r in ren if r.get("blind_arm") != "control"]  # G12 controls break the light law on purpose
     for r in ren:
         srcs = r.get("light_sources") or []
         if not srcs: bad.append(f"{r.get('id')}: no sources listed"); continue
@@ -20,5 +22,6 @@ def main():
             elif not any(a in sl for a in ALLOWED): bad.append(f"{r.get('id')}: '{s}' is not gas, fire or daylight")
     return verdict("v_light", 1 if bad else 0, {"renders": len(ren), "drawings_exempt": len(drawings),
                    "sources_listed": sum(len(r.get('light_sources') or []) for r in ren),
+                   "blind_controls_exempt": len(blind),
                    "violations": len(bad)}, "; ".join(bad[:4]))
 if __name__ == "__main__": sys.exit(main())

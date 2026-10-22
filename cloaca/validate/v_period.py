@@ -12,6 +12,8 @@ def main():
     probs = []
     drawings = [r for r in ren if r.get("kind") == "drawing"]
     ren = [r for r in ren if r.get("kind") != "drawing"]
+    blind = [r for r in ren if r.get("blind_arm") == "control"]
+    ren = [r for r in ren if r.get("blind_arm") != "control"]  # G12 controls break period law on purpose
     for r in ren:
         srcs = [s.lower() for s in r.get("light_sources", [])]
         if not srcs: probs.append(f"{r.get('id')} lists no light sources (G10)")
@@ -29,7 +31,8 @@ def main():
                 g = json.loads(l)["g"]; n += 1
                 if not (0 <= g <= 255): fam += 1
     return verdict("v_period", 1 if probs else (0 if ren else 3),
-                   {"renders_audited": len(ren), "electric_sources": len([p for p in probs if 'light source' in p]),
+                   {"renders_audited": len(ren), "blind_controls_exempt": len(blind),
+                    "electric_sources": len([p for p in probs if 'light source' in p]),
                     "bricks_palette_checked": n, "outside_family": fam},
                    "; ".join(probs[:3]) if probs else "gas, fire and daylight only; palette inside the stock family")
 if __name__ == "__main__": sys.exit(main())

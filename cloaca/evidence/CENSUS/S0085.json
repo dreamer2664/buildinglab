@@ -16,7 +16,7 @@
  "build_s": 2.92,
  "build_u_hash": "54bd077280d412aa223f3463bcb140b14a84ab1ef945bac0c1036bb61c80091a",
  "census_hash": "aaab0539641e472c4718d191e34c72672fddc729282333c44bdb14557778953a",
- "census_s": 2.32,
+ "census_s": 2.3,
  "chunk": "S0085",
  "faces": 879228,
  "file_bytes": 121363396,
@@ -27,11 +27,11 @@
  "ledger_u_hash": "54bd077280d412aa223f3463bcb140b14a84ab1ef945bac0c1036bb61c80091a",
  "line": "N-high",
  "objects": 36,
- "peak_mb": 550.2,
+ "peak_mb": 545.6,
  "profile": "ovoid-900",
  "proxy": false,
- "sha256_blend": "675f2cdf0adf7d078307315542986b7ebce9be9a626de29f4ca717bad715bcde",
- "t": "2026-10-21T20:24:50Z",
+ "sha256_blend": "517f6a8b6bc668dff84083abca1e23059df6cdb0f4c551f77dc25b4b396f5c90",
+ "t": "2026-10-22T12:03:42Z",
  "u_hash_match": true,
  "verts": 1172304
 }
