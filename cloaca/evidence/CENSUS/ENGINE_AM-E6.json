@@ -1,5 +1,5 @@
 {
- "build_s": 0.55,
+ "build_s": 0.43,
  "engine": "AM-E6",
  "file_bytes": 24731020,
  "graph_edges": 13,
@@ -8,6 +8,6 @@
  "match": true,
  "part_objects": 4208,
  "parts_hash": "d3ca91d3976dcaa7627737373a09cb4dd4a6354120087dc05feba8254be0b022",
- "peak_mb": 516.0,
- "t": "2026-10-21T22:30:32Z"
+ "peak_mb": 519.0,
+ "t": "2026-10-22T05:30:50Z"
 }
