@@ -1,0 +1,250 @@
+{
+ "arch_brick-chimney-original-exterior-model": {
+  "bytes": 3091348,
+  "dims_m": [
+   0.84,
+   0.64,
+   1.82
+  ],
+  "imported_tris": 49032,
+  "prepared_dims_m": [
+   11.08,
+   8.44,
+   24.0
+  ],
+  "scan_id": "arch_brick-chimney-original-exterior-model",
+  "sha256": "5e54ca9c1bcbfcfe1434157b40c268772892391d5ff22bc0cf826b2cc2584ad8",
+  "source_file": "arch_brick-chimney-original-exterior-model.glb",
+  "source_sha256": "a2df76d1d6b4108c58705315258f7bb9d7b0f54a6a9f9a0791ffc6d477784b98",
+  "t": "2026-10-22T06:51:57Z",
+  "textures_written": [
+   "tex_arch_brick-chimney-original-exterior-model_0.png",
+   "tex_arch_brick-chimney-original-exterior-model_1.png"
+  ],
+  "tris": 30000
+ },
+ "arch_cornice-run-original-exterior-model": {
+  "bytes": 71096,
+  "dims_m": [
+   1.0,
+   0.26,
+   0.19
+  ],
+  "imported_tris": 940,
+  "prepared_dims_m": [
+   1.0,
+   0.26,
+   0.19
+  ],
+  "scan_id": "arch_cornice-run-original-exterior-model",
+  "sha256": "5fcb814a30945de1d30e21bff4b39c056b2bebf831ba85b8546523c9d5f22ca8",
+  "source_file": "arch_cornice-run-original-exterior-model.glb",
+  "source_sha256": "4a470263c6662f2bcb3be33d7e07edcc9aae9261fba221992ed9b9a8d1db2e80",
+  "t": "2026-10-22T06:52:01Z",
+  "textures_written": [],
+  "tris": 940
+ },
+ "arch_doric-column-original-exterior-model": {
+  "bytes": 571444,
+  "dims_m": [
+   0.6,
+   0.6,
+   3.0
+  ],
+  "imported_tris": 5100,
+  "prepared_dims_m": [
+   1.2,
+   1.2,
+   6.0
+  ],
+  "scan_id": "arch_doric-column-original-exterior-model",
+  "sha256": "94f348239be320538865d54b96d54662b21d82777e895354d32a768856099f07",
+  "source_file": "arch_doric-column-original-exterior-model.glb",
+  "source_sha256": "1d7e3a5ec5e009020031862e7d69e31fdd92dee8e5894c033ebdcea33226bd70",
+  "t": "2026-10-22T06:52:04Z",
+  "textures_written": [
+   "tex_arch_doric-column-original-exterior-model_0.png"
+  ],
+  "tris": 5100
+ },
+ "arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model": {
+  "bytes": 5545140,
+  "dims_m": [
+   30.5,
+   22.25,
+   8.4
+  ],
+  "imported_tris": 1440,
+  "prepared_dims_m": [
+   30.5,
+   22.25,
+   8.4
+  ],
+  "scan_id": "arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model",
+  "sha256": "83d46f7d1ccb9ce847754736231264206de3b00890f6907b18febd05595bed91",
+  "source_file": "arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model.glb",
+  "source_sha256": "6e5babebe730bafa3e9f0dcc4b36b27102249a353cd8ad4439cec080ed744014",
+  "t": "2026-10-22T06:52:08Z",
+  "textures_written": [
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_0.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_1.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_2.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_3.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_4.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_5.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_6.png",
+   "tex_arch_godown-warehouse-30-x-20-m-with-loading-dock-3d-model_7.png"
+  ],
+  "tris": 1440
+ },
+ "arch_keystone-arch-original-exterior-model": {
+  "bytes": 478376,
+  "dims_m": [
+   2.24,
+   0.36,
+   2.81
+  ],
+  "imported_tris": 1064,
+  "prepared_dims_m": [
+   2.55,
+   0.41,
+   3.2
+  ],
+  "scan_id": "arch_keystone-arch-original-exterior-model",
+  "sha256": "4f34bdf7a75342fbdc3565442123d4445b9a0b75156c4c943777fedf04267da9",
+  "source_file": "arch_keystone-arch-original-exterior-model.glb",
+  "source_sha256": "fcfdc37dc3d771ca9c5993102ee7ac102b4b1048a6e4a1be99f643e8e479210c",
+  "t": "2026-10-22T06:52:11Z",
+  "textures_written": [
+   "tex_arch_keystone-arch-original-exterior-model_0.png",
+   "tex_arch_keystone-arch-original-exterior-model_1.png"
+  ],
+  "tris": 1064
+ },
+ "arch_pilaster-original-exterior-model": {
+  "bytes": 45184,
+  "dims_m": [
+   0.45,
+   0.17,
+   2.7
+  ],
+  "imported_tris": 564,
+  "prepared_dims_m": [
+   0.83,
+   0.31,
+   5.0
+  ],
+  "scan_id": "arch_pilaster-original-exterior-model",
+  "sha256": "a71f3a598e4636908b25d6d3fbef9b9f909c8b4d04f09b435de385b535e1af37",
+  "source_file": "arch_pilaster-original-exterior-model.glb",
+  "source_sha256": "40c372da57dcb487c6b4085017acc93c374460a49ee69afb1ae44bb70e10e808",
+  "t": "2026-10-22T06:52:13Z",
+  "textures_written": [],
+  "tris": 564
+ },
+ "arch_roof-ridge-original-exterior-model": {
+  "bytes": 3292,
+  "dims_m": [
+   1.0,
+   0.34,
+   0.2
+  ],
+  "imported_tris": 24,
+  "prepared_dims_m": [
+   1.0,
+   0.34,
+   0.2
+  ],
+  "scan_id": "arch_roof-ridge-original-exterior-model",
+  "sha256": "40d6c9885ccdcbee520d2be9ec6bcf5ea1f7333faf6ad731de1be406cbfa2157",
+  "source_file": "arch_roof-ridge-original-exterior-model.glb",
+  "source_sha256": "614d9f921de40dda8287bbd55ea79bfc3266fd41ebeaf188c2c05471e421567d",
+  "t": "2026-10-22T06:52:16Z",
+  "textures_written": [],
+  "tris": 24
+ },
+ "arch_square-column-original-exterior-model": {
+  "bytes": 44724,
+  "dims_m": [
+   0.5,
+   0.5,
+   3.0
+  ],
+  "imported_tris": 564,
+  "prepared_dims_m": [
+   0.83,
+   0.83,
+   5.0
+  ],
+  "scan_id": "arch_square-column-original-exterior-model",
+  "sha256": "554d7dac0af81cc09e2be27cb6d0dea46555859f1eedb0cf3b13eed87ca595a7",
+  "source_file": "arch_square-column-original-exterior-model.glb",
+  "source_sha256": "3d3ad5ef43db9558807a87712f17bd7d7c50e5eaed44a3f445259d11418e014c",
+  "t": "2026-10-22T06:52:20Z",
+  "textures_written": [],
+  "tris": 564
+ },
+ "arch_string-course-original-exterior-model": {
+  "bytes": 43436,
+  "dims_m": [
+   1.0,
+   0.18,
+   0.12
+  ],
+  "imported_tris": 564,
+  "prepared_dims_m": [
+   1.0,
+   0.18,
+   0.12
+  ],
+  "scan_id": "arch_string-course-original-exterior-model",
+  "sha256": "56777566ad73d3b4cb5bf49fec386ff41254e72fe835cc56a8e2d410734ec230",
+  "source_file": "arch_string-course-original-exterior-model.glb",
+  "source_sha256": "d7cbf69d65022422ee2a51814ef566d769c4cfdc33041a822acbfaca0c6ab44c",
+  "t": "2026-10-22T06:52:23Z",
+  "textures_written": [],
+  "tris": 564
+ },
+ "arch_tuscan-column-original-exterior-model": {
+  "bytes": 54444,
+  "dims_m": [
+   0.62,
+   0.62,
+   3.0
+  ],
+  "imported_tris": 1340,
+  "prepared_dims_m": [
+   1.24,
+   1.24,
+   6.0
+  ],
+  "scan_id": "arch_tuscan-column-original-exterior-model",
+  "sha256": "27eda78517bcbdd1924ca91a5f6e610e7d9f0e43f9d3ffb6ad8f8c860deaa168",
+  "source_file": "arch_tuscan-column-original-exterior-model.glb",
+  "source_sha256": "95c8862071bd9031200bdf837afe590737849121fa3af67348ebf5d9ba3c75b2",
+  "t": "2026-10-22T06:52:26Z",
+  "textures_written": [],
+  "tris": 1340
+ },
+ "arch_window-surround-original-exterior-model": {
+  "bytes": 94072,
+  "dims_m": [
+   1.6,
+   0.25,
+   1.8
+  ],
+  "imported_tris": 1128,
+  "prepared_dims_m": [
+   2.67,
+   0.42,
+   3.0
+  ],
+  "scan_id": "arch_window-surround-original-exterior-model",
+  "sha256": "f72437aa5b932d2cfa6e918dc69c68bace9dcdbdeca89bd2524d51ae5f80a484",
+  "source_file": "arch_window-surround-original-exterior-model.glb",
+  "source_sha256": "49b888685b6305e1b05d72af2b70367939433feca1e5b073b82ac03939ef2397",
+  "t": "2026-10-22T06:52:28Z",
+  "textures_written": [],
+  "tris": 1128
+ }
+}
