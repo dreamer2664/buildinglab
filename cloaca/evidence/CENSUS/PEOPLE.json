@@ -1,7 +1,12 @@
 {
  "faces": 120,
  "figures": 120,
- "objects": 720,
- "peak_mb": 294.3,
- "t": "2026-10-22T05:25:54Z"
+ "objects": 514,
+ "peak_mb": 794.1,
+ "provenance": "open-source scans per evidence/SCAN_SOURCES.jsonl (CC0, Innerscene; poses CC BY 4.0 Ian Mason 100STYLE)",
+ "scans_used": 10,
+ "t": "2026-10-22T06:30:16Z",
+ "templates": 30,
+ "tris_instanced": 7199876,
+ "tris_unique": 1799973
 }
