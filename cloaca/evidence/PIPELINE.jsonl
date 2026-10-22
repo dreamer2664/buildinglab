@@ -920,3 +920,6 @@
 {"build_rc": 0, "build_s": 4.09, "census": 146538, "chunk": "S0931", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 549.4, "t": "2026-10-22T05:50:33Z", "u_hash_match": true, "wall_s": 15}
 {"build_rc": 0, "build_s": 4.65, "census": 146538, "chunk": "S0932", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 547.6, "t": "2026-10-22T05:50:47Z", "u_hash_match": true, "wall_s": 13}
 {"build_rc": 0, "build_s": 4.18, "census": 146538, "chunk": "S0933", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 544.9, "t": "2026-10-22T05:51:00Z", "u_hash_match": true, "wall_s": 13}
+{"build_rc": 0, "build_s": 6.87, "census": 146538, "chunk": "S0934", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 545.0, "t": "2026-10-22T05:51:19Z", "u_hash_match": true, "wall_s": 19}
+{"build_rc": 0, "build_s": 4.79, "census": 146538, "chunk": "S0935", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 548.8, "t": "2026-10-22T05:51:36Z", "u_hash_match": true, "wall_s": 17}
+{"build_rc": 0, "build_s": 4.63, "census": 146538, "chunk": "S0936", "index_rc": 0, "lay_rc": 0, "ok": true, "peak_mb": 548.5, "t": "2026-10-22T05:51:49Z", "u_hash_match": true, "wall_s": 13}
