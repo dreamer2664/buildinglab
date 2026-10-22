@@ -3,8 +3,22 @@
  "boilers": 12,
  "cruciform": false,
  "engines": 4,
- "objects": 42,
- "peak_mb": 267.3,
+ "objects": 131,
+ "peak_mb": 321.8,
+ "provenance": "open-source CC0 architectural scans per evidence/BUILD_SCAN_SOURCES.jsonl",
+ "scan_parts": 9,
+ "scans": [
+  "arch_brick-chimney-original-exterior-model",
+  "arch_cornice-run-original-exterior-model",
+  "arch_doric-column-original-exterior-model",
+  "arch_keystone-arch-original-exterior-model",
+  "arch_pilaster-original-exterior-model",
+  "arch_roof-ridge-original-exterior-model",
+  "arch_string-course-original-exterior-model",
+  "arch_tuscan-column-original-exterior-model",
+  "arch_window-surround-original-exterior-model"
+ ],
  "station": "crossness",
- "t": "2026-10-22T05:25:46Z"
+ "t": "2026-10-22T06:58:52Z",
+ "tris": 147552
 }
